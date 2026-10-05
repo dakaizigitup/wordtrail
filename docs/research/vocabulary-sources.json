@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-05",
+  "stage": "research only; no data or software released",
+  "sources": [
+    {
+      "repo": "mahavivo/english-wordlists",
+      "commit": "395cebd583d97be61b065d281d16dc49c7e4a8b0",
+      "commit_date": "2022-01-30T01:14:32Z",
+      "root_license": null,
+      "checked_root_files": [
+        {
+          "path": "README.md",
+          "bytes": 2089,
+          "sha256": "b224c4e3c2de000df2f0fd25d36225ec34ce9d99f2ac3237d28d97cf2b1008d6",
+          "url": "https://raw.githubusercontent.com/mahavivo/english-wordlists/395cebd583d97be61b065d281d16dc49c7e4a8b0/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "kajweb/dict",
+      "commit": "3992bcb94c800a2fd38a9fd6ff95b2353e755363",
+      "commit_date": "2024-04-05T04:20:22Z",
+      "root_license": null,
+      "checked_root_files": [
+        {
+          "path": "README.md",
+          "bytes": 41504,
+          "sha256": "8f120c67e13596ea4c34cb2fec15b160c43812f662999c96602959e18f712954",
+          "url": "https://raw.githubusercontent.com/kajweb/dict/3992bcb94c800a2fd38a9fd6ff95b2353e755363/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "skywind3000/ECDICT",
+      "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "commit_date": "2025-03-28T01:02:57Z",
+      "root_license": "MIT",
+      "checked_root_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1063,
+          "sha256": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f",
+          "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 18414,
+          "sha256": "0c3f95fc7e15f7eccf65feedb58ba3ebace1fe7b7cbdd1af60c9ace4cef9094b",
+          "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "commit_date": "2026-09-30T06:11:17Z",
+      "root_license": "BSD-3-Clause",
+      "checked_root_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1500,
+          "sha256": "5746ff57c9bb587018a73c030e57ba8d116c0b9843c0617c88dde9c21757b2d2",
+          "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 6406,
+          "sha256": "4bbb18c85d17aeb06a32afbc86a14b9b692154444410e6ebb79ef17d534279f7",
+          "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "exam-data/CETVocabulary",
+      "commit": "7f21d0d9ad93c16a17849a24ccc4046e0f64c4af",
+      "commit_date": "2026-09-24T13:04:29Z",
+      "root_license": "NOASSERTION",
+      "checked_root_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 20857,
+          "sha256": "57e1f486c22021dd2fb38a96463d7261e02df3235c2d35ce5c104abb17a5df4b",
+          "url": "https://raw.githubusercontent.com/exam-data/CETVocabulary/7f21d0d9ad93c16a17849a24ccc4046e0f64c4af/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1757,
+          "sha256": "ed2c86ab54e3fb3d5e657bcb10158a9d8883081e7ab5133b94ab89748e616a4e",
+          "url": "https://raw.githubusercontent.com/exam-data/CETVocabulary/7f21d0d9ad93c16a17849a24ccc4046e0f64c4af/README.md"
+        }
+      ]
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "commit_date": "2026-09-08T06:39:56Z",
+      "root_license": "GPL-3.0",
+      "checked_root_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "bytes": 13951,
+          "sha256": "6dbc84d229ed520f79fca1786e3bae2e7cf4b49399a01d356abe20a6dfa63fc0",
+          "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/README.md"
+        }
+      ]
+    }
+  ],
+  "inspected_data_files": [
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/CET4_T.json",
+      "bytes": 499501,
+      "sha256": "733dd9f9c05ed9e3c35fbd65608e4e061e2d34c461723e057513e346562992de",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/CET4_T.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/Level4luan_2_T.json",
+      "bytes": 832667,
+      "sha256": "3c48b2ece3603b63daca4e887e615fb0a732266a568fe4be8ef2d1f497a4a722",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/Level4luan_2_T.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/Level8luan_2_T.json",
+      "bytes": 2513478,
+      "sha256": "1203dc5777cea51998f6de22cf2f7565c9a87185e7f1593065e708de14fb647d",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/Level8luan_2_T.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/CET6_T.json",
+      "bytes": 481442,
+      "sha256": "ed5e76b945b7c7bc567a75d44a6eaeda137c767960121057deab52593e245d6e",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/CET6_T.json"
+    },
+    {
+      "repo": "skywind3000/ECDICT",
+      "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "path": "ecdict.csv",
+      "bytes": 65933428,
+      "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+      "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b/ecdict.csv"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/IELTS_3_T.json",
+      "bytes": 676470,
+      "sha256": "63f64c79c96270f2a74f7bfebe952efe1d4c1f09b887bc3e4560a989b8873ad1",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/IELTS_3_T.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/TOEFL_3_T.json",
+      "bytes": 814216,
+      "sha256": "a1209981905e8dacd3e52774ecc1157a6f5dd1417240a5ded08797c51a835d4c",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/TOEFL_3_T.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "src/resources/dictionary.ts",
+      "bytes": 103745,
+      "sha256": "fc3b33cf8c728a69b79e8935a6cfb1aa33f046158e05167d34e288d535db8982",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/src/resources/dictionary.ts"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/专四.jsonl",
+      "bytes": 2200971,
+      "sha256": "7344445961d22f077ac6780e0b78b1de269a483f69e145d527f18372ccdd9a62",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E4%B8%93%E5%9B%9B.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/四级.jsonl",
+      "bytes": 5319398,
+      "sha256": "d099f10a9faaeaf694c332ad7aa73648a777af01dbc2f6f4088cae52906a5649",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E5%9B%9B%E7%BA%A7.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/六级.jsonl",
+      "bytes": 2935036,
+      "sha256": "e902347a69724f420b970f89c94f64a82bb03c2128347fc1f775fa2f87a060e2",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E5%85%AD%E7%BA%A7.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/专八.jsonl",
+      "bytes": 5780764,
+      "sha256": "9ee47f0fe3ca44343df0b6600508bec5ca84d80d689cd21f5c378b65576b9c7d",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E4%B8%93%E5%85%AB.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/雅思.jsonl",
+      "bytes": 3593349,
+      "sha256": "d19150185321c7c17e03fe30ac6e6caf55bda3a8b2b0fa5af8b7383415c98293",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E9%9B%85%E6%80%9D.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/托福.jsonl",
+      "bytes": 6120843,
+      "sha256": "cc759e2becca4b744e99ceb8598180399a371316006b2b703b9ca9a78e05597f",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E6%89%98%E7%A6%8F.jsonl"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/archVocabulary.json",
+      "bytes": 81825,
+      "sha256": "07e3ecf8978f4532185bdd027a238354aefc36c610d24408ccaa35e39bf9b414",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/archVocabulary.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/it-words.json",
+      "bytes": 168035,
+      "sha256": "af5bdd2b2ccb490dac6b255982f19eb3c20c02625350b5c6cf4656c1e1910184",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/it-words.json"
+    },
+    {
+      "repo": "RealKai42/qwerty-learner",
+      "commit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "path": "public/dicts/itVocabulary.json",
+      "bytes": 282128,
+      "sha256": "aa19e88f9c1095407a94e6547373ab4b4f0722eedd7a596384b9cc2943b2e4b6",
+      "url": "https://raw.githubusercontent.com/RealKai42/qwerty-learner/1182426f2bd0a28c95302c33f9e19136b1262a70/public/dicts/itVocabulary.json"
+    }
+  ]
+}

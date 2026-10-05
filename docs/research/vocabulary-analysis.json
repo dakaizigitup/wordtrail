@@ -1,0 +1,281 @@
+{
+  "tag_bit_order": [
+    "cet4",
+    "cet6",
+    "tem4",
+    "tem8",
+    "toefl",
+    "ielts",
+    "computer",
+    "architecture"
+  ],
+  "counts": [
+    {
+      "source": "ECDICT",
+      "format": "CSV tags",
+      "rows": 770611,
+      "tag_rows": {
+        "cet4": 3849,
+        "cet6": 5407,
+        "toefl": 6974,
+        "ielts": 5040
+      },
+      "other_tags": {
+        "zk": 1603,
+        "gk": 3677,
+        "ky": 4801,
+        "gre": 7504
+      },
+      "unique_tagged_words": 10578,
+      "coverage": {
+        "tagged_distinct_translations": 7293,
+        "glossary_distinct_translations": 173733,
+        "candidates_with_a_tagged_translation": 32775,
+        "glossary_candidates": 232213,
+        "multiple_tag_words": 5798
+      }
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "CET4_T.json",
+      "tag": "cet4",
+      "rows": 2607,
+      "unique_words": 2607,
+      "existing_glossary_hits": 2320
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "CET6_T.json",
+      "tag": "cet6",
+      "rows": 2345,
+      "unique_words": 2345,
+      "existing_glossary_hits": 1968
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "Level4luan_2_T.json",
+      "tag": "tem4",
+      "rows": 4025,
+      "unique_words": 4025,
+      "existing_glossary_hits": 3203
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "Level8luan_2_T.json",
+      "tag": "tem8",
+      "rows": 12197,
+      "unique_words": 12197,
+      "existing_glossary_hits": 8563
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "TOEFL_3_T.json",
+      "tag": "toefl",
+      "rows": 4264,
+      "unique_words": 4264,
+      "existing_glossary_hits": 3200
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "IELTS_3_T.json",
+      "tag": "ielts",
+      "rows": 3575,
+      "unique_words": 3575,
+      "existing_glossary_hits": 2712
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "it-words.json",
+      "tag": "computer",
+      "rows": 1700,
+      "unique_words": 1700,
+      "existing_glossary_hits": 1427
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "itVocabulary.json",
+      "tag": "computer",
+      "rows": 1665,
+      "unique_words": 1665,
+      "existing_glossary_hits": 1393
+    },
+    {
+      "source": "Qwerty Learner",
+      "file": "archVocabulary.json",
+      "tag": "architecture",
+      "rows": 630,
+      "unique_words": 542,
+      "existing_glossary_hits": 234
+    },
+    {
+      "source": "Qwerty Learner combined",
+      "unique_tagged_words": 14212,
+      "coverage": {
+        "tagged_distinct_translations": 9334,
+        "glossary_distinct_translations": 173733,
+        "candidates_with_a_tagged_translation": 39972,
+        "glossary_candidates": 232213,
+        "multiple_tag_words": 7734
+      }
+    },
+    {
+      "source": "KyleBing",
+      "file": "四级.jsonl",
+      "tag": "cet4",
+      "rows": 7508,
+      "unique_words": 4544,
+      "existing_glossary_hits": 4032
+    },
+    {
+      "source": "KyleBing",
+      "file": "六级.jsonl",
+      "tag": "cet6",
+      "rows": 5651,
+      "unique_words": 3991,
+      "existing_glossary_hits": 3182
+    },
+    {
+      "source": "KyleBing",
+      "file": "专四.jsonl",
+      "tag": "tem4",
+      "rows": 4620,
+      "unique_words": 4340,
+      "existing_glossary_hits": 3413
+    },
+    {
+      "source": "KyleBing",
+      "file": "专八.jsonl",
+      "tag": "tem8",
+      "rows": 12881,
+      "unique_words": 12410,
+      "existing_glossary_hits": 8635
+    },
+    {
+      "source": "KyleBing",
+      "file": "托福.jsonl",
+      "tag": "toefl",
+      "rows": 13477,
+      "unique_words": 10367,
+      "existing_glossary_hits": 6858
+    },
+    {
+      "source": "KyleBing",
+      "file": "雅思.jsonl",
+      "tag": "ielts",
+      "rows": 7002,
+      "unique_words": 5275,
+      "existing_glossary_hits": 3980
+    },
+    {
+      "source": "KyleBing combined",
+      "unique_tagged_words": 16672,
+      "coverage": {
+        "tagged_distinct_translations": 10233,
+        "glossary_distinct_translations": 173733,
+        "candidates_with_a_tagged_translation": 41533,
+        "glossary_candidates": 232213,
+        "multiple_tag_words": 10115
+      }
+    },
+    {
+      "source": "Research-only union",
+      "unique_tagged_words": 18396,
+      "coverage": {
+        "tagged_distinct_translations": 10674,
+        "glossary_distinct_translations": 173733,
+        "candidates_with_a_tagged_translation": 42383,
+        "glossary_candidates": 232213,
+        "multiple_tag_words": 11024
+      }
+    }
+  ],
+  "compact_tsv_bytes": 216244,
+  "examples": [
+    {
+      "word": "hello",
+      "tags": [
+        "cet4",
+        "tem8",
+        "computer"
+      ]
+    },
+    {
+      "word": "run",
+      "tags": [
+        "tem8",
+        "toefl",
+        "computer"
+      ]
+    },
+    {
+      "word": "develop",
+      "tags": [
+        "cet4",
+        "cet6",
+        "tem8",
+        "toefl",
+        "ielts",
+        "computer"
+      ]
+    },
+    {
+      "word": "development",
+      "tags": [
+        "cet4",
+        "tem8",
+        "ielts",
+        "computer"
+      ]
+    },
+    {
+      "word": "sustainable",
+      "tags": [
+        "cet4",
+        "toefl",
+        "ielts"
+      ]
+    },
+    {
+      "word": "hypothesis",
+      "tags": [
+        "cet6",
+        "tem8",
+        "toefl",
+        "ielts"
+      ]
+    },
+    {
+      "word": "file",
+      "tags": [
+        "cet4",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts",
+        "computer"
+      ]
+    },
+    {
+      "word": "abandon",
+      "tags": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ]
+    },
+    {
+      "word": "environment",
+      "tags": [
+        "cet4",
+        "cet6",
+        "tem8",
+        "ielts",
+        "computer"
+      ]
+    }
+  ],
+  "note": "Research-only union; not distributed as production vocabulary or integrated into APK. Tags express source membership, not official complete exam coverage. Coverage measured against pinned upstream TSV; lexical matching only, not sense-level semantic correctness."
+}

@@ -119,6 +119,8 @@ Android：`scripts/build_android.ps1`；Windows：`scripts/build_desktop.ps1`；
 
 欢迎提交 Issues 与 Pull Request，见 [CONTRIBUTING](CONTRIBUTING.md)。
 
+2026-10-05 已完成第一阶段 [词库调研与多标签设计](docs/词库调研与多标签设计.md)，包括实际数据去重、来源检查与索引速度原型。目标选择和考试标签尚未接入当前安装包。
+
 ## 来源与许可
 
 新增代码采用 **GPL-3.0-or-later**，见 [LICENSE](LICENSE)。青简固定为 v0.1.4、提交 `f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5`；本项目使用独立名称与原创图标，没有使用青简官方 logo。
