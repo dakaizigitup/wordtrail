@@ -34,8 +34,9 @@ def main():
         for name in allowed:
             archive.write(patch/name,'wordtrail-windows-ipa-'+version+'/'+name)
         archive.write(ROOT/'docs/电脑版音标补丁.md','wordtrail-windows-ipa-'+version+'/使用说明.md')
-        for file in sorted((patch/'evidence').glob('*')):
-            if file.is_file() and file.suffix in {'.json','.txt'}:
+        for name in ['desktop-tests.json','desktop-tests.txt','pronunciation-tests.txt']:
+            file=patch/'evidence'/name
+            if file.is_file():
                 archive.write(file,'wordtrail-windows-ipa-'+version+'/evidence/'+file.name)
     with zipfile.ZipFile(windows) as archive:
         if archive.testzip() is not None:
