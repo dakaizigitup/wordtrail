@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/open-dict-data/ipa-dict",
+  "commit": "43c3570eb3553bdd19fccd2bd0091534889af023",
+  "files": {
+    "data/en_UK.txt": {
+      "bytes": 1684124,
+      "sha256": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77"
+    },
+    "data/en_US.txt": {
+      "bytes": 3180267,
+      "sha256": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67"
+    },
+    "LICENSE": {
+      "bytes": 1073,
+      "sha256": "2c6a7e4c71f834a8fc0114fa4f65ca85e80bc4b4dc7ed08746963a09a7b0d177"
+    },
+    "README.md": {
+      "bytes": 15495,
+      "sha256": "7251a8159f6d1d1a981ae5e79e616e3c7181950c1b6023042a727056a47e87a0"
+    }
+  },
+  "UK": "English Received Pronunciation; GPL-3.0 (ipacards)",
+  "US": "General American; MIT (cmudict-ipa)"
+}

@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+members = ["native", "pronunciation", "desktop"]
+exclude = ["vendor/qingjian"]
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+codegen-units = 1
+strip = "symbols"
+
+[patch.crates-io]
+cosmic-text = { git = "https://github.com/qingjian-team/cosmic-text", rev = "9cf0d65a5e4db381e34907103326673386096be3" }

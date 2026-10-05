@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "dedicated down arrow hides the idle keyboard",
+    "hiding preserves the current composing text",
+    "tapping the input reopens the keyboard",
+    "separate globe button still opens the input-method picker",
+    "hiding during model warm-up prevents late microphone startup",
+    "recording has a real active microphone operation",
+    "hide button stays enabled while typing and language switching are disabled",
+    "hiding stops the real microphone operation",
+    "hiding local recording never commits temporary text",
+    "typing resumes normally after hiding local recording"
+  ],
+  "active_microphone_appops": "Uid mode: RECORD_AUDIO: foreground\r\nRECORD_AUDIO: allow; time=+397ms ago (running)",
+  "stopped_microphone_appops": "Uid mode: RECORD_AUDIO: foreground\r\nRECORD_AUDIO: allow; time=+3s446ms ago; duration=+1s769ms"
+}

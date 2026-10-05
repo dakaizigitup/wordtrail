@@ -1,0 +1,15 @@
+PASS: permission grant leaves recording under user control
+PASS: local microphone starts without a system recognition service
+PASS: cancel discards audio and leaves the input untouched
+PASS: local microphone starts without a system recognition service
+PASS: silent audio does not hallucinate committed text
+PASS: local error returns to normal typing
+PASS: unfinished pinyin blocks recording
+PASS: local microphone starts without a system recognition service
+PASS: switching to a password cancels local recording
+PASS: cancelled local speech never enters the password field
+PASS: numeric editor blocks local dictation
+PASS: returning to ordinary text re-enables local microphone
+PASS: local microphone starts without a system recognition service
+PASS: thirty-second limit stops recording automatically
+PASS: no local speech application crash

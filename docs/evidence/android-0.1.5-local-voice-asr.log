@@ -1,0 +1,2 @@
+INSTRUMENTATION_RESULT: result={"prepare_ms":1,"internet_permission":-1,"cases":[{"language":"zh","text":"开饭时间早上9点至下午5点。","audio_seconds":5.592,"load_ms":1501,"decode_ms":221},{"language":"en","text":"The tribal chieftain called for the boy and presented him with 50 pieces of code.","audio_seconds":7.152,"load_ms":2162,"decode_ms":334}],"pss_kb":93195}
+INSTRUMENTATION_CODE: -1

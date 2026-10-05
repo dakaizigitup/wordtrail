@@ -1,0 +1,44 @@
+PASS: missing recognition service explains setup and preserves input
+PASS: missing service returns to normal typing
+PASS: denied microphone permission does not start recognition
+PASS: permission denial leaves typing available
+PASS: permission grant does not automatically record
+PASS: system recognition warns before recording
+PASS: partial transcript is previewed without being inserted
+PASS: Chinese speech uses zh-CN and allows system engine fallback
+PASS: finish stops recognizer and commits final transcript
+PASS: English locale and duplicate results commit only once
+PASS: cancel discards partial and late final results
+PASS: hiding keyboard cancels recording without inserting late result
+PASS: network error exposes service and exact error code
+PASS: network failure preserves input and restores keyboard
+PASS: no-match error exposes service and exact error code
+PASS: no-match failure preserves input and restores keyboard
+PASS: language error exposes service and exact error code
+PASS: language failure preserves input and restores keyboard
+PASS: server error exposes service and exact error code
+PASS: server failure preserves input and restores keyboard
+PASS: client error exposes service and exact error code
+PASS: settings retain actual service and client error without input text
+PASS: client failure preserves input and restores keyboard
+PASS: disconnected error exposes service and exact error code
+PASS: disconnected failure preserves input and restores keyboard
+PASS: explicit provider works with stale system default
+PASS: single available provider recovers stale default automatically
+PASS: missing final result times out and preserves input
+PASS: unfinished pinyin is preserved and not replaced by dictation
+Traceback (most recent call last):
+  File "D:\研究方向\多模态\qingjian-mobile\tests\test_speech_input.py", line 187, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\研究方向\多模态\qingjian-mobile\tests\test_speech_input.py", line 163, in main
+    ui.tap(ui.description('普通输入'));ui.adb('shell','ime','set','org.wordtrail.ime/.WordtrailIME');ui.description('语音输入');begin('late')
+                                                                                                                                ~~~~~^^^^^^^^
+  File "D:\研究方向\多模态\qingjian-mobile\tests\test_speech_input.py", line 54, in begin
+    ui.exact('临时识别内容')
+    ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "D:\研究方向\多模态\qingjian-mobile\tests\test_android.py", line 36, in exact
+    return wait(lambda values: next((n for n in values if n.get('text')==label),None))
+  File "D:\研究方向\多模态\qingjian-mobile\tests\test_android.py", line 33, in wait
+    raise AssertionError('Timed out waiting for Android UI')
+AssertionError: Timed out waiting for Android UI

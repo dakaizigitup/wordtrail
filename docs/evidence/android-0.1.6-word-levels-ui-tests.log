@@ -1,0 +1,12 @@
+PASS: English levels appear automatically without choosing a level
+PASS: Chinese commit contains no word-level suffix
+PASS: translation commit contains no word-level suffix
+PASS: multiple translations show independent reference levels
+PASS: word levels preserve pronunciation data
+PASS: unlisted translation is explicitly unknown rather than assigned a level
+PASS: Japanese annotations do not inherit English levels
+PASS: Spanish annotations do not inherit English levels
+PASS: returning to English restores automatic levels
+PASS: optional display switch persists across process restarts
+PASS: hiding compact badges keeps reference levels in details
+PASS: re-enabling display restores badges

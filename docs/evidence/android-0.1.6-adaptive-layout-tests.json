@@ -1,0 +1,158 @@
+{
+  "profiles": [
+    {
+      "name": "phone",
+      "size": "1080x2160",
+      "density": 440,
+      "idle_keyboard": [
+        0,
+        1394,
+        1080,
+        2160
+      ],
+      "key_span": [
+        25,
+        1055
+      ],
+      "visible_candidates": 5,
+      "candidate_size": [
+        196,
+        116
+      ]
+    },
+    {
+      "name": "tablet-landscape",
+      "size": "2560x1600",
+      "density": 240,
+      "idle_keyboard": [
+        0,
+        1131,
+        2560,
+        1600
+      ],
+      "key_span": [
+        536,
+        2024
+      ],
+      "visible_candidates": 9,
+      "candidate_size": [
+        160,
+        63
+      ]
+    },
+    {
+      "name": "tablet-portrait",
+      "size": "1600x2560",
+      "density": 240,
+      "idle_keyboard": [
+        0,
+        2091,
+        1600,
+        2560
+      ],
+      "key_span": [
+        56,
+        1544
+      ],
+      "visible_candidates": 9,
+      "candidate_size": [
+        160,
+        63
+      ]
+    },
+    {
+      "name": "compact-landscape",
+      "size": "1920x1080",
+      "density": 440,
+      "idle_keyboard": [
+        0,
+        402,
+        1920,
+        1080
+      ],
+      "key_span": [
+        28,
+        1892
+      ],
+      "visible_candidates": 9,
+      "candidate_size": [
+        197,
+        116
+      ]
+    }
+  ],
+  "passed": [
+    "phone mode switch shares bottom row with space",
+    "phone comma is left of globe and has the wider touch target",
+    "phone idle keyboard remains compact",
+    "phone idle candidates collapse completely",
+    "phone keyboard width is capped and centered",
+    "切换键盘 icon visually centered",
+    "大写 icon visually centered",
+    "收起键盘 icon visually centered",
+    "phone candidate cards have equal size and alignment",
+    "phone shows at least five candidates at once",
+    "phone candidate strip is at most 46dp high",
+    "phone pronunciation hint stays inside its card",
+    "phone swipe expands pronunciation without committing",
+    "phone multiple pronunciations remain available",
+    "phone pronunciation scroll preserves composition",
+    "phone bottom mode switch types real English",
+    "phone shift inserts uppercase once then returns to lowercase",
+    "phone bottom mode switch returns to Chinese",
+    "tablet-landscape mode switch shares bottom row with space",
+    "tablet-landscape comma is left of globe and has the wider touch target",
+    "tablet-landscape idle keyboard remains compact",
+    "tablet-landscape idle candidates collapse completely",
+    "tablet-landscape keyboard width is capped and centered",
+    "切换键盘 icon visually centered",
+    "大写 icon visually centered",
+    "收起键盘 icon visually centered",
+    "tablet-landscape candidate cards have equal size and alignment",
+    "tablet-landscape shows at least five candidates at once",
+    "tablet-landscape candidate strip is at most 46dp high",
+    "tablet-landscape pronunciation hint stays inside its card",
+    "tablet-landscape swipe expands pronunciation without committing",
+    "tablet-landscape multiple pronunciations remain available",
+    "tablet-landscape pronunciation scroll preserves composition",
+    "tablet-landscape bottom mode switch types real English",
+    "tablet-landscape shift inserts uppercase once then returns to lowercase",
+    "tablet-landscape bottom mode switch returns to Chinese",
+    "tablet-portrait mode switch shares bottom row with space",
+    "tablet-portrait comma is left of globe and has the wider touch target",
+    "tablet-portrait idle keyboard remains compact",
+    "tablet-portrait idle candidates collapse completely",
+    "tablet-portrait keyboard width is capped and centered",
+    "切换键盘 icon visually centered",
+    "大写 icon visually centered",
+    "收起键盘 icon visually centered",
+    "tablet-portrait candidate cards have equal size and alignment",
+    "tablet-portrait shows at least five candidates at once",
+    "tablet-portrait candidate strip is at most 46dp high",
+    "tablet-portrait pronunciation hint stays inside its card",
+    "tablet-portrait swipe expands pronunciation without committing",
+    "tablet-portrait multiple pronunciations remain available",
+    "tablet-portrait pronunciation scroll preserves composition",
+    "tablet-portrait bottom mode switch types real English",
+    "tablet-portrait shift inserts uppercase once then returns to lowercase",
+    "tablet-portrait bottom mode switch returns to Chinese",
+    "compact-landscape mode switch shares bottom row with space",
+    "compact-landscape comma is left of globe and has the wider touch target",
+    "compact-landscape idle keyboard remains compact",
+    "compact-landscape idle candidates collapse completely",
+    "compact-landscape keyboard width is capped and centered",
+    "切换键盘 icon visually centered",
+    "大写 icon visually centered",
+    "收起键盘 icon visually centered",
+    "compact-landscape candidate cards have equal size and alignment",
+    "compact-landscape shows at least five candidates at once",
+    "compact-landscape candidate strip is at most 46dp high",
+    "compact-landscape pronunciation hint stays inside its card",
+    "compact-landscape swipe expands pronunciation without committing",
+    "compact-landscape multiple pronunciations remain available",
+    "compact-landscape pronunciation scroll preserves composition",
+    "compact-landscape bottom mode switch types real English",
+    "compact-landscape shift inserts uppercase once then returns to lowercase",
+    "compact-landscape bottom mode switch returns to Chinese"
+  ]
+}

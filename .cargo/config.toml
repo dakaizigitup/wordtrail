@@ -1,0 +1,10 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/qingjian-team/cosmic-text?rev=9cf0d65a5e4db381e34907103326673386096be3"]
+git = "https://github.com/qingjian-team/cosmic-text"
+rev = "9cf0d65a5e4db381e34907103326673386096be3"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "third-party/rust-ipa"

@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "English levels appear automatically without choosing a level",
+    "Chinese commit contains no word-level suffix",
+    "translation commit contains no word-level suffix",
+    "multiple translations show independent reference levels",
+    "word levels preserve pronunciation data",
+    "unlisted translation is explicitly unknown rather than assigned a level",
+    "Japanese annotations do not inherit English levels",
+    "Spanish annotations do not inherit English levels",
+    "returning to English restores automatic levels",
+    "optional display switch persists across process restarts",
+    "hiding compact badges keeps reference levels in details",
+    "re-enabling display restores badges"
+  ]
+}

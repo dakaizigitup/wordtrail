@@ -1,0 +1,34 @@
+{
+  "upstream_version": "0.1.4",
+  "source": "qingjian v0.1.4 pinned official data (verified per-file SHA-256)",
+  "files": {
+    "dict.qj": {
+      "bytes": 3538648,
+      "sha256": "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc"
+    },
+    "glossary-en.qj": {
+      "bytes": 15565368,
+      "sha256": "4cc9c587b206d0f12aabb1b85cb21e6ac2a1c8c4932b9af14332bd96e0be012a"
+    },
+    "glossary-ja.qj": {
+      "bytes": 21824776,
+      "sha256": "ec41e4983bf46c0366124afb5285dba14f5c1ee425bd55d9a9f5518d93256933"
+    },
+    "glossary-es.qj": {
+      "bytes": 13194160,
+      "sha256": "13f5fbda3f1295c5946ddde5e57017f0689f2dd985a951c5bffaf821cb421865"
+    },
+    "pronunciation-en.qj": {
+      "bytes": 12208376,
+      "sha256": "54e2c878989d5e509d4e5683c86fba83722a8d2d64429f0adaa5cea9d6a9323b",
+      "source": "independent IPA dictionary; see pronunciation-manifest.json"
+    }
+  },
+  "vocabulary_levels": {
+    "scheme": "CEFR A1-C2",
+    "entries": 8845,
+    "sha256": "a5f810f7f8788d6c7b6ed11fd849ae0d31f6a5d9d953ab9528798d9b11d27ffa",
+    "embedded_in": "native engine",
+    "source": "CEFR-J 1.5 / Octanove C1-C2 1.0; vendor/qingjian/assets/levels/README.md"
+  }
+}

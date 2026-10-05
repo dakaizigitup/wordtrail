@@ -1,0 +1,8 @@
+{
+  "passed": [
+    "qingjian-server.exe installed checksum verified",
+    "pronunciation-en.qj installed checksum verified",
+    "installed server answers protocol 7 without typing into a user app"
+  ],
+  "installation": "C:\\Program Files\\Qingjian"
+}

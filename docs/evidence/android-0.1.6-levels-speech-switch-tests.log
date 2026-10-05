@@ -1,0 +1,5 @@
+PASS: cancelled warm-up never opens a late recording panel
+PASS: cancelled warm-up leaves the input untouched
+PASS: English mode starts the independent English recognizer
+PASS: switching recognizer language restores Chinese microphone
+PASS: cancel during preview cannot commit late text

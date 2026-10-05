@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.wordtrail.speechtest">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <application android:label="Wordtrail speech integration tests" android:debuggable="true" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <service android:name=".TestRecognitionService" android:exported="true" android:permission="android.permission.BIND_SPEECH_RECOGNITION_SERVICE">
+            <intent-filter><action android:name="android.speech.RecognitionService" /></intent-filter>
+        </service>
+        <receiver android:name=".TestControl" android:exported="true" />
+        <activity android:name=".TestEditorActivity" android:exported="true" android:windowSoftInputMode="adjustResize" />
+    </application>
+</manifest>

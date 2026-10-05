@@ -1,0 +1,10 @@
+PASS: dedicated down arrow hides the idle keyboard
+PASS: hiding preserves the current composing text
+PASS: tapping the input reopens the keyboard
+PASS: separate globe button still opens the input-method picker
+PASS: hiding during model warm-up prevents late microphone startup
+PASS: recording has a real active microphone operation
+PASS: hide button stays enabled while typing and language switching are disabled
+PASS: hiding stops the real microphone operation
+PASS: hiding local recording never commits temporary text
+PASS: typing resumes normally after hiding local recording

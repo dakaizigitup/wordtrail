@@ -1,0 +1,9 @@
+{
+  "passed": [
+    "cancelled warm-up never opens a late recording panel",
+    "cancelled warm-up leaves the input untouched",
+    "English mode starts the independent English recognizer",
+    "switching recognizer language restores Chinese microphone",
+    "cancel during preview cannot commit late text"
+  ]
+}

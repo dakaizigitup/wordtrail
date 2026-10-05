@@ -1,0 +1,12 @@
+{
+  "source_commit": "43c3570eb3553bdd19fccd2bd0091534889af023",
+  "entries": 147488,
+  "source_rows": {
+    "UK": 65119,
+    "US": 125927
+  },
+  "bytes": 12208376,
+  "sha256": "54e2c878989d5e509d4e5683c86fba83722a8d2d64429f0adaa5cea9d6a9323b",
+  "UK_license": "GPL-3.0-only",
+  "US_license": "MIT"
+}

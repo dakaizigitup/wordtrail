@@ -1,0 +1,10 @@
+{
+  "apk": "wordtrail-0.1.4-debug.apk",
+  "passed": [
+    "changing editors cancels speech and blocks password dictation",
+    "late speech result never enters password editor",
+    "number editor disables microphone",
+    "normal editor re-enables microphone",
+    "no application crash during speech flows"
+  ]
+}

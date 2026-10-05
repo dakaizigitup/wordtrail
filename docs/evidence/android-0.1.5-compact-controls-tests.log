@@ -1,0 +1,6 @@
+PASS: missing service leaves input untouched
+PASS: missing service hides empty picker and assistant settings detour
+PASS: returning from speech settings restores collapsed idle keyboard
+PASS: idle theme chooser opens and returns to typing
+PASS: hh shows five fully visible candidates
+PASS: compact arrow reveals full glossary without committing

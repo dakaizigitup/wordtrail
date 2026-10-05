@@ -1,0 +1,5 @@
+PASS: 粉紫 settings repaints home
+PASS: 深色 settings repaints home
+PASS: theme persists after process restart
+PASS: keyboard loads theme selected in settings
+PASS: 青绿 theme preserves current candidates

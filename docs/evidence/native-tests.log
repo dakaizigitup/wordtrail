@@ -1,0 +1,19 @@
+test_backspace_and_reset (__main__.NativeTests.test_backspace_and_reset) ... ok
+test_bad_requests_are_errors (__main__.NativeTests.test_bad_requests_are_errors) ... ok
+test_chinese_and_english_annotation (__main__.NativeTests.test_chinese_and_english_annotation) ... ok
+test_direct_translation (__main__.NativeTests.test_direct_translation) ... ok
+test_english_punctuation_and_raw_return (__main__.NativeTests.test_english_punctuation_and_raw_return) ... ok
+test_familiarity_persists (__main__.NativeTests.test_familiarity_persists) ... ok
+test_independent_ipa_and_unmodified_commit (__main__.NativeTests.test_independent_ipa_and_unmodified_commit) ... ok
+test_ipa_not_used_for_other_languages (__main__.NativeTests.test_ipa_not_used_for_other_languages) ... ok
+test_language_failure_preserves_work (__main__.NativeTests.test_language_failure_preserves_work) ... ok
+test_languages_are_exclusive (__main__.NativeTests.test_languages_are_exclusive) ... ok
+test_paging_and_select_snapshot (__main__.NativeTests.test_paging_and_select_snapshot) ... ok
+test_partial_commit_keeps_remaining_syllables (__main__.NativeTests.test_partial_commit_keeps_remaining_syllables) ... ok
+test_private_input_leaves_no_learning (__main__.NativeTests.test_private_input_leaves_no_learning) ... ok
+test_stale_candidate_does_not_commit (__main__.NativeTests.test_stale_candidate_does_not_commit) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.851s
+
+OK

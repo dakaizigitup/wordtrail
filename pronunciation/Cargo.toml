@@ -1,0 +1,12 @@
+[package]
+name = "wordtrail-pronunciation"
+version = "0.1.1"
+edition = "2024"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+qingjian-core = { path = "../vendor/qingjian/crates/qingjian-core" }
+qingjian-translate = { path = "../vendor/qingjian/crates/qingjian-translate" }
+qingjian-format = { path = "../vendor/qingjian/crates/qingjian-format" }
+serde = { version = "1", features = ["derive"] }
+

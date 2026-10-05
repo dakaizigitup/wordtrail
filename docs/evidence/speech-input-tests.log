@@ -1,0 +1,51 @@
+PASS: missing recognition service explains setup and preserves input
+PASS: missing service returns to normal typing
+PASS: denied microphone permission does not start recognition
+PASS: permission denial leaves typing available
+PASS: permission grant does not automatically record
+PASS: system recognition warns before recording
+PASS: partial transcript is previewed without being inserted
+PASS: Chinese speech uses zh-CN and allows system engine fallback
+PASS: finish stops recognizer and commits final transcript
+PASS: English locale and duplicate results commit only once
+PASS: cancel discards partial and late final results
+PASS: hiding keyboard cancels recording without inserting late result
+PASS: network failure preserves input and restores keyboard
+PASS: no-match failure preserves input and restores keyboard
+PASS: language failure preserves input and restores keyboard
+PASS: missing final result times out and preserves input
+PASS: unfinished pinyin is preserved and not replaced by dictation
+PASS: changing editors cancels speech and blocks password dictation
+PASS: late speech result never enters password editor
+PASS: number editor disables microphone
+PASS: normal editor re-enables microphone
+PASS: no application crash during speech flows
+{
+  "apk": "wordtrail-0.1.3-debug.apk",
+  "serial": "emulator-5556",
+  "method": "Real Android permission UI, RecognitionService binder and InputConnection with synthetic callbacks; no actual audio accuracy test.",
+  "passed": [
+    "missing recognition service explains setup and preserves input",
+    "missing service returns to normal typing",
+    "denied microphone permission does not start recognition",
+    "permission denial leaves typing available",
+    "permission grant does not automatically record",
+    "system recognition warns before recording",
+    "partial transcript is previewed without being inserted",
+    "Chinese speech uses zh-CN and allows system engine fallback",
+    "finish stops recognizer and commits final transcript",
+    "English locale and duplicate results commit only once",
+    "cancel discards partial and late final results",
+    "hiding keyboard cancels recording without inserting late result",
+    "network failure preserves input and restores keyboard",
+    "no-match failure preserves input and restores keyboard",
+    "language failure preserves input and restores keyboard",
+    "missing final result times out and preserves input",
+    "unfinished pinyin is preserved and not replaced by dictation",
+    "changing editors cancels speech and blocks password dictation",
+    "late speech result never enters password editor",
+    "number editor disables microphone",
+    "normal editor re-enables microphone",
+    "no application crash during speech flows"
+  ]
+}

@@ -1,0 +1,5 @@
+PASS: protocol 7 opens a session
+PASS: real dictionary produces Chinese candidate
+PASS: native candidate window renders
+PASS: translation commit contains only hello
+PASS: normal Chinese commit is unchanged

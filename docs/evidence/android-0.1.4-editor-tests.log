@@ -1,0 +1,5 @@
+PASS: changing editors cancels speech and blocks password dictation
+PASS: late speech result never enters password editor
+PASS: number editor disables microphone
+PASS: normal editor re-enables microphone
+PASS: no application crash during speech flows

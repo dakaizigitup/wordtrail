@@ -1,0 +1,4 @@
+module WordtrailCore {
+    header "wordtrail_mobile.h"
+    export *
+}

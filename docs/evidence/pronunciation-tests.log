@@ -1,0 +1,11 @@
+   Compiling wordtrail-pronunciation v0.1.1 (D:\研究方向\多模态\qingjian-mobile\pronunciation)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.90s
+     Running unittests src\lib.rs (target\debug\deps\wordtrail_pronunciation-415ba025286849f1.exe)
+
+running 3 tests
+test tests::missing_words_and_phrases_are_not_guessed ... ok
+test tests::lookup_normalizes_word_and_preserves_regional_variants ... ok
+test tests::us_only_entry_is_never_labelled_as_british ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s
+

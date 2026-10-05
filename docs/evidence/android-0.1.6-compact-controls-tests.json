@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "missing service leaves input untouched",
+    "missing service hides empty picker and assistant settings detour",
+    "returning from speech settings restores collapsed idle keyboard",
+    "idle theme chooser opens and returns to typing",
+    "hh shows five fully visible candidates",
+    "compact arrow reveals full glossary without committing"
+  ],
+  "hh_visible_candidates": 5
+}

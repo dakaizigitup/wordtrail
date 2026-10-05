@@ -1,0 +1,23 @@
+{
+  "serial": "emulator-5556",
+  "android": "15",
+  "abi": "x86_64",
+  "passed": [
+    "native JNI produces hello annotation",
+    "UK pronunciation available in details",
+    "US pronunciation available separately in details",
+    "粉紫 theme preserves current candidates",
+    "深色 theme preserves current candidates",
+    "青绿 theme preserves current candidates",
+    "Chinese candidate commits via InputConnection",
+    "long press commits translation",
+    "Japanese glossary switch",
+    "Spanish glossary switch",
+    "second candidate page renders",
+    "mode toggle commits raw pinyin",
+    "Latin typing commits direct text",
+    "partial selection keeps remaining composition",
+    "remaining composition commits to Chinese",
+    "no application crash"
+  ]
+}

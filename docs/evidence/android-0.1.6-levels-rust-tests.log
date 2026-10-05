@@ -1,0 +1,18 @@
+   Compiling wordtrail-pronunciation v0.1.1 (D:\研究方向\多模态\qingjian-mobile\pronunciation)
+   Compiling wordtrail-mobile v0.1.1 (D:\研究方向\多模态\qingjian-mobile\native)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 12.33s
+     Running unittests src\lib.rs (target\debug\deps\wordtrail_mobile-30009e9652dfe298.exe)
+
+running 3 tests
+test vocabulary::tests::unknown_words_and_phrases_are_not_assigned_guessed_levels ... ok
+test vocabulary::tests::covers_all_six_reference_levels_and_normalizes_case ... ok
+test vocabulary::tests::preserves_individual_senses_and_deduplicates_words ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+   Doc-tests wordtrail_mobile
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

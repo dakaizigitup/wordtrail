@@ -1,0 +1,46 @@
+{
+  "sdk": "1.13.8",
+  "sdk_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-v1.13.8-android.tar.bz2",
+  "vad_model": {
+    "name": "silero_vad.onnx",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
+    "bytes": 643854,
+    "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+    "license": "MIT",
+    "upstream": "https://github.com/snakers4/silero-vad"
+  },
+  "files": {
+    "jniLibs/arm64-v8a/libonnxruntime.so": {
+      "bytes": 22249560,
+      "sha256": "33847ad43bffe204699fd4a27f7f3603452a8cdaf2f9a44983a0bc31ffcf2da1"
+    },
+    "jniLibs/arm64-v8a/libsherpa-onnx-c-api.so": {
+      "bytes": 4465168,
+      "sha256": "c85e2382e2ca12b0513826be926eaccfea896b4cbf568182e287671ba526f80d"
+    },
+    "jniLibs/arm64-v8a/libsherpa-onnx-cxx-api.so": {
+      "bytes": 440688,
+      "sha256": "5eabb2bcf5a8af66aeab37431c09fab4a9c65cdebf02bd7e50f8c589044bd70e"
+    },
+    "jniLibs/arm64-v8a/libsherpa-onnx-jni.so": {
+      "bytes": 4771760,
+      "sha256": "3c6492ea91ea68fd3b72b9495efdde6dd913f6b58c387e3b07389cf335f4d26f"
+    },
+    "jniLibs/x86_64/libonnxruntime.so": {
+      "bytes": 25581120,
+      "sha256": "087e84297cad64acb823c3d901d6e0cc934e91add7cdb20da802cd1c0bea5c3e"
+    },
+    "jniLibs/x86_64/libsherpa-onnx-c-api.so": {
+      "bytes": 4927096,
+      "sha256": "631ca2828e47b61d8afe4b3c75a157423cbafaba6f8c0db89c27d21f1b173d9a"
+    },
+    "jniLibs/x86_64/libsherpa-onnx-cxx-api.so": {
+      "bytes": 436952,
+      "sha256": "09cd2ea23b15ae3234b0b4678fbef14639c58792dd36d2cd435c030dc030c5d0"
+    },
+    "jniLibs/x86_64/libsherpa-onnx-jni.so": {
+      "bytes": 5201192,
+      "sha256": "1dc24c88fb364f1022a5217b70ab3bc3c9cae3120ae2e1ed358e1f68ed120b04"
+    }
+  }
+}

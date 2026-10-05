@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.wordtrail.voicetest">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
+    <application android:label="Wordtrail local speech test" />
+    <instrumentation android:name="org.wordtrail.voicetest.LocalVoiceProbe" android:targetPackage="org.wordtrail.ime" android:label="Local ASR WAV test" />
+</manifest>

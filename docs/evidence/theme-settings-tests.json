@@ -1,0 +1,9 @@
+{
+  "passed": [
+    "粉紫 settings repaints home",
+    "深色 settings repaints home",
+    "theme persists after process restart",
+    "keyboard loads theme selected in settings",
+    "青绿 theme preserves current candidates"
+  ]
+}
