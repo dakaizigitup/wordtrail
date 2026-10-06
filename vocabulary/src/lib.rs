@@ -13,26 +13,42 @@ pub const CATEGORIES: [(&str, &str); 6] = [
     ("ielts", "雅思"),
 ];
 const TSV: &str = include_str!("../data/english-tags.tsv");
+const OPENETYMOLOGY_TSV: &str = include_str!("../data/openetymology-exam-tags.tsv");
 static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
-    TSV.lines()
+    let mut words: HashMap<_, _> = TSV
+        .lines()
         .map(|line| {
             let mut fields = line.split('\t');
             let word = fields.next().unwrap();
             let ecdict = fields.next().unwrap().parse().expect("valid ECDICT mask");
             let kylebing = fields.next().unwrap().parse().expect("valid KyleBing mask");
-            (word, Membership { ecdict, kylebing })
+            (
+                word,
+                Membership {
+                    ecdict,
+                    kylebing,
+                    ..Membership::default()
+                },
+            )
         })
-        .collect()
+        .collect();
+    for line in OPENETYMOLOGY_TSV.lines() {
+        let (word, mask) = line.split_once('\t').expect("valid OpenEtymology tag row");
+        words.entry(word).or_default().openetymology =
+            mask.parse().expect("valid OpenEtymology mask");
+    }
+    words
 });
 
 #[derive(Clone, Copy, Default)]
 pub struct Membership {
     pub ecdict: u16,
     pub kylebing: u16,
+    pub openetymology: u16,
 }
 impl Membership {
     pub fn mask(self) -> u16 {
-        self.ecdict | self.kylebing
+        self.ecdict | self.kylebing | self.openetymology
     }
 }
 
@@ -90,6 +106,9 @@ pub fn tags(word: &str, selected: u16) -> Vec<Tag> {
             }
             if entry.kylebing & (1 << i) != 0 {
                 sources.push("KyleBing/english-vocabulary");
+            }
+            if entry.openetymology & (1 << i) != 0 {
+                sources.push("OpenEtymology");
             }
             Tag {
                 id,
@@ -168,6 +187,16 @@ mod tests {
         assert!(tags.iter().all(|tag| !tag.sources.is_empty()));
         assert_eq!(lookup("abandon a task").mask(), 0);
         assert_eq!(lookup("wordtrailunknownword").mask(), 0);
+    }
+
+    #[test]
+    fn merges_separately_licensed_openetymology_wordlist_tags() {
+        let entries = tags("add-on", 1 << 3);
+        assert_eq!(entries.len(), 1);
+        assert_eq!(entries[0].id, "tem8");
+        assert!(entries[0].selected);
+        assert_eq!(entries[0].sources, ["OpenEtymology"]);
+        assert_eq!(lookup("ABANDON").openetymology & (1 << 4), 1 << 4);
     }
     #[test]
     fn validates_and_deduplicates_selection() {

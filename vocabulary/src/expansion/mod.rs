@@ -12,6 +12,23 @@ const CC_CEDICT_DATA: &str = include_str!("../../data/cccedict-expansion.tsv");
 const CC_CEDICT_2_DATA: &str = include_str!("../../data/cccedict-expansion-2.tsv");
 const CC_CEDICT_3_DATA: &str = include_str!("../../data/cccedict-expansion-3.tsv");
 const CC_CEDICT_4_DATA: &str = include_str!("../../data/cccedict-expansion-4.tsv");
+const EXAM_TARGET_ECDICT_DATA: &str = include_str!("../../data/exam-target-ecdict-expansion.tsv");
+const EXAM_TARGET_KYLE_DATA: &str = include_str!("../../data/exam-target-kylebing-expansion.tsv");
+const OPENETYMOLOGY_DATA: &str = include_str!("../../data/openetymology-exam-expansion.tsv");
+const EXAM_TARGET_BATCH_11_ECDICT_DATA: &str =
+    include_str!("../../data/exam-target-batch-11-ecdict-expansion.tsv");
+const EXAM_TARGET_BATCH_11_KYLE_DATA: &str =
+    include_str!("../../data/exam-target-batch-11-kylebing-expansion.tsv");
+const EXAM_TARGET_BATCH_11_DUAL_DATA: &str =
+    include_str!("../../data/exam-target-batch-11-dual-expansion.tsv");
+const EXAM_TARGET_BATCH_11_COW_DATA: &str =
+    include_str!("../../data/exam-target-batch-11-cow-expansion.tsv");
+const EXAM_TARGET_BATCH_11_KOREADER_COW_DATA: &str =
+    include_str!("../../data/exam-target-batch-11-koreader-cow-expansion.tsv");
+const EXAM_TARGET_BATCH_11_CC_BY_SA_DATA: &str =
+    include_str!("../../data/exam-target-batch-11-cc-by-sa-expansion.tsv");
+const EXAM_TARGET_BATCH_12_ECDICT_DATA: &str =
+    include_str!("../../data/exam-target-batch-12-ecdict-expansion.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
@@ -22,6 +39,16 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             CC_CEDICT_2_DATA,
             CC_CEDICT_3_DATA,
             CC_CEDICT_4_DATA,
+            EXAM_TARGET_ECDICT_DATA,
+            EXAM_TARGET_KYLE_DATA,
+            OPENETYMOLOGY_DATA,
+            EXAM_TARGET_BATCH_11_ECDICT_DATA,
+            EXAM_TARGET_BATCH_11_KYLE_DATA,
+            EXAM_TARGET_BATCH_11_DUAL_DATA,
+            EXAM_TARGET_BATCH_11_COW_DATA,
+            EXAM_TARGET_BATCH_11_KOREADER_COW_DATA,
+            EXAM_TARGET_BATCH_11_CC_BY_SA_DATA,
+            EXAM_TARGET_BATCH_12_ECDICT_DATA,
             WIKTIONARY_2_DATA,
         ] {
             for row in data.lines() {
@@ -362,5 +389,150 @@ mod tests {
                 .len(),
             12
         );
+    }
+
+    #[test]
+    fn exam_target_batch_09_is_queryable_with_ipa_source_and_tags() {
+        for (data, expected_source) in [
+            (EXAM_TARGET_ECDICT_DATA, "ECDICT MIT"),
+            (EXAM_TARGET_KYLE_DATA, "KyleBing BSD-3-Clause"),
+        ] {
+            let rows: Vec<_> = data.lines().collect();
+            assert!(!rows.is_empty());
+            for row in rows {
+                let mut fields = row.split('\t');
+                let chinese = fields.next().unwrap();
+                let english = fields.next().unwrap();
+                let _pos = fields.next().unwrap();
+                let source_label = fields.next().unwrap();
+                assert_eq!(source_label, expected_source);
+                assert!(
+                    senses(chinese).any(|sense| sense.text == english),
+                    "missing batch 09 expansion {chinese} -> {english}"
+                );
+                assert!(
+                    crate::tags(english, 0)
+                        .iter()
+                        .any(|tag| matches!(tag.id, "tem4" | "tem8" | "toefl" | "ielts")),
+                    "missing target exam tag for {english}"
+                );
+            }
+        }
+    }
+
+    #[test]
+    fn openetymology_batch_10_is_queryable_and_target_tagged() {
+        let rows: Vec<_> = OPENETYMOLOGY_DATA.lines().collect();
+        assert_eq!(rows.len(), 136);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "ECDICT MIT + KyleBing BSD-3-Clause");
+            assert!(
+                senses(chinese).any(|sense| sense.text == english),
+                "missing batch 10 expansion {chinese} -> {english}"
+            );
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| matches!(tag.id, "tem8" | "toefl")),
+                "missing OpenEtymology target tag for {english}"
+            );
+        }
+        assert!(crate::tags("add-on", 0).iter().any(|tag| tag.id == "tem8"));
+        assert!(
+            crate::tags("obligatory", 1 << 3)
+                .iter()
+                .find(|tag| tag.id == "tem8")
+                .unwrap()
+                .sources
+                .contains(&"OpenEtymology")
+        );
+    }
+
+    #[test]
+    fn exam_target_batches_11_and_12_are_queryable_and_tagged() {
+        let batch_11 = [
+            (EXAM_TARGET_BATCH_11_ECDICT_DATA, "ECDICT MIT", 160),
+            (EXAM_TARGET_BATCH_11_KYLE_DATA, "KyleBing BSD-3-Clause", 98),
+            (
+                EXAM_TARGET_BATCH_11_DUAL_DATA,
+                "ECDICT MIT + KyleBing BSD-3-Clause",
+                260,
+            ),
+            (EXAM_TARGET_BATCH_11_COW_DATA, "Chinese Open Wordnet", 184),
+            (
+                EXAM_TARGET_BATCH_11_KOREADER_COW_DATA,
+                "KOReader dictionaries CC BY-SA 4.0 + Chinese Open Wordnet",
+                137,
+            ),
+        ];
+        let mut checked = 0;
+        for (data, expected_source, expected_rows) in batch_11 {
+            let rows: Vec<_> = data.lines().collect();
+            assert_eq!(rows.len(), expected_rows);
+            for row in rows {
+                let mut fields = row.split('\t');
+                let chinese = fields.next().unwrap();
+                let english = fields.next().unwrap();
+                let _pos = fields.next().unwrap();
+                let source_label = fields.next().unwrap();
+                assert_eq!(source_label, expected_source);
+                assert!(senses(chinese).any(|sense| sense.text == english));
+                assert!(crate::tags(english, 0).iter().any(|tag| {
+                    matches!(
+                        tag.id,
+                        "cet4" | "cet6" | "tem4" | "tem8" | "toefl" | "ielts"
+                    )
+                }));
+                checked += 1;
+            }
+        }
+        let cc_rows: Vec<_> = EXAM_TARGET_BATCH_11_CC_BY_SA_DATA.lines().collect();
+        assert_eq!(cc_rows.len(), 753);
+        for row in cc_rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert!(matches!(
+                source_label,
+                "CC-CEDICT CC BY-SA 4.0"
+                    | "FMLD CC BY-SA 4.0"
+                    | "KOReader dictionaries CC BY-SA 4.0"
+            ));
+            assert!(senses(chinese).any(|sense| sense.text == english));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| { matches!(tag.id, "tem4" | "tem8" | "toefl" | "ielts") })
+            );
+            checked += 1;
+        }
+        let batch_12: Vec<_> = EXAM_TARGET_BATCH_12_ECDICT_DATA.lines().collect();
+        assert_eq!(batch_12.len(), 699);
+        for row in batch_12 {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            assert_eq!(fields.next().unwrap(), "ECDICT MIT");
+            assert!(senses(chinese).any(|sense| sense.text == english));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| { matches!(tag.id, "tem4" | "tem8" | "toefl" | "ielts") })
+            );
+            checked += 1;
+        }
+        assert_eq!(checked, 2291);
+        assert!(senses("一氧化物").any(|sense| sense.text == "monoxide"));
+        let monoxide_tags = crate::tags("monoxide", 0);
+        assert!(monoxide_tags.iter().any(|tag| tag.id == "toefl"));
+        assert_eq!(source("一氧化物", "monoxide"), Some("ECDICT MIT"));
     }
 }

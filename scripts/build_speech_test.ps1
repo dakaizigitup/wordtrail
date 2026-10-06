@@ -4,6 +4,10 @@ $speechSdk='D:\codex-mobile-build\sdk'
 $speechTools=Join-Path $speechSdk 'build-tools\35.0.0'
 $speechJar=Join-Path $speechSdk 'platforms\android-35\android.jar'
 $speechBuild=Join-Path $speechSource 'build\speech-test'
+$speechToolchain=Get-ChildItem -LiteralPath 'D:\soft' -Directory | ForEach-Object { Join-Path $_.FullName 'mobile-toolchain' } | Where-Object { Test-Path -LiteralPath (Join-Path $_ 'toolchain.json') } | Select-Object -First 1
+if(-not $speechToolchain){throw 'Wordtrail mobile-toolchain was not found under D:\soft'}
+$speechSigningKey=Join-Path $speechToolchain 'wordtrail-debug.keystore'
+if(-not (Test-Path -LiteralPath $speechSigningKey)){throw 'Wordtrail development signing key is missing'}
 $env:JAVA_HOME='D:\codex-mobile-build\jdk'
 $env:Path=$env:JAVA_HOME+'\bin;'+$env:Path
 function Invoke-SpeechTestTool([string]$Exe,[string[]]$Values){& $Exe @Values; if($LASTEXITCODE -ne 0){throw $Exe}}
@@ -15,4 +19,4 @@ $speechClasses=@(Get-ChildItem -LiteralPath (Join-Path $speechBuild 'classes') -
 Invoke-SpeechTestTool (Join-Path $speechTools 'd8.bat') (@('--lib',$speechJar,'--min-api','26','--output',(Join-Path $speechBuild 'dex'))+$speechClasses)
 Invoke-SpeechTestTool 'python' @('-c',"import zipfile; p=r'$speechBuild'; z=zipfile.ZipFile(p+'/base.apk','a'); z.write(p+'/dex/classes.dex','classes.dex',zipfile.ZIP_DEFLATED); z.close()")
 Invoke-SpeechTestTool (Join-Path $speechTools 'zipalign.exe') @('-f','4',(Join-Path $speechBuild 'base.apk'),(Join-Path $speechBuild 'aligned.apk'))
-Invoke-SpeechTestTool (Join-Path $speechTools 'apksigner.bat') @('sign','--ks','D:\soft\英语输入法\mobile-toolchain\wordtrail-debug.keystore','--ks-pass','pass:android','--ks-key-alias','wordtrail','--out',(Join-Path $speechBuild 'speech-test.apk'),(Join-Path $speechBuild 'aligned.apk'))
+Invoke-SpeechTestTool (Join-Path $speechTools 'apksigner.bat') @('sign','--ks',$speechSigningKey,'--ks-pass','pass:android','--key-pass','pass:android','--ks-key-alias','wordtrail','--out',(Join-Path $speechBuild 'speech-test.apk'),(Join-Path $speechBuild 'aligned.apk'))

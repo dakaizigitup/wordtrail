@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from build_wiktionary_expansion import DATA, exam_inputs, read_expansion
 from prepare_candidate_batch import source_pos_glosses
 from prepare_cet_batch import load_base
+from exam_targets import load_exam_tags, RUNTIME_EXPANSIONS
 
 
 SNAPSHOT_DIR = ROOT / "build/source-audit/kaikki-zh-english-2026.09.09"
@@ -41,10 +42,7 @@ def main():
     if not DATABASE.is_file() or sha(DATABASE) != EXPECTED_DATABASE_SHA256:
         raise SystemExit("Missing or changed pinned Kaikki-derived snapshot: " + str(DATABASE))
 
-    tags = {}
-    for line in (DATA / "english-tags.tsv").read_text(encoding="utf-8").splitlines():
-        word, ecdict_mask, kyle_mask = line.split("\t")
-        tags[word] = int(ecdict_mask) | int(kyle_mask)
+    tags = load_exam_tags(DATA)
     candidate_pinyin = {}
     pinyin_path = ROOT / "build/pinyin-candidates.tsv"
     for line in pinyin_path.read_text(encoding="utf-8").splitlines():
@@ -55,15 +53,7 @@ def main():
     base = load_base(ROOT / "build/expansion-base.tsv")
     existing_words = {word for senses in base.values() for word, _ in senses}
     extra_by_key: dict[str, list[str]] = collections.defaultdict(list)
-    runtime_names = (
-        "english-expansion.tsv",
-        "wiktionary-expansion.tsv",
-        "wiktionary-expansion-2.tsv",
-        "cccedict-expansion.tsv",
-        "cccedict-expansion-2.tsv",
-        "cccedict-expansion-3.tsv",
-        "cccedict-expansion-4.tsv",
-    )
+    runtime_names = RUNTIME_EXPANSIONS
     for name in runtime_names:
         for row in read_expansion(DATA / name):
             extra_by_key[row["chinese"]].append(row["english"])
@@ -137,6 +127,7 @@ def main():
         "snapshot_sha256": sha(DATABASE),
         "pinyin_candidates_sha256": sha(pinyin_path),
         "exam_tag_index_sha256": sha(DATA / "english-tags.tsv"),
+        "openetymology_tag_index_sha256": sha(DATA / "openetymology-exam-tags.tsv"),
         "ecdict_sha256": sha(ecdict_path),
         "english_uk_ipa_sha256": sha(ROOT / "pronunciation/source/en_UK.txt"),
         "english_us_ipa_sha256": sha(ROOT / "pronunciation/source/en_US.txt"),

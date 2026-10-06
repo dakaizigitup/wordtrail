@@ -1,0 +1,20 @@
+{
+  "version_name": "0.1.23",
+  "version_code": 24,
+  "apk": "wordtrail-0.1.23-debug.apk",
+  "bytes": 252741989,
+  "sha256": "fa2fe888ab90eaa7fd1444703aa655069508f099800946dc08b614edfdd1af94",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "signing_schemes": [
+    "v2",
+    "v3"
+  ],
+  "zip_alignment": "16 KB verified",
+  "dictionary_sha256": "43d523298e508d76e57ca6512597dd37ee61682ab7eafba33b7a541229e50283",
+  "dictionary_matches_runtime": true,
+  "voice_model_sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51",
+  "internet_permission": false
+}

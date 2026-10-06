@@ -47,11 +47,15 @@ def prepare(source):
         provenance = 'qingjian v0.1.4 pinned local data (verified per-file SHA-256)'
     for name in FILES:
         if digest(canonical/name) != EXPECTED[name]: raise RuntimeError(f'Pinned data SHA-256 mismatch: {name}')
+    from prepare_runtime_dictionary import prepare as prepare_runtime
+    runtime_dictionary = prepare_runtime(export=False, do_pack=False)
+    runtime_dict = ROOT/'build/runtime-data/dict.qj'
     from prepare_pronunciation import prepare as prepare_ipa
     ipa=prepare_ipa()
-    for target in (ROOT/'android/app/src/main/assets/data', ROOT/'ios/Keyboard/Data'):
+    for target in (ROOT/'android/app/src/main/assets/data', ROOT/'ios/Keyboard/Data', ROOT/'data/generated'):
         target.mkdir(parents=True, exist_ok=True)
-        for name in FILES: copy_data(canonical/name, target/name)
+        for name in FILES:
+            copy_data(runtime_dict if name == 'dict.qj' else canonical/name, target/name)
         copy_data(canonical/'pronunciation-en.qj',target/'pronunciation-en.qj')
     manifest = {'upstream_version':'0.1.4', 'source':provenance, 'files':{}}
     levels=ROOT/'vendor/qingjian/assets/levels/levels-en.tsv'
@@ -62,6 +66,10 @@ def prepare(source):
         path=canonical/name
         manifest['files'][name]={'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
     manifest['files']['pronunciation-en.qj']={'bytes':ipa['bytes'],'sha256':ipa['sha256'],'source':'independent IPA dictionary; see pronunciation-manifest.json'}
+    manifest['runtime_dictionary'] = runtime_dictionary
+    manifest['source_files'] = {'dict.qj': {'bytes':(canonical/'dict.qj').stat().st_size,
+                                             'sha256':digest(canonical/'dict.qj'),
+                                             'role':'pinned, unmodified upstream input'}}
     (canonical/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(manifest,ensure_ascii=False,indent=2))
 

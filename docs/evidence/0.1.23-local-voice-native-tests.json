@@ -1,0 +1,46 @@
+{
+  "prepare_ms": 1,
+  "internet_permission": -1,
+  "cases": [
+    {
+      "language": "zh",
+      "text": "开饭时间早上9点至下午5点。",
+      "audio_seconds": 5.592,
+      "load_ms": 2064,
+      "decode_ms": 391
+    },
+    {
+      "language": "en",
+      "text": "The tribal chieftain called for the boy and presented him with 50 pieces of code.",
+      "audio_seconds": 7.152,
+      "load_ms": 1726,
+      "decode_ms": 326
+    }
+  ],
+  "completion_cases": [
+    {
+      "text": "开饭时间早上9点至下午5点。",
+      "name": "quiet speech followed by a long pause",
+      "old_mean_power": 4.813875614975889e-08
+    },
+    {
+      "real_preview": "开放时间早上9点至下午5点。",
+      "text": "开放时间早上9点至下午5点。",
+      "name": "valid preview survives an empty final recording"
+    },
+    {
+      "error": 7,
+      "name": "new silent session cannot reuse a previous preview"
+    },
+    {
+      "error": 7,
+      "name": "non-speech background noise cannot hallucinate text"
+    },
+    {
+      "real_preview": "开放时间早上9点至下午5点。",
+      "cancelled_without_callback": true,
+      "name": "cancellation suppresses late completion"
+    }
+  ],
+  "pss_kb": 106453
+}

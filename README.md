@@ -9,20 +9,20 @@
 
 ## 下载
 
-当前工作版为 **v0.1.19**。各平台版本独立：Android **0.1.19**，Windows 补丁 **0.1.12**（适用于官方青简 Windows 0.1.4）。
+当前工作版为 **v0.1.23**。各平台版本独立：Android **0.1.23**，Windows 补丁 **0.1.16**（适用于官方青简 Windows 0.1.4）。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.19/wordtrail-0.1.19-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
-| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.19/wordtrail-windows-ipa-0.1.12.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.19/wordtrail-0.1.19-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.19/SHA256SUMS.txt) | 核对发布附件 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/wordtrail-0.1.23-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；已含离线语音模型 |
+| [Windows 音标与考试词汇补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/wordtrail-windows-ipa-0.1.16.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/wordtrail-0.1.23-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/SHA256SUMS.txt) | 核对发布附件 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
 ## 当前功能
 
-| 功能 | Android 0.1.19 | Windows 补丁 0.1.12 | iOS 源码 |
+| 功能 | Android 0.1.23 | Windows 补丁 0.1.16 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
@@ -36,7 +36,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 **已支持四级、六级、专四、专八、托福、雅思六类学习目标，支持多选与同词多标签。** 命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签不等于官方完整考试范围、考试成绩或个人水平。专业领域类别后续增加。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)。
 
-本版新增 **12 组逐条核对的四六级映射**，包含11个此前未映射英文词。扩词累计 **4,036 组对应**，四六级未映射词由485降至474；映射覆盖率为 **96.26% / 93.44%**，完整拼音候选面可触达率为 **93.12% / 90.03%**。只为现有中文拼音键补译词，不增大原拼音词库或改变中文候选顺序；频率高低不作为收录门槛，窄义项均记录范围。CC-CEDICT 派生数据按 CC BY-SA 4.0 单独署名。以上是固定社区词表的统计，不代表官方考纲完整覆盖。来源和统计见 [0.1.19 补词记录](docs/0.1.19四六级补词.md)、[逐条审校表](vocabulary/data/batches/08-cc-cedict-reviewed.tsv)、[CC-CEDICT 署名](vocabulary/data/CC-CEDICT-ATTRIBUTION.md) 和 [分批补词计划](docs/分批补词计划.md)。
+0.1.23 延续前两批新增的 **2,291 组**考试词汇映射，不改变中英释义；另外新增 **407 个拼音键**，只让词库里已经存在的译词更容易按中文拼音输入。按实际候选面修正批次12基线后，四级/六级/专四/专八/托福/雅思拼音可达率为 **97.74% / 96.67% / 96.15% / 94.05% / 90.01% / 94.91%**；专四/专八/托福/雅思映射覆盖率仍为 **97.56% / 95.85% / 90.81% / 96.20%**。社区词表并非官方完整考纲，也不保证译词出现在第一页。来源、许可证、逐键记录及筛选限制见 [0.1.23补词记录](docs/0.1.23专四专八雅思托福补词.md)、[归属说明](vocabulary/data/EXAM-TARGETS-ATTRIBUTION.md) 与[分批计划](docs/分批补词计划.md)。
 
 ## 安装与使用
 
@@ -79,7 +79,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 从 0.1.9 起，候选、详情和设置里均移除 A1–C2，详见 [标签精简说明](docs/0.1.9标签精简.md)。
 
-更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.19测试报告.md)、[性能记录](docs/evidence/0.1.19-performance-after.json)、[上一版验证记录](docs/0.1.18测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
+更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.23测试报告.md)、[上一版补词记录](docs/0.1.22专四专八雅思托福补词.md) 与 [初版测试报告](docs/测试报告.md)。
 
 ## 实现基底
 
@@ -106,7 +106,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 Git 仓库保留日常可维护源码；大型构建产物、第三方依赖副本、生成词库和模型权重不提交 Git。**Release 的完整源码 ZIP 包含对应的第三方源码和数据**，用于审查、构建及保留完整许可。
 
-扩词采用精简索引，首次初始化索引后按中文词面查表，不在每次按键时扫描研究词典或 WordNet。Wiktionary 与 CC-CEDICT 的派生映射分别保留授权、署名和逐条来源；各来源的精简运行数据和审校记录均随源码包提供。WordNet 只用于开发构建时的拼写/同义校验。源词表来自社区，经过保守过滤和常用词抽查，仍可能有歧义，不等于已完整人工审校或覆盖全部考试词。
+扩词采用精简索引，首次初始化后按中文词面查表，不会在每次按键时扫描研究词典或 WordNet。Wiktionary、CC-CEDICT 与 OpenEtymology 派生数据分别保留许可、署名和来源记录；运行数据、固定名单散列和审校记录随源码包提供。WordNet 只用于开发构建时的拼写/同义校验。社区词表不等于官方完整考试范围。
 
 克隆后，先恢复与本版匹配的依赖和词库：
 
@@ -114,15 +114,16 @@ Git 仓库保留日常可维护源码；大型构建产物、第三方依赖副�
 git clone --recurse-submodules https://github.com/dakaizigitup/wordtrail.git
 cd wordtrail
 python scripts/bootstrap_dependencies.py
+python scripts/bootstrap_vocab_tools.py
 ```
 
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.19-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.23-source.zip
 ```
 
-该脚本只恢复被 Git 忽略的第三方依赖和生成词库，不覆盖当前开发代码。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。
+`bootstrap_vocab_tools.py` 另行恢复固定 SHA-256 的 OpenCC Python 0.1.7，仅供考试词表构建时繁简转换。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。
 
 Android：`scripts/build_android.ps1`；Windows：`scripts/build_desktop.ps1`；iOS：Mac 上执行 `scripts/build_ios.sh`。详细步骤、来源固定方式和验证边界见 [开发说明](docs/开发说明.md)。
 

@@ -1,0 +1,289 @@
+{
+  "batch": "11-exam-targets-conservative-multi-source-v1",
+  "selected_pairs": 1592,
+  "selected_unique_headwords": 1592,
+  "selected_new_pinyin_keys": 411,
+  "selected_by_source": {
+    "CC-CEDICT CC BY-SA 4.0": 559,
+    "Chinese Open Wordnet": 184,
+    "ECDICT MIT": 160,
+    "ECDICT MIT + KyleBing BSD-3-Clause": 260,
+    "FMLD CC BY-SA 4.0": 183,
+    "KOReader dictionaries CC BY-SA 4.0": 11,
+    "KOReader dictionaries CC BY-SA 4.0 + Chinese Open Wordnet": 137,
+    "KyleBing BSD-3-Clause": 98
+  },
+  "added_headwords_by_target": {
+    "cet4": 47,
+    "cet6": 97,
+    "tem4": 192,
+    "tem8": 790,
+    "toefl": 979,
+    "ielts": 282
+  },
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4859,
+      "missing": 140,
+      "percent": 97.2,
+      "mapped_with_ipa": 4851
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5737,
+      "missing": 299,
+      "percent": 95.05,
+      "mapped_with_ipa": 5726
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3978,
+      "missing": 362,
+      "percent": 91.66,
+      "mapped_with_ipa": 3973
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 10895,
+      "missing": 1617,
+      "percent": 87.08,
+      "mapped_with_ipa": 10876
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 9723,
+      "missing": 2545,
+      "percent": 79.25,
+      "mapped_with_ipa": 9664
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5914,
+      "missing": 643,
+      "percent": 90.19,
+      "mapped_with_ipa": 5891
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4906,
+      "missing": 93,
+      "percent": 98.14,
+      "mapped_with_ipa": 4898
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5834,
+      "missing": 202,
+      "percent": 96.65,
+      "mapped_with_ipa": 5823
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4170,
+      "missing": 170,
+      "percent": 96.08,
+      "mapped_with_ipa": 4165
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11685,
+      "missing": 827,
+      "percent": 93.39,
+      "mapped_with_ipa": 11666
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 10702,
+      "missing": 1566,
+      "percent": 87.24,
+      "mapped_with_ipa": 10643
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 6196,
+      "missing": 361,
+      "percent": 94.49,
+      "mapped_with_ipa": 6173
+    }
+  },
+  "pinyin_reachable_coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4653,
+      "missing": 346,
+      "percent": 93.08,
+      "mapped_with_ipa": 4646
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5467,
+      "missing": 569,
+      "percent": 90.57,
+      "mapped_with_ipa": 5457
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3781,
+      "missing": 559,
+      "percent": 87.12,
+      "mapped_with_ipa": 3776
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 10246,
+      "missing": 2266,
+      "percent": 81.89,
+      "mapped_with_ipa": 10229
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 9022,
+      "missing": 3246,
+      "percent": 73.54,
+      "mapped_with_ipa": 8983
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5616,
+      "missing": 941,
+      "percent": 85.65,
+      "mapped_with_ipa": 5598
+    }
+  },
+  "pinyin_reachable_coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4702,
+      "missing": 297,
+      "percent": 94.06,
+      "mapped_with_ipa": 4695
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5569,
+      "missing": 467,
+      "percent": 92.26,
+      "mapped_with_ipa": 5559
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3977,
+      "missing": 363,
+      "percent": 91.64,
+      "mapped_with_ipa": 3972
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11040,
+      "missing": 1472,
+      "percent": 88.24,
+      "mapped_with_ipa": 11023
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 10010,
+      "missing": 2258,
+      "percent": 81.59,
+      "mapped_with_ipa": 9971
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5903,
+      "missing": 654,
+      "percent": 90.03,
+      "mapped_with_ipa": 5885
+    }
+  },
+  "rejected_or_unselected": {
+    "cedict_missing_pos": 33,
+    "koreader_new_key_unverified_pinyin": 538,
+    "koreader_new_key_without_exact_synset": 2843,
+    "koreader_sense_not_corroborated": 545,
+    "not_a_target_headword": 69,
+    "open_dictionary_not_crosschecked": 41,
+    "per_chinese_key_capacity": 17
+  },
+  "selection": {
+    "one_mapping_per_previously_unmapped_english_headword": true,
+    "target_tags": [
+      "tem4",
+      "tem8",
+      "toefl",
+      "ielts"
+    ],
+    "ipa_required": true,
+    "pinyin": "Existing exact Qingjian key, exact CC-CEDICT pronunciation, or single-reading agreement from CC-CEDICT and Rime ICE; unresolved polyphonic readings are excluded.",
+    "priority": "Source evidence first, then existing inputtable key, then current pinyin frequency; new keys have frequency 0 and append behind old candidates.",
+    "max_extra_rows_per_chinese_key": 8,
+    "chinese_candidate_order": "Existing dictionary rows are exported in their current order; appended rows have frequency 0, preserving all existing relative candidate order.",
+    "review_limit": "Automated source cross-check and exact-gloss selection; this is not a claim of human review for every selected row."
+  },
+  "inputs": {
+    "candidate-review.tsv": "26e9a1e60b7e199414358a793975b182a743bedab598c95dd81299576e375860",
+    "cow-candidates.tsv": "e92f5564dbbd70878cd7d19c3a0fd27ddf2d2860fcc192fb29fb20ddaa677de9",
+    "fmld-candidates-new-key.tsv": "4899a3340737ea17d9a5dbd15e6ba2f96369a476c6ff4ab395798396d951a986",
+    "koreader-v1.2.0-candidates.tsv": "a1281a7fd68e0a238d432515905d40036481b51ca395c9ff8c95b9f6b73b62e7",
+    "koreader-v1.2.0-missing-pinyin.tsv": "8b00e3937df14c7fae02c63cd09a07ae68c99ce2b3eba6777b743c67ffda5a84",
+    "open-dictionary-v2-candidates.tsv": "e3da2f3c87b9d14edbadeb984b3f5b6f52ca89f431f9aa4b7565ee1d3c8bd9b7",
+    "cedict_ts_june2026.u8": "8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f",
+    "base.dict.yaml": "0418d5103d8e40c8fff4b686a873ad03e9836cd0419ecae0b7e1e2526312dba0",
+    "ext.dict.yaml": "8e49a0294c0139e63c815cc33a2d438cc144eb7889297d30cec899a368697c06",
+    "pinned_english_tag_manifest_sha256": "41f6409ecba81e06e23ee0d9fdfeb090e03588f2d2fab1e2d2475eec9c76a8ee",
+    "pinned_ecdict_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "cc_cedict_sha256": "8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f",
+    "fmld_sha256": "adffa622f223b33b03e76fd1d8f7c57cd90f6491cd5e9cec69a984ec1b3bc1ad",
+    "koreader_archive_sha256": "910d8fc3bf054f7a36f5db134f0624619711e5b414ebf7de45a3c0e04e98232c",
+    "open_dictionary_sha256": "69af69cdc685b5dce465613d1cc8fffb598eb46714f57cf73bd6606c2ceb7e43",
+    "rime_ice_commit": "da1fbe602e38f26db846fa10120ee64c2b0324c0",
+    "fmld_commit": "de1a3c543fb35ede7f46e335d12f28572578c2b6",
+    "cow_commit": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "koreader_release": "v1.2.0",
+    "open_dictionary_release": "v2.0",
+    "openetymology_commit": "7d89f3697abf26e305fe2627f181b692c2c10b28"
+  },
+  "outputs": {
+    "reviewed": {
+      "sha256": "c96029b8789c7fecd315fe570511409b3f7c30daae4b5d310538f7ca8fdc164c",
+      "rows": 1592
+    },
+    "pinyin_overlay": {
+      "sha256": "a42e86df9afbf2a6a811cb2e844545c8e1b4b6df40fcf81f1dd333ef0be7d859",
+      "rows": 411
+    },
+    "exam-target-batch-11-ecdict-expansion.tsv": {
+      "sha256": "694ec8f2be061732fcd6a024476ab4d250d4239951b9c8d113bf37e7de4e671b",
+      "rows": 160
+    },
+    "exam-target-batch-11-kylebing-expansion.tsv": {
+      "sha256": "29a59444d8d7161095057544a805fc138a11fc15e0d458034d8d713a8805dd6b",
+      "rows": 98
+    },
+    "exam-target-batch-11-dual-expansion.tsv": {
+      "sha256": "c103886f74592f795f48b01a617a34c9bb2a74cfec2af17b8c458a388dcb429c",
+      "rows": 260
+    },
+    "exam-target-batch-11-cow-expansion.tsv": {
+      "sha256": "00082d303c83741ebc229db9df1e82d8567d06eead8dfdc688a6feec70b4a8ce",
+      "rows": 184
+    },
+    "exam-target-batch-11-koreader-cow-expansion.tsv": {
+      "sha256": "5a86961003d460de24d25277873d6950dd8160f37a2f0e4c6b00a67f8afe291d",
+      "rows": 137
+    },
+    "exam-target-batch-11-cc-by-sa-expansion.tsv": {
+      "sha256": "2226a5294ed7fa5ed09ddbb57814f299abb2bfdff5d2a50de5b86d7ae0f7ec2d",
+      "rows": 753
+    }
+  },
+  "licenses": {
+    "ECDICT MIT": "separate file; see ECDICT-LICENSE",
+    "KyleBing BSD-3-Clause": "separate file; see KyleBing-LICENSE",
+    "Chinese Open Wordnet": "separate file with its upstream per-file notice and disclaimer",
+    "CC BY-SA 4.0": "separate file; see source attribution documents for CC-CEDICT, FMLD, and KOReader dictionaries",
+    "pinyin_overlay": "row-level source column; CC-CEDICT and Rime ICE terms remain attributed separately"
+  },
+  "limitations": "Coverage uses fixed community exam lists, not official complete syllabi. Mapping means an exact whole Chinese-to-English candidate mapping exists. Pinyin reachability means its full pinyin key exists; it does not promise the candidate is on page one."
+}

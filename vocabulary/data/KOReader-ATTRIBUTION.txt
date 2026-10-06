@@ -1,0 +1,11 @@
+This dictionary is distributed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0).
+https://creativecommons.org/licenses/by-sa/4.0/
+
+It is built from the following sources:
+
+  * omw-cmn: Chinese Open Wordnet, via Open Multilingual Wordnet 1.4
+  * pwn30: Princeton University WordNet 3.0
+  * wikt-en-cmn: English Wiktionary via kaikki.org (wiktextract)
+
+-- WordNet 3.0 License (Princeton University) --
+WordNet Release 3.0 Copyright 2006 by Princeton University. All rights reserved. This copyright notice must be retained on all copies, including modified copies. The name of Princeton University or Princeton may not be used in advertising or publicity pertaining to distribution of the software and/or database without specific, written prior permission.

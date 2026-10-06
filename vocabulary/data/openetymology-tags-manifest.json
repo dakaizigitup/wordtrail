@@ -1,0 +1,39 @@
+{
+  "source": "openetymology/OpenEtymology",
+  "commit": "7d89f3697abf26e305fe2627f181b692c2c10b28",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_data_license_url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/DATA_LICENSE.md",
+  "source_data_license_sha256": "a92399cf4721a4a80b8c05f6028729bbe2c230e48cb3cdc0e28cef6084651069",
+  "wordbooks": [
+    {
+      "path": "TEM8/TEM8.txt",
+      "target": "tem8",
+      "words": 3984,
+      "bytes": 33918,
+      "sha256": "0d70fd4779399ec222308eaea7d81c0343e6a8416f887445c5687abb08561d6f",
+      "url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/TEM8/TEM8.txt"
+    },
+    {
+      "path": "TOEFL/TOEFL.txt",
+      "target": "toefl",
+      "words": 4510,
+      "bytes": 37348,
+      "sha256": "5aafb5f70e5414e87264466ea1cf0d41528397fbcd1d3b0bea00bacf8985f587",
+      "url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/TOEFL/TOEFL.txt"
+    }
+  ],
+  "targets": {
+    "tem8": 3984,
+    "toefl": 4510
+  },
+  "unique_headwords": 7551,
+  "output": {
+    "path": "openetymology-exam-tags.tsv",
+    "format": "lowercase headword<TAB>six-category bitmask; only TEM8 and TOEFL bits are set",
+    "rows": 7551,
+    "bytes": 83008,
+    "sha256": "934de4d3929e889cf62fc3e40a5bb01329285cd16c58b3fb28a4328f81f3fe3f"
+  },
+  "scope": "Headwords and target-list membership only; no source definitions, examples, etymology, or audio. This community wordlist is not an official complete syllabus."
+}

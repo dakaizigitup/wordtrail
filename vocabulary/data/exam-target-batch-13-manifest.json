@@ -1,0 +1,174 @@
+{
+  "batch": "13-pinyin-reachability-target-v1",
+  "purpose": "Make already-present English exam senses reachable by pinyin without adding or reordering Chinese translations.",
+  "target_goal": {
+    "toefl_pinyin_reachable_percent": 90.0,
+    "minimum_reachable_headwords": 11042
+  },
+  "selected_new_pinyin_keys": 407,
+  "selected_runtime_pinyin_entries": 407,
+  "selected_by_source": {
+    "CC-CEDICT CC BY-SA 4.0": 1,
+    "CC-CEDICT CC BY-SA 4.0 + Rime ICE GPL-3.0": 162,
+    "Rime ICE GPL-3.0": 244
+  },
+  "selected_by_mode": {
+    "cedict-rime": 407
+  },
+  "existing_pinyin_entries": 83668,
+  "candidate_keys_with_verified_reading": 633,
+  "verified_keys_not_needed_for_90_percent_goal": 226,
+  "candidate_keys_scanned": 38138,
+  "pinyin_reachable_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4780,
+      "missing": 219,
+      "percent": 95.62,
+      "mapped_with_ipa": 4773
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5697,
+      "missing": 339,
+      "percent": 94.38,
+      "mapped_with_ipa": 5687
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4095,
+      "missing": 245,
+      "percent": 94.35,
+      "mapped_with_ipa": 4090
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11535,
+      "missing": 977,
+      "percent": 92.19,
+      "mapped_with_ipa": 11518
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 10618,
+      "missing": 1650,
+      "percent": 86.55,
+      "mapped_with_ipa": 10578
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 6077,
+      "missing": 480,
+      "percent": 92.68,
+      "mapped_with_ipa": 6059
+    }
+  },
+  "pinyin_reachable_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4886,
+      "missing": 113,
+      "percent": 97.74,
+      "mapped_with_ipa": 4879
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5835,
+      "missing": 201,
+      "percent": 96.67,
+      "mapped_with_ipa": 5825
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4173,
+      "missing": 167,
+      "percent": 96.15,
+      "mapped_with_ipa": 4168
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11767,
+      "missing": 745,
+      "percent": 94.05,
+      "mapped_with_ipa": 11750
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 11042,
+      "missing": 1226,
+      "percent": 90.01,
+      "mapped_with_ipa": 11002
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 6223,
+      "missing": 334,
+      "percent": 94.91,
+      "mapped_with_ipa": 6205
+    }
+  },
+  "mapping_coverage_changed": false,
+  "newly_reachable_exam_headwords": {
+    "cet4": 106,
+    "cet6": 138,
+    "tem4": 78,
+    "tem8": 232,
+    "toefl": 424,
+    "ielts": 146
+  },
+  "toefl_headwords_reachable_after": 11042,
+  "toefl_headword_total": 12268,
+  "unselected": {
+    "no single verified pinyin source": 13
+  },
+  "selection": {
+    "only_existing_glosses": true,
+    "no_new_english_chinese_translation_pairs": true,
+    "new_key_frequency": 0,
+    "candidate_order": "Existing input candidates remain byte-for-byte in their original relative order; new keys use frequency zero.",
+    "reading_sources": [
+      "CC-CEDICT and Rime ICE exact phrase readings when their pinned readings resolve uniquely"
+    ],
+    "priority": "Greedy deterministic key selection until TOEFL pinyin reachability reaches at least 90%; prefer IPA-backed TOEFL senses, then unlock more exam senses, then higher-confidence pinyin sources.",
+    "limitations": "Reachable means the complete pinyin key is present; a low-frequency candidate can still appear below the first visible page. Coverage uses fixed community word lists, not an official complete syllabus."
+  },
+  "inputs": {
+    "base_dictionary_sha256": "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc",
+    "batch_11_manifest_sha256": "5ef79731a9db10a9ea42f0d2004b8146f990197f2f1aaeb570b948c433ae6e43",
+    "batch_12_manifest_sha256": "c1541fa3a2b06c2c8dca5992bec2bdb71af0ab70d4ba8814fbaeb5ed895afc74",
+    "pinyin_candidates_sha256": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "full_base_dictionary_tsv_sha256": "a888bb9b35cc98df29f6b13eb67f78e9ab490d3ff6f8d607f65cf78994c0e460",
+    "runtime_files": {
+      "english-expansion.tsv": "2573c23bc422800252534ccda0fda745c81c87cbbb2c874f7300ea7f81fe5398",
+      "wiktionary-expansion.tsv": "ddd58e54a4df2c6c17e5561cd004052939e58bfeb5f0e27b03676d87b2fbab32",
+      "wiktionary-expansion-2.tsv": "3b07310a30eb57f7e672ac62e4e9372de639eb6c003bc46e8a294488e038b93d",
+      "cccedict-expansion.tsv": "cfa15cc83f27bb9115018d797fc27067691491e580ff888640b646ae3e08e063",
+      "cccedict-expansion-2.tsv": "9fe002674813b6c235b6d5dedb008f21bc008a6422860c4e3513d8fe006064a5",
+      "cccedict-expansion-3.tsv": "6285e1aca0e8b7a0aee6773c92c6c8a9a09e414c892e01a35d0fbd7800cb651f",
+      "cccedict-expansion-4.tsv": "fa7b7e84068f6d02f3df19f4baf8e8094eb8d77f5f6c303fec69688dcc866eb4",
+      "exam-target-ecdict-expansion.tsv": "90e21a9fbe892de10962cba915c178aeaba6b7e171c4363f02e6e89411e2c7f8",
+      "exam-target-kylebing-expansion.tsv": "8b889fc6acb5283b8eb2c771ef7331b6f03e2dde1e333f788a7ccd1db11083fa",
+      "openetymology-exam-expansion.tsv": "2145157ca260a1009cdb8c8143bfdf3ceb11d13b62a3666a123c5a44d25130a2",
+      "exam-target-batch-11-ecdict-expansion.tsv": "694ec8f2be061732fcd6a024476ab4d250d4239951b9c8d113bf37e7de4e671b",
+      "exam-target-batch-11-kylebing-expansion.tsv": "29a59444d8d7161095057544a805fc138a11fc15e0d458034d8d713a8805dd6b",
+      "exam-target-batch-11-dual-expansion.tsv": "c103886f74592f795f48b01a617a34c9bb2a74cfec2af17b8c458a388dcb429c",
+      "exam-target-batch-11-cow-expansion.tsv": "00082d303c83741ebc229db9df1e82d8567d06eead8dfdc688a6feec70b4a8ce",
+      "exam-target-batch-11-koreader-cow-expansion.tsv": "5a86961003d460de24d25277873d6950dd8160f37a2f0e4c6b00a67f8afe291d",
+      "exam-target-batch-11-cc-by-sa-expansion.tsv": "2226a5294ed7fa5ed09ddbb57814f299abb2bfdff5d2a50de5b86d7ae0f7ec2d",
+      "exam-target-batch-12-ecdict-expansion.tsv": "e7a4abbf99f83a1b531a7af80816674766d7532fc142bd9132aeed8fba792d43"
+    }
+  },
+  "outputs": {
+    "13-exam-pinyin-reachability.tsv": {
+      "sha256": "497a65cc76e7880db0a447f8a65539e0c3884ee6ae45ce907420f49ee6aa5f26",
+      "rows": 407
+    },
+    "exam-target-batch-13.tsv": {
+      "sha256": "2bff3ae926be131d4edc0f1871dfecc566889d24e0d4d62838972372a3a94fb5",
+      "rows": 407
+    }
+  },
+  "licenses": {
+    "CC-CEDICT and Rime ICE rows": "Row-level attribution retained in the overlay; see NOTICE.txt."
+  }
+}

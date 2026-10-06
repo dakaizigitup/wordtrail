@@ -1,0 +1,240 @@
+{
+  "batch": "09-exam-targets-auto-v1",
+  "selection_rule": "auto-v1: exact complete 2–6 Han-character gloss from one or both of ECDICT/KyleBing; exact current pinyin candidate and packed glossary key; matching POS in the packed key; exam membership and bundled IPA; one mapping per English headword; maximum eight added rows per Chinese key.",
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4812,
+      "missing": 187,
+      "percent": 96.26,
+      "mapped_with_ipa": 4804
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5640,
+      "missing": 396,
+      "percent": 93.44,
+      "mapped_with_ipa": 5629
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3749,
+      "missing": 591,
+      "percent": 86.38,
+      "mapped_with_ipa": 3744
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9579,
+      "missing": 2831,
+      "percent": 77.19,
+      "mapped_with_ipa": 9564
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8615,
+      "missing": 3598,
+      "percent": 70.54,
+      "mapped_with_ipa": 8556
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5410,
+      "missing": 1147,
+      "percent": 82.51,
+      "mapped_with_ipa": 5387
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4857,
+      "missing": 142,
+      "percent": 97.16,
+      "mapped_with_ipa": 4849
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5732,
+      "missing": 304,
+      "percent": 94.96,
+      "mapped_with_ipa": 5721
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3969,
+      "missing": 371,
+      "percent": 91.45,
+      "mapped_with_ipa": 3964
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 10729,
+      "missing": 1681,
+      "percent": 86.45,
+      "mapped_with_ipa": 10714
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 9633,
+      "missing": 2580,
+      "percent": 78.87,
+      "mapped_with_ipa": 9574
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5887,
+      "missing": 670,
+      "percent": 89.78,
+      "mapped_with_ipa": 5864
+    }
+  },
+  "pinyin_reachable_coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4655,
+      "missing": 344,
+      "percent": 93.12,
+      "mapped_with_ipa": 4648
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5434,
+      "missing": 602,
+      "percent": 90.03,
+      "mapped_with_ipa": 5424
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3598,
+      "missing": 742,
+      "percent": 82.9,
+      "mapped_with_ipa": 3593
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9106,
+      "missing": 3304,
+      "percent": 73.38,
+      "mapped_with_ipa": 9093
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8070,
+      "missing": 4143,
+      "percent": 66.08,
+      "mapped_with_ipa": 8030
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5168,
+      "missing": 1389,
+      "percent": 78.82,
+      "mapped_with_ipa": 5150
+    }
+  },
+  "pinyin_reachable_coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4700,
+      "missing": 299,
+      "percent": 94.02,
+      "mapped_with_ipa": 4693
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5526,
+      "missing": 510,
+      "percent": 91.55,
+      "mapped_with_ipa": 5516
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3818,
+      "missing": 522,
+      "percent": 87.97,
+      "mapped_with_ipa": 3813
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 10256,
+      "missing": 2154,
+      "percent": 82.64,
+      "mapped_with_ipa": 10243
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 9088,
+      "missing": 3125,
+      "percent": 74.41,
+      "mapped_with_ipa": 9048
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5645,
+      "missing": 912,
+      "percent": 86.09,
+      "mapped_with_ipa": 5627
+    }
+  },
+  "added_pairs": 1866,
+  "added_headwords": 1866,
+  "added_candidate_keys": 1555,
+  "added_headwords_by_target": {
+    "cet4": 45,
+    "cet6": 92,
+    "tem4": 220,
+    "tem8": 1150,
+    "toefl": 1018,
+    "ielts": 477
+  },
+  "added_pairs_by_source": {
+    "ecdict_mit": 1523,
+    "kylebing_bsd_3_clause": 343
+  },
+  "candidate_pairs": 6534,
+  "candidate_headwords_by_target": {
+    "tem4": 300,
+    "tem8": 1524,
+    "toefl": 1448,
+    "ielts": 624
+  },
+  "rejected_or_unselected_candidate_rows": {
+    "base_pos_mismatch": 2811,
+    "no_packed_gloss_key": 76,
+    "one_mapping_per_headword": 1769,
+    "per_key_capacity": 12
+  },
+  "inputs": {
+    "candidate_summary_sha256": "f51fa663b7276feac2e326482165f4dfb1db2b278cc6f8317a411d2a847f2834",
+    "candidate_tsv_sha256": "f338000d16b19075888047b819adbe6fddcb6983f9847a8884267689db515749",
+    "english_tags_sha256": "9b380aab7fe6a5ba7475a36d8058fe87a45e82ec914d301c8d342fd4088163f6",
+    "pinyin_candidates_sha256": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "pinned_ecdict_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "kylebing_exam_files": {
+      "tem4": "7344445961d22f077ac6780e0b78b1de269a483f69e145d527f18372ccdd9a62",
+      "tem8": "9ee47f0fe3ca44343df0b6600508bec5ca84d80d689cd21f5c378b65576b9c7d",
+      "toefl": "cc759e2becca4b744e99ceb8598180399a371316006b2b703b9ca9a78e05597f",
+      "ielts": "d19150185321c7c17e03fe30ac6e6caf55bda3a8b2b0fa5af8b7383415c98293"
+    }
+  },
+  "runtime_files": {
+    "exam-target-ecdict-expansion.tsv": {
+      "sha256": "90e21a9fbe892de10962cba915c178aeaba6b7e171c4363f02e6e89411e2c7f8",
+      "bytes": 45526,
+      "rows": 1523
+    },
+    "exam-target-kylebing-expansion.tsv": {
+      "sha256": "8b889fc6acb5283b8eb2c771ef7331b6f03e2dde1e333f788a7ccd1db11083fa",
+      "bytes": 14260,
+      "rows": 343
+    }
+  },
+  "reviewed_file": {
+    "path": "batches/09-exam-target-reviewed.tsv",
+    "sha256": "6c68ac67b223840039092d379cd0a80f7a03b8ceb72148a04dd24e8dbca71954",
+    "rows": 1866
+  },
+  "licensing": "ECDICT-derived rows remain in a separate MIT-attributed runtime file; KyleBing-derived rows remain in a separate BSD-3-Clause-attributed runtime file. No complete source dictionary, examples, or audio are included.",
+  "limitations": "Targets are fixed community wordlists, not official complete syllabi. Mapping coverage means at least one exact Chinese gloss mapping; candidate reachability means an exact pinyin key exists and may still require paging. This automatic tranche does not claim individual human review of every row."
+}

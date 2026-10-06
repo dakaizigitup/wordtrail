@@ -18,6 +18,7 @@ __pycache__/
 /third-party/rust-ipa/
 /third-party/sherpa-onnx/jniLibs/
 /data/*.qj
+/data/generated/
 *.apk
 *.zip
 *.keystore

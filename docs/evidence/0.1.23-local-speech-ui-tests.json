@@ -1,0 +1,21 @@
+{
+  "apk": "wordtrail-0.1.23-debug.apk",
+  "method": "Production AudioRecord on Android 15 emulator with all public system recognition providers disabled; silence only. Recognition accuracy is checked separately using real WAV samples and the packaged offline model.",
+  "passed": [
+    "permission grant leaves recording under user control",
+    "local microphone starts without a system recognition service",
+    "cancel discards audio and leaves the input untouched",
+    "local microphone starts without a system recognition service",
+    "silent audio does not hallucinate committed text",
+    "local error returns to normal typing",
+    "unfinished pinyin blocks recording",
+    "local microphone starts without a system recognition service",
+    "switching to a password cancels local recording",
+    "cancelled local speech never enters the password field",
+    "numeric editor blocks local dictation",
+    "returning to ordinary text re-enables local microphone",
+    "local microphone starts without a system recognition service",
+    "thirty-second limit stops recording automatically",
+    "no local speech application crash"
+  ]
+}

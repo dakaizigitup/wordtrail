@@ -5,7 +5,7 @@ from test_native import call,ROOT
 class ExpansionTests(unittest.TestCase):
     def setUp(self):
         self.user=tempfile.TemporaryDirectory(prefix='wordtrail-expansion-')
-        response=call(op='create',data_dir=str(ROOT/'data'),user_dir=self.user.name)
+        response=call(op='create',data_dir=str(ROOT/'data/generated'),user_dir=self.user.name)
         self.assertIsNone(response['error']);self.handle=response['handle']
     def tearDown(self):
         call(op='destroy',handle=self.handle);self.user.cleanup()
@@ -28,11 +28,26 @@ class ExpansionTests(unittest.TestCase):
         before=self.type('yijiaren');state=self.action('vocabulary',vocabulary_targets=['cet6'])
         self.assertEqual([c['text'] for c in state['candidates']],[c['text'] for c in before['candidates']])
         c=next(c for c in state['candidates'] if c['text']=='一家人')
-        self.assertEqual([s['text'] for s in c['translation_senses']],['household','family'])
+        self.assertEqual([s['text'] for s in c['translation_senses'][:2]],['household','family'])
+        households=next(s for s in c['translation_senses'] if s['text']=='households')
+        self.assertTrue(any(t['id']=='ielts' for t in households['tags']))
         self.assertEqual(c['pronunciation']['word'],'household')
         self.assertTrue(c['translation_senses'][0]['translation_source'])
         self.assertTrue(any(t['id']=='cet6' and t['selected'] for t in c['translation_senses'][0]['tags']))
         self.assertEqual(self.action('translation',index=c['id'],revision=state['revision'])['commit'],'household')
+    def test_openetymology_word_has_target_provenance_and_is_queryable(self):
+        before=self.type('hezuo')
+        candidate=next(c for c in before['candidates'] if c['text']=='合作')
+        order=[c['text'] for c in before['candidates']]
+        state=self.action('vocabulary',vocabulary_targets=['tem8'])
+        self.assertEqual([c['text'] for c in state['candidates']],order)
+        candidate=next(c for c in state['candidates'] if c['text']=='合作')
+        sense=next(s for s in candidate['translation_senses'] if s['text']=='cooperation')
+        self.assertTrue(any(t['id']=='tem8' and t['selected'] for t in sense['tags']))
+        # The pinned OpenEtymology list places cooperation in TOEFL, while
+        # TEM8 membership comes from the other pinned exam-wordlist sources.
+        self.assertIn('OpenEtymology',next(t for t in sense['tags'] if t['id']=='toefl')['sources'])
+        self.assertEqual(self.action('translation',index=candidate['id'],sense_index=sense['index'],revision=state['revision'])['commit'],'cooperation')
     def test_cc_cedict_translation_is_reachable_prioritized_tagged_and_pronounced(self):
         before = self.type('huanjing')
         candidate_order = [candidate['text'] for candidate in before['candidates']]
@@ -62,6 +77,32 @@ class ExpansionTests(unittest.TestCase):
         self.assertTrue(any(tag['id']=='cet6' and tag['selected'] for tag in sense['tags']))
         self.assertEqual(sense['pronunciation']['word'],'hurl')
         self.assertEqual(self.action('translation',index=candidate['id'],sense_index=sense['index'],revision=state['revision'])['commit'],'hurl')
+    def test_batch_12_new_pinyin_key_is_reachable_tagged_and_prioritized(self):
+        state=self.type('yiyanghuawu')
+        candidate=None
+        for _ in range(state['page_count']):
+            candidate=next((item for item in state['candidates'] if item['text']=='一氧化物'),None)
+            if candidate is not None:break
+            state=self.action('next_page')
+        self.assertIsNotNone(candidate)
+        chinese_order=[item['text'] for item in state['candidates']]
+        state=self.action('vocabulary',vocabulary_targets=['toefl'])
+        self.assertEqual([item['text'] for item in state['candidates']],chinese_order)
+        candidate=next(item for item in state['candidates'] if item['text']=='一氧化物')
+        sense=next(item for item in candidate['translation_senses'] if item['text']=='monoxide')
+        self.assertEqual(sense['translation_source'],'ECDICT MIT')
+        self.assertTrue(any(tag['id']=='toefl' and tag['selected'] for tag in sense['tags']))
+        self.assertEqual(sense['pronunciation']['word'],'monoxide')
+        self.assertEqual(self.action('translation',index=candidate['id'],sense_index=sense['index'],revision=state['revision'])['commit'],'monoxide')
+    def test_batch_13_pinyin_overlay_reaches_existing_exam_gloss(self):
+        before=self.type('bupingdeng')
+        candidate=next(item for item in before['candidates'] if item['text']=='不平等')
+        chinese_order=[item['text'] for item in before['candidates']]
+        state=self.action('vocabulary',vocabulary_targets=['toefl'])
+        self.assertEqual([item['text'] for item in state['candidates']],chinese_order)
+        candidate=next(item for item in state['candidates'] if item['text']=='不平等')
+        sense=next(item for item in candidate['translation_senses'] if item['text']=='unequal')
+        self.assertTrue(any(tag['id']=='toefl' and tag['selected'] for tag in sense['tags']))
     def test_original_selection_restores_and_non_english_has_no_expansion(self):
         self.type('yijiaren');self.action('vocabulary',vocabulary_targets=['cet6','tem8'])
         state=self.action('vocabulary',vocabulary_targets=[])
@@ -83,10 +124,22 @@ class ExpansionTests(unittest.TestCase):
         self.assertEqual(len(data.splitlines()),meta['added_translation_pairs'])
         self.assertNotIn(b'relinguish',data)
         self.assertNotIn('丰富\taffluent'.encode(),data)
+    def test_batch_13_overlay_matches_its_pinned_manifest(self):
+        path=ROOT/'vocabulary/data/pinyin-overlays/exam-target-batch-13.tsv'
+        manifest=json.loads((ROOT/'vocabulary/data/exam-target-batch-13-manifest.json').read_text(encoding='utf-8'))
+        rows=[line.split('\t') for line in path.read_text(encoding='utf-8').splitlines()]
+        record=manifest['outputs']['exam-target-batch-13.tsv']
+        self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),record['sha256'])
+        self.assertEqual(len(rows),record['rows'])
+        self.assertEqual(len(rows),407)
+        self.assertEqual(len({row[0] for row in rows}),len(rows))
+        self.assertTrue(all(2<=len(row[0])<=6 and all('\u3400'<=char<='\u9fff' for char in row[0]) for row in rows))
+        self.assertTrue(all(row[2]=='0' for row in rows))
+        self.assertTrue(all(row[3] in {'CC-CEDICT CC BY-SA 4.0','Rime ICE GPL-3.0','CC-CEDICT CC BY-SA 4.0 + Rime ICE GPL-3.0'} for row in rows))
 
 def benchmark():
     with tempfile.TemporaryDirectory() as user:
-        h=call(op='create',data_dir=str(ROOT/'data'),user_dir=user)['handle'];results=[]
+        h=call(op='create',data_dir=str(ROOT/'data/generated'),user_dir=user)['handle'];results=[]
         try:
             for pinyin in ['fangqi','zhongyao','yijiaren']:
                 call(op='reset',handle=h)

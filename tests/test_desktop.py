@@ -5,12 +5,12 @@ import tkinter as tk
 from PIL import ImageGrab
 
 ROOT=Path(__file__).resolve().parents[1]
-STAGE=ROOT/'build/desktop-test'
+STAGE=ROOT/'build/desktop-test-0.1.23'
 STAGE.mkdir(parents=True,exist_ok=True)
 (STAGE/'data').mkdir(exist_ok=True)
 shutil.copy2(ROOT/'target/release/qingjian-server.exe',STAGE/'qingjian-server.exe')
 shutil.copy2(ROOT/'data/pronunciation-en.qj',STAGE/'data/pronunciation-en.qj')
-for target,source in [(STAGE/'data/generated',Path('C:/Program Files/Qingjian/data/generated')),(STAGE/'assets',Path('C:/Program Files/Qingjian/assets'))]:
+for target,source in [(STAGE/'data/generated',ROOT/'data/generated'),(STAGE/'assets',Path('C:/Program Files/Qingjian/assets'))]:
     if not target.exists():
         subprocess.run(['powershell.exe','-NoProfile','-Command',f"New-Item -ItemType Junction -Path '{target}' -Target '{source}' | Out-Null"],check=True)
 USER=ROOT/'build/desktop-test-user'
@@ -137,8 +137,33 @@ try:
     send('Poll',dict(session=session))
     for char in 'yijiaren':result=key(char)
     family=next(c for c in result['frame']['candidates']['items'] if c['text']=='一家人')
-    check('new CET6 household is prioritized before original family',[s['text'] for s in family['translation']['senses']]==['household','family'])
+    family_words=[s['text'] for s in family['translation']['senses']]
+    check('new CET6 household keeps original meanings and adds licensed households',family_words[:2]==['household','family'] and 'households' in family_words)
     check('new prioritized word commits through real IPC',key(str(result['frame']['candidates']['items'].index(family)+1),ctrl=True)['commit']=='household')
+    vocabulary.write_text('{"targets":[]}',encoding='utf-8')
+    for char in 'zhongyu':result=key(char)
+    before_order=[c['text'] for c in result['frame']['candidates']['items']]
+    vocabulary.write_text('{"targets":["tem4"]}',encoding='utf-8');time.sleep(1.2)
+    targeted=send('Poll',dict(session=session))['Update']['frame']['candidates']['items']
+    check('batch09 keeps Chinese candidate order while targeting TEM4',[c['text'] for c in targeted]==before_order)
+    finally_candidate=next(c for c in targeted if c['text']=='终于')
+    finally_words=[sense['text'] for sense in finally_candidate['translation']['senses']]
+    check('batch09 exposes and prioritizes the new TEM4 word lastly',finally_words.index('lastly')<finally_words.index('finally'))
+    finally_slot=str(targeted.index(finally_candidate)+1)
+    check('batch09 target-prioritized word commits through real IPC',key(finally_slot,ctrl=True)['commit']=='lastly')
+    vocabulary.write_text('{"targets":["tem8"]}',encoding='utf-8');time.sleep(1.2)
+    for char in 'hezuo':result=key(char)
+    batch10_before=result['frame']['candidates']['items']
+    batch10_order=[c['text'] for c in batch10_before]
+    partnership=next(c for c in batch10_before if c['text']=='合作')
+    cooperation=next(s for s in partnership['translation']['senses'] if s['text']=='cooperation')
+    check('batch10 target list adds the new cooperation translation',cooperation is not None)
+    # Desktop's candidate IPC intentionally sends display text, not vocabulary provenance metadata.
+    check('batch10 cooperation translation is available in desktop candidate data',cooperation['text']=='cooperation')
+    vocabulary.write_text('{"targets":["toefl"]}',encoding='utf-8');time.sleep(1.2)
+    batch10_targeted=send('Poll',dict(session=session))['Update']['frame']['candidates']['items']
+    check('batch10 target change preserves Chinese candidate order',[c['text'] for c in batch10_targeted]==batch10_order)
+    check('batch10 query can be committed before the next pinyin test',key(' ')['commit']=='合作')
     vocabulary.write_text('{"targets":[]}',encoding='utf-8')
     for pinyin,chinese,english in [('fenxi','分析','analysis'),('fazhan','发展','development'),('ziyou','自由','freedom'),('quexi','缺席','absence')]:
         for char in pinyin:result=key(char)
@@ -240,6 +265,19 @@ try:
             assert [c['text'] for c in items]==before,'Chinese order changed while browsing CC-CEDICT translation'
         assert row['word'] in shown,'CC-CEDICT word did not appear in the real candidate window'
         check('CC-CEDICT IPC commits '+row['word'],key(slot,ctrl=True,shift=shown.index(row['word'])==1)['commit']==row['word'])
+    vocabulary.write_text('{"targets":[]}',encoding='utf-8');time.sleep(1.2)
+    send('Poll',dict(session=session))
+    for char in 'bupingdeng':result=key(char)
+    batch13_before=result['frame']['candidates']['items']
+    candidate=next(c for c in batch13_before if c['text']=='不平等')
+    check('batch13 runtime dictionary exposes the newly added 不平等 pinyin candidate',candidate is not None)
+    batch13_order=[c['text'] for c in batch13_before]
+    vocabulary.write_text('{"targets":["toefl"]}',encoding='utf-8');time.sleep(1.2)
+    batch13_targeted=send('Poll',dict(session=session))['Update']['frame']['candidates']['items']
+    check('batch13 TOEFL selection leaves Chinese candidate order unchanged',[c['text'] for c in batch13_targeted]==batch13_order)
+    unequal=next(c for c in batch13_targeted if c['text']=='不平等')
+    unequal_sense=next(s for s in unequal['translation']['senses'] if s['text']=='unequal')
+    check('batch13 TOEFL gloss is available through the real desktop server',unequal_sense['text']=='unequal')
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     (ROOT/'build/desktop-tests.txt').write_text(

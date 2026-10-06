@@ -1,0 +1,253 @@
+{
+  "batch": "12-ecdict-exam-terms-with-pinyin-v1",
+  "selected_pairs": 699,
+  "selected_unique_headwords": 699,
+  "selected_new_pinyin_keys": 611,
+  "selected_by_target": {
+    "cet4": 25,
+    "cet6": 58,
+    "tem4": 64,
+    "tem8": 308,
+    "toefl": 438,
+    "ielts": 112
+  },
+  "selected_by_pinyin_mode": {
+    "batch-11-overlay": 7,
+    "new-key": 692
+  },
+  "candidate_headwords_with_verified_key": 701,
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4906,
+      "missing": 93,
+      "percent": 98.14,
+      "mapped_with_ipa": 4898
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5834,
+      "missing": 202,
+      "percent": 96.65,
+      "mapped_with_ipa": 5823
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4170,
+      "missing": 170,
+      "percent": 96.08,
+      "mapped_with_ipa": 4165
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11685,
+      "missing": 827,
+      "percent": 93.39,
+      "mapped_with_ipa": 11666
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 10702,
+      "missing": 1566,
+      "percent": 87.24,
+      "mapped_with_ipa": 10643
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 6196,
+      "missing": 361,
+      "percent": 94.49,
+      "mapped_with_ipa": 6173
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4931,
+      "missing": 68,
+      "percent": 98.64,
+      "mapped_with_ipa": 4923
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5892,
+      "missing": 144,
+      "percent": 97.61,
+      "mapped_with_ipa": 5881
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4234,
+      "missing": 106,
+      "percent": 97.56,
+      "mapped_with_ipa": 4229
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11993,
+      "missing": 519,
+      "percent": 95.85,
+      "mapped_with_ipa": 11974
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 11140,
+      "missing": 1128,
+      "percent": 90.81,
+      "mapped_with_ipa": 11081
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 6308,
+      "missing": 249,
+      "percent": 96.2,
+      "mapped_with_ipa": 6285
+    }
+  },
+  "pinyin_reachable_coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4751,
+      "missing": 248,
+      "percent": 95.04,
+      "mapped_with_ipa": 4744
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5633,
+      "missing": 403,
+      "percent": 93.32,
+      "mapped_with_ipa": 5623
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4023,
+      "missing": 317,
+      "percent": 92.7,
+      "mapped_with_ipa": 4018
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11213,
+      "missing": 1299,
+      "percent": 89.62,
+      "mapped_with_ipa": 11196
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 10162,
+      "missing": 2106,
+      "percent": 82.83,
+      "mapped_with_ipa": 10122
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5959,
+      "missing": 598,
+      "percent": 90.88,
+      "mapped_with_ipa": 5941
+    }
+  },
+  "pinyin_reachable_coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4780,
+      "missing": 219,
+      "percent": 95.62,
+      "mapped_with_ipa": 4773
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5697,
+      "missing": 339,
+      "percent": 94.38,
+      "mapped_with_ipa": 5687
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 4095,
+      "missing": 245,
+      "percent": 94.35,
+      "mapped_with_ipa": 4090
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 11535,
+      "missing": 977,
+      "percent": 92.19,
+      "mapped_with_ipa": 11518
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 10618,
+      "missing": 1650,
+      "percent": 86.55,
+      "mapped_with_ipa": 10578
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 6077,
+      "missing": 480,
+      "percent": 92.68,
+      "mapped_with_ipa": 6059
+    }
+  },
+  "rejected_or_unselected": {
+    "headword_without_key_capacity": 2,
+    "missing_ipa": 470,
+    "per_chinese_key_capacity": 2,
+    "unverified_pinyin": 2768
+  },
+  "selection": {
+    "source": "Pinned ECDICT MIT English-to-Chinese dictionary; exact complete 2-6 Han-character glosses with explicit POS.",
+    "target_tags": [
+      "tem4",
+      "tem8",
+      "toefl",
+      "ielts"
+    ],
+    "ipa_required": true,
+    "pinyin": "Existing pinned Qingjian key, previously verified batch 11 key, or a single-source reading from pinned CC-CEDICT/Rime ICE when the other source has no entry; when both sources contain the key, their normalized readings must agree.",
+    "priority": "Existing Qingjian keys first, then batch 11 verified keys, then new keys with independent pinned reading evidence. New pinyin entries have frequency zero.",
+    "one_mapping_per_headword": true,
+    "max_extra_rows_per_chinese_key": 8,
+    "candidate_order": "No existing Qingjian pinyin candidate is reordered; new rows append at frequency zero.",
+    "review_limit": "Automated deterministic source and POS filtering, not a claim of human review for every row."
+  },
+  "inputs": {
+    "ecdict_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "full_base_dictionary_tsv_sha256": "a888bb9b35cc98df29f6b13eb67f78e9ab490d3ff6f8d607f65cf78994c0e460",
+    "english_tag_manifest_sha256": "41f6409ecba81e06e23ee0d9fdfeb090e03588f2d2fab1e2d2475eec9c76a8ee",
+    "batch_11_manifest_sha256": "5ef79731a9db10a9ea42f0d2004b8146f990197f2f1aaeb570b948c433ae6e43",
+    "batch_11_pinyin_overlay_sha256": "a42e86df9afbf2a6a811cb2e844545c8e1b4b6df40fcf81f1dd333ef0be7d859",
+    "cc_cedict_sha256": "8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f",
+    "rime_ice_commit": "da1fbe602e38f26db846fa10120ee64c2b0324c0",
+    "rime_base_sha256": "0418d5103d8e40c8fff4b686a873ad03e9836cd0419ecae0b7e1e2526312dba0",
+    "rime_ext_sha256": "8e49a0294c0139e63c815cc33a2d438cc144eb7889297d30cec899a368697c06",
+    "exam-target-batch-11-ecdict-expansion.tsv_sha256": "694ec8f2be061732fcd6a024476ab4d250d4239951b9c8d113bf37e7de4e671b",
+    "exam-target-batch-11-kylebing-expansion.tsv_sha256": "29a59444d8d7161095057544a805fc138a11fc15e0d458034d8d713a8805dd6b",
+    "exam-target-batch-11-dual-expansion.tsv_sha256": "c103886f74592f795f48b01a617a34c9bb2a74cfec2af17b8c458a388dcb429c",
+    "exam-target-batch-11-cow-expansion.tsv_sha256": "00082d303c83741ebc229db9df1e82d8567d06eead8dfdc688a6feec70b4a8ce",
+    "exam-target-batch-11-koreader-cow-expansion.tsv_sha256": "5a86961003d460de24d25277873d6950dd8160f37a2f0e4c6b00a67f8afe291d",
+    "exam-target-batch-11-cc-by-sa-expansion.tsv_sha256": "2226a5294ed7fa5ed09ddbb57814f299abb2bfdff5d2a50de5b86d7ae0f7ec2d"
+  },
+  "outputs": {
+    "reviewed": {
+      "sha256": "7622d39eb59936860e6f861f5ec0a4f7983bc0f4aeff1fd214018d958733adb1",
+      "rows": 699
+    },
+    "pinyin_overlay": {
+      "sha256": "60c6e0648bfe16e18566088db22ef51fde8437c42ce314843774f6691e13b1d9",
+      "rows": 611
+    },
+    "exam-target-batch-12-ecdict-expansion.tsv": {
+      "sha256": "e7a4abbf99f83a1b531a7af80816674766d7532fc142bd9132aeed8fba792d43",
+      "rows": 699
+    }
+  },
+  "licenses": {
+    "expansion": "ECDICT MIT; see vocabulary/data/ECDICT-LICENSE",
+    "pinyin_overlay": "Per-row source labels distinguish CC-CEDICT CC BY-SA 4.0 and Rime ICE GPL-3.0; see NOTICE.txt and pinned source manifests."
+  },
+  "limitations": "Exam coverage uses fixed community lists rather than official complete syllabi. Mapping coverage means a whole Chinese-to-English exact gloss is present. Pinyin reachability means the full reading exists; the headword may still be below the first visible candidate page."
+}

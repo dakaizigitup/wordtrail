@@ -44,7 +44,7 @@ def main():
         ui.check('thirty-second limit stops recording automatically',ui.exact('返回键盘') is not None)
         ui.tap(ui.exact('返回键盘'))
         ui.check('no local speech application crash','org.wordtrail.ime' not in ui.adb('logcat','-d','-b','crash'))
-        (ui.ROOT/'build/local-speech-ui-tests.json').write_text(json.dumps({'apk':'wordtrail-0.1.7-debug.apk','method':'Production AudioRecord on emulator, silence only. Accuracy from separate real WAV native tests.','passed':ui.RESULTS},ensure_ascii=False,indent=2),encoding='utf-8')
+        (ui.ROOT/'build/local-speech-ui-tests.json').write_text(json.dumps({'apk':'wordtrail-0.1.23-debug.apk','method':'Production AudioRecord on Android 15 emulator with all public system recognition providers disabled; silence only. Recognition accuracy is checked separately using real WAV samples and the packaged offline model.','passed':ui.RESULTS},ensure_ascii=False,indent=2),encoding='utf-8')
     finally:
         if probe is not None:ui.adb('shell','am','force-stop','org.wordtrail.test');probe.terminate();probe.wait(timeout=5)
         ui.adb('shell','am','force-stop','org.wordtrail.ime');ui.adb('shell','am','force-stop','org.wordtrail.speechtest')

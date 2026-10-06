@@ -69,6 +69,8 @@ def load_current_words(base: dict[str, list[tuple[str, str]]]) -> set[str]:
         "cccedict-expansion-2.tsv",
         "cccedict-expansion-3.tsv",
         "cccedict-expansion-4.tsv",
+        "exam-target-ecdict-expansion.tsv",
+        "exam-target-kylebing-expansion.tsv",
     ):
         path = DATA / name
         for line in path.read_text(encoding="utf-8").splitlines():

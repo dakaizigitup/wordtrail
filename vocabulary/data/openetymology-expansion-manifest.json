@@ -1,0 +1,220 @@
+{
+  "batch": "10-openetymology-tem8-toefl-reviewed-v1",
+  "openetymology_commit": "7d89f3697abf26e305fe2627f181b692c2c10b28",
+  "openetymology_tags_sha256": "934de4d3929e889cf62fc3e40a5bb01329285cd16c58b3fb28a4328f81f3fe3f",
+  "candidate_queue_sha256": "f338000d16b19075888047b819adbe6fddcb6983f9847a8884267689db515749",
+  "decision_file_sha256": "0d3ea30384cafbe67820191d9e2fcea75ffc11faaa126f3d2fb9c888265a8e68",
+  "added_pairs": 136,
+  "added_unique_headwords": 136,
+  "added_candidate_keys": 129,
+  "added_headwords_by_target": {
+    "cet4": 2,
+    "cet6": 5,
+    "tem4": 9,
+    "tem8": 130,
+    "toefl": 67,
+    "ielts": 27
+  },
+  "added_pairs_by_target": {
+    "cet4": 2,
+    "cet6": 5,
+    "tem4": 9,
+    "tem8": 130,
+    "toefl": 67,
+    "ielts": 27
+  },
+  "coverage_before_combined_sources": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4857,
+      "missing": 142,
+      "percent": 97.16
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5732,
+      "missing": 304,
+      "percent": 94.96
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3969,
+      "missing": 371,
+      "percent": 91.45
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 10765,
+      "missing": 1747,
+      "percent": 86.04
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 9656,
+      "missing": 2612,
+      "percent": 78.71
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5887,
+      "missing": 670,
+      "percent": 89.78
+    }
+  },
+  "coverage_after_combined_sources": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4859,
+      "missing": 140,
+      "percent": 97.2
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5737,
+      "missing": 299,
+      "percent": 95.05
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3978,
+      "missing": 362,
+      "percent": 91.66
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 10895,
+      "missing": 1617,
+      "percent": 87.08
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 9723,
+      "missing": 2545,
+      "percent": 79.25
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5914,
+      "missing": 643,
+      "percent": 90.19
+    }
+  },
+  "pinyin_reachable_coverage_before_combined_sources": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4700,
+      "missing": 299,
+      "percent": 94.02
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5526,
+      "missing": 510,
+      "percent": 91.55
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3818,
+      "missing": 522,
+      "percent": 87.97
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 10289,
+      "missing": 2223,
+      "percent": 82.23
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 9107,
+      "missing": 3161,
+      "percent": 74.23
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5645,
+      "missing": 912,
+      "percent": 86.09
+    }
+  },
+  "pinyin_reachable_coverage_after_combined_sources": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4702,
+      "missing": 297,
+      "percent": 94.06
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5531,
+      "missing": 505,
+      "percent": 91.63
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3827,
+      "missing": 513,
+      "percent": 88.18
+    },
+    "tem8": {
+      "total": 12512,
+      "mapped": 10419,
+      "missing": 2093,
+      "percent": 83.27
+    },
+    "toefl": {
+      "total": 12268,
+      "mapped": 9174,
+      "missing": 3094,
+      "percent": 74.78
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5672,
+      "missing": 885,
+      "percent": 86.5
+    }
+  },
+  "openetymology_list_coverage_before": {
+    "tem8": {
+      "total": 3984,
+      "mapped": 2954,
+      "missing": 1030,
+      "percent": 74.15
+    },
+    "toefl": {
+      "total": 4510,
+      "mapped": 4060,
+      "missing": 450,
+      "percent": 90.02
+    }
+  },
+  "openetymology_list_coverage_after": {
+    "tem8": {
+      "total": 3984,
+      "mapped": 3066,
+      "missing": 918,
+      "percent": 76.96
+    },
+    "toefl": {
+      "total": 4510,
+      "mapped": 4104,
+      "missing": 406,
+      "percent": 91.0
+    }
+  },
+  "runtime_file": {
+    "path": "openetymology-exam-expansion.tsv",
+    "rows": 136,
+    "bytes": 7487,
+    "sha256": "2145157ca260a1009cdb8c8143bfdf3ceb11d13b62a3666a123c5a44d25130a2"
+  },
+  "reviewed_file": {
+    "path": "batches/10-openetymology-reviewed.tsv",
+    "rows": 136,
+    "sha256": "30a23fb163e06bc7649b4c7b70d26f14845c7f1e94590855449e4990e2979964"
+  },
+  "license": "CC BY-SA 4.0 for the list-derived selection and mapping table; dictionary-source attributions and notices for ECDICT (MIT) and KyleBing/english-vocabulary (BSD-3-Clause) are retained separately.",
+  "selection_rule": "Manually reviewed exact headword-to-complete-short-gloss mapping; pinned ECDICT and KyleBing agree on the same word, Chinese gloss, and POS; headword occurs in pinned OpenEtymology TEM8 or TOEFL list; Chinese key is an exact shipped pinyin candidate; UK or US IPA exists; only previously unmapped headwords are added; max eight extra senses per key.",
+  "limitation": "All target lists are community wordlists, not official complete syllabi. Coverage means at least one mapping in the selected wordlist; pinyin reachability does not guarantee first-page placement."
+}

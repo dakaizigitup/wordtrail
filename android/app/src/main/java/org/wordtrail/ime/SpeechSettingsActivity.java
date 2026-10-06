@@ -60,7 +60,7 @@ public final class SpeechSettingsActivity extends Activity {
         }).setNegativeButton("取消",null).show();
     }
     private String diagnostics(){
-        StringBuilder report=new StringBuilder("Wordtrail 0.1.19\n设备：").append(Build.MANUFACTURER).append(" / ").append(Build.MODEL)
+        StringBuilder report=new StringBuilder("Wordtrail 0.1.23\n设备：").append(Build.MANUFACTURER).append(" / ").append(Build.MODEL)
             .append("\nAndroid：").append(Build.VERSION.RELEASE).append(" (API ").append(Build.VERSION.SDK_INT).append(")\n麦克风权限：")
             .append(checkSelfPermission(android.Manifest.permission.RECORD_AUDIO)==android.content.pm.PackageManager.PERMISSION_GRANTED?"已授权":"未授权")
             .append("\n离线优先：").append(prefs().getBoolean("speech_prefer_offline",true))
