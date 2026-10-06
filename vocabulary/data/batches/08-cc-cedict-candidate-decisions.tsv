@@ -1,0 +1,41 @@
+word	targets	pos	chinese	pinyin	pinyin_frequency	match_kind	english_gloss	cedict_pinyin	traditional	source_line	base_senses	ecdict_translation	decision	decision_note	pos_reference_url
+p.m.	cet4		下午	xia wu	65300	exact	p.m.	xia4 wu3	下午	1926	n. afternoon	下午, 午后	include	缩写 p.m.（post meridiem），表示中午以后；青简词性枚举没有 abbr.，按内核词库生成约定以 n. 展示。CC-CEDICT 整词释义与本机音标可核对，词性参考 Cambridge 缩写条目。	https://dictionary.cambridge.org/dictionary/english/pm
+readily	cet4,cet6	adv. 迅速地, 轻易地, 乐意地	一口	yi kou	11752	exact	readily	yi1 kou3	一口	462	m. mouthful	adv. 迅速地, 轻易地, 乐意地	exclude	依赖“一口答应”等固定搭配；孤立输入“一口”时 readily 不是稳定、通用的译词。	-
+ought	cet4,cet6	n. 责任	活该	huo gai	4238	exact	ought	huo2 gai1	活該	64802	adj. deserved	aux. 应该, 大概\nn. 责任	exclude	活该表示 deserve/理应受此结果；ought 是情态词“应该”，两者词义不等。	-
+entrepreneurship	cet6		创业	chuang ye	3332	exact	entrepreneurship	chuang4 ye4	創業	14864	v. start a business	企业家能力/职能; 企业家[主办人等]的身份[地位、职权、能力]	include	名词指创业活动或创业能力，中文“创业”可作该活动名词；固定 ECDICT 未提供可解析词性，词性与名词用法参考 Cambridge 条目。	https://dictionary.cambridge.org/dictionary/english/entrepreneurship
+batter	cet6	v. 连续猛打（尤其指妇女），猛击 | n. 面糊（食物），击球员，打击手	冲击	chong ji	2746	to-verb	to batter	chong1 ji1	衝擊	98199	n. impact	v. 连续猛打（尤其指妇女），猛击\nn. 面糊（食物），击球员，打击手	include	仅取“用力反复击打/冲击”动词义，CC-CEDICT 原行写作 to batter；不映射面糊、击球手等名词义。	-
+processing	cet6		加工	jia gong	2439	exact	processing	jia1 gong1	加工	15251	v. process	[计] 处理\n[化] 加工	include	名词/动名词，表示加工处理这一过程；与原词库的动词 process 区分。固定 ECDICT 未提供可解析词性，参考 Cambridge 的 noun 释义。	https://dictionary.cambridge.org/dictionary/english/processing
+prospective	cet6	adj. 预期的, 将来的	有希望	you xi wang	2389	exact	prospective	you3 xi1 wang4	有希望	54919	phr. hopeful	a. 预期的, 将来的\n[经] 预期的, 未来的	include	形容将来可能成为或预期会发生的对象；限定在 prospective buyer/student 等“有望成为”语境，不泛指乐观或有前途。	-
+disengagement	cet6	n. 分开, 空闲, 解脱	释出	shi chu	2294	exact	disengagement	shi4 chu1	釋出	110510	v. release	n. 分开, 空闲, 解脱\n[医] 解脱(分娩)	exclude	释出通常表示释放/发布的动词；disengagement 是脱离、退出或解除关系的名词，词性与义项均不稳。	-
+unsuitable	cet4,cet6	adj. 不适合的	不便	bu bian	1757	exact	unsuitable	bu4 bian4	不便	2180	adj. inconvenient	a. 不适合的\n[法] 不适合的, 不适当的	exclude	不便是 inconvenient；unsuitable 是不合适，语义相关但不能互换。	-
+outgoing	cet4	n. 外出, 开支, 流出 | adj. 喜欢外出的, 即将离职的, 乐于助人的	外放	wai fang	589	exact	outgoing	wai4 fang4	外放	27178	v. broadcast externally	n. 外出, 开支, 流出\na. 喜欢外出的, 即将离职的, 乐于助人的	exclude	候选依赖“向外播放/广播”的技术动词义，outgoing 在常用义项中主要作形容词或名词，词性和独立语义证据不足。	-
+successive	cet4,cet6	adj. 继承的, 连续的	有序	you xu	496	exact	successive	you3 xu4	有序	54924	adj. orderly	a. 继承的, 连续的\n[经] 接续承运人; 连续的	exclude	有序对应 orderly；successive 强调连续发生，两者相关但不等义。	-
+philanthropy	cet6	n. 慈善, 仁慈, 博爱, 慈善事业, 慈善机构(团体)	善心	shan xin	490	exact	philanthropy	shan4 xin1	善心	22470	n. kindness | n. benevolence	n. 慈善, 仁慈, 博爱, 慈善事业, 慈善机构(团体)	include	取慈善、仁慈的名词义，强调助人及行善意愿，不指慈善机构本身。CC-CEDICT、ECDICT 均列 kindness/benevolence 相关义项。	-
+expertise	cet6	n. 专家意见, 专门技术	两手	liang shou	443	exact	expertise	liang3 shou3	兩手	11524	n. both hands	n. 专家意见, 专门技术\n[法] 专门知识, 专家意见	include	“两手”取本领、技能义（如“有两手”），不取字面上的双手；expertise 对应专门技能/专长。	-
+processing	cet6		制程	zhi cheng	436	exact	processing	zhi4 cheng2	製程	98904	n. process	[计] 处理\n[化] 加工	include	仅取工业制造中的处理流程/制程名词义；固定 ECDICT 未提供可解析词性，参考 Cambridge 的 production/processing noun 释义。	https://dictionary.cambridge.org/dictionary/english/processing
+specifically	cet4,cet6	adv. 特定地, 明确地, 按特性	专程	zhuan cheng	432	exact	specifically	zhuan1 cheng2	專程	34029	adv. specially	adv. 特定地, 明确地, 按特性	include	限定为“为某个特定目的专程去/做”义；不覆盖 specifically 的“明确地、具体地”义。	-
+precede	cet6	v. 在...之前, 优于, 较...优先 | v. 在前面	前导	qian dao	375	to-verb	to precede	qian2 dao3	前導	14464	n. predecessor	vt. 在...之前, 优于, 较...优先\nvi. 在前面	exclude	审计英文义为 to precede，现有中文键释义为 predecessor/前导；前导通常指引导者或先导物，词性/语义不吻合。	-
+contemptuous	cet6	adj. 轻蔑的, 鄙视的, 瞧不起人的	轻视	qing shi	342	exact	contemptuous	qing1 shi4	輕視	106113	v. despise | v. look down on	a. 轻蔑的, 鄙视的, 瞧不起人的	exclude	轻视在现有拼音词条中主要作动词/名词；contemptuous 为形容词，另有眼高键可承载其形容词义。	-
+slam	cet4,cet6	n. 砰然声, 猛然, 猛烈的抨击 | v. 猛然关上, 砰地关上, 猛烈抨击 | v. 砰地关上, 猛攻	全胜	quan sheng	274	exact	slam	quan2 sheng4	全勝	11300	n. complete victory	n. 砰然声, 猛然, 猛烈的抨击\nvt. 猛然关上, 砰地关上, 猛烈抨击\nvi. 砰地关上, 猛攻	exclude	可能涉及牌类游戏的 slam 特定义；当前固定词条没有足够的语域说明，暂不作为通用译词。	-
+memorial	cet4,cet6	n. 纪念物, 请愿书 | adj. 记念的, 记忆的	追思	zhui si	255	exact	memorial	zhui1 si1	追思	107141	v. remember	n. 纪念物, 请愿书\na. 记念的, 记忆的	exclude	追思是动词义，固定 ECDICT 未给 memorial 可核对的动词词性；英文词更常见为名词/形容词。	-
+sexual	cet4,cet6	adj. 性的, 性别的	桃色	tao se	217	exact	sexual	tao2 se4	桃色	57642	adj. pink	a. 性的, 性别的\n[医] 性的; 性欲的	exclude	该义项高度依赖桃色新闻等语境；单独输入“桃色”会误导成一般的 sexual。	-
+ice-cream	cet4	adj. 冰淇淋的, 乳白色的	冰糕	bing gao	211	exact	ice-cream	bing1 gao1	冰糕	12703	n. ice cream	a. 冰淇淋的, 乳白色的	exclude	审计词条将 ice-cream 作为形容词，中文冰糕是名词；标准拼写通常作 ice cream，词性与词形均不稳。	-
+recurrence	cet6	n. 再现, 再发生, 反复, 循环	递归	di gui	190	exact	recurrence	di4 gui1	遞歸	108790	n. recursion	n. 再现, 再发生, 反复, 循环\n[医] 复发, 再发	exclude	recurrence 是再次发生/复发；递归对应 recursion，属于形近误配。	-
+successive	cet4,cet6	adj. 继承的, 连续的	历次	li ci	189	exact	successive	li4 ci4	歷次	60826	adj. previous	a. 继承的, 连续的\n[经] 接续承运人; 连续的	exclude	历次常指过去每一次，不必连续；successive 强调按顺序连续发生，当前整词对应易误导。	-
+distinctly	cet6	adv. 显然地, 明显地, 清楚地	逼真	bi zhen	176	exact	distinctly	bi1 zhen1	逼真	108171	adj. lifelike | adj. vivid	adv. 显然地, 明显地, 清楚地	exclude	逼真对应 lifelike/vivid 形容词；distinctly 是“清楚地/明显地”副词，词性不合。	-
+definitive	cet6	n. 限定词 | adj. 限定的, 决定性的	断然	duan ran	155	exact	definitive	duan4 ran2	斷然	52128	adv. absolutely | adv. decidedly	n. 限定词\na. 限定的, 决定性的	exclude	断然是副词语气；definitive 是“决定性的/最终的”形容词或名词，词性不合。	-
+readily	cet4,cet6	adv. 迅速地, 轻易地, 乐意地	动辄	dong zhe	135	exact	readily	dong4 zhe2	動輒	15682	adv. easily | adv. frequently	adv. 迅速地, 轻易地, 乐意地	exclude	动辄表示频繁发生；readily 主要表示容易地、欣然地或迅速地，不能互换。	-
+paw	cet4,cet6	n. 爪 | v. 以蹄扒地, 用爪子抓, 拼命抓, 向...乱抓, 笨拙地使用, 费力地前进	动手动脚	dong shou dong jiao	110	to-verb	to paw	dong4 shou3 dong4 jiao3	動手動腳	15630	phr. get fresh | phr. touch	n. 爪\nv. 以蹄扒地, 用爪子抓, 拼命抓, 向...乱抓, 笨拙地使用, 费力地前进	exclude	中文义依赖对他人不当触碰的固定语境；paw 的常用动词义是用爪抓/笨拙触碰，当前条目容易混淆语气。	-
+sophisticate	cet6	n. 久经世故的人, 精于...之道的人 | v. 篡改, 曲解, 使变得世故, 掺合, 弄复杂 | v. 诡辩	人精	ren jing	105	exact	sophisticate	ren2 jing1	人精	5930	n. shrewd person	n. 久经世故的人, 精于...之道的人\nvt. 篡改, 曲解, 使变得世故, 掺合, 弄复杂\nvi. 诡辩	include	正式且较少见的名词义，指久经世故、精明练达的人；不取其动词义。	-
+awfully	cet4	adv. 恶劣地, 非常地, 极端地	要死	yao si	77	exact	awfully	yao4 si3	要死	99506	adv. extremely	adv. 恶劣地, 非常地, 极端地	exclude	要死只有在“累死/热死”等补语结构中作程度补语；孤立词条无法稳定对应 awfully。	-
+provocative	cet6	adj. 激发感情的, 挑拨的, 刺激的 | n. 刺激物, 挑拨物, 兴奋剂	火辣	huo la	57	exact	provocative	huo3 la4	火辣	69016	adj. spicy | adj. hot	a. 激发感情的, 挑拨的, 刺激的\nn. 刺激物, 挑拨物, 兴奋剂	exclude	CC-CEDICT 只给 spicy/hot，无法支持 provocative 的挑衅或性感义；不凭英汉联想扩展。	-
+xerox	cet6	v. 静电复印	施乐	shi le	57	exact	xerox	Shi1 le4	施樂	52296	v. give alms	v. 静电复印	exclude	施乐是 Xerox 品牌名；该候选会把专名与英语动词/其他词义混为一谈。	-
+overt	cet6	adj. 明显的, 公然的, 蓄意的	堂而皇之	tang er huang zhi	51	exact	overt	tang2 er2 huang2 zhi1	堂而皇之	25990	adj. grand	a. 明显的, 公然的, 蓄意的\n[法] 明显的, 公开的	exclude	堂而皇之更接近 openly/grandly 的语用表达；overt 是公开、明显的，不是同义词。	-
+violently	cet6	adv. 猛烈地, 激烈地, 极端地	横加	heng jia	30	exact	violently	heng2 jia1	橫加	59558	v. interfere arbitrarily	adv. 猛烈地, 激烈地, 极端地	exclude	横加干涉属于动词性搭配；violently 是副词，词性和组合语义不合。	-
+paw	cet4,cet6	n. 爪 | v. 以蹄扒地, 用爪子抓, 拼命抓, 向...乱抓, 笨拙地使用, 费力地前进	毛手毛脚	mao shou mao jiao	18	to-verb	to paw	mao2 shou3 mao2 jiao3	毛手毛腳	61608	adj. careless | adj. clumsy	n. 爪\nv. 以蹄扒地, 用爪子抓, 拼命抓, 向...乱抓, 笨拙地使用, 费力地前进	exclude	毛手毛脚指鲁莽/不检点，paw 作为英语动词的相应义项不等同，且依赖固定语境。	-
+slam	cet4,cet6	n. 砰然声, 猛然, 猛烈的抨击 | v. 猛然关上, 砰地关上, 猛烈抨击 | v. 砰地关上, 猛攻	猛力	meng li	17	to-verb	to slam	meng3 li4	猛力	72339	n. violent force	n. 砰然声, 猛然, 猛烈的抨击\nvt. 猛然关上, 砰地关上, 猛烈抨击\nvi. 砰地关上, 猛攻	exclude	猛力是名词/方式状语；审计命中 to slam 动词义，词性不合。	-
+tradesman	cet6	n. 零售商, 工匠	坐商	zuo shang	17	exact	tradesman	zuo4 shang1	坐商	25342	n. shopkeeper	n. 零售商, 工匠\n[经] 商人, 店主, 零售商	include	限定为商业义的店主/固定店铺商人，不取建筑工匠等职业义。	-
+violently	cet6	adv. 猛烈地, 激烈地, 极端地	猛力	meng li	17	exact	violently	meng3 li4	猛力	72339	n. violent force	adv. 猛烈地, 激烈地, 极端地	exclude	猛力为名词/方式状语；violently 为副词，不能据词根相近直接映射。	-
+athletic	cet6	adj. 运动的	矫捷	jiao jie	16	exact	athletic	jiao3 jie2	矯捷	79050	adj. agile	a. 运动的	exclude	矫捷表示敏捷灵巧；athletic 表示运动能力强/健壮，含义有交集但不等义。	-
+contemptuous	cet6	adj. 轻蔑的, 鄙视的, 瞧不起人的	眼高	yan gao	14	exact	contemptuous	yan3 gao1	眼高	78496	adj. snobbish	a. 轻蔑的, 鄙视的, 瞧不起人的	include	限定为傲慢、瞧不起人的贬义，与“眼高于顶”一类用法相近；不把“眼高”泛化成标准高或有抱负。	-
+successive	cet4,cet6	adj. 继承的, 连续的	连缀	lian zhui	10	exact	successive	lian2 zhui4	連綴	107945	v. join together	a. 继承的, 连续的\n[经] 接续承运人; 连续的	exclude	连缀是动词“连接/串联”；successive 是形容词“连续的”，词性不合。	-

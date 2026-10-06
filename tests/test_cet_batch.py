@@ -234,6 +234,34 @@ class BatchNativeTests(unittest.TestCase):
             self.assertEqual(sense['pronunciation']['word'], english)
             self.assertEqual(self.action('translation', index=candidate['id'], sense_index=sense['index'], revision=state['revision'])['commit'], english)
 
+    def test_fourth_cedict_batch_is_reachable_tagged_pronounced_and_committable(self):
+        pinyin = {row.split('\t')[0]: row.split('\t')[1].replace(' ', '') for row in (ROOT / 'build/pinyin-candidates.tsv').read_text(encoding='utf-8').splitlines()}
+        with (ROOT / 'vocabulary/data/batches/08-cc-cedict-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream, delimiter='\t'))
+        self.assertEqual(len(rows), 12)
+        for row in rows:
+            chinese, english = row['chinese'], row['word']
+            self.assertIn(chinese, pinyin)
+            state = self.typed(pinyin[chinese])
+            candidate = None
+            for _ in range(state['page_count']):
+                candidate = next((item for item in state['candidates'] if item['text'] == chinese), None)
+                if candidate is not None:
+                    break
+                state = self.action('next_page')
+            self.assertIsNotNone(candidate, f'{chinese} is not reachable by its packed pinyin')
+            candidate_order = [item['text'] for item in state['candidates']]
+            selected = row['target_tags'].split(',')
+            state = self.action('vocabulary', vocabulary_targets=selected)
+            self.assertEqual([item['text'] for item in state['candidates']], candidate_order)
+            candidate = next(item for item in state['candidates'] if item['text'] == chinese)
+            sense = next((item for item in candidate['translation_senses'] if item['text'] == english), None)
+            self.assertIsNotNone(sense, f'missing translated sense {chinese} -> {english}')
+            self.assertEqual(sense['translation_source'], 'CC-CEDICT CC BY-SA 4.0')
+            self.assertTrue(any(tag['id'] in selected and tag['selected'] for tag in sense['tags']))
+            self.assertEqual(sense['pronunciation']['word'], english)
+            self.assertEqual(self.action('translation', index=candidate['id'], sense_index=sense['index'], revision=state['revision'])['commit'], english)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

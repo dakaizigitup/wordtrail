@@ -11,6 +11,7 @@ const WIKTIONARY_2_DATA: &str = include_str!("../../data/wiktionary-expansion-2.
 const CC_CEDICT_DATA: &str = include_str!("../../data/cccedict-expansion.tsv");
 const CC_CEDICT_2_DATA: &str = include_str!("../../data/cccedict-expansion-2.tsv");
 const CC_CEDICT_3_DATA: &str = include_str!("../../data/cccedict-expansion-3.tsv");
+const CC_CEDICT_4_DATA: &str = include_str!("../../data/cccedict-expansion-4.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
@@ -20,6 +21,7 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             CC_CEDICT_DATA,
             CC_CEDICT_2_DATA,
             CC_CEDICT_3_DATA,
+            CC_CEDICT_4_DATA,
             WIKTIONARY_2_DATA,
         ] {
             for row in data.lines() {
@@ -226,6 +228,30 @@ mod tests {
                 "missing CC-CEDICT expansion {chinese} -> {english}"
             );
             assert_eq!(source(chinese, english), Some("CC-CEDICT CC BY-SA 4.0"));
+        }
+    }
+
+    #[test]
+    fn fourth_cc_cedict_batch_is_queryable_with_separate_attribution() {
+        let rows: Vec<_> = CC_CEDICT_4_DATA.lines().collect();
+        assert_eq!(rows.len(), 12);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "CC-CEDICT CC BY-SA 4.0");
+            assert!(
+                senses(chinese).any(|sense| sense.text == english),
+                "missing CC-CEDICT expansion {chinese} -> {english}"
+            );
+            assert_eq!(source(chinese, english), Some(source_label));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| { matches!(tag.id, "cet4" | "cet6") })
+            );
         }
     }
 

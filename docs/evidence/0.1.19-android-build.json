@@ -1,0 +1,24 @@
+{
+  "version_name": "0.1.19",
+  "version_code": 20,
+  "package": "org.wordtrail.ime",
+  "apk": "wordtrail-0.1.19-debug.apk",
+  "bytes": 252299621,
+  "sha256": "4cbe5cfbf2faa9e8f7de75b3f246884dcaa19dba9e6b88509e76e1afcaadc536",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "new_batch_words_embedded_in_native_libraries": {
+    "entrepreneurship": true,
+    "contemptuous": true,
+    "processing": true
+  },
+  "internet_permission_present": false,
+  "signature_v2": true,
+  "signature_v3": true,
+  "zip_alignment_16k": true,
+  "device_install_test": false
+}

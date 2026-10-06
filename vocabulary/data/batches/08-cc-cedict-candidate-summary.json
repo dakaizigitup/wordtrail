@@ -1,0 +1,30 @@
+{
+  "batch": "02-cc-cedict-audit-1",
+  "source": {
+    "project": "CC-CEDICT",
+    "publisher": "MDBG",
+    "license": "CC BY-SA 4.0",
+    "official_license_and_download": "https://cc-cedict.org/editor/editor.php?handler=Download",
+    "source_snapshot_description": "June 2026 raw CC-CEDICT file mirrored with attribution in TeaPearce/chinese-english-dictionary",
+    "mirror_repo": "https://github.com/TeaPearce/chinese-english-dictionary",
+    "mirror_commit": "a9aea223269eb9820590e5bca783eb299c317439",
+    "path": "data/cedict_ts_june2026.u8",
+    "url": "https://raw.githubusercontent.com/TeaPearce/chinese-english-dictionary/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8",
+    "sha256": "8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f",
+    "bytes": 9869222
+  },
+  "pinned_ecdict_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "pinned_tag_sha256": "9b380aab7fe6a5ba7475a36d8058fe87a45e82ec914d301c8d342fd4088163f6",
+  "pinyin_candidates_sha256": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+  "candidate_tsv_sha256": "986f32fc674370dd99723e867242f2041181d6f2d449204fc9fe0c4c402f49fc",
+  "parsed_cedict_entries": 125031,
+  "unmapped_cet4_cet6_words_before_review": 485,
+  "candidate_rows": 40,
+  "candidate_unique_words": 32,
+  "candidate_chinese_keys": 39,
+  "candidate_rule": "Exact whole CC-CEDICT English gloss only (headword or 'to headword'); require CET tags, bundled IPA, exact simplified Qingjian pinyin key, and existing packed glossary key. CC-CEDICT supplies no POS; candidate POS shown here comes from pinned ECDICT and must be manually reviewed against the exact English gloss.",
+  "disclaimer": "Review queue only. It does not change runtime data; every adopted pair needs human sense/POS review and separate CC BY-SA 4.0 attribution.",
+  "candidate_tsv_includes_manual_decisions": true,
+  "manual_include_rows": 12,
+  "manual_exclude_rows": 28
+}

@@ -41,7 +41,7 @@ POS_MAP = {
     "n": "n.", "v": "v.", "vt": "v.", "vi": "v.",
     "a": "adj.", "adj": "adj.", "adv": "adv.",
     "pron": "pron.", "prep": "prep.", "conj": "conj.", "num": "num.",
-    "m": "m.", "mw": "m.", "part": "part.", "int": "int.",
+    "m": "m.", "mw": "m.", "part": "part.", "int": "int.", "abbr": "n.",
     "interj": "int.", "phr": "phr.", "phrase": "phr.",
 }
 
@@ -68,6 +68,7 @@ def load_current_words(base: dict[str, list[tuple[str, str]]]) -> set[str]:
         "cccedict-expansion.tsv",
         "cccedict-expansion-2.tsv",
         "cccedict-expansion-3.tsv",
+        "cccedict-expansion-4.tsv",
     ):
         path = DATA / name
         for line in path.read_text(encoding="utf-8").splitlines():

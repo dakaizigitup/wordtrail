@@ -7,6 +7,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 from prepare_cet_batch import coverage, load_base
 
@@ -33,6 +34,7 @@ ALLOWED_POS = {"n.", "v.", "adj.", "adv.", "pron.", "prep.", "conj.", "num.", "m
 LIMIT = 8
 MIN_PINYIN_FREQUENCY = 1000
 HAN = re.compile(r"[\u4e00-\u9fff]{2,6}")
+WORD = re.compile(r"(?:[a-z]+(?:[-'][a-z]+)*|(?:[a-z]\.){2,})")
 CEDICT_ENTRY = re.compile(r"^(\S+)\s+(\S+)\s+\[([^]]+)\]\s+/(.*)/\s*$")
 
 
@@ -86,12 +88,16 @@ def build_payloads(
     batch_name: str = "02-cc-cedict-1",
     minimum_frequency: int = MIN_PINYIN_FREQUENCY,
     prior_runtime_paths: tuple[Path, ...] = (),
+    audit_path: Path = AUDIT,
+    audit_summary_path: Path | None = None,
+    decision_path: Path | None = None,
 ):
     if not SOURCE.is_file() or sha(SOURCE) != SOURCE_SHA256:
         raise ValueError("Missing or changed pinned CC-CEDICT snapshot: " + str(SOURCE))
     data_manifest = json.loads((DATA / "manifest.json").read_text(encoding="utf-8"))
     ecdict_source = next(row for row in data_manifest["input_files"] if row["path"] == "ecdict.csv")
-    audit_manifest = json.loads((AUDIT.parent / "summary.json").read_text(encoding="utf-8"))
+    audit_summary_path = audit_summary_path or (audit_path.parent / "summary.json")
+    audit_manifest = json.loads(audit_summary_path.read_text(encoding="utf-8"))
     if audit_manifest["source"]["sha256"] != SOURCE_SHA256:
         raise ValueError("CC-CEDICT audit summary points to a different snapshot")
     if audit_manifest["pinned_tag_sha256"] != sha(DATA / "english-tags.tsv"):
@@ -100,10 +106,10 @@ def build_payloads(
         raise ValueError("The CC-CEDICT audit must be regenerated after pinyin-index changes")
     if audit_manifest["pinned_ecdict_sha256"] != ecdict_source["sha256"]:
         raise ValueError("The CC-CEDICT audit was not validated against the pinned ECDICT")
-    if audit_manifest.get("candidate_tsv_sha256") != sha(AUDIT):
+    if audit_manifest.get("candidate_tsv_sha256") != sha(audit_path):
         raise ValueError("CC-CEDICT audit TSV checksum mismatch")
     source_lines = SOURCE.read_text(encoding="utf-8").splitlines()
-    audit_rows = read_tsv(AUDIT)
+    audit_rows = read_tsv(audit_path)
     audit_by_pair: dict[tuple[str, str], list[dict[str, str]]] = {}
     for row in audit_rows:
         audit_by_pair.setdefault((row["word"], row["chinese"]), []).append(row)
@@ -132,17 +138,18 @@ def build_payloads(
 
     curation = read_tsv(input_path)
     required_input = {"word", "chinese", "pos", "review_note"}
-    if not curation or set(curation[0]) != required_input:
+    allowed_input = required_input | {"pos_reference_url"}
+    if not curation or not required_input.issubset(curation[0]) or not set(curation[0]).issubset(allowed_input):
         raise ValueError("Unexpected CC-CEDICT review input schema")
-    input_words: set[str] = set()
+    input_pairs: set[tuple[str, str]] = set()
     selected = []
     deferred = []
     for item in curation:
         word, chinese, pos = item["word"].strip().lower(), item["chinese"], item["pos"]
-        if word in input_words:
-            raise ValueError("Duplicate reviewed headword: " + word)
-        input_words.add(word)
-        if not re.fullmatch(r"[a-z]+(?:[-'][a-z]+)*", word):
+        if (word, chinese) in input_pairs:
+            raise ValueError("Duplicate reviewed headword and Chinese key: " + word + " -> " + chinese)
+        input_pairs.add((word, chinese))
+        if not WORD.fullmatch(word):
             raise ValueError("Invalid English headword: " + word)
         if not HAN.fullmatch(chinese) or chinese not in base or chinese not in pinyin:
             raise ValueError("Chinese gloss is not an exact packed pinyin key: " + chinese)
@@ -157,11 +164,19 @@ def build_payloads(
         if not item["review_note"].strip():
             raise ValueError("Missing manual sense review: " + word)
 
-        candidates = [row for row in audit_by_pair.get((word, chinese), [])
-                      if row["match_kind"] in {"exact", "to-verb"}
-                      and exact_pos_evidence(row, pos)]
+        pair_candidates = [row for row in audit_by_pair.get((word, chinese), [])
+                           if row["match_kind"] in {"exact", "to-verb"}]
+        candidates = [row for row in pair_candidates if exact_pos_evidence(row, pos)]
+        pos_reference_url = (item.get("pos_reference_url") or "").strip()
+        if pos_reference_url == "-":
+            pos_reference_url = ""
+        if not candidates and pos_reference_url:
+            parsed = urlparse(pos_reference_url)
+            if parsed.scheme != "https" or parsed.netloc != "dictionary.cambridge.org" or not parsed.path.startswith("/dictionary/english/"):
+                raise ValueError("External POS reference must be a Cambridge English Dictionary entry: " + word)
+            candidates = pair_candidates
         if not candidates:
-            raise ValueError(f"No exact CEDICT gloss and ECDICT POS evidence: {word} -> {chinese}")
+            raise ValueError(f"No exact CEDICT gloss and POS evidence: {word} -> {chinese}")
         candidate = max(candidates, key=lambda row: (int(row["pinyin_frequency"]), -int(row["source_line"])))
         mask = tags[word]
         actual_targets = [target for bit, target in enumerate(TARGETS) if mask & (1 << bit)]
@@ -200,6 +215,8 @@ def build_payloads(
             "source_url": f"https://github.com/{SOURCE_REPO}/blob/{SOURCE_COMMIT}/{SOURCE_PATH}",
             "review_note": item["review_note"],
         }
+        if "pos_reference_url" in curation[0]:
+            entry["pos_reference_url"] = pos_reference_url or "-"
         if int(candidate["pinyin_frequency"]) >= minimum_frequency:
             selected.append(entry)
         else:
@@ -222,6 +239,40 @@ def build_payloads(
     ).encode("utf-8")
 
     all_words = existing_words | {row["word"] for row in selected}
+    candidate_review = None
+    if decision_path is not None:
+        decision_rows = read_tsv(decision_path)
+        expected_pairs = {(row["word"], row["chinese"]) for row in audit_rows}
+        decisions = {(row["word"], row["chinese"]): row for row in decision_rows}
+        if len(decisions) != len(decision_rows) or set(decisions) != expected_pairs:
+            raise ValueError("Candidate decision file must cover each audit pair exactly once")
+        if any(row.get("decision") not in {"include", "defer", "exclude"} or not row.get("decision_note", "").strip()
+               for row in decision_rows):
+            raise ValueError("Every candidate decision needs a valid outcome and a review note")
+        included_pairs = {pair for pair, row in decisions.items() if row["decision"] == "include"}
+        if included_pairs != input_pairs:
+            raise ValueError("Included candidate decisions must match the reviewed input pairs")
+        for item in curation:
+            pair = (item["word"].strip().lower(), item["chinese"])
+            reviewed = decisions[pair]
+            if reviewed["decision_note"] != item["review_note"].strip():
+                raise ValueError("Candidate decision note differs from reviewed input: " + pair[0])
+            reviewed_reference = (reviewed.get("pos_reference_url") or "").strip()
+            input_reference = (item.get("pos_reference_url") or "").strip()
+            if reviewed_reference == "-":
+                reviewed_reference = ""
+            if input_reference == "-":
+                input_reference = ""
+            if reviewed_reference != input_reference:
+                raise ValueError("Candidate decision POS reference differs from reviewed input: " + pair[0])
+        candidate_review = {
+            "path": decision_path.relative_to(DATA).as_posix(),
+            "sha256": sha(decision_path),
+            "rows": len(decision_rows),
+            "included": len(included_pairs),
+            "deferred": sum(row["decision"] == "defer" for row in decision_rows),
+            "excluded": sum(row["decision"] == "exclude" for row in decision_rows),
+        }
     pinyin_keys = set(pinyin)
     reachable_before = (
         {word for chinese, senses in base.items() if chinese in pinyin_keys for word, _ in senses}
@@ -262,8 +313,8 @@ def build_payloads(
             "bytes": SOURCE.stat().st_size,
         },
         "audited_source": {
-            "summary_sha256": sha(AUDIT.parent / "summary.json"),
-            "candidate_file_sha256": sha(AUDIT),
+            "summary_sha256": sha(audit_summary_path),
+            "candidate_file_sha256": sha(audit_path),
             "candidate_rows": len(audit_rows),
             "source_line_numbers_resolved_against_snapshot": True,
         },
@@ -279,7 +330,7 @@ def build_payloads(
         "added_headwords": len({row["word"] for row in selected}),
         "added_candidate_keys": len({row["chinese"] for row in selected}),
         "added_headwords_by_target": {
-            target: sum(bool(tags[row["word"]] & (1 << bit)) for row in selected)
+            target: len({row["word"] for row in selected if tags[row["word"]] & (1 << bit)})
             for bit, target in enumerate(TARGETS)
         },
         "manual_reviewed_but_deferred_rows": len(deferred),
@@ -292,8 +343,16 @@ def build_payloads(
         "coverage_after": after_coverage,
         "candidate_reachable_coverage_before": coverage(tags, reachable_before, ipa),
         "candidate_reachable_coverage_after": coverage(tags, reachable_after, ipa),
-        "review_rule": "Every runtime row is an exact whole CC-CEDICT English gloss on a pinned source line, with simplified Chinese matching the packed pinyin key and an existing English IPA. POS is checked against pinned ECDICT; sense notes are manually curated. Original translations and Chinese candidate ordering are unchanged.",
-        "license_boundary": "The CC-CEDICT-derived runtime rows and source-attributed curation records are CC BY-SA 4.0 and remain separate from MIT/BSD expansions. POS audit labels are cross-checked against ECDICT (MIT); runtime rows do not include ECDICT definitions. No complete CC-CEDICT file is distributed.",
+        "review_rule": (
+            "Every runtime row is an exact whole CC-CEDICT English gloss on a pinned source line, with simplified Chinese matching the packed pinyin key and an existing English IPA. POS is checked against pinned ECDICT; sense notes are manually curated. Original translations and Chinese candidate ordering are unchanged."
+            if decision_path is None else
+            "Every runtime row is an exact whole CC-CEDICT English gloss on a pinned source line, with simplified Chinese matching the packed pinyin key and an existing English IPA. POS is checked against pinned ECDICT when it records POS; otherwise the reviewed row links a Cambridge English Dictionary entry and explains the manually verified POS. Sense notes are manually curated. Original translations and Chinese candidate ordering are unchanged."
+        ),
+        "license_boundary": (
+            "The CC-CEDICT-derived runtime rows and source-attributed curation records are CC BY-SA 4.0 and remain separate from MIT/BSD expansions. POS audit labels are cross-checked against ECDICT (MIT); runtime rows do not include ECDICT definitions. No complete CC-CEDICT file is distributed."
+            if decision_path is None else
+            "The CC-CEDICT-derived runtime rows and source-attributed curation records are CC BY-SA 4.0 and remain separate from MIT/BSD expansions. POS audit labels are cross-checked against ECDICT (MIT), with cited dictionary references only where ECDICT has no usable POS; no external definition text is copied into the runtime data. No complete CC-CEDICT file is distributed."
+        ),
         "limitations": "CC-CEDICT supplies Chinese-to-English glosses without POS. Exact gloss matching and manual review reduce ambiguity but do not imply an authoritative exam list or complete word-sense coverage. Pinyin frequency ranks candidate surfaces; a reachable key may still be below the first candidate page.",
     }
     if prior_runtime_paths:
@@ -301,6 +360,11 @@ def build_payloads(
             {"path": path.relative_to(DATA).as_posix(), "sha256": sha(path), "rows": len(read_expansion(path))}
             for path in prior_runtime_paths
         ]
+    if audit_path != AUDIT:
+        manifest["audited_source"]["summary_path"] = audit_summary_path.relative_to(ROOT).as_posix()
+        manifest["audited_source"]["candidate_file_path"] = audit_path.relative_to(ROOT).as_posix()
+    if candidate_review is not None:
+        manifest["candidate_review_file"] = candidate_review
     return {
         reviewed_path: reviewed_payload,
         output_path: runtime_payload,
@@ -318,6 +382,9 @@ def main():
     parser.add_argument("--batch-name", default="02-cc-cedict-1")
     parser.add_argument("--minimum-frequency", type=int, default=MIN_PINYIN_FREQUENCY)
     parser.add_argument("--prior-runtime", type=Path, action="append", default=[])
+    parser.add_argument("--audit", type=Path, default=AUDIT, help="review-only candidate audit TSV")
+    parser.add_argument("--audit-summary", type=Path, help="candidate audit summary JSON")
+    parser.add_argument("--decisions", type=Path, help="complete include/defer/exclude review for every audit candidate")
     args = parser.parse_args()
     if args.minimum_frequency < 0:
         parser.error("--minimum-frequency cannot be negative")
@@ -329,6 +396,9 @@ def main():
         batch_name=args.batch_name,
         minimum_frequency=args.minimum_frequency,
         prior_runtime_paths=tuple(path.resolve() for path in args.prior_runtime),
+        audit_path=args.audit.resolve(),
+        audit_summary_path=args.audit_summary.resolve() if args.audit_summary else None,
+        decision_path=args.decisions.resolve() if args.decisions else None,
     )
     for path, payload in outputs.items():
         if args.apply:

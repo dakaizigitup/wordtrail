@@ -16,7 +16,7 @@ def sha(file):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--windows-patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版四六级补词补丁'))
-    parser.add_argument('--version',default='0.1.18')
+    parser.add_argument('--version',default='0.1.19')
     args = parser.parse_args()
     output = ROOT/'dist'/'github-release'
     output.mkdir(parents=True,exist_ok=True)
@@ -44,6 +44,11 @@ def main():
             ROOT/'vocabulary/data/batches/07-cc-cedict-review-input.tsv',
             ROOT/'vocabulary/data/batches/07-cc-cedict-reviewed.tsv',
             ROOT/'vocabulary/data/cccedict-manifest-3.json',
+            ROOT/'vocabulary/data/batches/08-cc-cedict-candidate-decisions.tsv',
+            ROOT/'vocabulary/data/batches/08-cc-cedict-candidate-summary.json',
+            ROOT/'vocabulary/data/batches/08-cc-cedict-review-input.tsv',
+            ROOT/'vocabulary/data/batches/08-cc-cedict-reviewed.tsv',
+            ROOT/'vocabulary/data/cccedict-manifest-4.json',
         ]:
             archive.write(source,'wordtrail-windows-ipa-'+version+'/data-license/'+source.name)
         archive.write(ROOT/'docs/电脑版音标补丁.md','wordtrail-windows-ipa-'+version+'/使用说明.md')

@@ -1,0 +1,13 @@
+word	chinese	pos	review_note	pos_reference_url
+p.m.	下午	n.	缩写 p.m.（post meridiem），表示中午以后；青简词性枚举没有 abbr.，按内核词库生成约定以 n. 展示。CC-CEDICT 整词释义与本机音标可核对，词性参考 Cambridge 缩写条目。	https://dictionary.cambridge.org/dictionary/english/pm
+entrepreneurship	创业	n.	名词指创业活动或创业能力，中文“创业”可作该活动名词；固定 ECDICT 未提供可解析词性，词性与名词用法参考 Cambridge 条目。	https://dictionary.cambridge.org/dictionary/english/entrepreneurship
+batter	冲击	v.	仅取“用力反复击打/冲击”动词义，CC-CEDICT 原行写作 to batter；不映射面糊、击球手等名词义。	-
+processing	加工	n.	名词/动名词，表示加工处理这一过程；与原词库的动词 process 区分。固定 ECDICT 未提供可解析词性，参考 Cambridge 的 noun 释义。	https://dictionary.cambridge.org/dictionary/english/processing
+prospective	有希望	adj.	形容将来可能成为或预期会发生的对象；限定在 prospective buyer/student 等“有望成为”语境，不泛指乐观或有前途。	-
+philanthropy	善心	n.	取慈善、仁慈的名词义，强调助人及行善意愿，不指慈善机构本身。CC-CEDICT、ECDICT 均列 kindness/benevolence 相关义项。	-
+expertise	两手	n.	“两手”取本领、技能义（如“有两手”），不取字面上的双手；expertise 对应专门技能/专长。	-
+processing	制程	n.	仅取工业制造中的处理流程/制程名词义；固定 ECDICT 未提供可解析词性，参考 Cambridge 的 production/processing noun 释义。	https://dictionary.cambridge.org/dictionary/english/processing
+specifically	专程	adv.	限定为“为某个特定目的专程去/做”义；不覆盖 specifically 的“明确地、具体地”义。	-
+sophisticate	人精	n.	正式且较少见的名词义，指久经世故、精明练达的人；不取其动词义。	-
+tradesman	坐商	n.	限定为商业义的店主/固定店铺商人，不取建筑工匠等职业义。	-
+contemptuous	眼高	adj.	限定为傲慢、瞧不起人的贬义，与“眼高于顶”一类用法相近；不把“眼高”泛化成标准高或有抱负。	-

@@ -128,6 +128,66 @@ class CedictBatchTests(unittest.TestCase):
         self.assertTrue(all(row["review_note"] for row in reviewed))
         self.assertEqual(manifest["manual_reviewed_but_deferred_rows"], 0)
 
+    def test_fourth_tranche_reviews_the_full_queue_and_reproduces_outputs(self):
+        input_path = DATA / "batches/08-cc-cedict-review-input.tsv"
+        decisions_path = DATA / "batches/08-cc-cedict-candidate-decisions.tsv"
+        reviewed_path = DATA / "batches/08-cc-cedict-reviewed.tsv"
+        runtime_path = DATA / "cccedict-expansion-4.tsv"
+        manifest_path = DATA / "cccedict-manifest-4.json"
+        audit_path = DATA / "batches/08-cc-cedict-candidate-decisions.tsv"
+        audit_summary_path = DATA / "batches/08-cc-cedict-candidate-summary.json"
+        prior = tuple(DATA / f"cccedict-expansion{suffix}.tsv" for suffix in ("", "-2", "-3"))
+        outputs, manifest = build_payloads(
+            input_path=input_path,
+            reviewed_path=reviewed_path,
+            output_path=runtime_path,
+            manifest_path=manifest_path,
+            batch_name="02-cc-cedict-4",
+            minimum_frequency=0,
+            prior_runtime_paths=prior,
+            audit_path=audit_path,
+            audit_summary_path=audit_summary_path,
+            decision_path=decisions_path,
+        )
+        for path, payload in outputs.items():
+            self.assertEqual(path.read_bytes(), payload, str(path))
+
+        with input_path.open(encoding="utf-8", newline="") as stream:
+            inputs = list(csv.DictReader(stream, delimiter="\t"))
+        with reviewed_path.open(encoding="utf-8", newline="") as stream:
+            reviewed = list(csv.DictReader(stream, delimiter="\t"))
+        with decisions_path.open(encoding="utf-8", newline="") as stream:
+            decisions = list(csv.DictReader(stream, delimiter="\t"))
+        runtime = runtime_path.read_bytes()
+        self.assertEqual(len(inputs), 12)
+        self.assertEqual(len(reviewed), 12)
+        self.assertEqual(len(runtime.splitlines()), 12)
+        self.assertEqual(len({row["word"] for row in reviewed}), 11)
+        self.assertEqual(len({row["chinese"] for row in reviewed}), 12)
+        self.assertEqual(len(decisions), 40)
+        self.assertEqual(manifest["added_pairs"], 12)
+        self.assertEqual(manifest["added_headwords"], 11)
+        self.assertEqual(manifest["added_candidate_keys"], 12)
+        self.assertEqual(manifest["added_headwords_by_target"]["cet4"], 2)
+        self.assertEqual(manifest["added_headwords_by_target"]["cet6"], 10)
+        self.assertEqual(manifest["pending_cet_headwords_before"], 485)
+        self.assertEqual(manifest["pending_cet_headwords_after"], 474)
+        self.assertEqual(manifest["coverage_after"]["cet4"]["mapped"], 4812)
+        self.assertEqual(manifest["coverage_after"]["cet6"]["mapped"], 5640)
+        self.assertEqual(manifest["candidate_review_file"]["included"], 12)
+        self.assertEqual(manifest["candidate_review_file"]["excluded"], 28)
+        self.assertEqual(manifest["prior_cc_cedict_runtime_files"][2]["rows"], 20)
+        self.assertEqual(manifest["runtime_file"]["sha256"], digest(runtime_path))
+        self.assertEqual(manifest["curation_file"]["sha256"], digest(reviewed_path))
+        self.assertEqual(manifest["candidate_review_file"]["sha256"], digest(decisions_path))
+        self.assertTrue(all(row["review_note"] for row in reviewed))
+        self.assertTrue(all(row["source_url"].endswith("cedict_ts_june2026.u8") for row in reviewed))
+        self.assertEqual(sum(row["pos_reference_url"].startswith("https://") for row in reviewed), 4)
+        self.assertTrue(any(row["word"] == "p.m." and row["chinese"] == "下午" for row in reviewed))
+        self.assertTrue(any(row["word"] == "processing" and row["chinese"] == "加工" for row in reviewed))
+        self.assertTrue(any(row["word"] == "processing" and row["chinese"] == "制程" for row in reviewed))
+        self.assertEqual({row["decision"] for row in decisions}, {"include", "exclude"})
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

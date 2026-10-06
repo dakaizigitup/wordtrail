@@ -216,7 +216,7 @@ try:
         assert row['english'] in shown,'Wiktionary word did not appear in the real candidate window'
         check('Wiktionary IPC commits '+row['english'],key(slot,ctrl=True,shift=shown.index(row['english'])==1)['commit']==row['english'])
     cedict_rows=[]
-    for batch in ['04-cc-cedict-reviewed.tsv','05-cc-cedict-reviewed.tsv','07-cc-cedict-reviewed.tsv']:
+    for batch in ['04-cc-cedict-reviewed.tsv','05-cc-cedict-reviewed.tsv','07-cc-cedict-reviewed.tsv','08-cc-cedict-reviewed.tsv']:
         with (ROOT/'vocabulary/data/batches'/batch).open(encoding='utf-8',newline='') as stream:
             cedict_rows.extend(csv.DictReader(stream,delimiter='\t'))
     for row in cedict_rows:
