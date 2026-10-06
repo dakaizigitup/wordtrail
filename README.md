@@ -9,20 +9,20 @@
 
 ## 下载
 
-当前工作版为 **v0.1.15**。各平台版本独立：Android **0.1.15**，Windows 补丁 **0.1.8**（适用于官方青简 Windows 0.1.4）。
+当前工作版为 **v0.1.16**。各平台版本独立：Android **0.1.16**，Windows 补丁 **0.1.9**（适用于官方青简 Windows 0.1.4）。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.15/wordtrail-0.1.15-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
-| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.15/wordtrail-windows-ipa-0.1.8.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.15/wordtrail-0.1.15-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.15/SHA256SUMS.txt) | 核对发布附件 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.16/wordtrail-0.1.16-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
+| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.16/wordtrail-windows-ipa-0.1.9.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.16/wordtrail-0.1.16-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.16/SHA256SUMS.txt) | 核对发布附件 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
 ## 当前功能
 
-| 功能 | Android 0.1.15 | Windows 补丁 0.1.8 | iOS 源码 |
+| 功能 | Android 0.1.16 | Windows 补丁 0.1.9 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
@@ -36,7 +36,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 **已支持四级、六级、专四、专八、托福、雅思六类学习目标，支持多选与同词多标签。** 命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签不等于官方完整考试范围、考试成绩或个人水平。专业领域类别后续增加。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)。
 
-本版通过两个单独授权来源新增 **73 组中英对应**：15组 Wiktionary 和58组 CC-CEDICT，其中本次 CC-CEDICT 首段补入58个此前无映射的四六级词、覆盖57个拼音候选键。累计扩词 **3,931 组对应**，仍有578个去重四六级缺口。四级/六级映射覆盖率为 **95.40% / 91.98%**，按精确拼音候选计算的可触达率为 **92.26% / 88.57%**。66条低频已审候选留到下一段；覆盖只表示社区词表中有中文映射，不等同官方考纲完整覆盖。来源和统计见 [0.1.15 补词记录](docs/0.1.15四六级补词.md)、[CC-CEDICT 审校表](vocabulary/data/batches/04-cc-cedict-reviewed.tsv) 和 [分批补词计划](docs/分批补词计划.md)。
+本版通过两个单独授权来源新增 **139 组中英对应**：15组 Wiktionary 和124组 CC-CEDICT。CC-CEDICT 第二段补入66个低频词，累计覆盖124个此前无映射的四六级词。扩词总量为 **3,997 组对应**，仍有512个去重四六级缺口。四级/六级映射覆盖率为 **96.04% / 92.91%**，按精确拼音候选计算的可触达率为 **92.42% / 88.68%**。覆盖只表示社区词表中有中文映射，不等同官方考纲完整覆盖。来源和统计见 [0.1.16 补词记录](docs/0.1.16四六级补词.md)、[CC-CEDICT 两批审校表](vocabulary/data/batches/05-cc-cedict-reviewed.tsv) 和 [分批补词计划](docs/分批补词计划.md)。
 
 ## 安装与使用
 
@@ -79,7 +79,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 从 0.1.9 起，候选、详情和设置里均移除 A1–C2，详见 [标签精简说明](docs/0.1.9标签精简.md)。
 
-更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.15测试报告.md)、[上一版验证记录](docs/0.1.14测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
+更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.16测试报告.md)、[性能记录](docs/evidence/0.1.16-performance-after.json)、[上一版验证记录](docs/0.1.15测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
 
 ## 实现基底
 
@@ -119,7 +119,7 @@ python scripts/bootstrap_dependencies.py
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.15-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.16-source.zip
 ```
 
 该脚本只恢复被 Git 忽略的第三方依赖和生成词库，不覆盖当前开发代码。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。

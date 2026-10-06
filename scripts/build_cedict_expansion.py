@@ -78,7 +78,15 @@ def exact_pos_evidence(candidate: dict[str, str], pos: str) -> list[str]:
                    if part.strip().startswith(pos + " ")})
 
 
-def build_payloads():
+def build_payloads(
+    input_path: Path = INPUT,
+    reviewed_path: Path = REVIEWED,
+    output_path: Path = OUTPUT,
+    manifest_path: Path = MANIFEST,
+    batch_name: str = "02-cc-cedict-1",
+    minimum_frequency: int = MIN_PINYIN_FREQUENCY,
+    prior_runtime_paths: tuple[Path, ...] = (),
+):
     if not SOURCE.is_file() or sha(SOURCE) != SOURCE_SHA256:
         raise ValueError("Missing or changed pinned CC-CEDICT snapshot: " + str(SOURCE))
     data_manifest = json.loads((DATA / "manifest.json").read_text(encoding="utf-8"))
@@ -110,8 +118,16 @@ def build_payloads():
     extra_count: dict[str, int] = {}
     for row in original + wiktionary:
         extra_count[row["chinese"]] = extra_count.get(row["chinese"], 0) + 1
+    prior_rows = []
+    for path in prior_runtime_paths:
+        rows = read_expansion(path)
+        prior_rows.extend(rows)
+        existing_words.update(row["english"] for row in rows)
+        existing_pairs.update((row["chinese"], row["english"]) for row in rows)
+        for row in rows:
+            extra_count[row["chinese"]] = extra_count.get(row["chinese"], 0) + 1
 
-    curation = read_tsv(INPUT)
+    curation = read_tsv(input_path)
     required_input = {"word", "chinese", "pos", "review_note"}
     if not curation or set(curation[0]) != required_input:
         raise ValueError("Unexpected CC-CEDICT review input schema")
@@ -181,7 +197,7 @@ def build_payloads():
             "source_url": f"https://github.com/{SOURCE_REPO}/blob/{SOURCE_COMMIT}/{SOURCE_PATH}",
             "review_note": item["review_note"],
         }
-        if int(candidate["pinyin_frequency"]) >= MIN_PINYIN_FREQUENCY:
+        if int(candidate["pinyin_frequency"]) >= minimum_frequency:
             selected.append(entry)
         else:
             deferred.append(entry)
@@ -210,10 +226,22 @@ def build_payloads():
     reachable_after = reachable_before | {row["word"] for row in selected}
     before_coverage = coverage(tags, existing_words, ipa)
     after_coverage = coverage(tags, all_words, ipa)
-    input_sha = sha(INPUT)
+    input_sha = sha(input_path)
+    if batch_name == "02-cc-cedict-1" and minimum_frequency == MIN_PINYIN_FREQUENCY:
+        selection_rule = (
+            f"First tranche requires exact pinyin-key frequency >= {MIN_PINYIN_FREQUENCY}; "
+            "lower-frequency manually reviewed candidates are deferred without being rejected."
+        )
+    elif minimum_frequency == 0:
+        selection_rule = "All individually reviewed candidates with an exact packed pinyin key are included, regardless of frequency."
+    else:
+        selection_rule = (
+            f"This reviewed tranche requires exact pinyin-key frequency >= {minimum_frequency}; "
+            "lower-frequency manually reviewed candidates are deferred without being rejected."
+        )
     manifest = {
-        "batch": "02-cc-cedict-1",
-        "selection_rule": f"First tranche requires exact pinyin-key frequency >= {MIN_PINYIN_FREQUENCY}; lower-frequency manually reviewed candidates are deferred without being rejected.",
+        "batch": batch_name,
+        "selection_rule": selection_rule,
         "source": {
             "project": "CC-CEDICT",
             "attribution": "MDBG and CC-CEDICT contributors",
@@ -235,13 +263,13 @@ def build_payloads():
             "source_line_numbers_resolved_against_snapshot": True,
         },
         "validation_inputs": {
-            "manual_review_input": {"path": "batches/04-cc-cedict-review-input.tsv", "sha256": input_sha, "rows": len(curation)},
+            "manual_review_input": {"path": input_path.relative_to(DATA).as_posix(), "sha256": input_sha, "rows": len(curation)},
             "english_exam_tags_sha256": sha(DATA / "english-tags.tsv"),
             "pinyin_candidates_sha256": sha(PINYIN),
             "pinned_ecdict_sha256": ecdict_source["sha256"],
         },
-        "curation_file": {"path": "batches/04-cc-cedict-reviewed.tsv", "sha256": hashlib.sha256(reviewed_payload).hexdigest(), "rows": len(selected)},
-        "runtime_file": {"path": "cccedict-expansion.tsv", "sha256": hashlib.sha256(runtime_payload).hexdigest(), "bytes": len(runtime_payload), "rows": len(selected)},
+        "curation_file": {"path": reviewed_path.relative_to(DATA).as_posix(), "sha256": hashlib.sha256(reviewed_payload).hexdigest(), "rows": len(selected)},
+        "runtime_file": {"path": output_path.relative_to(DATA).as_posix(), "sha256": hashlib.sha256(runtime_payload).hexdigest(), "bytes": len(runtime_payload), "rows": len(selected)},
         "added_pairs": len(selected),
         "added_headwords": len({row["word"] for row in selected}),
         "added_candidate_keys": len({row["chinese"] for row in selected}),
@@ -263,18 +291,40 @@ def build_payloads():
         "license_boundary": "The CC-CEDICT-derived runtime rows and source-attributed curation records are CC BY-SA 4.0 and remain separate from MIT/BSD expansions. POS audit labels are cross-checked against ECDICT (MIT); runtime rows do not include ECDICT definitions. No complete CC-CEDICT file is distributed.",
         "limitations": "CC-CEDICT supplies Chinese-to-English glosses without POS. Exact gloss matching and manual review reduce ambiguity but do not imply an authoritative exam list or complete word-sense coverage. Pinyin frequency ranks candidate surfaces; a reachable key may still be below the first candidate page.",
     }
+    if prior_runtime_paths:
+        manifest["prior_cc_cedict_runtime_files"] = [
+            {"path": path.relative_to(DATA).as_posix(), "sha256": sha(path), "rows": len(read_expansion(path))}
+            for path in prior_runtime_paths
+        ]
     return {
-        REVIEWED: reviewed_payload,
-        OUTPUT: runtime_payload,
-        MANIFEST: (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
+        reviewed_path: reviewed_payload,
+        output_path: runtime_payload,
+        manifest_path: (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
     }, manifest
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="write generated review data, runtime rows, and manifest")
+    parser.add_argument("--input", type=Path, default=INPUT, help="manually reviewed candidate TSV")
+    parser.add_argument("--reviewed-output", type=Path, default=REVIEWED)
+    parser.add_argument("--runtime-output", type=Path, default=OUTPUT)
+    parser.add_argument("--manifest-output", type=Path, default=MANIFEST)
+    parser.add_argument("--batch-name", default="02-cc-cedict-1")
+    parser.add_argument("--minimum-frequency", type=int, default=MIN_PINYIN_FREQUENCY)
+    parser.add_argument("--prior-runtime", type=Path, action="append", default=[])
     args = parser.parse_args()
-    outputs, manifest = build_payloads()
+    if args.minimum_frequency < 0:
+        parser.error("--minimum-frequency cannot be negative")
+    outputs, manifest = build_payloads(
+        input_path=args.input.resolve(),
+        reviewed_path=args.reviewed_output.resolve(),
+        output_path=args.runtime_output.resolve(),
+        manifest_path=args.manifest_output.resolve(),
+        batch_name=args.batch_name,
+        minimum_frequency=args.minimum_frequency,
+        prior_runtime_paths=tuple(path.resolve() for path in args.prior_runtime),
+    )
     for path, payload in outputs.items():
         if args.apply:
             path.write_bytes(payload)

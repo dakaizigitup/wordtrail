@@ -1,0 +1,250 @@
+{
+  "batch": "02-cc-cedict-2",
+  "selection_rule": "All individually reviewed candidates with an exact packed pinyin key are included, regardless of frequency.",
+  "source": {
+    "project": "CC-CEDICT",
+    "attribution": "MDBG and CC-CEDICT contributors",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "official_download_and_license": "https://cc-cedict.org/editor/editor.php?handler=Download",
+    "snapshot": "June 2026 CC-CEDICT text mirrored in a pinned GitHub commit",
+    "mirror_repo": "https://github.com/TeaPearce/chinese-english-dictionary",
+    "commit": "a9aea223269eb9820590e5bca783eb299c317439",
+    "path": "data/cedict_ts_june2026.u8",
+    "url": "https://raw.githubusercontent.com/TeaPearce/chinese-english-dictionary/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8",
+    "sha256": "8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f",
+    "bytes": 9869222
+  },
+  "audited_source": {
+    "summary_sha256": "7801ebeb7d0ee879dfcdc86133eddcade6d523e92e40233b2975232a2fc8c29d",
+    "candidate_file_sha256": "2f22e71238ca19eeb345232ad6d7d9d1700213624cbc74f0eaeca8d109b36831",
+    "candidate_rows": 254,
+    "source_line_numbers_resolved_against_snapshot": true
+  },
+  "validation_inputs": {
+    "manual_review_input": {
+      "path": "batches/05-cc-cedict-review-input.tsv",
+      "sha256": "1c1b88b308844bc764ee86e610d8e5a0485217b4a65578f741d17688af5bc718",
+      "rows": 66
+    },
+    "english_exam_tags_sha256": "9b380aab7fe6a5ba7475a36d8058fe87a45e82ec914d301c8d342fd4088163f6",
+    "pinyin_candidates_sha256": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "pinned_ecdict_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf"
+  },
+  "curation_file": {
+    "path": "batches/05-cc-cedict-reviewed.tsv",
+    "sha256": "347e9af5a1f623aaaca711f7d5143ea781b6033a62682eb5188efec1c2ab86f3",
+    "rows": 66
+  },
+  "runtime_file": {
+    "path": "cccedict-expansion-2.tsv",
+    "sha256": "9fe002674813b6c235b6d5dedb008f21bc008a6422860c4e3513d8fe006064a5",
+    "bytes": 2939,
+    "rows": 66
+  },
+  "added_pairs": 66,
+  "added_headwords": 66,
+  "added_candidate_keys": 66,
+  "added_headwords_by_target": {
+    "cet4": 32,
+    "cet6": 56,
+    "tem4": 22,
+    "tem8": 48,
+    "toefl": 45,
+    "ielts": 29
+  },
+  "manual_reviewed_but_deferred_rows": 0,
+  "manual_reviewed_but_deferred_headwords": 0,
+  "deferred_frequency_range": [
+    0,
+    0
+  ],
+  "pending_cet_headwords_before": 578,
+  "pending_cet_headwords_after": 512,
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4769,
+      "missing": 230,
+      "percent": 95.4,
+      "mapped_with_ipa": 4761
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5552,
+      "missing": 484,
+      "percent": 91.98,
+      "mapped_with_ipa": 5541
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3716,
+      "missing": 624,
+      "percent": 85.62,
+      "mapped_with_ipa": 3711
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9509,
+      "missing": 2901,
+      "percent": 76.62,
+      "mapped_with_ipa": 9494
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8542,
+      "missing": 3671,
+      "percent": 69.94,
+      "mapped_with_ipa": 8483
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5366,
+      "missing": 1191,
+      "percent": 81.84,
+      "mapped_with_ipa": 5343
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4801,
+      "missing": 198,
+      "percent": 96.04,
+      "mapped_with_ipa": 4793
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5608,
+      "missing": 428,
+      "percent": 92.91,
+      "mapped_with_ipa": 5597
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3738,
+      "missing": 602,
+      "percent": 86.13,
+      "mapped_with_ipa": 3733
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9557,
+      "missing": 2853,
+      "percent": 77.01,
+      "mapped_with_ipa": 9542
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8587,
+      "missing": 3626,
+      "percent": 70.31,
+      "mapped_with_ipa": 8528
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5395,
+      "missing": 1162,
+      "percent": 82.28,
+      "mapped_with_ipa": 5372
+    }
+  },
+  "candidate_reachable_coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4588,
+      "missing": 411,
+      "percent": 91.78,
+      "mapped_with_ipa": 4581
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5297,
+      "missing": 739,
+      "percent": 87.76,
+      "mapped_with_ipa": 5287
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3547,
+      "missing": 793,
+      "percent": 81.73,
+      "mapped_with_ipa": 3542
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 8992,
+      "missing": 3418,
+      "percent": 72.46,
+      "mapped_with_ipa": 8979
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 7957,
+      "missing": 4256,
+      "percent": 65.15,
+      "mapped_with_ipa": 7917
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5093,
+      "missing": 1464,
+      "percent": 77.67,
+      "mapped_with_ipa": 5075
+    }
+  },
+  "candidate_reachable_coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4620,
+      "missing": 379,
+      "percent": 92.42,
+      "mapped_with_ipa": 4613
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5353,
+      "missing": 683,
+      "percent": 88.68,
+      "mapped_with_ipa": 5343
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3569,
+      "missing": 771,
+      "percent": 82.24,
+      "mapped_with_ipa": 3564
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9040,
+      "missing": 3370,
+      "percent": 72.84,
+      "mapped_with_ipa": 9027
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8002,
+      "missing": 4211,
+      "percent": 65.52,
+      "mapped_with_ipa": 7962
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5122,
+      "missing": 1435,
+      "percent": 78.11,
+      "mapped_with_ipa": 5104
+    }
+  },
+  "review_rule": "Every runtime row is an exact whole CC-CEDICT English gloss on a pinned source line, with simplified Chinese matching the packed pinyin key and an existing English IPA. POS is checked against pinned ECDICT; sense notes are manually curated. Original translations and Chinese candidate ordering are unchanged.",
+  "license_boundary": "The CC-CEDICT-derived runtime rows and source-attributed curation records are CC BY-SA 4.0 and remain separate from MIT/BSD expansions. POS audit labels are cross-checked against ECDICT (MIT); runtime rows do not include ECDICT definitions. No complete CC-CEDICT file is distributed.",
+  "limitations": "CC-CEDICT supplies Chinese-to-English glosses without POS. Exact gloss matching and manual review reduce ambiguity but do not imply an authoritative exam list or complete word-sense coverage. Pinyin frequency ranks candidate surfaces; a reachable key may still be below the first candidate page.",
+  "prior_cc_cedict_runtime_files": [
+    {
+      "path": "cccedict-expansion.tsv",
+      "sha256": "cfa15cc83f27bb9115018d797fc27067691491e580ff888640b646ae3e08e063",
+      "rows": 58
+    }
+  ]
+}

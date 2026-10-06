@@ -1,4 +1,4 @@
-词伴输入法 / Wordtrail 0.1.15
+词伴输入法 / Wordtrail 0.1.16
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -6,7 +6,7 @@
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.15-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.16-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -48,7 +48,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 
 署名：English Wiktionary contributors；https://en.wiktionary.org/ 。
 许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项中选择与词性/义项相符、且可由本机拼音候选输入的四六级词，整理为精简中英词条。
-以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.15-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 提供。
+以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.16-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 提供。
 
 auxiliary (adj.) -> 附属; https://en.wiktionary.org/wiki/auxiliary?oldid=93145546
 
@@ -83,7 +83,7 @@ whatsoever (adv.) -> 任何; https://en.wiktionary.org/wiki/whatsoever?oldid=920
 
 === CC-CEDICT 词汇补充（独立 CC BY-SA 4.0 数据）===
 
-署名：MDBG 与 CC-CEDICT contributors；https://cc-cedict.org/editor/editor.php?handler=Download 。许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ 。采用 TeaPearce/chinese-english-dictionary 固定提交 a9aea223269eb9820590e5bca783eb299c317439 中的 2026-06 CC-CEDICT 文本镜像；原始文件 SHA-256：8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f。修改：从中文到英文的整词释义中筛选四六级词，人工核对义项；补充本地拼音键与考试标签，并用 ECDICT（MIT）交叉检查词性。CC-CEDICT 不提供词性。只分发 58 条精简对应，不分发完整词典。运行词条及本表中的 CC-CEDICT 派生部分按 CC BY-SA 4.0 提供；POS 交叉核对来源与完整记录见随包 vocabulary/data/CC-CEDICT-ATTRIBUTION.md、vocabulary/data/batches/04-cc-cedict-reviewed.tsv 和 vocabulary/data/cccedict-manifest.json。
+署名：MDBG 与 CC-CEDICT contributors；https://cc-cedict.org/editor/editor.php?handler=Download 。许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ 。采用 TeaPearce/chinese-english-dictionary 固定提交 a9aea223269eb9820590e5bca783eb299c317439 中的 2026-06 CC-CEDICT 文本镜像；原始文件 SHA-256：8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f。修改：从中文到英文的整词释义中筛选四六级词，人工核对义项；补充本地拼音键与考试标签，并用 ECDICT（MIT）交叉检查词性。CC-CEDICT 不提供词性。本源码包分批交付 124 条精简对应，不分发完整词典。运行词条及本表中的 CC-CEDICT 派生部分按 CC BY-SA 4.0 提供；POS 交叉核对来源与完整记录见随包 vocabulary/data/CC-CEDICT-ATTRIBUTION.md、vocabulary/data/batches/04-cc-cedict-reviewed.tsv、vocabulary/data/batches/05-cc-cedict-reviewed.tsv 及两份 cccedict-manifest。
 
 ambient (n.) -> 环境; CC-CEDICT line 73830; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
@@ -200,6 +200,138 @@ privileged (adj.) -> 特权; CC-CEDICT line 71852; https://github.com/TeaPearce/
 cripple (v.) -> 削弱; CC-CEDICT line 14381; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
 agreeable (adj.) -> 可人; CC-CEDICT line 19165; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+compulsory (adj.) -> 必修; CC-CEDICT line 41047; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+disastrous (adj.) -> 惨重; CC-CEDICT line 43072; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+derivation (n.) -> 推导; CC-CEDICT line 48002; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+rural (adj.) -> 乡间; CC-CEDICT line 109800; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+prior (adj.) -> 在先; CC-CEDICT line 24931; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+thoughtless (adj.) -> 粗心; CC-CEDICT line 83901; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+hurl (v.) -> 投掷; CC-CEDICT line 45506; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+rattle (v.) -> 动摇; CC-CEDICT line 15633; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+victimize (v.) -> 害人; CC-CEDICT line 32766; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+throng (v.) -> 拥挤; CC-CEDICT line 49411; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+rug (n.) -> 地毯; CC-CEDICT line 25115; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+inaccessible (adj.) -> 闭塞; CC-CEDICT line 113280; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+fussy (adj.) -> 挑剔; CC-CEDICT line 46986; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+forthcoming (adj.) -> 坦白; CC-CEDICT line 25439; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+exploitation (n.) -> 剥削; CC-CEDICT line 14670; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+heavily (adv.) -> 重重; CC-CEDICT line 110792; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+fret (v.) -> 发愁; CC-CEDICT line 76211; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+preventive (adj.) -> 防范; CC-CEDICT line 114168; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+radioactive (adj.) -> 放射性; CC-CEDICT line 50337; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+aside (adv.) -> 一旁; CC-CEDICT line 650; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+upwards (adv.) -> 上边; CC-CEDICT line 1856; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+blond (adj.) -> 金发; CC-CEDICT line 111255; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+perspiration (n.) -> 汗水; CC-CEDICT line 62693; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+photoelectric (adj.) -> 光电; CC-CEDICT line 10754; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+intertwine (v.) -> 交错; CC-CEDICT line 5531; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+cubic (adj.) -> 立方体; CC-CEDICT line 82414; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+adjustable (adj.) -> 伸缩; CC-CEDICT line 7051; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+moderately (adv.) -> 适度; CC-CEDICT line 108918; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+delightful (adj.) -> 怡人; CC-CEDICT line 41500; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+spelling (n.) -> 写法; CC-CEDICT line 33628; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+empirical (adj.) -> 实证; CC-CEDICT line 33462; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+qualitative (adj.) -> 定性; CC-CEDICT line 32449; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+unrest (n.) -> 动乱; CC-CEDICT line 15583; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+dutiful (adj.) -> 本分; CC-CEDICT line 55671; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+disillusioned (adj.) -> 寒心; CC-CEDICT line 33282; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+pointless (adj.) -> 无谓; CC-CEDICT line 70077; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+yielding (adj.) -> 柔顺; CC-CEDICT line 56984; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+discrete (adj.) -> 分立; CC-CEDICT line 13601; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+downfall (n.) -> 倒台; CC-CEDICT line 8722; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+dependent (n.) -> 附庸; CC-CEDICT line 114640; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+alongside (adv.) -> 并肩; CC-CEDICT line 3224; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+saucer (n.) -> 碟子; CC-CEDICT line 79763; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+stillness (n.) -> 沉寂; CC-CEDICT line 63066; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+squash (v.) -> 压扁; CC-CEDICT line 26805; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+extinction (n.) -> 绝种; CC-CEDICT line 85581; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+impetus (n.) -> 势头; CC-CEDICT line 15837; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+surprising (adj.) -> 出人意料; CC-CEDICT line 13116; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+technical (adj.) -> 技术性; CC-CEDICT line 45328; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+infamous (adj.) -> 臭名昭著; CC-CEDICT line 91945; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+justifiable (adj.) -> 说得过去; CC-CEDICT line 101270; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+overcharge (v.) -> 宰客; CC-CEDICT line 32761; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+plough (v.) -> 破土; CC-CEDICT line 79404; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+imperative (adj.) -> 急迫; CC-CEDICT line 41564; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+marine (adj.) -> 海产; CC-CEDICT line 65391; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+genetic (adj.) -> 遗传性; CC-CEDICT line 109097; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+exclamation (n.) -> 感叹词; CC-CEDICT line 42879; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+exciting (adj.) -> 扣人心弦; CC-CEDICT line 45006; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+vex (v.) -> 烦扰; CC-CEDICT line 70442; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+displease (v.) -> 开罪; CC-CEDICT line 113535; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+unanimous (adj.) -> 众口一词; CC-CEDICT line 78509; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+saleable (adj.) -> 适销; CC-CEDICT line 108939; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+tangled (adj.) -> 错综; CC-CEDICT line 112131; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+satisfactorily (adv.) -> 妥帖; CC-CEDICT line 30411; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+skyrocket (v.) -> 扶摇直上; CC-CEDICT line 45124; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+shipment (n.) -> 装运; CC-CEDICT line 98779; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+efficiently (adv.) -> 三下五除二; CC-CEDICT line 1192; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
 
 === vocabulary\data\ECDICT-LICENSE ===

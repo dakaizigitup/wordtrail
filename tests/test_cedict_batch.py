@@ -53,6 +53,37 @@ class CedictBatchTests(unittest.TestCase):
         self.assertEqual(self.manifest["coverage_after"]["cet4"]["mapped"], 4769)
         self.assertEqual(self.manifest["coverage_after"]["cet6"]["mapped"], 5552)
 
+    def test_second_tranche_extends_first_without_replacing_it(self):
+        second = json.loads((DATA / "cccedict-manifest-2.json").read_text(encoding="utf-8"))
+        runtime_path = DATA / "cccedict-expansion-2.tsv"
+        reviewed_path = DATA / "batches/05-cc-cedict-reviewed.tsv"
+        runtime = runtime_path.read_bytes()
+        with reviewed_path.open(encoding="utf-8", newline="") as stream:
+            reviewed = list(csv.DictReader(stream, delimiter="\t"))
+        with (DATA / "batches/05-cc-cedict-review-input.tsv").open(encoding="utf-8", newline="") as stream:
+            input_rows = list(csv.DictReader(stream, delimiter="\t"))
+
+        self.assertEqual(second["batch"], "02-cc-cedict-2")
+        self.assertEqual(second["prior_cc_cedict_runtime_files"][0]["rows"], 58)
+        self.assertEqual(len(input_rows), 66)
+        self.assertEqual(len(runtime.splitlines()), 66)
+        self.assertEqual(len(reviewed), 66)
+        self.assertEqual(second["runtime_file"]["sha256"], digest(runtime_path))
+        self.assertEqual(second["curation_file"]["sha256"], digest(reviewed_path))
+        self.assertEqual(second["pending_cet_headwords_before"], 578)
+        self.assertEqual(second["pending_cet_headwords_after"], 512)
+        self.assertEqual(second["coverage_after"]["cet4"]["mapped"], 4801)
+        self.assertEqual(second["coverage_after"]["cet6"]["mapped"], 5608)
+
+        for values, row in zip((line.split("\t") for line in runtime.decode("utf-8").splitlines()), reviewed):
+            chinese, english, pos, source = values
+            self.assertEqual((chinese, english, pos), (row["chinese"], row["word"], row["pos"]))
+            self.assertEqual(source, "CC-CEDICT CC BY-SA 4.0")
+            self.assertLess(int(row["pinyin_frequency"]), 1000)
+            self.assertTrue(row["review_note"])
+            self.assertTrue(row["target_tags"].startswith(("cet4", "cet6")))
+            self.assertIn("a9aea223269eb9820590e5bca783eb299c317439", row["source_url"])
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

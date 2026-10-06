@@ -213,8 +213,10 @@ try:
             assert [c['text'] for c in items]==before,'Chinese order changed while browsing Wiktionary translation'
         assert row['english'] in shown,'Wiktionary word did not appear in the real candidate window'
         check('Wiktionary IPC commits '+row['english'],key(slot,ctrl=True,shift=shown.index(row['english'])==1)['commit']==row['english'])
-    with (ROOT/'vocabulary/data/batches/04-cc-cedict-reviewed.tsv').open(encoding='utf-8',newline='') as stream:
-        cedict_rows=list(csv.DictReader(stream,delimiter='\t'))
+    cedict_rows=[]
+    for batch in ['04-cc-cedict-reviewed.tsv','05-cc-cedict-reviewed.tsv']:
+        with (ROOT/'vocabulary/data/batches'/batch).open(encoding='utf-8',newline='') as stream:
+            cedict_rows.extend(csv.DictReader(stream,delimiter='\t'))
     for row in cedict_rows:
         for char in pinyin_codes[row['chinese']]:result=key(char)
         items=result['frame']['candidates']['items']
@@ -238,6 +240,11 @@ try:
         check('CC-CEDICT IPC commits '+row['word'],key(slot,ctrl=True,shift=shown.index(row['word'])==1)['commit']==row['word'])
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    (ROOT/'build/desktop-tests.txt').write_text(
+        'Windows real candidate window and IPC validation: '+str(len(checks))+' checks passed.\n'
+        +'\n'.join('PASS: '+name for name in checks)+'\n',
+        encoding='utf-8',
+    )
     pipe.close()
 finally:
     process.terminate();process.wait(timeout=10)

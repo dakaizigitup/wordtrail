@@ -45,6 +45,23 @@ class ExpansionTests(unittest.TestCase):
         self.assertTrue(any(tag['id'] == 'cet6' and tag['selected'] for tag in sense['tags']))
         self.assertEqual(sense['pronunciation']['word'], 'ambient')
         self.assertEqual(self.action('translation', index=candidate['id'], sense_index=sense['index'], revision=state['revision'])['commit'], 'ambient')
+    def test_low_frequency_cc_cedict_word_is_reachable_and_committable(self):
+        state=self.type('touzhi')
+        candidate=None
+        for _ in range(80):
+            candidate=next((c for c in state['candidates'] if c['text']=='投掷'),None)
+            if candidate is not None:break
+            state=self.action('next_page')
+        self.assertIsNotNone(candidate)
+        order=[c['text'] for c in state['candidates']]
+        state=self.action('vocabulary',vocabulary_targets=['cet6'])
+        self.assertEqual([c['text'] for c in state['candidates']],order)
+        candidate=next(c for c in state['candidates'] if c['text']=='投掷')
+        sense=next(s for s in candidate['translation_senses'] if s['text']=='hurl')
+        self.assertEqual(sense['translation_source'],'CC-CEDICT CC BY-SA 4.0')
+        self.assertTrue(any(tag['id']=='cet6' and tag['selected'] for tag in sense['tags']))
+        self.assertEqual(sense['pronunciation']['word'],'hurl')
+        self.assertEqual(self.action('translation',index=candidate['id'],sense_index=sense['index'],revision=state['revision'])['commit'],'hurl')
     def test_original_selection_restores_and_non_english_has_no_expansion(self):
         self.type('yijiaren');self.action('vocabulary',vocabulary_targets=['cet6','tem8'])
         state=self.action('vocabulary',vocabulary_targets=[])

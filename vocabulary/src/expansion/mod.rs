@@ -8,10 +8,11 @@ pub const EXTRA_PER_WORD: usize = 8;
 const DATA: &str = include_str!("../../data/english-expansion.tsv");
 const WIKTIONARY_DATA: &str = include_str!("../../data/wiktionary-expansion.tsv");
 const CC_CEDICT_DATA: &str = include_str!("../../data/cccedict-expansion.tsv");
+const CC_CEDICT_2_DATA: &str = include_str!("../../data/cccedict-expansion-2.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
-        for data in [DATA, WIKTIONARY_DATA, CC_CEDICT_DATA] {
+        for data in [DATA, WIKTIONARY_DATA, CC_CEDICT_DATA, CC_CEDICT_2_DATA] {
             for row in data.lines() {
                 let mut fields = row.split('\t');
                 let chinese = fields.next().unwrap();
@@ -202,6 +203,27 @@ mod tests {
         }
         assert!(crate::tags("collaborative", 0).iter().any(|tag| tag.id == "cet4"));
         assert!(crate::tags("collaborative", 0).iter().any(|tag| tag.id == "cet6"));
+    }
+
+    #[test]
+    fn cc_cedict_second_tranche_is_queryable_with_exam_tags_and_source() {
+        let rows: Vec<_> = CC_CEDICT_2_DATA.lines().collect();
+        assert_eq!(rows.len(), 66);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "CC-CEDICT CC BY-SA 4.0");
+            assert!(senses(chinese).any(|sense| sense.text == english));
+            assert_eq!(source(chinese, english), Some(source_label));
+            assert!(crate::tags(english, 0).iter().any(|tag| {
+                matches!(tag.id, "cet4" | "cet6")
+            }));
+        }
+        assert!(crate::tags("hurl", 0).iter().any(|tag| tag.id == "cet6"));
+        assert!(crate::tags("hurl", 0).iter().any(|tag| tag.id == "toefl"));
     }
     #[test]
     fn expanded_constructor_is_bounded_default_stays_two() {
