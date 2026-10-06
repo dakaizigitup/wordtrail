@@ -33,10 +33,22 @@ python scripts/prepare_expansion.py --download
 
 兼容补丁应用前先逐文件核验原始/已补丁 SHA-256，遇到未识别修改停止，避免覆盖维护者改动。`python scripts/apply_upstream.py --restore` 可恢复管理过的修改；后续构建会再应用。完整源码 ZIP 包含已应用的文件及补丁清单，Git 保持固定上游提交不变。
 
-## 批次01与后续重建
+## 批次01–02与后续重建
 
-当前生成数据来自 `python scripts/prepare_cet_batch.py`，`--check` 只校验确定性输出。`prepare_expansion.py` 保留为批次00的历史重建工具，直接运行会恢复首批数据；重建当前版须随后运行批次01工具。旧批次原始数据和校验和固定在 `data/batches/00-*`，批次01的核对输入、新增差异、缺口原因在 `01-*`。
+批次01生成数据来自 `python scripts/prepare_cet_batch.py`，批次02首段接着运行 `python scripts/prepare_candidate_batch.py --apply`。后者使用真实拼音词库导出的候选面审计新增项。`prepare_expansion.py` 保留为批次00的历史重建工具，直接运行会恢复首批数据；重建当前版应先恢复批次01，再恢复批次02。旧批次原始数据和校验和固定在 `data/batches/00-*`，批次01快照、核对输入、新增差异和缺口原因在 `01-*`；批次02人工核对、新增差异、输入校验和逐项缺口在 `02-*`。
 
-本轮新增2,033组对应、309个此前未映射词，累计3,628组、2,647个中文词面；累计924个英文词在最初原释义表没有。当前扩词表96,859字节。自动新增解析四六级每个词性下更多完整短义项，仍要求中文精确匹配、词性及WordNet同义关系。223组重点核对新增可明确补充原中文的名词/动词/修饰用法，不替换原义项。
+完整数据重建顺序（研究缓存已经准备且 SHA-256 校验通过）：
 
-覆盖率按完整英文词面统计，不承诺所有中文映射均能经拼音候选触达；后者在批次02逐项核查。见 [分批计划](../docs/分批补词计划.md) 与 [本轮结果](../docs/0.1.11四六级补词.md)。
+```powershell
+python scripts/prepare_cet_batch.py
+cargo run --locked --offline -p wordtrail-mobile --bin export_glossary -- data/glossary-en.qj vendor/qingjian/assets/glossary/glossary-en.tsv build/expansion-base.tsv
+cargo run --locked --offline -p wordtrail-mobile --bin export_pinyin_candidates -- data/dict.qj build/pinyin-candidates.tsv
+python scripts/prepare_candidate_batch.py --apply
+python scripts/prepare_candidate_batch.py --apply --check
+```
+
+`native/src/bin/export_pinyin_candidates.rs` 从固定 `data/dict.qj` 导出唯一拼音候选面；输入和输出哈希记录在批次02清单。自动新增要求固定四六级词表与 ECDICT 的完整短义和词性一致、拼音词库含有精确中文候选、原释义词性兼容且 WordNet 校验通过。人工核对项仍要求双来源同词同义同词性及精确候选面，可处理中文原词性差异和 WordNet 关系漏检。新中文键、短语和不可触达释义留待后续核对；不从子串猜测。
+
+累计新增3,660组中英对应、2,664个中文词面；其中956个英文词不在最初原释义表。当前扩词表98,386字节。六类考试数量是收录次数，不能相加作为去重词数。完整覆盖、触达统计和校验见 `data/expansion-manifest.json`；WordNet只在构建时使用，不把其定义或整个词典装入运行时。来源及许可见 `data/manifest.json`、`data/WordNet-LICENSE` 与 `data/wordnet-source.json`。
+
+覆盖率按完整英文词面统计；“可由候选触达”另按精确拼音候选面统计，两者都不代表官方完整考纲。见 [分批计划](../docs/分批补词计划.md)、[0.1.11结果](../docs/0.1.11四六级补词.md) 与 [0.1.12结果](../docs/0.1.12四六级补词.md)。

@@ -1,0 +1,211 @@
+{
+  "label": "before",
+  "initialization_ms": 193.0077,
+  "results": [
+    {
+      "pinyin": "fangqi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.8322,
+      "p95_ms": 2.1991,
+      "p99_ms": 3.6896
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.7778,
+      "p95_ms": 2.1911,
+      "p99_ms": 3.6258
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.9364,
+      "p95_ms": 2.5929,
+      "p99_ms": 3.5629
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.25455,
+      "p95_ms": 1.6063,
+      "p99_ms": 2.7993
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.19245,
+      "p95_ms": 1.6243,
+      "p99_ms": 2.9694
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.19455,
+      "p95_ms": 1.4082,
+      "p99_ms": 1.5243
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.97715,
+      "p95_ms": 1.2515,
+      "p99_ms": 2.6354
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.0418500000000002,
+      "p95_ms": 1.2662,
+      "p99_ms": 1.5019
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.0082,
+      "p95_ms": 2.5605,
+      "p99_ms": 2.6971
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.9474,
+      "p95_ms": 1.6451,
+      "p99_ms": 2.0393
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 0.9236500000000001,
+      "p95_ms": 1.4762,
+      "p99_ms": 2.4447
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 0.9431,
+      "p95_ms": 1.6591,
+      "p99_ms": 2.3245
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.72445,
+      "p95_ms": 2.6671,
+      "p99_ms": 3.2375
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.6273,
+      "p95_ms": 2.5085,
+      "p99_ms": 3.8004
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.67325,
+      "p95_ms": 3.1106,
+      "p99_ms": 4.2623
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 2.9344,
+      "p95_ms": 4.7314,
+      "p99_ms": 5.1624
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 2.70495,
+      "p95_ms": 4.4298,
+      "p99_ms": 4.8444
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 2.65085,
+      "p95_ms": 4.2343,
+      "p99_ms": 5.1889
+    }
+  ],
+  "scope": "Same Windows host debug C ABI, packed dictionary + translations + tags + IPA + JSON decode. Warm state queries; not key-to-screen or physical Android latency. Initialization includes dictionary/session load, one cold process sample."
+}

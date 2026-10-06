@@ -1,0 +1,108 @@
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 5.191s
+
+OK
+{
+  "evidence_pairs": 127,
+  "evidence_words": 127,
+  "decisions": {
+    "base_pos_mismatch": 5,
+    "manual_reviewed_pos_or_semantic_variant": 32,
+    "not_a_pinyin_candidate": 85,
+    "wordnet_lemma_pos_missing": 2,
+    "wordnet_not_related_to_existing_gloss": 3
+  },
+  "added_pairs": 32,
+  "added_headwords": 32,
+  "added_chinese_keys": 31,
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4660,
+      "missing": 339,
+      "percent": 93.22,
+      "mapped_with_ipa": 4652
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5326,
+      "missing": 710,
+      "percent": 88.24,
+      "mapped_with_ipa": 5316
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3647,
+      "missing": 693,
+      "percent": 84.03,
+      "mapped_with_ipa": 3643
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9334,
+      "missing": 3076,
+      "percent": 75.21,
+      "mapped_with_ipa": 9320
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8366,
+      "missing": 3847,
+      "percent": 68.5,
+      "mapped_with_ipa": 8307
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5247,
+      "missing": 1310,
+      "percent": 80.02,
+      "mapped_with_ipa": 5225
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4672,
+      "missing": 327,
+      "percent": 93.46,
+      "mapped_with_ipa": 4664
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5356,
+      "missing": 680,
+      "percent": 88.73,
+      "mapped_with_ipa": 5346
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3652,
+      "missing": 688,
+      "percent": 84.15,
+      "mapped_with_ipa": 3648
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9354,
+      "missing": 3056,
+      "percent": 75.37,
+      "mapped_with_ipa": 9340
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8391,
+      "missing": 3822,
+      "percent": 68.71,
+      "mapped_with_ipa": 8332
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5259,
+      "missing": 1298,
+      "percent": 80.2,
+      "mapped_with_ipa": 5237
+    }
+  },
+  "pending_cet_headwords": 797
+}

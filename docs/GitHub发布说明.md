@@ -1,7 +1,7 @@
 # GitHub 仓库与发布
 
 维护仓库：`https://github.com/dakaizigitup/wordtrail`。
-Git 标签 `v0.1.7` 汇总 Android 0.1.7、Windows 音标补丁 0.1.1 和未经编译验证的 iOS 源码。
+维护版本为 v0.1.12：Android 0.1.12、Windows 增强补丁 0.1.5（适用于青简官方 0.1.4）和未经编译验证的 iOS 源码。各发布附件与校验和见对应 GitHub Release。
 
 ## 日常开发
 
@@ -13,7 +13,7 @@ Git 标签 `v0.1.7` 汇总 Android 0.1.7、Windows 音标补丁 0.1.1 和未经�
 
 1. 编译并验证 Android APK；Windows 有改动时另行编译、验证补丁。
 2. 运行 `python scripts/package_source.py`，生成包括固定依赖、数据和许可的完整对应源码。
-3. 运行 `python scripts/prepare_github_release.py --version 0.1.7`，在 `dist/github-release/` 准备 APK、Windows 补丁 ZIP、源码 ZIP 和 `SHA256SUMS.txt`。
+3. 运行 `python scripts/prepare_github_release.py --version 0.1.12`，在 `dist/github-release/` 准备 APK、Windows 补丁 ZIP、源码 ZIP 和 `SHA256SUMS.txt`。
 4. 用 Git 提交、推送源码，创建对应标签，通过 GitHub Releases 上传上述四个附件，并核对远程文件数量、大小和校验和。
 
 发布说明明确各平台版本和安装前提。Windows 补丁需要先安装官方青简 0.1.4；它不是独立的全新 Windows 安装器。iOS 尚无 IPA。

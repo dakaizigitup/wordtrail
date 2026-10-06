@@ -8,7 +8,7 @@ import argparse, hashlib, re, shutil, urllib.request, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 RELEASE = 'https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.10/'
-NAME = 'wordtrail-0.1.10-source.zip'
+NAME = 'wordtrail-0.1.12-source.zip'
 PREFIXES = ('third-party/rust-ipa/', 'third-party/sherpa-onnx/jniLibs/')
 
 def digest(path):

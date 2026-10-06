@@ -155,6 +155,23 @@ try:
             assert [c['text'] for c in items]==before
         assert english in shown,'Added word not reachable in browsed display'
         check('batch01 current displayed '+english+' commits exactly',key(slot,ctrl=True,shift=shown.index(english)==1)['commit']==english)
+    vocabulary.write_text('{"targets":["cet4","cet6"]}',encoding='utf-8');time.sleep(1.2)
+    send('Poll',dict(session=session))
+    for pinyin,chinese,english in [('ranshao','燃烧','combustion'),('xiandaihua','现代化','modernize'),('zhongli','中立','neutrality'),('weifan','违反','violation')]:
+        for char in pinyin:result=key(char)
+        items=result['frame']['candidates']['items']
+        candidate=next(c for c in items if c['text']==chinese)
+        senses=candidate['translation']['senses'];words=[sense['text'] for sense in senses]
+        check('batch02 real IPC '+chinese+' retains original and adds '+english,len(words)>1 and english in words)
+        before=[c['text'] for c in items];slot=str(items.index(candidate)+1);shown=[]
+        for _ in range(len(senses)+1):
+            candidate=next(c for c in items if c['text']==chinese)
+            shown=[sense['text'] for sense in candidate['translation']['senses'][:2]]
+            if english in shown:break
+            result=key(slot,ctrl=True,alt=True);items=result['frame']['candidates']['items']
+            assert [c['text'] for c in items]==before,'Chinese order changed while browsing batch02 translation'
+        assert english in shown,'Batch02 word did not appear in the real candidate window'
+        check('batch02 displayed '+english+' commits exactly',key(slot,ctrl=True,shift=shown.index(english)==1)['commit']==english)
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     pipe.close()

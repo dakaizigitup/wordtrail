@@ -11,6 +11,7 @@ from test_native import ROOT, call
 
 sys.path.insert(0, str(ROOT / 'scripts'))
 from prepare_cet_batch import atomic_glosses, load_base, make_batch
+from prepare_candidate_batch import make_batch as make_candidate_batch
 
 
 class BatchDataTests(unittest.TestCase):
@@ -33,6 +34,8 @@ class BatchDataTests(unittest.TestCase):
             self.assertEqual(current[chinese][:len(old)], old, chinese)
         self.assertTrue(all(len(rows) <= 8 for rows in current.values()))
         self.assertEqual(len(self.rows), len({(r[0], r[1]) for r in self.rows}))
+        batch01 = [tuple(line.split('\t')) for line in (self.data / 'batches/01-expansion.tsv').read_text(encoding='utf-8').splitlines()]
+        self.assertEqual(self.rows[:len(batch01)], batch01)
 
     def test_gloss_parser_never_extracts_explanatory_substrings(self):
         base = {'勇敢': [], '勇敢的': [], '适当': [], '提高': []}
@@ -53,19 +56,24 @@ class BatchDataTests(unittest.TestCase):
         original = {w for senses in self.base.values() for w, _ in senses}
         seed = {r.split('\t')[1] for r in (self.data / 'batches/00-expansion.tsv').read_text(encoding='utf-8').splitlines()}
         after = original | {r[1] for r in self.rows}
+        batch01_rows = [line.split('\t') for line in (self.data / 'batches/01-expansion.tsv').read_text(encoding='utf-8').splitlines()]
+        after01 = original | {r[1] for r in batch01_rows}
         additions = [line.split('\t') for line in (self.data / 'batches/01-additions.tsv').read_text(encoding='utf-8').splitlines()]
         self.assertTrue(all(tags.get(row[1], 0) & 3 for row in additions))
-        self.assertEqual(self.meta['batch01']['newly_mapped_headwords'], len(after - (original | seed)))
+        self.assertEqual(self.meta['batch01']['newly_mapped_headwords'], len(after01 - (original | seed)))
         self.assertEqual(self.meta['headwords_not_anywhere_in_original_glossary'], len({r[1] for r in self.rows} - original))
         for bit, code in enumerate(['cet4', 'cet6', 'tem4', 'tem8', 'toefl', 'ielts']):
             target = {w for w, mask in tags.items() if mask & (1 << bit)}
             self.assertEqual(self.meta['coverage_after'][code]['mapped'], len(target & after))
-        pending = json.loads((self.data / 'batches/01-pending.json').read_text(encoding='utf-8'))['words']
+        pending = json.loads((self.data / 'batches/02-pending.json').read_text(encoding='utf-8'))['words']
         self.assertEqual({r['word'] for r in pending}, {w for w, mask in tags.items() if mask & 3} - after)
-        self.assertTrue(all(r['reasons'] for r in pending))
+        self.assertTrue(all(r['candidate_reasons'] for r in pending))
+        self.assertEqual(len(pending), self.meta['pending_distinct_cet_headwords'])
+        self.assertEqual(self.meta['batch02']['added_headwords'], 32)
+        self.assertEqual(self.meta['batch02']['manual_reviewed_pairs'], 32)
 
     def test_reproducible_outputs_and_pinned_manifest(self):
-        outputs, _ = make_batch()
+        outputs, _ = make_candidate_batch(apply=True, check=True)
         for path, payload in outputs.items():
             self.assertEqual(path.read_bytes(), payload, str(path))
         data = (self.data / 'english-expansion.tsv').read_bytes()

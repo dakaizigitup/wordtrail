@@ -135,6 +135,23 @@ mod tests {
         assert!(senses("丰富").all(|s| s.text != "affluent"));
     }
     #[test]
+    fn batch02_reviewed_pairs_are_queryable_by_exact_candidate_text() {
+        let rows: Vec<_> = DATA
+            .lines()
+            .filter(|row| row.ends_with("\tWordtrail-batch02-reviewed"))
+            .collect();
+        assert_eq!(rows.len(), 32);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            assert!(
+                senses(chinese).any(|sense| sense.text == english),
+                "missing exact expansion {chinese} -> {english}"
+            );
+        }
+    }
+    #[test]
     fn expanded_constructor_is_bounded_default_stays_two() {
         let senses: Vec<_> = (0..30)
             .map(|i| Sense {

@@ -59,7 +59,7 @@ try {
     foreach($qjSub in @('generated','classes','dex')){New-Item -ItemType Directory -Path (Join-Path $qjBuild $qjSub) -Force | Out-Null}
     $qjRes=Join-Path $qjRoot 'android\app\src\main\res'
     Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('compile','--dir',$qjRes,'-o',(Join-Path $qjBuild 'resources.zip'))
-    Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('link','-I',$qjJar,'--manifest',(Join-Path $qjRoot 'android\app\src\main\AndroidManifest.xml'),'--java',(Join-Path $qjBuild 'generated'),'-o',(Join-Path $qjBuild 'base.apk'),'--version-code','12','--version-name','0.1.11',(Join-Path $qjBuild 'resources.zip'))
+    Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('link','-I',$qjJar,'--manifest',(Join-Path $qjRoot 'android\app\src\main\AndroidManifest.xml'),'--java',(Join-Path $qjBuild 'generated'),'-o',(Join-Path $qjBuild 'base.apk'),'--version-code','13','--version-name','0.1.12',(Join-Path $qjBuild 'resources.zip'))
     $qjJavaFiles=@(Get-ChildItem -LiteralPath (Join-Path $qjRoot 'android\app\src\main\java'),(Join-Path $qjBuild 'generated') -Recurse -Filter '*.java' | ForEach-Object {$_.FullName})
     Invoke-QjTool 'javac' (@('-encoding','UTF-8','-source','17','-target','17','-classpath',$qjJar,'-d',(Join-Path $qjBuild 'classes'))+$qjJavaFiles)
     $qjClasses=@(Get-ChildItem -LiteralPath (Join-Path $qjBuild 'classes') -Recurse -Filter '*.class' | ForEach-Object {$_.FullName})
@@ -72,7 +72,7 @@ try {
     }
     $qjDist=Join-Path $qjRoot 'dist'
     New-Item -ItemType Directory -Path $qjDist -Force | Out-Null
-    $qjApk=Join-Path $qjDist 'wordtrail-0.1.11-debug.apk'
+    $qjApk=Join-Path $qjDist 'wordtrail-0.1.12-debug.apk'
     Invoke-QjTool (Join-Path $qjTools 'apksigner.bat') @('sign','--ks',$qjKey,'--ks-pass','pass:android','--ks-key-alias','wordtrail','--out',$qjApk,(Join-Path $qjBuild 'aligned.apk'))
     Invoke-QjTool (Join-Path $qjTools 'apksigner.bat') @('verify','--verbose',$qjApk)
     Invoke-QjTool (Join-Path $qjTools 'zipalign.exe') @('-c','-P','16','4',$qjApk)

@@ -13,7 +13,7 @@ def main():
     original='c9c3ac98a5b51f57fcbfd8ccec8ed25a96502592b7a40b498bc2a6447c54e554'
     shutil.copy2(ROOT/'scripts/vocabulary_settings.ps1',DELIVERY/'vocabulary_settings.ps1')
     (DELIVERY/'settings.cmd').write_text('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0vocabulary_settings.ps1"\r\n',encoding='ascii')
-    manifest=dict(version='0.1.4',base_version='Qingjian Windows 0.1.4',original_server_sha256=original,supported_previous_server_sha256=['b3b7100268fa64a89560f2142038623ac9527fa7875149ed68caec4aaf625634','a08ac3fa0b4a151d8b5e0bf18b21bc545c5360f2f623e031867645c147ca1b18','2fcb6f5b467fc0dce46777fdb1723c807e04712c84c9e25718e43880e817396d'],artifacts={})
+    manifest=dict(version='0.1.5',base_version='Qingjian Windows 0.1.4',original_server_sha256=original,supported_previous_server_sha256=['b3b7100268fa64a89560f2142038623ac9527fa7875149ed68caec4aaf625634','a08ac3fa0b4a151d8b5e0bf18b21bc545c5360f2f623e031867645c147ca1b18','2fcb6f5b467fc0dce46777fdb1723c807e04712c84c9e25718e43880e817396d','2ef3aa287d6987795877c28e1d6b2be55f7e017f2a687a3693e40a31b230b6d7'],artifacts={})
     for name in ['qingjian-server.exe','pronunciation-en.qj','install_desktop_ipa.ps1','vocabulary_settings.ps1','settings.cmd']:
         path=DELIVERY/name
         manifest['artifacts'][name]=dict(bytes=path.stat().st_size,sha256=sha(path))

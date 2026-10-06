@@ -1,0 +1,14 @@
+{
+  "artifact": "wordtrail-0.1.12-debug.apk",
+  "bytes": 252266853,
+  "sha256": "f25b69b1bd78ffcfcc89bd87e4a8056e95541c138fd450ed9d23e01b0f82b753",
+  "badging": [
+    "package: name='org.wordtrail.ime' versionCode='13' versionName='0.1.12' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'",
+    "sdkVersion:'26'",
+    "targetSdkVersion:'35'",
+    "native-code: 'arm64-v8a' 'x86_64'"
+  ],
+  "signature_verification": "apksigner v2/v3 passed",
+  "zip_alignment": "16 KiB page alignment passed",
+  "device_probe": "adb devices found no connected devices"
+}
