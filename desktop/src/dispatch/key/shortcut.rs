@@ -23,10 +23,50 @@ impl Router {
             self.commit_translation_on_page(digit, 1)
         } else if chord == self.config.delete_keys {
             self.forget_on_page(digit)
+        } else if chord.ctrl && chord.alt && !chord.shift && !chord.win {
+            self.cycle_translation_on_page(digit)
         } else {
             return None;
         };
         Some(effect)
+    }
+
+    pub(in crate::dispatch) fn browse_translation(&self, candidate: &mut Candidate) {
+        if let Some((word, offset)) = &self.translation_browse {
+            if candidate.text == *word {
+                if let Some(t) = candidate.translation.as_mut() {
+                    let len = t.senses().len();
+                    if t.language == qingjian_core::Language::English && len > 2 {
+                        t.senses_mut().rotate_left(offset % len);
+                    }
+                }
+            }
+        }
+    }
+
+    fn cycle_translation_on_page(&mut self, digit: usize) -> Effect {
+        if let Some(candidate) = self.annotated_candidate_on_page(digit) {
+            let len = candidate
+                .translation
+                .as_ref()
+                .map_or(0, |t| t.senses().len());
+            if len > 2 {
+                let offset = self
+                    .translation_browse
+                    .as_ref()
+                    .filter(|(w, _)| *w == candidate.text)
+                    .map_or(0, |(_, n)| *n);
+                self.translation_browse = Some((candidate.text.clone(), (offset + 2) % len));
+                self.notice = Some(format!(
+                    "「{}」译词 {}/{}；继续 Ctrl+Alt+{}，按原译词快捷键输入",
+                    candidate.text,
+                    (offset + 2) % len + 1,
+                    len,
+                    digit
+                ));
+            }
+        }
+        Effect::Navigated
     }
 
     /// 上屏第 `digit` 个候选的第 `sense` 条译文；没有那条译文就吞掉按键不动。
@@ -81,6 +121,7 @@ impl Router {
         self.engine.annotate(&mut list);
         for candidate in &mut list.items {
             wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+            self.browse_translation(candidate);
         }
         list.items.pop()
     }

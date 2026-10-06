@@ -197,3 +197,102 @@ fn tab_with_raw_input_and_no_candidates_is_consumed_without_commit() {
     assert_eq!(result.1, None);
     assert_eq!(result.2.page, 0);
 }
+
+#[test]
+fn extra_translations_can_be_browsed_and_committed_without_chinese_reordering() {
+    use qingjian_core::Language;
+    use qingjian_translate::Glossary;
+    use wordtrail_vocabulary::expansion::ExpandedTranslator;
+    let engine = Engine::new(Dictionary::parse("放弃\tfang qi\t100\n房契\tfang qi\t90\n").unwrap())
+        .with_translator(Box::new(ExpandedTranslator::new(Box::new(
+            Glossary::parse(Language::English, "放弃\tv. abandon\tv. give up\n").unwrap(),
+        ))));
+    let mut r = Router::new(engine, RouterConfig::default());
+    r.handle(ClientMessage::OpenSession {
+        session: SessionId(1),
+        app: None,
+        protocol: PROTOCOL_VERSION,
+    });
+    compose(&mut r, "fangqi", KeyModifiers::default());
+    let before = r.current_frame();
+    let all = before.candidates.items[0]
+        .translation
+        .as_ref()
+        .unwrap()
+        .senses()
+        .to_vec();
+    assert!(all.len() > 2);
+    let cycle = KeyModifiers {
+        ctrl: true,
+        alt: true,
+        ..Default::default()
+    };
+    let mut seen = std::collections::HashSet::new();
+    for _ in 0..all.len() {
+        let frame = key(&mut r, 49, Some('1'), cycle).2;
+        assert_eq!(
+            frame
+                .candidates
+                .items
+                .iter()
+                .map(|c| &c.text)
+                .collect::<Vec<_>>(),
+            before
+                .candidates
+                .items
+                .iter()
+                .map(|c| &c.text)
+                .collect::<Vec<_>>()
+        );
+        seen.extend(
+            frame.candidates.items[0]
+                .translation
+                .as_ref()
+                .unwrap()
+                .senses()[..2]
+                .iter()
+                .map(|s| s.text.clone()),
+        );
+    }
+    assert_eq!(seen.len(), all.len());
+    r.set_vocabulary_targets(1 << 1);
+    assert_eq!(
+        r.current_frame().candidates.items[0]
+            .translation
+            .as_ref()
+            .unwrap()
+            .senses()[0]
+            .text,
+        "abandon"
+    );
+    r.set_vocabulary_targets(0);
+    assert_eq!(
+        r.current_frame().candidates.items[0]
+            .translation
+            .as_ref()
+            .unwrap()
+            .senses()[0]
+            .text,
+        "abandon"
+    );
+    let frame = key(&mut r, 49, Some('1'), cycle).2;
+    let expected = frame.candidates.items[0]
+        .translation
+        .as_ref()
+        .unwrap()
+        .senses()[0]
+        .text
+        .clone();
+    let commit_keys = r.config.translation_keys.0;
+    assert_eq!(key(&mut r, 49, Some('1'), commit_keys).1, Some(expected));
+    compose(&mut r, "fangqi", KeyModifiers::default());
+    assert_eq!(
+        r.current_frame().candidates.items[0]
+            .translation
+            .as_ref()
+            .unwrap()
+            .senses()[0]
+            .text,
+        "abandon"
+    );
+}

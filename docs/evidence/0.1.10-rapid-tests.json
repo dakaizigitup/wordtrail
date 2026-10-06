@@ -1,0 +1,53 @@
+{
+  "method": "Real injected touchscreen DOWN/UP with precise interval; UI composition checked after native queue drains.",
+  "cases": [
+    {
+      "gap_ms": 120,
+      "expected": "haoshijiejintiantiankaitianhaoshijie",
+      "actual": "haoshijiejintiantiankaitianhaoshijie",
+      "elapsed_ms": 4321,
+      "passed": true,
+      "starts_with_candidates": false
+    },
+    {
+      "gap_ms": 120,
+      "expected": "nihaoshijiejintiantiankaitianhaoshijie",
+      "actual": "nihaoshijiejintiantiankaitianhaoshijie",
+      "elapsed_ms": 4320,
+      "passed": true,
+      "starts_with_candidates": true
+    },
+    {
+      "gap_ms": 60,
+      "expected": "haoshijiejintiantiankaitianhaoshijie",
+      "actual": "haoshijiejintiantiankaitianhaoshijie",
+      "elapsed_ms": 2587,
+      "passed": true,
+      "starts_with_candidates": false
+    },
+    {
+      "gap_ms": 60,
+      "expected": "nihaoshijiejintiantiankaitianhaoshijie",
+      "actual": "nihaoshijiejintiantiankaitianhaoshijie",
+      "elapsed_ms": 2569,
+      "passed": true,
+      "starts_with_candidates": true
+    },
+    {
+      "gap_ms": 30,
+      "expected": "haoshijiejintiantiankaitianhaoshijie",
+      "actual": "haoshijiejintiantiankaitianhaoshijie",
+      "elapsed_ms": 3182,
+      "passed": true,
+      "starts_with_candidates": false
+    },
+    {
+      "gap_ms": 30,
+      "expected": "nihaoshijiejintiantiankaitianhaoshijie",
+      "actual": "nihaoshijiejintiantiankaitianhaoshijie",
+      "elapsed_ms": 4863,
+      "passed": true,
+      "starts_with_candidates": true
+    }
+  ]
+}

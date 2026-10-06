@@ -9,20 +9,20 @@
 
 ## 下载
 
-当前发布为 **v0.1.9**。各平台版本独立：Android **0.1.9**，Windows 补丁 **0.1.2**。
+当前发布为 **v0.1.10**。各平台版本独立：Android **0.1.10**，Windows 补丁 **0.1.3**。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/wordtrail-0.1.9-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
-| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/wordtrail-windows-ipa-0.1.2.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/wordtrail-0.1.9-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/SHA256SUMS.txt) | 核对发布附件 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.10/wordtrail-0.1.10-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
+| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.10/wordtrail-windows-ipa-0.1.3.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.10/wordtrail-0.1.10-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.10/SHA256SUMS.txt) | 核对发布附件 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
 ## 当前功能
 
-| 功能 | Android 0.1.9 | Windows 补丁 0.1.2 | iOS 源码 |
+| 功能 | Android 0.1.10 | Windows 补丁 0.1.3 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
@@ -35,6 +35,8 @@
 Android 同时提供中英切换、数字/符号键盘、主动收起按钮、紧凑候选行、可滚动的释义/多音标详情。新译词标橙、熟悉译词变灰；保留本地学习机制。
 
 **已支持四级、六级、专四、专八、托福、雅思六类学习目标，支持多选与同词多标签。** 命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签不等于官方完整考试范围、考试成绩或个人水平。专业领域类别后续增加。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)。
+
+本版已补充 **1,595 组中英对应**，扩展 **1,307 个中文词条**；新增对应涉及 **1,539 个英文词**，其中 **615 个词在原释义表中完全不存在**。不是仅给原有词加标签。原译词全部保留，新旧译词一起参与考试目标优先。详见 [实际扩词说明](docs/0.1.10实际扩词.md)。
 
 ## 安装与使用
 
@@ -57,7 +59,8 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 2. 下载并完整解压本项目的 Windows 音标补丁，结束正在输入的拼音，运行 `install.cmd`，按系统提示授予管理员权限。
 3. 用 `Win + 空格` 切换到青简，在偏好设置选择英语；输入 `nihao` 即可看到英语释义旁的英式/美式音标。
 4. 运行补丁目录里的 `settings.cmd` 多选英语学习目标，保存后约一秒生效。
-5. 若要恢复安装前的服务，运行 `rollback.cmd`。保留整个补丁目录及安装时生成的 `backup/`。
+5. 译词超过两条时，按 `Ctrl+Alt+候选序号` 轮换查看，原译词输入快捷键输入当前显示的第一/第二条；输入新的拼音后恢复目标排序。
+6. 若要恢复安装前的服务，运行 `rollback.cmd`。保留整个补丁目录及安装时生成的 `backup/`。
 
 补丁只替换候选窗口服务并增加音标文件，保留原输入法 DLL、输入协议、词库与用户数据。补丁尚无官方数字签名；管理员宿主窗口等特殊场景未充分验证。详见 [Windows 补丁说明](docs/电脑版音标补丁.md)。
 
@@ -67,14 +70,16 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 ## 界面预览
 
-<img src="docs/screenshots/android-0.1.9-goals.png" width="230" alt="Android 六类英语学习目标多选">
-<img src="docs/screenshots/android-0.1.9-candidates.png" width="230" alt="Android 英文译词优先与多标签候选">
+<img src="docs/screenshots/android-0.1.10-goals.png" width="230" alt="Android 六类英语学习目标多选">
+<img src="docs/screenshots/android-0.1.10-priority.png" width="230" alt="Android 新增六级译词优先与多标签候选">
 
-<img src="docs/screenshots/desktop-ipa.png" width="620" alt="Windows 真实候选窗口音标">
+<img src="docs/screenshots/android-0.1.10-expanded.png" width="230" alt="新增译词详情滚动与逐条输入">
+
+<img src="docs/screenshots/desktop-0.1.3-expansion.png" width="620" alt="Windows 真实候选窗口音标">
 
 从 0.1.9 起，候选、详情和设置里均移除 A1–C2，详见 [标签精简说明](docs/0.1.9标签精简.md)。
 
-更多 [主题预览](docs/主题预览.html)、[本版检查说明](docs/0.1.9标签精简.md)、[上一版验证记录](docs/0.1.8测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
+更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.10测试报告.md)、[上一版验证记录](docs/0.1.8测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
 
 ## 实现基底
 
@@ -92,13 +97,16 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 | `android/` | Java 系统输入法、设置界面和离线语音 JNI |
 | `ios/` | SwiftUI 宿主、UIKit 键盘扩展与 XcodeGen 工程描述 |
 | `desktop/` | Windows 音标增强服务 |
-| `vocabulary/` | 六类考试多标签索引与共享排序规则 |
+| `vocabulary/` | 六类考试多标签、实际扩词索引与共享排序规则 |
+| `upstream/` | 固定青简内核的小型校验补丁，保留普通两条释义上限 |
 | `pronunciation/` | 独立英式 / 美式音标数据与查询代码 |
 | `vendor/qingjian/` | 固定版本的上游源码和数据来源说明 |
 | `scripts/` | 构建、数据准备、打包与发布 |
 | `tests/` | 引擎、输入连接、布局、快速触屏和语音流程检查 |
 
 Git 仓库保留日常可维护源码；大型构建产物、第三方依赖副本、生成词库和模型权重不提交 Git。**Release 的完整源码 ZIP 包含对应的第三方源码和数据**，用于审查、构建及保留完整许可。
+
+扩词采用精简索引，嵌入约 42 KB 数据文本，首次初始化索引后按中文词面查表，不在每次按键时扫描 ECDICT 或 WordNet。WordNet 只用于开发构建时的拼写/同义校验。源词表来自社区，经过保守过滤和常用词抽查，仍可能有歧义，不等于已完整人工审校或覆盖全部考试词。
 
 克隆后，先恢复与本版匹配的依赖和词库：
 
@@ -111,7 +119,7 @@ python scripts/bootstrap_dependencies.py
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.9-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.10-source.zip
 ```
 
 该脚本只恢复被 Git 忽略的第三方依赖和生成词库，不覆盖当前开发代码。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。
@@ -124,7 +132,7 @@ Android：`scripts/build_android.ps1`；Windows：`scripts/build_desktop.ps1`；
 
 欢迎提交 Issues 与 Pull Request，见 [CONTRIBUTING](CONTRIBUTING.md)。
 
-2026-10-05 已完成第一阶段 [词库调研与多标签设计](docs/词库调研与多标签设计.md)，包括实际数据去重、来源检查与索引速度原型。2026-10-06 已在 Android 0.1.8 / Windows 补丁 0.1.2 接入六类目标与多标签。
+2026-10-05 已完成第一阶段 [词库调研与多标签设计](docs/词库调研与多标签设计.md)，包括实际数据去重、来源检查与索引速度原型。2026-10-06 已接入六类目标、多标签及实际扩词，见 [0.1.10 说明](docs/0.1.10实际扩词.md)。
 
 ## 来源与许可
 

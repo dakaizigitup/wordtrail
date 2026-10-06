@@ -299,12 +299,13 @@ public final class WordtrailIME extends InputMethodService {
         Button close=control("收起",v -> {pronunciationPanel.setVisibility(View.GONE);pronunciationPanel.removeAllViews();});close.setContentDescription("收起音标详情");header.addView(close,new LinearLayout.LayoutParams(dp(54),dp(28)));pronunciationPanel.addView(header);
         ScrollView scroll=new ScrollView(this);scroll.setFocusable(false);scroll.setVerticalScrollBarEnabled(true);scroll.setFillViewport(false);
         LinearLayout body=new LinearLayout(this);body.setOrientation(LinearLayout.VERTICAL);body.setPadding(dp(12),0,dp(12),dp(10));
-        TextView gloss=detailLine(candidate.optString("annotation"));body.addView(gloss);
+        TextView gloss=detailLine(candidate.optString("text")+" · 全部译词（向上滑动查看更多）");body.addView(gloss);
         JSONArray senses=candidate.optJSONArray("translation_senses");
         if(senses!=null)for(int i=0;i<senses.length();i++){
             JSONObject sense=senses.optJSONObject(i);if(sense==null)continue;JSONArray tags=sense.optJSONArray("tags");
             String tagDescription=displayed.optString("language").equals("en")?" · "+(tags==null || tags.length()==0?"暂无考试标签":tagLabels(tags)):"";
             TextView entry=detailLine(sense.optString("text")+tagDescription);entry.setTextColor(palette.accent);body.addView(entry);
+            if(!sense.isNull("translation_source")){TextView origin=detailLine("新增译词："+sense.optString("translation_source"));origin.setTextSize(10);origin.setTextColor(palette.muted);body.addView(origin);}
             java.util.LinkedHashSet<String> sources=new java.util.LinkedHashSet<>();if(tags!=null)for(int t=0;t<tags.length();t++){JSONArray names=tags.optJSONObject(t).optJSONArray("sources");if(names!=null)for(int n=0;n<names.length();n++)sources.add(names.optString(n));}
             if(!sources.isEmpty()){TextView source=detailLine("词表来源："+String.join(" / ",sources));source.setTextSize(10);source.setTextColor(palette.muted);body.addView(source);}
             JSONObject ipa=sense.optJSONObject("pronunciation");if(ipa!=null){if(!ipa.isNull("uk"))body.addView(detailLine("英式  "+ipa.optString("uk")));if(!ipa.isNull("us"))body.addView(detailLine("美式  "+ipa.optString("us")));}

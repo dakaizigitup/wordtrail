@@ -24,21 +24,24 @@ def settings(targets):
     ui.adb('shell','am','force-stop','org.wordtrail.ime')
     ui.adb('shell','am','start','-W','-f','0x10008000','-n','org.wordtrail.ime/.MainActivity')
     clear=scroll_to(lambda n:n.get('text')=='全部词汇 / 清除目标');ui.tap(clear)
+    ui.wait(lambda ns:any(n.get('text')=='全部词汇 · 原译词顺序' for n in ns))
     for label in targets:
         node=scroll_to(lambda n:n.get('description')=='优先'+label+'译词')
         ui.tap(node);ui.wait(lambda ns:any(n.get('description')=='优先'+label+'译词' and n.get('checked') for n in ns))
+    # A forced process stop immediately after apply() can kill its disk write.
+    time.sleep(.3)
 
 def main():
     probe=helpers.stable_probe()
     try:
-        settings(['专四']);ui.screenshot('android-0.1.9-goals.png')
+        settings(['专四']);ui.screenshot('android-0.1.10-goals.png')
         helpers.home();ui.type_pinyin('bbei')
         ui.wait(lambda ns:any(n.get('description','').startswith('宝贝 n. darling') for n in ns))
         ui.check('candidate strip has no CEFR badges even with prior settings',not any('CEFR' in n.get('description','') or re.fullmatch('[ABC][12]',n.get('text','')) for n in ui.nodes()))
         badge=ui.wait(lambda ns:next((n for n in ns if n.get('description','').startswith('darling · 考试标签 ')),None))
         ui.check('manually chosen TEM4 persists and moves darling before baby',badge['description'].startswith('darling · 考试标签 专四'))
         ui.check('multiple tags belong to the displayed English word','四级' in badge['description'] and '专八' in badge['description'])
-        ui.screenshot('android-0.1.9-candidates.png')
+        ui.screenshot('android-0.1.10-candidates.png')
         ui.tap(ui.exact('宝贝'),long=True);ui.check('long press inserts the displayed prioritized translation',helpers.draft()=='darling')
         helpers.home();ui.type_pinyin('bbei');ui.tap(ui.description('查看宝贝的音标和释义'));ui.exact('darling · 音标')
         ui.check('expanded IPA title follows the prioritized translation',True)

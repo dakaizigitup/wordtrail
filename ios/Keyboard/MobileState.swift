@@ -30,6 +30,7 @@ struct VocabularyTag: Decodable {
 struct MobileTranslationSense: Decodable {
     let index: Int
     let text: String
+    let translationSource: String?
     let partOfSpeech: String?
     let reading: String?
     let fresh: Bool

@@ -51,6 +51,7 @@ pub struct MobileCandidate {
 pub struct TranslationSense {
     pub index: usize,
     pub text: String,
+    pub translation_source: Option<&'static str>,
     pub part_of_speech: Option<String>,
     pub reading: Option<String>,
     pub fresh: bool,

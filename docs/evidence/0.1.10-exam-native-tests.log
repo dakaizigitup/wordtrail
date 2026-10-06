@@ -1,0 +1,12 @@
+test_chinese_commit_is_unchanged (__main__.ExamVocabularyTests.test_chinese_commit_is_unchanged) ... ok
+test_invalid_selection_keeps_previous_targets (__main__.ExamVocabularyTests.test_invalid_selection_keeps_previous_targets) ... ok
+test_multi_select_uses_or_and_preserves_ties (__main__.ExamVocabularyTests.test_multi_select_uses_or_and_preserves_ties) ... ok
+test_other_languages_have_no_english_exam_tags (__main__.ExamVocabularyTests.test_other_languages_have_no_english_exam_tags) ... ok
+test_priority_ipa_levels_and_commit_are_consistent (__main__.ExamVocabularyTests.test_priority_ipa_levels_and_commit_are_consistent) ... ok
+test_secondary_sense_remains_available (__main__.ExamVocabularyTests.test_secondary_sense_remains_available) ... ok
+test_target_change_invalidates_snapshot_without_losing_composition (__main__.ExamVocabularyTests.test_target_change_invalidates_snapshot_without_losing_composition) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.868s
+
+OK

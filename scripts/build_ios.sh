@@ -6,6 +6,7 @@ if [[ "$(uname -s)" != "Darwin" ]]; then
 fi
 cd "$(dirname "$0")/.."
 command -v xcodegen >/dev/null || { echo "请先安装 XcodeGen（brew install xcodegen）。" >&2; exit 1; }
+python3 scripts/apply_upstream.py
 python3 scripts/prepare_data.py
 rustup target add aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios
 for target in aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios; do

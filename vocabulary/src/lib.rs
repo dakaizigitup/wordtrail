@@ -1,4 +1,5 @@
 //! Shared exam membership and stable sense priority. Never ranks Chinese candidates.
+pub mod expansion;
 use qingjian_core::{Candidate, Language};
 use serde::{Deserialize, Serialize};
 use std::{borrow::Cow, collections::HashMap, path::Path, sync::LazyLock};

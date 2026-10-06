@@ -17,7 +17,13 @@ impl Router {
             let unchanged = matches!(&self.last_shown, Some((f, r)) if f == frame && *r == rect);
             if !unchanged {
                 // 词汇记录的「看到轮次」按真正显示的页算，与 macOS 壳对齐。
-                self.engine.note_displayed(frame.candidates.items.iter());
+                let shown: Vec<_> = frame
+                    .candidates
+                    .items
+                    .iter()
+                    .map(|c| wordtrail_vocabulary::expansion::displayed(c, 2))
+                    .collect();
+                self.engine.note_displayed(shown.iter());
                 self.candidates.show(frame.clone(), rect);
                 self.last_shown = Some((frame.clone(), rect));
             }

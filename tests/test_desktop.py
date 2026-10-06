@@ -61,8 +61,8 @@ try:
     session=91821
     check('protocol 7 opens a session', 'SessionOpened' in send('OpenSession',dict(session=session,app='wordtrail-ipa-test.exe',protocol=7)))
     send('Privacy',dict(session=session,private=True),False)
-    def key(char,ctrl=False):
-        return send('Key',dict(session=session,event=dict(virtual_key=ord(char.upper()),character=char,modifiers=dict(ctrl=ctrl,shift=False,alt=False,win=False,caps=False,english_mode=False))))['KeyResult']
+    def key(char,ctrl=False,alt=False):
+        return send('Key',dict(session=session,event=dict(virtual_key=ord(char.upper()),character=char,modifiers=dict(ctrl=ctrl,shift=False,alt=alt,win=False,caps=False,english_mode=False))))['KeyResult']
     for char in 'nihao':result=key(char)
     check('real dictionary produces Chinese candidate','你好' in json.dumps(result,ensure_ascii=False))
     send('PositionCandidates',dict(session=session,rect=dict(left=180,top=160,right=182,bottom=182)),False)
@@ -112,6 +112,33 @@ try:
     if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.2-vocabulary.png')
     result=key(str(updated.index(baby)+1),ctrl=True)
     check('Ctrl digit inserts prioritized translation matching displayed frame',result['commit']=='darling')
+    vocabulary.write_text('{"targets":[]}',encoding='utf-8');time.sleep(1.2)
+    send('Poll',dict(session=session))
+    for char in 'fangqi':result=key(char)
+    expanded=result['frame']['candidates']['items']
+    abandon=next(c for c in expanded if c['text']=='放弃')
+    senses=abandon['translation']['senses']
+    check('real IPC preserves originals and exposes actual added relinquish',senses[0]['text']=='give up' and senses[1]['text']=='abandon' and any(s['text']=='relinquish' for s in senses))
+    slot=str(expanded.index(abandon)+1);seen=set()
+    for _ in range(len(senses)):
+        result=key(slot,ctrl=True,alt=True)
+        current=result['frame']['candidates']['items']
+        check_order=[c['text'] for c in current]==[c['text'] for c in expanded]
+        assert check_order,'Chinese order changed during translation browsing'
+        seen.update(s['text'] for s in next(c for c in current if c['text']=='放弃')['translation']['senses'][:2])
+    check('all extra words can be browsed without changing Chinese order',len(seen)==len(senses))
+    result=key(slot,ctrl=True,alt=True)
+    current=next(c for c in result['frame']['candidates']['items'] if c['text']=='放弃')
+    expected=current['translation']['senses'][0]['text']
+    send('PositionCandidates',dict(session=session,rect=dict(left=180,top=160,right=182,bottom=182)),False);time.sleep(.4)
+    if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.3-expansion.png')
+    check('Ctrl digit commits the currently browsed new word',key(slot,ctrl=True)['commit']==expected)
+    vocabulary.write_text('{"targets":["cet6"]}',encoding='utf-8');time.sleep(1.2)
+    send('Poll',dict(session=session))
+    for char in 'yijiaren':result=key(char)
+    family=next(c for c in result['frame']['candidates']['items'] if c['text']=='一家人')
+    check('new CET6 household is prioritized before original family',[s['text'] for s in family['translation']['senses']]==['household','family'])
+    check('new prioritized word commits through real IPC',key(str(result['frame']['candidates']['items'].index(family)+1),ctrl=True)['commit']=='household')
     vocabulary.write_text('{"targets":[]}',encoding='utf-8')
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')

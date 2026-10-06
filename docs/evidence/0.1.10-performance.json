@@ -1,0 +1,95 @@
+{
+  "scope": "Windows debug shared DLL C ABI, actual packed dictionary, expansion, tags, IPA and JSON decoding; not mobile latency",
+  "results": [
+    {
+      "pinyin": "fangqi",
+      "goals": [],
+      "p50_ms": 2.7717,
+      "p95_ms": 3.9323,
+      "p99_ms": 4.5629
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet6"
+      ],
+      "p50_ms": 2.42455,
+      "p95_ms": 3.5082,
+      "p99_ms": 3.7882
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "p50_ms": 2.52,
+      "p95_ms": 3.597,
+      "p99_ms": 4.2416
+    },
+    {
+      "pinyin": "zhongyao",
+      "goals": [],
+      "p50_ms": 4.41955,
+      "p95_ms": 6.5856,
+      "p99_ms": 7.1995
+    },
+    {
+      "pinyin": "zhongyao",
+      "goals": [
+        "cet6"
+      ],
+      "p50_ms": 4.31625,
+      "p95_ms": 6.5838,
+      "p99_ms": 7.4687
+    },
+    {
+      "pinyin": "zhongyao",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "p50_ms": 4.0336,
+      "p95_ms": 6.0368,
+      "p99_ms": 6.8561
+    },
+    {
+      "pinyin": "yijiaren",
+      "goals": [],
+      "p50_ms": 1.7681499999999999,
+      "p95_ms": 2.7434,
+      "p99_ms": 3.1432
+    },
+    {
+      "pinyin": "yijiaren",
+      "goals": [
+        "cet6"
+      ],
+      "p50_ms": 1.7152,
+      "p95_ms": 2.7027,
+      "p99_ms": 3.4394
+    },
+    {
+      "pinyin": "yijiaren",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "p50_ms": 1.9414,
+      "p95_ms": 2.9399,
+      "p99_ms": 3.2282
+    }
+  ]
+}

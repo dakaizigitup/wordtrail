@@ -173,7 +173,7 @@ final class KeyboardViewController: UIInputViewController {
             let title = NSMutableAttributedString(string: candidate.text + "\n", attributes: [.font: UIFont.systemFont(ofSize: 20, weight: .medium), .foregroundColor: index == 0 ? palette.accent : palette.ink])
             let tags = candidate.translationSenses?.first?.tags ?? []
             let tagSummary = tags.isEmpty ? "" : " [" + tags.prefix(2).map { $0.label }.joined(separator: "/") + (tags.count > 2 ? "+\(tags.count - 2)" : "") + "]"
-            title.append(NSAttributedString(string: candidate.annotation + tagSummary, attributes: [.font: UIFont.systemFont(ofSize: 10), .foregroundColor: candidate.fresh ? palette.fresh : palette.muted]))
+            title.append(NSAttributedString(string: ((candidate.translationSenses?.first).map { ($0.partOfSpeech ?? "") + " " + $0.text } ?? candidate.annotation) + tagSummary, attributes: [.font: UIFont.systemFont(ofSize: 10), .foregroundColor: candidate.fresh ? palette.fresh : palette.muted]))
             title.addAttribute(.paragraphStyle, value: paragraph, range: NSRange(location: 0, length: title.length))
             item.setAttributedTitle(title, for: .normal)
             item.widthAnchor.constraint(equalToConstant: wide ? 142 : 118).isActive = true
@@ -214,17 +214,30 @@ final class KeyboardViewController: UIInputViewController {
         header.addArrangedSubview(close); header.heightAnchor.constraint(equalToConstant: 28).isActive = true; pronunciationPanel.addArrangedSubview(header)
         let scroll = UIScrollView(); scroll.heightAnchor.constraint(equalToConstant: 80).isActive = true
         let label = UILabel(); label.numberOfLines = 0; label.font = .systemFont(ofSize: 13); label.textColor = palette.ink
-        var text = candidate.annotation
+        var text = candidate.text + " · 全部译词（向上滑动查看更多）"
         if let senses = candidate.translationSenses {
             for sense in senses {
                 text += "\n" + sense.text + " · " + (sense.tags.isEmpty ? "暂无考试标签" : sense.tags.map { $0.label }.joined(separator: " / "))
+                if let source = sense.translationSource { text += "\n新增译词：" + source }
                 let sources = Array(Set(sense.tags.flatMap { $0.sources })).sorted()
                 if !sources.isEmpty { text += "\n词表来源：" + sources.joined(separator: " / ") }
                 if let ipa = sense.pronunciation { if let uk = ipa.uk { text += "\n英式  " + uk }; if let us = ipa.us { text += "\n美式  " + us } }
             }
         } else if let ipa = candidate.pronunciation { if let uk = ipa.uk { text += "\n英式  " + uk }; if let us = ipa.us { text += "\n美式  " + us } }
-        label.text = text; label.translatesAutoresizingMaskIntoConstraints = false; scroll.addSubview(label)
-        NSLayoutConstraint.activate([label.leadingAnchor.constraint(equalTo: scroll.contentLayoutGuide.leadingAnchor, constant: 12), label.trailingAnchor.constraint(equalTo: scroll.contentLayoutGuide.trailingAnchor, constant: -12), label.topAnchor.constraint(equalTo: scroll.contentLayoutGuide.topAnchor, constant: 3), label.bottomAnchor.constraint(equalTo: scroll.contentLayoutGuide.bottomAnchor, constant: -10), label.widthAnchor.constraint(equalTo: scroll.frameLayoutGuide.widthAnchor, constant: -24)])
+        label.text = text
+        let body = UIStackView(); body.axis = .vertical; body.spacing = 6; body.translatesAutoresizingMaskIntoConstraints = false
+        body.addArrangedSubview(label)
+        if let revision = state?.revision, let senses = candidate.translationSenses {
+            for sense in senses {
+                let insert = button("输入译词 " + sense.text) { [weak self] in
+                    self?.send("translation", ["index": candidate.id, "sense_index": sense.index, "revision": revision])
+                }
+                insert.titleLabel?.font = .systemFont(ofSize: 12)
+                insert.heightAnchor.constraint(equalToConstant: 38).isActive = true; body.addArrangedSubview(insert)
+            }
+        }
+        scroll.addSubview(body)
+        NSLayoutConstraint.activate([body.leadingAnchor.constraint(equalTo: scroll.contentLayoutGuide.leadingAnchor, constant: 12), body.trailingAnchor.constraint(equalTo: scroll.contentLayoutGuide.trailingAnchor, constant: -12), body.topAnchor.constraint(equalTo: scroll.contentLayoutGuide.topAnchor, constant: 3), body.bottomAnchor.constraint(equalTo: scroll.contentLayoutGuide.bottomAnchor, constant: -10), body.widthAnchor.constraint(equalTo: scroll.frameLayoutGuide.widthAnchor, constant: -24)])
         pronunciationPanel.addArrangedSubview(scroll); pronunciationPanel.isHidden = false; updateHeight()
     }
 

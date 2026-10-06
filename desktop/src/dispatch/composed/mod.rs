@@ -12,6 +12,7 @@ impl Router {
     /// 缓冲变化后：按 Engine 状态重建 [`Composed`]，发一次云联想请求，归零高亮与整句补全。
     pub(super) fn recompose(&mut self) {
         self.highlight = 0;
+        self.translation_browse = None;
         self.navigated = false;
         self.sentence = None;
         if self.engine.composition().is_empty() {
@@ -232,6 +233,7 @@ impl Router {
                 self.engine.annotate(&mut candidates);
                 for candidate in &mut candidates.items {
                     wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+                    self.browse_translation(candidate);
                 }
                 Frame {
                     preedit: preedit.clone(),

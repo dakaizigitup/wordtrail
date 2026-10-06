@@ -38,7 +38,7 @@ pub(crate) fn from_candidate(position: usize, candidate: &Candidate, show_code: 
         annotation.push((reading.clone(), Tone::Gloss));
     }
     if let Some(translation) = &candidate.translation {
-        for (i, sense) in translation.senses().iter().enumerate() {
+        for (i, sense) in translation.senses().iter().take(2).enumerate() {
             if i > 0 || !annotation.is_empty() {
                 annotation.push((" · ".to_owned(), Tone::Faint));
             }
@@ -81,6 +81,18 @@ pub(crate) fn from_candidate(position: usize, candidate: &Candidate, show_code: 
                     }
                 }
             }
+        }
+    }
+    if let Some(t) = &candidate.translation {
+        if t.senses().len() > 2 {
+            annotation.push((
+                format!(
+                    "  [+{} · Ctrl+Alt+{} 换译词]",
+                    t.senses().len() - 2,
+                    position + 1
+                ),
+                Tone::Faint,
+            ));
         }
     }
     Row {

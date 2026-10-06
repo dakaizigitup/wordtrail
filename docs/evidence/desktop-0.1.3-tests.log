@@ -1,0 +1,13 @@
+PASS: protocol 7 opens a session
+PASS: real dictionary produces Chinese candidate
+PASS: native candidate window renders
+PASS: translation commit contains only hello
+PASS: normal Chinese commit is unchanged
+PASS: target hot reload preserves Chinese candidate order
+PASS: real IPC frame prioritizes TEM4 darling while retaining baby
+PASS: Ctrl digit inserts prioritized translation matching displayed frame
+PASS: real IPC preserves originals and exposes actual added relinquish
+PASS: all extra words can be browsed without changing Chinese order
+PASS: Ctrl digit commits the currently browsed new word
+PASS: new CET6 household is prioritized before original family
+PASS: new prioritized word commits through real IPC

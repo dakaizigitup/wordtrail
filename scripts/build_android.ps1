@@ -39,6 +39,7 @@ function Invoke-QjTool([string]$Executable,[string[]]$Arguments) {
 }
 Push-Location $qjRoot
 try {
+    Invoke-QjTool 'python' @((Join-Path $PSScriptRoot 'apply_upstream.py'))
     Invoke-QjTool 'python' @((Join-Path $PSScriptRoot 'prepare_data.py'))
     Invoke-QjTool 'python' @((Join-Path $PSScriptRoot 'prepare_voice.py'))
     foreach($qjAbi in $Abis){
@@ -58,7 +59,7 @@ try {
     foreach($qjSub in @('generated','classes','dex')){New-Item -ItemType Directory -Path (Join-Path $qjBuild $qjSub) -Force | Out-Null}
     $qjRes=Join-Path $qjRoot 'android\app\src\main\res'
     Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('compile','--dir',$qjRes,'-o',(Join-Path $qjBuild 'resources.zip'))
-    Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('link','-I',$qjJar,'--manifest',(Join-Path $qjRoot 'android\app\src\main\AndroidManifest.xml'),'--java',(Join-Path $qjBuild 'generated'),'-o',(Join-Path $qjBuild 'base.apk'),'--version-code','10','--version-name','0.1.9',(Join-Path $qjBuild 'resources.zip'))
+    Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('link','-I',$qjJar,'--manifest',(Join-Path $qjRoot 'android\app\src\main\AndroidManifest.xml'),'--java',(Join-Path $qjBuild 'generated'),'-o',(Join-Path $qjBuild 'base.apk'),'--version-code','11','--version-name','0.1.10',(Join-Path $qjBuild 'resources.zip'))
     $qjJavaFiles=@(Get-ChildItem -LiteralPath (Join-Path $qjRoot 'android\app\src\main\java'),(Join-Path $qjBuild 'generated') -Recurse -Filter '*.java' | ForEach-Object {$_.FullName})
     Invoke-QjTool 'javac' (@('-encoding','UTF-8','-source','17','-target','17','-classpath',$qjJar,'-d',(Join-Path $qjBuild 'classes'))+$qjJavaFiles)
     $qjClasses=@(Get-ChildItem -LiteralPath (Join-Path $qjBuild 'classes') -Recurse -Filter '*.class' | ForEach-Object {$_.FullName})
@@ -71,7 +72,7 @@ try {
     }
     $qjDist=Join-Path $qjRoot 'dist'
     New-Item -ItemType Directory -Path $qjDist -Force | Out-Null
-    $qjApk=Join-Path $qjDist 'wordtrail-0.1.9-debug.apk'
+    $qjApk=Join-Path $qjDist 'wordtrail-0.1.10-debug.apk'
     Invoke-QjTool (Join-Path $qjTools 'apksigner.bat') @('sign','--ks',$qjKey,'--ks-pass','pass:android','--ks-key-alias','wordtrail','--out',$qjApk,(Join-Path $qjBuild 'aligned.apk'))
     Invoke-QjTool (Join-Path $qjTools 'apksigner.bat') @('verify','--verbose',$qjApk)
     Invoke-QjTool (Join-Path $qjTools 'zipalign.exe') @('-c','-P','16','4',$qjApk)

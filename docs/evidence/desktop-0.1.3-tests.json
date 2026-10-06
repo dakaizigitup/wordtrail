@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "protocol 7 opens a session",
+    "real dictionary produces Chinese candidate",
+    "native candidate window renders",
+    "translation commit contains only hello",
+    "normal Chinese commit is unchanged",
+    "target hot reload preserves Chinese candidate order",
+    "real IPC frame prioritizes TEM4 darling while retaining baby",
+    "Ctrl digit inserts prioritized translation matching displayed frame",
+    "real IPC preserves originals and exposes actual added relinquish",
+    "all extra words can be browsed without changing Chinese order",
+    "Ctrl digit commits the currently browsed new word",
+    "new CET6 household is prioritized before original family",
+    "new prioritized word commits through real IPC"
+  ],
+  "pipe": "\\\\.\\pipe\\wordtrail-ipa-test",
+  "isolated_user_directory": "D:\\研究方向\\多模态\\qingjian-mobile\\build\\desktop-test-user",
+  "screenshot": "D:\\研究方向\\多模态\\qingjian-mobile\\docs\\screenshots\\desktop-ipa.png",
+  "window_bounds": [
+    120,
+    124,
+    1373,
+    844
+  ],
+  "protocol": 7
+}

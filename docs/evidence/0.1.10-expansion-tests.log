@@ -1,0 +1,10 @@
+test_added_cet6_word_becomes_first_without_chinese_reordering (__main__.ExpansionTests.test_added_cet6_word_becomes_first_without_chinese_reordering) ... ok
+test_hidden_new_words_do_not_become_familiar_by_chinese_commits (__main__.ExpansionTests.test_hidden_new_words_do_not_become_familiar_by_chinese_commits) ... ok
+test_original_selection_restores_and_non_english_has_no_expansion (__main__.ExpansionTests.test_original_selection_restores_and_non_english_has_no_expansion) ... ok
+test_pinned_manifest_matches_shipped_data (__main__.ExpansionTests.test_pinned_manifest_matches_shipped_data) ... ok
+test_real_new_translations_and_originals_are_retained (__main__.ExpansionTests.test_real_new_translations_and_originals_are_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.908s
+
+OK

@@ -1,0 +1,39 @@
+{
+  "base_commit": "f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5",
+  "files": [
+    {
+      "path": "crates/qingjian-core/src/candidate/translation.rs",
+      "original_sha256": "1f74017117419469e34e4aad087bbce696958f303646dc430268f6ca33697d00",
+      "patched_sha256": "818824f963ff6665708e2f28bf33245a584dca4d763f98900e4057c7c3943fd9",
+      "replacements": [
+        {
+          "before": "    pub fn senses(&self) -> &[Sense] {",
+          "after": "    /// 词伴扩词详情的显式入口；普通 new 仍最多两条。候选行由壳只显示少量。\n    pub const MAX_EXPANDED_SENSES: usize = 12;\n\n    pub fn expanded(language: Language, mut senses: Vec<Sense>) -> Self {\n        senses.truncate(Self::MAX_EXPANDED_SENSES);\n        Self { language, senses }\n    }\n\n    pub fn senses(&self) -> &[Sense] {"
+        }
+      ]
+    },
+    {
+      "path": "docs/notes/crate-notes.md",
+      "original_sha256": "37475cd660d7147b2ef0ad75c80775f40133da36bdf08c0f0ad295cc2b682635",
+      "patched_sha256": "1ac4b79b7bdcf868def372bdd6ab48d8d052bd99020e671f7318189720262ef2",
+      "replacements": [
+        {
+          "before": "## crates/qingjian-core\n",
+          "after": "## crates/qingjian-core\n\n词伴兼容补丁：`Translation::expanded` 显式保留最多 12 条释义用于扩词详情，普通 `new` 仍为两条。数据查询、词性、排序及学习在共享层完成，候选行只显示少量，完整译词在壳的详情显示。\n"
+        }
+      ]
+    },
+    {
+      "path": "docs/user/getting-started/keys.md",
+      "original_sha256": "608b6a68a7dbffee1e9221cc9756c2dc43ee78c2ed01bd5881e8be91e29ec599",
+      "patched_sha256": "5cf164f2e1fa6871fb7e41e5f6fd76352e6fb7f977a3021321e3b213c57193fa",
+      "replacements": [
+        {
+          "before": "## 切换模式\n",
+          "after": "## 切换模式\n\n词伴派生版扩词：原译词与新增考试译词合并，学习目标只影响英文顺序；安卓候选展开可逐条查看和输入译词。Windows 快捷键仍输入当前显示的第一/第二译词。\n"
+        }
+      ]
+    }
+  ],
+  "checksum_format": "UTF-8 file bytes with CRLF normalized to LF"
+}

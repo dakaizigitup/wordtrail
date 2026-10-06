@@ -1,0 +1,79 @@
+{
+  "checks": [
+    "LF checkout restores and applies idempotently",
+    "Unknown edits rejected before any file mutation",
+    "Dictionary, IPA, speech model and speech native libraries unchanged from 0.1.9"
+  ],
+  "payloads": [
+    {
+      "name": "assets/data/dict.qj",
+      "bytes": 3538648,
+      "sha256": "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc"
+    },
+    {
+      "name": "assets/data/glossary-en.qj",
+      "bytes": 15565368,
+      "sha256": "4cc9c587b206d0f12aabb1b85cb21e6ac2a1c8c4932b9af14332bd96e0be012a"
+    },
+    {
+      "name": "assets/data/glossary-es.qj",
+      "bytes": 13194160,
+      "sha256": "13f5fbda3f1295c5946ddde5e57017f0689f2dd985a951c5bffaf821cb421865"
+    },
+    {
+      "name": "assets/data/glossary-ja.qj",
+      "bytes": 21824776,
+      "sha256": "ec41e4983bf46c0366124afb5285dba14f5c1ee425bd55d9a9f5518d93256933"
+    },
+    {
+      "name": "assets/data/pronunciation-en.qj",
+      "bytes": 12208376,
+      "sha256": "54e2c878989d5e509d4e5683c86fba83722a8d2d64429f0adaa5cea9d6a9323b"
+    },
+    {
+      "name": "assets/voice/model.int8.onnx",
+      "bytes": 239233841,
+      "sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51"
+    },
+    {
+      "name": "assets/voice/silero_vad.onnx",
+      "bytes": 643854,
+      "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6"
+    },
+    {
+      "name": "assets/voice/tokens.txt",
+      "bytes": 315894,
+      "sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc"
+    },
+    {
+      "name": "lib/arm64-v8a/libonnxruntime.so",
+      "bytes": 22249560,
+      "sha256": "33847ad43bffe204699fd4a27f7f3603452a8cdaf2f9a44983a0bc31ffcf2da1"
+    },
+    {
+      "name": "lib/arm64-v8a/libsherpa-onnx-c-api.so",
+      "bytes": 4465168,
+      "sha256": "c85e2382e2ca12b0513826be926eaccfea896b4cbf568182e287671ba526f80d"
+    },
+    {
+      "name": "lib/arm64-v8a/libwordtrail_voice.so",
+      "bytes": 1752520,
+      "sha256": "a050f0e91b665fd85bdef1f980ba415721d411add349106217517676754b2994"
+    },
+    {
+      "name": "lib/x86_64/libonnxruntime.so",
+      "bytes": 25581120,
+      "sha256": "087e84297cad64acb823c3d901d6e0cc934e91add7cdb20da802cd1c0bea5c3e"
+    },
+    {
+      "name": "lib/x86_64/libsherpa-onnx-c-api.so",
+      "bytes": 4927096,
+      "sha256": "631ca2828e47b61d8afe4b3c75a157423cbafaba6f8c0db89c27d21f1b173d9a"
+    },
+    {
+      "name": "lib/x86_64/libwordtrail_voice.so",
+      "bytes": 1610352,
+      "sha256": "6ceb8f69d4eb5e035b0684e89ef517aac1665131ec47ec34dd9f84525e002d45"
+    }
+  ]
+}

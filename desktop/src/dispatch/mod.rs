@@ -118,6 +118,7 @@ pub struct Router {
     /// 重排的防抖 / 轮询进行态。
     rescore: RescoreState,
     vocabulary_targets: u16,
+    translation_browse: Option<(String, usize)>,
 }
 
 impl Router {
@@ -153,6 +154,7 @@ impl Router {
             applied_model: LocalModelConfig::default(),
             rescore: RescoreState::default(),
             vocabulary_targets: 0,
+            translation_browse: None,
         }
     }
 
@@ -187,6 +189,9 @@ impl Router {
     }
 
     pub fn set_vocabulary_targets(&mut self, targets: u16) {
+        if self.vocabulary_targets != targets && self.translation_browse.take().is_some() {
+            self.notice = None;
+        }
         self.vocabulary_targets = targets;
     }
 

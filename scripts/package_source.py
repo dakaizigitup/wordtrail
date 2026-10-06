@@ -1,6 +1,6 @@
 """提供与 APK 对应的源码，包括依赖和数据；排除工具链、私钥和重复生成物。"""
 from pathlib import Path
-import hashlib, json, shutil, zipfile
+import hashlib, json, shutil, zipfile, os
 
 ROOT=Path(__file__).resolve().parents[1]
 DELIVERY=Path('D:/soft/英语输入法/手机版')
@@ -10,10 +10,19 @@ SKIP_PREFIXES=('third-party/rust/','android/app/src/main/assets/data/','android/
 
 def main():
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
-    archive=dist/'wordtrail-0.1.9-source.zip'
+    archive=dist/'wordtrail-0.1.10-source.zip'
     count=0
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,strict_timestamps=False) as output:
-        for file in sorted(ROOT.rglob('*')):
+        # Prune build/cache trees before walking; their contents never belong
+        # in a source release and can contain hundreds of thousands of files.
+        source_files=[]
+        for directory,folders,names in os.walk(ROOT):
+            parent=Path(directory)
+            folders[:]=[name for name in folders if name not in {'.git','__pycache__'}
+                       and not (parent==ROOT and name in SKIP_ROOT)
+                       and not ((parent/name).relative_to(ROOT).as_posix()+'/').startswith(SKIP_PREFIXES)]
+            source_files.extend(parent/name for name in names)
+        for file in sorted(source_files):
             if not file.is_file(): continue
             relative=file.relative_to(ROOT); path=relative.as_posix()
             if relative.parts[0] in SKIP_ROOT or any(p in {'.git','__pycache__'} for p in relative.parts): continue
@@ -27,7 +36,7 @@ def main():
     with zipfile.ZipFile(archive) as source:
         assert source.testzip() is None
     DELIVERY.mkdir(parents=True,exist_ok=True)
-    files=[archive,dist/'wordtrail-0.1.9-debug.apk']
+    files=[archive,dist/'wordtrail-0.1.10-debug.apk']
     for file in files: shutil.copy2(file,DELIVERY/file.name)
     shutil.copy2(ROOT/'docs/安装与测试指南.md',DELIVERY/'安装与测试指南.md')
     shutil.copy2(ROOT/'docs/测试报告.md',DELIVERY/'测试报告.md')
@@ -41,7 +50,7 @@ def main():
     shutil.copy2(ROOT/'docs/0.1.7图标更新.md',DELIVERY/'0.1.7图标更新.md')
     shutil.copy2(ROOT/'docs/0.1.8词汇目标.md',DELIVERY/'0.1.8词汇目标.md')
     shutil.copy2(ROOT/'docs/0.1.8测试报告.md',DELIVERY/'0.1.8测试报告.md')
-    shutil.copy2(ROOT/'docs/0.1.9标签精简.md',DELIVERY/'0.1.9标签精简.md')
+    shutil.copy2(ROOT/'docs/0.1.10标签精简.md',DELIVERY/'0.1.10标签精简.md')
     shutil.copy2(ROOT/'branding/wordtrail-warm-icon.png',DELIVERY/'词伴暖色图标.png')
     previews=DELIVERY/'screenshots';previews.mkdir(exist_ok=True)
     for image in (ROOT/'docs/screenshots').glob('*.png'):

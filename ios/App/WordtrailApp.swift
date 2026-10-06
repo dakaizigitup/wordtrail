@@ -55,7 +55,7 @@ struct WordtrailApp: App {
                         Text("点选输入中文 · 长按输入译词\n键盘上点 EN 译词，切换英语、日语和西班牙语。\n无需“允许完全访问”，词库与熟悉度留在手机里。")
                             .font(.system(size: 12)).foregroundStyle(Color(palette.muted)).lineSpacing(5)
                         Button("开源许可与数据来源") { showNotices=true }.font(.system(size: 12)).foregroundStyle(Color(palette.accent))
-                        Text("独立移动实验版 0.1.2 · 基于青简开源内核").font(.system(size: 10)).foregroundStyle(Color(palette.muted))
+                        Text("独立移动实验版 0.1.10 · 基于青简开源内核").font(.system(size: 10)).foregroundStyle(Color(palette.muted))
                     }.padding(20).foregroundStyle(Color(palette.ink))
                 }.background(Color(palette.background)).toolbar(.hidden, for: .navigationBar)
                 .sheet(isPresented: $showNotices) {

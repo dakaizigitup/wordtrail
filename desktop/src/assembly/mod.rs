@@ -146,7 +146,7 @@ pub(crate) fn load_glossary(
     language: Language,
     path: &Path,
     user_dir: Option<&Path>,
-) -> Result<LayeredTranslator, ServerError> {
+) -> Result<wordtrail_vocabulary::expansion::ExpandedTranslator, ServerError> {
     let bundled = Glossary::from_path(language, path)?;
     let personal = match user_dir {
         Some(dir) => PersonalGlossary::open(
@@ -162,7 +162,9 @@ pub(crate) fn load_glossary(
             "个人释义表已加载"
         );
     }
-    Ok(LayeredTranslator::new(bundled, personal))
+    Ok(wordtrail_vocabulary::expansion::ExpandedTranslator::new(
+        Box::new(LayeredTranslator::new(bundled, personal)),
+    ))
 }
 
 /// 词汇记录（`user-vocab.tsv`），有等级表就按级统计。

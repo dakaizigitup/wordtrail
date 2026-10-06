@@ -1,6 +1,6 @@
 //! 复用青简内核的移动会话，保存候选快照，避免点选时查询变化。
 use crate::model::{MobileCandidate, MobileState, Request, TranslationSense};
-use qingjian_core::{Candidate, Engine, Language};
+use qingjian_core::{Candidate, Engine, Language, Translator};
 use qingjian_dictionary::Dictionary;
 use qingjian_learning::{FrequencyLearner, VocabularyBook};
 use qingjian_translate::Glossary;
@@ -27,15 +27,18 @@ fn data_file(dir: &Path, stem: &str) -> PathBuf {
     }
 }
 
-fn glossary(dir: &Path, language: &str) -> Result<Glossary, String> {
+fn glossary(dir: &Path, language: &str) -> Result<Box<dyn Translator>, String> {
     let lang = match language {
         "en" => Language::English,
         "ja" => Language::Japanese,
         "es" => Language::Spanish,
         _ => return Err("unsupported learning language".into()),
     };
-    Glossary::from_path(lang, data_file(dir, &format!("glossary-{language}")))
-        .map_err(|e| e.to_string())
+    let base = Glossary::from_path(lang, data_file(dir, &format!("glossary-{language}")))
+        .map_err(|e| e.to_string())?;
+    Ok(Box::new(
+        wordtrail_vocabulary::expansion::ExpandedTranslator::new(Box::new(base)),
+    ))
 }
 
 impl Session {
@@ -62,7 +65,7 @@ impl Session {
         let learner =
             FrequencyLearner::from_path(user_dir.join("user.tsv")).map_err(|e| e.to_string())?;
         let mut engine = Engine::new(dictionary)
-            .with_translator(Box::new(translator))
+            .with_translator(translator)
             .with_learner(Box::new(learner))
             .with_vocabulary_tracker(Box::new(VocabularyBook::open(
                 user_dir.join("user-vocab.tsv"),
@@ -181,7 +184,7 @@ impl Session {
             "previous_page" => self.page = self.page.saturating_sub(1),
             "language" => {
                 let translator = glossary(&self.data_dir, &request.language)?;
-                self.engine.set_translator(Box::new(translator));
+                self.engine.set_translator(translator);
                 self.language = request.language.clone();
             }
             "flush" => self.engine.flush_learning(),
@@ -225,7 +228,12 @@ impl Session {
             }
             self.visible = query.candidates.items;
         }
-        self.engine.note_displayed(self.visible.iter());
+        let shown: Vec<_> = self
+            .visible
+            .iter()
+            .map(|c| wordtrail_vocabulary::expansion::displayed(c, 1))
+            .collect();
+        self.engine.note_displayed(shown.iter());
         let candidates = self
             .visible
             .iter()
@@ -279,6 +287,14 @@ impl Session {
                             } else {
                                 None
                             },
+                            translation_source: if self.language == "en" {
+                                wordtrail_vocabulary::expansion::source(
+                                    &candidate.text,
+                                    &sense.text,
+                                )
+                            } else {
+                                None
+                            },
                         })
                         .collect(),
                     pronunciation: if self.language == "en" {
@@ -288,7 +304,7 @@ impl Session {
                     } else {
                         None
                     },
-                    fresh: senses.iter().any(|s| s.fresh),
+                    fresh: senses.first().is_some_and(|s| s.fresh),
                 }
             })
             .collect();

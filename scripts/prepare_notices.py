@@ -3,7 +3,7 @@ from pathlib import Path
 import json, shutil
 
 ROOT = Path(__file__).resolve().parents[1]
-HEADER = """词伴输入法 / Wordtrail 0.1.9
+HEADER = """词伴输入法 / Wordtrail 0.1.10
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -11,7 +11,7 @@ HEADER = """词伴输入法 / Wordtrail 0.1.9
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.9-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.10-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -43,8 +43,8 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 """
 
 def main():
-    parts = [HEADER, "\n英语考试标签：ECDICT（MIT）及 KyleBing/english-vocabulary（BSD-3-Clause）。\n固定提交、输入文件 SHA-256、去重统计见 vocabulary/data/manifest.json。\n仅提取词条及收录标签，不复制源项目释义、例句或音频。标签不代表难度或官方完整考试范围。\n"]
-    for name in ['ECDICT-LICENSE','KyleBing-LICENSE']:
+    parts = [HEADER, "\n英语考试标签：ECDICT（MIT）及 KyleBing/english-vocabulary（BSD-3-Clause）。\n固定提交、输入文件 SHA-256、去重统计见 vocabulary/data/manifest.json。\n标签索引仅提取词条及收录标签。新增英文译词从 ECDICT 提取短中文词义对应，\n不复制例句或音频；构建时用 WordNet 3.0 拼写与同义关系校验，运行时不加载 WordNet。\n扩词输入校验、数量及人工补充见 vocabulary/data/expansion-manifest.json。标签不代表难度或官方完整考试范围。\n"]
+    for name in ['ECDICT-LICENSE','KyleBing-LICENSE','WordNet-LICENSE']:
         file=ROOT/'vocabulary/data'/name
         parts.append(f'\n=== {file.relative_to(ROOT)} ===\n'+file.read_text(encoding='utf-8'))
     fixed = [ROOT/'LICENSE', ROOT/'vendor/qingjian/assets/lexicon/00_meta/THUOCL_LICENSE.txt', ROOT/'vendor/qingjian/assets/emoji/LICENSE-unicode.txt', ROOT/'pronunciation/source/LICENSE', ROOT/'pronunciation/source/ipacards-LICENSE', ROOT/'pronunciation/source/cmudict-ipa-LICENSE']
@@ -58,7 +58,7 @@ def main():
     while pending:
         for dependency in nodes[pending.pop()]['dependencies']:
             if dependency not in mobile:mobile.add(dependency);pending.append(dependency)
-    desktop_parts=["Windows 音标与词汇目标补丁 0.1.2：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.9-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
+    desktop_parts=["Windows 音标与词汇目标补丁 0.1.3：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.10-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
     for package in sorted(metadata['packages'],key=lambda p:(p['name'],p['version'])):
         if package.get('source') is None: continue
         current=[f"\n\n=== {package['name']} {package['version']} ===\n许可：{package.get('license') or '见源文件'}\n仓库：{package.get('repository') or ''}\n"]

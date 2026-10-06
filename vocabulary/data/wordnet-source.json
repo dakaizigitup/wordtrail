@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/wordnet.zip",
+  "commit": "550b6625bcef1f2abff2ff770a5a0d272c9c6b2a",
+  "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+  "bytes": 10775600,
+  "license": "WordNet 3.0; WordNet-LICENSE",
+  "use": "Build-only spelling and synonym validation; no definitions shipped"
+}

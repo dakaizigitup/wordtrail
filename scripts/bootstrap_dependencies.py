@@ -7,8 +7,8 @@ from pathlib import Path, PurePosixPath
 import argparse, hashlib, re, shutil, urllib.request, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE = 'https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/'
-NAME = 'wordtrail-0.1.9-source.zip'
+RELEASE = 'https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.10/'
+NAME = 'wordtrail-0.1.10-source.zip'
 PREFIXES = ('third-party/rust-ipa/', 'third-party/sherpa-onnx/jniLibs/')
 
 def digest(path):
@@ -38,6 +38,8 @@ def restore(archive):
     if not count:
         raise ValueError('No dependency files found')
     print(f'Restored {count} dependency/data files; authored source preserved.')
+    import subprocess, sys
+    subprocess.run([sys.executable, str(ROOT/'scripts/apply_upstream.py')], check=True)
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

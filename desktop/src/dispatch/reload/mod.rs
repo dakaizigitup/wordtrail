@@ -122,7 +122,12 @@ impl Router {
         let vocabulary_path = config_path.with_file_name("wordtrail-vocabulary.json");
         let vocabulary_mtime = mtime(&vocabulary_path);
         match wordtrail_vocabulary::load_preferences(&vocabulary_path) {
-            Ok(targets) => self.vocabulary_targets = targets,
+            Ok(targets) => {
+                if self.vocabulary_targets != targets && self.translation_browse.take().is_some() {
+                    self.notice = None;
+                }
+                self.vocabulary_targets = targets;
+            }
             Err(error) => tracing::warn!(%error, "词汇目标配置无效，保留当前目标"),
         }
         let code_files = dirs.code_snapshot();
@@ -163,7 +168,14 @@ impl Router {
         if current_vocabulary_mtime != reload.vocabulary_mtime {
             reload.vocabulary_mtime = current_vocabulary_mtime;
             match wordtrail_vocabulary::load_preferences(&reload.vocabulary_path) {
-                Ok(targets) => self.vocabulary_targets = targets,
+                Ok(targets) => {
+                    if self.vocabulary_targets != targets
+                        && self.translation_browse.take().is_some()
+                    {
+                        self.notice = None;
+                    }
+                    self.vocabulary_targets = targets;
+                }
                 Err(error) => tracing::warn!(%error, "词汇目标配置无效，保留当前目标"),
             }
         }
