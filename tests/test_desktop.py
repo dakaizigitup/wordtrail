@@ -191,8 +191,10 @@ try:
     vocabulary.write_text('{"targets":["cet4","cet6"]}',encoding='utf-8');time.sleep(1.2)
     send('Poll',dict(session=session))
     pinyin_codes={line.split('\t')[0]:line.split('\t')[1].replace(' ','') for line in (ROOT/'build/pinyin-candidates.tsv').read_text(encoding='utf-8').splitlines()}
-    with (ROOT/'vocabulary/data/batches/03-wiktionary-reviewed.tsv').open(encoding='utf-8',newline='') as stream:
-        wiktionary_rows=list(csv.DictReader(stream,delimiter='\t'))
+    wiktionary_rows=[]
+    for batch in ['03-wiktionary-reviewed.tsv','06-wiktionary-zh-reviewed.tsv']:
+        with (ROOT/'vocabulary/data/batches'/batch).open(encoding='utf-8',newline='') as stream:
+            wiktionary_rows.extend(csv.DictReader(stream,delimiter='\t'))
     for row in wiktionary_rows:
         for char in pinyin_codes[row['chinese']]:result=key(char)
         items=result['frame']['candidates']['items']

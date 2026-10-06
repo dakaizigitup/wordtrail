@@ -7,12 +7,19 @@ pub use translator::ExpandedTranslator;
 pub const EXTRA_PER_WORD: usize = 8;
 const DATA: &str = include_str!("../../data/english-expansion.tsv");
 const WIKTIONARY_DATA: &str = include_str!("../../data/wiktionary-expansion.tsv");
+const WIKTIONARY_2_DATA: &str = include_str!("../../data/wiktionary-expansion-2.tsv");
 const CC_CEDICT_DATA: &str = include_str!("../../data/cccedict-expansion.tsv");
 const CC_CEDICT_2_DATA: &str = include_str!("../../data/cccedict-expansion-2.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
-        for data in [DATA, WIKTIONARY_DATA, CC_CEDICT_DATA, CC_CEDICT_2_DATA] {
+        for data in [
+            DATA,
+            WIKTIONARY_DATA,
+            CC_CEDICT_DATA,
+            CC_CEDICT_2_DATA,
+            WIKTIONARY_2_DATA,
+        ] {
             for row in data.lines() {
                 let mut fields = row.split('\t');
                 let chinese = fields.next().unwrap();
@@ -141,7 +148,9 @@ mod tests {
     }
     #[test]
     fn batch02_additions_are_queryable_by_exact_candidate_text() {
-        let rows: Vec<_> = include_str!("../../data/batches/02-additions.tsv").lines().collect();
+        let rows: Vec<_> = include_str!("../../data/batches/02-additions.tsv")
+            .lines()
+            .collect();
         assert!(rows.len() > 32);
         for row in rows {
             let mut fields = row.split('\t');
@@ -150,7 +159,8 @@ mod tests {
             let _pos = fields.next().unwrap();
             let expected_source = fields.next().unwrap();
             assert!(
-                senses(chinese).any(|sense| sense.text == english && source(chinese, english) == Some(expected_source)),
+                senses(chinese).any(|sense| sense.text == english
+                    && source(chinese, english) == Some(expected_source)),
                 "missing exact expansion {chinese} -> {english}"
             );
         }
@@ -158,7 +168,9 @@ mod tests {
 
     #[test]
     fn wiktionary_batch_additions_are_queryable_with_source_and_exam_tags() {
-        let rows: Vec<_> = include_str!("../../data/wiktionary-expansion.tsv").lines().collect();
+        let rows: Vec<_> = include_str!("../../data/wiktionary-expansion.tsv")
+            .lines()
+            .collect();
         assert_eq!(rows.len(), 15);
         for row in rows {
             let mut fields = row.split('\t');
@@ -174,11 +186,53 @@ mod tests {
             assert_eq!(source(chinese, english), Some("Wiktionary CC BY-SA 4.0"));
         }
         for (chinese, english) in [
-            ("附属", "auxiliary"), ("衰退", "downturn"), ("流利", "fluently"),
-            ("非常", "immensely"), ("行距", "leading"), ("大主教", "metropolitan"),
-            ("移民", "migrant"), ("郊外", "outskirt"), ("大部分", "predominantly"),
-            ("悲哀", "sadness"), ("造船", "shipbuilding"), ("下跌", "slump"),
-            ("竟然", "surprisingly"), ("第三", "thirdly"), ("任何", "whatsoever"),
+            ("附属", "auxiliary"),
+            ("衰退", "downturn"),
+            ("流利", "fluently"),
+            ("非常", "immensely"),
+            ("行距", "leading"),
+            ("大主教", "metropolitan"),
+            ("移民", "migrant"),
+            ("郊外", "outskirt"),
+            ("大部分", "predominantly"),
+            ("悲哀", "sadness"),
+            ("造船", "shipbuilding"),
+            ("下跌", "slump"),
+            ("竟然", "surprisingly"),
+            ("第三", "thirdly"),
+            ("任何", "whatsoever"),
+        ] {
+            assert!(senses(chinese).any(|sense| sense.text == english));
+        }
+    }
+
+    #[test]
+    fn wiktionary_second_tranche_is_queryable_with_source_and_exam_tags() {
+        let rows: Vec<_> = WIKTIONARY_2_DATA.lines().collect();
+        assert_eq!(rows.len(), 7);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "Wiktionary CC BY-SA 4.0");
+            assert!(senses(chinese).any(|sense| sense.text == english));
+            assert_eq!(source(chinese, english), Some(source_label));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| { matches!(tag.id, "cet4" | "cet6") })
+            );
+        }
+        for (chinese, english) in [
+            ("船上", "aboard"),
+            ("冬眠", "dormant"),
+            ("指引", "guideline"),
+            ("先期", "premature"),
+            ("加油", "refuel"),
+            ("警司", "superintendent"),
+            ("空想", "utopian"),
         ] {
             assert!(senses(chinese).any(|sense| sense.text == english));
         }
@@ -197,12 +251,22 @@ mod tests {
             assert_eq!(source_label, "CC-CEDICT CC BY-SA 4.0");
             assert!(senses(chinese).any(|sense| sense.text == english));
             assert_eq!(source(chinese, english), Some(source_label));
-            assert!(crate::tags(english, 0).iter().any(|tag| {
-                matches!(tag.id, "cet4" | "cet6")
-            }));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| { matches!(tag.id, "cet4" | "cet6") })
+            );
         }
-        assert!(crate::tags("collaborative", 0).iter().any(|tag| tag.id == "cet4"));
-        assert!(crate::tags("collaborative", 0).iter().any(|tag| tag.id == "cet6"));
+        assert!(
+            crate::tags("collaborative", 0)
+                .iter()
+                .any(|tag| tag.id == "cet4")
+        );
+        assert!(
+            crate::tags("collaborative", 0)
+                .iter()
+                .any(|tag| tag.id == "cet6")
+        );
     }
 
     #[test]
@@ -218,9 +282,11 @@ mod tests {
             assert_eq!(source_label, "CC-CEDICT CC BY-SA 4.0");
             assert!(senses(chinese).any(|sense| sense.text == english));
             assert_eq!(source(chinese, english), Some(source_label));
-            assert!(crate::tags(english, 0).iter().any(|tag| {
-                matches!(tag.id, "cet4" | "cet6")
-            }));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| { matches!(tag.id, "cet4" | "cet6") })
+            );
         }
         assert!(crate::tags("hurl", 0).iter().any(|tag| tag.id == "cet6"));
         assert!(crate::tags("hurl", 0).iter().any(|tag| tag.id == "toefl"));

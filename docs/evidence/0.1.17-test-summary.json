@@ -1,0 +1,72 @@
+{
+  "version": "0.1.17",
+  "tests": [
+    {
+      "command": "cargo fmt --all -- --check",
+      "result": "passed"
+    },
+    {
+      "command": "cargo test --locked --offline --workspace",
+      "result": "passed",
+      "passed": 26,
+      "failed": 0
+    },
+    {
+      "command": "python tests/test_cet_batch.py",
+      "result": "passed",
+      "passed": 11,
+      "failed": 0
+    },
+    {
+      "command": "python tests/test_expansion.py",
+      "result": "passed",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "command": "python tests/test_native.py",
+      "result": "passed",
+      "passed": 17,
+      "failed": 0
+    },
+    {
+      "command": "python tests/test_desktop.py",
+      "result": "passed",
+      "checks": 327,
+      "failed": 0
+    },
+    {
+      "command": "python tests/test_installed_desktop.py",
+      "result": "passed",
+      "checks": 3,
+      "failed": 0
+    }
+  ],
+  "android": {
+    "apk": "wordtrail-0.1.17-debug.apk",
+    "version_code": 18,
+    "abis": [
+      "arm64-v8a",
+      "x86_64"
+    ],
+    "bytes": 252299621,
+    "sha256": "04433bab098fc3678599bbc83092e6fd40eae58c65c31e977d1e35a38e984da7",
+    "signature_v2": true,
+    "signature_v3": true,
+    "zipalign_16kb": true,
+    "adb_devices_connected": 0,
+    "runtime_ui_test": "not run: no Android device/emulator connected"
+  },
+  "windows": {
+    "patch_version": "0.1.10",
+    "server_sha256": "ba55c5d9fb619935704dd8a205d88bea6732ef6ae32bdf39d813e1a0f513fa6f",
+    "installed_ipc_handshake": "passed",
+    "user_data_unchanged": true
+  },
+  "performance": {
+    "scope": "Windows debug shared C ABI; not mobile latency",
+    "scenarios": 9,
+    "p95_max_ms": 8.2781,
+    "p99_max_ms": 9.4773
+  }
+}

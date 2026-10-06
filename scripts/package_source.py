@@ -8,13 +8,13 @@ SKIP_ROOT={'target','build','dist'}
 SKIP_PREFIXES=('third-party/rust/','android/app/src/main/assets/data/','android/app/src/main/assets/voice/','android/app/src/main/jniLibs/',
                'android/app/build/','android/.gradle/','ios/Keyboard/Data/','ios/Frameworks/')
 
-GUIDES=('安装与测试指南.md', '测试报告.md', 'GitHub调研.md', '主题预览.html', '0.1.2界面更新.md', '0.1.3语音更新.md', '0.1.4语音更新.md', '0.1.5布局更新.md', '0.1.6词汇分级.md', '0.1.7图标更新.md', '0.1.8词汇目标.md', '0.1.8测试报告.md', '0.1.9标签精简.md', '0.1.10实际扩词.md', '0.1.10测试报告.md', '分批补词计划.md', '0.1.11四六级补词.md', '0.1.11测试报告.md', '0.1.12四六级补词.md', '0.1.12测试报告.md', '0.1.13四六级补词.md', '0.1.13测试报告.md', '0.1.14四六级补词.md', '0.1.14测试报告.md', '0.1.15四六级补词.md', '0.1.15测试报告.md', '0.1.16四六级补词.md', '0.1.16测试报告.md')
+GUIDES=('安装与测试指南.md', '测试报告.md', 'GitHub调研.md', '主题预览.html', '0.1.2界面更新.md', '0.1.3语音更新.md', '0.1.4语音更新.md', '0.1.5布局更新.md', '0.1.6词汇分级.md', '0.1.7图标更新.md', '0.1.8词汇目标.md', '0.1.8测试报告.md', '0.1.9标签精简.md', '0.1.10实际扩词.md', '0.1.10测试报告.md', '分批补词计划.md', '0.1.11四六级补词.md', '0.1.11测试报告.md', '0.1.12四六级补词.md', '0.1.12测试报告.md', '0.1.13四六级补词.md', '0.1.13测试报告.md', '0.1.14四六级补词.md', '0.1.14测试报告.md', '0.1.15四六级补词.md', '0.1.15测试报告.md', '0.1.16四六级补词.md', '0.1.16测试报告.md', '0.1.17四六级补词.md', '0.1.17测试报告.md')
 
 def main():
     for name in GUIDES:
         if not (ROOT/'docs'/name).is_file():raise FileNotFoundError('Missing delivery guide: '+name)
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
-    archive=dist/'wordtrail-0.1.16-source.zip'
+    archive=dist/'wordtrail-0.1.17-source.zip'
     count=0
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,strict_timestamps=False) as output:
         # Prune build/cache trees before walking; their contents never belong
@@ -30,6 +30,7 @@ def main():
             if not file.is_file(): continue
             relative=file.relative_to(ROOT); path=relative.as_posix()
             if relative.parts[0] in SKIP_ROOT or any(p in {'.git','__pycache__'} for p in relative.parts): continue
+            if file.name.lower().startswith('.env') or file.name.lower() in {'.npmrc','.pypirc','.netrc'}: continue
             if path.startswith(SKIP_PREFIXES) or file.suffix in {'.keystore','.jks','.pyc'}: continue
             if path.startswith('docs/screenshots/') and any(word in file.name for word in ['failure','retry','debug']):continue
             if path in {'android/local.properties','android/app/src/main/assets/NOTICE.txt','ios/App/NOTICE.txt'}: continue
@@ -40,7 +41,7 @@ def main():
     with zipfile.ZipFile(archive) as source:
         assert source.testzip() is None
     DELIVERY.mkdir(parents=True,exist_ok=True)
-    files=[archive,dist/'wordtrail-0.1.16-debug.apk']
+    files=[archive,dist/'wordtrail-0.1.17-debug.apk']
     for file in files: shutil.copy2(file,DELIVERY/file.name)
     for name in GUIDES:shutil.copy2(ROOT/'docs'/name,DELIVERY/name)
     shutil.copy2(ROOT/'branding/wordtrail-warm-icon.png',DELIVERY/'词伴暖色图标.png')

@@ -1,6 +1,6 @@
 # 英语考试标签与实际扩词
 
-仅提取 ECDICT（MIT）和 KyleBing/english-vocabulary（BSD-3-Clause）的词条与六类收录标签。标签索引未复制释义、例句、图片或音频。0.1.10 的独立扩词表额外从 ECDICT 提取短中文词义对应，不复制例句或音频。0.1.14 加入15条单独授权的 English Wiktionary 派生中英对应；它们留在 `data/wiktionary-expansion.tsv`，不与 MIT/BSD 文件合并，并在 NOTICE 中署名、给出许可链接、修改说明和固定来源修订。逐词记录见 `data/batches/03-wiktionary-reviewed.tsv`，许可边界见 `data/WIKTIONARY-ATTRIBUTION.md`。0.1.15 首段和0.1.16第二段分别加入58、66条 CC-CEDICT 派生对应，独立放在 `data/cccedict-expansion.tsv` 与 `data/cccedict-expansion-2.tsv`；逐批署名、审校记录和快照校验见 `data/CC-CEDICT-ATTRIBUTION.md`、两份 `cccedict-manifest*.json` 与 `data/batches/04-`、`05-cc-cedict-reviewed.tsv`。这些来源保持分开，不能把它们统称为同一种许可。
+仅提取 ECDICT（MIT）和 KyleBing/english-vocabulary（BSD-3-Clause）的词条与六类收录标签。标签索引未复制释义、例句、图片或音频。0.1.10 的独立扩词表额外从 ECDICT 提取短中文词义对应，不复制例句或音频。English Wiktionary 派生数据单独按 CC BY-SA 4.0 署名和分发：首批15条在 `data/wiktionary-expansion.tsv`，第二批7条在 `data/wiktionary-expansion-2.tsv`，逐词固定修订见 `data/batches/03-wiktionary-reviewed.tsv` 与 `data/batches/06-wiktionary-zh-reviewed.tsv`，累计数量、来源快照及许可边界见两份 `wiktionary-manifest*.json` 和 `data/WIKTIONARY-ATTRIBUTION.md`。0.1.15 首段和0.1.16第二段分别加入58、66条 CC-CEDICT 派生对应，独立放在 `data/cccedict-expansion.tsv` 与 `data/cccedict-expansion-2.tsv`；逐批署名、审校记录和快照校验见 `data/CC-CEDICT-ATTRIBUTION.md`、两份 `cccedict-manifest*.json` 与 `data/batches/04-`、`05-cc-cedict-reviewed.tsv`。这些来源保持分开，不能把它们统称为同一种许可。
 
 `python scripts/prepare_vocabulary.py --download` 可在项目根目录重建；下载缓存放在忽略的 `build/vocabulary-research/`。已有研究缓存时无需 `--download`。输出逐字节确定；所有输入先校验 SHA-256。普通用户无需下载这些开发数据，程序嵌入精简索引。
 

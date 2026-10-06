@@ -7,7 +7,7 @@ def write_notice(path, text):
     normalized='\n'.join(line.rstrip(' \t\r') for line in text.splitlines())+'\n'
     path.write_text(normalized,encoding='utf-8',newline='\n')
 
-HEADER = """词伴输入法 / Wordtrail 0.1.16
+HEADER = """词伴输入法 / Wordtrail 0.1.17
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -15,7 +15,7 @@ HEADER = """词伴输入法 / Wordtrail 0.1.16
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.16-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.17-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -48,11 +48,12 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 
 def main():
     parts = [HEADER, "\n英语考试标签：ECDICT（MIT）及 KyleBing/english-vocabulary（BSD-3-Clause）。\n固定提交、输入文件 SHA-256、去重统计见 vocabulary/data/manifest.json。\n标签索引仅提取词条及收录标签。新增英文译词从 ECDICT 提取短中文词义对应，\n不复制例句或音频；构建时用 WordNet 3.0 拼写与同义关系校验，运行时不加载 WordNet。\n扩词输入校验、数量及人工补充见 vocabulary/data/expansion-manifest.json。标签不代表难度或官方完整考试范围。\n"]
-    curation = ROOT/'vocabulary/data/batches/03-wiktionary-reviewed.tsv'
-    with curation.open(encoding='utf-8', newline='') as stream:
-        wiktionary_rows = list(csv.DictReader(stream, delimiter='\t'))
-    parts.append("\n=== Wiktionary 词汇补充（15 组，CC BY-SA 4.0）===\n")
-    parts.append("署名：English Wiktionary contributors；https://en.wiktionary.org/ 。\n许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项中选择与词性/义项相符、且可由本机拼音候选输入的四六级词，整理为精简中英词条。\n以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.16-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 提供。\n")
+    wiktionary_rows = []
+    for filename in ('03-wiktionary-reviewed.tsv', '06-wiktionary-zh-reviewed.tsv'):
+        with (ROOT/'vocabulary/data/batches'/filename).open(encoding='utf-8', newline='') as stream:
+            wiktionary_rows.extend(csv.DictReader(stream, delimiter='\t'))
+    parts.append(f"\n=== Wiktionary 词汇补充（{len(wiktionary_rows)} 组，CC BY-SA 4.0）===\n")
+    parts.append("署名：English Wiktionary contributors；https://en.wiktionary.org/ 。\n许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项及汉语词条释义中选择与词性/义项相符、且可由本机拼音候选输入的考试词，整理为精简中英词条。第二批候选发现使用固定 Kaikki 派生快照，校验散列与许可边界见 vocabulary/data/wiktionary-manifest-2.json 和 WIKTIONARY-ATTRIBUTION.md。\n以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.17-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 与 06-wiktionary-zh-reviewed.tsv 提供。\n")
     for row in wiktionary_rows:
         parts.append(f"{row['english']} ({row['pos']}) -> {row['chinese']}; {row['source_url']}\n")
     cedict_rows = []
@@ -77,7 +78,7 @@ def main():
     while pending:
         for dependency in nodes[pending.pop()]['dependencies']:
             if dependency not in mobile:mobile.add(dependency);pending.append(dependency)
-    desktop_parts=["Windows 音标与词汇目标补丁 0.1.9：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.16-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
+    desktop_parts=["Windows 音标与词汇目标补丁 0.1.10：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.17-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
     for package in sorted(metadata['packages'],key=lambda p:(p['name'],p['version'])):
         if package.get('source') is None: continue
         current=[f"\n\n=== {package['name']} {package['version']} ===\n许可：{package.get('license') or '见源文件'}\n仓库：{package.get('repository') or ''}\n"]

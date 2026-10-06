@@ -55,20 +55,28 @@ def exam_inputs():
     return tags, pinyin, ipa
 
 
-def build_payloads():
+def build_payloads(
+    curation_path: Path = CURATION,
+    output_path: Path = OUTPUT,
+    manifest_path: Path = MANIFEST,
+    batch_name: str = "02-wiktionary-1",
+    prior_runtime_paths: tuple[Path, ...] = (),
+    source_snapshot: dict | None = None,
+):
     base = load_base(BASELINE)
     tags, pinyin, ipa = exam_inputs()
     original_expansion = read_expansion(DATA / "english-expansion.tsv")
+    prior_rows = [row for path in prior_runtime_paths for row in read_expansion(path)]
     extra_by_key = {}
     existing_pairs = set()
     existing_words = {word for senses in base.values() for word, _ in senses}
-    for row in original_expansion:
+    for row in original_expansion + prior_rows:
         chinese, word = row["chinese"], row["english"]
         extra_by_key.setdefault(chinese, []).append(word)
         existing_pairs.add((chinese, word))
         existing_words.add(word)
 
-    curated = read_rows(CURATION)
+    curated = read_rows(curation_path)
     required_fields = {
         "chinese", "english", "pos", "targets", "sense", "source_lang", "source_url",
         "source_page_id", "source_revision_id", "source_revision_timestamp", "review_note",
@@ -128,27 +136,31 @@ def build_payloads():
     new_all_words = old_words | new_words
     before_reachable = {
         word for chinese, senses in base.items() if chinese in pinyin for word, _ in senses
-    } | {row["english"] for row in original_expansion if row["chinese"] in pinyin}
+    } | {row["english"] for row in original_expansion + prior_rows if row["chinese"] in pinyin}
     after_reachable = before_reachable | new_words
     old_coverage = coverage(tags, old_words, ipa)
     new_coverage = coverage(tags, new_all_words, ipa)
     manifest = {
-        "batch": "02-wiktionary-1",
+        "batch": batch_name,
         "source": {
             "project": "English Wiktionary",
             "url": "https://en.wiktionary.org/",
-            "extraction": "Wiktionary MediaWiki API; 2026-10-06 local audit",
+            "extraction": (
+                "Pinned English Wiktionary Mandarin-entry revisions, with a fixed Kaikki-derived snapshot used only for candidate discovery; 2026-10-06 audit"
+                if source_snapshot else "Wiktionary MediaWiki API; 2026-10-06 local audit"
+            ),
             "translation_language": "Mandarin Chinese",
             "license": "CC BY-SA 4.0 (selected Wiktionary content is additionally available under GFDL)",
             "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         },
+        **({"discovery_snapshot": source_snapshot} if source_snapshot else {}),
         "curation_file": {
-            "path": "batches/03-wiktionary-reviewed.tsv",
-            "sha256": sha(CURATION),
+            "path": curation_path.relative_to(DATA).as_posix(),
+            "sha256": sha(curation_path),
             "rows": len(curated),
         },
         "runtime_file": {
-            "path": "wiktionary-expansion.tsv",
+            "path": output_path.relative_to(DATA).as_posix(),
             "sha256": hashlib.sha256(payload).hexdigest(),
             "bytes": len(payload),
             "rows": len(rows),
@@ -167,12 +179,15 @@ def build_payloads():
         "candidate_reachable_coverage_before": coverage(tags, before_reachable, ipa),
         "candidate_reachable_coverage_after": coverage(tags, after_reachable, ipa),
         "reachability_scope": "Reachability coverage includes original glossary words for every exact Chinese surface in the complete exported pinyin candidate index, including one-character keys. The Wiktionary additions themselves are restricted to 2-6 Han-character keys. The 0.1.13 short-gloss batch audit counted only 2-6 Han-character keys, so its 90.66%/86.46% figures are not directly comparable; under this complete-key scope its baseline is 91.64%/87.52%.",
-        "review_rule": "Every included row is an exact English Wiktionary Mandarin translation in a pinned revision, manually checked against the entry sense and the local ECDICT short gloss, with an exact packed Chinese pinyin key and bundled English IPA. The dataset remains separate from the MIT/BSD expansion file and carries its own CC BY-SA attribution.",
+        "review_rule": (
+            "Each included row is an exact English gloss from a pinned Mandarin Wiktionary entry revision; the selected entry revision is the row's source of truth, while the fixed Kaikki-derived snapshot was used only to discover candidates. Every row was checked against its English sense and the local ECDICT short gloss, an exact packed Chinese pinyin key, and bundled English IPA. The data remains separate from MIT/BSD expansion files and carries CC BY-SA attribution."
+            if source_snapshot else "Every included row is an exact English Wiktionary Mandarin translation in a pinned revision, manually checked against the entry sense and the local ECDICT short gloss, with an exact packed Chinese pinyin key and bundled English IPA. The dataset remains separate from the MIT/BSD expansion file and carries its own CC BY-SA attribution."
+        ),
         "not_included": "Other Wiktionary candidates with no exact pinyin key, weak or mismatched sense/POS evidence, stigmatizing wording, or no bundled IPA remain excluded from runtime.",
-        "license_boundary": "The generated wiktionary-expansion.tsv and its source-attributed curation file are CC BY-SA 4.0 data. The adjacent software and ECDICT/KyleBing expansion files retain their own existing licenses.",
+        "license_boundary": f"The generated {output_path.name} and its source-attributed curation file are CC BY-SA 4.0 data. The adjacent software and ECDICT/KyleBing expansion files retain their own existing licenses.",
     }
     report_payload = (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
-    return {OUTPUT: payload, MANIFEST: report_payload}, manifest
+    return {output_path: payload, manifest_path: report_payload}, manifest
 
 
 def main():

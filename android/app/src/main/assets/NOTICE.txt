@@ -1,4 +1,4 @@
-词伴输入法 / Wordtrail 0.1.16
+词伴输入法 / Wordtrail 0.1.17
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -6,7 +6,7 @@
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.16-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.17-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -44,11 +44,11 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 扩词输入校验、数量及人工补充见 vocabulary/data/expansion-manifest.json。标签不代表难度或官方完整考试范围。
 
 
-=== Wiktionary 词汇补充（15 组，CC BY-SA 4.0）===
+=== Wiktionary 词汇补充（22 组，CC BY-SA 4.0）===
 
 署名：English Wiktionary contributors；https://en.wiktionary.org/ 。
-许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项中选择与词性/义项相符、且可由本机拼音候选输入的四六级词，整理为精简中英词条。
-以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.16-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 提供。
+许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项及汉语词条释义中选择与词性/义项相符、且可由本机拼音候选输入的考试词，整理为精简中英词条。第二批候选发现使用固定 Kaikki 派生快照，校验散列与许可边界见 vocabulary/data/wiktionary-manifest-2.json 和 WIKTIONARY-ATTRIBUTION.md。
+以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.17-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 与 06-wiktionary-zh-reviewed.tsv 提供。
 
 auxiliary (adj.) -> 附属; https://en.wiktionary.org/wiki/auxiliary?oldid=93145546
 
@@ -79,6 +79,20 @@ surprisingly (adv.) -> 竟然; https://en.wiktionary.org/wiki/surprisingly?oldid
 thirdly (adv.) -> 第三; https://en.wiktionary.org/wiki/thirdly?oldid=91982658
 
 whatsoever (adv.) -> 任何; https://en.wiktionary.org/wiki/whatsoever?oldid=92094714
+
+aboard (adv.) -> 船上; https://en.wiktionary.org/wiki/%E8%88%B9%E4%B8%8A?oldid=77918996
+
+dormant (adj.) -> 冬眠; https://en.wiktionary.org/wiki/%E5%86%AC%E7%9C%A0?oldid=92137656
+
+guideline (n.) -> 指引; https://en.wiktionary.org/wiki/%E6%8C%87%E5%BC%95?oldid=77437774
+
+premature (adj.) -> 先期; https://en.wiktionary.org/wiki/%E5%85%88%E6%9C%9F?oldid=65449079
+
+refuel (v.) -> 加油; https://en.wiktionary.org/wiki/%E5%8A%A0%E6%B2%B9?oldid=89652027
+
+superintendent (n.) -> 警司; https://en.wiktionary.org/wiki/%E8%AD%A6%E5%8F%B8?oldid=78676088
+
+utopian (adj.) -> 空想; https://en.wiktionary.org/wiki/%E7%A9%BA%E6%83%B3?oldid=92164396
 
 
 === CC-CEDICT 词汇补充（独立 CC BY-SA 4.0 数据）===

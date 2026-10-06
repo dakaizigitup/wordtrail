@@ -13,6 +13,7 @@ from test_native import ROOT, call
 sys.path.insert(0, str(ROOT / 'scripts'))
 from prepare_cet_batch import atomic_glosses, load_base, make_batch
 from prepare_candidate_batch import kyle_glosses, make_batch as make_candidate_batch
+from build_wiktionary_expansion_2 import generate as build_wiktionary_2
 
 
 class BatchDataTests(unittest.TestCase):
@@ -102,6 +103,26 @@ class BatchDataTests(unittest.TestCase):
             self.assertTrue(row['source_url'].endswith('?oldid=' + row['source_revision_id']))
             self.assertTrue(row['review_note'])
 
+    def test_wiktionary_second_tranche_manifest_and_revision_pins(self):
+        outputs, _ = build_wiktionary_2()
+        for path, payload in outputs.items():
+            self.assertEqual(path.read_bytes(), payload, str(path))
+        manifest = json.loads((self.data / 'wiktionary-manifest-2.json').read_text(encoding='utf-8'))
+        self.assertEqual(manifest['batch'], '02-wiktionary-2')
+        self.assertEqual(manifest['runtime_file']['rows'], 7)
+        self.assertEqual(manifest['pending_before'] - manifest['pending_after'], 7)
+        self.assertEqual(manifest['discovery_snapshot']['artifact_sha256'],
+                         '1bc71e741f884c3ef9ac801397b3dabfbf39ecd3ba666ca08d8a4206eaf114ac')
+        runtime = (self.data / 'wiktionary-expansion-2.tsv').read_bytes()
+        self.assertEqual(hashlib.sha256(runtime).hexdigest(), manifest['runtime_file']['sha256'])
+        with (self.data / 'batches/06-wiktionary-zh-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream, delimiter='\t'))
+        self.assertEqual(len(rows), 7)
+        for row in rows:
+            self.assertRegex(row['source_revision_id'], r'^\d+$')
+            self.assertTrue(row['source_url'].endswith('?oldid=' + row['source_revision_id']))
+            self.assertTrue(row['review_note'])
+
 
 class BatchNativeTests(unittest.TestCase):
     def setUp(self):
@@ -158,8 +179,10 @@ class BatchNativeTests(unittest.TestCase):
 
     def test_wiktionary_additions_are_reachable_tagged_and_individually_committable(self):
         pinyin = {row.split('\t')[0]: row.split('\t')[1].replace(' ', '') for row in (ROOT / 'build/pinyin-candidates.tsv').read_text(encoding='utf-8').splitlines()}
-        with (ROOT / 'vocabulary/data/batches/03-wiktionary-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
-            rows = list(csv.DictReader(stream, delimiter='\t'))
+        rows = []
+        for curation in ('03-wiktionary-reviewed.tsv', '06-wiktionary-zh-reviewed.tsv'):
+            with (ROOT / 'vocabulary/data/batches' / curation).open(encoding='utf-8', newline='') as stream:
+                rows.extend(csv.DictReader(stream, delimiter='\t'))
         for row in rows:
             chinese, english = row['chinese'], row['english']
             self.assertIn(chinese, pinyin)
@@ -172,13 +195,14 @@ class BatchNativeTests(unittest.TestCase):
                 state = self.action('next_page')
             self.assertIsNotNone(candidate, f'{chinese} is not reachable by its packed pinyin')
             candidate_order = [item['text'] for item in state['candidates']]
-            state = self.action('vocabulary', vocabulary_targets=['cet4', 'cet6'])
+            selected = row['targets'].split(',')
+            state = self.action('vocabulary', vocabulary_targets=selected)
             self.assertEqual([item['text'] for item in state['candidates']], candidate_order)
             candidate = next(item for item in state['candidates'] if item['text'] == chinese)
             sense = next((item for item in candidate['translation_senses'] if item['text'] == english), None)
             self.assertIsNotNone(sense, f'missing translated sense {chinese} -> {english}')
             self.assertEqual(sense['translation_source'], 'Wiktionary CC BY-SA 4.0')
-            self.assertTrue(any(tag['id'] in {'cet4', 'cet6'} for tag in sense['tags']))
+            self.assertTrue(any(tag['id'] in selected and tag['selected'] for tag in sense['tags']))
             self.assertEqual(sense['pronunciation']['word'], english)
             self.assertEqual(self.action('translation', index=candidate['id'], sense_index=sense['index'], revision=state['revision'])['commit'], english)
 
