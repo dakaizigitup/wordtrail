@@ -1,0 +1,11 @@
+PASS: candidate strip has no CEFR badges even with prior settings
+PASS: manually chosen TEM4 persists and moves darling before baby
+PASS: multiple tags belong to the displayed English word
+PASS: long press inserts the displayed prioritized translation
+PASS: expanded IPA title follows the prioritized translation
+PASS: expanded detail has no CEFR section
+PASS: non-target original sense remains available for explicit insertion
+PASS: normal tap still commits Chinese
+PASS: multi-selection uses OR and preserves original order on ties
+PASS: clear goals restores original order
+PASS: Japanese candidates have no English exam badges

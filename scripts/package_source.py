@@ -10,7 +10,7 @@ SKIP_PREFIXES=('third-party/rust/','android/app/src/main/assets/data/','android/
 
 def main():
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
-    archive=dist/'wordtrail-0.1.8-source.zip'
+    archive=dist/'wordtrail-0.1.9-source.zip'
     count=0
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,strict_timestamps=False) as output:
         for file in sorted(ROOT.rglob('*')):
@@ -27,7 +27,7 @@ def main():
     with zipfile.ZipFile(archive) as source:
         assert source.testzip() is None
     DELIVERY.mkdir(parents=True,exist_ok=True)
-    files=[archive,dist/'wordtrail-0.1.8-debug.apk']
+    files=[archive,dist/'wordtrail-0.1.9-debug.apk']
     for file in files: shutil.copy2(file,DELIVERY/file.name)
     shutil.copy2(ROOT/'docs/安装与测试指南.md',DELIVERY/'安装与测试指南.md')
     shutil.copy2(ROOT/'docs/测试报告.md',DELIVERY/'测试报告.md')
@@ -41,6 +41,7 @@ def main():
     shutil.copy2(ROOT/'docs/0.1.7图标更新.md',DELIVERY/'0.1.7图标更新.md')
     shutil.copy2(ROOT/'docs/0.1.8词汇目标.md',DELIVERY/'0.1.8词汇目标.md')
     shutil.copy2(ROOT/'docs/0.1.8测试报告.md',DELIVERY/'0.1.8测试报告.md')
+    shutil.copy2(ROOT/'docs/0.1.9标签精简.md',DELIVERY/'0.1.9标签精简.md')
     shutil.copy2(ROOT/'branding/wordtrail-warm-icon.png',DELIVERY/'词伴暖色图标.png')
     previews=DELIVERY/'screenshots';previews.mkdir(exist_ok=True)
     for image in (ROOT/'docs/screenshots').glob('*.png'):

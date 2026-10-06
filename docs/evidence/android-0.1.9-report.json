@@ -1,0 +1,12 @@
+{
+  "version": "0.1.9",
+  "version_code": 10,
+  "apk_bytes": 252037477,
+  "apk_sha256": "aeb2c64646310f21d3361af75aac652435fcb93602c6556e09abf7f7fa68a434",
+  "ui_passed": 11,
+  "layout_passed": 72,
+  "layout_profiles": 4,
+  "legacy_show_word_levels": true,
+  "build_signature_and_16k_alignment": "passed",
+  "scope": "Android emulator; iOS source only; Windows 0.1.2 unchanged"
+}

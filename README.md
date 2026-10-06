@@ -9,25 +9,24 @@
 
 ## 下载
 
-当前发布为 **v0.1.8**。各平台版本独立：Android **0.1.8**，Windows 补丁 **0.1.2**。
+当前发布为 **v0.1.9**。各平台版本独立：Android **0.1.9**，Windows 补丁 **0.1.2**。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.8/wordtrail-0.1.8-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
-| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.8/wordtrail-windows-ipa-0.1.2.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.8/wordtrail-0.1.8-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.8/SHA256SUMS.txt) | 核对发布附件 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/wordtrail-0.1.9-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
+| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/wordtrail-windows-ipa-0.1.2.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/wordtrail-0.1.9-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.9/SHA256SUMS.txt) | 核对发布附件 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
 ## 当前功能
 
-| 功能 | Android 0.1.8 | Windows 补丁 0.1.2 | iOS 源码 |
+| 功能 | Android 0.1.9 | Windows 补丁 0.1.2 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
 | 英式 / 美式英语音标 | 展开候选详情查看 | 各英语释义旁注 | 展开详情，未验证 |
-| 英语 CEFR A1–C2 自动参考分级 | 8,845 词，默认显示 | 尚未加入补丁 | 已加入源码，未验证 |
 | 英语考试目标、多标签与译词优先 | 六类多选，已实现 | 六类多选，已实现 | 已加入源码，未验证 |
 | 中文 / 英文本机离线语音 | 已实现，不依赖系统语音服务 | 未新增 | 未新增 |
 | 青绿 / 粉紫 / 深色主题 | 可切换 | 官方外观 | 已加入源码，未验证 |
@@ -35,7 +34,7 @@
 
 Android 同时提供中英切换、数字/符号键盘、主动收起按钮、紧凑候选行、可滚动的释义/多音标详情。新译词标橙、熟悉译词变灰；保留本地学习机制。
 
-**已支持四级、六级、专四、专八、托福、雅思六类学习目标，支持多选与同词多标签。** 命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签与 CEFR 分开，不等于官方完整考试范围、考试成绩或个人水平。专业领域类别后续增加。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)。
+**已支持四级、六级、专四、专八、托福、雅思六类学习目标，支持多选与同词多标签。** 命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签不等于官方完整考试范围、考试成绩或个人水平。专业领域类别后续增加。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)。
 
 ## 安装与使用
 
@@ -44,7 +43,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 1. 下载 APK，在手机文件管理器打开安装。已有同签名词伴版本可直接覆盖安装，保留设置与学习数据。
 2. 打开“词伴输入法”，点“① 启用词伴键盘”，再点“② 切换到词伴”。
 3. 在输入框输入 `nihao`：候选显示“你好”和 `hello`。点候选输入中文；长按候选输入译词。
-4. 点候选小箭头或向下滑查看完整释义、等级及英式/美式音标；点“EN 译词”切换学习语言。
+4. 点候选小箭头或向下滑查看完整释义、考试标签及英式/美式音标；点“EN 译词”切换学习语言。
 5. 在首页“英语学习目标”选择类别，可多选；全部词汇保留，命中目标的译词优先。详情可逐条输入译词。
 6. “中/英”切换输入模式，◐ 切换主题，右上角向下箭头收起键盘。点击麦克风后授权录音，说话并点“完成”插入文字；“取消”不会插入。
 
@@ -64,22 +63,24 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 ### iOS
 
-仓库提供宿主应用与系统键盘扩展源码、音标/等级和同款图标资源。需要 Mac、Xcode 和签名后才能安装；本项目尚未执行 iOS 编译或真机验证，**不要将源码支持理解为已有可安装版本**。
+仓库提供宿主应用与系统键盘扩展源码、音标/考试标签和同款图标资源。需要 Mac、Xcode 和签名后才能安装；本项目尚未执行 iOS 编译或真机验证，**不要将源码支持理解为已有可安装版本**。
 
 ## 界面预览
 
-<img src="docs/screenshots/android-0.1.8-goals.png" width="230" alt="Android 六类英语学习目标多选">
-<img src="docs/screenshots/android-0.1.8-candidates.png" width="230" alt="Android 英文译词优先与多标签候选">
+<img src="docs/screenshots/android-0.1.9-goals.png" width="230" alt="Android 六类英语学习目标多选">
+<img src="docs/screenshots/android-0.1.9-candidates.png" width="230" alt="Android 英文译词优先与多标签候选">
 
 <img src="docs/screenshots/desktop-ipa.png" width="620" alt="Windows 真实候选窗口音标">
 
-更多 [主题预览](docs/主题预览.html)、[本版验证记录](docs/0.1.8测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
+从 0.1.9 起，候选、详情和设置里均移除 A1–C2，详见 [标签精简说明](docs/0.1.9标签精简.md)。
+
+更多 [主题预览](docs/主题预览.html)、[本版检查说明](docs/0.1.9标签精简.md)、[上一版验证记录](docs/0.1.8测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
 
 ## 实现基底
 
-中文候选来自青简拼音内核与本地词库。英文、日文和西班牙文释义是随包的离线数据，按候选词查表；英语音标来自独立 IPA 词典，共 **147,488 个词条**，按单词查询英式 RP / 美式 GA 数据。CEFR 等级同样通过固定词表查询。
+中文候选来自青简拼音内核与本地词库。英文、日文和西班牙文释义是随包的离线数据，按候选词查表；英语音标来自独立 IPA 词典，共 **147,488 个词条**，按单词查询英式 RP / 美式 GA 数据。当前界面只显示考试收录标签，不再显示 A1–C2 参考等级。
 
-日常拼音、释义、音标、等级和默认语音都在本机处理。Android 应用没有 `INTERNET` 权限；开发构建时的数据下载与安装包内的日常运行是不同阶段。
+日常拼音、释义、音标、考试标签和默认语音都在本机处理。Android 应用没有 `INTERNET` 权限；开发构建时的数据下载与安装包内的日常运行是不同阶段。
 
 这仍是实验版：没有九宫格、手写、滑行输入、表情面板或完整的学习统计页，也没有移植桌面的整句神经模型。当前发布以可用的输入与辅助学习为主。
 
@@ -110,7 +111,7 @@ python scripts/bootstrap_dependencies.py
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.8-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.9-source.zip
 ```
 
 该脚本只恢复被 Git 忽略的第三方依赖和生成词库，不覆盖当前开发代码。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。

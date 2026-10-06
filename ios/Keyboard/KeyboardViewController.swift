@@ -182,9 +182,6 @@ final class KeyboardViewController: UIInputViewController {
             item.addAction(UIAction { [weak self] _ in self?.send("select", ["index": candidate.id, "revision": value.revision]) }, for: .touchUpInside)
             item.tag = candidate.id
             let detail = UIButton(type: .system); detail.setTitle(candidate.pronunciation == nil ? "释义 ▾" : "音标 ▾", for: .normal)
-            if let level = candidate.vocabularyLevels?.first?.level {
-                detail.setTitle(level + " · " + (candidate.pronunciation == nil ? "释义 ▾" : "音标 ▾"), for: .normal)
-            }
             detail.titleLabel?.font = .systemFont(ofSize: 10); detail.setTitleColor(palette.muted, for: .normal); detail.translatesAutoresizingMaskIntoConstraints = false
             detail.accessibilityLabel = "查看\(candidate.text)的音标和释义"
             detail.addAction(UIAction { [weak self] _ in self?.showPronunciation(candidate) }, for: .touchUpInside)
@@ -218,11 +215,6 @@ final class KeyboardViewController: UIInputViewController {
         let scroll = UIScrollView(); scroll.heightAnchor.constraint(equalToConstant: 80).isActive = true
         let label = UILabel(); label.numberOfLines = 0; label.font = .systemFont(ofSize: 13); label.textColor = palette.ink
         var text = candidate.annotation
-        if let levels = candidate.vocabularyLevels, !levels.isEmpty {
-            text += "\n词汇参考等级 · CEFR"
-            for item in levels { text += "\n" + item.word + " · " + (item.level ?? "未收录（不代表难度）") }
-            text += "\n按英文译词标注，不是六级、雅思等级或个人水平。"
-        }
         if let senses = candidate.translationSenses {
             for sense in senses {
                 text += "\n" + sense.text + " · " + (sense.tags.isEmpty ? "暂无考试标签" : sense.tags.map { $0.label }.joined(separator: " / "))
