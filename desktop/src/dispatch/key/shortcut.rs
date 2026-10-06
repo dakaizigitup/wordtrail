@@ -79,6 +79,9 @@ impl Router {
             items: vec![candidate],
         };
         self.engine.annotate(&mut list);
+        for candidate in &mut list.items {
+            wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+        }
         list.items.pop()
     }
 }

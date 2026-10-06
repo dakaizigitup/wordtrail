@@ -1,0 +1,8 @@
+PASS: protocol 7 opens a session
+PASS: real dictionary produces Chinese candidate
+PASS: native candidate window renders
+PASS: translation commit contains only hello
+PASS: normal Chinese commit is unchanged
+PASS: target hot reload preserves Chinese candidate order
+PASS: real IPC frame prioritizes TEM4 darling while retaining baby
+PASS: Ctrl digit inserts prioritized translation matching displayed frame

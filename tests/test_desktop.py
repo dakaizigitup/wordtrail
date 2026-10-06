@@ -1,6 +1,7 @@
 """Exercise the real Windows server over an isolated pipe and capture its candidate window."""
 from pathlib import Path
 import ctypes, ctypes.wintypes as W, json, os, shutil, struct, subprocess, time
+import tkinter as tk
 from PIL import ImageGrab
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -16,8 +17,17 @@ USER=ROOT/'build/desktop-test-user'
 config=USER/'roaming/Qingjian/config.toml'
 config.parent.mkdir(parents=True,exist_ok=True)
 config.write_text('[general]\nlearning_language="en"\nlayout="vertical"\n[model]\nenabled=false\n[predict]\nenabled=false\n[status_bar]\nenabled=false\n',encoding='utf-8')
+vocabulary=config.with_name('wordtrail-vocabulary.json')
+vocabulary.write_text('{"targets":[]}',encoding='utf-8')
 PIPE=r'\\.\pipe\wordtrail-ipa-test'
 env=dict(os.environ,APPDATA=str(USER/'roaming'),LOCALAPPDATA=str(USER/'local'),WORDTRAIL_TEST_PIPE=PIPE)
+ctypes.windll.user32.SetProcessDpiAwarenessContext(ctypes.c_void_p(-4))
+background=tk.Tk()
+background.title('词伴 · 隔离候选测试')
+background.overrideredirect(True)
+background.maxsize(8000,4000)
+background.geometry('8000x4000+0+0');background.configure(bg='#edf4ef')
+background.update();background.lift()
 process=subprocess.Popen([str(STAGE/'qingjian-server.exe')],cwd=STAGE,env=env,creationflags=subprocess.CREATE_NO_WINDOW)
 checks=[]
 def check(name,value):
@@ -89,8 +99,23 @@ try:
     for char in 'nihao':result=key(char)
     result=key(' ')
     check('normal Chinese commit is unchanged',result['commit']=='你好')
+    for char in 'bbei':result=key(char)
+    before=result['frame']['candidates']['items']
+    vocabulary.write_text('{"targets":["tem4"]}',encoding='utf-8')
+    time.sleep(1.2)
+    updated=send('Poll',dict(session=session))['Update']['frame']['candidates']['items']
+    check('target hot reload preserves Chinese candidate order',[c['text'] for c in before]==[c['text'] for c in updated])
+    baby=next(c for c in updated if c['text']=='宝贝')
+    check('real IPC frame prioritizes TEM4 darling while retaining baby',[s['text'] for s in baby['translation']['senses']]==['darling','baby'])
+    send('PositionCandidates',dict(session=session,rect=dict(left=180,top=160,right=182,bottom=182)),False)
+    time.sleep(.4)
+    if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.2-vocabulary.png')
+    result=key(str(updated.index(baby)+1),ctrl=True)
+    check('Ctrl digit inserts prioritized translation matching displayed frame',result['commit']=='darling')
+    vocabulary.write_text('{"targets":[]}',encoding='utf-8')
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     pipe.close()
 finally:
     process.terminate();process.wait(timeout=10)
+    background.destroy()

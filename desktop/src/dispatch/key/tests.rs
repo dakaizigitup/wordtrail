@@ -65,6 +65,55 @@ fn compose(router: &mut Router, text: &str, modifiers: KeyModifiers) {
     }
 }
 #[test]
+fn exam_priority_keeps_chinese_order_and_ctrl_digit_matches_display() {
+    use qingjian_core::Language;
+    use qingjian_translate::Glossary;
+    let engine = Engine::new(Dictionary::parse("宝贝\tbao bei\t100\n包被\tbao bei\t90\n").unwrap())
+        .with_translator(Box::new(
+            Glossary::parse(Language::English, "宝贝\tn. baby\tn. darling\n").unwrap(),
+        ));
+    let mut router = Router::new(engine, RouterConfig::default());
+    router.handle(ClientMessage::OpenSession {
+        session: SessionId(1),
+        app: None,
+        protocol: PROTOCOL_VERSION,
+    });
+    compose(&mut router, "baobei", KeyModifiers::default());
+    let original = router.current_frame();
+    router.set_vocabulary_targets(1 << 2);
+    let frame = router.current_frame();
+    assert_eq!(
+        frame
+            .candidates
+            .items
+            .iter()
+            .map(|c| &c.text)
+            .collect::<Vec<_>>(),
+        original
+            .candidates
+            .items
+            .iter()
+            .map(|c| &c.text)
+            .collect::<Vec<_>>()
+    );
+    let candidate = &frame.candidates.items[0];
+    assert_eq!(
+        candidate.translation.as_ref().unwrap().senses()[0].text,
+        "darling"
+    );
+    assert_eq!(
+        candidate.translation.as_ref().unwrap().senses()[1].text,
+        "baby"
+    );
+    let modifiers = router.config.translation_keys.0;
+    assert_eq!(
+        key(&mut router, b'1' as u32, Some('1'), modifiers)
+            .1
+            .as_deref(),
+        Some("darling")
+    );
+}
+#[test]
 fn tab_and_backtab_page_boundaries_and_current_page_selection() {
     for size in [1, 4, 5, 9] {
         let mut router = router(size);

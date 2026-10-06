@@ -57,6 +57,19 @@ pub(crate) fn from_candidate(position: usize, candidate: &Candidate, show_code: 
                 }
             }
             if translation.language == Language::English {
+                let tags = wordtrail_vocabulary::tags(&sense.text, 0);
+                if !tags.is_empty() {
+                    annotation.push((
+                        format!(
+                            " [{}]",
+                            tags.iter()
+                                .map(|tag| tag.label)
+                                .collect::<Vec<_>>()
+                                .join("/")
+                        ),
+                        Tone::Faint,
+                    ));
+                }
                 if let Some(pronunciation) =
                     pronunciation_dictionary().and_then(|dictionary| dictionary.lookup(&sense.text))
                 {

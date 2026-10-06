@@ -20,6 +20,10 @@ pub struct Request {
     pub user_dir: String,
     #[serde(default)]
     pub private: bool,
+    #[serde(default)]
+    pub vocabulary_targets: Vec<String>,
+    #[serde(default)]
+    pub sense_index: usize,
 }
 
 fn english() -> String {
@@ -39,7 +43,19 @@ pub struct MobileCandidate {
     pub annotation: String,
     pub pronunciation: Option<wordtrail_pronunciation::Pronunciation>,
     pub vocabulary_levels: Vec<VocabularyLevel>,
+    pub translation_senses: Vec<TranslationSense>,
     pub fresh: bool,
+}
+
+#[derive(Serialize)]
+pub struct TranslationSense {
+    pub index: usize,
+    pub text: String,
+    pub part_of_speech: Option<String>,
+    pub reading: Option<String>,
+    pub fresh: bool,
+    pub tags: Vec<wordtrail_vocabulary::Tag>,
+    pub pronunciation: Option<wordtrail_pronunciation::Pronunciation>,
 }
 
 #[derive(Default, Serialize)]
@@ -54,6 +70,7 @@ pub struct MobileState {
     pub language: String,
     pub page: usize,
     pub page_count: usize,
+    pub vocabulary_targets: Vec<&'static str>,
 }
 
 #[derive(Serialize)]

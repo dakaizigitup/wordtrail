@@ -1,0 +1,28 @@
+   Compiling wordtrail-windows-server v0.1.2 (D:\研究方向\多模态\qingjian-mobile\desktop)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.54s
+     Running unittests src\lib.rs (target\debug\deps\qingjian_windows_server-bd335813aafc897d.exe)
+
+running 8 tests
+test ui::candidates::render_data::tests::window_keeps_the_pinyin_row_unless_inline_only ... ok
+test dispatch::key::tests::shift_tab_precedes_prediction_and_english_commit ... ok
+test dispatch::key::tests::tab_with_raw_input_and_no_candidates_is_consumed_without_commit ... ok
+test dispatch::key::tests::tab_and_backtab_page_boundaries_and_current_page_selection ... ok
+test dispatch::reload::tests::dictionary_changes_do_not_retry_broken_config ... ok
+test dispatch::reload::tests::vocabulary_preferences_load_reload_and_reject_invalid_without_touching_general_config ... ok
+test dispatch::key::tests::exam_priority_keeps_chinese_order_and_ctrl_digit_matches_display ... ok
+test dispatch::reload::tests::import_replace_and_remove_without_config_changes ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+     Running unittests src\main.rs (target\debug\deps\qingjian_server-219eb813e3a09e41.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests qingjian_windows_server
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

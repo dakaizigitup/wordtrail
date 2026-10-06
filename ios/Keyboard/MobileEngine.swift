@@ -31,7 +31,8 @@ final class MobileEngine {
                     let user = try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("Learning")
                     let response = try Self.request([
                         "op": "create", "data_dir": data.path, "user_dir": user.path,
-                        "language": UserDefaults.standard.string(forKey: "learningLanguage") ?? "en"
+                        "language": UserDefaults.standard.string(forKey: "learningLanguage") ?? "en",
+                        "vocabulary_targets": UserDefaults.standard.stringArray(forKey: "vocabularyTargets") ?? []
                     ])
                     handle = response.handle
                 }
@@ -54,4 +55,3 @@ final class MobileEngine {
         }
     }
 }
-

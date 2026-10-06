@@ -1,5 +1,5 @@
 //! 复用青简内核的移动会话，保存候选快照，避免点选时查询变化。
-use crate::model::{MobileCandidate, MobileState, Request};
+use crate::model::{MobileCandidate, MobileState, Request, TranslationSense};
 use qingjian_core::{Candidate, Engine, Language};
 use qingjian_dictionary::Dictionary;
 use qingjian_learning::{FrequencyLearner, VocabularyBook};
@@ -15,6 +15,7 @@ pub struct Session {
     visible: Vec<Candidate>,
     revision: u64,
     page: usize,
+    vocabulary_targets: u16,
 }
 
 fn data_file(dir: &Path, stem: &str) -> PathBuf {
@@ -39,6 +40,8 @@ fn glossary(dir: &Path, language: &str) -> Result<Glossary, String> {
 
 impl Session {
     pub fn new(request: &Request) -> Result<Self, String> {
+        let vocabulary_targets = wordtrail_vocabulary::selection(&request.vocabulary_targets)?;
+        wordtrail_vocabulary::initialize();
         let data_dir = PathBuf::from(&request.data_dir);
         let user_dir = PathBuf::from(&request.user_dir);
         if request.data_dir.is_empty() || request.user_dir.is_empty() {
@@ -74,6 +77,7 @@ impl Session {
             visible: Vec::new(),
             revision: 0,
             page: 0,
+            vocabulary_targets,
         })
     }
 
@@ -139,7 +143,7 @@ impl Session {
                 commit = if request.op == "translation" {
                     Some(
                         self.engine
-                            .commit_translation(&candidate, 0)
+                            .commit_translation(&candidate, request.sense_index)
                             .ok_or("candidate has no translation")?,
                     )
                 } else {
@@ -181,6 +185,10 @@ impl Session {
                 self.language = request.language.clone();
             }
             "flush" => self.engine.flush_learning(),
+            "vocabulary" => {
+                self.vocabulary_targets =
+                    wordtrail_vocabulary::selection(&request.vocabulary_targets)?;
+            }
             "state" => {}
             _ => return Err("unknown operation".into()),
         }
@@ -212,6 +220,9 @@ impl Session {
                 .take(9)
                 .collect();
             self.engine.annotate(&mut query.candidates);
+            for candidate in &mut query.candidates.items {
+                wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+            }
             self.visible = query.candidates.items;
         }
         self.engine.note_displayed(self.visible.iter());
@@ -245,6 +256,31 @@ impl Session {
                     } else {
                         Vec::new()
                     },
+                    translation_senses: senses
+                        .iter()
+                        .enumerate()
+                        .map(|(index, sense)| TranslationSense {
+                            index,
+                            text: sense.text.clone(),
+                            part_of_speech: sense
+                                .part_of_speech
+                                .map(|pos| pos.abbreviation().to_owned()),
+                            reading: sense.reading.clone(),
+                            fresh: sense.fresh,
+                            tags: if self.language == "en" {
+                                wordtrail_vocabulary::tags(&sense.text, self.vocabulary_targets)
+                            } else {
+                                Vec::new()
+                            },
+                            pronunciation: if self.language == "en" {
+                                self.pronunciation
+                                    .as_ref()
+                                    .and_then(|dictionary| dictionary.lookup(&sense.text))
+                            } else {
+                                None
+                            },
+                        })
+                        .collect(),
                     pronunciation: if self.language == "en" {
                         senses
                             .first()
@@ -265,6 +301,7 @@ impl Session {
             language: self.language.clone(),
             page: self.page,
             page_count,
+            vocabulary_targets: wordtrail_vocabulary::selected_ids(self.vocabulary_targets),
             ..Default::default()
         }
     }

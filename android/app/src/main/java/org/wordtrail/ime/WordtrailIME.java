@@ -56,7 +56,8 @@ public final class WordtrailIME extends InputMethodService {
                 File data = DataFiles.prepare(this);
                 JSONObject request = new JSONObject().put("op","create").put("data_dir",data.getAbsolutePath())
                     .put("user_dir",new File(getFilesDir(),"learning").getAbsolutePath())
-                    .put("language",getSharedPreferences("settings",MODE_PRIVATE).getString("language","en"));
+                    .put("language",getSharedPreferences("settings",MODE_PRIVATE).getString("language","en"))
+                    .put("vocabulary_targets",VocabularySettings.targets(this));
                 JSONObject response = new JSONObject(NativeBridge.request(request.toString()));
                 if (!response.isNull("error")) throw new Exception(response.getString("error"));
                 handle = response.getLong("handle");
@@ -132,7 +133,7 @@ public final class WordtrailIME extends InputMethodService {
         } catch(JSONException ignored) {}
         if(keys!=null) buildKeys();
     }
-    @Override public void onStartInputView(EditorInfo info,boolean restarting){super.onStartInputView(info,restarting);if(palette!=null && !palette.id.equals(WordtrailStyle.load(this).id))applyTheme();else if(displayed!=null && !speechShowing)render(displayed,false);}
+    @Override public void onStartInputView(EditorInfo info,boolean restarting){super.onStartInputView(info,restarting);if(palette!=null && !palette.id.equals(WordtrailStyle.load(this).id))applyTheme();else if(displayed!=null && !speechShowing)render(displayed,false);try{action("vocabulary",new JSONObject().put("vocabulary_targets",VocabularySettings.targets(this)));}catch(JSONException ignored){}}
 
     @Override public void onFinishInput() {
         closeSpeech(false);
@@ -254,14 +255,24 @@ public final class WordtrailIME extends InputMethodService {
             LinearLayout cell=new LinearLayout(this); cell.setOrientation(LinearLayout.VERTICAL); cell.setGravity(Gravity.CENTER); cell.setPadding(dp(4),dp(2),dp(4),dp(2));cell.setBackground(palette.shape(this,i==0?palette.soft:palette.background,0,10));
             LinearLayout heading=row();heading.setGravity(Gravity.CENTER_VERTICAL);
             TextView word=new TextView(this); word.setText(candidate.optString("text"));word.setIncludeFontPadding(false);word.setTextSize(compact?16:wide?18:17);word.setSingleLine(true);word.setEllipsize(android.text.TextUtils.TruncateAt.END);word.setTextColor(i==0?palette.accent:palette.ink);word.setTypeface(android.graphics.Typeface.create("sans-serif-medium",0));word.setGravity(Gravity.CENTER);heading.addView(word,new LinearLayout.LayoutParams(0,dp(26),1));
-            TextView detail=new TextView(this);detail.setText("▾");detail.setIncludeFontPadding(false);detail.setTextSize(10);detail.setTextColor(palette.muted);detail.setGravity(Gravity.CENTER);detail.setContentDescription("查看"+candidate.optString("text")+"的音标和释义");detail.setOnClickListener(v -> showPronunciation(candidate));heading.addView(detail,new LinearLayout.LayoutParams(dp(16),dp(26)));cell.addView(heading,new LinearLayout.LayoutParams(-1,dp(26)));
+            LinearLayout detailSlot=new LinearLayout(this);detailSlot.setOrientation(LinearLayout.VERTICAL);detailSlot.setGravity(Gravity.CENTER);detailSlot.setContentDescription("查看"+candidate.optString("text")+"的音标和释义");detailSlot.setOnClickListener(v->showPronunciation(candidate));
+            TextView detail=new TextView(this);detail.setText("▾");detail.setIncludeFontPadding(false);detail.setTextSize(10);detail.setTextColor(palette.muted);detail.setGravity(Gravity.CENTER);detailSlot.addView(detail,new LinearLayout.LayoutParams(dp(16),dp(26)));heading.addView(detailSlot,new LinearLayout.LayoutParams(dp(16),dp(26)));cell.addView(heading,new LinearLayout.LayoutParams(-1,dp(26)));
             LinearLayout translationRow=row();translationRow.setGravity(Gravity.CENTER_VERTICAL);
-            TextView gloss=new TextView(this); gloss.setText(candidate.optString("annotation"));gloss.setIncludeFontPadding(false); gloss.setTextSize(9.5f); gloss.setSingleLine(true);gloss.setEllipsize(android.text.TextUtils.TruncateAt.END);gloss.setGravity(Gravity.CENTER);gloss.setTextColor(candidate.optBoolean("fresh") ? palette.fresh : palette.muted);translationRow.addView(gloss,new LinearLayout.LayoutParams(0,-2,1));
+            JSONArray senses=candidate.optJSONArray("translation_senses");JSONObject firstSense=senses==null?null:senses.optJSONObject(0);
+            TextView gloss=new TextView(this);gloss.setText(firstSense==null || !state.optString("language").equals("en")?candidate.optString("annotation"):firstSense.optString("text"));gloss.setIncludeFontPadding(false);gloss.setTextSize(10);gloss.setSingleLine(true);gloss.setEllipsize(android.text.TextUtils.TruncateAt.END);gloss.setGravity(Gravity.CENTER);gloss.setTextColor((firstSense==null?candidate.optBoolean("fresh"):firstSense.optBoolean("fresh"))?palette.fresh:palette.muted);translationRow.addView(gloss,new LinearLayout.LayoutParams(0,-2,1));
+            JSONArray tags=firstSense==null?null:firstSense.optJSONArray("tags");
+            if(tags!=null && tags.length()>0 && getSharedPreferences("settings",MODE_PRIVATE).getBoolean("show_vocabulary_tags",true)){
+                TextView tagBadge=new TextView(this);int count=cellWidth>=dp(105)?Math.min(2,tags.length()):1;StringBuilder title=new StringBuilder();boolean preferred=false;
+                for(int t=0;t<count;t++){JSONObject tag=tags.optJSONObject(t);if(tag==null)continue;if(t>0)title.append("/");title.append(VocabularySettings.shortLabel(tag.optString("id")));preferred|=tag.optBoolean("selected");}
+                if(tags.length()>count)title.append("+").append(tags.length()-count);
+                tagBadge.setText(title);tagBadge.setTextSize(7.5f);tagBadge.setIncludeFontPadding(false);tagBadge.setSingleLine(true);tagBadge.setPadding(dp(2),0,dp(2),0);tagBadge.setGravity(Gravity.CENTER);tagBadge.setTextColor(preferred?palette.accent:palette.muted);tagBadge.setBackground(palette.shape(this,palette.soft,0,4));
+                tagBadge.setContentDescription(firstSense.optString("text")+" · 考试标签 "+tagLabels(tags));tagBadge.setOnClickListener(v->showPronunciation(candidate));LinearLayout.LayoutParams bp=new LinearLayout.LayoutParams(-2,dp(13));bp.leftMargin=dp(2);translationRow.addView(tagBadge,bp);
+            }
             String level=firstLevel(candidate);
             boolean showLevel=!level.isEmpty() && getSharedPreferences("settings",MODE_PRIVATE).getBoolean("show_word_levels",true);
             if(showLevel){
                 TextView badge=new TextView(this);badge.setText(level);badge.setIncludeFontPadding(false);badge.setTextSize(9);badge.setGravity(Gravity.CENTER);badge.setTextColor(palette.accent);badge.setBackground(palette.shape(this,palette.soft,0,4));
-                JSONArray entries=candidate.optJSONArray("vocabulary_levels");String translated=entries.optJSONObject(0).optString("word");badge.setContentDescription(translated+" · CEFR "+level);LinearLayout.LayoutParams bp=new LinearLayout.LayoutParams(dp(17),dp(13));bp.leftMargin=dp(2);translationRow.addView(badge,bp);
+                JSONArray entries=candidate.optJSONArray("vocabulary_levels");String translated=entries.optJSONObject(0).optString("word");badge.setContentDescription(translated+" · CEFR "+level);badge.setTextSize(8);detailSlot.removeAllViews();detailSlot.addView(badge,new LinearLayout.LayoutParams(dp(16),dp(12)));detailSlot.addView(detail,new LinearLayout.LayoutParams(dp(16),dp(11)));
             }
             cell.addView(translationRow,new LinearLayout.LayoutParams(-1,dp(14)));
             cell.setContentDescription(candidate.optString("text")+" "+candidate.optString("annotation")+(showLevel?" · CEFR "+level:""));
@@ -293,6 +304,7 @@ public final class WordtrailIME extends InputMethodService {
     private String levelMeaning(String level){
         switch(level){case "A1":return "入门";case "A2":return "基础";case "B1":return "中级";case "B2":return "中高级";case "C1":return "高级";case "C2":return "高阶";default:return "未收录（不代表难度）";}
     }
+    private String tagLabels(JSONArray tags){StringBuilder labels=new StringBuilder();if(tags!=null)for(int i=0;i<tags.length();i++){JSONObject tag=tags.optJSONObject(i);if(tag!=null){if(labels.length()>0)labels.append(" · ");labels.append(tag.optString("label"));}}return labels.toString();}
     private void showPronunciation(JSONObject candidate){
         pronunciationPanel.removeAllViews();pronunciationPanel.setBackground(palette.shape(this,palette.surface,palette.line,12));
         LinearLayout header=row();header.setGravity(Gravity.CENTER_VERTICAL);header.setPadding(dp(12),0,dp(4),0);
@@ -302,13 +314,23 @@ public final class WordtrailIME extends InputMethodService {
         ScrollView scroll=new ScrollView(this);scroll.setFocusable(false);scroll.setVerticalScrollBarEnabled(true);scroll.setFillViewport(false);
         LinearLayout body=new LinearLayout(this);body.setOrientation(LinearLayout.VERTICAL);body.setPadding(dp(12),0,dp(12),dp(10));
         TextView gloss=detailLine(candidate.optString("annotation"));body.addView(gloss);
+        JSONArray senses=candidate.optJSONArray("translation_senses");
+        if(senses!=null)for(int i=0;i<senses.length();i++){
+            JSONObject sense=senses.optJSONObject(i);if(sense==null)continue;JSONArray tags=sense.optJSONArray("tags");
+            String tagDescription=displayed.optString("language").equals("en")?" · "+(tags==null || tags.length()==0?"暂无考试标签":tagLabels(tags)):"";
+            TextView entry=detailLine(sense.optString("text")+tagDescription);entry.setTextColor(palette.accent);body.addView(entry);
+            java.util.LinkedHashSet<String> sources=new java.util.LinkedHashSet<>();if(tags!=null)for(int t=0;t<tags.length();t++){JSONArray names=tags.optJSONObject(t).optJSONArray("sources");if(names!=null)for(int n=0;n<names.length();n++)sources.add(names.optString(n));}
+            if(!sources.isEmpty()){TextView source=detailLine("词表来源："+String.join(" / ",sources));source.setTextSize(10);source.setTextColor(palette.muted);body.addView(source);}
+            JSONObject ipa=sense.optJSONObject("pronunciation");if(ipa!=null){if(!ipa.isNull("uk"))body.addView(detailLine("英式  "+ipa.optString("uk")));if(!ipa.isNull("us"))body.addView(detailLine("美式  "+ipa.optString("us")));}
+            final int senseIndex=sense.optInt("index",i);Button insert=control("输入译词 "+sense.optString("text"),v->{try{action("translation",new JSONObject().put("index",candidate.optInt("id")).put("sense_index",senseIndex).put("revision",displayed.optLong("revision")));}catch(JSONException ignored){}});insert.setTextSize(12);body.addView(insert,new LinearLayout.LayoutParams(-1,dp(40)));
+        }
         JSONArray entries=candidate.optJSONArray("vocabulary_levels");
         if(entries!=null && entries.length()>0){
             TextView heading=detailLine("词汇参考等级 · CEFR");heading.setTextColor(palette.accent);body.addView(heading);
             for(int i=0;i<entries.length();i++){JSONObject entry=entries.optJSONObject(i);if(entry==null)continue;String level=entry.isNull("level")?"":entry.optString("level","");body.addView(detailLine(entry.optString("word")+" · "+(level.isEmpty()?levelMeaning(""):level+" "+levelMeaning(level))));}
             TextView note=detailLine("按英文译词标注；不是个人水平或六级、雅思等级。");note.setTextSize(11);note.setTextColor(palette.muted);body.addView(note);
         }
-        if(pronunciation!=null){
+        if(pronunciation!=null && (senses==null || senses.length()==0)){
             String uk=pronunciation.isNull("uk")?"":pronunciation.optString("uk","");String us=pronunciation.isNull("us")?"":pronunciation.optString("us","");
             if(!uk.isEmpty())body.addView(detailLine("英式  "+uk));
             if(!us.isEmpty())body.addView(detailLine("美式  "+us));

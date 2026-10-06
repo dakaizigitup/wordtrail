@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "normalization": "trim and Unicode lowercase; exact whole-headword match; no stemming or substring tags",
+  "columns": [
+    "headword",
+    "ecdict_tag_mask",
+    "kylebing_tag_mask"
+  ],
+  "tags": [
+    {
+      "id": "cet4",
+      "bit": 0,
+      "label": "四级",
+      "words": 4999
+    },
+    {
+      "id": "cet6",
+      "bit": 1,
+      "label": "六级",
+      "words": 6036
+    },
+    {
+      "id": "tem4",
+      "bit": 2,
+      "label": "专四",
+      "words": 4340
+    },
+    {
+      "id": "tem8",
+      "bit": 3,
+      "label": "专八",
+      "words": 12410
+    },
+    {
+      "id": "toefl",
+      "bit": 4,
+      "label": "托福",
+      "words": 12213
+    },
+    {
+      "id": "ielts",
+      "bit": 5,
+      "label": "雅思",
+      "words": 6557
+    }
+  ],
+  "words": 17865,
+  "multiple_tag_words": 10861,
+  "bytes": 248545,
+  "sha256": "9b380aab7fe6a5ba7475a36d8058fe87a45e82ec914d301c8d342fd4088163f6",
+  "sources": [
+    {
+      "repo": "skywind3000/ECDICT",
+      "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "license": "BSD-3-Clause"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f",
+      "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b/LICENSE",
+      "repo": "skywind3000/ECDICT"
+    },
+    {
+      "repo": "skywind3000/ECDICT",
+      "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "path": "ecdict.csv",
+      "bytes": 65933428,
+      "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+      "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b/ecdict.csv"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1500,
+      "sha256": "5746ff57c9bb587018a73c030e57ba8d116c0b9843c0617c88dde9c21757b2d2",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/LICENSE",
+      "repo": "KyleBing/english-vocabulary"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/专四.jsonl",
+      "bytes": 2200971,
+      "sha256": "7344445961d22f077ac6780e0b78b1de269a483f69e145d527f18372ccdd9a62",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E4%B8%93%E5%9B%9B.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/四级.jsonl",
+      "bytes": 5319398,
+      "sha256": "d099f10a9faaeaf694c332ad7aa73648a777af01dbc2f6f4088cae52906a5649",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E5%9B%9B%E7%BA%A7.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/六级.jsonl",
+      "bytes": 2935036,
+      "sha256": "e902347a69724f420b970f89c94f64a82bb03c2128347fc1f775fa2f87a060e2",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E5%85%AD%E7%BA%A7.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/专八.jsonl",
+      "bytes": 5780764,
+      "sha256": "9ee47f0fe3ca44343df0b6600508bec5ca84d80d689cd21f5c378b65576b9c7d",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E4%B8%93%E5%85%AB.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/雅思.jsonl",
+      "bytes": 3593349,
+      "sha256": "d19150185321c7c17e03fe30ac6e6caf55bda3a8b2b0fa5af8b7383415c98293",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E9%9B%85%E6%80%9D.jsonl"
+    },
+    {
+      "repo": "KyleBing/english-vocabulary",
+      "commit": "c4c6c80879ff17d7025c28fb853a4991c8e6be6a",
+      "path": "full_line_jsonl/simple/正序/托福.jsonl",
+      "bytes": 6120843,
+      "sha256": "cc759e2becca4b744e99ceb8598180399a371316006b2b703b9ca9a78e05597f",
+      "url": "https://raw.githubusercontent.com/KyleBing/english-vocabulary/c4c6c80879ff17d7025c28fb853a4991c8e6be6a/full_line_jsonl/simple/%E6%AD%A3%E5%BA%8F/%E6%89%98%E7%A6%8F.jsonl"
+    }
+  ],
+  "kylebing_rows_before_deduplication": {
+    "cet4": 7508,
+    "cet6": 5651,
+    "tem4": 4620,
+    "tem8": 12881,
+    "toefl": 13477,
+    "ielts": 7002
+  },
+  "scope": "Community wordlist membership, not official complete exam coverage or word difficulty. Only headwords/tags extracted; no source definitions, examples or audio."
+}

@@ -17,7 +17,24 @@ struct MobileCandidate: Decodable {
     let annotation: String
     let pronunciation: MobilePronunciation?
     let vocabularyLevels: [VocabularyLevel]?
+    let translationSenses: [MobileTranslationSense]?
     let fresh: Bool
+}
+
+struct VocabularyTag: Decodable {
+    let id: String
+    let label: String
+    let selected: Bool
+    let sources: [String]
+}
+struct MobileTranslationSense: Decodable {
+    let index: Int
+    let text: String
+    let partOfSpeech: String?
+    let reading: String?
+    let fresh: Bool
+    let tags: [VocabularyTag]
+    let pronunciation: MobilePronunciation?
 }
 
 struct MobileState: Decodable {

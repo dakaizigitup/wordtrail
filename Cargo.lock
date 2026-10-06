@@ -3712,6 +3712,7 @@ dependencies = [
  "serde",
  "serde_json",
  "wordtrail-pronunciation",
+ "wordtrail-vocabulary",
 ]
 
 [[package]]
@@ -3725,8 +3726,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "wordtrail-vocabulary"
+version = "0.1.0"
+dependencies = [
+ "qingjian-core",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "wordtrail-windows-server"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "dotenvy",
  "embed-manifest",
@@ -3748,6 +3758,7 @@ dependencies = [
  "windows",
  "windows-registry",
  "wordtrail-pronunciation",
+ "wordtrail-vocabulary",
 ]
 
 [[package]]

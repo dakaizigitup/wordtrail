@@ -70,11 +70,27 @@ final class KeyboardViewController: UIInputViewController {
         toolbar.addArrangedSubview(language)
         let themes = button("◐") {}
         themes.accessibilityLabel = "切换主题"
-        themes.menu = UIMenu(title: "选择主题", children: WordtrailTheme.allCases.map { theme in
+        let themeActions: [UIMenuElement] = WordtrailTheme.allCases.map { theme in
             UIAction(title: theme.title, state: palette.theme == theme ? .on : .off) { [weak self] _ in
                 UserDefaults.standard.set(theme.rawValue, forKey: "theme"); self?.buildInterface()
             }
-        }); themes.showsMenuAsPrimaryAction = true
+        }
+        let selectedTargets = UserDefaults.standard.stringArray(forKey: "vocabularyTargets") ?? []
+        let goals = [("cet4", "四级"), ("cet6", "六级"), ("tem4", "专四"), ("tem8", "专八"), ("toefl", "托福"), ("ielts", "雅思")]
+        var targetActions: [UIMenuElement] = goals.map { id, label in
+            UIAction(title: label, state: selectedTargets.contains(id) ? .on : .off) { [weak self] _ in
+                var targets = UserDefaults.standard.stringArray(forKey: "vocabularyTargets") ?? []
+                if targets.contains(id) { targets.removeAll { $0 == id } } else { targets.append(id) }
+                UserDefaults.standard.set(targets, forKey: "vocabularyTargets")
+                self?.send("vocabulary", ["vocabulary_targets": targets]); self?.buildInterface()
+            }
+        }
+        targetActions.insert(UIAction(title: "全部词汇 / 清除目标", state: selectedTargets.isEmpty ? .on : .off) { [weak self] _ in
+            UserDefaults.standard.set([String](), forKey: "vocabularyTargets")
+            self?.send("vocabulary", ["vocabulary_targets": [String]()]); self?.buildInterface()
+        }, at: 0)
+        themes.menu = UIMenu(title: "主题与学习目标", children: themeActions + [UIMenu(title: "英语学习目标（可多选）", children: targetActions)])
+        themes.showsMenuAsPrimaryAction = true
         for item in [themes, button("‹") { [weak self] in self?.send("previous_page") }, button("›") { [weak self] in self?.send("next_page") }] {
             item.widthAnchor.constraint(equalToConstant: 28).isActive = true; item.backgroundColor = palette.background; item.setTitleColor(palette.muted, for: .normal); toolbar.addArrangedSubview(item)
         }
@@ -155,7 +171,9 @@ final class KeyboardViewController: UIInputViewController {
             item.contentEdgeInsets = UIEdgeInsets(top: 3, left: 10, bottom: 19, right: 10)
             let paragraph = NSMutableParagraphStyle(); paragraph.alignment = .center; paragraph.lineBreakMode = .byTruncatingTail
             let title = NSMutableAttributedString(string: candidate.text + "\n", attributes: [.font: UIFont.systemFont(ofSize: 20, weight: .medium), .foregroundColor: index == 0 ? palette.accent : palette.ink])
-            title.append(NSAttributedString(string: candidate.annotation, attributes: [.font: UIFont.systemFont(ofSize: 10), .foregroundColor: candidate.fresh ? palette.fresh : palette.muted]))
+            let tags = candidate.translationSenses?.first?.tags ?? []
+            let tagSummary = tags.isEmpty ? "" : " [" + tags.prefix(2).map { $0.label }.joined(separator: "/") + (tags.count > 2 ? "+\(tags.count - 2)" : "") + "]"
+            title.append(NSAttributedString(string: candidate.annotation + tagSummary, attributes: [.font: UIFont.systemFont(ofSize: 10), .foregroundColor: candidate.fresh ? palette.fresh : palette.muted]))
             title.addAttribute(.paragraphStyle, value: paragraph, range: NSRange(location: 0, length: title.length))
             item.setAttributedTitle(title, for: .normal)
             item.widthAnchor.constraint(equalToConstant: wide ? 142 : 118).isActive = true
@@ -205,7 +223,14 @@ final class KeyboardViewController: UIInputViewController {
             for item in levels { text += "\n" + item.word + " · " + (item.level ?? "未收录（不代表难度）") }
             text += "\n按英文译词标注，不是六级、雅思等级或个人水平。"
         }
-        if let ipa = candidate.pronunciation { if let uk = ipa.uk { text += "\n英式  " + uk }; if let us = ipa.us { text += "\n美式  " + us } }
+        if let senses = candidate.translationSenses {
+            for sense in senses {
+                text += "\n" + sense.text + " · " + (sense.tags.isEmpty ? "暂无考试标签" : sense.tags.map { $0.label }.joined(separator: " / "))
+                let sources = Array(Set(sense.tags.flatMap { $0.sources })).sorted()
+                if !sources.isEmpty { text += "\n词表来源：" + sources.joined(separator: " / ") }
+                if let ipa = sense.pronunciation { if let uk = ipa.uk { text += "\n英式  " + uk }; if let us = ipa.us { text += "\n美式  " + us } }
+            }
+        } else if let ipa = candidate.pronunciation { if let uk = ipa.uk { text += "\n英式  " + uk }; if let us = ipa.us { text += "\n美式  " + us } }
         label.text = text; label.translatesAutoresizingMaskIntoConstraints = false; scroll.addSubview(label)
         NSLayoutConstraint.activate([label.leadingAnchor.constraint(equalTo: scroll.contentLayoutGuide.leadingAnchor, constant: 12), label.trailingAnchor.constraint(equalTo: scroll.contentLayoutGuide.trailingAnchor, constant: -12), label.topAnchor.constraint(equalTo: scroll.contentLayoutGuide.topAnchor, constant: 3), label.bottomAnchor.constraint(equalTo: scroll.contentLayoutGuide.bottomAnchor, constant: -10), label.widthAnchor.constraint(equalTo: scroll.frameLayoutGuide.widthAnchor, constant: -24)])
         pronunciationPanel.addArrangedSubview(scroll); pronunciationPanel.isHidden = false; updateHeight()

@@ -1,11 +1,11 @@
-param(
+﻿param(
     [string]$ToolchainDirectory='D:\soft\英语输入法\mobile-toolchain',
     [string[]]$Abis=@('arm64-v8a','x86_64'),
     [string]$AsciiBuildDirectory='D:\codex-mobile-build'
 )
 $ErrorActionPreference='Stop'
 $qjRoot=Split-Path $PSScriptRoot -Parent
-$qjConfig=Get-Content -LiteralPath (Join-Path $ToolchainDirectory 'toolchain.json') -Raw | ConvertFrom-Json
+$qjConfig=Get-Content -LiteralPath (Join-Path $ToolchainDirectory 'toolchain.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 # Some Android SDK Windows binaries cannot open Chinese paths. Junctions keep
 # all original files in place while giving those tools ASCII input/output paths.
 function Get-QjAsciiAlias([string]$Name,[string]$Target) {
@@ -58,7 +58,7 @@ try {
     foreach($qjSub in @('generated','classes','dex')){New-Item -ItemType Directory -Path (Join-Path $qjBuild $qjSub) -Force | Out-Null}
     $qjRes=Join-Path $qjRoot 'android\app\src\main\res'
     Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('compile','--dir',$qjRes,'-o',(Join-Path $qjBuild 'resources.zip'))
-    Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('link','-I',$qjJar,'--manifest',(Join-Path $qjRoot 'android\app\src\main\AndroidManifest.xml'),'--java',(Join-Path $qjBuild 'generated'),'-o',(Join-Path $qjBuild 'base.apk'),'--version-code','8','--version-name','0.1.7',(Join-Path $qjBuild 'resources.zip'))
+    Invoke-QjTool (Join-Path $qjTools 'aapt2.exe') @('link','-I',$qjJar,'--manifest',(Join-Path $qjRoot 'android\app\src\main\AndroidManifest.xml'),'--java',(Join-Path $qjBuild 'generated'),'-o',(Join-Path $qjBuild 'base.apk'),'--version-code','9','--version-name','0.1.8',(Join-Path $qjBuild 'resources.zip'))
     $qjJavaFiles=@(Get-ChildItem -LiteralPath (Join-Path $qjRoot 'android\app\src\main\java'),(Join-Path $qjBuild 'generated') -Recurse -Filter '*.java' | ForEach-Object {$_.FullName})
     Invoke-QjTool 'javac' (@('-encoding','UTF-8','-source','17','-target','17','-classpath',$qjJar,'-d',(Join-Path $qjBuild 'classes'))+$qjJavaFiles)
     $qjClasses=@(Get-ChildItem -LiteralPath (Join-Path $qjBuild 'classes') -Recurse -Filter '*.class' | ForEach-Object {$_.FullName})
@@ -71,7 +71,7 @@ try {
     }
     $qjDist=Join-Path $qjRoot 'dist'
     New-Item -ItemType Directory -Path $qjDist -Force | Out-Null
-    $qjApk=Join-Path $qjDist 'wordtrail-0.1.7-debug.apk'
+    $qjApk=Join-Path $qjDist 'wordtrail-0.1.8-debug.apk'
     Invoke-QjTool (Join-Path $qjTools 'apksigner.bat') @('sign','--ks',$qjKey,'--ks-pass','pass:android','--ks-key-alias','wordtrail','--out',$qjApk,(Join-Path $qjBuild 'aligned.apk'))
     Invoke-QjTool (Join-Path $qjTools 'apksigner.bat') @('verify','--verbose',$qjApk)
     Invoke-QjTool (Join-Path $qjTools 'zipalign.exe') @('-c','-P','16','4',$qjApk)

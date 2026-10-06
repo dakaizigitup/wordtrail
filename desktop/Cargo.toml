@@ -1,6 +1,6 @@
 [package]
 name = "wordtrail-windows-server"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 license = "GPL-3.0-or-later"
 [lib]
@@ -26,6 +26,7 @@ tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
 tracing-appender = "0.2.5"
 toml_edit = "0.25"
 wordtrail-pronunciation = { path = "../pronunciation" }
+wordtrail-vocabulary = { path = "../vocabulary" }
 [build-dependencies]
 embed-manifest = "1.4.0"
 [target."cfg(windows)".dependencies]

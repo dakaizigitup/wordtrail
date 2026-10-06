@@ -117,10 +117,12 @@ pub struct Router {
 
     /// 重排的防抖 / 轮询进行态。
     rescore: RescoreState,
+    vocabulary_targets: u16,
 }
 
 impl Router {
     pub fn new(engine: Engine, config: RouterConfig) -> Self {
+        wordtrail_vocabulary::initialize();
         Self {
             engine,
             config: RouterConfig {
@@ -150,6 +152,7 @@ impl Router {
             model_loader: None,
             applied_model: LocalModelConfig::default(),
             rescore: RescoreState::default(),
+            vocabulary_targets: 0,
         }
     }
 
@@ -181,6 +184,10 @@ impl Router {
     /// 直接碰 Engine：测试里改模式键这类启动时才设的开关。
     pub fn engine_mut(&mut self) -> &mut Engine {
         &mut self.engine
+    }
+
+    pub fn set_vocabulary_targets(&mut self, targets: u16) {
+        self.vocabulary_targets = targets;
     }
 
     pub fn set_status_sink(&mut self, sink: Box<dyn StatusSink>) {

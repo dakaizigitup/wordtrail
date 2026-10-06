@@ -1,0 +1,33 @@
+{
+  "scope": "Windows debug shared DLL via C ABI; real packed dictionary, tags, CEFR, IPA and JSON decode; not Android touch latency",
+  "startup_ms": 187.134,
+  "results": [
+    {
+      "targets": [],
+      "p50_ms": 1.81585,
+      "p95_ms": 2.4311,
+      "p99_ms": 3.6104
+    },
+    {
+      "targets": [
+        "tem4"
+      ],
+      "p50_ms": 1.77925,
+      "p95_ms": 2.9735,
+      "p99_ms": 3.8047
+    },
+    {
+      "targets": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "p50_ms": 1.7328000000000001,
+      "p95_ms": 2.374,
+      "p99_ms": 3.8088
+    }
+  ]
+}

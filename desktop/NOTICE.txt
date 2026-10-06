@@ -1,8 +1,8 @@
-Windows 音标增强补丁 0.1.1：用于现有青简 0.1.4 安装。
-非官方发布；不分发青简品牌图标。保持已安装官方资源，
-本补丁对应源码也在 wordtrail-0.1.1-source.zip，包含 desktop/ 与独立音标库。
+Windows 音标与词汇目标补丁 0.1.2：用于现有青简 0.1.4 安装。
+非官方发布；不分发青简品牌图标。保持已安装官方资源。
+对应源码在 wordtrail-0.1.8-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
 
-词伴输入法 / Wordtrail 0.1.5
+词伴输入法 / Wordtrail 0.1.8
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -10,7 +10,7 @@ Windows 音标增强补丁 0.1.1：用于现有青简 0.1.4 安装。
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.5-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.8-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -20,7 +20,16 @@ THUOCL（清华大学自然语言处理实验室，MIT），读音取自 Unihan
 未附许可证；不能把这些数据统称为 GPL。完整来源记录见上游
 docs/design/landscape.md 和 assets/lexicon。
 释义由青简利用大语言模型离线生成，不是联网词典抓取。
-本版未打包桌面语言模型、emoji 数据、英文词表或词汇等级表。
+本版未打包桌面语言模型、emoji 数据或英文候选词表。
+
+英语词汇参考等级：CEFR A1–C2，8,845 个词，嵌入共享本机引擎。
+A1–B2：The CEFR-J Wordlist Version 1.5，Yukio Tono（Tokyo University
+of Foreign Studies），http://www.cefr-j.org/download.html；研究与商业用途免费，须署名。
+C1/C2：Octanove Vocabulary Profile C1/C2 1.0，CC BY-SA 4.0，
+https://github.com/openlanguageprofiles/olp-en-cefrj；许可：
+https://creativecommons.org/licenses/by-sa/4.0/ 。
+保留上游等级表和来源说明于 vendor/qingjian/assets/levels；未更改等级数据。
+同一拼写多个词性取词表最低等级；未收录不推断。非六级或雅思专项词表。
 
 独立英语音标库：open-dict-data/ipa-dict。
 固定提交 43c3570eb3553bdd19fccd2bd0091534889af023。
@@ -30,6 +39,66 @@ docs/design/landscape.md 和 assets/lexicon。
 原始数据、校验清单、来源说明和许可原文见 pronunciation/source。
 
 第三方 Rust 依赖保留各自许可。以下包含依赖声明及可用的许可原文。
+
+
+英语考试标签：ECDICT（MIT）及 KyleBing/english-vocabulary（BSD-3-Clause）。
+固定提交、输入文件 SHA-256、去重统计见 vocabulary/data/manifest.json。
+仅提取词条及收录标签，不复制源项目释义、例句或音频。标签不代表难度或官方完整考试范围。
+
+
+=== vocabulary\data\ECDICT-LICENSE ===
+MIT License
+
+Copyright (c) 2025 Linwei
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+=== vocabulary\data\KyleBing-LICENSE ===
+BSD 3-Clause License
+
+Copyright (c) 2022-2026, KyleBing
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 

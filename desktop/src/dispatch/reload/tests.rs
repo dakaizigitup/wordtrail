@@ -14,6 +14,36 @@ fn poll(router: &mut Router) {
     router.reload.as_mut().unwrap().last_check = Instant::now() - CONFIG_POLL_INTERVAL;
     router.poll_config_reload();
 }
+#[test]
+fn vocabulary_preferences_load_reload_and_reject_invalid_without_touching_general_config() {
+    let dir = std::env::temp_dir().join(format!(
+        "wordtrail-vocabulary-reload-{}",
+        std::process::id()
+    ));
+    std::fs::create_dir_all(&dir).unwrap();
+    let path = dir.join("config.toml");
+    std::fs::write(&path, "").unwrap();
+    let vocabulary = dir.join("wordtrail-vocabulary.json");
+    std::fs::write(&vocabulary, "{\"targets\":[\"ielts\"]}").unwrap();
+    modified_at(&vocabulary, 100);
+    let config = Config::load(&path).unwrap();
+    let mut router = Router::new(Engine::new(Dictionary::default()), RouterConfig::default());
+    router.watch_config(&config, path.clone(), dir.clone(), DataDirs::default());
+    assert_eq!(router.vocabulary_targets, 32);
+    std::fs::write(&vocabulary, "{\"targets\":[\"cet4\",\"tem4\"]}").unwrap();
+    modified_at(&vocabulary, 200);
+    poll(&mut router);
+    assert_eq!(router.vocabulary_targets, 5);
+    std::fs::write(&vocabulary, "{\"targets\":[\"unknown\"]}").unwrap();
+    modified_at(&vocabulary, 300);
+    poll(&mut router);
+    assert_eq!(router.vocabulary_targets, 5);
+    std::fs::remove_file(&vocabulary).unwrap();
+    poll(&mut router);
+    assert_eq!(router.vocabulary_targets, 0);
+    assert_eq!(std::fs::read_to_string(path).unwrap(), "");
+    std::fs::remove_dir_all(dir).unwrap();
+}
 
 fn modified_at(path: &Path, seconds: u64) {
     std::fs::File::options()

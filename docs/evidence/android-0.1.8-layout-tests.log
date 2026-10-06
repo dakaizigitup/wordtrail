@@ -1,0 +1,72 @@
+PASS: phone mode switch shares bottom row with space
+PASS: phone comma is left of globe and has the wider touch target
+PASS: phone idle keyboard remains compact
+PASS: phone idle candidates collapse completely
+PASS: phone keyboard width is capped and centered
+PASS: 切换键盘 icon visually centered
+PASS: 大写 icon visually centered
+PASS: 收起键盘 icon visually centered
+PASS: phone candidate cards have equal size and alignment
+PASS: phone shows at least five candidates at once
+PASS: phone candidate strip is at most 46dp high
+PASS: phone pronunciation hint stays inside its card
+PASS: phone swipe expands pronunciation without committing
+PASS: phone multiple pronunciations remain available
+PASS: phone pronunciation scroll preserves composition
+PASS: phone bottom mode switch types real English
+PASS: phone shift inserts uppercase once then returns to lowercase
+PASS: phone bottom mode switch returns to Chinese
+PASS: tablet-landscape mode switch shares bottom row with space
+PASS: tablet-landscape comma is left of globe and has the wider touch target
+PASS: tablet-landscape idle keyboard remains compact
+PASS: tablet-landscape idle candidates collapse completely
+PASS: tablet-landscape keyboard width is capped and centered
+PASS: 切换键盘 icon visually centered
+PASS: 大写 icon visually centered
+PASS: 收起键盘 icon visually centered
+PASS: tablet-landscape candidate cards have equal size and alignment
+PASS: tablet-landscape shows at least five candidates at once
+PASS: tablet-landscape candidate strip is at most 46dp high
+PASS: tablet-landscape pronunciation hint stays inside its card
+PASS: tablet-landscape swipe expands pronunciation without committing
+PASS: tablet-landscape multiple pronunciations remain available
+PASS: tablet-landscape pronunciation scroll preserves composition
+PASS: tablet-landscape bottom mode switch types real English
+PASS: tablet-landscape shift inserts uppercase once then returns to lowercase
+PASS: tablet-landscape bottom mode switch returns to Chinese
+PASS: tablet-portrait mode switch shares bottom row with space
+PASS: tablet-portrait comma is left of globe and has the wider touch target
+PASS: tablet-portrait idle keyboard remains compact
+PASS: tablet-portrait idle candidates collapse completely
+PASS: tablet-portrait keyboard width is capped and centered
+PASS: 切换键盘 icon visually centered
+PASS: 大写 icon visually centered
+PASS: 收起键盘 icon visually centered
+PASS: tablet-portrait candidate cards have equal size and alignment
+PASS: tablet-portrait shows at least five candidates at once
+PASS: tablet-portrait candidate strip is at most 46dp high
+PASS: tablet-portrait pronunciation hint stays inside its card
+PASS: tablet-portrait swipe expands pronunciation without committing
+PASS: tablet-portrait multiple pronunciations remain available
+PASS: tablet-portrait pronunciation scroll preserves composition
+PASS: tablet-portrait bottom mode switch types real English
+PASS: tablet-portrait shift inserts uppercase once then returns to lowercase
+PASS: tablet-portrait bottom mode switch returns to Chinese
+PASS: compact-landscape mode switch shares bottom row with space
+PASS: compact-landscape comma is left of globe and has the wider touch target
+PASS: compact-landscape idle keyboard remains compact
+PASS: compact-landscape idle candidates collapse completely
+PASS: compact-landscape keyboard width is capped and centered
+PASS: 切换键盘 icon visually centered
+PASS: 大写 icon visually centered
+PASS: 收起键盘 icon visually centered
+PASS: compact-landscape candidate cards have equal size and alignment
+PASS: compact-landscape shows at least five candidates at once
+PASS: compact-landscape candidate strip is at most 46dp high
+PASS: compact-landscape pronunciation hint stays inside its card
+PASS: compact-landscape swipe expands pronunciation without committing
+PASS: compact-landscape multiple pronunciations remain available
+PASS: compact-landscape pronunciation scroll preserves composition
+PASS: compact-landscape bottom mode switch types real English
+PASS: compact-landscape shift inserts uppercase once then returns to lowercase
+PASS: compact-landscape bottom mode switch returns to Chinese

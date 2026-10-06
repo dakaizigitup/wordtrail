@@ -15,8 +15,8 @@ def sha(file):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--windows-patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版音标补丁'))
-    parser.add_argument('--version',default='0.1.7')
+    parser.add_argument('--windows-patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版词汇补丁'))
+    parser.add_argument('--version',default='0.1.8')
     args = parser.parse_args()
     output = ROOT/'dist'/'github-release'
     output.mkdir(parents=True,exist_ok=True)
@@ -29,7 +29,7 @@ def main():
     version = manifest['version']
     windows = output/f'wordtrail-windows-ipa-{version}.zip'
     allowed = ['qingjian-server.exe','pronunciation-en.qj','install_desktop_ipa.ps1',
-               'install.cmd','rollback.cmd','SHA256.json','NOTICE.txt','LICENSE','desktop-ipa.png']
+               'install.cmd','rollback.cmd','settings.cmd','vocabulary_settings.ps1','SHA256.json','NOTICE.txt','LICENSE','desktop-ipa.png']
     with zipfile.ZipFile(windows,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
         for name in allowed:
             archive.write(patch/name,'wordtrail-windows-ipa-'+version+'/'+name)

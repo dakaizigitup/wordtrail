@@ -68,6 +68,8 @@ pub(crate) struct ConfigReload {
 
     /// 上次看到的 mtime。
     pub(super) last_mtime: Option<SystemTime>,
+    pub(super) vocabulary_path: PathBuf,
+    pub(super) vocabulary_mtime: Option<SystemTime>,
 
     /// 已应用的 `[predict]`。
     pub(super) applied_predict: PredictConfig,

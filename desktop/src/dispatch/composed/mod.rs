@@ -230,6 +230,9 @@ impl Router {
                     .collect();
                 let mut candidates = CandidateList { items };
                 self.engine.annotate(&mut candidates);
+                for candidate in &mut candidates.items {
+                    wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+                }
                 Frame {
                     preedit: preedit.clone(),
                     preedit_mode: self.config.preedit,

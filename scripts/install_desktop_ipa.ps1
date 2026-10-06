@@ -44,7 +44,7 @@ try{
             if((Get-FileHash -LiteralPath $qjPayload -Algorithm SHA256).Hash.ToLowerInvariant() -ne $qjManifest.artifacts.$qjFile.sha256){throw ('Payload checksum mismatch: '+$qjFile)}
         }
         $qjCurrent=(Get-FileHash -LiteralPath $qjServer -Algorithm SHA256).Hash.ToLowerInvariant()
-        if($qjCurrent -ne $qjManifest.original_server_sha256 -and $qjCurrent -ne $qjManifest.artifacts.'qingjian-server.exe'.sha256){throw 'Installed server differs from the supported Qingjian 0.1.4 build'}
+        if($qjCurrent -ne $qjManifest.original_server_sha256 -and $qjCurrent -ne $qjManifest.artifacts.'qingjian-server.exe'.sha256 -and $qjManifest.supported_previous_server_sha256 -notcontains $qjCurrent){throw 'Installed server differs from the supported Qingjian 0.1.4 or Wordtrail patch build'}
         New-Item -ItemType Directory -Path $qjBackup -Force|Out-Null
         if(-not(Test-Path -LiteralPath (Join-Path $qjBackup 'qingjian-server.exe'))){Copy-Item -LiteralPath $qjServer -Destination (Join-Path $qjBackup 'qingjian-server.exe');if(Test-Path -LiteralPath $qjIpa){Copy-Item -LiteralPath $qjIpa -Destination (Join-Path $qjBackup 'pronunciation-en.qj')}}
         Stop-QjServer

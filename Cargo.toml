@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["native", "pronunciation", "desktop"]
+members = ["native", "pronunciation", "desktop", "vocabulary"]
 exclude = ["vendor/qingjian"]
 
 [profile.release]
