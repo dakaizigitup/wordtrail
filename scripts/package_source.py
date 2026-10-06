@@ -8,7 +8,11 @@ SKIP_ROOT={'target','build','dist'}
 SKIP_PREFIXES=('third-party/rust/','android/app/src/main/assets/data/','android/app/src/main/assets/voice/','android/app/src/main/jniLibs/',
                'android/app/build/','android/.gradle/','ios/Keyboard/Data/','ios/Frameworks/')
 
+GUIDES=('安装与测试指南.md', '测试报告.md', 'GitHub调研.md', '主题预览.html', '0.1.2界面更新.md', '0.1.3语音更新.md', '0.1.4语音更新.md', '0.1.5布局更新.md', '0.1.6词汇分级.md', '0.1.7图标更新.md', '0.1.8词汇目标.md', '0.1.8测试报告.md', '0.1.9标签精简.md', '0.1.10实际扩词.md', '0.1.10测试报告.md')
+
 def main():
+    for name in GUIDES:
+        if not (ROOT/'docs'/name).is_file():raise FileNotFoundError('Missing delivery guide: '+name)
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
     archive=dist/'wordtrail-0.1.10-source.zip'
     count=0
@@ -38,19 +42,7 @@ def main():
     DELIVERY.mkdir(parents=True,exist_ok=True)
     files=[archive,dist/'wordtrail-0.1.10-debug.apk']
     for file in files: shutil.copy2(file,DELIVERY/file.name)
-    shutil.copy2(ROOT/'docs/安装与测试指南.md',DELIVERY/'安装与测试指南.md')
-    shutil.copy2(ROOT/'docs/测试报告.md',DELIVERY/'测试报告.md')
-    shutil.copy2(ROOT/'docs/GitHub调研.md',DELIVERY/'GitHub调研.md')
-    shutil.copy2(ROOT/'docs/主题预览.html',DELIVERY/'主题预览.html')
-    shutil.copy2(ROOT/'docs/0.1.2界面更新.md',DELIVERY/'0.1.2界面更新.md')
-    shutil.copy2(ROOT/'docs/0.1.3语音更新.md',DELIVERY/'0.1.3语音更新.md')
-    shutil.copy2(ROOT/'docs/0.1.4语音更新.md',DELIVERY/'0.1.4语音更新.md')
-    shutil.copy2(ROOT/'docs/0.1.5布局更新.md',DELIVERY/'0.1.5布局更新.md')
-    shutil.copy2(ROOT/'docs/0.1.6词汇分级.md',DELIVERY/'0.1.6词汇分级.md')
-    shutil.copy2(ROOT/'docs/0.1.7图标更新.md',DELIVERY/'0.1.7图标更新.md')
-    shutil.copy2(ROOT/'docs/0.1.8词汇目标.md',DELIVERY/'0.1.8词汇目标.md')
-    shutil.copy2(ROOT/'docs/0.1.8测试报告.md',DELIVERY/'0.1.8测试报告.md')
-    shutil.copy2(ROOT/'docs/0.1.10标签精简.md',DELIVERY/'0.1.10标签精简.md')
+    for name in GUIDES:shutil.copy2(ROOT/'docs'/name,DELIVERY/name)
     shutil.copy2(ROOT/'branding/wordtrail-warm-icon.png',DELIVERY/'词伴暖色图标.png')
     previews=DELIVERY/'screenshots';previews.mkdir(exist_ok=True)
     for image in (ROOT/'docs/screenshots').glob('*.png'):
