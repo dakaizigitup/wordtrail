@@ -1,4 +1,4 @@
-词伴输入法 / Wordtrail 0.1.14
+词伴输入法 / Wordtrail 0.1.15
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -6,7 +6,7 @@
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.14-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.15-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -48,7 +48,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 
 署名：English Wiktionary contributors；https://en.wiktionary.org/ 。
 许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项中选择与词性/义项相符、且可由本机拼音候选输入的四六级词，整理为精简中英词条。
-以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.14-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 提供。
+以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.15-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 提供。
 
 auxiliary (adj.) -> 附属; https://en.wiktionary.org/wiki/auxiliary?oldid=93145546
 
@@ -79,6 +79,127 @@ surprisingly (adv.) -> 竟然; https://en.wiktionary.org/wiki/surprisingly?oldid
 thirdly (adv.) -> 第三; https://en.wiktionary.org/wiki/thirdly?oldid=91982658
 
 whatsoever (adv.) -> 任何; https://en.wiktionary.org/wiki/whatsoever?oldid=92094714
+
+
+=== CC-CEDICT 词汇补充（独立 CC BY-SA 4.0 数据）===
+
+署名：MDBG 与 CC-CEDICT contributors；https://cc-cedict.org/editor/editor.php?handler=Download 。许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ 。采用 TeaPearce/chinese-english-dictionary 固定提交 a9aea223269eb9820590e5bca783eb299c317439 中的 2026-06 CC-CEDICT 文本镜像；原始文件 SHA-256：8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f。修改：从中文到英文的整词释义中筛选四六级词，人工核对义项；补充本地拼音键与考试标签，并用 ECDICT（MIT）交叉检查词性。CC-CEDICT 不提供词性。只分发 58 条精简对应，不分发完整词典。运行词条及本表中的 CC-CEDICT 派生部分按 CC BY-SA 4.0 提供；POS 交叉核对来源与完整记录见随包 vocabulary/data/CC-CEDICT-ATTRIBUTION.md、vocabulary/data/batches/04-cc-cedict-reviewed.tsv 和 vocabulary/data/cccedict-manifest.json。
+
+ambient (n.) -> 环境; CC-CEDICT line 73830; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+collaborative (adj.) -> 共同; CC-CEDICT line 12117; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+concerning (prep.) -> 关于; CC-CEDICT line 113977; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+federal (adj.) -> 联邦; CC-CEDICT line 89395; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+considerably (adv.) -> 相当; CC-CEDICT line 77957; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+everybody (pron.) -> 每个人; CC-CEDICT line 61386; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+revision (n.) -> 调整; CC-CEDICT line 101416; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+headmaster (n.) -> 校长; CC-CEDICT line 57308; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+preceding (adj.) -> 前面; CC-CEDICT line 14590; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+consecutive (adj.) -> 连续; CC-CEDICT line 107954; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+serial (adj.) -> 连续; CC-CEDICT line 107954; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+internship (n.) -> 实习; CC-CEDICT line 33452; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+enrich (v.) -> 丰富; CC-CEDICT line 102567; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+cumulative (adj.) -> 累计; CC-CEDICT line 85198; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+beneath (prep.) -> 之下; CC-CEDICT line 4139; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+honorary (adj.) -> 荣誉; CC-CEDICT line 58767; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+widespread (adj.) -> 普遍; CC-CEDICT line 53749; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+interactive (adj.) -> 互动; CC-CEDICT line 4948; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+arabian (adj.) -> 阿拉伯; CC-CEDICT line 114359; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+immigrate (v.) -> 移民; CC-CEDICT line 81447; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+shopping (n.) -> 购物; CC-CEDICT line 103870; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+subsequent (adj.) -> 下个; CC-CEDICT line 1919; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+promptly (adv.) -> 立马; CC-CEDICT line 82450; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+accountancy (n.) -> 会计; CC-CEDICT line 54699; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+wrath (n.) -> 愤怒; CC-CEDICT line 43290; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+visible (adj.) -> 可见; CC-CEDICT line 19295; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+momentary (adj.) -> 一时; CC-CEDICT line 664; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+blouse (n.) -> 衬衫; CC-CEDICT line 99181; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+telecommunications (n.) -> 电信; CC-CEDICT line 116779; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+mitten (n.) -> 手套; CC-CEDICT line 44364; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+atomic (adj.) -> 原子; CC-CEDICT line 17949; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+fabrication (n.) -> 虚构; CC-CEDICT line 96729; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+astonish (v.) -> 震惊; CC-CEDICT line 117131; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+astonishment (n.) -> 惊讶; CC-CEDICT line 121176; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+monetary (adj.) -> 货币; CC-CEDICT line 103076; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+tentative (adj.) -> 初步; CC-CEDICT line 13920; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+justified (adj.) -> 有理; CC-CEDICT line 55044; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+perplex (v.) -> 困扰; CC-CEDICT line 24133; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+randomly (adv.) -> 偶然; CC-CEDICT line 9428; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+inclusive (adj.) -> 包容; CC-CEDICT line 15999; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+postal (adj.) -> 邮政; CC-CEDICT line 109667; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+colonial (adj.) -> 殖民; CC-CEDICT line 61066; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+preparatory (adj.) -> 预备; CC-CEDICT line 118560; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+surrounding (adj.) -> 外围; CC-CEDICT line 27133; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+masculine (adj.) -> 阳性; CC-CEDICT line 115167; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+relegate (v.) -> 降级; CC-CEDICT line 114701; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+starvation (n.) -> 饥饿; CC-CEDICT line 119681; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+susceptible (adj.) -> 敏感; CC-CEDICT line 50608; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+subscription (n.) -> 订阅; CC-CEDICT line 100275; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+analytic (adj.) -> 解析; CC-CEDICT line 100052; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+infancy (n.) -> 幼年; CC-CEDICT line 38112; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+automate (v.) -> 自动化; CC-CEDICT line 91558; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+incompetence (n.) -> 无能; CC-CEDICT line 70034; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+casualty (n.) -> 伤者; CC-CEDICT line 9911; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+telegraph (n.) -> 电报; CC-CEDICT line 116815; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+privileged (adj.) -> 特权; CC-CEDICT line 71852; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+cripple (v.) -> 削弱; CC-CEDICT line 14381; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+agreeable (adj.) -> 可人; CC-CEDICT line 19165; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
 
 === vocabulary\data\ECDICT-LICENSE ===

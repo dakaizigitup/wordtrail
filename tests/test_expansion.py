@@ -33,6 +33,18 @@ class ExpansionTests(unittest.TestCase):
         self.assertTrue(c['translation_senses'][0]['translation_source'])
         self.assertTrue(any(t['id']=='cet6' and t['selected'] for t in c['translation_senses'][0]['tags']))
         self.assertEqual(self.action('translation',index=c['id'],revision=state['revision'])['commit'],'household')
+    def test_cc_cedict_translation_is_reachable_prioritized_tagged_and_pronounced(self):
+        before = self.type('huanjing')
+        candidate_order = [candidate['text'] for candidate in before['candidates']]
+        self.assertIn('环境', candidate_order)
+        state = self.action('vocabulary', vocabulary_targets=['cet6'])
+        self.assertEqual([candidate['text'] for candidate in state['candidates']], candidate_order)
+        candidate = next(candidate for candidate in state['candidates'] if candidate['text'] == '环境')
+        sense = next(sense for sense in candidate['translation_senses'] if sense['text'] == 'ambient')
+        self.assertEqual(sense['translation_source'], 'CC-CEDICT CC BY-SA 4.0')
+        self.assertTrue(any(tag['id'] == 'cet6' and tag['selected'] for tag in sense['tags']))
+        self.assertEqual(sense['pronunciation']['word'], 'ambient')
+        self.assertEqual(self.action('translation', index=candidate['id'], sense_index=sense['index'], revision=state['revision'])['commit'], 'ambient')
     def test_original_selection_restores_and_non_english_has_no_expansion(self):
         self.type('yijiaren');self.action('vocabulary',vocabulary_targets=['cet6','tem8'])
         state=self.action('vocabulary',vocabulary_targets=[])

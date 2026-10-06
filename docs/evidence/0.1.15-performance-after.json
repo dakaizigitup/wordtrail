@@ -1,0 +1,211 @@
+{
+  "label": "after",
+  "initialization_ms": 192.1838,
+  "scope": "Same Windows host debug C ABI, same 6 pinyin keys, three vocabulary selections, actual packed dictionary, expansion, tags, IPA and JSON decoding; not mobile latency. Warm state queries, 180 samples each; one cold session initialization sample.",
+  "results": [
+    {
+      "pinyin": "fangqi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.78735,
+      "p95_ms": 2.1922,
+      "p99_ms": 2.8241
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.8328,
+      "p95_ms": 2.4198,
+      "p99_ms": 2.957
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.8024,
+      "p95_ms": 2.2932,
+      "p99_ms": 2.4122
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.236,
+      "p95_ms": 1.5153,
+      "p99_ms": 1.6851
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.24285,
+      "p95_ms": 1.5435,
+      "p99_ms": 2.1792
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.24515,
+      "p95_ms": 2.0482,
+      "p99_ms": 2.6394
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.98135,
+      "p95_ms": 1.1853,
+      "p99_ms": 1.3229
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 0.9956499999999999,
+      "p95_ms": 1.2767,
+      "p99_ms": 1.3452
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 0.9846,
+      "p95_ms": 1.2466,
+      "p99_ms": 1.4923
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.5826,
+      "p95_ms": 0.7,
+      "p99_ms": 0.912
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 0.59065,
+      "p95_ms": 0.7607,
+      "p99_ms": 0.9077
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 0.59005,
+      "p95_ms": 0.7346,
+      "p99_ms": 0.913
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.0378,
+      "p95_ms": 1.2231,
+      "p99_ms": 1.3779
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.0425499999999999,
+      "p95_ms": 1.2429,
+      "p99_ms": 1.4043
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.12455,
+      "p95_ms": 1.6148,
+      "p99_ms": 1.9752
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.6755,
+      "p95_ms": 2.08,
+      "p99_ms": 2.5151
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.6985000000000001,
+      "p95_ms": 2.0892,
+      "p99_ms": 2.3185
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.69775,
+      "p95_ms": 2.2266,
+      "p99_ms": 2.556
+    }
+  ]
+}
