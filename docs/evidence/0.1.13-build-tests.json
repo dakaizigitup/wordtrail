@@ -1,0 +1,57 @@
+{
+  "release": "0.1.13",
+  "android": {
+    "package": "org.wordtrail.ime",
+    "version_code": 14,
+    "version_name": "0.1.13",
+    "min_sdk": 26,
+    "target_sdk": 35,
+    "abis": [
+      "arm64-v8a",
+      "x86_64"
+    ],
+    "native_libraries": 8,
+    "offline_voice_resources": [
+      "assets/voice/model.int8.onnx",
+      "assets/voice/silero_vad.onnx",
+      "assets/voice/tokens.txt"
+    ],
+    "permissions": [
+      "android.permission.RECORD_AUDIO"
+    ],
+    "internet_permission": false,
+    "apk_bytes": 252283237,
+    "apk_sha256": "94144844d03f161f1248ae6b9d5d4e190432dd6746f35f80d9f0e90c9a658495",
+    "signature_v2": true,
+    "signature_v3": true,
+    "zipalign_16k": true,
+    "connected_adb_devices": []
+  },
+  "windows_patch": {
+    "version": "0.1.6",
+    "base_version": "Qingjian Windows 0.1.4",
+    "server_bytes": 11323904,
+    "server_sha256": "0f5e0aaaeaacc97879a1003ca08adfc907919867dc249e4e64912560d826fb8f",
+    "real_ipc_assertions": 35
+  },
+  "tests": {
+    "rust_unit_tests": {
+      "passed": 19,
+      "breakdown": [
+        3,
+        7,
+        9
+      ]
+    },
+    "cet_batch_unittests": 8,
+    "real_pinyin_candidate_parameterized_tests": 1,
+    "real_pinyin_mappings_checked": 230,
+    "native_regression_tests": 17,
+    "windows_real_ipc_assertions": 35,
+    "reproducible_batch_build": "passed"
+  },
+  "limits": [
+    "No Android device was connected; package was not installed on a phone or tablet.",
+    "iOS source was not compiled because no Mac/Xcode environment is available."
+  ]
+}

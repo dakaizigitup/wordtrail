@@ -135,18 +135,17 @@ mod tests {
         assert!(senses("丰富").all(|s| s.text != "affluent"));
     }
     #[test]
-    fn batch02_reviewed_pairs_are_queryable_by_exact_candidate_text() {
-        let rows: Vec<_> = DATA
-            .lines()
-            .filter(|row| row.ends_with("\tWordtrail-batch02-reviewed"))
-            .collect();
-        assert_eq!(rows.len(), 32);
+    fn batch02_additions_are_queryable_by_exact_candidate_text() {
+        let rows: Vec<_> = include_str!("../../data/batches/02-additions.tsv").lines().collect();
+        assert!(rows.len() > 32);
         for row in rows {
             let mut fields = row.split('\t');
             let chinese = fields.next().unwrap();
             let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let expected_source = fields.next().unwrap();
             assert!(
-                senses(chinese).any(|sense| sense.text == english),
+                senses(chinese).any(|sense| sense.text == english && source(chinese, english) == Some(expected_source)),
                 "missing exact expansion {chinese} -> {english}"
             );
         }

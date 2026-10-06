@@ -9,20 +9,20 @@
 
 ## 下载
 
-当前发布为 **v0.1.12**。各平台版本独立：Android **0.1.12**，Windows 补丁 **0.1.5**（适用于官方青简 Windows 0.1.4）。
+当前发布为 **v0.1.13**。各平台版本独立：Android **0.1.13**，Windows 补丁 **0.1.6**（适用于官方青简 Windows 0.1.4）。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.12/wordtrail-0.1.12-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
-| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.12/wordtrail-windows-ipa-0.1.5.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.12/wordtrail-0.1.12-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.12/SHA256SUMS.txt) | 核对发布附件 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.13/wordtrail-0.1.13-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 240 MiB，已含离线语音模型 |
+| [Windows 音标补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.13/wordtrail-windows-ipa-0.1.6.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.13/wordtrail-0.1.13-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.13/SHA256SUMS.txt) | 核对发布附件 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
 ## 当前功能
 
-| 功能 | Android 0.1.12 | Windows 补丁 0.1.5 | iOS 源码 |
+| 功能 | Android 0.1.13 | Windows 补丁 0.1.6 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
@@ -36,7 +36,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 **已支持四级、六级、专四、专八、托福、雅思六类学习目标，支持多选与同词多标签。** 命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签不等于官方完整考试范围、考试成绩或个人水平。专业领域类别后续增加。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)。
 
-本轮再补 **32 个此前无映射、且能从现有拼音候选直接输入的四六级词**；累计扩词 **3,660 组对应、2,664 个中文词面**。四级映射覆盖率 **93.46%**，六级 **88.73%**，仍有 797 个去重缺口。此覆盖率按固定社区词表的释义映射统计；下一阶段继续处理别名、短语及拼音候选触达缺口。详见 [0.1.12 补词记录](docs/0.1.12四六级补词.md) 与 [分批补词计划](docs/分批补词计划.md)。
+本版在批次02再补 **198 组中英对应、178 个此前未映射的四六级词**；批次02累计230组。累计扩词 **3,858 组对应、2,779 个中文词面**。四级映射覆盖率 **94.78%**，六级 **90.94%**；仍有651个去重缺口，其中按当前拼音候选精确键面可触达的覆盖率分别为90.66%和86.46%。这些是固定社区词表映射统计，不代表官方考纲完整覆盖。详见 [0.1.13 补词记录](docs/0.1.13四六级补词.md)、[逐项审计](vocabulary/data/batches/02-evidence.tsv) 与 [分批补词计划](docs/分批补词计划.md)。
 
 ## 安装与使用
 
@@ -79,7 +79,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 从 0.1.9 起，候选、详情和设置里均移除 A1–C2，详见 [标签精简说明](docs/0.1.9标签精简.md)。
 
-更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.12测试报告.md)、[上一版验证记录](docs/0.1.11测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
+更多 [主题预览](docs/主题预览.html)、[本版测试报告](docs/0.1.13测试报告.md)、[上一版验证记录](docs/0.1.12测试报告.md) 与 [初版测试报告](docs/测试报告.md)。
 
 ## 实现基底
 
@@ -119,7 +119,7 @@ python scripts/bootstrap_dependencies.py
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.12-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.13-source.zip
 ```
 
 该脚本只恢复被 Git 忽略的第三方依赖和生成词库，不覆盖当前开发代码。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。

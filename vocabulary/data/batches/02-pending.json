@@ -48,7 +48,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 会计工作, 会计学\\n[经] 会计工作, 会计学术, 会计职业"
     },
@@ -104,35 +104,14 @@
       "ecdict_translation": "a. 可调节的\\n[电] 可调整的"
     },
     {
-      "word": "admission",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 准许进入, 入场费, 录用, 承认\\n[经] 加入, 入股"
-    },
-    {
       "word": "adoptive",
       "targets": [
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 有收养关系的, 采用的\\n[法] 收养的, 采用的"
-    },
-    {
-      "word": "advancement",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 前进, 进步, 提升\\n[医] 徙前术"
     },
     {
       "word": "adversely",
@@ -175,16 +154,6 @@
       "ecdict_translation": "a. 情感的, 表达感情的\\n[医] 感情的, 情感的"
     },
     {
-      "word": "affirmation",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 肯定, 断言, 证实\\n[医] 肯定, 确认"
-    },
-    {
       "word": "affluence",
       "targets": [
         "cet6"
@@ -203,16 +172,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "prep. 反对, 对着, 倚靠"
-    },
-    {
-      "word": "agitation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 激动, 焦虑, 煽动, 搅动, 摇动\\n[化] 搅拌; 搅拌作用"
     },
     {
       "word": "agonize",
@@ -241,7 +200,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 令人愉快的, 同意的\\n[医] 佳适的"
     },
@@ -254,16 +213,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "[医] 空气调节"
-    },
-    {
-      "word": "alignment",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 队列, 结盟, 校正\\n[计] 校准; 对齐; 对准"
     },
     {
       "word": "allegation",
@@ -301,7 +250,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 联盟的, 联姻的, 联系起来的"
     },
@@ -312,7 +261,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 在旁边, 靠拢着\\nprep. 在...旁边, 与...在一起"
     },
@@ -332,7 +281,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "base_pos_mismatch"
       ],
       "ecdict_translation": "adv. 非此即彼"
     },
@@ -353,7 +302,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 周围的\\nn. 周围环境"
     },
@@ -445,7 +394,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 成零碎, 成距离, 分别地, 分离着\\na. 分离的"
     },
@@ -518,7 +467,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 向岸, 在岸上"
     },
@@ -543,34 +492,14 @@
       "ecdict_translation": " 志同的, 有抱负的"
     },
     {
-      "word": "assassination",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 暗杀\\n[法] 暗杀, 行刺"
-    },
-    {
       "word": "assertive",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 武断的, 过分自信的\\n[法] 断言的"
-    },
-    {
-      "word": "assimilation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 同化, 同化作用, 吸收\\n[化] 同化; 同化作用"
     },
     {
       "word": "astonish",
@@ -578,7 +507,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使惊讶"
     },
@@ -608,7 +537,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 运动的"
     },
@@ -629,7 +558,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 大气的\\n[医] 大气的; 大气压的"
     },
@@ -639,7 +568,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 原子的, 原子能的\\n[医] 原子的"
     },
@@ -660,7 +589,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 耳的, 听觉的, 气氛的, 气味的, 光环的\\n[医] 耳的; 先兆的"
     },
@@ -696,17 +625,6 @@
       "ecdict_translation": "n. 辅助者, 辅助物, 附属机构, 助动词\\na. 辅助的, 备用的"
     },
     {
-      "word": "avail",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "wordnet_not_related_to_existing_gloss"
-      ],
-      "ecdict_translation": "vi. 有用, 有利\\nvt. 有利于\\nn. 效用, 利益"
-    },
-    {
       "word": "availability",
       "targets": [
         "cet6"
@@ -725,17 +643,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "vi. 乘飞机\\nvt. 驾驶(飞机)"
-    },
-    {
-      "word": "aware",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 知道的, 有觉悟的"
     },
     {
       "word": "away",
@@ -763,7 +670,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 轴的, 成轴的, 轴向的\\n[医] 轴的, 中轴的"
     },
@@ -824,7 +731,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使迷惑, 使不知所措"
     },
@@ -879,16 +786,6 @@
       "ecdict_translation": "adv. 坦率地, 率直地"
     },
     {
-      "word": "boot",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 长靴, 踢, 解雇, 效用\\nvt. 使穿靴, 踢, 解雇, 有用\\n[计] 引导, 自举"
-    },
-    {
       "word": "botanical",
       "targets": [
         "cet6"
@@ -915,7 +812,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 中产阶级分子, 商人, 资产阶级\\na. 中产阶级的, 平庸的\\nn. 九点活字"
     },
@@ -925,7 +822,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "n. 肠, 内脏, 内部\\nvt. 挖...的内脏"
     },
@@ -935,7 +832,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vi. 变亮, 活跃\\nvt. 使生辉, 使快活"
     },
@@ -969,16 +866,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 蒲式耳(容量单位)\\nv. 修整(衣物)"
-    },
-    {
-      "word": "calibration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 口径测定, 刻度, 校准\\n[化] 校准"
     },
     {
       "word": "cartridge",
@@ -1022,17 +909,6 @@
       "ecdict_translation": "a. 百分度的, 摄氏的\\n[医] 百分度"
     },
     {
-      "word": "centimetre",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 厘米, 公分"
-    },
-    {
       "word": "ceramic",
       "targets": [
         "cet6"
@@ -1041,16 +917,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 陶瓷的\\nn. 陶瓷制品"
-    },
-    {
-      "word": "certification",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 证明\\n[经] 证明"
     },
     {
       "word": "characterize",
@@ -1079,7 +945,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 慢性地, 长期地, 习惯性地"
     },
@@ -1089,7 +955,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 大块, 矮胖的人(或物)\\n[经] 定样"
     },
@@ -1102,16 +968,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 引用, 引证, 引用文\\n[建] 引证, 指引"
-    },
-    {
-      "word": "clearance",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 清除, 间隙\\n[化] 间隙; 空隙"
     },
     {
       "word": "clearing",
@@ -1129,7 +985,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 接近地"
     },
@@ -1144,16 +1000,6 @@
       "ecdict_translation": "vt. 给...穿衣, 盖上, 赋予"
     },
     {
-      "word": "coalition",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 结合体, 结合, 联合\\n[经] 联合, 联盟"
-    },
-    {
       "word": "collaborative",
       "targets": [
         "cet4",
@@ -1163,17 +1009,6 @@
         "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 合作的, 协作的"
-    },
-    {
-      "word": "collision",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 碰撞, 冲突, 抵触\\n[计] 冲突"
     },
     {
       "word": "colonial",
@@ -1216,44 +1051,14 @@
       "ecdict_translation": "a. 强制的, 强迫性的, 激发兴趣的"
     },
     {
-      "word": "complacency",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 满足, 自鸣得意, 自满"
-    },
-    {
-      "word": "compression",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 压缩, 压紧\\n[计] 压缩"
-    },
-    {
       "word": "compulsory",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 被强制的, 强迫的, 义务的\\n[经] 强迫的, 强制的"
-    },
-    {
-      "word": "conceit",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 自负, 空想, 狂妄"
     },
     {
       "word": "concerning",
@@ -1267,33 +1072,12 @@
       "ecdict_translation": "prep. 关于\\n[法] 关于"
     },
     {
-      "word": "confirmation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 证实, 证明, 批准, 确认\\n[计] 确认"
-    },
-    {
-      "word": "confrontation",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 对抗；对质；面对"
-    },
-    {
       "word": "confrontational",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 挑衅的; 对抗的"
     },
@@ -1308,23 +1092,12 @@
       "ecdict_translation": "n. 连接, 团体, 生意合伙人, 亲戚"
     },
     {
-      "word": "conquest",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 战胜, 征服, 战利品\\n[法] 征服, 赢得, 获得"
-    },
-    {
       "word": "consecutive",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 连续的, 联贯的\\n[计] 连续的; 连接的"
     },
@@ -1334,7 +1107,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 随后发生的事情, 结果\\na. 作为结果的, 合乎逻辑的"
     },
@@ -1344,7 +1117,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 非常地, 很, 颇"
     },
@@ -1355,7 +1128,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "base_pos_mismatch"
       ],
       "ecdict_translation": "vi. 组成, 存在于, 一致"
     },
@@ -1375,20 +1148,9 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 建设性的, 构造上的\\n[医] 构成的"
-    },
-    {
-      "word": "contempt",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 轻视, 轻蔑\\n[法] 藐视, 侮辱, 轻视"
     },
     {
       "word": "contemptuous",
@@ -1406,7 +1168,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 大陆的, 洲的\\nn. 欧洲大陆人"
     },
@@ -1449,7 +1211,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 社团的, 合伙的, 公司的\\n[经] 团体的, 法人的, 社团的"
     },
@@ -1464,22 +1226,12 @@
       "ecdict_translation": "adv. 对, 正确, 恰当, 符合一般性准则, 符合行为准则, 端正, 符合"
     },
     {
-      "word": "corrosion",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 腐蚀, 侵蚀, 腐蚀产生的物质, 铁锈, 锈\\n[计] 腐蚀"
-    },
-    {
       "word": "cosmic",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 宇宙的, 宇宙航行的, 无限的, 有秩序的\\n[医] 宇宙的"
     },
@@ -1499,7 +1251,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 犯罪学, 刑事学\\n[医] 犯罪学"
     },
@@ -1510,7 +1262,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 跛者, 残废\\nvt. 使跛, 使成残废, 削弱\\na. 跛的, 残废的"
     },
@@ -1535,34 +1287,13 @@
       "ecdict_translation": "pl. 标准\\n[计] 条件"
     },
     {
-      "word": "cruelty",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 残酷, 野蛮, 残酷行为\\n[法] 残酷, 残忍, 虐待"
-    },
-    {
-      "word": "crystallize",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "vt. 使结晶, 使具体化\\nvi. 结晶, 具体化"
-    },
-    {
       "word": "cubic",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 立方体的, 立方的\\n[机] 立方的, 立方体的"
     },
@@ -1618,16 +1349,6 @@
       "ecdict_translation": "n. 牛奶公司, 乳品店, 乳牛场"
     },
     {
-      "word": "datum",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 论据, 材料, 资料, 已知数\\n[医] 材料, 资料, 论据"
-    },
-    {
       "word": "deafen",
       "targets": [
         "cet6"
@@ -1636,16 +1357,6 @@
         "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使聋\\nvi. 变聋"
-    },
-    {
-      "word": "decency",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 得体, 礼貌, 正派\\n[法] 正当, 正派, 合乎礼仪"
     },
     {
       "word": "decorative",
@@ -1684,39 +1395,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 限定词\\na. 限定的, 决定性的"
-    },
-    {
-      "word": "deflection",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 歪斜, 偏, 偏向\\n[医] 偏向, 偏离, 偏转(光), 偏转, 波(心电图)"
-    },
-    {
-      "word": "degeneration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 退化, 恶化, 堕落\\n[化] 简并性"
-    },
-    {
-      "word": "degradation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 降格, 堕落, 退化\\n[计] 降级"
     },
     {
       "word": "delightful",
@@ -1739,16 +1420,6 @@
       "ecdict_translation": "vt. 使失去独立国家资格, 开除国籍, 使非国有化\\n[法] 剥夺国籍, 剥夺...国民权利, 使非国有化"
     },
     {
-      "word": "denial",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 否认\\n[法] 否定, 否认, 拒绝接受"
-    },
-    {
       "word": "dependant",
       "targets": [
         "cet6"
@@ -1765,7 +1436,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 依赖他人者\\na. 依赖的, 从属的"
     },
@@ -1778,26 +1449,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 驱逐出境, 放逐\\n[法] 递解出境, 放逐, 驱逐"
-    },
-    {
-      "word": "deposition",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 免职, 作证, 沉淀\\n[化] 沉积"
-    },
-    {
-      "word": "deprivation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 剥夺, 剥夺官职, 免职\\n[医] 丧失, 剥夺, 缺乏"
     },
     {
       "word": "derivation",
@@ -1815,30 +1466,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使分离, 分遣\\n[机] 摘下, 分离, 卸下"
-    },
-    {
-      "word": "detection",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 发现, 察觉, 探测\\n[计] 检波; 检测"
-    },
-    {
-      "word": "deterioration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 恶化, 衰退, 退化\\n[医] 变坏, 变质, 颓废, 衰退"
     },
     {
       "word": "developmental",
@@ -1849,17 +1479,6 @@
         "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 发展的, 进化的, 启发的\\n[医] 发育的"
-    },
-    {
-      "word": "devotion",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 热爱, 投入"
     },
     {
       "word": "diagnostic",
@@ -1880,16 +1499,6 @@
         "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 二氧化物\\n[医] 二氧化物"
-    },
-    {
-      "word": "disappearance",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 看不见, 失踪, 消失"
     },
     {
       "word": "disapproval",
@@ -1932,17 +1541,6 @@
       "ecdict_translation": "n. 分开, 空闲, 解脱\\n[医] 解脱(分娩)"
     },
     {
-      "word": "disgust",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 厌恶, 嫌恶\\nvi. 令人厌恶\\nvt. 使作呕"
-    },
-    {
       "word": "disillusioned",
       "targets": [
         "cet6"
@@ -1951,26 +1549,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 幻想破灭了的, 大失所望的, 醒悟了的"
-    },
-    {
-      "word": "disintegration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 瓦解\\n[化] 破碎; 崩解; 蜕变"
-    },
-    {
-      "word": "dismay",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 沮丧\\nvt. 使惊愕, 使气馁"
     },
     {
       "word": "disobedience",
@@ -1999,20 +1577,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "v. 使不愉快, 使(人)生气"
-    },
-    {
-      "word": "disposal",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 丢掉, 处理, 排列, 销毁, 布置\\n[医] 处理, 处置"
     },
     {
       "word": "disproportionate",
@@ -2056,17 +1623,6 @@
       "ecdict_translation": "vt. 使感觉不满, 不满足"
     },
     {
-      "word": "disservice",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 伤害, 帮倒忙的行为"
-    },
-    {
       "word": "distil",
       "targets": [
         "cet6"
@@ -2082,29 +1638,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 显然地, 明显地, 清楚地"
-    },
-    {
-      "word": "distraction",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 娱乐, 分心的事物, 分心\\n[医] 注意力分散, 内脱位, 牙弓过宽"
-    },
-    {
-      "word": "diversion",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 转移\\n[医] 转向"
     },
     {
       "word": "doctoral",
@@ -2163,7 +1699,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 无疑的, 确定的\\nadv. 无疑地, 确定地"
     },
@@ -2188,23 +1724,13 @@
       "ecdict_translation": "n. (尤指经济方面的)衰退, 下降趋势\\n[电] 低迷时期"
     },
     {
-      "word": "drainage",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 排水\\n[医] 引流[法], 导液[法], 排水[设备]"
-    },
-    {
       "word": "dramatically",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 戏剧地, 引人注目地, 突然地"
     },
@@ -2214,7 +1740,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 激烈地, 彻底地"
     },
@@ -2244,7 +1770,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 尽职的, 忠实的, 顺从的, 守本分的"
     },
@@ -2330,37 +1856,6 @@
       "ecdict_translation": "a. 有资格当选的, 合格的\\nn. 有资格者, 合格者, 适任者"
     },
     {
-      "word": "elimination",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 除去, 消除, 消灭\\n[化] 消去; 脱去"
-    },
-    {
-      "word": "else",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "base_pos_mismatch"
-      ],
-      "ecdict_translation": "a. 别的, 其他的\\nadv. 另外, 否则, 不然"
-    },
-    {
-      "word": "emergence",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 出现, 浮现, 发生"
-    },
-    {
       "word": "emigrate",
       "targets": [
         "cet6"
@@ -2386,7 +1881,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 授予权力, 允许, 使能够\\n[法] 授权, 准许, 转委"
     },
@@ -2453,16 +1948,6 @@
       "ecdict_translation": "n. <法>运动队（或比赛队）及其装备"
     },
     {
-      "word": "erosion",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 腐蚀, 冲蚀, 侵蚀\\n[化] 磨耗; 侵蚀"
-    },
-    {
       "word": "eruption",
       "targets": [
         "cet6"
@@ -2478,7 +1963,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 审美的\\n[医] 感觉的"
     },
@@ -2529,19 +2014,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 展开的, 进化论的, 进化的, 发展的\\n[计] 进化的, 改良的, 发展的"
-    },
-    {
-      "word": "exaggeration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 夸张, 夸大的事物, 夸大之词"
     },
     {
       "word": "exciting",
@@ -2591,7 +2066,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 例证, 例示\\n[法] 制作经公章证明的誊本, 例证"
     },
@@ -2604,16 +2079,6 @@
         "base_pos_mismatch"
       ],
       "ecdict_translation": "n. 努力, 发挥, 运用\\n[医] 劳力, 用力"
-    },
-    {
-      "word": "expectancy",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 期待, 期望的事物, 嘱望, 希望, 期望, 预期\\n[医] 预期"
     },
     {
       "word": "experimentally",
@@ -2641,7 +2106,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 明确地；明白地"
     },
@@ -2654,17 +2119,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 开发, 开采, 剥削\\n[经] 开发, 剥削, 宜传"
-    },
-    {
-      "word": "exposure",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 暴露, 揭发, 揭露\\n[化] 曝光量; 照射; 照射量"
     },
     {
       "word": "extensively",
@@ -2685,16 +2139,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 消失, 消灭, 废止\\n[化] 消光; 熄灭"
-    },
-    {
-      "word": "extraction",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 抽出, 取出, 拔出术, 抽出物\\n[化] 萃取; 提取"
     },
     {
       "word": "extraordinarily",
@@ -2742,7 +2186,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 无畏地, 大胆地"
     },
@@ -2753,7 +2197,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 联邦的, 联合的, 同盟的\\n[法] 联邦的, 联邦制的, 联盟的"
     },
@@ -2763,30 +2207,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 铁的, 含铁的, 亚铁的\\n[医] 亚铁的"
-    },
-    {
-      "word": "fertility",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 肥沃, 丰饶, 生产力\\n[医] 生育力"
-    },
-    {
-      "word": "finding",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 发现, 发现物, 决定, 裁决\\n[法] 调查结果, 对事实的认定, 判定的要素"
     },
     {
       "word": "finely",
@@ -2805,19 +2228,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 救火队员, 消防队员\\n[机] 司炉"
-    },
-    {
-      "word": "firmness",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 坚固, 坚牢, 坚定"
     },
     {
       "word": "fluently",
@@ -2835,7 +2248,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 荧光\\na. 荧光的"
     },
@@ -2861,17 +2274,6 @@
       "ecdict_translation": "a. 在前的, 以前的\\nadv. 在前面, 在船头\\nprep. 在...前"
     },
     {
-      "word": "foremost",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 最初的, 最重要的\\nadv. 在最前"
-    },
-    {
       "word": "foreseeable",
       "targets": [
         "cet4"
@@ -2890,16 +2292,6 @@
         "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 即将来临的\\nn. 来临"
-    },
-    {
-      "word": "fourfold",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 四重的, 四倍的, 四垒的\\nadv. 四倍, 四重"
     },
     {
       "word": "freshen",
@@ -2932,16 +2324,6 @@
       "ecdict_translation": "n. 惊骇, 吃惊\\n[医] 惊吓"
     },
     {
-      "word": "fringe",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "not_a_pinyin_candidate"
-      ],
-      "ecdict_translation": "n. 边缘, 端, 流苏, 穗, 初步\\nvt. 加穗于, 加饰边于\\na. 边缘的, 附加的"
-    },
-    {
       "word": "funding",
       "targets": [
         "cet6"
@@ -2968,31 +2350,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 气体的, 气态的, 无实质的\\n[医] 气[体]的"
-    },
-    {
-      "word": "generalization",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "base_pos_mismatch"
-      ],
-      "ecdict_translation": "n. 一般化, 普遍化, 概括\\n[化] 推广; 普适化"
-    },
-    {
-      "word": "generosity",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 慷慨, 宽大"
     },
     {
       "word": "genetic",
@@ -3026,16 +2386,6 @@
       "ecdict_translation": "a. 几何学的, 几何的\\n[机] 几何学的"
     },
     {
-      "word": "glamor",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 魅力, 迷人的美, 魔法\\nvt. 迷惑"
-    },
-    {
       "word": "glamour",
       "targets": [
         "cet6"
@@ -3056,24 +2406,13 @@
       "ecdict_translation": "n. 专业词典, 术语集, 词表\\n[计] 图文集"
     },
     {
-      "word": "goodness",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 仁慈, 善良"
-    },
-    {
       "word": "gradual",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 逐渐的, 渐增的\\nn. 弥撒升阶圣歌"
     },
@@ -3120,24 +2459,13 @@
       "ecdict_translation": "a. 草绿色的, 象草的, 长满草的"
     },
     {
-      "word": "greeting",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 祝贺, 问候"
-    },
-    {
       "word": "grocer",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 食品商"
     },
@@ -3158,7 +2486,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 无根据的, 无理由的\\n[法] 无根据的, 无理由的"
     },
@@ -3203,28 +2531,6 @@
       "ecdict_translation": "n. 激烈而持久的争论\\nvi. 争论\\nvt. 与...争辩, 使烦恼"
     },
     {
-      "word": "haste",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 匆忙, 急忙"
-    },
-    {
-      "word": "heading",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 标题, 起始字, 方向\\n[计] 上标题"
-    },
-    {
       "word": "headmaster",
       "targets": [
         "cet4",
@@ -3246,17 +2552,6 @@
       "ecdict_translation": "vt. 将...的总部设在"
     },
     {
-      "word": "heave",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 举, 抛, 起伏, 鼓起\\nvt. 用力举起, 使举起, 使鼓起\\nvi. 抛出, 起伏, 喘息, 凸起"
-    },
-    {
       "word": "heavily",
       "targets": [
         "cet4",
@@ -3268,16 +2563,6 @@
       "ecdict_translation": "adv. 很重地, 严重地, 难以忍受地"
     },
     {
-      "word": "henceforth",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "adv. 自此以后, 今后"
-    },
-    {
       "word": "hers",
       "targets": [
         "cet4"
@@ -3286,16 +2571,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "pron. 她的"
-    },
-    {
-      "word": "heterogeneity",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 异种, 异质, 不同成分\\n[化] 不均匀性; 多相性"
     },
     {
       "word": "homely",
@@ -3327,16 +2602,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 值得尊敬的, 荣耀的, 高贵的\\n[法] 荣誉的, 正直的, 体面的"
-    },
-    {
-      "word": "huddle",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 杂乱一团, 混乱, 拥挤\\nvt. 把...挤在一起, 乱堆, 草率了事, 蜷曲\\nvi. 挤作一团, 蜷缩"
     },
     {
       "word": "humanistic",
@@ -3405,7 +2670,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 完美地, 理想地"
     },
@@ -3430,27 +2695,6 @@
       "ecdict_translation": "adv. 思想上, 思想体系, 意识形态, 观念形态"
     },
     {
-      "word": "idleness",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 懒惰, 闲散, 失业\\n[化] 空载"
-    },
-    {
-      "word": "ignorance",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 无知, 愚味\\n[法] 无知, 不知情, 愚昧"
-    },
-    {
       "word": "imaginative",
       "targets": [
         "cet6"
@@ -3459,16 +2703,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 想像的, 虚构的"
-    },
-    {
-      "word": "imitation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 模仿, 效法, 冒充, 赝品\\n[医] 模仿, 仿制, 仿制品"
     },
     {
       "word": "immensely",
@@ -3497,7 +2731,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 免疫的, 免除的, 不受影响的\\nn. 免疫者"
     },
@@ -3507,7 +2741,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 命令, 必要的事, 规则, 祈使语气\\na. 命令式的, 急需的, 势在必行的, 强制的"
     },
@@ -3527,7 +2761,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 暂时的, 非永久的"
     },
@@ -3537,7 +2771,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 动力, 推动力, 动量\\n[医] 冲动, 动能, 起始(病)"
     },
@@ -3558,7 +2792,8 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate",
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "n. 印象, 特征, 印记\\nvt. 使有印象, 印, 铭刻, 传送, 影响, 强征\\nvi. 给人印象"
     },
@@ -3578,7 +2813,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 难得到的, 难接近的, 难达成的"
     },
@@ -3629,7 +2864,8 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "not_a_pinyin_candidate"
+        "not_a_pinyin_candidate",
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "n. 发生, 发生率, 影响, 负担者, 入射, 倾角\\n[医] 入射, 发生率, 发生数"
     },
@@ -3699,19 +2935,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 有传染性的, 易传染的\\n[医] 传染性的"
-    },
-    {
-      "word": "inferiority",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 自卑, 次等\\n[医] 下位, 下级, 次级, 劣等"
     },
     {
       "word": "infinitely",
@@ -3719,7 +2945,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 无限地, 无数地, 庞大地"
     },
@@ -3789,7 +3015,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 教学的, 教育的"
     },
@@ -3819,7 +3045,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 可理解的, 易理解的, 纯概念性的"
     },
@@ -3875,17 +3101,6 @@
       "ecdict_translation": "a. 人种间的, 人种混合的"
     },
     {
-      "word": "interruption",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 打扰, 中断, 障碍物\\n[医] 间断, 阻断, 中止"
-    },
-    {
       "word": "intertwine",
       "targets": [
         "cet6"
@@ -3922,20 +3137,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 不变化地, 恒定地, 始终如一地"
-    },
-    {
-      "word": "invasion",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 侵犯, 侵入, 侵害\\n[医] 侵袭, 侵入, 发病"
     },
     {
       "word": "invasive",
@@ -3946,17 +3150,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 侵入的, 侵略性的, 攻击性的"
-    },
-    {
-      "word": "invention",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 发明, 创作能力, 虚构的故事\\n[经] 发明"
     },
     {
       "word": "inverse",
@@ -3984,19 +3177,9 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 不合理地, 无理性地"
-    },
-    {
-      "word": "irregularity",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 不规则, 例外, 违反规则的行为\\n[化] 不匀度"
     },
     {
       "word": "irrespective",
@@ -4004,7 +3187,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 不顾的, 无关的, 没关系的"
     },
@@ -4014,7 +3197,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 不可逆的, 不可改变的, 不能倒置的, 不能翻转的, 不能倒转的, 不可撤销的\\n[计] 不可逆的"
     },
@@ -4024,19 +3207,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "n. 牛仔裤, 牛仔布, 斜纹棉布"
-    },
-    {
-      "word": "jeopardize",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "vt. 危害, 使受危困, 使陷危地"
     },
     {
       "word": "jolly",
@@ -4080,16 +3253,6 @@
       "ecdict_translation": "a. 有道理的, 合乎情理的\\n[计] 两端对齐的"
     },
     {
-      "word": "juvenile",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 少年, 少年读物\\na. 少年的, 不成熟的, 适于少年的"
-    },
-    {
       "word": "keenly",
       "targets": [
         "cet4"
@@ -4100,22 +3263,12 @@
       "ecdict_translation": "adv. 锐利地, 敏捷地, 激烈地"
     },
     {
-      "word": "kilometre",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 公里, 千米"
-    },
-    {
       "word": "kinetic",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 运动的, 运动引起的, 动力学的, 活动的\\n[医] 运动的, 动的, 动力的"
     },
@@ -4130,24 +3283,13 @@
       "ecdict_translation": "n. 悲叹, 哀悼"
     },
     {
-      "word": "lap",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "wordnet_not_related_to_existing_gloss"
-      ],
-      "ecdict_translation": "n. 膝盖, 舔, 一圈, 下摆, 衣兜, 山坳\\nvi. 重叠, 围住, 轻拍, 舔\\nvt. 包围, 抱...在膝上, 使重叠, 舔, 拍打, 泼溅\\n[计] 链接访问程序"
-    },
-    {
       "word": "largely",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 大量地, 很多地, 大半地"
     },
@@ -4158,7 +3300,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 后者的, 较后的, 近来的"
     },
@@ -4225,44 +3367,14 @@
       "ecdict_translation": "a. 语言的, 语言学的\\n[计] 语言的, 语言学的"
     },
     {
-      "word": "literacy",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 读写能力, 识字, 精通文学"
-    },
-    {
       "word": "literally",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 逐字地, 按照字面上地, 不夸张地"
-    },
-    {
-      "word": "litter",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 垃圾, 杂乱, 轿, 担架\\nvt. 乱丢, 铺草, 弄乱\\nvi. 产仔, 乱丢垃圾"
-    },
-    {
-      "word": "locality",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 地方, 所在, 位置\\n[法] 位置, 场所, 地区"
     },
     {
       "word": "logically",
@@ -4291,7 +3403,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 阴历的, 月的, 微亮的(指光)\\n[医] 月的, 银的"
     },
@@ -4331,7 +3443,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 边缘的, 最低限度的, 有旁注的\\n[医] 缘的"
     },
@@ -4342,7 +3454,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 舰队, 水兵, 海景画\\na. 海的, 海产的, 海底的, 船舶的, 海运的"
     },
@@ -4410,17 +3522,6 @@
       "ecdict_translation": "n. 化脓, 成熟\\n[医] 成熟, 化脓"
     },
     {
-      "word": "meantime",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 间隔时间, 其时\\nadv. 其间"
-    },
-    {
       "word": "mechanically",
       "targets": [
         "cet4",
@@ -4438,7 +3539,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 纪念物, 请愿书\\na. 记念的, 记忆的"
     },
@@ -4449,7 +3550,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 小湖, 池塘\\na. 仅仅的, 只不过的"
     },
@@ -4459,7 +3560,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 变化的, 变形的, 新陈代谢的\\n[医] [新陈]代谢的"
     },
@@ -4480,7 +3581,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 公尺的, 公制的, 计量的\\n[医] 测量的, 米制的, 公制的"
     },
@@ -4505,23 +3606,13 @@
       "ecdict_translation": "n. 微处理器\\n[计] 微处理器; 微处理机"
     },
     {
-      "word": "midst",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 中间\\nprep. 在...中间"
-    },
-    {
       "word": "migrant",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate",
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "n. 候鸟, 移居者\\n[法] 移居者"
     },
@@ -4531,7 +3622,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 乳状的, 乳白色的, 柔和的"
     },
@@ -4581,19 +3672,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 适当地, 适度地, 中庸地"
-    },
-    {
-      "word": "modesty",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 谦逊, 质朴, 羞怯"
     },
     {
       "word": "molecular",
@@ -4601,7 +3682,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 分子的, 由分子组成的\\n[医] 分子的"
     },
@@ -4709,36 +3790,14 @@
       "ecdict_translation": "n. 黑人\\na. 黑人的"
     },
     {
-      "word": "neighbourhood",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 邻接, 周围, 附近一带, 邻近, 邻居关系, 地区, 街道, 街坊, 四邻\\n[计] 邻域"
-    },
-    {
       "word": "neighbouring",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 邻近的, 接壤的, 附近的\\n[法] 邻近的, 附近的, 接壤的"
-    },
-    {
-      "word": "newly",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "adv. 重新, 最近"
     },
     {
       "word": "nil",
@@ -4782,16 +3841,6 @@
       "ecdict_translation": "adv. 臭名昭著的, 声名狼藉的"
     },
     {
-      "word": "notwithstanding",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "base_pos_mismatch"
-      ],
-      "ecdict_translation": "adv. 虽然, 尽管\\nprep. 尽管\\nconj. 虽然"
-    },
-    {
       "word": "nought",
       "targets": [
         "cet6"
@@ -4808,7 +3857,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 核子的, 原子能的, 核的, 中心的\\n[医] 核的"
     },
@@ -4824,16 +3873,6 @@
       "ecdict_translation": "n. 讨厌的东西, 讨厌的人, 损害\\n[医] 损害, 讨厌"
     },
     {
-      "word": "obedience",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 服从, 顺从, 忠实\\n[法] 服从, 顺从, 遵从"
-    },
-    {
       "word": "obscurity",
       "targets": [
         "cet6"
@@ -4842,38 +3881,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 阴暗, 朦胧, 晦涩, 费解, 身份低微"
-    },
-    {
-      "word": "occurrence",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 发生, 事件, 出现\\n[医] 发生"
-    },
-    {
-      "word": "offence",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 犯罪, 冒犯, 违反, 罪过, 过错, 攻击\\n[法] 犯法, 罪过, 过错"
-    },
-    {
-      "word": "offense",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 犯罪, 伤感情, 攻击"
     },
     {
       "word": "onto",
@@ -4903,7 +3910,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 眼睛的, 视觉的, 光学的\\n[机] 光学上的, 光学的"
     },
@@ -4929,33 +3936,12 @@
       "ecdict_translation": "aux. 应该, 大概\\nn. 责任"
     },
     {
-      "word": "outbreak",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 爆发, 暴动\\n[医] 暴发"
-    },
-    {
-      "word": "outer",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 外部的, 外面的, 在外的, 远离中心的\\n[机] 外部的, 外面的, 外侧的"
-    },
-    {
       "word": "outermost",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 最外面的, 最远离中心的"
     },
@@ -5043,16 +4029,6 @@
       "ecdict_translation": "v. 使过于激动（或兴奋）, 过度刺激( overexcite的过去式和过去分词 )"
     },
     {
-      "word": "overhang",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 突出部份, 悬垂部份\\nvt. 悬于...之上, (危险等)逼近\\nvi. 悬垂, 逼近"
-    },
-    {
       "word": "overt",
       "targets": [
         "cet6"
@@ -5068,7 +4044,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 未付的, 亏欠的, 受惠的, 归因于...的\\n[经] 应付的, 欠着的, 未付的"
     },
@@ -5116,22 +4092,12 @@
       "ecdict_translation": "n. 窗玻璃, 方框, 方格, 窗格\\nvt. 嵌窗玻璃于\\n[计] 窗格"
     },
     {
-      "word": "panther",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 豹, 黑豹, 美洲豹"
-    },
-    {
       "word": "pantry",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 餐具室, 食品室"
     },
@@ -5151,7 +4117,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使麻痹, 使瘫痪, 使无力, 使气馁, 终止\\n[医] 使麻痹, 使瘫痪"
     },
@@ -5182,7 +4148,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 爪\\nv. 以蹄扒地, 用爪子抓, 拼命抓, 向...乱抓, 笨拙地使用, 费力地前进"
     },
@@ -5205,26 +4171,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 沿街叫卖的小贩, (流言)传播者\\n[经] 小贩, 商贩, 货郎"
-    },
-    {
-      "word": "penetration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 穿透, 渗透, 侵入, 识穿, 洞察(力)\\n[化] 渗入"
-    },
-    {
-      "word": "perfection",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 完美, 完成, 极端\\n[经] 完整性"
     },
     {
       "word": "peripheral",
@@ -5253,7 +4199,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 可允许的, 可容许程度的\\n[机] 容许, 允许"
     },
@@ -5263,7 +4209,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使困惑, 使复杂化, 使为难\\n[法] 困惑, 使复杂化, 使纠缠不清"
     },
@@ -5276,17 +4222,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "n. 汗, 流汗, 努力\\n[医] 出汗; 汗"
-    },
-    {
-      "word": "persuasion",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 说服, 信念, 派别, 说服力"
     },
     {
       "word": "pessimist",
@@ -5335,7 +4270,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 生理学的, 生理学上的, 生理机能的\\n[医] 生理学的, 生理的"
     },
@@ -5407,7 +4342,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 两极的, 极地的, 正好相反的, 极性的\\nn. 极线, 极面"
     },
@@ -5427,7 +4362,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 邮政的, 邮局的\\n[经] 邮政的"
     },
@@ -5463,17 +4398,6 @@
       "ecdict_translation": "a. 可实行的, 可做的, 可用的"
     },
     {
-      "word": "precaution",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 预防, 留心, 警戒\\nvt. 预先警告"
-    },
-    {
       "word": "precede",
       "targets": [
         "cet6"
@@ -5490,19 +4414,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 在前的, 前面的\\n[法] 在前的, 在先的, 前面的"
-    },
-    {
-      "word": "predestine",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "vt. 预定, 注定"
     },
     {
       "word": "predictable",
@@ -5520,7 +4434,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 占主导地位的, 卓越的\\n[法] 占优势的, 支配其他的, 主要的"
     },
@@ -5533,17 +4447,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "adv. 主要地, 显著地, 大多数地, 突出地"
-    },
-    {
-      "word": "preferable",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 更可取的, 更好的, 更合意的"
     },
     {
       "word": "preferentially",
@@ -5571,7 +4474,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 早产的, 过早的, 不成熟的\\nn. 早产儿, 过早发生的事物"
     },
@@ -5581,7 +4484,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 过早地, 贸然地"
     },
@@ -5601,42 +4504,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 预知的, 有先见之明的"
-    },
-    {
-      "word": "prescribe",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
         "not_a_pinyin_candidate"
       ],
-      "ecdict_translation": "v. 规定, 指定, 嘱咐, 开处方"
-    },
-    {
-      "word": "presentation",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 赠与, 描述, 介绍\\n[计] 简报"
-    },
-    {
-      "word": "preservation",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 保存, 保藏, 保护\\n[医] 保藏, 保存, 防腐"
+      "ecdict_translation": "a. 预知的, 有先见之明的"
     },
     {
       "word": "presidency",
@@ -5695,7 +4565,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 更重要的, 较早的, 在先的\\nn. 小隐修院院长, 大隐修院副院长"
     },
@@ -5710,16 +4580,6 @@
       "ecdict_translation": "a. 有特权的, 有特别恩典的\\n[法] 特许的, 有特权的"
     },
     {
-      "word": "proceeding",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 进行, 程序, 行动, 诉讼程序, 事项\\n[化] 会议论文集"
-    },
-    {
       "word": "processing",
       "targets": [
         "cet6"
@@ -5730,36 +4590,15 @@
       "ecdict_translation": "[计] 处理\\n[化] 加工"
     },
     {
-      "word": "procession",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 队伍, 连续, 列队行进, 涌出"
-    },
-    {
       "word": "productive",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 能生产的, 有生产价值的, 多产的\\n[医] 产出性的, 产生性的"
-    },
-    {
-      "word": "proficiency",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 精通, 熟练, 精练"
     },
     {
       "word": "prohibitively",
@@ -5797,7 +4636,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 敏捷地, 迅速地"
     },
@@ -5812,35 +4651,15 @@
       "ecdict_translation": "a. 俯伏的, 面向下的, 有...倾向的\\n[医] 旋前的, 伏的, 俯的"
     },
     {
-      "word": "propagation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 增殖, 繁殖, 宣传\\n[医] 传播, 繁殖, 持续培养"
-    },
-    {
       "word": "proportional",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 比例的, 相称的\\nn. 比例项"
-    },
-    {
-      "word": "propulsion",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 推进, 推进力\\n[医] 前冲, 慌张步态"
     },
     {
       "word": "prospective",
@@ -5848,7 +4667,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 预期的, 将来的\\n[经] 预期的, 未来的"
     },
@@ -5859,7 +4678,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 给予保护的, 保护的\\n[医] 保护的, 防护的, 保护剂, 保护物, 油绸"
     },
@@ -5884,22 +4703,12 @@
       "ecdict_translation": "conj. 以...为条件, 假如"
     },
     {
-      "word": "provocation",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 激怒, 刺激, 挑拨\\n[医] 激发[作用]"
-    },
-    {
       "word": "provocative",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 激发感情的, 挑拨的, 刺激的\\nn. 刺激物, 挑拨物, 兴奋剂"
     },
@@ -5922,16 +4731,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "adv. 近似地"
-    },
-    {
-      "word": "proximity",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 接近, 亲近"
     },
     {
       "word": "psychiatrist",
@@ -5970,7 +4769,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 性质的, 质的, 定性的"
     },
@@ -6002,7 +4801,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 人种的, 种族的\\n[医] 种族的"
     },
@@ -6022,7 +4821,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 根本地, 完全地"
     },
@@ -6048,36 +4847,6 @@
       "ecdict_translation": "adv. 偶然, 胡乱, 无目的, 任意, 随便, 任取, 无规则, 机遇, 胡乱地, 任意地, 随便地\\n[计] 随机地"
     },
     {
-      "word": "rapidity",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 迅速, 急速, 速度"
-    },
-    {
-      "word": "rapture",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 兴高采烈, 着迷, 欢天喜地, 狂喜\\nvt. 使狂喜"
-    },
-    {
-      "word": "rating",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 等级, 额定功率, 责骂\\n[经] 等级评定"
-    },
-    {
       "word": "rattle",
       "targets": [
         "cet6"
@@ -6094,7 +4863,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 迅速地, 轻易地, 乐意地"
     },
@@ -6104,7 +4873,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 重新调整, 再调整\\n[法] 再整理, 再调整"
     },
@@ -6129,22 +4898,12 @@
       "ecdict_translation": "n. 接待员"
     },
     {
-      "word": "reconciliation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 和解, 和好, 复交, 调解, 调停, 和谐, 一致, 甘愿, 顺从\\n[经] (银行往来)调节, 调和, 一致"
-    },
-    {
       "word": "recreational",
       "targets": [
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 消遣的, 娱乐的"
     },
@@ -6194,7 +4953,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 精炼厂\\n[化] 精炼厂炼糖厂"
     },
@@ -6204,7 +4963,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 反射的, 反映的, 沉思的"
     },
@@ -6230,17 +4989,6 @@
       "ecdict_translation": "vt. 再构造, 重新制订, 再组织, 给...装上新框架"
     },
     {
-      "word": "refreshment",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 点心, 起提神作用的事物, 精神爽快"
-    },
-    {
       "word": "refuel",
       "targets": [
         "cet4"
@@ -6251,35 +4999,14 @@
       "ecdict_translation": "v. 补给燃料"
     },
     {
-      "word": "refuge",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 避难所, 安全地带, 避难, 庇护\\nvi. 躲避\\nvt. 给予...庇护"
-    },
-    {
       "word": "regenerative",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 再生的, 更生的, 更新的\\n[医] 再生的"
-    },
-    {
-      "word": "registration",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 登记, 挂号, 注册\\n[计] 登记; 定位; 对齐; 记录"
     },
     {
       "word": "regularly",
@@ -6329,20 +5056,10 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "base_pos_mismatch",
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 不情愿, 勉强\\n[电] 磁阻"
-    },
-    {
-      "word": "removal",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 移动, 移居, 迁移, 排除, 切除\\n[医] 切除, 除去"
     },
     {
       "word": "renewable",
@@ -6380,30 +5097,9 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt.再铺, 重新铺砌"
-    },
-    {
-      "word": "repetition",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 重复, 背诵, 循环, 复制品, 副本\\n[机] 重复, 反复"
-    },
-    {
-      "word": "repression",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 抑制, 压抑, 制止\\n[医] 压抑, 抑制"
     },
     {
       "word": "reproductive",
@@ -6411,7 +5107,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 生殖的, 再生的, 复制的\\n[医] 生殖的, 复现的"
     },
@@ -6441,7 +5137,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 住宅的, 与居住有关的\\n[法] 有关居住的, 房产的:居所的, 适于居住的"
     },
@@ -6452,30 +5148,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 抵抗者, 反抗者\\na. 抵抗的, 反抗的, 耐...的"
-    },
-    {
-      "word": "respondent",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 回答的, 应答的, 反射的\\nn. 应答者, 被告"
-    },
-    {
-      "word": "restraint",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 抑制, 克制, 束缚\\n[医] 约束, 拘束"
     },
     {
       "word": "retrain",
@@ -6483,7 +5158,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 重新训练, 再训练"
     },
@@ -6524,30 +5199,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 免除, 以...清除, 使获自由, 使摆脱\\n[法] 免除, 清除, 摆脱"
-    },
-    {
-      "word": "rivalry",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 竞争, 对抗\\n[医] 拮抗"
-    },
-    {
-      "word": "rotation",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 旋转, 循环, 轮流\\n[计] 旋转"
     },
     {
       "word": "routinely",
@@ -6577,7 +5231,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 乡下的, 田园的, 乡村风味的\\n[法] 农村的, 乡村的, 有关农业的"
     },
@@ -6614,16 +5268,6 @@
       "ecdict_translation": "a. 适销的, 价格适当的, 畅销的"
     },
     {
-      "word": "salvation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 拯救, 救助, 救世"
-    },
-    {
       "word": "satisfactorily",
       "targets": [
         "cet6"
@@ -6634,36 +5278,15 @@
       "ecdict_translation": "adv. 令人满意地"
     },
     {
-      "word": "saturation",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 饱和, 渗透, 浸透, 色饱和度\\n[计] 饱和度"
-    },
-    {
       "word": "saucer",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 茶碟, 茶托\\n[医] 碟"
-    },
-    {
-      "word": "saving",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 存款, 挽救, 节约\\na. 搭救的, 节约的, 保留的, 补偿的\\nprep. 除...之外"
     },
     {
       "word": "sceptical",
@@ -6701,7 +5324,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 分离的, 被隔离的\\nvi. 分离, 隔离, 分凝\\nvt. 使分离, 使隔离"
     },
@@ -6721,19 +5344,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 分期连载作品, 连载小说\\na. 连续的, 一连串的, 连载的, 分期偿还的\\n[计] 连续的; 串行的"
-    },
-    {
-      "word": "sermon",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 说教, 启示, 布道"
     },
     {
       "word": "serpent",
@@ -6752,7 +5365,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 性的, 性别的\\n[医] 性的; 性欲的"
     },
@@ -6773,7 +5386,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 锐利地, 严厉地, 厉害地\\n[经] 剧烈地"
     },
@@ -6793,7 +5406,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 装船, 出货\\n[经] 运送, 运送(寄出)货物, 装载"
     },
@@ -6877,7 +5490,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vi. 飞涨, 突升\\nn. 焰火"
     },
@@ -6888,7 +5501,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 砰然声, 猛然, 猛烈的抨击\\nvt. 猛然关上, 砰地关上, 猛烈抨击\\nvi. 砰地关上, 猛攻"
     },
@@ -6925,23 +5538,13 @@
       "ecdict_translation": "n. 社会主义者, 社会党党员\\n[法] 社会主义的"
     },
     {
-      "word": "softness",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 柔和, 温柔"
-    },
-    {
       "word": "solar",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 太阳的, 日光的, 源自太阳的\\n[医] 太阳的; 腹腔丛的"
     },
@@ -6952,19 +5555,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. (英)律师, 初级律师, (美)法务官, (美)掮客, 游说者, (美)募捐者\\n[经] 募损者, 律师"
-    },
-    {
-      "word": "solidarity",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
         "not_a_pinyin_candidate"
       ],
-      "ecdict_translation": "n. 团结, 团结一致, 共同一致\\n[法] 团结, 共同责任"
+      "ecdict_translation": "n. (英)律师, 初级律师, (美)法务官, (美)掮客, 游说者, (美)募捐者\\n[经] 募损者, 律师"
     },
     {
       "word": "solvable",
@@ -7034,7 +5627,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 空间的, 受空间条件限制的, 占地位的\\n[医] 隙的, 间隙的, 腔的; 空间的, 立体的"
     },
@@ -7045,7 +5638,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "adv. 特定地, 明确地, 按特性"
     },
@@ -7056,7 +5649,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 拼, 拼字, 拼法\\n[计] 拼写检查"
     },
@@ -7069,16 +5662,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 针的, 尖刺的, 尖刺状突起的, 脊骨的\\n[医] 棘折; 脊柱的"
-    },
-    {
-      "word": "squalor",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "base_pos_mismatch"
-      ],
-      "ecdict_translation": "n. 肮脏, 贫穷, 不干净"
     },
     {
       "word": "squash",
@@ -7096,7 +5679,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 无瑕疵的, 不锈的\\n[机] 不绣的, 污染的"
     },
@@ -7219,7 +5802,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 后来的, 接下去的\\n[经] 后来的"
     },
@@ -7234,23 +5817,13 @@
       "ecdict_translation": "a. 郊外的, 郊区的, (贬)偏狭的, 土气的, 见识不广的\\nn. 郊区居民"
     },
     {
-      "word": "succeeding",
-      "targets": [
-        "cet4"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "a. 随后的, 以后的"
-    },
-    {
       "word": "successive",
       "targets": [
         "cet4",
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 继承的, 连续的\\n[经] 接续承运人; 连续的"
     },
@@ -7271,7 +5844,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 监督人, 主管人, 主日学校校长\\n[经] 监督人, 主管人(部门)"
     },
@@ -7323,7 +5896,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 易受影响的, 易感动的, 容许...的\\n[法] 易感的, 易受影响的, 容许"
     },
@@ -7345,7 +5918,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 有同情心的, 合意的, 赞成的\\nn. 交感神经, 容易感受的人"
     },
@@ -7355,7 +5928,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 有系统的, 成体系的, 有秩序的, 有组织的, 分类学的, 故意的, 彻底的"
     },
@@ -7375,7 +5948,8 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "not_a_pinyin_candidate"
+        "not_a_pinyin_candidate",
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "n. 平头钉, 大头钉, 粗缝针脚, 行动方针, 食物\\nvt. 以大头针钉住, 附加"
     },
@@ -7395,7 +5969,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 纠缠的, 紊乱的\\n[法] 复杂的, 缠结的, 繁乱的"
     },
@@ -7426,7 +6000,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "wordnet_lemma_pos_missing"
       ],
       "ecdict_translation": "n. 电信, 通讯, 电信学\\n[电] 电通信"
     },
@@ -7447,7 +6021,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 可拉长的, 可伸长的, 张力的, 拉力的\\n[机] 拉的"
     },
@@ -7462,22 +6036,12 @@
       "ecdict_translation": "n. 试验\\na. 试验性的, 暂时的"
     },
     {
-      "word": "theft",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 盗窃, 失窃, 盗窃罪, 赃物\\n[法] 盗窃行为, 偷窃, 失窃"
-    },
-    {
       "word": "thereof",
       "targets": [
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "wordnet_not_related_to_existing_gloss"
       ],
       "ecdict_translation": "adv. 在其中, 关于..., 由此\\n[法] 由是, 由此, 属于它的"
     },
@@ -7498,20 +6062,9 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 欠考虑的, 无深虑的, 轻率的"
-    },
-    {
-      "word": "thrill",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 震颤, 激动, 刺激性, 一阵激动\\nvi. 震颤, 颤抖, 激动\\nvt. 使激动, 使颤动"
     },
     {
       "word": "throng",
@@ -7543,26 +6096,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "a. 可触的, 可使感动的"
-    },
-    {
-      "word": "tract",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 大片土地, 地带, 小册子\\n[医] 束, 道"
-    },
-    {
-      "word": "tradeoff",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. （公平）交易（等于trade-off）；权衡；折衷"
     },
     {
       "word": "tradesman",
@@ -7632,7 +6165,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 买不起的, 负担不起的"
     },
@@ -7672,7 +6205,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 在下面的\\n[经] 优先的, 基础的, 放在下面的"
     },
@@ -7695,17 +6228,6 @@
         "no_exact_cross_source_gloss"
       ],
       "ecdict_translation": "vt. 划线于...下\\nn. (表强调的)下划线\\n[计] 底线"
-    },
-    {
-      "word": "undertaking",
-      "targets": [
-        "cet4",
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 事业, 企业, 保证\\n[经] 企业, 事业, 承担"
     },
     {
       "word": "undesirable",
@@ -7816,7 +6338,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 上面的, 较高的, 上级的, 上院的, 穿在外面的, 北部的, 地表的, 后期的\\nn. 鞋帮, 上齿"
     },
@@ -7863,26 +6385,6 @@
       "ecdict_translation": null
     },
     {
-      "word": "vengeance",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 复仇, 报仇\\n[法] 报仇, 复仇"
-    },
-    {
-      "word": "verge",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 边缘, 边界, 起始点\\nvi. 处在边缘, 接近, 下沉, 趋向"
-    },
-    {
       "word": "versus",
       "targets": [
         "cet6"
@@ -7909,7 +6411,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "vt. 使牺牲, 使受害\\n[法] 使受害, 使作牺牲, 欺骗"
     },
@@ -7929,7 +6431,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 内脏的\\n[医] 内脏的"
     },
@@ -7970,7 +6472,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 嗓音的, 声音的, 有声的, 歌唱的\\nn. 元音, 声乐作品"
     },
@@ -8011,7 +6513,7 @@
         "cet4"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "n. 四轮马车, 货车\\n[法] 囚车, 马车, 运货车"
     },
@@ -8031,7 +6533,7 @@
         "cet6"
       ],
       "candidate_reasons": [
-        "no_exact_cross_source_gloss"
+        "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 注意的, 警戒的, 警醒的, (时间)醒着换过的"
     },
@@ -8119,16 +6621,6 @@
         "not_a_pinyin_candidate"
       ],
       "ecdict_translation": "a. 愿望的, 渴望的, 一厢情愿的"
-    },
-    {
-      "word": "woe",
-      "targets": [
-        "cet6"
-      ],
-      "candidate_reasons": [
-        "no_exact_cross_source_gloss"
-      ],
-      "ecdict_translation": "n. 悲哀, 悲痛, 苦痛"
     },
     {
       "word": "woollen",

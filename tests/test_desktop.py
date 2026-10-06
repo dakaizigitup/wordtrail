@@ -172,6 +172,22 @@ try:
             assert [c['text'] for c in items]==before,'Chinese order changed while browsing batch02 translation'
         assert english in shown,'Batch02 word did not appear in the real candidate window'
         check('batch02 displayed '+english+' commits exactly',key(slot,ctrl=True,shift=shown.index(english)==1)['commit']==english)
+    for pinyin,chinese,english,has_original in [('zuijin','最近','newly',True),('chuxian','出现','emergence',True),('zhidaode','知道的','aware',False)]:
+        for char in pinyin:result=key(char)
+        items=result['frame']['candidates']['items']
+        candidate=next(c for c in items if c['text']==chinese)
+        senses=candidate['translation']['senses'];words=[sense['text'] for sense in senses]
+        check('batch02 extended real IPC '+chinese+' adds '+english,(len(words)>1 if has_original else len(words)>0) and english in words)
+        before_candidates=[c['text'] for c in items]
+        slot=str(items.index(candidate)+1);shown=[]
+        for _ in range(len(senses)+1):
+            candidate=next(c for c in items if c['text']==chinese)
+            shown=[sense['text'] for sense in candidate['translation']['senses'][:2]]
+            if english in shown:break
+            result=key(slot,ctrl=True,alt=True);items=result['frame']['candidates']['items']
+            assert [c['text'] for c in items]==before_candidates,'Chinese candidate order changed while browsing extended batch02'
+        assert english in shown,'Extended batch02 word did not appear in the real candidate window'
+        check('extended batch02 displayed '+english+' commits exactly',key(slot,ctrl=True,shift=shown.index(english)==1)['commit']==english)
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     pipe.close()

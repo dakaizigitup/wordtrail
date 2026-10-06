@@ -35,7 +35,7 @@ python scripts/prepare_expansion.py --download
 
 ## 批次01–02与后续重建
 
-批次01生成数据来自 `python scripts/prepare_cet_batch.py`，批次02首段接着运行 `python scripts/prepare_candidate_batch.py --apply`。后者使用真实拼音词库导出的候选面审计新增项。`prepare_expansion.py` 保留为批次00的历史重建工具，直接运行会恢复首批数据；重建当前版应先恢复批次01，再恢复批次02。旧批次原始数据和校验和固定在 `data/batches/00-*`，批次01快照、核对输入、新增差异和缺口原因在 `01-*`；批次02人工核对、新增差异、输入校验和逐项缺口在 `02-*`。
+批次01生成数据来自 `python scripts/prepare_cet_batch.py`，批次02使用 `python scripts/prepare_candidate_batch.py --apply`，通过真实拼音词库导出的候选面审计新增项。`02-evidence.tsv` 记录588组双来源同义项、精确拼音键面、词频和每组处置理由；其322组中文释义无法由现有拼音输入，36组关系证据不足，230组通过规则或逐项人工复核。批次00/01/02 的输入、新增差异、证据和缺口原因分别留在 `data/batches/` 下对应批次文件。`prepare_expansion.py` 是批次00历史重建工具，运行前要注意它会重建旧扩词。
 
 完整数据重建顺序（研究缓存已经准备且 SHA-256 校验通过）：
 
@@ -49,6 +49,6 @@ python scripts/prepare_candidate_batch.py --apply --check
 
 `native/src/bin/export_pinyin_candidates.rs` 从固定 `data/dict.qj` 导出唯一拼音候选面；输入和输出哈希记录在批次02清单。自动新增要求固定四六级词表与 ECDICT 的完整短义和词性一致、拼音词库含有精确中文候选、原释义词性兼容且 WordNet 校验通过。人工核对项仍要求双来源同词同义同词性及精确候选面，可处理中文原词性差异和 WordNet 关系漏检。新中文键、短语和不可触达释义留待后续核对；不从子串猜测。
 
-累计新增3,660组中英对应、2,664个中文词面；其中956个英文词不在最初原释义表。当前扩词表98,386字节。六类考试数量是收录次数，不能相加作为去重词数。完整覆盖、触达统计和校验见 `data/expansion-manifest.json`；WordNet只在构建时使用，不把其定义或整个词典装入运行时。来源及许可见 `data/manifest.json`、`data/WordNet-LICENSE` 与 `data/wordnet-source.json`。
+当前累计扩词3,858组中英对应、2,779个中文词面、2,974个不同英文词面；扩词表108,602字节。批次02后，四级映射覆盖率94.78%、六级90.94%，精确拼音候选可触达率分别为90.66%和86.46%，去重未映射词651个。六类考试数量是收录次数，不能相加作为去重词数。完整覆盖、触达统计和校验见 `data/expansion-manifest.json`；WordNet只在构建时使用，不把其定义或整个词典装入运行时。来源及许可见 `data/manifest.json`、`data/WordNet-LICENSE` 与 `data/wordnet-source.json`。
 
-覆盖率按完整英文词面统计；“可由候选触达”另按精确拼音候选面统计，两者都不代表官方完整考纲。见 [分批计划](../docs/分批补词计划.md)、[0.1.11结果](../docs/0.1.11四六级补词.md) 与 [0.1.12结果](../docs/0.1.12四六级补词.md)。
+覆盖率按完整英文词面统计；“可由候选触达”另按精确拼音候选面统计，两者都不代表官方完整考纲。见 [分批计划](../docs/分批补词计划.md)、[0.1.11结果](../docs/0.1.11四六级补词.md) 与 [0.1.12结果](../docs/0.1.12四六级补词.md) 与 [0.1.13结果](../docs/0.1.13四六级补词.md)。

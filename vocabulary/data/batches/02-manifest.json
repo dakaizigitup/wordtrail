@@ -7,24 +7,35 @@
     "六级.jsonl": "e902347a69724f420b970f89c94f64a82bb03c2128347fc1f775fa2f87a060e2"
   },
   "ecdict_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
-  "evidence_pairs": 127,
-  "evidence_words": 127,
+  "evidence_pairs": 588,
+  "evidence_words": 429,
   "decisions": {
-    "base_pos_mismatch": 5,
-    "manual_reviewed_pos_or_semantic_variant": 32,
-    "not_a_pinyin_candidate": 85,
-    "wordnet_lemma_pos_missing": 2,
-    "wordnet_not_related_to_existing_gloss": 3
+    "base_pos_mismatch": 11,
+    "manual_reviewed_alias": 31,
+    "manual_reviewed_newkey": 3,
+    "manual_reviewed_pos": 164,
+    "manual_reviewed_reviewed": 32,
+    "not_a_pinyin_candidate": 322,
+    "wordnet_lemma_pos_missing": 4,
+    "wordnet_not_related_to_existing_gloss": 21
   },
-  "added_pairs": 32,
-  "manual_reviewed_pairs": 32,
+  "added_pairs": 230,
+  "manual_reviewed_pairs": 230,
+  "manual_reviewed_by_class": {
+    "alias": 31,
+    "newkey": 3,
+    "pos": 164,
+    "reviewed": 32
+  },
   "reviewed_input_sha256": "3e3f2feacfb14c152743370c3cc12c3edb5b63b543b56ef220ff5968a7d3a8db",
-  "added_headwords": 32,
-  "added_chinese_keys": 31,
-  "added_headwords_not_in_original": 32,
-  "additions_sha256": "4df196289b90566be435781bc23c5232feeac3230d3e2b11185836c666577f1d",
-  "expansion_bytes": 98386,
-  "expansion_sha256": "88ef89ad06caf55c4a1f09c8545cb349e22773cede2d79e44c51a3d91aba0042",
+  "reviewed_extended_input_sha256": "90ebe4344b03504038ad42472c7d063a1b035ccd8f6df5548fa41c3d08b1546e",
+  "evidence_sha256": "2f68f41aa9267dfb3e32ed1a3f298cfc41503e5838fd610523a12924666faa74",
+  "added_headwords": 178,
+  "added_chinese_keys": 220,
+  "added_headwords_not_in_original": 178,
+  "additions_sha256": "1166c86fb3916969bbff348424abb2e75abd3b4bb41c7e4639652aac2094aa37",
+  "expansion_bytes": 108602,
+  "expansion_sha256": "2573c23bc422800252534ccda0fda745c81c87cbbb2c874f7300ea7f81fe5398",
   "coverage_before": {
     "cet4": {
       "total": 4999,
@@ -72,45 +83,45 @@
   "coverage_after": {
     "cet4": {
       "total": 4999,
-      "mapped": 4672,
-      "missing": 327,
-      "percent": 93.46,
-      "mapped_with_ipa": 4664
+      "mapped": 4738,
+      "missing": 261,
+      "percent": 94.78,
+      "mapped_with_ipa": 4730
     },
     "cet6": {
       "total": 6036,
-      "mapped": 5356,
-      "missing": 680,
-      "percent": 88.73,
-      "mapped_with_ipa": 5346
+      "mapped": 5489,
+      "missing": 547,
+      "percent": 90.94,
+      "mapped_with_ipa": 5478
     },
     "tem4": {
       "total": 4340,
-      "mapped": 3652,
-      "missing": 688,
-      "percent": 84.15,
-      "mapped_with_ipa": 3648
+      "mapped": 3695,
+      "missing": 645,
+      "percent": 85.14,
+      "mapped_with_ipa": 3690
     },
     "tem8": {
       "total": 12410,
-      "mapped": 9354,
-      "missing": 3056,
-      "percent": 75.37,
-      "mapped_with_ipa": 9340
+      "mapped": 9459,
+      "missing": 2951,
+      "percent": 76.22,
+      "mapped_with_ipa": 9444
     },
     "toefl": {
       "total": 12213,
-      "mapped": 8391,
-      "missing": 3822,
-      "percent": 68.71,
-      "mapped_with_ipa": 8332
+      "mapped": 8492,
+      "missing": 3721,
+      "percent": 69.53,
+      "mapped_with_ipa": 8433
     },
     "ielts": {
       "total": 6557,
-      "mapped": 5259,
-      "missing": 1298,
-      "percent": 80.2,
-      "mapped_with_ipa": 5237
+      "mapped": 5331,
+      "missing": 1226,
+      "percent": 81.3,
+      "mapped_with_ipa": 5308
     }
   },
   "candidate_reachable_coverage_before": {
@@ -160,47 +171,47 @@
   "candidate_reachable_coverage_after": {
     "cet4": {
       "total": 4999,
-      "mapped": 4466,
-      "missing": 533,
-      "percent": 89.34,
-      "mapped_with_ipa": 4459
+      "mapped": 4532,
+      "missing": 467,
+      "percent": 90.66,
+      "mapped_with_ipa": 4525
     },
     "cet6": {
       "total": 6036,
-      "mapped": 5086,
-      "missing": 950,
-      "percent": 84.26,
-      "mapped_with_ipa": 5077
+      "mapped": 5219,
+      "missing": 817,
+      "percent": 86.46,
+      "mapped_with_ipa": 5209
     },
     "tem4": {
       "total": 4340,
-      "mapped": 3455,
-      "missing": 885,
-      "percent": 79.61,
-      "mapped_with_ipa": 3451
+      "mapped": 3498,
+      "missing": 842,
+      "percent": 80.6,
+      "mapped_with_ipa": 3493
     },
     "tem8": {
       "total": 12410,
-      "mapped": 8709,
-      "missing": 3701,
-      "percent": 70.18,
-      "mapped_with_ipa": 8697
+      "mapped": 8814,
+      "missing": 3596,
+      "percent": 71.02,
+      "mapped_with_ipa": 8801
     },
     "toefl": {
       "total": 12213,
-      "mapped": 7695,
-      "missing": 4518,
-      "percent": 63.01,
-      "mapped_with_ipa": 7656
+      "mapped": 7796,
+      "missing": 4417,
+      "percent": 63.83,
+      "mapped_with_ipa": 7757
     },
     "ielts": {
       "total": 6557,
-      "mapped": 4961,
-      "missing": 1596,
-      "percent": 75.66,
-      "mapped_with_ipa": 4944
+      "mapped": 5033,
+      "missing": 1524,
+      "percent": 76.76,
+      "mapped_with_ipa": 5015
     }
   },
-  "pending_cet_headwords": 797,
+  "pending_cet_headwords": 651,
   "rules": "Only exact short Chinese glosses shared by fixed CET4/CET6 KyleBing rows and pinned ECDICT. Automatic additions need an exact pinyin candidate, existing packed glossary key, matching base POS and WordNet lemma/synonym relation. Explicitly reviewed pairs may resolve a Chinese-POS or WordNet relation difference but retain source agreement and exact pinyin candidate requirements. Maximum 8 extras per key. New Chinese keys and phrases remain for later manual review. Chinese candidate ordering is unchanged."
 }

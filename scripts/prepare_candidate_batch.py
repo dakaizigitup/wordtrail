@@ -51,6 +51,14 @@ def source_pos_glosses(translation):
                 yield chinese, pos
 
 
+def kyle_glosses(translation):
+    """Split a KyleBing translation field into complete short Chinese glosses."""
+    for gloss in re.split('[,，;；、|]', str(translation)):
+        chinese = gloss.strip()
+        if HAN.fullmatch(chinese):
+            yield chinese
+
+
 def parse_pinyin_candidates(path):
     result = {}
     for line in path.read_text(encoding='utf-8').splitlines():
@@ -122,9 +130,9 @@ def make_batch(apply=False, check=False):
                     continue
                 for meaning in row.get('translations', []):
                     pos = KYLE_POS.get(str(meaning.get('type', '')).strip().lower())
-                    chinese = str(meaning.get('translation', '')).strip()
-                    if pos and HAN.fullmatch(chinese):
-                        kyle[(word, chinese, pos)].add(filename.removesuffix('.jsonl'))
+                    if pos:
+                        for chinese in kyle_glosses(meaning.get('translation', '')):
+                            kyle[(word, chinese, pos)].add(filename.removesuffix('.jsonl'))
 
     ecdict_hits = collections.defaultdict(lambda: 999999)
     definitions = {}
@@ -143,20 +151,46 @@ def make_batch(apply=False, check=False):
 
     guard = WordNetGuard()
     reviewed_path = BATCH / '02-reviewed.tsv'
-    manual = []
+    manual = {}
     for line in reviewed_path.read_text(encoding='utf-8').splitlines():
         if not line or line.startswith('#'):
             continue
         chinese, word, pos = line.split('\t')
+        manual[(chinese, word, pos)] = 'reviewed'
+    for chinese, word, pos in manual:
         if word not in pending or chinese not in base or chinese not in pinyin:
-            raise ValueError('Reviewed pair is not a missing word on an existing reachable key: ' + line)
+            raise ValueError('Reviewed pair is not a missing word on an existing reachable key: ' + '\t'.join((chinese, word, pos)))
+        if pos not in {source_pos for (w, c, source_pos) in kyle if w == word and c == chinese} or (word, chinese, pos) not in ecdict_hits:
+            raise ValueError('Reviewed pair lacks exact same-POS agreement in both pinned sources: ' + '\t'.join((chinese, word, pos)))
+        if any(old_word == word for old_word, _ in base[chinese]) or any(row[1] == word for row in current_extra[chinese]):
+            raise ValueError('Reviewed pair is already mapped: ' + '\t'.join((chinese, word, pos)))
+    extended_review_path = BATCH / '02-reviewed-extended.tsv'
+    for line in extended_review_path.read_text(encoding='utf-8').splitlines():
+        if not line or line.startswith('#'):
+            continue
+        chinese, word, pos, review_class = line.split('\t')
+        if review_class not in {'pos', 'alias', 'newkey'}:
+            raise ValueError('Unknown extended review class: ' + line)
+        if (chinese, word, pos) in manual:
+            raise ValueError('Duplicate reviewed pair: ' + line)
+        if word not in pending or chinese not in pinyin:
+            raise ValueError('Reviewed pair is not a missing word on a reachable pinyin candidate: ' + line)
+        if review_class == 'newkey' and chinese in base:
+            raise ValueError('New-key review must use a candidate absent from the packed glossary: ' + line)
+        if review_class != 'newkey' and chinese not in base:
+            raise ValueError('Existing-key review does not have a packed glossary key: ' + line)
+        base_pos = {source_pos for _, source_pos in base.get(chinese, [])}
+        if review_class == 'pos' and pos in base_pos:
+            raise ValueError('POS review must resolve a genuine Qingjian base-key POS mismatch: ' + line)
+        if review_class == 'alias' and pos not in base_pos:
+            raise ValueError('Alias review must have matching Qingjian base POS: ' + line)
+        if review_class == 'alias' and guard.related(word, pos, base[chinese]):
+            raise ValueError('Alias review is unnecessary because the automatic WordNet relation passes: ' + line)
         if pos not in {source_pos for (w, c, source_pos) in kyle if w == word and c == chinese} or (word, chinese, pos) not in ecdict_hits:
             raise ValueError('Reviewed pair lacks exact same-POS agreement in both pinned sources: ' + line)
-        if any(old_word == word for old_word, _ in base[chinese]) or any(row[1] == word for row in current_extra[chinese]):
+        if any(old_word == word for old_word, _ in base.get(chinese, [])) or any(row[1] == word for row in current_extra[chinese]):
             raise ValueError('Reviewed pair is already mapped: ' + line)
-        manual.append((chinese, word, pos))
-    if len(set(manual)) != len(manual):
-        raise ValueError('Duplicate reviewed pair')
+        manual[(chinese, word, pos)] = review_class
 
     evidence_rows = []
     eligible = collections.defaultdict(list)
@@ -184,7 +218,7 @@ def make_batch(apply=False, check=False):
         base_pos = ','.join(sorted({p for _, p in base.get(chinese, [])}))
         exam_mask = tags.get(word, 0)
         if (chinese, word, pos) in manual:
-            reason = 'manual_reviewed_pos_or_semantic_variant'
+            reason = 'manual_reviewed_' + manual[(chinese, word, pos)]
         evidence_rows.append((word, chinese, pos, ','.join(sorted(files)), str(exam_mask),
                               str(ecdict_hits[(word, chinese, pos)]), pinyin_value,
                               str(frequency), base_pos, reason))
@@ -195,11 +229,17 @@ def make_batch(apply=False, check=False):
     additions = []
     remaining = collections.Counter({chinese: LIMIT - len(rows) for chinese, rows in current_extra.items()})
     manual_rows = []
-    for chinese, word, pos in manual:
+    manual_source = {
+        'reviewed': 'Wordtrail-batch02-reviewed',
+        'pos': 'Wordtrail-batch02-pos-reviewed',
+        'alias': 'Wordtrail-batch02-alias-reviewed',
+        'newkey': 'Wordtrail-batch02-newkey-reviewed',
+    }
+    for (chinese, word, pos), review_class in manual.items():
         remaining[chinese] = LIMIT - len(current_extra[chinese]) if chinese not in remaining else remaining[chinese]
         if remaining[chinese] <= 0:
             raise ValueError('Reviewed pairs exceed per-key capacity: ' + chinese)
-        manual_rows.append((chinese, word, pos, 'Wordtrail-batch02-reviewed'))
+        manual_rows.append((chinese, word, pos, manual_source[review_class]))
         remaining[chinese] -= 1
     additions.extend(manual_rows)
     for chinese in sorted(eligible):
@@ -253,7 +293,11 @@ def make_batch(apply=False, check=False):
                  ecdict_sha256=ecdict_record['sha256'], evidence_pairs=len(evidence_rows),
                  evidence_words=len({row[0] for row in evidence_rows}),
                  decisions=dict(sorted(counts.items())), added_pairs=len(additions),
-                 manual_reviewed_pairs=len(manual_rows), reviewed_input_sha256=sha(reviewed_path),
+                 manual_reviewed_pairs=len(manual_rows),
+                 manual_reviewed_by_class=dict(sorted(collections.Counter(manual.values()).items())),
+                 reviewed_input_sha256=sha(reviewed_path),
+                 reviewed_extended_input_sha256=sha(extended_review_path),
+                 evidence_sha256=hashlib.sha256(audit_payload).hexdigest(),
                  added_headwords=len({row[1] for row in additions}),
                  added_chinese_keys=len({row[0] for row in additions}),
                  added_headwords_not_in_original=len({row[1] for row in additions} - original_words),
@@ -267,6 +311,7 @@ def make_batch(apply=False, check=False):
     pending_payload = (json.dumps(dict(batch='02', scope='Fixed community CET4/CET6 lists; exact headword mapping and pinyin-candidate reachability are reported separately.', words=pending_rows), ensure_ascii=False, indent=2) + '\n').encode('utf-8')
     outputs = {
         ROOT / 'build/batch02-evidence.tsv': audit_payload,
+        DATA / 'batches/02-evidence.tsv': audit_payload,
         ROOT / 'build/batch02-summary.json': (json.dumps(stats, ensure_ascii=False, indent=2) + '\n').encode('utf-8'),
         DATA / 'batches/02-additions.tsv': additions_payload,
         DATA / 'batches/02-pending.json': pending_payload,

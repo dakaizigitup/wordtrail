@@ -1,0 +1,35 @@
+PASS: protocol 7 opens a session
+PASS: real dictionary produces Chinese candidate
+PASS: native candidate window renders
+PASS: translation commit contains only hello
+PASS: normal Chinese commit is unchanged
+PASS: target hot reload preserves Chinese candidate order
+PASS: real IPC frame prioritizes TEM4 darling while retaining baby
+PASS: Ctrl digit inserts prioritized translation matching displayed frame
+PASS: real IPC preserves originals and exposes actual added relinquish
+PASS: all extra words can be browsed without changing Chinese order
+PASS: Ctrl digit commits the currently browsed new word
+PASS: new CET6 household is prioritized before original family
+PASS: new prioritized word commits through real IPC
+PASS: batch01 real IPC 分析 retains original and adds analysis
+PASS: batch01 current displayed analysis commits exactly
+PASS: batch01 real IPC 发展 retains original and adds development
+PASS: batch01 current displayed development commits exactly
+PASS: batch01 real IPC 自由 retains original and adds freedom
+PASS: batch01 current displayed freedom commits exactly
+PASS: batch01 real IPC 缺席 retains original and adds absence
+PASS: batch01 current displayed absence commits exactly
+PASS: batch02 real IPC 燃烧 retains original and adds combustion
+PASS: batch02 displayed combustion commits exactly
+PASS: batch02 real IPC 现代化 retains original and adds modernize
+PASS: batch02 displayed modernize commits exactly
+PASS: batch02 real IPC 中立 retains original and adds neutrality
+PASS: batch02 displayed neutrality commits exactly
+PASS: batch02 real IPC 违反 retains original and adds violation
+PASS: batch02 displayed violation commits exactly
+PASS: batch02 extended real IPC 最近 adds newly
+PASS: extended batch02 displayed newly commits exactly
+PASS: batch02 extended real IPC 出现 adds emergence
+PASS: extended batch02 displayed emergence commits exactly
+PASS: batch02 extended real IPC 知道的 adds aware
+PASS: extended batch02 displayed aware commits exactly

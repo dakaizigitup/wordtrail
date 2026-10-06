@@ -11,10 +11,14 @@ from test_native import ROOT, call
 
 sys.path.insert(0, str(ROOT / 'scripts'))
 from prepare_cet_batch import atomic_glosses, load_base, make_batch
-from prepare_candidate_batch import make_batch as make_candidate_batch
+from prepare_candidate_batch import kyle_glosses, make_batch as make_candidate_batch
 
 
 class BatchDataTests(unittest.TestCase):
+    def test_kyle_gloss_field_is_split_into_complete_short_senses(self):
+        self.assertEqual(list(kyle_glosses('知道的， 意识到的；明白的')), ['知道的', '意识到的', '明白的'])
+        self.assertEqual(list(kyle_glosses('person / place')), [])
+
     @classmethod
     def setUpClass(cls):
         cls.data = ROOT / 'vocabulary/data'
@@ -69,8 +73,10 @@ class BatchDataTests(unittest.TestCase):
         self.assertEqual({r['word'] for r in pending}, {w for w, mask in tags.items() if mask & 3} - after)
         self.assertTrue(all(r['candidate_reasons'] for r in pending))
         self.assertEqual(len(pending), self.meta['pending_distinct_cet_headwords'])
-        self.assertEqual(self.meta['batch02']['added_headwords'], 32)
-        self.assertEqual(self.meta['batch02']['manual_reviewed_pairs'], 32)
+        reviewed = sum(1 for line in (self.data / 'batches/02-reviewed.tsv').read_text(encoding='utf-8').splitlines() if line and not line.startswith('#'))
+        reviewed += sum(1 for line in (self.data / 'batches/02-reviewed-extended.tsv').read_text(encoding='utf-8').splitlines() if line and not line.startswith('#'))
+        self.assertGreater(self.meta['batch02']['added_headwords'], 32)
+        self.assertEqual(self.meta['batch02']['manual_reviewed_pairs'], reviewed)
 
     def test_reproducible_outputs_and_pinned_manifest(self):
         outputs, _ = make_candidate_batch(apply=True, check=True)

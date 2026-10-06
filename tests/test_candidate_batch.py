@@ -49,8 +49,10 @@ class CandidateBatchTests(unittest.TestCase):
         self.fail('Pinyin candidate was not reachable: ' + chinese)
 
     def test_every_reviewed_word_is_reachable_and_committable(self):
-        self.assertEqual(len(self.rows), 32)
-        for chinese, english, pos, _source in self.rows:
+        manifest = __import__('json').loads((ROOT / 'vocabulary/data/batches/02-manifest.json').read_text(encoding='utf-8'))
+        self.assertEqual(len(self.rows), manifest['added_pairs'])
+        self.assertGreater(len(self.rows), 32)
+        for chinese, english, pos, source in self.rows:
             with self.subTest(chinese=chinese, english=english):
                 self.action('vocabulary', vocabulary_targets=[])
                 state, candidate = self.find_candidate(self.type_code(self.pinyin[chinese]), chinese)
@@ -58,7 +60,7 @@ class CandidateBatchTests(unittest.TestCase):
                 sense = next((row for row in candidate['translation_senses'] if row['text'] == english), None)
                 self.assertIsNotNone(sense)
                 self.assertEqual(sense['part_of_speech'], pos)
-                self.assertEqual(sense['translation_source'], 'Wordtrail-batch02-reviewed')
+                self.assertEqual(sense['translation_source'], source)
                 self.assertTrue(any(tag['id'] in ('cet4', 'cet6') for tag in sense['tags']))
 
                 prioritized = self.action('vocabulary', vocabulary_targets=['cet4', 'cet6'])

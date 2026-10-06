@@ -1,0 +1,211 @@
+{
+  "label": "before",
+  "initialization_ms": 196.8401,
+  "results": [
+    {
+      "pinyin": "fangqi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.96375,
+      "p95_ms": 3.0485,
+      "p99_ms": 4.2698
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 2.0040500000000003,
+      "p95_ms": 2.7272,
+      "p99_ms": 3.5142
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.93155,
+      "p95_ms": 2.7034,
+      "p99_ms": 3.6465
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.25635,
+      "p95_ms": 1.8869,
+      "p99_ms": 2.3903
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.3482500000000002,
+      "p95_ms": 2.4179,
+      "p99_ms": 2.74
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.26025,
+      "p95_ms": 1.6395,
+      "p99_ms": 1.9923
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.9996499999999999,
+      "p95_ms": 1.3448,
+      "p99_ms": 2.0392
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.02295,
+      "p95_ms": 1.4645,
+      "p99_ms": 1.626
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.0371000000000001,
+      "p95_ms": 1.6287,
+      "p99_ms": 2.027
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.5871999999999999,
+      "p95_ms": 0.7729,
+      "p99_ms": 1.1119
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 0.5892,
+      "p95_ms": 0.8865,
+      "p99_ms": 1.1392
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 0.59855,
+      "p95_ms": 1.1643,
+      "p99_ms": 1.3006
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.05345,
+      "p95_ms": 1.6111,
+      "p99_ms": 2.1169
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.1324,
+      "p95_ms": 1.9342,
+      "p99_ms": 2.436
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.0768499999999999,
+      "p95_ms": 1.4977,
+      "p99_ms": 1.7835
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.82125,
+      "p95_ms": 2.5548,
+      "p99_ms": 3.3004
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.73885,
+      "p95_ms": 2.5913,
+      "p99_ms": 3.0645
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.68435,
+      "p95_ms": 2.3038,
+      "p99_ms": 3.0778
+    }
+  ],
+  "scope": "Same Windows host debug C ABI, packed dictionary + translations + tags + IPA + JSON decode. Warm state queries; not key-to-screen or physical Android latency. Initialization includes dictionary/session load, one cold process sample."
+}

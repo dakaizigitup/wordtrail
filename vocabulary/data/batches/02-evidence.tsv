@@ -1,0 +1,589 @@
+word	chinese	pos	exam_sources	exam_tag_mask	ecdict_frequency_rank	pinyin	pinyin_frequency	base_pos	decision
+abolition	废除	n.	六级	26	13737	fei chu	6348	v.	manual_reviewed_reviewed
+accountancy	会计学	n.	四级	41	35429		0		not_a_pinyin_candidate
+accountancy	会计工作	n.	四级	41	35429		0		not_a_pinyin_candidate
+admission	入场费	n.	四级	59	3031		0		not_a_pinyin_candidate
+admission	承认	n.	四级	59	3031	cheng ren	18344	v.	manual_reviewed_pos
+adoptive	采用的	adj.	四级	1	10779		0		not_a_pinyin_candidate
+advancement	提升	n.	四级	17	6629	ti sheng	9047	v.	manual_reviewed_pos
+advancement	进步	n.	四级	17	6629	jin bu	10285	v.	manual_reviewed_pos
+affirmation	断言	n.	四级	1	9815	duan yan	422	v.	manual_reviewed_pos
+affirmation	肯定	n.	四级	1	9815	ken ding	76878	adv.	manual_reviewed_pos
+agitation	搅动	n.	六级	58	12905	jiao dong	51	v.	manual_reviewed_pos
+agreeable	令人愉快的	adj.	六级	62	13667		0		not_a_pinyin_candidate
+agreeable	同意的	adj.	六级	62	13667		0	adj.	not_a_pinyin_candidate
+alignment	结盟	n.	六级	50	7898	jie meng	1064	v.	manual_reviewed_pos
+allied	联姻的	adj.	六级	2	5905		0		not_a_pinyin_candidate
+alongside	在旁边	adv.	四级	63	4203		0	phr.	not_a_pinyin_candidate
+alternatively	非此即彼	adv.	六级	18	10494	fei ci ji bi	16	phr.	base_pos_mismatch
+ambient	周围的	adj.	六级	18	12340		0		not_a_pinyin_candidate
+analogue	类似物	n.	六级	10	19447		0		not_a_pinyin_candidate
+analytical	分析的	adj.	六级	42	7338		0		not_a_pinyin_candidate
+anybody	重要人物	n.	六级	3	1380		0	n.	not_a_pinyin_candidate
+apart	分离的	adj.	四级	57	1971		0		not_a_pinyin_candidate
+apart	成距离	adv.	四级	57	1971		0		not_a_pinyin_candidate
+apathy	冷漠	n.	六级	10	13749	leng mo	2576	adj.	manual_reviewed_reviewed
+appropriation	拨款	n.	六级	18	6526	bo kuan	1517	v.	manual_reviewed_pos
+appropriation	挪用	n.	六级	18	6526	nuo yong	254	v.	manual_reviewed_reviewed
+aptly	适当地	adv.	六级	18	11756		0		not_a_pinyin_candidate
+ashore	在岸上	adv.	六级	30	9526		0		not_a_pinyin_candidate
+assassination	暗杀	n.	六级	34	5434	an sha	1790	v.	manual_reviewed_pos
+assertive	过分自信的	adj.	六级	10	11368		0		not_a_pinyin_candidate
+assimilation	同化	n.	六级	50	9369	tong hua	694	v.	manual_reviewed_pos
+assimilation	同化作用	n.	六级	50	9369		0		not_a_pinyin_candidate
+astonish	使惊讶	v.	四级	57	12542		0		not_a_pinyin_candidate
+astrophysics	天体物理学	n.	四级	9	20187		0		not_a_pinyin_candidate
+athletic	运动的	adj.	六级	14	2981		0		not_a_pinyin_candidate
+athletics	体育运动	n.	六级	10	8574		0	n.	not_a_pinyin_candidate
+atmospheric	大气的	adj.	四级	63	6847		0		not_a_pinyin_candidate
+atomic	原子的	adj.	四级	61	5438		0		not_a_pinyin_candidate
+atomic	原子能的	adj.	四级	61	5438		0		not_a_pinyin_candidate
+aural	听觉的	adj.	四级	19	15916		0		not_a_pinyin_candidate
+aural	耳的	adj.	四级	19	15916		0		not_a_pinyin_candidate
+authorization	授权	n.	六级	18	9750	shou quan	4467	v.	manual_reviewed_reviewed
+auxiliary	辅助的	adj.	六级,四级	63	13990		0		not_a_pinyin_candidate
+avail	利益	n.	六级	59	14262	li yi	3966	n.	wordnet_not_related_to_existing_gloss
+avail	效用	n.	六级	59	14262	xiao yong	261	n.	wordnet_not_related_to_existing_gloss
+avail	有用	v.	六级	59	14262	you yong	7512	adj.	manual_reviewed_pos
+aware	知道的	adj.	六级,四级	59	1439	zhi dao de	13103		manual_reviewed_newkey
+axial	轴向的	adj.	六级	2	17034		0		not_a_pinyin_candidate
+axial	轴的	adj.	六级	2	17034		0	adj.	not_a_pinyin_candidate
+behalf	利益	n.	四级	63	4434	li yi	3966	n.	wordnet_not_related_to_existing_gloss
+bewilder	使迷惑	v.	六级	62	30215		0		not_a_pinyin_candidate
+biodiversity	生物多样性	n.	六级	50	7767		0		not_a_pinyin_candidate
+boot	解雇	n.	四级	57	2347	jie gu	1127	v.	manual_reviewed_pos
+botanical	植物学的	adj.	六级	26	10006		0		not_a_pinyin_candidate
+bourgeois	中产阶级的	adj.	六级	10	9071		0		not_a_pinyin_candidate
+bowel	内部	n.	六级	50	9380	nei bu	10385	n.	wordnet_not_related_to_existing_gloss
+brighten	使快活	v.	四级	25	7814		0		not_a_pinyin_candidate
+calibration	刻度	n.	六级	18	16497	ke du	148	n.	manual_reviewed_alias
+calibration	校准	n.	六级	18	16497	jiao zhun	173	v.	manual_reviewed_pos
+cartridge	弹药筒	n.	六级	10	9132		0		not_a_pinyin_candidate
+centigrade	摄氏的	adj.	四级	59	999999		0		not_a_pinyin_candidate
+centigrade	百分度的	adj.	四级	59	999999		0		not_a_pinyin_candidate
+centimetre	公分	n.	四级	11	999999	gong fen	9953	m.	manual_reviewed_pos
+centimetre	厘米	n.	四级	11	999999	li mi	5607	m.	manual_reviewed_pos
+certification	证明	n.	六级	2	6117	zheng ming	17389	v.	manual_reviewed_pos
+chronically	慢性地	adv.	六级	2	12807		0		not_a_pinyin_candidate
+chunk	大块	n.	六级	62	4502		0	n.	not_a_pinyin_candidate
+clearance	清除	n.	六级	46	8962	qing chu	1279	v.	manual_reviewed_pos
+closely	接近地	adv.	四级	13	2038		0		not_a_pinyin_candidate
+coalition	结合	n.	六级	62	2241	jie he	8038	v.	base_pos_mismatch
+coalition	结合体	n.	六级	62	2241		0		not_a_pinyin_candidate
+coalition	联合	n.	六级	62	2241	lian he	27897	v.	manual_reviewed_pos
+collaborative	协作的	adj.	四级	19	6418		0		not_a_pinyin_candidate
+collaborative	合作的	adj.	六级,四级	19	6418		0		not_a_pinyin_candidate
+collision	冲突	n.	六级,四级	59	5633	chong tu	9537	n.	manual_reviewed_alias
+collision	抵触	n.	六级,四级	59	5633	di chu	255	v.	manual_reviewed_pos
+collision	碰撞	n.	六级,四级	59	5633	peng zhuang	1391	v.	manual_reviewed_pos
+colonial	殖民地的	adj.	六级	58	3321		0		not_a_pinyin_candidate
+colonial	殖民的	adj.	六级	58	3321		0		not_a_pinyin_candidate
+combustion	燃烧	n.	六级	62	9802	ran shao	2948	v.	manual_reviewed_reviewed
+commonsense	有常识的	adj.	六级	18	21690		0		not_a_pinyin_candidate
+complacency	满足	n.	四级	13	14595	man zu	14180	v.	manual_reviewed_pos
+complacency	自满	n.	四级	13	14595	zi man	61	adj.	manual_reviewed_pos
+compression	压紧	n.	六级	18	8364		0		not_a_pinyin_candidate
+compression	压缩	n.	六级	18	8364	ya suo	1635	v.	manual_reviewed_pos
+compulsory	义务的	adj.	六级	62	12735		0		not_a_pinyin_candidate
+compulsory	强迫的	adj.	六级	62	12735		0		not_a_pinyin_candidate
+conceit	自负	n.	六级	30	17757	zi fu	494	adj.	manual_reviewed_pos
+confirmation	确认	n.	六级	58	5360	que ren	10646	v.	manual_reviewed_pos
+confirmation	证实	n.	六级	58	5360	zheng shi	4569	v.	manual_reviewed_pos
+conformity	一致	n.	六级	58	11474	yi zhi	6234	adj.	manual_reviewed_reviewed
+confrontation	对抗	n.	四级	15	4459	dui kang	5088	v.	manual_reviewed_pos
+confrontational	对抗的	adj.	六级	2	13483		0		not_a_pinyin_candidate
+conquest	征服	n.	四级	63	7652	zheng fu	3550	v.	manual_reviewed_pos
+consecutive	连续的	adj.	六级	62	4845		0		not_a_pinyin_candidate
+consequent	作为结果的	adj.	六级	58	14817		0		not_a_pinyin_candidate
+considerably	非常地	adv.	四级	17	4645		0		not_a_pinyin_candidate
+consist	一致	v.	六级,四级	59	2190	yi zhi	6234	adj.	base_pos_mismatch
+constructive	建设性的	adj.	四级	25	7446		0		not_a_pinyin_candidate
+consultancy	咨询	n.	六级	3	22915	zi xun	6128	v.	manual_reviewed_reviewed
+contamination	污染	n.	六级	18	6525	wu ran	5337	v.	manual_reviewed_reviewed
+contempt	轻蔑	n.	四级	63	6277	qing mie	126	v.	manual_reviewed_pos
+contempt	轻视	n.	六级	63	6277	qing shi	342	v.	manual_reviewed_pos
+contention	争论	n.	六级	62	6547	zheng lun	1874	v.	manual_reviewed_reviewed
+contention	争辩	n.	六级	62	6547	zheng bian	423	v.	manual_reviewed_pos
+continental	大陆的	adj.	六级	62	8947		0		not_a_pinyin_candidate
+conversion	转变	n.	六级,四级	59	4664	zhuan bian	2848	v.	manual_reviewed_reviewed
+corporate	公司的	adj.	六级	63	1579		0		not_a_pinyin_candidate
+corporate	社团的	adj.	四级	63	1579		0		not_a_pinyin_candidate
+corrosion	侵蚀	n.	六级	26	13900	qin shi	1082	v.	manual_reviewed_pos
+corrosion	腐蚀	n.	六级	26	13900	fu shi	707	v.	manual_reviewed_pos
+cosmic	宇宙的	adj.	六级	62	5978		0		not_a_pinyin_candidate
+criminology	刑事学	n.	四级	1	25542		0		not_a_pinyin_candidate
+criminology	犯罪学	n.	四级	1	25542		0		not_a_pinyin_candidate
+cripple	使跛	v.	六级,四级	63	9401		0		not_a_pinyin_candidate
+cruelty	残酷	n.	六级,四级	15	8337	can ku	2700	adj.	manual_reviewed_pos
+cruelty	残酷行为	n.	六级	15	8337		0		not_a_pinyin_candidate
+crystallize	使具体化	v.	六级	50	14941		0		not_a_pinyin_candidate
+crystallize	结晶	v.	六级	50	14941	jie jing	915	n.	manual_reviewed_pos
+cubic	立方体的	adj.	六级	27	7772		0		not_a_pinyin_candidate
+cubic	立方的	adj.	六级,四级	27	7772		0		not_a_pinyin_candidate
+datum	已知数	n.	六级	2	28458		0		not_a_pinyin_candidate
+datum	资料	n.	六级	2	28458	zi liao	17912	n.	manual_reviewed_alias
+deafen	使聋	v.	六级	14	28547		0		not_a_pinyin_candidate
+decency	得体	n.	六级	10	10391	de ti	272	adj.	manual_reviewed_pos
+decency	正派	n.	六级	10	10391	zheng pai	121	adj.	manual_reviewed_pos
+definitive	决定性的	adj.	六级	58	6616		0	adj.	not_a_pinyin_candidate
+deflection	歪斜	n.	六级	2	19819	wai xie	66	adj.	manual_reviewed_pos
+degeneration	退化	n.	六级	2	16383	tui hua	1076	v.	manual_reviewed_pos
+degradation	退化	n.	六级	18	7764	tui hua	1076	v.	manual_reviewed_pos
+denationalize	使非国有化	v.	六级	2	44742		0		not_a_pinyin_candidate
+denial	否认	n.	六级	58	4743	fou ren	4143	v.	manual_reviewed_pos
+dependent	依赖的	adj.	四级	63	3201		0		not_a_pinyin_candidate
+deposition	免职	n.	六级	26	7312	mian zhi	818	v.	manual_reviewed_pos
+deprivation	剥夺	n.	六级	18	9193	bo duo	1379	v.	manual_reviewed_pos
+detach	使分离	v.	六级	58	10420		0		not_a_pinyin_candidate
+detection	察觉	n.	六级,四级	19	6216	cha jue	1261	v.	manual_reviewed_pos
+detection	探测	n.	六级,四级	19	6216	tan ce	2906	v.	manual_reviewed_pos
+deterioration	恶化	n.	六级	50	8990	e hua	1708	v.	manual_reviewed_pos
+deterioration	退化	n.	六级	50	8990	tui hua	1076	v.	manual_reviewed_pos
+developmental	发展的	adj.	四级	17	4588		0		not_a_pinyin_candidate
+devotion	热爱	n.	四级	27	6466	re ai	4485	v.	manual_reviewed_pos
+dioxide	二氧化物	n.	六级	62	5712		0		not_a_pinyin_candidate
+disappearance	失踪	n.	六级	18	6530	shi zong	4765	v.	manual_reviewed_pos
+disappearance	消失	n.	六级	18	6530	xiao shi	9091	v.	manual_reviewed_pos
+disapproval	不赞成	n.	六级	30	10369		0	v.	not_a_pinyin_candidate
+disgust	厌恶	n.	四级	63	7464	yan wu	1503	v.	manual_reviewed_pos
+disintegration	瓦解	n.	六级	10	12087	wa jie	746	v.	manual_reviewed_pos
+dismay	使气馁	v.	六级	62	9018		0		not_a_pinyin_candidate
+dismay	沮丧	n.	六级	62	9018	ju sang	989	adj.	manual_reviewed_pos
+displease	使不愉快	v.	四级	11	19965		0		not_a_pinyin_candidate
+disposal	丢掉	n.	六级,四级	59	5580	diu diao	1134	v.	base_pos_mismatch
+disposal	处理	n.	六级,四级	59	5580	chu li	22901	v.	manual_reviewed_pos
+disposal	布置	n.	六级,四级	59	5580	bu zhi	2959	v.	base_pos_mismatch
+disposal	排列	n.	六级,四级	59	5580	pai lie	2394	v.	base_pos_mismatch
+disposal	销毁	n.	六级,四级	59	5580	xiao hui	674	v.	manual_reviewed_pos
+disservice	伤害	n.	四级	11	15185	shang hai	14041	v.	manual_reviewed_pos
+distinctly	清楚地	adv.	六级	18	8031		0		not_a_pinyin_candidate
+distraction	分心	n.	四级	41	6171	fen xin	423	v.	manual_reviewed_pos
+distraction	娱乐	n.	四级	41	6171	yu le	18299	n.	manual_reviewed_alias
+diversion	转移	n.	六级	58	7508	zhuan yi	7813	v.	manual_reviewed_pos
+doctoral	博士的	adj.	四级	33	7920		0		not_a_pinyin_candidate
+doubtless	无疑地	adv.	六级,四级	47	12222		0		not_a_pinyin_candidate
+drainage	排水	n.	六级	58	7695	pai shui	975	v.	manual_reviewed_pos
+dramatically	引人注目地	adv.	四级	19	3364		0		not_a_pinyin_candidate
+drastically	激烈地	adv.	六级	18	8578		0		not_a_pinyin_candidate
+dutiful	尽职的	adj.	六级	10	19141		0		not_a_pinyin_candidate
+ecological	生态学的	adj.	六级	58	4396		0		not_a_pinyin_candidate
+electronics	电子学	n.	六级,四级	43	4863		0		not_a_pinyin_candidate
+elimination	消灭	n.	四级	27	7330	xiao mie	4282	v.	manual_reviewed_pos
+elimination	消除	n.	六级,四级	27	7330	xiao chu	2344	v.	manual_reviewed_pos
+else	别的	adj.	四级	25	440	bie de	23578	pron.	manual_reviewed_pos
+else	另外	adv.	四级	25	440	ling wai	27445	adv.	wordnet_lemma_pos_missing
+emergence	出现	n.	四级	29	5719	chu xian	56028	v.	manual_reviewed_pos
+emergence	发生	n.	四级	29	5719	fa sheng	52040	v.	manual_reviewed_pos
+empirical	经验主义的	adj.	六级	62	5285		0		not_a_pinyin_candidate
+empower	使能够	v.	四级	25	6207		0		not_a_pinyin_candidate
+enquiry	询问	n.	四级	41	24159	xun wen	2340	v.	manual_reviewed_reviewed
+equality	平等	n.	六级,四级	27	4590	ping deng	3458	adj.	manual_reviewed_reviewed
+equality	相等	n.	六级,四级	27	4590	xiang deng	1022	v.	manual_reviewed_pos
+erosion	侵蚀	n.	六级	58	5930	qin shi	1082	v.	manual_reviewed_pos
+erosion	腐蚀	n.	六级	58	5930	fu shi	707	v.	manual_reviewed_pos
+esthetic	审美的	adj.	六级	2	19901		0		not_a_pinyin_candidate
+ethnic	种族的	adj.	六级	62	1729		0		not_a_pinyin_candidate
+evolutionary	进化的	adj.	四级	27	5393		0		not_a_pinyin_candidate
+exaggeration	夸大之词	n.	六级	18	10878		0		not_a_pinyin_candidate
+exaggeration	夸张	n.	六级	18	10878	kua zhang	6476	adj.	manual_reviewed_pos
+exciting	令人兴奋的	adj.	四级	59	2926		0		not_a_pinyin_candidate
+exemplify	例示	v.	六级	58	7776		0		not_a_pinyin_candidate
+exertion	运用	n.	六级	18	12337	yun yong	4417	v.	base_pos_mismatch
+expectancy	期待	n.	六级	42	7655	qi dai	71265	v.	manual_reviewed_pos
+explicitly	明确地	adv.	四级	1	5222		0		not_a_pinyin_candidate
+exposure	揭露	n.	四级	63	2229	jie lu	1613	v.	manual_reviewed_pos
+exposure	暴露	n.	四级	63	2229	bao lu	7367	v.	manual_reviewed_pos
+extraction	抽出	n.	六级	26	10457	chou chu	379	v.	manual_reviewed_pos
+fearlessly	大胆地	adv.	六级	2	25729		0		not_a_pinyin_candidate
+fearlessly	无畏地	adv.	六级	2	25729		0		not_a_pinyin_candidate
+federal	联邦的	adj.	六级,四级	63	493		0		not_a_pinyin_candidate
+ferrous	亚铁的	adj.	六级	2	29567		0		not_a_pinyin_candidate
+ferrous	铁的	adj.	六级	2	29567		0	adj.	not_a_pinyin_candidate
+fertility	肥沃	n.	六级	18	6103	fei wo	281	adj.	manual_reviewed_pos
+finding	发现	n.	四级	47	1476	fa xian	140338	v.	manual_reviewed_pos
+finding	裁决	n.	四级	47	1476	cai jue	1166	v.	manual_reviewed_pos
+fireman	消防队员	n.	四级	15	9069		0		not_a_pinyin_candidate
+firmness	坚固	n.	六级	2	19226	jian gu	748	adj.	manual_reviewed_pos
+firmness	坚定	n.	六级	2	19226	jian ding	2972	adj.	manual_reviewed_pos
+fluently	流利地	adv.	六级	2	21840		0		not_a_pinyin_candidate
+fluorescent	荧光的	adj.	六级	26	9083		0		not_a_pinyin_candidate
+foremost	最初的	adj.	四级	59	6296		0		not_a_pinyin_candidate
+foremost	最重要的	adj.	六级	59	6296	zui zhong yao de	3936	adj.	manual_reviewed_alias
+forthcoming	即将来临的	adj.	六级	46	6748		0		not_a_pinyin_candidate
+fourfold	四倍	adv.	四级	9	23621	si bei	201	num.	manual_reviewed_pos
+fourfold	四倍的	adj.	四级	9	23621		0		not_a_pinyin_candidate
+fourfold	四重	adv.	四级	9	23621		0		not_a_pinyin_candidate
+fourfold	四重的	adj.	四级	9	23621		0		not_a_pinyin_candidate
+fringe	边缘	n.	六级	62	6029	bian yuan	3970	n.	manual_reviewed_alias
+fringe	附加的	adj.	六级	62	6029		0		not_a_pinyin_candidate
+gaseous	气体的	adj.	四级	31	18191		0		not_a_pinyin_candidate
+gaseous	气态的	adj.	四级	31	18191		0		not_a_pinyin_candidate
+generalization	一般化	n.	六级,四级	27	8708	yi ban hua	97	v.	manual_reviewed_pos
+generalization	概括	n.	六级	27	8708	gai kuo	841	v.	manual_reviewed_pos
+generosity	慷慨	n.	六级,四级	11	7952	kang kai	449	adj.	manual_reviewed_pos
+genetic	遗传的	adj.	六级	59	2721		0		not_a_pinyin_candidate
+geometrical	几何学的	adj.	六级	18	22692		0		not_a_pinyin_candidate
+glamor	魅力	n.	六级	34	9073	mei li	7429	n.	manual_reviewed_alias
+goodness	仁慈	n.	四级	11	5155	ren ci	486	adj.	manual_reviewed_pos
+goodness	善良	n.	六级,四级	11	5155	shan liang	13507	adj.	manual_reviewed_pos
+gradual	逐渐的	adj.	四级	59	6796		0		not_a_pinyin_candidate
+greeting	问候	n.	四级	11	6324	wen hou	3030	v.	manual_reviewed_pos
+grocer	食品商	n.	四级	11	14410		0		not_a_pinyin_candidate
+grocery	食品杂货店	n.	四级	63	3301		0		not_a_pinyin_candidate
+groundless	无根据的	adj.	六级	2	25353		0		not_a_pinyin_candidate
+groundless	无理由的	adj.	六级	2	25353		0		not_a_pinyin_candidate
+haircut	理发	n.	四级	27	8476	li fa	1060	v.	manual_reviewed_reviewed
+haste	急忙	n.	四级	63	13347	ji mang	350	adv.	manual_reviewed_pos
+heading	标题	n.	六级,四级	63	9765	biao ti	3914	n.	manual_reviewed_alias
+heave	起伏	n.	四级	63	9170	qi fu	1180	n.	wordnet_not_related_to_existing_gloss
+heave	起伏	v.	六级,四级	63	9170	qi fu	1180	n.	manual_reviewed_pos
+henceforth	今后	adv.	六级	58	17401	jin hou	1704	n.	manual_reviewed_pos
+heterogeneity	不同成分	n.	四级	1	16620		0		not_a_pinyin_candidate
+heterogeneity	异种	n.	四级	1	16620		0		not_a_pinyin_candidate
+heterogeneity	异质	n.	四级	1	16620	yi zhi	99	adj.	manual_reviewed_pos
+homely	家常的	adj.	六级	26	17381		0		not_a_pinyin_candidate
+honorary	荣誉的	adj.	六级	14	10265		0		not_a_pinyin_candidate
+huddle	挤作一团	v.	六级	58	7190		0		not_a_pinyin_candidate
+huddle	蜷缩	v.	六级	58	7190	quan suo	86	v.	manual_reviewed_alias
+humanitarian	博爱的	adj.	六级	30	5270		0		not_a_pinyin_candidate
+hurl	猛投	v.	六级	62	7332		0		not_a_pinyin_candidate
+ideally	理想地	adv.	六级	2	7858		0		not_a_pinyin_candidate
+ideological	意识形态的	adj.	六级	30	4216		0		not_a_pinyin_candidate
+idleness	懒惰	n.	六级	2	23589	lan duo	991	adj.	manual_reviewed_pos
+ignorance	无知	n.	六级,四级	63	5789	wu zhi	3088	adj.	manual_reviewed_pos
+imitation	模仿	n.	六级	58	7375	mo fang	4228	v.	manual_reviewed_pos
+imitation	赝品	n.	六级	58	7375	yan pin	75	n.	manual_reviewed_alias
+immigration	移民	n.	六级	62	2431	yi min	6528	n.	manual_reviewed_reviewed
+immune	不受影响的	adj.	六级	58	4200		0		not_a_pinyin_candidate
+immune	免疫的	adj.	六级	58	4200		0		not_a_pinyin_candidate
+immune	免除的	adj.	六级	58	4200		0		not_a_pinyin_candidate
+imperative	必要的事	n.	六级	62	8360		0		not_a_pinyin_candidate
+impermanency	非永久性	n.	四级	1	999999		0		not_a_pinyin_candidate
+impermanent	暂时的	adj.	四级	1	36170		0		not_a_pinyin_candidate
+impetus	推动力	n.	六级	58	9359		0		not_a_pinyin_candidate
+impress	印记	n.	四级	59	3055	yin ji	598	n.	wordnet_not_related_to_existing_gloss
+impress	特征	n.	四级	59	3055	te zheng	7688	n.	wordnet_not_related_to_existing_gloss
+impress	给人印象	v.	四级	59	3055		0		not_a_pinyin_candidate
+impulsive	冲动的	adj.	六级	26	13349		0		not_a_pinyin_candidate
+inaccessible	难接近的	adj.	六级	30	12956		0		not_a_pinyin_candidate
+incidence	入射	n.	六级	59	5847		0		not_a_pinyin_candidate
+incidence	发生率	n.	六级,四级	59	5847		0	n.	not_a_pinyin_candidate
+incidence	影响	n.	六级	59	5847	ying xiang	51654	n.	wordnet_not_related_to_existing_gloss
+inclusive	包括的	adj.	六级	62	8272		0		not_a_pinyin_candidate
+independently	独立地	adv.	四级	1	5654		0		not_a_pinyin_candidate
+indicative	指示的	adj.	六级	62	9866		0		not_a_pinyin_candidate
+indicative	象征的	adj.	六级	62	9866		0		not_a_pinyin_candidate
+infectious	有传染性的	adj.	六级	58	7091		0		not_a_pinyin_candidate
+inferiority	次等	n.	六级	18	15138	ci deng	17	adj.	manual_reviewed_pos
+inferiority	自卑	n.	六级	18	15138	zi bei	2792	adj.	manual_reviewed_pos
+infinitely	无限地	adv.	六级	2	10970		0		not_a_pinyin_candidate
+instinctively	本能地	adv.	六级	18	9224		0		not_a_pinyin_candidate
+instructional	教育的	adj.	六级	2	4324		0		not_a_pinyin_candidate
+intelligible	可理解的	adj.	六级	58	17337		0		not_a_pinyin_candidate
+intensely	强烈地	adv.	六级	18	7018		0		not_a_pinyin_candidate
+interference	干涉	n.	六级,四级	27	6409	gan she	1422	v.	manual_reviewed_reviewed
+interruption	中断	n.	四级	19	8994	zhong duan	2337	v.	manual_reviewed_pos
+interruption	打扰	n.	四级	19	8994	da rao	7224	v.	manual_reviewed_pos
+interruption	障碍物	n.	四级	19	8994	zhang ai wu	286	n.	wordnet_not_related_to_existing_gloss
+invariably	始终如一地	adv.	六级	55	7099		0		not_a_pinyin_candidate
+invasion	侵犯	n.	四级	63	3295	qin fan	1917	v.	manual_reviewed_pos
+invention	发明	n.	四级	27	4773	fa ming	3964	v.	manual_reviewed_pos
+inversely	相反地	adv.	六级	2	19930		0		not_a_pinyin_candidate
+irrationally	不合理地	adv.	四级	17	25487		0		not_a_pinyin_candidate
+irrationally	无理性地	adv.	四级	17	25487		0		not_a_pinyin_candidate
+irregularity	不规则	n.	六级	34	12549	bu gui ze	585	adj.	manual_reviewed_pos
+irrespective	不顾的	adj.	六级	42	14501		0		not_a_pinyin_candidate
+irreversible	不可逆的	adj.	六级	26	12545		0		not_a_pinyin_candidate
+irrigation	灌溉	n.	六级	58	6974	guan gai	857	v.	manual_reviewed_reviewed
+jean	牛仔裤	n.	六级	18	999999	niu zai ku	2159	n.	wordnet_not_related_to_existing_gloss
+jeopardize	危害	v.	六级	50	7976	wei hai	1833	n.	manual_reviewed_pos
+juvenile	不成熟的	adj.	六级	58	5261		0		not_a_pinyin_candidate
+juvenile	少年	n.	六级	58	5261	shao nian	20007	n.	manual_reviewed_alias
+juvenile	少年的	adj.	六级	58	5261		0		not_a_pinyin_candidate
+kilometre	公里	n.	四级	9	999999	gong li	47760	m.	manual_reviewed_pos
+kilometre	千米	n.	四级	9	999999	qian mi	42949	m.	manual_reviewed_pos
+kinetic	活动的	adj.	六级	18	15176		0		not_a_pinyin_candidate
+lap	一圈	n.	四级	63	3359	yi quan	7516	m.	manual_reviewed_pos
+lap	拍打	v.	四级	63	3359	pai da	244	v.	wordnet_not_related_to_existing_gloss
+lap	膝盖	n.	四级	63	3359	xi gai	4164	n.	wordnet_not_related_to_existing_gloss
+largely	大量地	adv.	四级	27	1679		0		not_a_pinyin_candidate
+latter	后者的	adj.	四级	31	2725		0		not_a_pinyin_candidate
+liberation	解放	n.	六级,四级	27	6230	jie fang	7719	v.	manual_reviewed_reviewed
+literacy	识字	n.	六级	62	5159	shi zi	5884	v.	manual_reviewed_pos
+literacy	读写能力	n.	六级	62	5159		0		not_a_pinyin_candidate
+literally	逐字地	adv.	六级	58	2469		0		not_a_pinyin_candidate
+litter	杂乱	n.	六级	62	8093	za luan	208	adj.	manual_reviewed_pos
+locality	位置	n.	六级	58	11068	wei zhi	24695	n.	manual_reviewed_alias
+lunar	月的	adj.	六级	63	6871		0	phr.	not_a_pinyin_candidate
+marginal	有旁注的	adj.	六级	58	6094		0		not_a_pinyin_candidate
+marginal	边缘的	adj.	六级	58	6094		0		not_a_pinyin_candidate
+marine	海的	adj.	四级	63	4916		0		not_a_pinyin_candidate
+marine	海运的	adj.	四级	63	4916		0		not_a_pinyin_candidate
+markedly	显著地	adv.	六级	18	9965		0		not_a_pinyin_candidate
+masculine	男性的	adj.	六级,四级	47	7215		0		not_a_pinyin_candidate
+mathematical	数学的	adj.	四级	15	6512		0		not_a_pinyin_candidate
+meantime	其时	n.	四级	63	4813	qi shi	695	adv.	manual_reviewed_pos
+memorial	记忆的	adj.	四级	27	4564		0	phr.	not_a_pinyin_candidate
+mere	仅仅的	adj.	六级,四级	63	2925		0		not_a_pinyin_candidate
+metabolic	新陈代谢的	adj.	六级	18	10967		0		not_a_pinyin_candidate
+metallic	金属的	adj.	六级	62	8513		0		not_a_pinyin_candidate
+metric	公制的	adj.	四级	63	10163		0		not_a_pinyin_candidate
+metropolitan	大都市的	adj.	六级	58	4293		0		not_a_pinyin_candidate
+midst	中间	n.	六级,四级	63	4342	zhong jian	12795	n.	manual_reviewed_alias
+migrant	候鸟	n.	六级	58	5190	hou niao	232	n.	wordnet_not_related_to_existing_gloss
+migrant	移居者	n.	六级	58	5190		0		not_a_pinyin_candidate
+milky	乳白色的	adj.	六级	26	7173		0		not_a_pinyin_candidate
+millimetre	毫米	n.	四级	15	999999	hao mi	14676	m.	manual_reviewed_reviewed
+misguided	被误导的	adj.	四级	37	9573		0		not_a_pinyin_candidate
+mitten	连指手套	n.	六级	10	16533		0		not_a_pinyin_candidate
+moderately	适度地	adv.	六级	18	8132		0		not_a_pinyin_candidate
+modernize	现代化	v.	六级	18	10368	xian dai hua	2101	n.	manual_reviewed_reviewed
+modesty	谦逊	n.	六级	14	11845	qian xun	313	adj.	manual_reviewed_pos
+modification	修改	n.	六级	50	5523	xiu gai	6567	v.	manual_reviewed_reviewed
+molecular	分子的	adj.	六级	18	6323		0		not_a_pinyin_candidate
+monetary	货币的	adj.	六级	62	5077		0		not_a_pinyin_candidate
+motel	汽车旅馆	n.	六级	47	5251		0		not_a_pinyin_candidate
+mysteriously	神秘地	adv.	六级	18	11871		0		not_a_pinyin_candidate
+naval	军舰的	adj.	四级	63	4941		0		not_a_pinyin_candidate
+naval	海军的	adj.	四级	63	4941		0		not_a_pinyin_candidate
+neighbourhood	四邻	n.	四级	11	25261	si lin	4	n.	wordnet_not_related_to_existing_gloss
+neighbourhood	邻居关系	n.	四级	11	25261		0		not_a_pinyin_candidate
+neighbourhood	邻近	n.	四级	11	25261	lin jin	3336	adj.	manual_reviewed_pos
+neighbouring	接壤的	adj.	六级	2	31857		0		not_a_pinyin_candidate
+neighbouring	邻近的	adj.	六级	2	31857		0	adj.	not_a_pinyin_candidate
+neutrality	中立	n.	六级	18	12204	zhong li	1945	adj.	manual_reviewed_reviewed
+newly	最近	adv.	四级	31	2791	zui jin	115938	n.	manual_reviewed_pos
+noticeable	显而易见的	adj.	四级	63	8488		0		not_a_pinyin_candidate
+notwithstanding	尽管	adv.	六级	26	10393	jin guan	14997	conj.	manual_reviewed_pos
+nuclear	核子的	adj.	四级	59	1176		0		not_a_pinyin_candidate
+nuisance	讨厌的东西	n.	四级	47	8738		0		not_a_pinyin_candidate
+nuisance	讨厌的人	n.	六级	47	8738		0	n.	not_a_pinyin_candidate
+obedience	服从	n.	六级	26	9926	fu cong	1203	v.	manual_reviewed_pos
+obedience	顺从	n.	六级	26	9926	shun cong	360	v.	manual_reviewed_pos
+occurrence	事件	n.	四级	59	6221	shi jian	35940	n.	manual_reviewed_alias
+occurrence	出现	n.	四级	59	6221	chu xian	56028	v.	manual_reviewed_pos
+occurrence	发生	n.	四级	59	6221	fa sheng	52040	v.	manual_reviewed_pos
+offence	冒犯	n.	六级	46	22003	mao fan	581	v.	manual_reviewed_pos
+offence	犯罪	n.	六级	46	22003	fan zui	6306	v.	manual_reviewed_pos
+offense	犯罪	n.	四级	3	2828	fan zui	6306	v.	manual_reviewed_pos
+optical	光学的	adj.	六级,四级	59	5497		0		not_a_pinyin_candidate
+optical	视觉的	adj.	六级,四级	59	5497		0		not_a_pinyin_candidate
+ornamental	装饰的	adj.	六级	50	12466		0		not_a_pinyin_candidate
+outbreak	爆发	n.	六级	62	5343	bao fa	13434	v.	manual_reviewed_pos
+outer	外部的	adj.	四级	11	3698		0		not_a_pinyin_candidate
+outer	外面的	adj.	四级	11	3698	wai mian de	2583		manual_reviewed_newkey
+outermost	最外面的	adj.	六级	18	21876		0		not_a_pinyin_candidate
+overhang	悬垂	v.	六级	18	16004	xuan chui	30	v.	manual_reviewed_alias
+owing	未付的	adj.	四级	13	12267		0		not_a_pinyin_candidate
+pacific	太平洋	n.	四级	59	26607	tai ping yang	9936	n.	wordnet_lemma_pos_missing
+panther	黑豹	n.	六级	10	14654	hei bao	403	n.	manual_reviewed_alias
+pantry	餐具室	n.	六级	2	10360		0		not_a_pinyin_candidate
+paralyse	使瘫痪	v.	六级	46	999999		0		not_a_pinyin_candidate
+paralyse	使麻痹	v.	六级	46	999999		0		not_a_pinyin_candidate
+paw	用爪子抓	v.	四级	3	8033		0		not_a_pinyin_candidate
+penetration	渗透	n.	六级	50	10864	shen tou	1036	v.	manual_reviewed_pos
+perfection	完美	n.	六级	30	6505	wan mei	17240	adj.	manual_reviewed_pos
+permissible	可允许的	adj.	六级	58	12774		0		not_a_pinyin_candidate
+perplex	使困惑	v.	六级	62	15354		0		not_a_pinyin_candidate
+perplex	使复杂化	v.	六级	62	15354		0		not_a_pinyin_candidate
+persuasion	信念	n.	六级	31	9532	xin nian	1606	n.	manual_reviewed_alias
+persuasion	说服	n.	六级	31	9532	shuo fu	3032	v.	manual_reviewed_pos
+pessimist	悲观主义者	n.	六级	14	18238		0		not_a_pinyin_candidate
+photoelectric	光电的	adj.	六级	2	31967		0		not_a_pinyin_candidate
+physiological	生理学的	adj.	六级	58	8058		0		not_a_pinyin_candidate
+polar	极性的	adj.	六级	62	6795		0		not_a_pinyin_candidate
+polar	正好相反的	adj.	六级	62	6795		0		not_a_pinyin_candidate
+postal	邮局的	adj.	六级	18	7070		0		not_a_pinyin_candidate
+postal	邮政的	adj.	六级	18	7070		0		not_a_pinyin_candidate
+postdoctoral	博士后的	adj.	六级	2	19126		0		not_a_pinyin_candidate
+potentially	潜在地	adv.	六级	18	2831		0		not_a_pinyin_candidate
+precaution	预防	n.	四级	63	7088	yu fang	2478	v.	manual_reviewed_pos
+preceding	前面的	adj.	四级	51	7079		0		not_a_pinyin_candidate
+preceding	在前的	adj.	四级	51	7079		0		not_a_pinyin_candidate
+predestine	注定	v.	六级	2	999999	zhu ding	3996	v.	manual_reviewed_alias
+predominant	占主导地位的	adj.	六级	58	11628		0		not_a_pinyin_candidate
+preferable	更可取的	adj.	六级,四级	63	10561		0		not_a_pinyin_candidate
+preferable	更合意的	adj.	六级,四级	63	10561		0		not_a_pinyin_candidate
+preferable	更好的	adj.	六级,四级	63	10561	geng hao de	2060	adj.	manual_reviewed_alias
+premature	不成熟的	adj.	六级	30	6883		0		not_a_pinyin_candidate
+prematurely	过早地	adv.	六级	2	11682		0		not_a_pinyin_candidate
+prescient	预知的	adj.	六级	10	18054		0		not_a_pinyin_candidate
+prescribe	开处方	v.	六级	59	5375		0		not_a_pinyin_candidate
+prescribe	指定	v.	四级	59	5375	zhi ding	10449	v.	wordnet_not_related_to_existing_gloss
+prescribe	规定	v.	四级	59	5375	gui ding	19719	n.	manual_reviewed_pos
+presentation	介绍	n.	六级,四级	59	2898	jie shao	27843	v.	manual_reviewed_pos
+preservation	保存	n.	六级,四级	27	5229	bao cun	7895	v.	manual_reviewed_pos
+prevalence	普遍	n.	六级	50	7455	pu bian	6855	adj.	manual_reviewed_pos
+prevalence	流行	n.	六级	50	7455	liu xing	13727	v.	manual_reviewed_reviewed
+preventable	可预防的	adj.	四级	1	16351		0		not_a_pinyin_candidate
+prior	在先的	adj.	四级	59	2856		0		not_a_pinyin_candidate
+privileged	有特权的	adj.	六级	2	6533		0		not_a_pinyin_candidate
+proceeding	事项	n.	六级	58	999999	shi xiang	1693	n.	manual_reviewed_alias
+proceeding	程序	n.	六级	58	999999	cheng xu	8044	n.	manual_reviewed_alias
+proceeding	行动	n.	六级	58	999999	xing dong	28344	n.	wordnet_not_related_to_existing_gloss
+procession	队伍	n.	四级	43	7639	dui wu	10117	n.	manual_reviewed_alias
+productive	多产的	adj.	六级	63	3966		0		not_a_pinyin_candidate
+proficiency	熟练	n.	六级	62	10195	shu lian	1102	adj.	base_pos_mismatch
+proficiency	精通	n.	六级	62	10195	jing tong	1196	v.	manual_reviewed_pos
+promptly	敏捷地	adv.	六级	18	6666		0		not_a_pinyin_candidate
+promptly	迅速地	adv.	六级	18	6666		0		not_a_pinyin_candidate
+propagation	繁殖	n.	六级	2	15569	fan zhi	1988	v.	manual_reviewed_pos
+proportional	比例的	adj.	四级	15	10513		0		not_a_pinyin_candidate
+proportional	相称的	adj.	四级	15	10513		0		not_a_pinyin_candidate
+propulsion	推进	n.	六级	50	10762	tui jin	4582	v.	manual_reviewed_pos
+propulsion	推进力	n.	六级	50	10762		0		not_a_pinyin_candidate
+prospective	预期的	adj.	六级	58	5420		0	adj.	not_a_pinyin_candidate
+protective	保护的	adj.	四级	31	4114		0		not_a_pinyin_candidate
+provocation	刺激	n.	四级	25	12608	ci ji	2191	v.	manual_reviewed_pos
+provocation	挑拨	n.	四级	25	12608	tiao bo	398	v.	manual_reviewed_pos
+provocation	激怒	n.	四级	25	12608	ji nu	622	v.	base_pos_mismatch
+provocative	刺激的	adj.	六级	26	7222		0		not_a_pinyin_candidate
+proximity	接近	n.	六级	58	6588	jie jin	9729	v.	manual_reviewed_pos
+publicity	名声	n.	四级	51	4540	ming sheng	1855	n.	wordnet_not_related_to_existing_gloss
+publicity	宣传	n.	六级,四级	51	4540	xuan chuan	17847	v.	manual_reviewed_reviewed
+qualitative	定性的	adj.	六级	58	7101		0		not_a_pinyin_candidate
+qualitative	性质的	adj.	六级	58	7101		0		not_a_pinyin_candidate
+qualitative	质的	adj.	六级	58	7101		0		not_a_pinyin_candidate
+quart	夸脱	n.	六级	15	999999		0		not_a_pinyin_candidate
+racial	人种的	adj.	六级,四级	27	2243		0		not_a_pinyin_candidate
+racial	种族的	adj.	六级,四级	27	2243		0		not_a_pinyin_candidate
+radically	完全地	adv.	四级	21	6520		0		not_a_pinyin_candidate
+radioactive	放射性的	adj.	六级,四级	27	7890		0		not_a_pinyin_candidate
+rapidity	迅速	n.	六级	18	23076	xun su	6574	adj.	manual_reviewed_pos
+rapture	欢天喜地	n.	六级	26	16318	huan tian xi di	193	phr.	manual_reviewed_pos
+rapture	狂喜	n.	六级	26	16318	kuang xi	121	v.	manual_reviewed_pos
+rating	等级	n.	六级	10	1819	deng ji	5181	n.	manual_reviewed_alias
+readily	乐意地	adv.	六级,四级	63	4013		0		not_a_pinyin_candidate
+readjust	再调整	v.	六级	18	17822		0		not_a_pinyin_candidate
+readjust	重新调整	v.	六级	18	17822		0		not_a_pinyin_candidate
+receptionist	接待员	n.	六级	58	10281		0		not_a_pinyin_candidate
+reconciliation	和解	n.	六级	26	5765	he jie	1513	v.	manual_reviewed_pos
+recreational	娱乐的	adj.	四级	49	5934		0		not_a_pinyin_candidate
+refinery	精炼厂	n.	六级	26	9383		0		not_a_pinyin_candidate
+reflective	反射的	adj.	六级	18	6862		0		not_a_pinyin_candidate
+reflective	反映的	adj.	六级	18	6862		0	phr.	not_a_pinyin_candidate
+refreshment	点心	n.	六级	63	14418	dian xin	2563	n.	manual_reviewed_alias
+refreshment	精神爽快	n.	六级	63	14418		0		not_a_pinyin_candidate
+refuge	庇护	n.	六级	31	4616	bi hu	1284	v.	manual_reviewed_pos
+refusal	拒绝	n.	六级,四级	43	5933	ju jue	25283	v.	manual_reviewed_reviewed
+regenerative	再生的	adj.	六级	2	22864		0		not_a_pinyin_candidate
+registration	注册	n.	六级	46	5378	zhu ce	5268	v.	manual_reviewed_pos
+registration	登记	n.	六级	46	5378	deng ji	4029	v.	manual_reviewed_pos
+rejection	拒绝	n.	六级	30	5003	ju jue	25283	v.	manual_reviewed_reviewed
+reluctance	不情愿	n.	六级	26	6979		0	adj.	not_a_pinyin_candidate
+reluctance	勉强	n.	六级	26	6979	mian qiang	5076	v.	base_pos_mismatch
+removal	移动	n.	四级	63	4711	yi dong	11333	v.	manual_reviewed_pos
+removal	迁移	n.	四级	63	4711	qian yi	2720	v.	manual_reviewed_pos
+repave	再铺	v.	四级	1	999999		0		not_a_pinyin_candidate
+repave	重新铺砌	v.	四级	1	999999		0		not_a_pinyin_candidate
+repetition	重复	n.	四级	63	5821	chong fu	5312	v.	manual_reviewed_pos
+repression	压抑	n.	六级	26	7683	ya yi	2584	adj.	manual_reviewed_pos
+reproductive	再生的	adj.	四级	17	5864		0		not_a_pinyin_candidate
+reproductive	生殖的	adj.	四级	17	5864		0		not_a_pinyin_candidate
+reservation	保留	n.	六级,四级	59	3046	bao liu	9137	v.	manual_reviewed_pos
+reservation	保留地	n.	四级	59	3046		0		not_a_pinyin_candidate
+reservation	预定	n.	六级,四级	59	3046	yu ding	4715	v.	manual_reviewed_reviewed
+residential	住宅的	adj.	六级	58	3828		0		not_a_pinyin_candidate
+resistant	反抗的	adj.	四级	63	6664		0		not_a_pinyin_candidate
+resistant	抵抗的	adj.	六级,四级	63	6664		0		not_a_pinyin_candidate
+respondent	被告	n.	四级	57	2538	bei gao	5366	n.	manual_reviewed_alias
+restraint	克制	n.	六级,四级	27	5419	ke zhi	2767	v.	manual_reviewed_pos
+restraint	抑制	n.	六级,四级	27	5419	yi zhi	2018	v.	manual_reviewed_pos
+retrain	再训练	v.	四级	17	15253		0		not_a_pinyin_candidate
+rhetorical	修辞的	adj.	六级	26	7493		0		not_a_pinyin_candidate
+rid	使摆脱	v.	四级	27	3041		0		not_a_pinyin_candidate
+rigor	严格	n.	六级	18	9829	yan ge	5213	adj.	manual_reviewed_reviewed
+rivalry	对抗	n.	六级	26	6597	dui kang	5088	v.	manual_reviewed_pos
+rivalry	竞争	n.	六级	26	6597	jing zheng	6249	v.	manual_reviewed_pos
+rotation	循环	n.	四级	19	5230	xun huan	6619	n.	manual_reviewed_alias
+rotation	旋转	n.	四级	19	5230	xuan zhuan	3114	v.	manual_reviewed_pos
+rural	田园的	adj.	四级	63	2006		0		not_a_pinyin_candidate
+salvation	拯救	n.	六级	14	5519	zheng jiu	6685	v.	manual_reviewed_pos
+saturation	浸透	n.	六级	18	13581	jin tou	42	v.	manual_reviewed_pos
+saucer	茶托	n.	四级	27	10769		0		not_a_pinyin_candidate
+saving	存款	n.	四级	51	2193	cun kuan	489	n.	wordnet_not_related_to_existing_gloss
+saving	节约	n.	四级	51	2193	jie yue	1513	v.	manual_reviewed_pos
+scarcity	不足	n.	六级	26	9799	bu zu	8087	n.	manual_reviewed_alias
+scarcity	缺乏	n.	六级	26	9799	que fa	6458	v.	manual_reviewed_reviewed
+segregate	使隔离	v.	六级	58	12370		0		not_a_pinyin_candidate
+segregation	隔离	n.	六级	10	7337	ge li	7366	v.	manual_reviewed_reviewed
+serial	连续的	adj.	六级	42	6852		0		not_a_pinyin_candidate
+sermon	布道	n.	六级	30	6599	bu dao	319	v.	manual_reviewed_pos
+sermon	说教	n.	六级	30	6599	shuo jiao	297	v.	manual_reviewed_pos
+sexual	性别的	adj.	四级	11	1006		0		not_a_pinyin_candidate
+sexual	性的	adj.	四级	11	1006		0		not_a_pinyin_candidate
+sharply	严厉地	adv.	六级	19	3908		0		not_a_pinyin_candidate
+shipment	装船	n.	六级	62	6962		0		not_a_pinyin_candidate
+skeptical	怀疑的	adj.	六级	30	4963		0		not_a_pinyin_candidate
+skyrocket	突升	v.	四级	31	12421		0		not_a_pinyin_candidate
+slam	猛烈抨击	v.	四级	63	3458		0		not_a_pinyin_candidate
+slam	砰地关上	v.	四级	63	3458		0		not_a_pinyin_candidate
+socialist	社会主义者	n.	四级	11	5591		0		not_a_pinyin_candidate
+softness	柔和	n.	六级	18	13851	rou he	485	adj.	manual_reviewed_pos
+solar	太阳的	adj.	四级	63	2744		0		not_a_pinyin_candidate
+solar	日光的	adj.	四级	63	2744		0		not_a_pinyin_candidate
+solicitor	初级律师	n.	六级	59	17384		0		not_a_pinyin_candidate
+solidarity	团结	n.	六级	62	6213	tuan jie	3853	v.	manual_reviewed_pos
+solidarity	团结一致	n.	六级	62	6213		0		not_a_pinyin_candidate
+spatial	空间的	adj.	六级	58	5869		0		not_a_pinyin_candidate
+specifically	明确地	adv.	四级	23	1958		0		not_a_pinyin_candidate
+specifically	特定地	adv.	四级	23	1958		0		not_a_pinyin_candidate
+spelling	拼字	n.	四级	11	7907		0		not_a_pinyin_candidate
+spelling	拼法	n.	四级	11	7907		0		not_a_pinyin_candidate
+squalor	肮脏	n.	六级	10	19882	ang zang	598	adj.	manual_reviewed_pos
+stainless	不锈的	adj.	六级	46	8262		0		not_a_pinyin_candidate
+stocking	长袜	n.	四级	31	8355		0		not_a_pinyin_candidate
+subscript	下标	n.	六级	2	36740		0		not_a_pinyin_candidate
+subsequent	后来的	adj.	六级,四级	59	3267		0		not_a_pinyin_candidate
+suburban	郊区的	adj.	六级	26	3472		0		not_a_pinyin_candidate
+succeeding	以后的	adj.	四级	1	14913	yi hou de	4301		manual_reviewed_newkey
+succeeding	随后的	adj.	四级	1	14913		0		not_a_pinyin_candidate
+successive	连续的	adj.	六级,四级	63	8065		0		not_a_pinyin_candidate
+superintendent	主管人	n.	六级	26	5496		0		not_a_pinyin_candidate
+susceptible	易受影响的	adj.	六级	58	7030		0		not_a_pinyin_candidate
+sympathetic	合意的	adj.	六级,四级	59	5209		0		not_a_pinyin_candidate
+systematical	有系统的	adj.	四级	1	999999		0		not_a_pinyin_candidate
+tack	大头钉	n.	六级	2	10013		0		not_a_pinyin_candidate
+tack	平头钉	n.	六级	2	10013		0		not_a_pinyin_candidate
+tack	附加	v.	六级	2	10013	fu jia	2213	v.	wordnet_not_related_to_existing_gloss
+takeoff	起飞	n.	四级	1	10467	qi fei	4008	v.	manual_reviewed_reviewed
+tangled	纠缠的	adj.	六级	2	9476		0		not_a_pinyin_candidate
+telecommunications	电信	n.	六级	14	6038	dian xin	3614	n.	wordnet_lemma_pos_missing
+tensile	张力的	adj.	六级	58	24946		0		not_a_pinyin_candidate
+theft	失窃	n.	六级	58	5367	shi qie	125	v.	manual_reviewed_pos
+theft	盗窃	n.	六级	58	5367	dao qie	1246	v.	manual_reviewed_pos
+thereof	由此	adv.	六级	14	12522	you ci	4954	adv.	wordnet_not_related_to_existing_gloss
+thoughtless	欠考虑的	adj.	六级	26	20001		0		not_a_pinyin_candidate
+thrill	激动	n.	六级	43	5858	ji dong	18491	adj.	manual_reviewed_pos
+tract	小册子	n.	六级	58	6133	xiao ce zi	375	n.	manual_reviewed_alias
+tradeoff	权衡	n.	六级	2	999999	quan heng	459	v.	manual_reviewed_pos
+transverse	横的	adj.	六级	2	20982		0		not_a_pinyin_candidate
+ultrasonic	超声波	n.	六级	26	21711	chao sheng bo	108	n.	wordnet_lemma_pos_missing
+unaffordable	买不起的	adj.	四级	1	28352		0		not_a_pinyin_candidate
+unaffordable	负担不起的	adj.	四级	1	28352		0		not_a_pinyin_candidate
+underfunded	资金不足的	adj.	六级	2	17735		0		not_a_pinyin_candidate
+underlying	在下面的	adj.	六级	50	4265		0		not_a_pinyin_candidate
+undertaking	事业	n.	六级	23	9442	shi ye	10993	n.	manual_reviewed_alias
+unethical	不道德的	adj.	六级	14	12724		0		not_a_pinyin_candidate
+upper	上面的	adj.	四级	59	1955		0		not_a_pinyin_candidate
+utilization	利用	n.	六级	18	9879	li yong	15996	v.	manual_reviewed_reviewed
+vengeance	复仇	n.	六级	42	8569	fu chou	3164	v.	manual_reviewed_pos
+vengeance	报仇	n.	六级	42	8569	bao chou	1229	v.	manual_reviewed_pos
+verge	接近	v.	六级	62	6637	jie jin	9729	v.	manual_reviewed_alias
+verge	边界	n.	六级	62	6637	bian jie	8113	n.	manual_reviewed_alias
+verge	边缘	n.	六级	62	6637	bian yuan	3970	n.	wordnet_not_related_to_existing_gloss
+victimize	使受害	v.	四级	25	10690		0		not_a_pinyin_candidate
+victimize	使牺牲	v.	四级	25	10690		0		not_a_pinyin_candidate
+violation	妨碍	n.	六级	26	2870	fang ai	1284	v.	base_pos_mismatch
+violation	违反	n.	六级	26	2870	wei fan	5248	v.	manual_reviewed_reviewed
+visceral	内脏的	adj.	六级	2	13473		0		not_a_pinyin_candidate
+visible	看得见的	adj.	四级	63	2304		0		not_a_pinyin_candidate
+vocal	嗓音的	adj.	六级	26	4488		0		not_a_pinyin_candidate
+vocational	职业的	adj.	六级	50	8293		0		not_a_pinyin_candidate
+waggon	四轮运货马车	n.	四级	35	999999		0		not_a_pinyin_candidate
+wagon	四轮马车	n.	四级	61	4194		0		not_a_pinyin_candidate
+wasteful	浪费的	adj.	六级	18	12903		0		not_a_pinyin_candidate
+watchful	注意的	adj.	六级	2	12369		0		not_a_pinyin_candidate
+wishful	一厢情愿的	adj.	六级	2	14083		0		not_a_pinyin_candidate
+woe	悲哀	n.	六级	10	8122	bei ai	2138	adj.	manual_reviewed_pos
+woe	悲痛	n.	六级	10	8122	bei tong	617	adj.	manual_reviewed_pos
