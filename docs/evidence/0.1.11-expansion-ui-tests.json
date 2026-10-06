@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "new CET6 household is visible as first translation",
+    "long press commits actual new prioritized household",
+    "clearing goals retains original first sense",
+    "original secondary abandon remains available in details",
+    "new third-or-later word is reached by vertical detail scrolling",
+    "detail button inserts the exact new word after scrolling",
+    "normal candidate tap still commits Chinese"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "source": {
+    "repo": "skywind3000/ECDICT",
+    "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+    "path": "ecdict.csv",
+    "bytes": 65933428,
+    "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b/ecdict.csv"
+  },
+  "source_license": "MIT; vocabulary/data/ECDICT-LICENSE",
+  "wordnet_validation": {
+    "url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/wordnet.zip",
+    "commit": "550b6625bcef1f2abff2ff770a5a0d272c9c6b2a",
+    "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+    "bytes": 10775600,
+    "license": "WordNet 3.0; WordNet-LICENSE",
+    "use": "Build-only spelling and synonym validation; no definitions shipped"
+  },
+  "packed_glossary_sha256": "4cc9c587b206d0f12aabb1b85cb21e6ac2a1c8c4932b9af14332bd96e0be012a",
+  "baseline_export_sha256": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+  "reviewed_pairs_sha256": "b641735a557342d99f665f37af12155009f6fceed4dae2699acdef486230ccf7",
+  "baseline_chinese_entries": 232213,
+  "chinese_entries_extended": 1307,
+  "added_translation_pairs": 1595,
+  "added_headwords": 1539,
+  "headwords_not_anywhere_in_original_glossary": 615,
+  "bytes": 42147,
+  "sha256": "a066f4daf78372fd3aac9eda2c83167aa8d00429ef85fc6348524d319aa7c7f4",
+  "by_target": {
+    "cet4": 587,
+    "cet6": 671,
+    "tem4": 509,
+    "tem8": 1299,
+    "toefl": 1157,
+    "ielts": 742
+  },
+  "reviewed_pairs_shipped": 28,
+  "rules": "First atomic Chinese gloss per POS; exact existing Chinese key; compatible POS; automatic additions must share WordNet synsets or adjective similar-to links with original senses. Reviewed mappings bypass synonym restriction. Adjective 的 may be removed only to match existing key; retain originals; deduplicate English headwords; maximum 8 additions per key; no examples, phrases, substring or stemming.",
+  "rejected": {
+    "already_in_packed_glossary": 4412,
+    "non_atomic_gloss": 2203,
+    "incompatible_pos": 4478,
+    "no_wordnet_synonym_relation": 3635,
+    "no_exact_base_key": 7843,
+    "reviewed_rejection": 1,
+    "nonword": 1,
+    "no_exam_membership": 1
+  },
+  "quality_scope": "Community bilingual meanings, conservatively filtered, not all manually reviewed; ambiguous meanings can be corrected in reviewed mappings."
+}

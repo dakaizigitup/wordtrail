@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "batch01 分析 detail exposes analysis",
+    "batch01 exact InputConnection commit analysis",
+    "batch01 发展 detail exposes development",
+    "batch01 exact InputConnection commit development",
+    "batch01 自由 detail exposes freedom",
+    "batch01 exact InputConnection commit freedom",
+    "batch01 缺席 detail exposes absence",
+    "batch01 exact InputConnection commit absence",
+    "clear goals keeps original analyze first",
+    "batch01 normal candidate still commits Chinese"
+  ]
+}

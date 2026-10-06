@@ -61,8 +61,8 @@ try:
     session=91821
     check('protocol 7 opens a session', 'SessionOpened' in send('OpenSession',dict(session=session,app='wordtrail-ipa-test.exe',protocol=7)))
     send('Privacy',dict(session=session,private=True),False)
-    def key(char,ctrl=False,alt=False):
-        return send('Key',dict(session=session,event=dict(virtual_key=ord(char.upper()),character=char,modifiers=dict(ctrl=ctrl,shift=False,alt=alt,win=False,caps=False,english_mode=False))))['KeyResult']
+    def key(char,ctrl=False,alt=False,shift=False):
+        return send('Key',dict(session=session,event=dict(virtual_key=ord(char.upper()),character=char,modifiers=dict(ctrl=ctrl,shift=shift,alt=alt,win=False,caps=False,english_mode=False))))['KeyResult']
     for char in 'nihao':result=key(char)
     check('real dictionary produces Chinese candidate','你好' in json.dumps(result,ensure_ascii=False))
     send('PositionCandidates',dict(session=session,rect=dict(left=180,top=160,right=182,bottom=182)),False)
@@ -91,7 +91,7 @@ try:
         if time.monotonic()>deadline:raise TimeoutError('Candidate window did not appear')
         time.sleep(.2)
     time.sleep(1)
-    screenshot=ROOT/'docs/screenshots/desktop-ipa.png'
+    screenshot=ROOT/'docs/screenshots/desktop-0.1.4-default.png'
     ImageGrab.grab(bbox=bounds).save(screenshot)
     check('native candidate window renders',screenshot.stat().st_size>1000)
     result=key('1',ctrl=True)
@@ -109,7 +109,7 @@ try:
     check('real IPC frame prioritizes TEM4 darling while retaining baby',[s['text'] for s in baby['translation']['senses']]==['darling','baby'])
     send('PositionCandidates',dict(session=session,rect=dict(left=180,top=160,right=182,bottom=182)),False)
     time.sleep(.4)
-    if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.2-vocabulary.png')
+    if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.4-vocabulary.png')
     result=key(str(updated.index(baby)+1),ctrl=True)
     check('Ctrl digit inserts prioritized translation matching displayed frame',result['commit']=='darling')
     vocabulary.write_text('{"targets":[]}',encoding='utf-8');time.sleep(1.2)
@@ -131,7 +131,7 @@ try:
     current=next(c for c in result['frame']['candidates']['items'] if c['text']=='放弃')
     expected=current['translation']['senses'][0]['text']
     send('PositionCandidates',dict(session=session,rect=dict(left=180,top=160,right=182,bottom=182)),False);time.sleep(.4)
-    if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.3-expansion.png')
+    if (box:=window()):ImageGrab.grab(bbox=box).save(ROOT/'docs/screenshots/desktop-0.1.4-expansion.png')
     check('Ctrl digit commits the currently browsed new word',key(slot,ctrl=True)['commit']==expected)
     vocabulary.write_text('{"targets":["cet6"]}',encoding='utf-8');time.sleep(1.2)
     send('Poll',dict(session=session))
@@ -140,6 +140,21 @@ try:
     check('new CET6 household is prioritized before original family',[s['text'] for s in family['translation']['senses']]==['household','family'])
     check('new prioritized word commits through real IPC',key(str(result['frame']['candidates']['items'].index(family)+1),ctrl=True)['commit']=='household')
     vocabulary.write_text('{"targets":[]}',encoding='utf-8')
+    for pinyin,chinese,english in [('fenxi','分析','analysis'),('fazhan','发展','development'),('ziyou','自由','freedom'),('quexi','缺席','absence')]:
+        for char in pinyin:result=key(char)
+        items=result['frame']['candidates']['items']
+        c=next(c for c in items if c['text']==chinese)
+        words=[s['text'] for s in c['translation']['senses']]
+        check('batch01 real IPC '+chinese+' retains original and adds '+english,english in words and len(words)>1)
+        before=[c['text'] for c in items];slot=str(items.index(c)+1)
+        for _ in range(len(words)+1):
+            c=next(c for c in items if c['text']==chinese)
+            shown=[s['text'] for s in c['translation']['senses'][:2]]
+            if english in shown:break
+            result=key(slot,ctrl=True,alt=True);items=result['frame']['candidates']['items']
+            assert [c['text'] for c in items]==before
+        assert english in shown,'Added word not reachable in browsed display'
+        check('batch01 current displayed '+english+' commits exactly',key(slot,ctrl=True,shift=shown.index(english)==1)['commit']==english)
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     pipe.close()

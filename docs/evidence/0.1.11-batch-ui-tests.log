@@ -1,0 +1,10 @@
+PASS: batch01 分析 detail exposes analysis
+PASS: batch01 exact InputConnection commit analysis
+PASS: batch01 发展 detail exposes development
+PASS: batch01 exact InputConnection commit development
+PASS: batch01 自由 detail exposes freedom
+PASS: batch01 exact InputConnection commit freedom
+PASS: batch01 缺席 detail exposes absence
+PASS: batch01 exact InputConnection commit absence
+PASS: clear goals keeps original analyze first
+PASS: batch01 normal candidate still commits Chinese

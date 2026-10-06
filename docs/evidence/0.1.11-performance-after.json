@@ -1,0 +1,211 @@
+{
+  "label": "after",
+  "initialization_ms": 194.595,
+  "results": [
+    {
+      "pinyin": "fangqi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.8773,
+      "p95_ms": 2.6256,
+      "p99_ms": 3.6462
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.92275,
+      "p95_ms": 2.8176,
+      "p99_ms": 3.0662
+    },
+    {
+      "pinyin": "fangqi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.81705,
+      "p95_ms": 2.6715,
+      "p99_ms": 3.1263
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.2950499999999998,
+      "p95_ms": 2.1879,
+      "p99_ms": 2.5475
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.2072,
+      "p95_ms": 1.4169,
+      "p99_ms": 1.6168
+    },
+    {
+      "pinyin": "fenxi",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.221,
+      "p95_ms": 1.5822,
+      "p99_ms": 1.8508
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.9806,
+      "p95_ms": 1.2226,
+      "p99_ms": 1.5609
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 0.9946999999999999,
+      "p95_ms": 1.2434,
+      "p99_ms": 1.7722
+    },
+    {
+      "pinyin": "fazhan",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 0.99695,
+      "p95_ms": 1.3036,
+      "p99_ms": 1.7057
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 0.5973999999999999,
+      "p95_ms": 1.0928,
+      "p99_ms": 1.6097
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 0.6333,
+      "p95_ms": 0.9624,
+      "p99_ms": 1.2032
+    },
+    {
+      "pinyin": "ziyou",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 0.5966,
+      "p95_ms": 0.8019,
+      "p99_ms": 1.1418
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.1015000000000001,
+      "p95_ms": 1.3525,
+      "p99_ms": 1.6877
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.0666,
+      "p95_ms": 1.5752,
+      "p99_ms": 1.9871
+    },
+    {
+      "pinyin": "huanjie",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.06405,
+      "p95_ms": 1.2546,
+      "p99_ms": 2.1074
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [],
+      "samples": 180,
+      "p50_ms": 1.681,
+      "p95_ms": 2.194,
+      "p99_ms": 2.3927
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6"
+      ],
+      "samples": 180,
+      "p50_ms": 1.7249,
+      "p95_ms": 2.3727,
+      "p99_ms": 2.926
+    },
+    {
+      "pinyin": "gongzuo",
+      "goals": [
+        "cet4",
+        "cet6",
+        "tem4",
+        "tem8",
+        "toefl",
+        "ielts"
+      ],
+      "samples": 180,
+      "p50_ms": 1.67235,
+      "p95_ms": 2.1678,
+      "p99_ms": 2.5385
+    }
+  ],
+  "scope": "Same Windows host debug C ABI, packed dictionary + translations + tags + IPA + JSON decode. Warm state queries; not key-to-screen or physical Android latency. Initialization includes dictionary/session load, one cold process sample."
+}

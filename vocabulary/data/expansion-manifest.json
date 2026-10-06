@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "source": {
     "repo": "skywind3000/ECDICT",
     "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -19,33 +19,138 @@
   },
   "packed_glossary_sha256": "4cc9c587b206d0f12aabb1b85cb21e6ac2a1c8c4932b9af14332bd96e0be012a",
   "baseline_export_sha256": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
-  "reviewed_pairs_sha256": "b641735a557342d99f665f37af12155009f6fceed4dae2699acdef486230ccf7",
+  "reviewed_pairs_sha256": "a33b1221f54434beb9cb6da672f5f263ca123eeed08c9a73a19fa94b57b026a9",
   "baseline_chinese_entries": 232213,
-  "chinese_entries_extended": 1307,
-  "added_translation_pairs": 1595,
-  "added_headwords": 1539,
-  "headwords_not_anywhere_in_original_glossary": 615,
-  "bytes": 42147,
-  "sha256": "a066f4daf78372fd3aac9eda2c83167aa8d00429ef85fc6348524d319aa7c7f4",
+  "chinese_entries_extended": 2647,
+  "added_translation_pairs": 3628,
+  "added_headwords": 2796,
+  "headwords_not_anywhere_in_original_glossary": 924,
+  "bytes": 96859,
+  "sha256": "8ce49a7d511601d1ac337c689541b95b7bbce08c013ea0bc0e859be5337955c4",
   "by_target": {
-    "cet4": 587,
-    "cet6": 671,
-    "tem4": 509,
-    "tem8": 1299,
-    "toefl": 1157,
-    "ielts": 742
+    "cet4": 2186,
+    "cet6": 2350,
+    "tem4": 1407,
+    "tem8": 3245,
+    "toefl": 2850,
+    "ielts": 2145
   },
-  "reviewed_pairs_shipped": 28,
-  "rules": "First atomic Chinese gloss per POS; exact existing Chinese key; compatible POS; automatic additions must share WordNet synsets or adjective similar-to links with original senses. Reviewed mappings bypass synonym restriction. Adjective 的 may be removed only to match existing key; retain originals; deduplicate English headwords; maximum 8 additions per key; no examples, phrases, substring or stemming.",
+  "reviewed_pairs_shipped": 251,
+  "rules": "Retain all batch00 pairs/order; batch01 scans all complete 2-6 CJK glosses per POS for CET4/CET6 only, exact Chinese key, compatible POS and WordNet synonym relation. Reviewed pairs explicitly allow Chinese noun/verb/adjective senses missing in the baseline. No substrings/parenthesis stripping/stemming; at most 8 additions per Chinese key.",
   "rejected": {
-    "already_in_packed_glossary": 4412,
-    "non_atomic_gloss": 2203,
-    "incompatible_pos": 4478,
-    "no_wordnet_synonym_relation": 3635,
-    "no_exact_base_key": 7843,
-    "reviewed_rejection": 1,
-    "nonword": 1,
-    "no_exam_membership": 1
+    "already_mapped_for_key": 7218,
+    "no_existing_chinese_key": 7903,
+    "synonym_needs_review": 7986,
+    "pos_needs_review": 5195,
+    "known_ambiguous_pair": 1,
+    "invalid_headword_or_pos": 1,
+    "per_key_capacity": 9
   },
-  "quality_scope": "Community bilingual meanings, conservatively filtered, not all manually reviewed; ambiguous meanings can be corrected in reviewed mappings."
+  "quality_scope": "Community bilingual meanings, conservatively filtered, not all manually reviewed; ambiguous meanings can be corrected in reviewed mappings.",
+  "batch": "01-cet4-cet6",
+  "seed": {
+    "path": "batches/00-expansion.tsv",
+    "sha256": "a066f4daf78372fd3aac9eda2c83167aa8d00429ef85fc6348524d319aa7c7f4"
+  },
+  "batch01": {
+    "added_pairs": 2033,
+    "involved_headwords": 1539,
+    "newly_mapped_headwords": 309,
+    "entirely_new_headwords": 309,
+    "added_mapping_headwords_absent_from_original": 357,
+    "reviewed_pairs": 223,
+    "reviewed_input_sha256": "a33b1221f54434beb9cb6da672f5f263ca123eeed08c9a73a19fa94b57b026a9",
+    "additions_sha256": "688caa2b868bd03759e52c9aa2c43ec2a3988c473164158b783d2ce528d1ea35",
+    "manual_rejected": []
+  },
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4488,
+      "missing": 511,
+      "percent": 89.78,
+      "mapped_with_ipa": 4482
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5038,
+      "missing": 998,
+      "percent": 83.47,
+      "mapped_with_ipa": 5030
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3524,
+      "missing": 816,
+      "percent": 81.2,
+      "mapped_with_ipa": 3520
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9060,
+      "missing": 3350,
+      "percent": 73.01,
+      "mapped_with_ipa": 9046
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8121,
+      "missing": 4092,
+      "percent": 66.49,
+      "mapped_with_ipa": 8062
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5057,
+      "missing": 1500,
+      "percent": 77.12,
+      "mapped_with_ipa": 5036
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4660,
+      "missing": 339,
+      "percent": 93.22,
+      "mapped_with_ipa": 4652
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5326,
+      "missing": 710,
+      "percent": 88.24,
+      "mapped_with_ipa": 5316
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3647,
+      "missing": 693,
+      "percent": 84.03,
+      "mapped_with_ipa": 3643
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9334,
+      "missing": 3076,
+      "percent": 75.21,
+      "mapped_with_ipa": 9320
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8366,
+      "missing": 3847,
+      "percent": 68.5,
+      "mapped_with_ipa": 8307
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5247,
+      "missing": 1310,
+      "percent": 80.02,
+      "mapped_with_ipa": 5225
+    }
+  },
+  "coverage_scope": "Distinct exact English headwords in fixed community exam lists with at least one Chinese glossary mapping. Not a claim that every mapped Chinese key is reachable in current pinyin candidates. IPA means at least one existing pronunciation resource.",
+  "pending_distinct_cet_headwords": 829
 }

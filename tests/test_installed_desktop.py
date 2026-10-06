@@ -1,9 +1,11 @@
 """Read-only binary/data checks and an empty IPC session against the installed server."""
 from pathlib import Path
-import hashlib,json,struct
+import argparse,hashlib,json,struct
 
 ROOT=Path(__file__).resolve().parents[1]
-PATCH=Path('D:/soft/英语输入法/电脑版音标补丁')
+parser=argparse.ArgumentParser()
+parser.add_argument('--patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版四六级补词补丁'))
+PATCH=parser.parse_args().patch_dir
 INSTALL=Path('C:/Program Files/Qingjian')
 manifest=json.loads((PATCH/'SHA256.json').read_text(encoding='utf-8-sig'))
 checks=[]

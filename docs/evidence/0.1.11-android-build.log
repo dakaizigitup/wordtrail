@@ -1,0 +1,146 @@
+Prepared Wordtrail upstream compatibility patch
+{
+  "upstream_version": "0.1.4",
+  "source": "qingjian v0.1.4 pinned official data (verified per-file SHA-256)",
+  "files": {
+    "dict.qj": {
+      "bytes": 3538648,
+      "sha256": "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc"
+    },
+    "glossary-en.qj": {
+      "bytes": 15565368,
+      "sha256": "4cc9c587b206d0f12aabb1b85cb21e6ac2a1c8c4932b9af14332bd96e0be012a"
+    },
+    "glossary-ja.qj": {
+      "bytes": 21824776,
+      "sha256": "ec41e4983bf46c0366124afb5285dba14f5c1ee425bd55d9a9f5518d93256933"
+    },
+    "glossary-es.qj": {
+      "bytes": 13194160,
+      "sha256": "13f5fbda3f1295c5946ddde5e57017f0689f2dd985a951c5bffaf821cb421865"
+    },
+    "pronunciation-en.qj": {
+      "bytes": 12208376,
+      "sha256": "54e2c878989d5e509d4e5683c86fba83722a8d2d64429f0adaa5cea9d6a9323b",
+      "source": "independent IPA dictionary; see pronunciation-manifest.json"
+    }
+  },
+  "vocabulary_levels": {
+    "scheme": "CEFR A1-C2",
+    "entries": 8845,
+    "sha256": "a5f810f7f8788d6c7b6ed11fd849ae0d31f6a5d9d953ab9528798d9b11d27ffa",
+    "embedded_in": "native engine",
+    "source": "CEFR-J 1.5 / Octanove C1-C2 1.0; vendor/qingjian/assets/levels/README.md"
+  }
+}
+Offline speech: pinned SenseVoice int8 model + sherpa-onnx 1.13.8 prepared.
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.26
+   Compiling quote v1.0.47
+   Compiling fst v0.4.7
+   Compiling anyhow v1.0.104
+   Compiling fastrand v2.5.0
+   Compiling siphasher v1.0.4
+   Compiling simdutf8 v0.1.5
+   Compiling getrandom v0.4.3
+   Compiling thiserror v2.0.21
+   Compiling windows-link v0.2.1
+   Compiling hashbrown v0.17.1
+   Compiling cfg-if v1.0.5
+   Compiling libc v0.2.190
+   Compiling zmij v1.0.23
+   Compiling once_cell v1.21.4
+   Compiling windows-sys v0.61.2
+   Compiling phf_shared v0.13.1
+   Compiling phf_generator v0.13.1
+   Compiling phf_codegen v0.13.1
+   Compiling tempfile v3.27.0
+   Compiling serde_json v1.0.151
+   Compiling syn v2.0.119
+   Compiling syn v3.0.6
+   Compiling memmap2 v0.9.11
+   Compiling ptr_meta_derive v0.3.2
+   Compiling bytecheck_derive v0.8.3
+   Compiling rkyv_derive v0.8.18
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.21
+   Compiling ptr_meta v0.3.2
+   Compiling rancor v0.1.3
+   Compiling munge_macro v0.4.7
+   Compiling tracing-attributes v0.1.31
+   Compiling zerocopy-derive v0.8.59
+   Compiling phf_macros v0.13.1
+   Compiling jni-sys-macros v0.4.1
+   Compiling thiserror-impl v1.0.69
+   Compiling bytecheck v0.8.3
+   Compiling rend v0.5.4
+   Compiling jni-sys v0.4.1
+   Compiling munge v0.4.7
+   Compiling phf v0.13.1
+   Compiling jni-sys v0.3.1
+   Compiling thiserror v1.0.69
+   Compiling tracing v0.1.44
+   Compiling jni v0.21.1
+   Compiling zerocopy v0.8.59
+   Compiling serde v1.0.229
+   Compiling rkyv v0.8.18
+   Compiling qingjian-format v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-format)
+   Compiling qingjian-dictionary v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-dictionary)
+   Compiling ferrous-opencc-compiler v0.4.0
+   Compiling ferrous-opencc v0.4.0
+   Compiling qingjian-core v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-core)
+   Compiling qingjian-translate v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-translate)
+   Compiling wordtrail-vocabulary v0.1.1 (D:\codex-mobile-build\source\vocabulary)
+   Compiling wordtrail-pronunciation v0.1.1 (D:\codex-mobile-build\source\pronunciation)
+   Compiling qingjian-learning v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-learning)
+   Compiling wordtrail-mobile v0.1.2 (D:\codex-mobile-build\source\native)
+    Finished `release` profile [optimized] target(s) in 1m 08s
+   Compiling libc v0.2.190
+   Compiling thiserror v2.0.21
+   Compiling anyhow v1.0.104
+   Compiling fst v0.4.7
+   Compiling zmij v1.0.23
+   Compiling ptr_meta v0.3.2
+   Compiling munge v0.4.7
+   Compiling serde v1.0.229
+   Compiling tracing v0.1.44
+   Compiling zerocopy v0.8.59
+   Compiling phf v0.13.1
+   Compiling jni-sys v0.4.1
+   Compiling thiserror v1.0.69
+   Compiling ferrous-opencc v0.4.0
+   Compiling rancor v0.1.3
+   Compiling serde_json v1.0.151
+   Compiling jni-sys v0.3.1
+   Compiling bytecheck v0.8.3
+   Compiling jni v0.21.1
+   Compiling rend v0.5.4
+   Compiling memmap2 v0.9.11
+   Compiling qingjian-format v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-format)
+   Compiling rkyv v0.8.18
+   Compiling qingjian-dictionary v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-dictionary)
+   Compiling ferrous-opencc-compiler v0.4.0
+   Compiling qingjian-core v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-core)
+   Compiling qingjian-translate v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-translate)
+   Compiling wordtrail-vocabulary v0.1.1 (D:\codex-mobile-build\source\vocabulary)
+   Compiling qingjian-learning v0.1.1 (D:\codex-mobile-build\source\vendor\qingjian\crates\qingjian-learning)
+   Compiling wordtrail-pronunciation v0.1.1 (D:\codex-mobile-build\source\pronunciation)
+   Compiling wordtrail-mobile v0.1.2 (D:\codex-mobile-build\source\native)
+    Finished `release` profile [optimized] target(s) in 36.87s
+����: [options] δ�� -source 17 һ������ϵͳģ��·��
+ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+1 ������
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          FB781269CE7FCCD774930D45DD142812A1232B946FCE559FD9585A5DE1F86461       D:\codex-mobile-build\source\dis…
+

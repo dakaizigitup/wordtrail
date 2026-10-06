@@ -1,0 +1,7 @@
+PASS: new CET6 household is visible as first translation
+PASS: long press commits actual new prioritized household
+PASS: clearing goals retains original first sense
+PASS: original secondary abandon remains available in details
+PASS: new third-or-later word is reached by vertical detail scrolling
+PASS: detail button inserts the exact new word after scrolling
+PASS: normal candidate tap still commits Chinese

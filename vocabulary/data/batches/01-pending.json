@@ -1,0 +1,8989 @@
+{
+  "batch": "01",
+  "scope": "Distinct exact English headwords in fixed community exam lists with at least one Chinese glossary mapping. Not a claim that every mapped Chinese key is reachable in current pinyin candidates. IPA means at least one existing pronunciation resource.",
+  "words": [
+    {
+      "word": "abnormally",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 5
+      },
+      "source_translation": "adv. 不正常, 异常, (贬)不同寻常, 不规则, 变态, 反常"
+    },
+    {
+      "word": "aboard",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "adv. 在船上, 在火车上, 在飞机上\\nprep. 在...之上"
+    },
+    {
+      "word": "abolition",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 废除, 废奴运动\\n[医] 禁止, 消失"
+    },
+    {
+      "word": "according",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 相符的, 根据...而定的\\nadv. 相应地"
+    },
+    {
+      "word": "accountable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 负有责任的, 可说明的, 可解释的\\n[经] 负有责任的"
+    },
+    {
+      "word": "accountancy",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 会计工作, 会计学\\n[经] 会计工作, 会计学术, 会计职业"
+    },
+    {
+      "word": "accrue",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vi. 自然增加, 产生\\n[经] 应计, 产生, 出现"
+    },
+    {
+      "word": "accustom",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "vt. 使习惯于"
+    },
+    {
+      "word": "across",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1
+      },
+      "source_translation": "prep. 越过, 穿过, 与...相交叉, 在...的对面\\nadv. 交叉, 到另一边, 在对面, 成十字"
+    },
+    {
+      "word": "acutely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 尖锐地, 剧烈地"
+    },
+    {
+      "word": "adjustable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 可调节的\\n[电] 可调整的"
+    },
+    {
+      "word": "admission",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 准许进入, 入场费, 录用, 承认\\n[经] 加入, 入股"
+    },
+    {
+      "word": "adoptive",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 有收养关系的, 采用的\\n[法] 收养的, 采用的"
+    },
+    {
+      "word": "advancement",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 前进, 进步, 提升\\n[医] 徙前术"
+    },
+    {
+      "word": "adversely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 5
+      },
+      "source_translation": "adv. 不利, 有害, 相反, 逆, 敌对, 逆向"
+    },
+    {
+      "word": "advisory",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 顾问的, 咨询的, 劝告的\\n[法] 劝告的, 忠告的, 咨询的"
+    },
+    {
+      "word": "advocator",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 拥护者, 提倡者"
+    },
+    {
+      "word": "affective",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 情感的, 表达感情的\\n[医] 感情的, 情感的"
+    },
+    {
+      "word": "affirmation",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 肯定, 断言, 证实\\n[医] 肯定, 确认"
+    },
+    {
+      "word": "affluence",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 富裕, 丰富, 流注\\n[医] 丰富, 流入"
+    },
+    {
+      "word": "against",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 反对, 对着, 倚靠"
+    },
+    {
+      "word": "agitation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 5
+      },
+      "source_translation": "n. 激动, 焦虑, 煽动, 搅动, 摇动\\n[化] 搅拌; 搅拌作用"
+    },
+    {
+      "word": "agonize",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 使极度痛苦, 折磨\\nvi. 感到痛苦"
+    },
+    {
+      "word": "agony",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 极大的痛苦, 挣扎\\n[医] 濒死苦闷; 剧痛"
+    },
+    {
+      "word": "agreeable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 令人愉快的, 同意的\\n[医] 佳适的"
+    },
+    {
+      "word": "air-conditioning",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[医] 空气调节"
+    },
+    {
+      "word": "alignment",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 队列, 结盟, 校正\\n[计] 校准; 对齐; 对准"
+    },
+    {
+      "word": "allegation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 断言, 主张, 申辩\\n[法] 声明, 事实陈述, 断言"
+    },
+    {
+      "word": "allegiance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 忠贞, 效忠"
+    },
+    {
+      "word": "allergic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 对...过敏的, 极反感的\\n[医] 变应性的"
+    },
+    {
+      "word": "allied",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 联盟的, 联姻的, 联系起来的"
+    },
+    {
+      "word": "alongside",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 在旁边, 靠拢着\\nprep. 在...旁边, 与...在一起"
+    },
+    {
+      "word": "alphabetical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 依字母顺序的, 字母的"
+    },
+    {
+      "word": "alternatively",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 非此即彼"
+    },
+    {
+      "word": "aluminium",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 铝\\na. 铝的"
+    },
+    {
+      "word": "ambient",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 周围的\\nn. 周围环境"
+    },
+    {
+      "word": "amends",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 赔偿\\n[经] 赔偿"
+    },
+    {
+      "word": "amid",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 在其间, 在其中\\n[经] 在...中"
+    },
+    {
+      "word": "amongst",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 在...当中, 在...之间, 在...之中"
+    },
+    {
+      "word": "analogue",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 类似物, 相似情况\\n[医] 类似物, 同型物, 相似器官, 同功异质体"
+    },
+    {
+      "word": "analytic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 分析的, 善于分析的, 解析的\\n[医] 分析的"
+    },
+    {
+      "word": "analytical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 分析的, 善于分析的, 解析的\\n[机] 分析的"
+    },
+    {
+      "word": "antisocial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "不爱社交的, 反社会的, 有害于公众利益的\\n[医] 不喜社交的"
+    },
+    {
+      "word": "anybody",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "pron. 任何人\\nn. 重要人物"
+    },
+    {
+      "word": "apart",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 成零碎, 成距离, 分别地, 分离着\\na. 分离的"
+    },
+    {
+      "word": "apathy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 无感情, 无兴趣, 冷漠\\n[医] 无情[感], 淡漠"
+    },
+    {
+      "word": "appealing",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 有感染力的, 动人的, 恳求的"
+    },
+    {
+      "word": "appreciable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 可感知的, 可评估的"
+    },
+    {
+      "word": "appreciative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 有欣赏力的, 感激的"
+    },
+    {
+      "word": "appropriation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 拨用, 挪用, 拨款\\n[经] 拨款, 挪用"
+    },
+    {
+      "word": "aptly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 适当地, 适宜地"
+    },
+    {
+      "word": "arabian",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "ascribe",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vt. 归因于, 归咎于\\n[法] 归咎于"
+    },
+    {
+      "word": "ashore",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 向岸, 在岸上"
+    },
+    {
+      "word": "aside",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 小声说的话, 旁白\\nadv. 在一边, 离开, 另外"
+    },
+    {
+      "word": "aspirational",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": " 志同的, 有抱负的"
+    },
+    {
+      "word": "assassination",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 暗杀\\n[法] 暗杀, 行刺"
+    },
+    {
+      "word": "assertive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 武断的, 过分自信的\\n[法] 断言的"
+    },
+    {
+      "word": "assimilation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 同化, 同化作用, 吸收\\n[化] 同化; 同化作用"
+    },
+    {
+      "word": "astonish",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "vt. 使惊讶"
+    },
+    {
+      "word": "astonishment",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 惊异, 惊愕, 使人惊异的事物"
+    },
+    {
+      "word": "astrophysics",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 天体物理学\\n[化] 天体物理; 天体物理学"
+    },
+    {
+      "word": "athletic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 运动的"
+    },
+    {
+      "word": "athletics",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 体育运动"
+    },
+    {
+      "word": "atmospheric",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 大气的\\n[医] 大气的; 大气压的"
+    },
+    {
+      "word": "atomic",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 原子的, 原子能的\\n[医] 原子的"
+    },
+    {
+      "word": "attent",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[古]注意的, 留意的"
+    },
+    {
+      "word": "aural",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4
+      },
+      "source_translation": "a. 耳的, 听觉的, 气氛的, 气味的, 光环的\\n[医] 耳的; 先兆的"
+    },
+    {
+      "word": "australian",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "authorization",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 授权, 许可\\n[经] 授权, 许可, 批准"
+    },
+    {
+      "word": "automate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt.vi. (使)自动化\\n[计] 自动化"
+    },
+    {
+      "word": "auxiliary",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 辅助者, 辅助物, 附属机构, 助动词\\na. 辅助的, 备用的"
+    },
+    {
+      "word": "avail",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "vi. 有用, 有利\\nvt. 有利于\\nn. 效用, 利益"
+    },
+    {
+      "word": "availability",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 有效性, 可利用性, 可利用的人\\n[计] 有效性; 可用性"
+    },
+    {
+      "word": "aviate",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "vi. 乘飞机\\nvt. 驾驶(飞机)"
+    },
+    {
+      "word": "aware",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 知道的, 有觉悟的"
+    },
+    {
+      "word": "away",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 离去"
+    },
+    {
+      "word": "awfully",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 恶劣地, 非常地, 极端地"
+    },
+    {
+      "word": "axial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 轴的, 成轴的, 轴向的\\n[医] 轴的, 中轴的"
+    },
+    {
+      "word": "b.c.",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "phrase_or_noncanonical_headword": 1,
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "backslide",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vi. 堕落, 退步\\nn. 堕落, 退步"
+    },
+    {
+      "word": "batter",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "v. 连续猛打（尤其指妇女），猛击\\nn. 面糊（食物），击球员，打击手"
+    },
+    {
+      "word": "behalf",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 利益, 方面"
+    },
+    {
+      "word": "beneath",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 在...下方\\nadv. 在...下方"
+    },
+    {
+      "word": "bewilder",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使迷惑, 使不知所措"
+    },
+    {
+      "word": "biodiversity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 生物多样性"
+    },
+    {
+      "word": "bipartisan",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 两党连立的"
+    },
+    {
+      "word": "blond",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 金发的\\nn. 白肤碧眼金发的人"
+    },
+    {
+      "word": "blouse",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 宽松的上衣"
+    },
+    {
+      "word": "bluntly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 坦率地, 率直地"
+    },
+    {
+      "word": "boot",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 长靴, 踢, 解雇, 效用\\nvt. 使穿靴, 踢, 解雇, 有用\\n[计] 引导, 自举"
+    },
+    {
+      "word": "botanical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 植物学的\\nn. 植物性药材"
+    },
+    {
+      "word": "bough",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 大树枝"
+    },
+    {
+      "word": "bourgeois",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 中产阶级分子, 商人, 资产阶级\\na. 中产阶级的, 平庸的\\nn. 九点活字"
+    },
+    {
+      "word": "bowel",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 肠, 内脏, 内部\\nvt. 挖...的内脏"
+    },
+    {
+      "word": "brighten",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1
+      },
+      "source_translation": "vi. 变亮, 活跃\\nvt. 使生辉, 使快活"
+    },
+    {
+      "word": "bristle",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 4
+      },
+      "source_translation": "n. 刚毛, 猪鬃\\nvi. 直立, 发怒, 充满\\nvt. 使直立"
+    },
+    {
+      "word": "burner",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 火炉, 烧火的人\\n[化] 灯; 灯头; 烧嘴炉; 燃烧器; 燃烧炉"
+    },
+    {
+      "word": "bushel",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 蒲式耳(容量单位)\\nv. 修整(衣物)"
+    },
+    {
+      "word": "calibration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 口径测定, 刻度, 校准\\n[化] 校准"
+    },
+    {
+      "word": "cartridge",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 弹药筒, 弹药, 一卷软片, 墨粉鼓\\n[计] 盒式磁带机"
+    },
+    {
+      "word": "casualty",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 意外事故, 伤亡, 受害者\\n[化] 事故"
+    },
+    {
+      "word": "causal",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 原因的, 因果关系的, 表示原因或理由的\\nn. 表示原因的连词"
+    },
+    {
+      "word": "centigrade",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 百分度的, 摄氏的\\n[医] 百分度"
+    },
+    {
+      "word": "centimetre",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 厘米, 公分"
+    },
+    {
+      "word": "ceramic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 陶瓷的\\nn. 陶瓷制品"
+    },
+    {
+      "word": "certification",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 证明\\n[经] 证明"
+    },
+    {
+      "word": "characterize",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt. 描绘...的特性, 刻划...的性格"
+    },
+    {
+      "word": "chasm",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 陷窟, 裂口"
+    },
+    {
+      "word": "chronically",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 慢性地, 长期地, 习惯性地"
+    },
+    {
+      "word": "chunk",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 大块, 矮胖的人(或物)\\n[经] 定样"
+    },
+    {
+      "word": "citation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 引用, 引证, 引用文\\n[建] 引证, 指引"
+    },
+    {
+      "word": "clearance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 清除, 间隙\\n[化] 间隙; 空隙"
+    },
+    {
+      "word": "clearing",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 清扫, 空地, 票据清算\\n[经] 票据交换, 结算, 结帐"
+    },
+    {
+      "word": "closely",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 接近地"
+    },
+    {
+      "word": "clothe",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vt. 给...穿衣, 盖上, 赋予"
+    },
+    {
+      "word": "coalition",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 结合体, 结合, 联合\\n[经] 联合, 联盟"
+    },
+    {
+      "word": "collaborative",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 合作的, 协作的"
+    },
+    {
+      "word": "collision",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 碰撞, 冲突, 抵触\\n[计] 冲突"
+    },
+    {
+      "word": "colonial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 殖民的, 殖民地的\\n[法] 殖民地居民"
+    },
+    {
+      "word": "combustion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 燃烧, 骚动\\n[化] 燃烧"
+    },
+    {
+      "word": "commence",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "v. (使)开始, 得学位"
+    },
+    {
+      "word": "commonsense",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 有常识的, 一望而知的, 明明白白的"
+    },
+    {
+      "word": "compelling",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 强制的, 强迫性的, 激发兴趣的"
+    },
+    {
+      "word": "complacency",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 满足, 自鸣得意, 自满"
+    },
+    {
+      "word": "compression",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 压缩, 压紧\\n[计] 压缩"
+    },
+    {
+      "word": "compulsory",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 被强制的, 强迫的, 义务的\\n[经] 强迫的, 强制的"
+    },
+    {
+      "word": "conceit",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 自负, 空想, 狂妄"
+    },
+    {
+      "word": "concerning",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 关于\\n[法] 关于"
+    },
+    {
+      "word": "confirmation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4
+      },
+      "source_translation": "n. 证实, 证明, 批准, 确认\\n[计] 确认"
+    },
+    {
+      "word": "conformity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4
+      },
+      "source_translation": "n. 遵照, 适合, 一致, 相似\\n[计] 符合度"
+    },
+    {
+      "word": "confrontation",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 对抗；对质；面对"
+    },
+    {
+      "word": "confrontational",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 挑衅的; 对抗的"
+    },
+    {
+      "word": "connexion",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 连接, 团体, 生意合伙人, 亲戚"
+    },
+    {
+      "word": "conquest",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 战胜, 征服, 战利品\\n[法] 征服, 赢得, 获得"
+    },
+    {
+      "word": "consecutive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 连续的, 联贯的\\n[计] 连续的; 连接的"
+    },
+    {
+      "word": "consequent",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 随后发生的事情, 结果\\na. 作为结果的, 合乎逻辑的"
+    },
+    {
+      "word": "considerably",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 非常地, 很, 颇"
+    },
+    {
+      "word": "consist",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vi. 组成, 存在于, 一致"
+    },
+    {
+      "word": "consistently",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 5
+      },
+      "source_translation": "adv. 坚固, 坚实, 一致, 始终如一, 连贯\\n[计] 相容地"
+    },
+    {
+      "word": "constructive",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 建设性的, 构造上的\\n[医] 构成的"
+    },
+    {
+      "word": "consultancy",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 8
+      },
+      "source_translation": "n. 商量, 协商, 磋商, 会诊, 与...商量, 咨询, 请教, 找(医生)看病, 查阅, 考虑\\n[经] 咨询业务, 咨询服务"
+    },
+    {
+      "word": "contamination",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 污染, 污物\\n[化] 污染; 沾污"
+    },
+    {
+      "word": "contempt",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 轻视, 轻蔑\\n[法] 藐视, 侮辱, 轻视"
+    },
+    {
+      "word": "contemptuous",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 轻蔑的, 鄙视的, 瞧不起人的"
+    },
+    {
+      "word": "contention",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 争论, 争辩, 所持的论点\\n[计] 争用"
+    },
+    {
+      "word": "continental",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 大陆的, 洲的\\nn. 欧洲大陆人"
+    },
+    {
+      "word": "continual",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 持续不断的, 继续的\\n[建] 连续的"
+    },
+    {
+      "word": "conversion",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 转变, 转换, 改变宗教信仰, 换位法\\n[计] 转换"
+    },
+    {
+      "word": "convincing",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 使人信服的, 有力的, 令人心悦诚服的"
+    },
+    {
+      "word": "cop",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 警官\\nvt. 抓住"
+    },
+    {
+      "word": "corporate",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 社团的, 合伙的, 公司的\\n[经] 团体的, 法人的, 社团的"
+    },
+    {
+      "word": "correctly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 4
+      },
+      "source_translation": "adv. 对, 正确, 恰当, 符合一般性准则, 符合行为准则, 端正, 符合"
+    },
+    {
+      "word": "corrosion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 腐蚀, 侵蚀, 腐蚀产生的物质, 铁锈, 锈\\n[计] 腐蚀"
+    },
+    {
+      "word": "cosmic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 宇宙的, 宇宙航行的, 无限的, 有秩序的\\n[医] 宇宙的"
+    },
+    {
+      "word": "could",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "aux. 可以, 能"
+    },
+    {
+      "word": "criminology",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 犯罪学, 刑事学\\n[医] 犯罪学"
+    },
+    {
+      "word": "cripple",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 跛者, 残废\\nvt. 使跛, 使成残废, 削弱\\na. 跛的, 残废的"
+    },
+    {
+      "word": "crippling",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "(往复)曲折, 断裂, 临界的, 极限的"
+    },
+    {
+      "word": "criteria",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "pl. 标准\\n[计] 条件"
+    },
+    {
+      "word": "cruelty",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 残酷, 野蛮, 残酷行为\\n[法] 残酷, 残忍, 虐待"
+    },
+    {
+      "word": "crystallize",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 使结晶, 使具体化\\nvi. 结晶, 具体化"
+    },
+    {
+      "word": "cubic",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 立方体的, 立方的\\n[机] 立方的, 立方体的"
+    },
+    {
+      "word": "culminate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5
+      },
+      "source_translation": "vi. 到绝顶, 达于极点, 达到高潮\\nvt. 使到绝顶, 使达到高潮"
+    },
+    {
+      "word": "cumulative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 累积的\\n[医] 蓄积的, 累积的"
+    },
+    {
+      "word": "curative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 治病的, 有疗效的\\nn. 药物, 治疗法"
+    },
+    {
+      "word": "cutter",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 裁剪者, 切割者, 切割器\\n[化] 刀具; 剪切机; 切刀; 切胶机"
+    },
+    {
+      "word": "dairy",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 牛奶公司, 乳品店, 乳牛场"
+    },
+    {
+      "word": "datum",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 论据, 材料, 资料, 已知数\\n[医] 材料, 资料, 论据"
+    },
+    {
+      "word": "deafen",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使聋\\nvi. 变聋"
+    },
+    {
+      "word": "decency",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 得体, 礼貌, 正派\\n[法] 正当, 正派, 合乎礼仪"
+    },
+    {
+      "word": "decorative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 装饰性的"
+    },
+    {
+      "word": "defence",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 防卫, 防卫设备\\n[经] (诉讼程序中的)辩护"
+    },
+    {
+      "word": "defiance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 蔑视, 挑战\\n[法] 挑战, 藐视, 违抗"
+    },
+    {
+      "word": "definitive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 限定词\\na. 限定的, 决定性的"
+    },
+    {
+      "word": "deflection",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 歪斜, 偏, 偏向\\n[医] 偏向, 偏离, 偏转(光), 偏转, 波(心电图)"
+    },
+    {
+      "word": "degeneration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 退化, 恶化, 堕落\\n[化] 简并性"
+    },
+    {
+      "word": "degradation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 降格, 堕落, 退化\\n[计] 降级"
+    },
+    {
+      "word": "delightful",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 令人愉快的, 可爱的"
+    },
+    {
+      "word": "denationalize",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使失去独立国家资格, 开除国籍, 使非国有化\\n[法] 剥夺国籍, 剥夺...国民权利, 使非国有化"
+    },
+    {
+      "word": "denial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 否认\\n[法] 否定, 否认, 拒绝接受"
+    },
+    {
+      "word": "dependant",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 家眷, 侍从, 食客\\n[法] 受赡养人, 家庭负担"
+    },
+    {
+      "word": "dependent",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 依赖他人者\\na. 依赖的, 从属的"
+    },
+    {
+      "word": "deportation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 驱逐出境, 放逐\\n[法] 递解出境, 放逐, 驱逐"
+    },
+    {
+      "word": "deposition",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 免职, 作证, 沉淀\\n[化] 沉积"
+    },
+    {
+      "word": "deprivation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 剥夺, 剥夺官职, 免职\\n[医] 丧失, 剥夺, 缺乏"
+    },
+    {
+      "word": "derivation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 推论, 推导, 来历\\n[医] 衍化, 诱导"
+    },
+    {
+      "word": "detach",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使分离, 分遣\\n[机] 摘下, 分离, 卸下"
+    },
+    {
+      "word": "detection",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 发现, 察觉, 探测\\n[计] 检波; 检测"
+    },
+    {
+      "word": "deterioration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 恶化, 衰退, 退化\\n[医] 变坏, 变质, 颓废, 衰退"
+    },
+    {
+      "word": "developmental",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 发展的, 进化的, 启发的\\n[医] 发育的"
+    },
+    {
+      "word": "devotion",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 热爱, 投入"
+    },
+    {
+      "word": "diagnostic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 诊断的, 有助于诊断的, 特征的\\nn. 诊断, 病的征候, 诊断法\\n[计] 诊断的"
+    },
+    {
+      "word": "dioxide",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 二氧化物\\n[医] 二氧化物"
+    },
+    {
+      "word": "disappearance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 看不见, 失踪, 消失"
+    },
+    {
+      "word": "disapproval",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 不赞成"
+    },
+    {
+      "word": "disastrous",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 损失惨重的, 悲伤的"
+    },
+    {
+      "word": "discrete",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 不连续的, 离散的\\n[计] 离散的"
+    },
+    {
+      "word": "disengagement",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 分开, 空闲, 解脱\\n[医] 解脱(分娩)"
+    },
+    {
+      "word": "disgust",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 厌恶, 嫌恶\\nvi. 令人厌恶\\nvt. 使作呕"
+    },
+    {
+      "word": "disillusioned",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 幻想破灭了的, 大失所望的, 醒悟了的"
+    },
+    {
+      "word": "disintegration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 瓦解\\n[化] 破碎; 崩解; 蜕变"
+    },
+    {
+      "word": "dismay",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 沮丧\\nvt. 使惊愕, 使气馁"
+    },
+    {
+      "word": "disobedience",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 不服从, 不孝, 违反"
+    },
+    {
+      "word": "disorient",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使失去方向, 使迷惑"
+    },
+    {
+      "word": "displease",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "v. 使不愉快, 使(人)生气"
+    },
+    {
+      "word": "disposal",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 5
+      },
+      "source_translation": "n. 丢掉, 处理, 排列, 销毁, 布置\\n[医] 处理, 处置"
+    },
+    {
+      "word": "disproportionate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 不成比例的"
+    },
+    {
+      "word": "disproportionately",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 不匀称, 不相称"
+    },
+    {
+      "word": "disruptive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 分裂的, 破坏(性)的\\n[计] 击穿的, 中断的"
+    },
+    {
+      "word": "dissatisfy",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "vt. 使感觉不满, 不满足"
+    },
+    {
+      "word": "disservice",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 伤害, 帮倒忙的行为"
+    },
+    {
+      "word": "distil",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt.vi. 蒸馏, 提取...的精华, 用蒸馏法提取\\nvi. 滴下, 渗出"
+    },
+    {
+      "word": "distinctly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 显然地, 明显地, 清楚地"
+    },
+    {
+      "word": "distraction",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 娱乐, 分心的事物, 分心\\n[医] 注意力分散, 内脱位, 牙弓过宽"
+    },
+    {
+      "word": "diversion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 转移\\n[医] 转向"
+    },
+    {
+      "word": "doctoral",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 博士的"
+    },
+    {
+      "word": "dole",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 救济品, 失业救济金\\nvt. 发放救济"
+    },
+    {
+      "word": "dollar",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 美元, 元(加、澳等国货币单位)\\n[经] 纯经济的, 美元, 元"
+    },
+    {
+      "word": "domination",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 支配, 控制, 管辖"
+    },
+    {
+      "word": "dormant",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 睡眠状态的, 静止的\\n[医] 休眠的, 不活动的, 休止的"
+    },
+    {
+      "word": "doubtless",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 无疑的, 确定的\\nadv. 无疑地, 确定地"
+    },
+    {
+      "word": "downfall",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 衰败, 大雨"
+    },
+    {
+      "word": "downturn",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. (尤指经济方面的)衰退, 下降趋势\\n[电] 低迷时期"
+    },
+    {
+      "word": "drainage",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 排水\\n[医] 引流[法], 导液[法], 排水[设备]"
+    },
+    {
+      "word": "dramatically",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 戏剧地, 引人注目地, 突然地"
+    },
+    {
+      "word": "drastically",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 激烈地, 彻底地"
+    },
+    {
+      "word": "dully",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 钝地, 迟钝地, 不清楚地"
+    },
+    {
+      "word": "duplication",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 副本, 复制\\n[医] 重迭, 双折, 复制"
+    },
+    {
+      "word": "dutiful",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 尽职的, 忠实的, 顺从的, 守本分的"
+    },
+    {
+      "word": "dweller",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 居民"
+    },
+    {
+      "word": "eclipse",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 日食, 月食, (地位名誉等的)消失\\nvt. 引起日食, 引起月食, 使黯然失色"
+    },
+    {
+      "word": "ecological",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 生态学的, 主张生态保护的\\n[法] 生态的, 生态学的"
+    },
+    {
+      "word": "efficiently",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 3
+      },
+      "source_translation": "adv. 生效, 能胜任, 有能力, 效率高, 有效"
+    },
+    {
+      "word": "egyptian",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "elaborately",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 苦心经营地, 精巧地"
+    },
+    {
+      "word": "electronics",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 电子学\\n[计] 电子学"
+    },
+    {
+      "word": "eligible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 有资格当选的, 合格的\\nn. 有资格者, 合格者, 适任者"
+    },
+    {
+      "word": "elimination",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 除去, 消除, 消灭\\n[化] 消去; 脱去"
+    },
+    {
+      "word": "else",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 别的, 其他的\\nadv. 另外, 否则, 不然"
+    },
+    {
+      "word": "emergence",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 出现, 浮现, 发生"
+    },
+    {
+      "word": "emigrate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "v. (使)移居, (使)移民"
+    },
+    {
+      "word": "empirical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 完全跟据经验的, 经验主义的\\n[医] 经验主义的"
+    },
+    {
+      "word": "empower",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 授予权力, 允许, 使能够\\n[法] 授权, 准许, 转委"
+    },
+    {
+      "word": "englishman",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "enquiry",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 询问\\n[经] 询价, 询盘"
+    },
+    {
+      "word": "enrich",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使富足, 使肥沃"
+    },
+    {
+      "word": "enrollment",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 登记, 注册, 入伍\\n[经] 登记, 注册"
+    },
+    {
+      "word": "ensue",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vi. 跟着发生, 继起\\nvt. 追求"
+    },
+    {
+      "word": "entrepreneurship",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": " 企业家能力/职能; 企业家[主办人等]的身份[地位、职权、能力]"
+    },
+    {
+      "word": "equality",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 平等, 均匀, 相等\\n[法] 同等, 平等, 相等"
+    },
+    {
+      "word": "equipe",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. <法>运动队（或比赛队）及其装备"
+    },
+    {
+      "word": "erosion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 腐蚀, 冲蚀, 侵蚀\\n[化] 磨耗; 侵蚀"
+    },
+    {
+      "word": "eruption",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 爆发, 喷出物, 出疹\\n[化] 喷发"
+    },
+    {
+      "word": "esthetic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 审美的\\n[医] 感觉的"
+    },
+    {
+      "word": "ethnic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 人种的, 种族的\\n[医] 人种的"
+    },
+    {
+      "word": "evaporation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 蒸发, 脱水, 消失\\n[化] 蒸发"
+    },
+    {
+      "word": "evenly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 平衡地, 平坦地, 平等地"
+    },
+    {
+      "word": "everybody",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "pron. 每个人, 人人"
+    },
+    {
+      "word": "evolutionary",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4
+      },
+      "source_translation": "a. 展开的, 进化论的, 进化的, 发展的\\n[计] 进化的, 改良的, 发展的"
+    },
+    {
+      "word": "exaggeration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 夸张, 夸大的事物, 夸大之词"
+    },
+    {
+      "word": "exciting",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 令人兴奋的, 刺激的\\n[电] 激磁"
+    },
+    {
+      "word": "exclamation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 惊呼, 激烈言词, 惊叹词"
+    },
+    {
+      "word": "exclusively",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "adv. 排他地, 仅仅, 专门, 只, 仅, 唯一地, 专有地"
+    },
+    {
+      "word": "exemplary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 可仿效的, 可做模范的, 惩戒性的, 示范的\\n[法] 惩罚性的, 警戒性的, 示范的"
+    },
+    {
+      "word": "exemplify",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "vt. 例证, 例示\\n[法] 制作经公章证明的誊本, 例证"
+    },
+    {
+      "word": "exertion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 努力, 发挥, 运用\\n[医] 劳力, 用力"
+    },
+    {
+      "word": "expectancy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 期待, 期望的事物, 嘱望, 希望, 期望, 预期\\n[医] 预期"
+    },
+    {
+      "word": "experimentally",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 实验式地, 在实验上"
+    },
+    {
+      "word": "expertise",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 专家意见, 专门技术\\n[法] 专门知识, 专家意见"
+    },
+    {
+      "word": "explicitly",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 明确地；明白地"
+    },
+    {
+      "word": "exploitation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 开发, 开采, 剥削\\n[经] 开发, 剥削, 宜传"
+    },
+    {
+      "word": "exposure",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 暴露, 揭发, 揭露\\n[化] 曝光量; 照射; 照射量"
+    },
+    {
+      "word": "extensively",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 5
+      },
+      "source_translation": "adv. 广大, 广延, 外延, 大面积(耕种), 粗放, 广博, 广泛, 广阔"
+    },
+    {
+      "word": "extinction",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 消失, 消灭, 废止\\n[化] 消光; 熄灭"
+    },
+    {
+      "word": "extraction",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 抽出, 取出, 拔出术, 抽出物\\n[化] 萃取; 提取"
+    },
+    {
+      "word": "extraordinarily",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 7,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "adv. 非凡, 破例, 特别, 非常, 离奇, 使人惊奇, 惊人, 特命, 特派"
+    },
+    {
+      "word": "fabrication",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 制造, 建造, 虚构的谎言\\n[医] 虚谈症"
+    },
+    {
+      "word": "fastener",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 结扎工, 使系牢之物\\n[化] 紧固零件"
+    },
+    {
+      "word": "favourite",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 喜欢的事物\\na. 喜爱的, 宠爱的"
+    },
+    {
+      "word": "fearlessly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 无畏地, 大胆地"
+    },
+    {
+      "word": "federal",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 联邦的, 联合的, 同盟的\\n[法] 联邦的, 联邦制的, 联盟的"
+    },
+    {
+      "word": "ferrous",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 铁的, 含铁的, 亚铁的\\n[医] 亚铁的"
+    },
+    {
+      "word": "fertility",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 肥沃, 丰饶, 生产力\\n[医] 生育力"
+    },
+    {
+      "word": "finding",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 发现, 发现物, 决定, 裁决\\n[法] 调查结果, 对事实的认定, 判定的要素"
+    },
+    {
+      "word": "finely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4
+      },
+      "source_translation": "adv. 雅致地, 仔细地, 敏锐地, 微细地"
+    },
+    {
+      "word": "fireman",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 救火队员, 消防队员\\n[机] 司炉"
+    },
+    {
+      "word": "firmness",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 坚固, 坚牢, 坚定"
+    },
+    {
+      "word": "fluently",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 流利地；通畅地"
+    },
+    {
+      "word": "fluorescent",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 荧光\\na. 荧光的"
+    },
+    {
+      "word": "fond",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 喜欢的, 宠爱的, 温柔的"
+    },
+    {
+      "word": "fore",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 在前的, 以前的\\nadv. 在前面, 在船头\\nprep. 在...前"
+    },
+    {
+      "word": "foremost",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 最初的, 最重要的\\nadv. 在最前"
+    },
+    {
+      "word": "foreseeable",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 可预知的, 能预测的\\n[法] 可预见的, 可预料的"
+    },
+    {
+      "word": "forthcoming",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 即将来临的\\nn. 来临"
+    },
+    {
+      "word": "fourfold",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 四重的, 四倍的, 四垒的\\nadv. 四倍, 四重"
+    },
+    {
+      "word": "freshen",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "v. (使)显得新鲜, (使)精神饱满, (使)减少咸味"
+    },
+    {
+      "word": "fret",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 5,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 烦躁, 磨损, 焦急, 网状饰物\\nvi. 烦恼, 不满, 磨损\\nvt. 使烦恼, 腐蚀, 使磨损, 使起波纹"
+    },
+    {
+      "word": "fright",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 惊骇, 吃惊\\n[医] 惊吓"
+    },
+    {
+      "word": "fringe",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 边缘, 端, 流苏, 穗, 初步\\nvt. 加穗于, 加饰边于\\na. 边缘的, 附加的"
+    },
+    {
+      "word": "funding",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[经] 债务转期"
+    },
+    {
+      "word": "fussy",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4
+      },
+      "source_translation": "a. 易怒的, 爱挑剔的, 难取悦的, 易烦恼的"
+    },
+    {
+      "word": "gaseous",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 气体的, 气态的, 无实质的\\n[医] 气[体]的"
+    },
+    {
+      "word": "generalization",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 一般化, 普遍化, 概括\\n[化] 推广; 普适化"
+    },
+    {
+      "word": "generosity",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 慷慨, 宽大"
+    },
+    {
+      "word": "genetic",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4
+      },
+      "source_translation": "a. 创始的, 遗传的, 起源的, 遗传学的\\n[医] 生殖的, 遗传的"
+    },
+    {
+      "word": "geographic",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "a. 地理(学)的, 地区(性)的"
+    },
+    {
+      "word": "geometrical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 几何学的, 几何的\\n[机] 几何学的"
+    },
+    {
+      "word": "glamor",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 魅力, 迷人的美, 魔法\\nvt. 迷惑"
+    },
+    {
+      "word": "glamour",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 魅力, 迷人的美, 魔法\\nvt. 迷惑"
+    },
+    {
+      "word": "glossary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 专业词典, 术语集, 词表\\n[计] 图文集"
+    },
+    {
+      "word": "goodness",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 仁慈, 善良"
+    },
+    {
+      "word": "gradual",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 逐渐的, 渐增的\\nn. 弥撒升阶圣歌"
+    },
+    {
+      "word": "grammatical",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 语法的, 合乎语法的\\n[法] 语法上的, 符合语法规则的, 文法上的"
+    },
+    {
+      "word": "gramme",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 克\\n[医] 克"
+    },
+    {
+      "word": "grants",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[经] 补助金, 拨款, 津贴"
+    },
+    {
+      "word": "grassy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 草绿色的, 象草的, 长满草的"
+    },
+    {
+      "word": "greeting",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 祝贺, 问候"
+    },
+    {
+      "word": "grocer",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 食品商"
+    },
+    {
+      "word": "grocery",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 食品杂货店, 食品杂货业"
+    },
+    {
+      "word": "groundless",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 无根据的, 无理由的\\n[法] 无根据的, 无理由的"
+    },
+    {
+      "word": "groundsheet",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 铺在地上的防潮布"
+    },
+    {
+      "word": "guesstimate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 瞎猜, 瞎估计"
+    },
+    {
+      "word": "guideline",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 指导路线, 方针, 指标\\n[经] 指导路线, 方针, 准则"
+    },
+    {
+      "word": "haircut",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 理发, (男子的)发式"
+    },
+    {
+      "word": "hassle",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 激烈而持久的争论\\nvi. 争论\\nvt. 与...争辩, 使烦恼"
+    },
+    {
+      "word": "haste",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 匆忙, 急忙"
+    },
+    {
+      "word": "heading",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 标题, 起始字, 方向\\n[计] 上标题"
+    },
+    {
+      "word": "headmaster",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. (中小学)校长, 监工"
+    },
+    {
+      "word": "headquarter",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt. 将...的总部设在"
+    },
+    {
+      "word": "heave",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 举, 抛, 起伏, 鼓起\\nvt. 用力举起, 使举起, 使鼓起\\nvi. 抛出, 起伏, 喘息, 凸起"
+    },
+    {
+      "word": "heavily",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 很重地, 严重地, 难以忍受地"
+    },
+    {
+      "word": "henceforth",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 自此以后, 今后"
+    },
+    {
+      "word": "hers",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "pron. 她的"
+    },
+    {
+      "word": "heterogeneity",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 异种, 异质, 不同成分\\n[化] 不均匀性; 多相性"
+    },
+    {
+      "word": "homely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 家常的, 平凡的, 朴实无华的"
+    },
+    {
+      "word": "honorary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 荣誉的, 无报酬的, 道义上的\\n[法] 名誉的, 荣誉的"
+    },
+    {
+      "word": "honourable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 值得尊敬的, 荣耀的, 高贵的\\n[法] 荣誉的, 正直的, 体面的"
+    },
+    {
+      "word": "huddle",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 杂乱一团, 混乱, 拥挤\\nvt. 把...挤在一起, 乱堆, 草率了事, 蜷曲\\nvi. 挤作一团, 蜷缩"
+    },
+    {
+      "word": "humanistic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 人本主义的, 人道主义的\\n[法] 人道主义的, 人文主义的, 人本主义的"
+    },
+    {
+      "word": "humanitarian",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 人道主义者, 博爱者, 基督凡人论者\\na. 人道主义的, 博爱的, 凡人论的"
+    },
+    {
+      "word": "hurl",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 用力的投掷\\nvt. 用力投掷, 发射, 愤慨地说出, 丢下\\nvi. 猛投, 猛掷"
+    },
+    {
+      "word": "hypotheses",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "pl. 假说, 前提, 假设, 假定"
+    },
+    {
+      "word": "i.e.",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "invalid_headword_or_pos": 1,
+        "phrase_or_noncanonical_headword": 1
+      },
+      "source_translation": "adv. 也就是"
+    },
+    {
+      "word": "ice-cream",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 冰淇淋的, 乳白色的"
+    },
+    {
+      "word": "ideally",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 完美地, 理想地"
+    },
+    {
+      "word": "ideological",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 意识形态的, 空想的\\n[法] 思想的, 思想上的, 意识形态的"
+    },
+    {
+      "word": "ideologically",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 思想上, 思想体系, 意识形态, 观念形态"
+    },
+    {
+      "word": "idleness",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 懒惰, 闲散, 失业\\n[化] 空载"
+    },
+    {
+      "word": "ignorance",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 无知, 愚味\\n[法] 无知, 不知情, 愚昧"
+    },
+    {
+      "word": "imaginative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 想像的, 虚构的"
+    },
+    {
+      "word": "imitation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 模仿, 效法, 冒充, 赝品\\n[医] 模仿, 仿制, 仿制品"
+    },
+    {
+      "word": "immensely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 无限地, 广大地, 庞大地"
+    },
+    {
+      "word": "immigrate",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 使移居入境\\nvi. 移入"
+    },
+    {
+      "word": "immigration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 移民, 移居\\n[医] 移民"
+    },
+    {
+      "word": "immune",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 免疫的, 免除的, 不受影响的\\nn. 免疫者"
+    },
+    {
+      "word": "imperative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 命令, 必要的事, 规则, 祈使语气\\na. 命令式的, 急需的, 势在必行的, 强制的"
+    },
+    {
+      "word": "impermanency",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 非永久, 非永久性, 暂时, 暂时性"
+    },
+    {
+      "word": "impermanent",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 暂时的, 非永久的"
+    },
+    {
+      "word": "impetus",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 动力, 推动力, 动量\\n[医] 冲动, 动能, 起始(病)"
+    },
+    {
+      "word": "impoverish",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "vt. 使贫穷, 耗尽...的力气"
+    },
+    {
+      "word": "impress",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 5
+      },
+      "source_translation": "n. 印象, 特征, 印记\\nvt. 使有印象, 印, 铭刻, 传送, 影响, 强征\\nvi. 给人印象"
+    },
+    {
+      "word": "impulsive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 冲动的, 受感情驱使的, 任性的\\n[医] 冲动的"
+    },
+    {
+      "word": "inaccessible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 难得到的, 难接近的, 难达成的"
+    },
+    {
+      "word": "inadequacy",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 不适当, 不足之处, 不充分\\n[医] 机能不全, 闭锁不全, 关闭不全"
+    },
+    {
+      "word": "inanimate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 失去知觉的, 没生命的, 无精打采的\\n[医] 无生命的, 无生机的"
+    },
+    {
+      "word": "inasmuch",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "adv. 因...之故, 在...范围内"
+    },
+    {
+      "word": "incandescent",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 白热的, 闪闪发光的, 辉耀的, 灿烂的\\n[医] 白炽的, 白热的"
+    },
+    {
+      "word": "incidence",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 发生, 发生率, 影响, 负担者, 入射, 倾角\\n[医] 入射, 发生率, 发生数"
+    },
+    {
+      "word": "inclusive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 包含的, 包括的"
+    },
+    {
+      "word": "incompetence",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 不胜任, 不够格, 不合格, 不适合, 无能力, 不熟练, 无资格\\n[医] 机能不全, 闭锁不全, 关闭不全"
+    },
+    {
+      "word": "independently",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 独立地, 自立地"
+    },
+    {
+      "word": "indicative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 指示的, 象征的, 表示...的\\n[经] 指标的"
+    },
+    {
+      "word": "infamous",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 无耻的, 不名誉的, 声名狼藉的"
+    },
+    {
+      "word": "infancy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 幼年, 初期, 幼儿期\\n[医] 婴儿期(一足岁以内)"
+    },
+    {
+      "word": "infectious",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 有传染性的, 易传染的\\n[医] 传染性的"
+    },
+    {
+      "word": "inferiority",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 自卑, 次等\\n[医] 下位, 下级, 次级, 劣等"
+    },
+    {
+      "word": "infinitely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 无限地, 无数地, 庞大地"
+    },
+    {
+      "word": "infinity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 无限大, 无限\\n[计] 无穷"
+    },
+    {
+      "word": "inflict",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vt. 施以, 加害, 使承受\\n[法] 处, 加, 予以"
+    },
+    {
+      "word": "infusion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 注入, 泡制, 注入物\\n[化] 浸渍; 浸泡"
+    },
+    {
+      "word": "insanity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 疯狂, 愚顽, 精神错乱\\n[医] 精神病"
+    },
+    {
+      "word": "instability",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 不安定, 不稳定\\n[医] 不稳定性"
+    },
+    {
+      "word": "instinctively",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 本能地, 直觉地"
+    },
+    {
+      "word": "instructional",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 教学的, 教育的"
+    },
+    {
+      "word": "instrumental",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 仪器的, 器具的, 可作为手段的\\n[医] 器械的"
+    },
+    {
+      "word": "intellectually",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 智力上；知性上；理智地"
+    },
+    {
+      "word": "intelligible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 可理解的, 易理解的, 纯概念性的"
+    },
+    {
+      "word": "intensely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "adv. 强烈地; 极度; 剧烈地"
+    },
+    {
+      "word": "interactive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 相互作用的, 相互影响的\\n[计] 交互, 人机对话的"
+    },
+    {
+      "word": "interdependence",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 互相依赖"
+    },
+    {
+      "word": "interference",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 冲突, 干涉\\n[计] 干扰"
+    },
+    {
+      "word": "internship",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 实习医师的职务\\n[医] 实习医师职位, 实习医师期"
+    },
+    {
+      "word": "interracial",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 人种间的, 人种混合的"
+    },
+    {
+      "word": "interruption",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 打扰, 中断, 障碍物\\n[医] 间断, 阻断, 中止"
+    },
+    {
+      "word": "intertwine",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "v. (使)纠缠, (使)缠绕"
+    },
+    {
+      "word": "into",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 进入...之内, 朝..., 深入...之中, 成为...状况"
+    },
+    {
+      "word": "intricacy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 纷乱, 复杂, 错综"
+    },
+    {
+      "word": "invariably",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 不变化地, 恒定地, 始终如一地"
+    },
+    {
+      "word": "invasion",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 侵犯, 侵入, 侵害\\n[医] 侵袭, 侵入, 发病"
+    },
+    {
+      "word": "invasive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 侵入的, 侵略性的, 攻击性的"
+    },
+    {
+      "word": "invention",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 发明, 创作能力, 虚构的故事\\n[经] 发明"
+    },
+    {
+      "word": "inverse",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 倒转的, 相反的\\nn. 反向, 反面\\n[计] 反白, 反色"
+    },
+    {
+      "word": "inversely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 相反地\\n[机] 反的, 反对"
+    },
+    {
+      "word": "irrationally",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 不合理地, 无理性地"
+    },
+    {
+      "word": "irregularity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 不规则, 例外, 违反规则的行为\\n[化] 不匀度"
+    },
+    {
+      "word": "irrespective",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 不顾的, 无关的, 没关系的"
+    },
+    {
+      "word": "irreversible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 不可逆的, 不可改变的, 不能倒置的, 不能翻转的, 不能倒转的, 不可撤销的\\n[计] 不可逆的"
+    },
+    {
+      "word": "irrigation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 灌溉, 冲洗\\n[医] 冲洗法, 灌溉"
+    },
+    {
+      "word": "jean",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 牛仔裤, 牛仔布, 斜纹棉布"
+    },
+    {
+      "word": "jeopardize",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "vt. 危害, 使受危困, 使陷危地"
+    },
+    {
+      "word": "jolly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 8
+      },
+      "source_translation": "a. 愉快的, 高兴的, 宜人的\\nvt. 恭维, 使高兴, 取笑\\nvi. 开玩笑\\nadv. 非常, 极为"
+    },
+    {
+      "word": "justifiable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 可辩解的, 可证明的, 有理的\\n[法] 正当的, 不可非议的, 可办明的"
+    },
+    {
+      "word": "justification",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 辩护, 证明正当, 释罪\\n[计] 调整"
+    },
+    {
+      "word": "justified",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 有道理的, 合乎情理的\\n[计] 两端对齐的"
+    },
+    {
+      "word": "juvenile",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 少年, 少年读物\\na. 少年的, 不成熟的, 适于少年的"
+    },
+    {
+      "word": "keenly",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 锐利地, 敏捷地, 激烈地"
+    },
+    {
+      "word": "kilometre",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 公里, 千米"
+    },
+    {
+      "word": "kinetic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 运动的, 运动引起的, 动力学的, 活动的\\n[医] 运动的, 动的, 动力的"
+    },
+    {
+      "word": "lamentation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 悲叹, 哀悼"
+    },
+    {
+      "word": "lap",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 7
+      },
+      "source_translation": "n. 膝盖, 舔, 一圈, 下摆, 衣兜, 山坳\\nvi. 重叠, 围住, 轻拍, 舔\\nvt. 包围, 抱...在膝上, 使重叠, 舔, 拍打, 泼溅\\n[计] 链接访问程序"
+    },
+    {
+      "word": "largely",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 大量地, 很多地, 大半地"
+    },
+    {
+      "word": "latter",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 后者的, 较后的, 近来的"
+    },
+    {
+      "word": "layoff",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 临时解雇, 操作停止, 活动停止期间"
+    },
+    {
+      "word": "leading",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 领导, 指挥, 神示, 铅板\\na. 领导的, 主要的, 在前的"
+    },
+    {
+      "word": "leverage",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 杠杆作用, 杠杆装置, 杠杆效率\\n[医] 杠杆率"
+    },
+    {
+      "word": "liable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 有义务的, 应负责的, 有...倾向的\\n[法] 有责任的, 可受处理的, 应受罚的"
+    },
+    {
+      "word": "liberation",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 释放, 解放\\n[化] 发出; 释放; 放出"
+    },
+    {
+      "word": "likeness",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 相象, 相似物, 样子"
+    },
+    {
+      "word": "linguistic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 语言的, 语言学的\\n[计] 语言的, 语言学的"
+    },
+    {
+      "word": "literacy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 读写能力, 识字, 精通文学"
+    },
+    {
+      "word": "literally",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 逐字地, 按照字面上地, 不夸张地"
+    },
+    {
+      "word": "litter",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 垃圾, 杂乱, 轿, 担架\\nvt. 乱丢, 铺草, 弄乱\\nvi. 产仔, 乱丢垃圾"
+    },
+    {
+      "word": "locality",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 地方, 所在, 位置\\n[法] 位置, 场所, 地区"
+    },
+    {
+      "word": "logically",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 3
+      },
+      "source_translation": "adv. 逻辑, 合乎逻辑, 符合逻辑, 逻辑上, 有逻辑, 有逻辑头脑, 合理, 明智"
+    },
+    {
+      "word": "loosely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 松弛地, 宽松地, 不紧"
+    },
+    {
+      "word": "lunar",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 阴历的, 月的, 微亮的(指光)\\n[医] 月的, 银的"
+    },
+    {
+      "word": "malpractice",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 不当治疗, 不端行为, 渎职\\n[医] 疗法失当, 医疗差错"
+    },
+    {
+      "word": "managerial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 管理的\\n[经] 管理上的, 经营上的"
+    },
+    {
+      "word": "manoeuvre",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 5
+      },
+      "source_translation": "n. 调遣, 演习, 策略\\nvi. 调动, 演习, 用策略\\nvt. 调动, 操纵"
+    },
+    {
+      "word": "marginal",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 边缘的, 最低限度的, 有旁注的\\n[医] 缘的"
+    },
+    {
+      "word": "marine",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 4,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 舰队, 水兵, 海景画\\na. 海的, 海产的, 海底的, 船舶的, 海运的"
+    },
+    {
+      "word": "markedly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 显著地, 醒目地, 明显地"
+    },
+    {
+      "word": "marxist",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "masculine",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 阳性, 男性\\na. 男性的, 阳性的, 有丈夫气的"
+    },
+    {
+      "word": "mastery",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 征服, 统治权, 优势, 精通, 掌握\\n[法] 统治权, 控制权, 征服"
+    },
+    {
+      "word": "mathematical",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 数学的, 精确的\\n[机] 数学上的"
+    },
+    {
+      "word": "maturation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 化脓, 成熟\\n[医] 成熟, 化脓"
+    },
+    {
+      "word": "meantime",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 间隔时间, 其时\\nadv. 其间"
+    },
+    {
+      "word": "mechanically",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 6
+      },
+      "source_translation": "adv. 机械, 用机械, 机械学, 物理, 力学, 呆板, 无意识, 手工操作, 技工"
+    },
+    {
+      "word": "memorial",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 纪念物, 请愿书\\na. 记念的, 记忆的"
+    },
+    {
+      "word": "mere",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 小湖, 池塘\\na. 仅仅的, 只不过的"
+    },
+    {
+      "word": "metabolic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 变化的, 变形的, 新陈代谢的\\n[医] [新陈]代谢的"
+    },
+    {
+      "word": "metallic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 金属的, 含金属的, 产生金属的\\n[经] 金属的"
+    },
+    {
+      "word": "metric",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 公尺的, 公制的, 计量的\\n[医] 测量的, 米制的, 公制的"
+    },
+    {
+      "word": "metropolitan",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 大都市居民, 都主教, 宗主国的公民\\na. 大都市的, 都主教区的, 宗主国的"
+    },
+    {
+      "word": "microprocessor",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 微处理器\\n[计] 微处理器; 微处理机"
+    },
+    {
+      "word": "midst",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 中间\\nprep. 在...中间"
+    },
+    {
+      "word": "migrant",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 候鸟, 移居者\\n[法] 移居者"
+    },
+    {
+      "word": "milky",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 乳状的, 乳白色的, 柔和的"
+    },
+    {
+      "word": "millimetre",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 毫米\\n[机] 公厘"
+    },
+    {
+      "word": "misguided",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 被误导的"
+    },
+    {
+      "word": "misled",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "mislead的过去式和过去分词"
+    },
+    {
+      "word": "mismanagement",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 管理不善；处置失当"
+    },
+    {
+      "word": "mitten",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 连指手套, 拳击手套"
+    },
+    {
+      "word": "moderately",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 适当地, 适度地, 中庸地"
+    },
+    {
+      "word": "modernize",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "vi. 现代化\\nvt. 使现代化"
+    },
+    {
+      "word": "modesty",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 谦逊, 质朴, 羞怯"
+    },
+    {
+      "word": "modification",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 修正, 修饰, 修改\\n[化] 修饰; 修改"
+    },
+    {
+      "word": "molecular",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 分子的, 由分子组成的\\n[医] 分子的"
+    },
+    {
+      "word": "momentary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 瞬间的, 刹那间的"
+    },
+    {
+      "word": "monetary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 货币的, 金钱的\\n[经] 货币的, 金融的"
+    },
+    {
+      "word": "moslem",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "motel",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 汽车旅馆"
+    },
+    {
+      "word": "motorway",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 高速公路"
+    },
+    {
+      "word": "multicultural",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 融合或具有多种文化的；多种文化的"
+    },
+    {
+      "word": "mysteriously",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4
+      },
+      "source_translation": "adv. 神秘地; 不可思议地; 诡秘地; 故弄玄虚地"
+    },
+    {
+      "word": "naval",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 海军的, 军舰的, 有舰队的\\n[法] 海军的, 军舰的, 船的"
+    },
+    {
+      "word": "nave",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. (教堂)中殿, 中央广场, 轮毂\\n[机] 轮毂"
+    },
+    {
+      "word": "negro",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 黑人\\na. 黑人的"
+    },
+    {
+      "word": "neighbourhood",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 5
+      },
+      "source_translation": "n. 邻接, 周围, 附近一带, 邻近, 邻居关系, 地区, 街道, 街坊, 四邻\\n[计] 邻域"
+    },
+    {
+      "word": "neighbouring",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 邻近的, 接壤的, 附近的\\n[法] 邻近的, 附近的, 接壤的"
+    },
+    {
+      "word": "neutrality",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 中立, 不偏不倚, 中间状态\\n[医] 中性; 无作用[性]"
+    },
+    {
+      "word": "newly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "adv. 重新, 最近"
+    },
+    {
+      "word": "nil",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 无, 全无, 零\\n[法] 无, 零, 无有"
+    },
+    {
+      "word": "northwards",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 向北方"
+    },
+    {
+      "word": "noticeable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 显而易见的, 显著的, 值得注意的"
+    },
+    {
+      "word": "notoriously",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 臭名昭著的, 声名狼藉的"
+    },
+    {
+      "word": "notwithstanding",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 虽然, 尽管\\nprep. 尽管\\nconj. 虽然"
+    },
+    {
+      "word": "nought",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 没有, 零, 无"
+    },
+    {
+      "word": "nuclear",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 核子的, 原子能的, 核的, 中心的\\n[医] 核的"
+    },
+    {
+      "word": "nuisance",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 讨厌的东西, 讨厌的人, 损害\\n[医] 损害, 讨厌"
+    },
+    {
+      "word": "obedience",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 服从, 顺从, 忠实\\n[法] 服从, 顺从, 遵从"
+    },
+    {
+      "word": "obscurity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 4
+      },
+      "source_translation": "n. 阴暗, 朦胧, 晦涩, 费解, 身份低微"
+    },
+    {
+      "word": "occurrence",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 发生, 事件, 出现\\n[医] 发生"
+    },
+    {
+      "word": "offence",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 犯罪, 冒犯, 违反, 罪过, 过错, 攻击\\n[法] 犯法, 罪过, 过错"
+    },
+    {
+      "word": "offense",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 犯罪, 伤感情, 攻击"
+    },
+    {
+      "word": "onto",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 在...之上"
+    },
+    {
+      "word": "operational",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 操作的, 运作的\\n[法] 操作上的, 业务上的, 可起作用的"
+    },
+    {
+      "word": "optical",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 眼睛的, 视觉的, 光学的\\n[机] 光学上的, 光学的"
+    },
+    {
+      "word": "ornamental",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 装饰物, 观赏植物\\na. 装饰性的, 装饰的, 观赏用的"
+    },
+    {
+      "word": "ought",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "aux. 应该, 大概\\nn. 责任"
+    },
+    {
+      "word": "outbreak",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 爆发, 暴动\\n[医] 暴发"
+    },
+    {
+      "word": "outer",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 外部的, 外面的, 在外的, 远离中心的\\n[机] 外部的, 外面的, 外侧的"
+    },
+    {
+      "word": "outermost",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 最外面的, 最远离中心的"
+    },
+    {
+      "word": "outgoing",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 外出, 开支, 流出\\na. 喜欢外出的, 即将离职的, 乐于助人的"
+    },
+    {
+      "word": "outlive",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt. 比...经久, 比...活得长, 度过(风暴)而健在"
+    },
+    {
+      "word": "outnumber",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "vt. 数目超过, 比...多"
+    },
+    {
+      "word": "outskirt",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 边缘, 郊外, 外围"
+    },
+    {
+      "word": "outwards",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 向外地"
+    },
+    {
+      "word": "outweigh",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt. 比...重, 比...重要, 比...有价值"
+    },
+    {
+      "word": "overcharge",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "v. 讨价过高, 装载过多, 过度充电, 渲染\\nn. 超载, 装药过多, 过度充电"
+    },
+    {
+      "word": "overexcited",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "v. 使过于激动（或兴奋）, 过度刺激( overexcite的过去式和过去分词 )"
+    },
+    {
+      "word": "overhang",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 突出部份, 悬垂部份\\nvt. 悬于...之上, (危险等)逼近\\nvi. 悬垂, 逼近"
+    },
+    {
+      "word": "overt",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 明显的, 公然的, 蓄意的\\n[法] 明显的, 公开的"
+    },
+    {
+      "word": "owing",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 未付的, 亏欠的, 受惠的, 归因于...的\\n[经] 应付的, 欠着的, 未付的"
+    },
+    {
+      "word": "p.m.",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "phrase_or_noncanonical_headword": 1,
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "pacific",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 太平洋\\na. 太平洋的, 太平洋沿岸的, 爱好和平的, 安静的, 平息的"
+    },
+    {
+      "word": "pail",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 桶, 提桶"
+    },
+    {
+      "word": "pane",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 窗玻璃, 方框, 方格, 窗格\\nvt. 嵌窗玻璃于\\n[计] 窗格"
+    },
+    {
+      "word": "panther",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 豹, 黑豹, 美洲豹"
+    },
+    {
+      "word": "pantry",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 餐具室, 食品室"
+    },
+    {
+      "word": "paradoxically",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 反论, 荒谬, 自相矛盾, 似非而可能是"
+    },
+    {
+      "word": "paralyse",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 使麻痹, 使瘫痪, 使无力, 使气馁, 终止\\n[医] 使麻痹, 使瘫痪"
+    },
+    {
+      "word": "passively",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 6,
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. (贬)被动, 守势, 受动, (贬)消极, 不抵抗, 驯服, 钝性, 无源, 钝态, 无利息"
+    },
+    {
+      "word": "paternity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 父亲身份, 父系血统, 创始人(身份), 来源, 出处\\n[医] 父权, 亲权; 父系"
+    },
+    {
+      "word": "paw",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5
+      },
+      "source_translation": "n. 爪\\nv. 以蹄扒地, 用爪子抓, 拼命抓, 向...乱抓, 笨拙地使用, 费力地前进"
+    },
+    {
+      "word": "payroll",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 工资名单, 饷金名单, 发放的工资总额\\n[计] 工资表, 工资单"
+    },
+    {
+      "word": "pedlar",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 沿街叫卖的小贩, (流言)传播者\\n[经] 小贩, 商贩, 货郎"
+    },
+    {
+      "word": "penetration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 穿透, 渗透, 侵入, 识穿, 洞察(力)\\n[化] 渗入"
+    },
+    {
+      "word": "perfection",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 完美, 完成, 极端\\n[经] 完整性"
+    },
+    {
+      "word": "peripheral",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 周边的, 周围的, 圆周的, 无关紧要的, 肤浅的\\n[医] 外周的, 周围的, 末梢的"
+    },
+    {
+      "word": "permanently",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "adv. 永久, 不变, 持久\\n[计] 永久性的"
+    },
+    {
+      "word": "permissible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 可允许的, 可容许程度的\\n[机] 容许, 允许"
+    },
+    {
+      "word": "perplex",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "vt. 使困惑, 使复杂化, 使为难\\n[法] 困惑, 使复杂化, 使纠缠不清"
+    },
+    {
+      "word": "perspiration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 汗, 流汗, 努力\\n[医] 出汗; 汗"
+    },
+    {
+      "word": "persuasion",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 说服, 信念, 派别, 说服力"
+    },
+    {
+      "word": "pessimist",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 悲观者, 厌世者, 悲观主义者"
+    },
+    {
+      "word": "philanthropy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 慈善, 仁慈, 博爱, 慈善事业, 慈善机构(团体)"
+    },
+    {
+      "word": "photoelectric",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 光电的, 灯光摄影装置的\\n[电] 光电的"
+    },
+    {
+      "word": "photographic",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 照相的, 摄影用的, 详细记录的, 逼真的, 酷似的"
+    },
+    {
+      "word": "physiological",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 生理学的, 生理学上的, 生理机能的\\n[医] 生理学的, 生理的"
+    },
+    {
+      "word": "pint",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "n. 品脱(干量或液量的单位)\\n[医] 量磅, 品脱"
+    },
+    {
+      "word": "planetary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 4
+      },
+      "source_translation": "a. 行星的, 流浪的, 迁移不定的, 地球上的, 现世的"
+    },
+    {
+      "word": "plausible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 貌似真实的, 貌似合理的, 说得煞有其事的\\n[法] 花言巧语的, 似乎有理的"
+    },
+    {
+      "word": "plough",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 犁, 犁过的地\\nvi. 用犁耕田, 开路\\nvt. 耕, 犁, 开路"
+    },
+    {
+      "word": "plutocrat",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 富豪, 财阀"
+    },
+    {
+      "word": "pointless",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 不尖的, 钝的, 不得要领的"
+    },
+    {
+      "word": "polar",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 4
+      },
+      "source_translation": "a. 两极的, 极地的, 正好相反的, 极性的\\nn. 极线, 极面"
+    },
+    {
+      "word": "positively",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4
+      },
+      "source_translation": "adv. 明确地, 肯定地, 无疑地, (非正式)确实地, 真正地"
+    },
+    {
+      "word": "postal",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 邮政的, 邮局的\\n[经] 邮政的"
+    },
+    {
+      "word": "postdoctoral",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 博士后的"
+    },
+    {
+      "word": "potentially",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 可能地, 潜在地"
+    },
+    {
+      "word": "practicable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 可实行的, 可做的, 可用的"
+    },
+    {
+      "word": "precaution",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 预防, 留心, 警戒\\nvt. 预先警告"
+    },
+    {
+      "word": "precede",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 在...之前, 优于, 较...优先\\nvi. 在前面"
+    },
+    {
+      "word": "preceding",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 在前的, 前面的\\n[法] 在前的, 在先的, 前面的"
+    },
+    {
+      "word": "predestine",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vt. 预定, 注定"
+    },
+    {
+      "word": "predictable",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 可预言的"
+    },
+    {
+      "word": "predominant",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 占主导地位的, 卓越的\\n[法] 占优势的, 支配其他的, 主要的"
+    },
+    {
+      "word": "predominantly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4
+      },
+      "source_translation": "adv. 主要地, 显著地, 大多数地, 突出地"
+    },
+    {
+      "word": "preferable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 更可取的, 更好的, 更合意的"
+    },
+    {
+      "word": "preferentially",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": " [医]优先地"
+    },
+    {
+      "word": "preindustrial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 未工业化的, 工业化前的"
+    },
+    {
+      "word": "premature",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 早产的, 过早的, 不成熟的\\nn. 早产儿, 过早发生的事物"
+    },
+    {
+      "word": "prematurely",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 过早地, 贸然地"
+    },
+    {
+      "word": "preparatory",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 预备性的, 准备性的\\nn. 预科"
+    },
+    {
+      "word": "prescient",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 预知的, 有先见之明的"
+    },
+    {
+      "word": "prescribe",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "v. 规定, 指定, 嘱咐, 开处方"
+    },
+    {
+      "word": "presentation",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 赠与, 描述, 介绍\\n[计] 简报"
+    },
+    {
+      "word": "preservation",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 保存, 保藏, 保护\\n[医] 保藏, 保存, 防腐"
+    },
+    {
+      "word": "presidency",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 总统职权, 总裁职位"
+    },
+    {
+      "word": "prevailing",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 盛行很广的, 优势的, 主要的, 普遍的\\n[法] 占优势的, 盛行的, 通行的"
+    },
+    {
+      "word": "prevalence",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 普遍, 流行, 广泛\\n[医] 流行, 盛行"
+    },
+    {
+      "word": "preventable",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 可防止的, 可阻止的, 可预防的"
+    },
+    {
+      "word": "preventive",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 预防的, 防止的\\nn. 防止物, 预防方法, 预防药"
+    },
+    {
+      "word": "principally",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 主要地, 大部分"
+    },
+    {
+      "word": "prior",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 更重要的, 较早的, 在先的\\nn. 小隐修院院长, 大隐修院副院长"
+    },
+    {
+      "word": "privileged",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 有特权的, 有特别恩典的\\n[法] 特许的, 有特权的"
+    },
+    {
+      "word": "proceeding",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 进行, 程序, 行动, 诉讼程序, 事项\\n[化] 会议论文集"
+    },
+    {
+      "word": "processing",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[计] 处理\\n[化] 加工"
+    },
+    {
+      "word": "procession",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 队伍, 连续, 列队行进, 涌出"
+    },
+    {
+      "word": "productive",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 能生产的, 有生产价值的, 多产的\\n[医] 产出性的, 产生性的"
+    },
+    {
+      "word": "proficiency",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 精通, 熟练, 精练"
+    },
+    {
+      "word": "prohibitively",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 禁止, 起阻止作用, 抑制"
+    },
+    {
+      "word": "projecting",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 突出的, 伸出的"
+    },
+    {
+      "word": "promotional",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 增进的"
+    },
+    {
+      "word": "promptly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 敏捷地, 迅速地"
+    },
+    {
+      "word": "prone",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 俯伏的, 面向下的, 有...倾向的\\n[医] 旋前的, 伏的, 俯的"
+    },
+    {
+      "word": "propagation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 增殖, 繁殖, 宣传\\n[医] 传播, 繁殖, 持续培养"
+    },
+    {
+      "word": "proportional",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 比例的, 相称的\\nn. 比例项"
+    },
+    {
+      "word": "propulsion",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 推进, 推进力\\n[医] 前冲, 慌张步态"
+    },
+    {
+      "word": "prospective",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 预期的, 将来的\\n[经] 预期的, 未来的"
+    },
+    {
+      "word": "protective",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 给予保护的, 保护的\\n[医] 保护的, 防护的, 保护剂, 保护物, 油绸"
+    },
+    {
+      "word": "protend",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "v. (使)伸出, (使)伸展"
+    },
+    {
+      "word": "providing",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "conj. 以...为条件, 假如"
+    },
+    {
+      "word": "provocation",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 激怒, 刺激, 挑拨\\n[医] 激发[作用]"
+    },
+    {
+      "word": "provocative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 激发感情的, 挑拨的, 刺激的\\nn. 刺激物, 挑拨物, 兴奋剂"
+    },
+    {
+      "word": "provost",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 教务长, 监督员, 牧师\\n[法] 监督者, 负责官员, 监狱看守"
+    },
+    {
+      "word": "proximately",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 近似地"
+    },
+    {
+      "word": "proximity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 接近, 亲近"
+    },
+    {
+      "word": "psychiatrist",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 精神病医生, 精神病学家\\n[医] 精神病学家"
+    },
+    {
+      "word": "publicity",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 名声, 宣传, 公开场合\\n[经] 宣传, 广告"
+    },
+    {
+      "word": "puzzling",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 使迷惑的, 把人难住的"
+    },
+    {
+      "word": "pyjamas",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 睡衣裤, 宽松裤"
+    },
+    {
+      "word": "qualitative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 性质的, 质的, 定性的"
+    },
+    {
+      "word": "quantifiable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 可以计量的"
+    },
+    {
+      "word": "quart",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 夸脱\\n[医] 夸脱(四分之一加仑)"
+    },
+    {
+      "word": "racial",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 人种的, 种族的\\n[医] 种族的"
+    },
+    {
+      "word": "racially",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 按人种, 人种上"
+    },
+    {
+      "word": "radically",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "adv. 根本地, 完全地"
+    },
+    {
+      "word": "radioactive",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 放射性的, 有放射能的\\n[医] 放射性的, 放射的"
+    },
+    {
+      "word": "randomly",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 6,
+        "pos_needs_review": 5
+      },
+      "source_translation": "adv. 偶然, 胡乱, 无目的, 任意, 随便, 任取, 无规则, 机遇, 胡乱地, 任意地, 随便地\\n[计] 随机地"
+    },
+    {
+      "word": "rapidity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 迅速, 急速, 速度"
+    },
+    {
+      "word": "rapture",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 4
+      },
+      "source_translation": "n. 兴高采烈, 着迷, 欢天喜地, 狂喜\\nvt. 使狂喜"
+    },
+    {
+      "word": "rating",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 等级, 额定功率, 责骂\\n[经] 等级评定"
+    },
+    {
+      "word": "rattle",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 使嘎嘎响, 喋喋不休地说\\nvi. 格格响, 喋喋不休\\nn. 格格声, 拨浪鼓, 喋喋不休的话"
+    },
+    {
+      "word": "readily",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 迅速地, 轻易地, 乐意地"
+    },
+    {
+      "word": "readjust",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 重新调整, 再调整\\n[法] 再整理, 再调整"
+    },
+    {
+      "word": "reassure",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt. 使...安心, 向...再保证\\n[法] 重新保证, 再保险, 使清除疑虑"
+    },
+    {
+      "word": "receptionist",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 接待员"
+    },
+    {
+      "word": "reconciliation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 9
+      },
+      "source_translation": "n. 和解, 和好, 复交, 调解, 调停, 和谐, 一致, 甘愿, 顺从\\n[经] (银行往来)调节, 调和, 一致"
+    },
+    {
+      "word": "recreational",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 消遣的, 娱乐的"
+    },
+    {
+      "word": "recruiter",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 招聘人员, 征兵人员"
+    },
+    {
+      "word": "recruitment",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 新兵征召\\n[医] 募集[反应], 募集[现象](生理), 复聪(耳科)"
+    },
+    {
+      "word": "recurrence",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 再现, 再发生, 反复, 循环\\n[医] 复发, 再发"
+    },
+    {
+      "word": "recyclable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 可循环再用的"
+    },
+    {
+      "word": "refinery",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 精炼厂\\n[化] 精炼厂炼糖厂"
+    },
+    {
+      "word": "reflective",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 反射的, 反映的, 沉思的"
+    },
+    {
+      "word": "reflexion",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[医] 反射[作用], 反折"
+    },
+    {
+      "word": "reframe",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "vt. 再构造, 重新制订, 再组织, 给...装上新框架"
+    },
+    {
+      "word": "refreshment",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 点心, 起提神作用的事物, 精神爽快"
+    },
+    {
+      "word": "refuel",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "v. 补给燃料"
+    },
+    {
+      "word": "refuge",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 避难所, 安全地带, 避难, 庇护\\nvi. 躲避\\nvt. 给予...庇护"
+    },
+    {
+      "word": "refusal",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 拒绝, 推却, 优先决定权\\n[法] 拒绝, 谢绝, 取舍权"
+    },
+    {
+      "word": "regenerative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 再生的, 更生的, 更新的\\n[医] 再生的"
+    },
+    {
+      "word": "registration",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 登记, 挂号, 注册\\n[计] 登记; 定位; 对齐; 记录"
+    },
+    {
+      "word": "regularly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 有规则地, 一丝不苟地, 正式地"
+    },
+    {
+      "word": "reimbursement",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 付还, 退还\\n[经] 偿付, 赔还"
+    },
+    {
+      "word": "rejection",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 拒绝, 抛弃, 驳回, 被抛弃的东西, 呕出物\\n[化] 报废; 拒收"
+    },
+    {
+      "word": "relegate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 驱逐, 使降低地位, 把...归类, 把...委托给\\n[法] 流放, 判流放刑, 驱逐"
+    },
+    {
+      "word": "reliance",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 信任, 信赖, 受信赖的人(或事)\\n[法] 信任, 信赖, 信心"
+    },
+    {
+      "word": "reluctance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 不情愿, 勉强\\n[电] 磁阻"
+    },
+    {
+      "word": "removal",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 5
+      },
+      "source_translation": "n. 移动, 移居, 迁移, 排除, 切除\\n[医] 切除, 除去"
+    },
+    {
+      "word": "renewable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 6
+      },
+      "source_translation": "a. 可更新的, 可恢复的, 可继续的, 可换新的, 可重复的, 可重说的\\n[计] 可更新, 可再生的"
+    },
+    {
+      "word": "renovation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 革新, 刷新, 修理\\n[化] 改建"
+    },
+    {
+      "word": "rental",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 租费, 租金收入\\na. 租赁的, 收取租金的"
+    },
+    {
+      "word": "repave",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt.再铺, 重新铺砌"
+    },
+    {
+      "word": "repetition",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 重复, 背诵, 循环, 复制品, 副本\\n[机] 重复, 反复"
+    },
+    {
+      "word": "repression",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 抑制, 压抑, 制止\\n[医] 压抑, 抑制"
+    },
+    {
+      "word": "reproductive",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 生殖的, 再生的, 复制的\\n[医] 生殖的, 复现的"
+    },
+    {
+      "word": "resemblance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 相似处, 类似, 肖像"
+    },
+    {
+      "word": "reservation",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 保留, 预定, 保留品, 保留地\\n[经] 预定, 预约, 权益保留"
+    },
+    {
+      "word": "reservior",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 贮水池,贮藏处,贮备"
+    },
+    {
+      "word": "residential",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 住宅的, 与居住有关的\\n[法] 有关居住的, 房产的:居所的, 适于居住的"
+    },
+    {
+      "word": "resistant",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 抵抗者, 反抗者\\na. 抵抗的, 反抗的, 耐...的"
+    },
+    {
+      "word": "respondent",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 回答的, 应答的, 反射的\\nn. 应答者, 被告"
+    },
+    {
+      "word": "restraint",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 抑制, 克制, 束缚\\n[医] 约束, 拘束"
+    },
+    {
+      "word": "retrain",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 重新训练, 再训练"
+    },
+    {
+      "word": "revision",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 校订, 修正, 修订本, 修订版\\n[计] 修订版"
+    },
+    {
+      "word": "rewarding",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 有益的, 有报酬的, 报答的"
+    },
+    {
+      "word": "rhetorical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 修辞学的, 符合修辞学的, 修辞的"
+    },
+    {
+      "word": "rid",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "vt. 免除, 以...清除, 使获自由, 使摆脱\\n[法] 免除, 清除, 摆脱"
+    },
+    {
+      "word": "rigor",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 6
+      },
+      "source_translation": "n. 严格, 严厉, 苛刻, 严酷, 严密, 精确\\n[医] 寒战, 强直, 僵硬"
+    },
+    {
+      "word": "rivalry",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 竞争, 对抗\\n[医] 拮抗"
+    },
+    {
+      "word": "rotation",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 旋转, 循环, 轮流\\n[计] 旋转"
+    },
+    {
+      "word": "routinely",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 4
+      },
+      "source_translation": "adv. 日常, 乏味, 常规, 例行"
+    },
+    {
+      "word": "rug",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 小块地毯, 揭露某人"
+    },
+    {
+      "word": "rural",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 乡下的, 田园的, 乡村风味的\\n[法] 农村的, 乡村的, 有关农业的"
+    },
+    {
+      "word": "sadly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4
+      },
+      "source_translation": "adv. 悲痛地, 悲惨地, 悲伤地, 说来遗憾"
+    },
+    {
+      "word": "sadness",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 悲哀, 悲伤"
+    },
+    {
+      "word": "saleable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 适销的, 价格适当的, 畅销的"
+    },
+    {
+      "word": "salvation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 拯救, 救助, 救世"
+    },
+    {
+      "word": "satisfactorily",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "adv. 令人满意地"
+    },
+    {
+      "word": "saturation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 饱和, 渗透, 浸透, 色饱和度\\n[计] 饱和度"
+    },
+    {
+      "word": "saucer",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 茶碟, 茶托\\n[医] 碟"
+    },
+    {
+      "word": "saving",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 6,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 存款, 挽救, 节约\\na. 搭救的, 节约的, 保留的, 补偿的\\nprep. 除...之外"
+    },
+    {
+      "word": "scarcity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 缺乏, 不足, 缺少\\n[经] 缺乏, 不足"
+    },
+    {
+      "word": "sceptical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 怀疑论的, 怀疑的"
+    },
+    {
+      "word": "scrutiny",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 细看, 仔细检查, 监视, 选票检查\\n[经] 复查, 评核, 仔细检查"
+    },
+    {
+      "word": "sedentary",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 久坐的, 坐惯的, 定栖的\\n[医] 静坐的; 坐式的"
+    },
+    {
+      "word": "segregate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 分离的, 被隔离的\\nvi. 分离, 隔离, 分凝\\nvt. 使分离, 使隔离"
+    },
+    {
+      "word": "segregation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 隔离, 偏析, 被隔离的部分, 种族隔离\\n[化] 分离; 分凝; 离析; 偏析; 分聚"
+    },
+    {
+      "word": "seminate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vt.播种于, 传播,散布"
+    },
+    {
+      "word": "serial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 分期连载作品, 连载小说\\na. 连续的, 一连串的, 连载的, 分期偿还的\\n[计] 连续的; 串行的"
+    },
+    {
+      "word": "sermon",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 说教, 启示, 布道"
+    },
+    {
+      "word": "serpent",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 巨蛇座, 蛇, 蛇形管, 狡猾的人"
+    },
+    {
+      "word": "sexual",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 性的, 性别的\\n[医] 性的; 性欲的"
+    },
+    {
+      "word": "shaky",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 震动的, 摇晃的, 动摇的"
+    },
+    {
+      "word": "sharply",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 锐利地, 严厉地, 厉害地\\n[经] 剧烈地"
+    },
+    {
+      "word": "shipbuilding",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 造船"
+    },
+    {
+      "word": "shipment",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 装船, 出货\\n[经] 运送, 运送(寄出)货物, 装载"
+    },
+    {
+      "word": "shopping",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 买东西, 购物\\n[经] 购物, 买东西"
+    },
+    {
+      "word": "showmanship",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 安排演出的窍门, 吸引观众的窍门, 经营术, 招徕生意的手腕"
+    },
+    {
+      "word": "sickness",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 疾病, 不健康, 呕吐\\n[医] 病"
+    },
+    {
+      "word": "sideways",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 向旁边, 向侧面地\\na. 旁边的, 向侧面的"
+    },
+    {
+      "word": "sitting-room",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 起居室"
+    },
+    {
+      "word": "situated",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "a. 位于...的, 坐落在...的, 处于某种境地的\\n[法] 坐落...的, 位于...的, 处于某种境地的"
+    },
+    {
+      "word": "skeptical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 怀疑论的, 怀疑的, 不可知论的\\n[法] 怀疑的, 不信的, 怀疑论者的"
+    },
+    {
+      "word": "skyrocket",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "vi. 飞涨, 突升\\nn. 焰火"
+    },
+    {
+      "word": "slam",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 6,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 砰然声, 猛然, 猛烈的抨击\\nvt. 猛然关上, 砰地关上, 猛烈抨击\\nvi. 砰地关上, 猛攻"
+    },
+    {
+      "word": "slump",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 暴跌, 垂头弯腰的姿态\\nvi. 猛然掉落, 陷入, 衰落(经济等)"
+    },
+    {
+      "word": "snowy",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 多雪的, 雪的, 被雪所覆盖着的, 下雪的"
+    },
+    {
+      "word": "socialist",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 社会主义者, 社会党党员\\n[法] 社会主义的"
+    },
+    {
+      "word": "softness",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 柔和, 温柔"
+    },
+    {
+      "word": "solar",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 太阳的, 日光的, 源自太阳的\\n[医] 太阳的; 腹腔丛的"
+    },
+    {
+      "word": "solicitor",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. (英)律师, 初级律师, (美)法务官, (美)掮客, 游说者, (美)募捐者\\n[经] 募损者, 律师"
+    },
+    {
+      "word": "solidarity",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 团结, 团结一致, 共同一致\\n[法] 团结, 共同责任"
+    },
+    {
+      "word": "solvable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 可以解的, 可以解决的\\n[医] 溶解的, 可溶的"
+    },
+    {
+      "word": "somebody",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 了不起的人, 大人物\\npron. 有人, 某人"
+    },
+    {
+      "word": "sometime",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 以前的, 某一时间的\\nadv. 改天, 来日"
+    },
+    {
+      "word": "sophisticate",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 久经世故的人, 精于...之道的人\\nvt. 篡改, 曲解, 使变得世故, 掺合, 弄复杂\\nvi. 诡辩"
+    },
+    {
+      "word": "southern",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 南方人, 男风\\na. 向南方的, 来自南方的"
+    },
+    {
+      "word": "southwards",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 在南方"
+    },
+    {
+      "word": "spatial",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 空间的, 受空间条件限制的, 占地位的\\n[医] 隙的, 间隙的, 腔的; 空间的, 立体的"
+    },
+    {
+      "word": "specifically",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 特定地, 明确地, 按特性"
+    },
+    {
+      "word": "spelling",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 拼, 拼字, 拼法\\n[计] 拼写检查"
+    },
+    {
+      "word": "spinal",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 针的, 尖刺的, 尖刺状突起的, 脊骨的\\n[医] 棘折; 脊柱的"
+    },
+    {
+      "word": "squalor",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 肮脏, 贫穷, 不干净"
+    },
+    {
+      "word": "squash",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 6,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "n. 挤压, 压碎的东西, 南瓜属植物, 拥挤的人群\\nvt. 压扁, 镇压, 压制\\nvi. 被压扁, 发溅泼声, 挤入"
+    },
+    {
+      "word": "stainless",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 无瑕疵的, 不锈的\\n[机] 不绣的, 污染的"
+    },
+    {
+      "word": "starvation",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 饥饿, 饿死\\n[医] 绝食, 饥锇(指长时期的)"
+    },
+    {
+      "word": "statistic",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 统计量\\na. 统计的, 统计学的"
+    },
+    {
+      "word": "stiffness",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 坚硬, 呆板, 刻板\\n[医] 强直, 僵硬"
+    },
+    {
+      "word": "stillness",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 静止, 沉静"
+    },
+    {
+      "word": "stockbroker",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 股票经纪人"
+    },
+    {
+      "word": "stocking",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "n. 长袜\\n[医] 马足水肿; 长袜"
+    },
+    {
+      "word": "strangler",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 扼杀者, 压制者, (英)阻气门, 阻塞门"
+    },
+    {
+      "word": "stressful",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 着重, 强调, 重读, 使受应力"
+    },
+    {
+      "word": "strongly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 强有力地, 坚强地, 激烈地"
+    },
+    {
+      "word": "subscript",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "a. 下标的, 写在底下的\\nn. 下标\\n[计] 下标"
+    },
+    {
+      "word": "subscription",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 4,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 捐献, 订金, 订阅, 签署, 同意\\n[化] 订购"
+    },
+    {
+      "word": "subsequent",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 后来的, 接下去的\\n[经] 后来的"
+    },
+    {
+      "word": "suburban",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 郊外的, 郊区的, (贬)偏狭的, 土气的, 见识不广的\\nn. 郊区居民"
+    },
+    {
+      "word": "succeeding",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 随后的, 以后的"
+    },
+    {
+      "word": "successive",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 继承的, 连续的\\n[经] 接续承运人; 连续的"
+    },
+    {
+      "word": "sufficiently",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 足够, 充分"
+    },
+    {
+      "word": "superintendent",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "n. 监督人, 主管人, 主日学校校长\\n[经] 监督人, 主管人(部门)"
+    },
+    {
+      "word": "surgical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 外科的, 外科医生的, 手术上的\\nn. 外科病例, 外科病房, 外科手术"
+    },
+    {
+      "word": "surprising",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 令人惊讶的"
+    },
+    {
+      "word": "surprisingly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 使人惊奇, 出人意外, 惊人, 令人惊讶"
+    },
+    {
+      "word": "surrounding",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 环境\\na. 周围的"
+    },
+    {
+      "word": "susceptible",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 易受影响的, 易感动的, 容许...的\\n[法] 易感的, 易受影响的, 容许"
+    },
+    {
+      "word": "swiss",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "sympathetic",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 有同情心的, 合意的, 赞成的\\nn. 交感神经, 容易感受的人"
+    },
+    {
+      "word": "systematical",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 有系统的, 成体系的, 有秩序的, 有组织的, 分类学的, 故意的, 彻底的"
+    },
+    {
+      "word": "systematically",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 有系统地, 有组织地, 有条理地"
+    },
+    {
+      "word": "tack",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 平头钉, 大头钉, 粗缝针脚, 行动方针, 食物\\nvt. 以大头针钉住, 附加"
+    },
+    {
+      "word": "tact",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 机智, 手法, 老练\\n[经] (自动加工线的)生产节拍"
+    },
+    {
+      "word": "takeoff",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 起飞"
+    },
+    {
+      "word": "tangled",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 纠缠的, 紊乱的\\n[法] 复杂的, 缠结的, 繁乱的"
+    },
+    {
+      "word": "taper",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 5,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 带子操作工, 小蜡烛, 尖细, 渐弱, 锥形, 尖塔\\na. 尖细的, 分等级的\\nv. (使)一头逐渐变细, (使)逐渐减少"
+    },
+    {
+      "word": "technical",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "a. 技术上的, 专门的, 工业的, 严格根据法律的\\n[化] 技巧"
+    },
+    {
+      "word": "telecommunications",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 电信, 通讯, 电信学\\n[电] 电通信"
+    },
+    {
+      "word": "telegraph",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 电报, 电报机\\nvi. 打电报\\nvt. 打电报给, 电汇, 流露, 显示出要...的样子"
+    },
+    {
+      "word": "tensile",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 可拉长的, 可伸长的, 张力的, 拉力的\\n[机] 拉的"
+    },
+    {
+      "word": "tentative",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 试验\\na. 试验性的, 暂时的"
+    },
+    {
+      "word": "theft",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 盗窃, 失窃, 盗窃罪, 赃物\\n[法] 盗窃行为, 偷窃, 失窃"
+    },
+    {
+      "word": "thereof",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "adv. 在其中, 关于..., 由此\\n[法] 由是, 由此, 属于它的"
+    },
+    {
+      "word": "thirdly",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "adv. 第三"
+    },
+    {
+      "word": "thoughtless",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 欠考虑的, 无深虑的, 轻率的"
+    },
+    {
+      "word": "thrill",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 震颤, 激动, 刺激性, 一阵激动\\nvi. 震颤, 颤抖, 激动\\nvt. 使激动, 使颤动"
+    },
+    {
+      "word": "throng",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 4
+      },
+      "source_translation": "n. 群, 人群, 群集, 众多\\na. 拥挤的\\nvi. 群集, 蜂拥\\nvt. 在...群集, 使拥塞"
+    },
+    {
+      "word": "tiresome",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 累人的, 烦人的"
+    },
+    {
+      "word": "touchable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 可触的, 可使感动的"
+    },
+    {
+      "word": "tract",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 大片土地, 地带, 小册子\\n[医] 束, 道"
+    },
+    {
+      "word": "tradeoff",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. （公平）交易（等于trade-off）；权衡；折衷"
+    },
+    {
+      "word": "tradesman",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 零售商, 工匠\\n[经] 商人, 店主, 零售商"
+    },
+    {
+      "word": "transverse",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 横断物\\na. 横的, 横向的"
+    },
+    {
+      "word": "tremendously",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "adv. 极大地; 极端地; 极其; 非常"
+    },
+    {
+      "word": "turning",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 旋转, 转弯处, 车削工作\\n[化] 车削"
+    },
+    {
+      "word": "ultrasonic",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 超声波\\na. 超音速的"
+    },
+    {
+      "word": "unable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 不能的, 不会的\\n[法] 无能力的, 无资格的, 没有办法的"
+    },
+    {
+      "word": "unaffordable",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 买不起的, 负担不起的"
+    },
+    {
+      "word": "unanimous",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 意见一致的, 无异议的"
+    },
+    {
+      "word": "unbiased",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 没有偏见的\\n[法] 无偏见的, 大公无私的, 公平的"
+    },
+    {
+      "word": "underfunded",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 资金不足的"
+    },
+    {
+      "word": "underlying",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 在下面的\\n[经] 优先的, 基础的, 放在下面的"
+    },
+    {
+      "word": "underrepresented",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "a. 未被充分代表的"
+    },
+    {
+      "word": "underscore",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "vt. 划线于...下\\nn. (表强调的)下划线\\n[计] 底线"
+    },
+    {
+      "word": "undertaking",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 事业, 企业, 保证\\n[经] 企业, 事业, 承担"
+    },
+    {
+      "word": "undesirable",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 不受欢迎的, 不合乎社会道德标准的\\n[法] 不受欢迎的人, 不良份子, 不法份子"
+    },
+    {
+      "word": "undocumented",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 无正式文件的, 无事实证明的"
+    },
+    {
+      "word": "unethical",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 不道德的"
+    },
+    {
+      "word": "universally",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 10
+      },
+      "source_translation": "adv. 宇宙, 全世界, 普遍, 一般, 普通, 全体, 一致, 通用, 万能, 广用, 广泛"
+    },
+    {
+      "word": "unpaid",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "a. 未付款的, 不支薪水的\\n[经] 未付的, 未缴纳的"
+    },
+    {
+      "word": "unrest",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 不安的状态, 动荡的局面\\n[医] 不安"
+    },
+    {
+      "word": "unsuitable",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 不适合的\\n[法] 不适合的, 不适当的"
+    },
+    {
+      "word": "untreated",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "[化] 未经处理的"
+    },
+    {
+      "word": "untrustworthy",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 不能信赖的, 靠不住的"
+    },
+    {
+      "word": "upon",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 在...之上, 迫近, 紧接着"
+    },
+    {
+      "word": "upper",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3,
+        "pos_needs_review": 4,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "a. 上面的, 较高的, 上级的, 上院的, 穿在外面的, 北部的, 地表的, 后期的\\nn. 鞋帮, 上齿"
+    },
+    {
+      "word": "upside-down",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 颠倒的, 乱七八糟的"
+    },
+    {
+      "word": "uptodate",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 直到现代的, 现时的, 最新式的"
+    },
+    {
+      "word": "upwards",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "adv. 以上, 向上"
+    },
+    {
+      "word": "utilization",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "n. 利用\\n[医] 利用"
+    },
+    {
+      "word": "utopian",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "not_in_pinned_ecdict_lowercase": 1
+      },
+      "source_translation": null
+    },
+    {
+      "word": "vengeance",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 复仇, 报仇\\n[法] 报仇, 复仇"
+    },
+    {
+      "word": "verge",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1,
+        "synonym_needs_review": 4
+      },
+      "source_translation": "n. 边缘, 边界, 起始点\\nvi. 处在边缘, 接近, 下沉, 趋向"
+    },
+    {
+      "word": "versus",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "prep. 对...\\n[法] 诉, 对, 相形"
+    },
+    {
+      "word": "vex",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 1
+      },
+      "source_translation": "vt. 使烦恼, 使苦恼\\nvi. 烦恼"
+    },
+    {
+      "word": "victimize",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "vt. 使牺牲, 使受害\\n[法] 使受害, 使作牺牲, 欺骗"
+    },
+    {
+      "word": "violation",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3
+      },
+      "source_translation": "n. 违反, 违背, 妨碍\\n[法] 违犯, 违背, 违反"
+    },
+    {
+      "word": "violently",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 猛烈地, 激烈地, 极端地"
+    },
+    {
+      "word": "visceral",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 内脏的\\n[医] 内脏的"
+    },
+    {
+      "word": "visible",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 看得见的, 明显的, 显然的\\nn. 可见物"
+    },
+    {
+      "word": "vitally",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 3
+      },
+      "source_translation": "adv. 与生命有关地, 致命地, 紧要地"
+    },
+    {
+      "word": "vitamine",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 维生素, 维他命"
+    },
+    {
+      "word": "vocal",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 3,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "a. 嗓音的, 声音的, 有声的, 歌唱的\\nn. 元音, 声乐作品"
+    },
+    {
+      "word": "vocational",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 职业的\\n[法] 职业上的, 天职的"
+    },
+    {
+      "word": "wag",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 3,
+        "synonym_needs_review": 3
+      },
+      "source_translation": "vt. 摇摆, 摇动, 饶舌\\nvi. 摆动, 喋喋不休\\nn. 摇摆, 爱说笑打趣的人"
+    },
+    {
+      "word": "waggon",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 4,
+        "synonym_needs_review": 2
+      },
+      "source_translation": "n. 运货车, 四轮运货马车, (英)铁路货车, 流动服务车, 小型客车, 囚车, 童车"
+    },
+    {
+      "word": "wagon",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 四轮马车, 货车\\n[法] 囚车, 马车, 运货车"
+    },
+    {
+      "word": "wasteful",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 1
+      },
+      "source_translation": "a. 浪费的, 不经济的"
+    },
+    {
+      "word": "watchful",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 注意的, 警戒的, 警醒的, (时间)醒着换过的"
+    },
+    {
+      "word": "whatsoever",
+      "targets": [
+        "cet4"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "pron. 无论什么"
+    },
+    {
+      "word": "whereas",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "conj. 然而, 鉴于\\n[法] 考虑到, 鉴于, 就...而论"
+    },
+    {
+      "word": "whichever",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "pron. 无论那一个, 任何一个"
+    },
+    {
+      "word": "whilst",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_atomic_supported_pos_gloss": 1
+      },
+      "source_translation": "conj. 当...的时候, 和...同时, 虽然, 只要, 然而, 而, 尽管"
+    },
+    {
+      "word": "whisker",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 腮须, 胡须, 一丝儿\\n[化] 晶须"
+    },
+    {
+      "word": "whisky",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2
+      },
+      "source_translation": "n. 威士忌酒, 轻便马车\\n[化] 威士忌酒"
+    },
+    {
+      "word": "widespread",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 2,
+        "pos_needs_review": 2
+      },
+      "source_translation": "a. 充分伸展的, 广布的, 普及的, 流传广的"
+    },
+    {
+      "word": "wishful",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 愿望的, 渴望的, 一厢情愿的"
+    },
+    {
+      "word": "woe",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 悲哀, 悲痛, 苦痛"
+    },
+    {
+      "word": "woollen",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "n. 毛织品\\na. 羊毛制的"
+    },
+    {
+      "word": "world-wide",
+      "targets": [
+        "cet4",
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "a. 遍及全世界的"
+    },
+    {
+      "word": "wrath",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2
+      },
+      "source_translation": "n. 愤怒, 激怒, 愤怒的举动, (自然现象等)严酷"
+    },
+    {
+      "word": "xerox",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1
+      },
+      "source_translation": "v. 静电复印"
+    },
+    {
+      "word": "yielding",
+      "targets": [
+        "cet6"
+      ],
+      "reasons": {
+        "no_existing_chinese_key": 1,
+        "pos_needs_review": 2,
+        "synonym_needs_review": 1
+      },
+      "source_translation": "a. 生产的, 屈从的, 柔顺的, 易弯曲的\\n[化] 屈服"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+   Compiling qingjian-core v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-core)
+   Compiling wordtrail-windows-server v0.1.4 (D:\研究方向\多模态\qingjian-mobile\desktop)
+   Compiling qingjian-predict v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-predict)
+   Compiling qingjian-translate v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-translate)
+   Compiling wordtrail-vocabulary v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vocabulary)
+   Compiling qingjian-neural v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-neural)
+   Compiling qingjian-lm v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-lm)
+   Compiling wordtrail-pronunciation v0.1.1 (D:\研究方向\多模态\qingjian-mobile\pronunciation)
+   Compiling qingjian-learning v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-learning)
+   Compiling qingjian-platform v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-platform)
+   Compiling qingjian-update v0.1.1 (D:\研究方向\多模态\qingjian-mobile\vendor\qingjian\crates\qingjian-update)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 24.75s
+     Running unittests src\lib.rs (target\debug\deps\wordtrail_vocabulary-4644f6bb75bff735.exe)
+
+running 6 tests
+test expansion::tests::expanded_constructor_is_bounded_default_stays_two ... ok
+test tests::validates_and_deduplicates_selection ... ok
+test expansion::tests::non_english_unchanged_and_hidden_senses_not_exposed ... ok
+test expansion::tests::retains_originals_deduplicates_and_keeps_extras ... ok
+test tests::exact_matches_multitag_and_sources ... ok
+test tests::stable_priority_preserves_senses_and_non_english ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running unittests src\lib.rs (target\debug\deps\qingjian_windows_server-a3c92be41f55de45.exe)
+
+running 9 tests
+test ui::candidates::render_data::tests::window_keeps_the_pinyin_row_unless_inline_only ... ok
+test dispatch::key::tests::shift_tab_precedes_prediction_and_english_commit ... ok
+test dispatch::key::tests::tab_with_raw_input_and_no_candidates_is_consumed_without_commit ... ok
+test dispatch::key::tests::tab_and_backtab_page_boundaries_and_current_page_selection ... ok
+test dispatch::reload::tests::vocabulary_preferences_load_reload_and_reject_invalid_without_touching_general_config ... ok
+test dispatch::key::tests::exam_priority_keeps_chinese_order_and_ctrl_digit_matches_display ... ok
+test dispatch::key::tests::extra_translations_can_be_browsed_and_committed_without_chinese_reordering ... ok
+test dispatch::reload::tests::dictionary_changes_do_not_retry_broken_config ... ok
+test dispatch::reload::tests::import_replace_and_remove_without_config_changes ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+
+     Running unittests src\main.rs (target\debug\deps\qingjian_server-43f1fe73105c4782.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wordtrail_vocabulary
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests qingjian_windows_server
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

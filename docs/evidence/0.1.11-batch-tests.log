@@ -1,0 +1,12 @@
+test_all_published_pairs_and_their_order_are_retained (__main__.BatchDataTests.test_all_published_pairs_and_their_order_are_retained) ... ok
+test_gloss_parser_never_extracts_explanatory_substrings (__main__.BatchDataTests.test_gloss_parser_never_extracts_explanatory_substrings) ... ok
+test_original_senses_without_pos_still_count_as_mapped (__main__.BatchDataTests.test_original_senses_without_pos_still_count_as_mapped) ... ok
+test_report_counts_exact_distinct_headwords_not_tag_sum (__main__.BatchDataTests.test_report_counts_exact_distinct_headwords_not_tag_sum) ... ok
+test_reproducible_outputs_and_pinned_manifest (__main__.BatchDataTests.test_reproducible_outputs_and_pinned_manifest) ... ok
+test_clear_targets_preserves_original_first_sense_and_chinese_commit (__main__.BatchNativeTests.test_clear_targets_preserves_original_first_sense_and_chinese_commit) ... ok
+test_new_noun_senses_have_correct_pos_ipa_tags_and_exact_commits (__main__.BatchNativeTests.test_new_noun_senses_have_correct_pos_ipa_tags_and_exact_commits) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.286s
+
+OK
