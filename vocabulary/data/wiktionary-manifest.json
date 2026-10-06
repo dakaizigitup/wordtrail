@@ -1,0 +1,211 @@
+{
+  "batch": "02-wiktionary-1",
+  "source": {
+    "project": "English Wiktionary",
+    "url": "https://en.wiktionary.org/",
+    "extraction": "Wiktionary MediaWiki API; 2026-10-06 local audit",
+    "translation_language": "Mandarin Chinese",
+    "license": "CC BY-SA 4.0 (selected Wiktionary content is additionally available under GFDL)",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "curation_file": {
+    "path": "batches/03-wiktionary-reviewed.tsv",
+    "sha256": "5a86215734810c91d2674e7e05bfdfa653a1cc127f8dd1600f656ab22f3b0913",
+    "rows": 15
+  },
+  "runtime_file": {
+    "path": "wiktionary-expansion.tsv",
+    "sha256": "ddd58e54a4df2c6c17e5561cd004052939e58bfeb5f0e27b03676d87b2fbab32",
+    "bytes": 679,
+    "rows": 15
+  },
+  "added_pairs": 15,
+  "added_headwords": 15,
+  "added_candidate_keys": 15,
+  "added_headwords_by_target": {
+    "cet4": 7,
+    "cet6": 14
+  },
+  "pending_before": 651,
+  "pending_after": 636,
+  "coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4738,
+      "missing": 261,
+      "percent": 94.78,
+      "mapped_with_ipa": 4730
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5489,
+      "missing": 547,
+      "percent": 90.94,
+      "mapped_with_ipa": 5478
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3695,
+      "missing": 645,
+      "percent": 85.14,
+      "mapped_with_ipa": 3690
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9459,
+      "missing": 2951,
+      "percent": 76.22,
+      "mapped_with_ipa": 9444
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8492,
+      "missing": 3721,
+      "percent": 69.53,
+      "mapped_with_ipa": 8433
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5331,
+      "missing": 1226,
+      "percent": 81.3,
+      "mapped_with_ipa": 5308
+    }
+  },
+  "coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4745,
+      "missing": 254,
+      "percent": 94.92,
+      "mapped_with_ipa": 4737
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5503,
+      "missing": 533,
+      "percent": 91.17,
+      "mapped_with_ipa": 5492
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3698,
+      "missing": 642,
+      "percent": 85.21,
+      "mapped_with_ipa": 3693
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 9465,
+      "missing": 2945,
+      "percent": 76.27,
+      "mapped_with_ipa": 9450
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 8502,
+      "missing": 3711,
+      "percent": 69.61,
+      "mapped_with_ipa": 8443
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5335,
+      "missing": 1222,
+      "percent": 81.36,
+      "mapped_with_ipa": 5312
+    }
+  },
+  "candidate_reachable_coverage_before": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4581,
+      "missing": 418,
+      "percent": 91.64,
+      "mapped_with_ipa": 4574
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5283,
+      "missing": 753,
+      "percent": 87.52,
+      "mapped_with_ipa": 5273
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3544,
+      "missing": 796,
+      "percent": 81.66,
+      "mapped_with_ipa": 3539
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 8986,
+      "missing": 3424,
+      "percent": 72.41,
+      "mapped_with_ipa": 8973
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 7947,
+      "missing": 4266,
+      "percent": 65.07,
+      "mapped_with_ipa": 7907
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5089,
+      "missing": 1468,
+      "percent": 77.61,
+      "mapped_with_ipa": 5071
+    }
+  },
+  "candidate_reachable_coverage_after": {
+    "cet4": {
+      "total": 4999,
+      "mapped": 4588,
+      "missing": 411,
+      "percent": 91.78,
+      "mapped_with_ipa": 4581
+    },
+    "cet6": {
+      "total": 6036,
+      "mapped": 5297,
+      "missing": 739,
+      "percent": 87.76,
+      "mapped_with_ipa": 5287
+    },
+    "tem4": {
+      "total": 4340,
+      "mapped": 3547,
+      "missing": 793,
+      "percent": 81.73,
+      "mapped_with_ipa": 3542
+    },
+    "tem8": {
+      "total": 12410,
+      "mapped": 8992,
+      "missing": 3418,
+      "percent": 72.46,
+      "mapped_with_ipa": 8979
+    },
+    "toefl": {
+      "total": 12213,
+      "mapped": 7957,
+      "missing": 4256,
+      "percent": 65.15,
+      "mapped_with_ipa": 7917
+    },
+    "ielts": {
+      "total": 6557,
+      "mapped": 5093,
+      "missing": 1464,
+      "percent": 77.67,
+      "mapped_with_ipa": 5075
+    }
+  },
+  "reachability_scope": "Reachability coverage includes original glossary words for every exact Chinese surface in the complete exported pinyin candidate index, including one-character keys. The Wiktionary additions themselves are restricted to 2-6 Han-character keys. The 0.1.13 short-gloss batch audit counted only 2-6 Han-character keys, so its 90.66%/86.46% figures are not directly comparable; under this complete-key scope its baseline is 91.64%/87.52%.",
+  "review_rule": "Every included row is an exact English Wiktionary Mandarin translation in a pinned revision, manually checked against the entry sense and the local ECDICT short gloss, with an exact packed Chinese pinyin key and bundled English IPA. The dataset remains separate from the MIT/BSD expansion file and carries its own CC BY-SA attribution.",
+  "not_included": "Other Wiktionary candidates with no exact pinyin key, weak or mismatched sense/POS evidence, stigmatizing wording, or no bundled IPA remain excluded from runtime.",
+  "license_boundary": "The generated wiktionary-expansion.tsv and its source-attributed curation file are CC BY-SA 4.0 data. The adjacent software and ECDICT/KyleBing expansion files retain their own existing licenses."
+}

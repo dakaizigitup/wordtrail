@@ -93,7 +93,7 @@ def main():
     while adb('shell','getprop','sys.boot_completed')!='1':
         if time.monotonic()>deadline: raise AssertionError('Emulator boot timed out')
         time.sleep(2)
-    adb('install','-r',str(ROOT/'dist/wordtrail-0.1.7-debug.apk'),timeout=90)
+    adb('install','-r',str(ROOT/'dist/wordtrail-0.1.14-debug.apk'),timeout=90)
     adb('install','-r',str(ROOT/'build/probe/probe.apk'))
     adb('shell','settings','put','secure','show_ime_with_hard_keyboard','1')
     adb('shell','am','force-stop','org.wordtrail.ime')

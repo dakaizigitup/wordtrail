@@ -1,6 +1,6 @@
 """Exercise the real Windows server over an isolated pipe and capture its candidate window."""
 from pathlib import Path
-import ctypes, ctypes.wintypes as W, json, os, shutil, struct, subprocess, time
+import csv, ctypes, ctypes.wintypes as W, json, os, shutil, struct, subprocess, time
 import tkinter as tk
 from PIL import ImageGrab
 
@@ -188,6 +188,31 @@ try:
             assert [c['text'] for c in items]==before_candidates,'Chinese candidate order changed while browsing extended batch02'
         assert english in shown,'Extended batch02 word did not appear in the real candidate window'
         check('extended batch02 displayed '+english+' commits exactly',key(slot,ctrl=True,shift=shown.index(english)==1)['commit']==english)
+    vocabulary.write_text('{"targets":["cet4","cet6"]}',encoding='utf-8');time.sleep(1.2)
+    send('Poll',dict(session=session))
+    pinyin_codes={line.split('\t')[0]:line.split('\t')[1].replace(' ','') for line in (ROOT/'build/pinyin-candidates.tsv').read_text(encoding='utf-8').splitlines()}
+    with (ROOT/'vocabulary/data/batches/03-wiktionary-reviewed.tsv').open(encoding='utf-8',newline='') as stream:
+        wiktionary_rows=list(csv.DictReader(stream,delimiter='\t'))
+    for row in wiktionary_rows:
+        for char in pinyin_codes[row['chinese']]:result=key(char)
+        items=result['frame']['candidates']['items']
+        for _ in range(80):
+            candidate=next((c for c in items if c['text']==row['chinese']),None)
+            if candidate is not None:break
+            page=send('Key',dict(session=session,event=dict(virtual_key=9,character=None,modifiers=dict(ctrl=False,shift=False,alt=False,win=False,caps=False,english_mode=False))))['KeyResult']
+            next_items=page['frame']['candidates']['items']
+            if [c['text'] for c in next_items]==[c['text'] for c in items]:break
+            result=page;items=next_items
+        check('Wiktionary IPC '+row['chinese']+' exposes '+row['english'],candidate is not None and any(s['text']==row['english'] for s in candidate['translation']['senses']))
+        before=[c['text'] for c in items];slot=str(items.index(candidate)+1);shown=[]
+        for _ in range(len(candidate['translation']['senses'])+1):
+            candidate=next(c for c in result['frame']['candidates']['items'] if c['text']==row['chinese'])
+            shown=[s['text'] for s in candidate['translation']['senses'][:2]]
+            if row['english'] in shown:break
+            result=key(slot,ctrl=True,alt=True);items=result['frame']['candidates']['items']
+            assert [c['text'] for c in items]==before,'Chinese order changed while browsing Wiktionary translation'
+        assert row['english'] in shown,'Wiktionary word did not appear in the real candidate window'
+        check('Wiktionary IPC commits '+row['english'],key(slot,ctrl=True,shift=shown.index(row['english'])==1)['commit']==row['english'])
     report=dict(passed=checks,pipe=PIPE,isolated_user_directory=str(USER),screenshot=str(screenshot),window_bounds=bounds,protocol=7)
     (ROOT/'build/desktop-tests.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     pipe.close()

@@ -16,7 +16,7 @@ def sha(file):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--windows-patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版四六级补词补丁'))
-    parser.add_argument('--version',default='0.1.13')
+    parser.add_argument('--version',default='0.1.14')
     args = parser.parse_args()
     output = ROOT/'dist'/'github-release'
     output.mkdir(parents=True,exist_ok=True)
@@ -33,6 +33,8 @@ def main():
     with zipfile.ZipFile(windows,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
         for name in allowed:
             archive.write(patch/name,'wordtrail-windows-ipa-'+version+'/'+name)
+        archive.write(ROOT/'vocabulary/data/WIKTIONARY-ATTRIBUTION.md','wordtrail-windows-ipa-'+version+'/data-license/WIKTIONARY-ATTRIBUTION.md')
+        archive.write(ROOT/'vocabulary/data/batches/03-wiktionary-reviewed.tsv','wordtrail-windows-ipa-'+version+'/data-license/03-wiktionary-reviewed.tsv')
         archive.write(ROOT/'docs/电脑版音标补丁.md','wordtrail-windows-ipa-'+version+'/使用说明.md')
         for name in ['desktop-tests.json','desktop-tests.txt','pronunciation-tests.txt']:
             file=patch/'evidence'/name

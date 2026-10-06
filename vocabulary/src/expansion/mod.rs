@@ -6,19 +6,22 @@ pub use translator::ExpandedTranslator;
 
 pub const EXTRA_PER_WORD: usize = 8;
 const DATA: &str = include_str!("../../data/english-expansion.tsv");
+const WIKTIONARY_DATA: &str = include_str!("../../data/wiktionary-expansion.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
-        for row in DATA.lines() {
-            let mut fields = row.split('\t');
-            let chinese = fields.next().unwrap();
-            let english = fields.next().unwrap();
-            let pos = fields.next().unwrap().parse().expect("valid expansion POS");
-            let source = fields.next().unwrap();
-            index
-                .entry(chinese)
-                .or_default()
-                .push((english, pos, source));
+        for data in [DATA, WIKTIONARY_DATA] {
+            for row in data.lines() {
+                let mut fields = row.split('\t');
+                let chinese = fields.next().unwrap();
+                let english = fields.next().unwrap();
+                let pos = fields.next().unwrap().parse().expect("valid expansion POS");
+                let source = fields.next().unwrap();
+                index
+                    .entry(chinese)
+                    .or_default()
+                    .push((english, pos, source));
+            }
         }
         index
     });
@@ -148,6 +151,34 @@ mod tests {
                 senses(chinese).any(|sense| sense.text == english && source(chinese, english) == Some(expected_source)),
                 "missing exact expansion {chinese} -> {english}"
             );
+        }
+    }
+
+    #[test]
+    fn wiktionary_batch_additions_are_queryable_with_source_and_exam_tags() {
+        let rows: Vec<_> = include_str!("../../data/wiktionary-expansion.tsv").lines().collect();
+        assert_eq!(rows.len(), 15);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "Wiktionary CC BY-SA 4.0");
+            assert!(
+                senses(chinese).any(|sense| sense.text == english),
+                "missing Wiktionary expansion {chinese} -> {english}"
+            );
+            assert_eq!(source(chinese, english), Some("Wiktionary CC BY-SA 4.0"));
+        }
+        for (chinese, english) in [
+            ("附属", "auxiliary"), ("衰退", "downturn"), ("流利", "fluently"),
+            ("非常", "immensely"), ("行距", "leading"), ("大主教", "metropolitan"),
+            ("移民", "migrant"), ("郊外", "outskirt"), ("大部分", "predominantly"),
+            ("悲哀", "sadness"), ("造船", "shipbuilding"), ("下跌", "slump"),
+            ("竟然", "surprisingly"), ("第三", "thirdly"), ("任何", "whatsoever"),
+        ] {
+            assert!(senses(chinese).any(|sense| sense.text == english));
         }
     }
     #[test]

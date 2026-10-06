@@ -1,5 +1,6 @@
 """批次01数据保留、释义边界、覆盖统计及真实拼音候选的新增译词上屏。"""
 import collections
+import csv
 import hashlib
 import json
 import sys
@@ -87,6 +88,20 @@ class BatchDataTests(unittest.TestCase):
         self.assertNotIn('丰富\taffluent', data.decode('utf-8'))
         self.assertFalse(any('relinguish' == row[1] for row in self.rows))
 
+    def test_wiktionary_batch_has_revision_pins_and_separate_license(self):
+        manifest = json.loads((self.data / 'wiktionary-manifest.json').read_text(encoding='utf-8'))
+        self.assertEqual(manifest['source']['license'].split(' (')[0], 'CC BY-SA 4.0')
+        self.assertEqual(manifest['runtime_file']['rows'], 15)
+        self.assertEqual(manifest['pending_before'] - manifest['pending_after'], 15)
+        self.assertEqual(hashlib.sha256((self.data / 'wiktionary-expansion.tsv').read_bytes()).hexdigest(), manifest['runtime_file']['sha256'])
+        with (self.data / 'batches/03-wiktionary-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream, delimiter='\t'))
+        self.assertEqual(len(rows), 15)
+        for row in rows:
+            self.assertRegex(row['source_revision_id'], r'^\d+$')
+            self.assertTrue(row['source_url'].endswith('?oldid=' + row['source_revision_id']))
+            self.assertTrue(row['review_note'])
+
 
 class BatchNativeTests(unittest.TestCase):
     def setUp(self):
@@ -140,6 +155,32 @@ class BatchNativeTests(unittest.TestCase):
         chosen = next(c for c in state['candidates'] if c['text'] == '分析')
         self.assertEqual(chosen['translation_senses'][0]['text'], 'analyze')
         self.assertEqual(self.action('select', index=chosen['id'], revision=state['revision'])['commit'], '分析')
+
+    def test_wiktionary_additions_are_reachable_tagged_and_individually_committable(self):
+        pinyin = {row.split('\t')[0]: row.split('\t')[1].replace(' ', '') for row in (ROOT / 'build/pinyin-candidates.tsv').read_text(encoding='utf-8').splitlines()}
+        with (ROOT / 'vocabulary/data/batches/03-wiktionary-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream, delimiter='\t'))
+        for row in rows:
+            chinese, english = row['chinese'], row['english']
+            self.assertIn(chinese, pinyin)
+            state = self.typed(pinyin[chinese])
+            candidate = None
+            for page in range(state['page_count']):
+                candidate = next((item for item in state['candidates'] if item['text'] == chinese), None)
+                if candidate is not None:
+                    break
+                state = self.action('next_page')
+            self.assertIsNotNone(candidate, f'{chinese} is not reachable by its packed pinyin')
+            candidate_order = [item['text'] for item in state['candidates']]
+            state = self.action('vocabulary', vocabulary_targets=['cet4', 'cet6'])
+            self.assertEqual([item['text'] for item in state['candidates']], candidate_order)
+            candidate = next(item for item in state['candidates'] if item['text'] == chinese)
+            sense = next((item for item in candidate['translation_senses'] if item['text'] == english), None)
+            self.assertIsNotNone(sense, f'missing translated sense {chinese} -> {english}')
+            self.assertEqual(sense['translation_source'], 'Wiktionary CC BY-SA 4.0')
+            self.assertTrue(any(tag['id'] in {'cet4', 'cet6'} for tag in sense['tags']))
+            self.assertEqual(sense['pronunciation']['word'], english)
+            self.assertEqual(self.action('translation', index=candidate['id'], sense_index=sense['index'], revision=state['revision'])['commit'], english)
 
 
 if __name__ == '__main__':
