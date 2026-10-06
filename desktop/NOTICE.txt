@@ -1,8 +1,8 @@
-Windows 音标与词汇目标补丁 0.1.10：用于现有青简 0.1.4 安装。
+Windows 音标与词汇目标补丁 0.1.11：用于现有青简 0.1.4 安装。
 非官方发布；不分发青简品牌图标。保持已安装官方资源。
-对应源码在 wordtrail-0.1.17-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
+对应源码在 wordtrail-0.1.18-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
 
-词伴输入法 / Wordtrail 0.1.17
+词伴输入法 / Wordtrail 0.1.18
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -10,7 +10,7 @@ Windows 音标与词汇目标补丁 0.1.10：用于现有青简 0.1.4 安装。
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.17-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.18-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -52,7 +52,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 
 署名：English Wiktionary contributors；https://en.wiktionary.org/ 。
 许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项及汉语词条释义中选择与词性/义项相符、且可由本机拼音候选输入的考试词，整理为精简中英词条。第二批候选发现使用固定 Kaikki 派生快照，校验散列与许可边界见 vocabulary/data/wiktionary-manifest-2.json 和 WIKTIONARY-ATTRIBUTION.md。
-以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.17-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 与 06-wiktionary-zh-reviewed.tsv 提供。
+以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.18-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 与 06-wiktionary-zh-reviewed.tsv 提供。
 
 auxiliary (adj.) -> 附属; https://en.wiktionary.org/wiki/auxiliary?oldid=93145546
 
@@ -101,7 +101,7 @@ utopian (adj.) -> 空想; https://en.wiktionary.org/wiki/%E7%A9%BA%E6%83%B3?oldi
 
 === CC-CEDICT 词汇补充（独立 CC BY-SA 4.0 数据）===
 
-署名：MDBG 与 CC-CEDICT contributors；https://cc-cedict.org/editor/editor.php?handler=Download 。许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ 。采用 TeaPearce/chinese-english-dictionary 固定提交 a9aea223269eb9820590e5bca783eb299c317439 中的 2026-06 CC-CEDICT 文本镜像；原始文件 SHA-256：8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f。修改：从中文到英文的整词释义中筛选四六级词，人工核对义项；补充本地拼音键与考试标签，并用 ECDICT（MIT）交叉检查词性。CC-CEDICT 不提供词性。本源码包分批交付 124 条精简对应，不分发完整词典。运行词条及本表中的 CC-CEDICT 派生部分按 CC BY-SA 4.0 提供；POS 交叉核对来源与完整记录见随包 vocabulary/data/CC-CEDICT-ATTRIBUTION.md、vocabulary/data/batches/04-cc-cedict-reviewed.tsv、vocabulary/data/batches/05-cc-cedict-reviewed.tsv 及两份 cccedict-manifest。
+署名：MDBG 与 CC-CEDICT contributors；https://cc-cedict.org/editor/editor.php?handler=Download 。许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ 。采用 TeaPearce/chinese-english-dictionary 固定提交 a9aea223269eb9820590e5bca783eb299c317439 中的 2026-06 CC-CEDICT 文本镜像；原始文件 SHA-256：8172061b2a647dd8a179788830ef233944baee479bc7018f111064ad16d8f46f。修改：从中文到英文的整词释义中筛选四六级词，人工核对义项；补充本地拼音键与考试标签，并用 ECDICT（MIT）交叉检查词性。CC-CEDICT 不提供词性。本源码包分批交付 144 条精简对应，不分发完整词典。运行词条及本表中的 CC-CEDICT 派生部分按 CC BY-SA 4.0 提供；POS 交叉核对来源与完整记录见随包 vocabulary/data/CC-CEDICT-ATTRIBUTION.md、vocabulary/data/batches/04-cc-cedict-reviewed.tsv、vocabulary/data/batches/05-cc-cedict-reviewed.tsv、vocabulary/data/batches/07-cc-cedict-reviewed.tsv、vocabulary/data/batches/07-cc-cedict-review-input.tsv 及三份 cccedict-manifest。
 
 ambient (n.) -> 环境; CC-CEDICT line 73830; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
@@ -350,6 +350,46 @@ skyrocket (v.) -> 扶摇直上; CC-CEDICT line 45124; https://github.com/TeaPear
 shipment (n.) -> 装运; CC-CEDICT line 98779; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
 efficiently (adv.) -> 三下五除二; CC-CEDICT line 1192; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+justification (n.) -> 理由; CC-CEDICT line 73493; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+ensue (v.) -> 接着; CC-CEDICT line 47927; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+prevailing (adj.) -> 主导; CC-CEDICT line 3961; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+whereas (conj.) -> 鉴于; CC-CEDICT line 112721; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+citation (n.) -> 引文; CC-CEDICT line 39089; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+malpractice (n.) -> 玩忽职守; CC-CEDICT line 73070; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+unbiased (adj.) -> 持平; CC-CEDICT line 46807; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+insanity (n.) -> 精神错乱; CC-CEDICT line 84100; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+practicable (adj.) -> 行得通; CC-CEDICT line 97951; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+across (prep.) -> 对过; CC-CEDICT line 34308; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+evaporation (n.) -> 气化; CC-CEDICT line 61930; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+recruitment (n.) -> 征兵; CC-CEDICT line 40615; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+likeness (n.) -> 肖像; CC-CEDICT line 89784; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+prescient (adj.) -> 前瞻; CC-CEDICT line 14515; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+wasteful (adj.) -> 大手大脚; CC-CEDICT line 28017; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+wagon (n.) -> 车皮; CC-CEDICT line 105636; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+nuclear (adj.) -> 核子; CC-CEDICT line 57370; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+sometime (adv.) -> 日后; CC-CEDICT line 52569; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+ornamental (adj.) -> 装饰; CC-CEDICT line 98785; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
+
+decorative (adj.) -> 装饰; CC-CEDICT line 98785; https://github.com/TeaPearce/chinese-english-dictionary/blob/a9aea223269eb9820590e5bca783eb299c317439/data/cedict_ts_june2026.u8
 
 
 === vocabulary\data\ECDICT-LICENSE ===

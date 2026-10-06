@@ -1,0 +1,15 @@
+{
+  "version_name": "0.1.18",
+  "version_code": 19,
+  "application_id": "org.wordtrail.ime",
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "abis": ["arm64-v8a", "x86_64"],
+  "apk": "wordtrail-0.1.18-debug.apk",
+  "bytes": 252299621,
+  "sha256": "b595245759194843dcdd6c1fae52c860cf4a18addeb048dc5ea4cc04e7ab35d7",
+  "signature_v2": true,
+  "signature_v3": true,
+  "aligned_for_16_kib_pages": true,
+  "device_test": "not run: no Android device or configured emulator was attached"
+}

@@ -61,6 +61,7 @@ def main():
         "wiktionary-expansion-2.tsv",
         "cccedict-expansion.tsv",
         "cccedict-expansion-2.tsv",
+        "cccedict-expansion-3.tsv",
     )
     for name in runtime_names:
         for row in read_expansion(DATA / name):

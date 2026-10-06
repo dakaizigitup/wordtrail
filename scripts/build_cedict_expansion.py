@@ -111,7 +111,10 @@ def build_payloads(
     tags, pinyin, ipa = exam_inputs()
     base = load_base(BASELINE)
     original = read_expansion(DATA / "english-expansion.tsv")
-    wiktionary = read_expansion(DATA / "wiktionary-expansion.tsv")
+    wiktionary = (
+        read_expansion(DATA / "wiktionary-expansion.tsv")
+        + read_expansion(DATA / "wiktionary-expansion-2.tsv")
+    )
     existing_words = {word for senses in base.values() for word, _ in senses}
     existing_words.update(row["english"] for row in original + wiktionary)
     existing_pairs = {(row["chinese"], row["english"]) for row in original + wiktionary}
@@ -220,9 +223,11 @@ def build_payloads(
 
     all_words = existing_words | {row["word"] for row in selected}
     pinyin_keys = set(pinyin)
-    reachable_before = {
-        word for chinese, senses in base.items() if chinese in pinyin_keys for word, _ in senses
-    } | {row["english"] for row in original + wiktionary if row["chinese"] in pinyin_keys}
+    reachable_before = (
+        {word for chinese, senses in base.items() if chinese in pinyin_keys for word, _ in senses}
+        | {row["english"] for row in original + wiktionary if row["chinese"] in pinyin_keys}
+        | {row["english"] for row in prior_rows if row["chinese"] in pinyin_keys}
+    )
     reachable_after = reachable_before | {row["word"] for row in selected}
     before_coverage = coverage(tags, existing_words, ipa)
     after_coverage = coverage(tags, all_words, ipa)

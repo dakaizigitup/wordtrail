@@ -1,0 +1,368 @@
+Windows real candidate window and IPC validation: 367 checks passed.
+PASS: protocol 7 opens a session
+PASS: real dictionary produces Chinese candidate
+PASS: native candidate window renders
+PASS: translation commit contains only hello
+PASS: normal Chinese commit is unchanged
+PASS: target hot reload preserves Chinese candidate order
+PASS: real IPC frame prioritizes TEM4 darling while retaining baby
+PASS: Ctrl digit inserts prioritized translation matching displayed frame
+PASS: real IPC preserves originals and exposes actual added relinquish
+PASS: all extra words can be browsed without changing Chinese order
+PASS: Ctrl digit commits the currently browsed new word
+PASS: new CET6 household is prioritized before original family
+PASS: new prioritized word commits through real IPC
+PASS: batch01 real IPC 分析 retains original and adds analysis
+PASS: batch01 current displayed analysis commits exactly
+PASS: batch01 real IPC 发展 retains original and adds development
+PASS: batch01 current displayed development commits exactly
+PASS: batch01 real IPC 自由 retains original and adds freedom
+PASS: batch01 current displayed freedom commits exactly
+PASS: batch01 real IPC 缺席 retains original and adds absence
+PASS: batch01 current displayed absence commits exactly
+PASS: batch02 real IPC 燃烧 retains original and adds combustion
+PASS: batch02 displayed combustion commits exactly
+PASS: batch02 real IPC 现代化 retains original and adds modernize
+PASS: batch02 displayed modernize commits exactly
+PASS: batch02 real IPC 中立 retains original and adds neutrality
+PASS: batch02 displayed neutrality commits exactly
+PASS: batch02 real IPC 违反 retains original and adds violation
+PASS: batch02 displayed violation commits exactly
+PASS: batch02 extended real IPC 最近 adds newly
+PASS: extended batch02 displayed newly commits exactly
+PASS: batch02 extended real IPC 出现 adds emergence
+PASS: extended batch02 displayed emergence commits exactly
+PASS: batch02 extended real IPC 知道的 adds aware
+PASS: extended batch02 displayed aware commits exactly
+PASS: Wiktionary IPC 附属 exposes auxiliary
+PASS: Wiktionary IPC commits auxiliary
+PASS: Wiktionary IPC 衰退 exposes downturn
+PASS: Wiktionary IPC commits downturn
+PASS: Wiktionary IPC 流利 exposes fluently
+PASS: Wiktionary IPC commits fluently
+PASS: Wiktionary IPC 非常 exposes immensely
+PASS: Wiktionary IPC commits immensely
+PASS: Wiktionary IPC 行距 exposes leading
+PASS: Wiktionary IPC commits leading
+PASS: Wiktionary IPC 大主教 exposes metropolitan
+PASS: Wiktionary IPC commits metropolitan
+PASS: Wiktionary IPC 移民 exposes migrant
+PASS: Wiktionary IPC commits migrant
+PASS: Wiktionary IPC 郊外 exposes outskirt
+PASS: Wiktionary IPC commits outskirt
+PASS: Wiktionary IPC 大部分 exposes predominantly
+PASS: Wiktionary IPC commits predominantly
+PASS: Wiktionary IPC 悲哀 exposes sadness
+PASS: Wiktionary IPC commits sadness
+PASS: Wiktionary IPC 造船 exposes shipbuilding
+PASS: Wiktionary IPC commits shipbuilding
+PASS: Wiktionary IPC 下跌 exposes slump
+PASS: Wiktionary IPC commits slump
+PASS: Wiktionary IPC 竟然 exposes surprisingly
+PASS: Wiktionary IPC commits surprisingly
+PASS: Wiktionary IPC 第三 exposes thirdly
+PASS: Wiktionary IPC commits thirdly
+PASS: Wiktionary IPC 任何 exposes whatsoever
+PASS: Wiktionary IPC commits whatsoever
+PASS: Wiktionary IPC 船上 exposes aboard
+PASS: Wiktionary IPC commits aboard
+PASS: Wiktionary IPC 冬眠 exposes dormant
+PASS: Wiktionary IPC commits dormant
+PASS: Wiktionary IPC 指引 exposes guideline
+PASS: Wiktionary IPC commits guideline
+PASS: Wiktionary IPC 先期 exposes premature
+PASS: Wiktionary IPC commits premature
+PASS: Wiktionary IPC 加油 exposes refuel
+PASS: Wiktionary IPC commits refuel
+PASS: Wiktionary IPC 警司 exposes superintendent
+PASS: Wiktionary IPC commits superintendent
+PASS: Wiktionary IPC 空想 exposes utopian
+PASS: Wiktionary IPC commits utopian
+PASS: CC-CEDICT IPC 环境 exposes ambient
+PASS: CC-CEDICT IPC commits ambient
+PASS: CC-CEDICT IPC 共同 exposes collaborative
+PASS: CC-CEDICT IPC commits collaborative
+PASS: CC-CEDICT IPC 关于 exposes concerning
+PASS: CC-CEDICT IPC commits concerning
+PASS: CC-CEDICT IPC 联邦 exposes federal
+PASS: CC-CEDICT IPC commits federal
+PASS: CC-CEDICT IPC 相当 exposes considerably
+PASS: CC-CEDICT IPC commits considerably
+PASS: CC-CEDICT IPC 每个人 exposes everybody
+PASS: CC-CEDICT IPC commits everybody
+PASS: CC-CEDICT IPC 调整 exposes revision
+PASS: CC-CEDICT IPC commits revision
+PASS: CC-CEDICT IPC 校长 exposes headmaster
+PASS: CC-CEDICT IPC commits headmaster
+PASS: CC-CEDICT IPC 前面 exposes preceding
+PASS: CC-CEDICT IPC commits preceding
+PASS: CC-CEDICT IPC 连续 exposes consecutive
+PASS: CC-CEDICT IPC commits consecutive
+PASS: CC-CEDICT IPC 连续 exposes serial
+PASS: CC-CEDICT IPC commits serial
+PASS: CC-CEDICT IPC 实习 exposes internship
+PASS: CC-CEDICT IPC commits internship
+PASS: CC-CEDICT IPC 丰富 exposes enrich
+PASS: CC-CEDICT IPC commits enrich
+PASS: CC-CEDICT IPC 累计 exposes cumulative
+PASS: CC-CEDICT IPC commits cumulative
+PASS: CC-CEDICT IPC 之下 exposes beneath
+PASS: CC-CEDICT IPC commits beneath
+PASS: CC-CEDICT IPC 荣誉 exposes honorary
+PASS: CC-CEDICT IPC commits honorary
+PASS: CC-CEDICT IPC 普遍 exposes widespread
+PASS: CC-CEDICT IPC commits widespread
+PASS: CC-CEDICT IPC 互动 exposes interactive
+PASS: CC-CEDICT IPC commits interactive
+PASS: CC-CEDICT IPC 阿拉伯 exposes arabian
+PASS: CC-CEDICT IPC commits arabian
+PASS: CC-CEDICT IPC 移民 exposes immigrate
+PASS: CC-CEDICT IPC commits immigrate
+PASS: CC-CEDICT IPC 购物 exposes shopping
+PASS: CC-CEDICT IPC commits shopping
+PASS: CC-CEDICT IPC 下个 exposes subsequent
+PASS: CC-CEDICT IPC commits subsequent
+PASS: CC-CEDICT IPC 立马 exposes promptly
+PASS: CC-CEDICT IPC commits promptly
+PASS: CC-CEDICT IPC 会计 exposes accountancy
+PASS: CC-CEDICT IPC commits accountancy
+PASS: CC-CEDICT IPC 愤怒 exposes wrath
+PASS: CC-CEDICT IPC commits wrath
+PASS: CC-CEDICT IPC 可见 exposes visible
+PASS: CC-CEDICT IPC commits visible
+PASS: CC-CEDICT IPC 一时 exposes momentary
+PASS: CC-CEDICT IPC commits momentary
+PASS: CC-CEDICT IPC 衬衫 exposes blouse
+PASS: CC-CEDICT IPC commits blouse
+PASS: CC-CEDICT IPC 电信 exposes telecommunications
+PASS: CC-CEDICT IPC commits telecommunications
+PASS: CC-CEDICT IPC 手套 exposes mitten
+PASS: CC-CEDICT IPC commits mitten
+PASS: CC-CEDICT IPC 原子 exposes atomic
+PASS: CC-CEDICT IPC commits atomic
+PASS: CC-CEDICT IPC 虚构 exposes fabrication
+PASS: CC-CEDICT IPC commits fabrication
+PASS: CC-CEDICT IPC 震惊 exposes astonish
+PASS: CC-CEDICT IPC commits astonish
+PASS: CC-CEDICT IPC 惊讶 exposes astonishment
+PASS: CC-CEDICT IPC commits astonishment
+PASS: CC-CEDICT IPC 货币 exposes monetary
+PASS: CC-CEDICT IPC commits monetary
+PASS: CC-CEDICT IPC 初步 exposes tentative
+PASS: CC-CEDICT IPC commits tentative
+PASS: CC-CEDICT IPC 有理 exposes justified
+PASS: CC-CEDICT IPC commits justified
+PASS: CC-CEDICT IPC 困扰 exposes perplex
+PASS: CC-CEDICT IPC commits perplex
+PASS: CC-CEDICT IPC 偶然 exposes randomly
+PASS: CC-CEDICT IPC commits randomly
+PASS: CC-CEDICT IPC 包容 exposes inclusive
+PASS: CC-CEDICT IPC commits inclusive
+PASS: CC-CEDICT IPC 邮政 exposes postal
+PASS: CC-CEDICT IPC commits postal
+PASS: CC-CEDICT IPC 殖民 exposes colonial
+PASS: CC-CEDICT IPC commits colonial
+PASS: CC-CEDICT IPC 预备 exposes preparatory
+PASS: CC-CEDICT IPC commits preparatory
+PASS: CC-CEDICT IPC 外围 exposes surrounding
+PASS: CC-CEDICT IPC commits surrounding
+PASS: CC-CEDICT IPC 阳性 exposes masculine
+PASS: CC-CEDICT IPC commits masculine
+PASS: CC-CEDICT IPC 降级 exposes relegate
+PASS: CC-CEDICT IPC commits relegate
+PASS: CC-CEDICT IPC 饥饿 exposes starvation
+PASS: CC-CEDICT IPC commits starvation
+PASS: CC-CEDICT IPC 敏感 exposes susceptible
+PASS: CC-CEDICT IPC commits susceptible
+PASS: CC-CEDICT IPC 订阅 exposes subscription
+PASS: CC-CEDICT IPC commits subscription
+PASS: CC-CEDICT IPC 解析 exposes analytic
+PASS: CC-CEDICT IPC commits analytic
+PASS: CC-CEDICT IPC 幼年 exposes infancy
+PASS: CC-CEDICT IPC commits infancy
+PASS: CC-CEDICT IPC 自动化 exposes automate
+PASS: CC-CEDICT IPC commits automate
+PASS: CC-CEDICT IPC 无能 exposes incompetence
+PASS: CC-CEDICT IPC commits incompetence
+PASS: CC-CEDICT IPC 伤者 exposes casualty
+PASS: CC-CEDICT IPC commits casualty
+PASS: CC-CEDICT IPC 电报 exposes telegraph
+PASS: CC-CEDICT IPC commits telegraph
+PASS: CC-CEDICT IPC 特权 exposes privileged
+PASS: CC-CEDICT IPC commits privileged
+PASS: CC-CEDICT IPC 削弱 exposes cripple
+PASS: CC-CEDICT IPC commits cripple
+PASS: CC-CEDICT IPC 可人 exposes agreeable
+PASS: CC-CEDICT IPC commits agreeable
+PASS: CC-CEDICT IPC 必修 exposes compulsory
+PASS: CC-CEDICT IPC commits compulsory
+PASS: CC-CEDICT IPC 惨重 exposes disastrous
+PASS: CC-CEDICT IPC commits disastrous
+PASS: CC-CEDICT IPC 推导 exposes derivation
+PASS: CC-CEDICT IPC commits derivation
+PASS: CC-CEDICT IPC 乡间 exposes rural
+PASS: CC-CEDICT IPC commits rural
+PASS: CC-CEDICT IPC 在先 exposes prior
+PASS: CC-CEDICT IPC commits prior
+PASS: CC-CEDICT IPC 粗心 exposes thoughtless
+PASS: CC-CEDICT IPC commits thoughtless
+PASS: CC-CEDICT IPC 投掷 exposes hurl
+PASS: CC-CEDICT IPC commits hurl
+PASS: CC-CEDICT IPC 动摇 exposes rattle
+PASS: CC-CEDICT IPC commits rattle
+PASS: CC-CEDICT IPC 害人 exposes victimize
+PASS: CC-CEDICT IPC commits victimize
+PASS: CC-CEDICT IPC 拥挤 exposes throng
+PASS: CC-CEDICT IPC commits throng
+PASS: CC-CEDICT IPC 地毯 exposes rug
+PASS: CC-CEDICT IPC commits rug
+PASS: CC-CEDICT IPC 闭塞 exposes inaccessible
+PASS: CC-CEDICT IPC commits inaccessible
+PASS: CC-CEDICT IPC 挑剔 exposes fussy
+PASS: CC-CEDICT IPC commits fussy
+PASS: CC-CEDICT IPC 坦白 exposes forthcoming
+PASS: CC-CEDICT IPC commits forthcoming
+PASS: CC-CEDICT IPC 剥削 exposes exploitation
+PASS: CC-CEDICT IPC commits exploitation
+PASS: CC-CEDICT IPC 重重 exposes heavily
+PASS: CC-CEDICT IPC commits heavily
+PASS: CC-CEDICT IPC 发愁 exposes fret
+PASS: CC-CEDICT IPC commits fret
+PASS: CC-CEDICT IPC 防范 exposes preventive
+PASS: CC-CEDICT IPC commits preventive
+PASS: CC-CEDICT IPC 放射性 exposes radioactive
+PASS: CC-CEDICT IPC commits radioactive
+PASS: CC-CEDICT IPC 一旁 exposes aside
+PASS: CC-CEDICT IPC commits aside
+PASS: CC-CEDICT IPC 上边 exposes upwards
+PASS: CC-CEDICT IPC commits upwards
+PASS: CC-CEDICT IPC 金发 exposes blond
+PASS: CC-CEDICT IPC commits blond
+PASS: CC-CEDICT IPC 汗水 exposes perspiration
+PASS: CC-CEDICT IPC commits perspiration
+PASS: CC-CEDICT IPC 光电 exposes photoelectric
+PASS: CC-CEDICT IPC commits photoelectric
+PASS: CC-CEDICT IPC 交错 exposes intertwine
+PASS: CC-CEDICT IPC commits intertwine
+PASS: CC-CEDICT IPC 立方体 exposes cubic
+PASS: CC-CEDICT IPC commits cubic
+PASS: CC-CEDICT IPC 伸缩 exposes adjustable
+PASS: CC-CEDICT IPC commits adjustable
+PASS: CC-CEDICT IPC 适度 exposes moderately
+PASS: CC-CEDICT IPC commits moderately
+PASS: CC-CEDICT IPC 怡人 exposes delightful
+PASS: CC-CEDICT IPC commits delightful
+PASS: CC-CEDICT IPC 写法 exposes spelling
+PASS: CC-CEDICT IPC commits spelling
+PASS: CC-CEDICT IPC 实证 exposes empirical
+PASS: CC-CEDICT IPC commits empirical
+PASS: CC-CEDICT IPC 定性 exposes qualitative
+PASS: CC-CEDICT IPC commits qualitative
+PASS: CC-CEDICT IPC 动乱 exposes unrest
+PASS: CC-CEDICT IPC commits unrest
+PASS: CC-CEDICT IPC 本分 exposes dutiful
+PASS: CC-CEDICT IPC commits dutiful
+PASS: CC-CEDICT IPC 寒心 exposes disillusioned
+PASS: CC-CEDICT IPC commits disillusioned
+PASS: CC-CEDICT IPC 无谓 exposes pointless
+PASS: CC-CEDICT IPC commits pointless
+PASS: CC-CEDICT IPC 柔顺 exposes yielding
+PASS: CC-CEDICT IPC commits yielding
+PASS: CC-CEDICT IPC 分立 exposes discrete
+PASS: CC-CEDICT IPC commits discrete
+PASS: CC-CEDICT IPC 倒台 exposes downfall
+PASS: CC-CEDICT IPC commits downfall
+PASS: CC-CEDICT IPC 附庸 exposes dependent
+PASS: CC-CEDICT IPC commits dependent
+PASS: CC-CEDICT IPC 并肩 exposes alongside
+PASS: CC-CEDICT IPC commits alongside
+PASS: CC-CEDICT IPC 碟子 exposes saucer
+PASS: CC-CEDICT IPC commits saucer
+PASS: CC-CEDICT IPC 沉寂 exposes stillness
+PASS: CC-CEDICT IPC commits stillness
+PASS: CC-CEDICT IPC 压扁 exposes squash
+PASS: CC-CEDICT IPC commits squash
+PASS: CC-CEDICT IPC 绝种 exposes extinction
+PASS: CC-CEDICT IPC commits extinction
+PASS: CC-CEDICT IPC 势头 exposes impetus
+PASS: CC-CEDICT IPC commits impetus
+PASS: CC-CEDICT IPC 出人意料 exposes surprising
+PASS: CC-CEDICT IPC commits surprising
+PASS: CC-CEDICT IPC 技术性 exposes technical
+PASS: CC-CEDICT IPC commits technical
+PASS: CC-CEDICT IPC 臭名昭著 exposes infamous
+PASS: CC-CEDICT IPC commits infamous
+PASS: CC-CEDICT IPC 说得过去 exposes justifiable
+PASS: CC-CEDICT IPC commits justifiable
+PASS: CC-CEDICT IPC 宰客 exposes overcharge
+PASS: CC-CEDICT IPC commits overcharge
+PASS: CC-CEDICT IPC 破土 exposes plough
+PASS: CC-CEDICT IPC commits plough
+PASS: CC-CEDICT IPC 急迫 exposes imperative
+PASS: CC-CEDICT IPC commits imperative
+PASS: CC-CEDICT IPC 海产 exposes marine
+PASS: CC-CEDICT IPC commits marine
+PASS: CC-CEDICT IPC 遗传性 exposes genetic
+PASS: CC-CEDICT IPC commits genetic
+PASS: CC-CEDICT IPC 感叹词 exposes exclamation
+PASS: CC-CEDICT IPC commits exclamation
+PASS: CC-CEDICT IPC 扣人心弦 exposes exciting
+PASS: CC-CEDICT IPC commits exciting
+PASS: CC-CEDICT IPC 烦扰 exposes vex
+PASS: CC-CEDICT IPC commits vex
+PASS: CC-CEDICT IPC 开罪 exposes displease
+PASS: CC-CEDICT IPC commits displease
+PASS: CC-CEDICT IPC 众口一词 exposes unanimous
+PASS: CC-CEDICT IPC commits unanimous
+PASS: CC-CEDICT IPC 适销 exposes saleable
+PASS: CC-CEDICT IPC commits saleable
+PASS: CC-CEDICT IPC 错综 exposes tangled
+PASS: CC-CEDICT IPC commits tangled
+PASS: CC-CEDICT IPC 妥帖 exposes satisfactorily
+PASS: CC-CEDICT IPC commits satisfactorily
+PASS: CC-CEDICT IPC 扶摇直上 exposes skyrocket
+PASS: CC-CEDICT IPC commits skyrocket
+PASS: CC-CEDICT IPC 装运 exposes shipment
+PASS: CC-CEDICT IPC commits shipment
+PASS: CC-CEDICT IPC 三下五除二 exposes efficiently
+PASS: CC-CEDICT IPC commits efficiently
+PASS: CC-CEDICT IPC 理由 exposes justification
+PASS: CC-CEDICT IPC commits justification
+PASS: CC-CEDICT IPC 接着 exposes ensue
+PASS: CC-CEDICT IPC commits ensue
+PASS: CC-CEDICT IPC 主导 exposes prevailing
+PASS: CC-CEDICT IPC commits prevailing
+PASS: CC-CEDICT IPC 鉴于 exposes whereas
+PASS: CC-CEDICT IPC commits whereas
+PASS: CC-CEDICT IPC 引文 exposes citation
+PASS: CC-CEDICT IPC commits citation
+PASS: CC-CEDICT IPC 玩忽职守 exposes malpractice
+PASS: CC-CEDICT IPC commits malpractice
+PASS: CC-CEDICT IPC 持平 exposes unbiased
+PASS: CC-CEDICT IPC commits unbiased
+PASS: CC-CEDICT IPC 精神错乱 exposes insanity
+PASS: CC-CEDICT IPC commits insanity
+PASS: CC-CEDICT IPC 行得通 exposes practicable
+PASS: CC-CEDICT IPC commits practicable
+PASS: CC-CEDICT IPC 对过 exposes across
+PASS: CC-CEDICT IPC commits across
+PASS: CC-CEDICT IPC 气化 exposes evaporation
+PASS: CC-CEDICT IPC commits evaporation
+PASS: CC-CEDICT IPC 征兵 exposes recruitment
+PASS: CC-CEDICT IPC commits recruitment
+PASS: CC-CEDICT IPC 肖像 exposes likeness
+PASS: CC-CEDICT IPC commits likeness
+PASS: CC-CEDICT IPC 前瞻 exposes prescient
+PASS: CC-CEDICT IPC commits prescient
+PASS: CC-CEDICT IPC 大手大脚 exposes wasteful
+PASS: CC-CEDICT IPC commits wasteful
+PASS: CC-CEDICT IPC 车皮 exposes wagon
+PASS: CC-CEDICT IPC commits wagon
+PASS: CC-CEDICT IPC 核子 exposes nuclear
+PASS: CC-CEDICT IPC commits nuclear
+PASS: CC-CEDICT IPC 日后 exposes sometime
+PASS: CC-CEDICT IPC commits sometime
+PASS: CC-CEDICT IPC 装饰 exposes ornamental
+PASS: CC-CEDICT IPC commits ornamental
+PASS: CC-CEDICT IPC 装饰 exposes decorative
+PASS: CC-CEDICT IPC commits decorative

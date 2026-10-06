@@ -10,6 +10,7 @@ const WIKTIONARY_DATA: &str = include_str!("../../data/wiktionary-expansion.tsv"
 const WIKTIONARY_2_DATA: &str = include_str!("../../data/wiktionary-expansion-2.tsv");
 const CC_CEDICT_DATA: &str = include_str!("../../data/cccedict-expansion.tsv");
 const CC_CEDICT_2_DATA: &str = include_str!("../../data/cccedict-expansion-2.tsv");
+const CC_CEDICT_3_DATA: &str = include_str!("../../data/cccedict-expansion-3.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
@@ -18,6 +19,7 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             WIKTIONARY_DATA,
             CC_CEDICT_DATA,
             CC_CEDICT_2_DATA,
+            CC_CEDICT_3_DATA,
             WIKTIONARY_2_DATA,
         ] {
             for row in data.lines() {
@@ -203,6 +205,27 @@ mod tests {
             ("任何", "whatsoever"),
         ] {
             assert!(senses(chinese).any(|sense| sense.text == english));
+        }
+    }
+
+    #[test]
+    fn third_cc_cedict_batch_is_queryable_with_separate_attribution() {
+        let rows: Vec<_> = include_str!("../../data/cccedict-expansion-3.tsv")
+            .lines()
+            .collect();
+        assert_eq!(rows.len(), 20);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "CC-CEDICT CC BY-SA 4.0");
+            assert!(
+                senses(chinese).any(|sense| sense.text == english),
+                "missing CC-CEDICT expansion {chinese} -> {english}"
+            );
+            assert_eq!(source(chinese, english), Some("CC-CEDICT CC BY-SA 4.0"));
         }
     }
 

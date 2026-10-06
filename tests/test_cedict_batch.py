@@ -2,8 +2,12 @@
 import csv
 import hashlib
 import json
+import sys
 import unittest
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+from build_cedict_expansion import build_payloads
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -83,6 +87,46 @@ class CedictBatchTests(unittest.TestCase):
             self.assertTrue(row["review_note"])
             self.assertTrue(row["target_tags"].startswith(("cet4", "cet6")))
             self.assertIn("a9aea223269eb9820590e5bca783eb299c317439", row["source_url"])
+
+    def test_third_tranche_is_reproducible_and_adds_only_reviewed_headwords(self):
+        input_path = DATA / "batches/07-cc-cedict-review-input.tsv"
+        reviewed_path = DATA / "batches/07-cc-cedict-reviewed.tsv"
+        runtime_path = DATA / "cccedict-expansion-3.tsv"
+        manifest_path = DATA / "cccedict-manifest-3.json"
+        outputs, manifest = build_payloads(
+            input_path=input_path,
+            reviewed_path=reviewed_path,
+            output_path=runtime_path,
+            manifest_path=manifest_path,
+            batch_name="02-cc-cedict-3",
+            minimum_frequency=0,
+            prior_runtime_paths=(DATA / "cccedict-expansion.tsv", DATA / "cccedict-expansion-2.tsv"),
+        )
+        for path, payload in outputs.items():
+            self.assertEqual(path.read_bytes(), payload, str(path))
+
+        with input_path.open(encoding="utf-8", newline="") as stream:
+            inputs = list(csv.DictReader(stream, delimiter="\t"))
+        with reviewed_path.open(encoding="utf-8", newline="") as stream:
+            reviewed = list(csv.DictReader(stream, delimiter="\t"))
+        runtime = runtime_path.read_bytes()
+        self.assertEqual(len(inputs), 20)
+        self.assertEqual(len(reviewed), 20)
+        self.assertEqual(len(runtime.splitlines()), 20)
+        self.assertEqual(len({row["word"] for row in reviewed}), 20)
+        self.assertEqual(len({row["chinese"] for row in reviewed}), 19)
+        self.assertEqual(manifest["pending_cet_headwords_before"], 505)
+        self.assertEqual(manifest["pending_cet_headwords_after"], 485)
+        self.assertEqual(manifest["coverage_after"]["cet4"]["mapped"], 4810)
+        self.assertEqual(manifest["coverage_after"]["cet6"]["mapped"], 5630)
+        self.assertEqual(manifest["prior_cc_cedict_runtime_files"][1]["rows"], 66)
+        self.assertEqual(manifest["runtime_file"]["sha256"], digest(runtime_path))
+        self.assertEqual(manifest["curation_file"]["sha256"], digest(reviewed_path))
+
+        rows = [line.split("\t") for line in runtime.decode("utf-8").splitlines()]
+        self.assertEqual({row[3] for row in rows}, {"CC-CEDICT CC BY-SA 4.0"})
+        self.assertTrue(all(row["review_note"] for row in reviewed))
+        self.assertEqual(manifest["manual_reviewed_but_deferred_rows"], 0)
 
 
 if __name__ == "__main__":

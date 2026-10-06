@@ -31,7 +31,9 @@ PINNED_URL = (
     f"{PINNED_COMMIT}/{PINNED_PATH}"
 )
 DEFAULT_SOURCE = ROOT / "build/source-audit/cc-cedict/cedict_ts_june2026.u8"
-OUT = ROOT / "build/source-audit/cc-cedict"
+# Keep the mutable current-gap queue separate from the pinned pre-tranche audit
+# snapshot referenced by published CC-CEDICT batch manifests.
+OUT = ROOT / "build/source-audit/cc-cedict/current"
 HAN = re.compile(r"[\u4e00-\u9fff]{2,6}")
 ENTRY = re.compile(r"^(\S+)\s+(\S+)\s+\[([^]]+)\]\s+/(.*)/\s*$")
 POS_PREFIX = re.compile(r"^([a-z]+)\.\s*(.*)$")
@@ -59,7 +61,14 @@ def load_ipa() -> set[str]:
 
 def load_current_words(base: dict[str, list[tuple[str, str]]]) -> set[str]:
     words = {word for senses in base.values() for word, _ in senses}
-    for name in ("english-expansion.tsv", "wiktionary-expansion.tsv"):
+    for name in (
+        "english-expansion.tsv",
+        "wiktionary-expansion.tsv",
+        "wiktionary-expansion-2.tsv",
+        "cccedict-expansion.tsv",
+        "cccedict-expansion-2.tsv",
+        "cccedict-expansion-3.tsv",
+    ):
         path = DATA / name
         for line in path.read_text(encoding="utf-8").splitlines():
             chinese, word, _pos, _source = line.split("\t")
