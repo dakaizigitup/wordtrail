@@ -1,0 +1,17 @@
+{
+  "passed": [
+    "candidate strip has no CEFR badges even with prior settings",
+    "manually chosen TEM4 persists and moves darling before baby",
+    "multiple tags belong to the displayed English word",
+    "long press inserts the displayed prioritized translation",
+    "expanded IPA title follows the prioritized translation",
+    "expanded detail has no CEFR section",
+    "non-target original sense remains available for explicit insertion",
+    "normal tap still commits Chinese",
+    "multi-selection uses OR and preserves original order on ties",
+    "clear goals restores original order",
+    "batch37 学派 mapping reaches the Android candidate window",
+    "education selection exposes the batch37 source tag",
+    "Japanese candidates have no English vocabulary labels"
+  ]
+}

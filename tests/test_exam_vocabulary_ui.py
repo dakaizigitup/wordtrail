@@ -23,6 +23,10 @@ def scroll_to(predicate,panel=False):
 def settings(targets):
     ui.adb('shell','am','force-stop','org.wordtrail.ime')
     ui.adb('shell','am','start','-W','-f','0x10008000','-n','org.wordtrail.ime/.MainActivity')
+    english=scroll_to(lambda n:n.get('text')=='英语')
+    if not english.get('checked'):
+        ui.tap(english)
+        ui.wait(lambda ns:any(n.get('text')=='英语' and n.get('checked') for n in ns))
     clear=scroll_to(lambda n:n.get('text')=='全部词汇 / 清除目标');ui.tap(clear)
     ui.wait(lambda ns:any(n.get('text')=='全部词汇 · 原译词顺序' for n in ns))
     for label in targets:
@@ -38,8 +42,8 @@ def main():
         helpers.home();ui.type_pinyin('bbei')
         ui.wait(lambda ns:any(n.get('description','').startswith('宝贝 n. darling') for n in ns))
         ui.check('candidate strip has no CEFR badges even with prior settings',not any('CEFR' in n.get('description','') or re.fullmatch('[ABC][12]',n.get('text','')) for n in ui.nodes()))
-        badge=ui.wait(lambda ns:next((n for n in ns if n.get('description','').startswith('darling · 考试标签 ')),None))
-        ui.check('manually chosen TEM4 persists and moves darling before baby',badge['description'].startswith('darling · 考试标签 专四'))
+        badge=ui.wait(lambda ns:next((n for n in ns if n.get('description','').startswith('darling · 词汇标签 ')),None))
+        ui.check('manually chosen TEM4 persists and moves darling before baby',badge['description'].startswith('darling · 词汇标签 专四'))
         ui.check('multiple tags belong to the displayed English word','四级' in badge['description'] and '专八' in badge['description'])
         ui.screenshot('android-0.1.10-candidates.png')
         ui.tap(ui.exact('宝贝'),long=True);ui.check('long press inserts the displayed prioritized translation',helpers.draft()=='darling')
@@ -54,8 +58,14 @@ def main():
         ui.check('multi-selection uses OR and preserves original order on ties',True)
         settings([]);helpers.home();ui.type_pinyin('bbei');ui.wait(lambda ns:any(n.get('description','').startswith('宝贝 n. baby') for n in ns))
         ui.check('clear goals restores original order',True)
+        settings(['教育']);helpers.home();ui.type_pinyin('xuepai')
+        school=ui.wait(lambda ns:next((n for n in ns if n.get('text')=='学派' and n.get('class')=='android.widget.TextView'),None))
+        school_row=ui.wait(lambda ns:next((n for n in ns if n.get('description','').startswith('school · 词汇标签 ')),None))
+        ui.check('batch37 学派 mapping reaches the Android candidate window','school' in school_row['description'])
+        ui.check('education selection exposes the batch37 source tag','教育' in school_row['description'])
+        settings([]);helpers.home()
         ui.tap(ui.exact('EN 译词'));ui.exact('JA 译词')
-        ui.check('Japanese candidates have no English exam badges',not any(' · 考试标签 ' in n.get('description','') for n in ui.nodes()))
+        ui.check('Japanese candidates have no English vocabulary labels',not any(' · 词汇标签 ' in n.get('description','') for n in ui.nodes()))
         ui.tap(ui.exact('JA 译词'));ui.tap(ui.exact('ES 译词'))
         (ui.ROOT/'build/exam-vocabulary-ui-tests.json').write_text(json.dumps({'passed':ui.RESULTS},ensure_ascii=False,indent=2),encoding='utf-8')
     finally:

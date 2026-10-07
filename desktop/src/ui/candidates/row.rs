@@ -134,6 +134,6 @@ mod tests {
             .map(|(text, _)| text.as_str())
             .collect::<String>();
         assert!(annotation.contains("cerebrum"));
-        assert!(annotation.contains("[医学]"));
+        assert!(annotation.contains("[医学/心理学]"));
     }
 }

@@ -7,7 +7,7 @@ def write_notice(path, text):
     normalized='\n'.join(line.rstrip(' \t\r') for line in text.splitlines())+'\n'
     path.write_text(normalized,encoding='utf-8',newline='\n')
 
-HEADER = """词伴输入法 / Wordtrail 0.1.29
+HEADER = """词伴输入法 / Wordtrail 0.1.30
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -15,7 +15,7 @@ HEADER = """词伴输入法 / Wordtrail 0.1.29
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.29-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.30-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -639,7 +639,7 @@ def main():
     while pending:
         for dependency in nodes[pending.pop()]['dependencies']:
             if dependency not in mobile:mobile.add(dependency);pending.append(dependency)
-    desktop_parts=["Windows 音标与词汇目标补丁 0.1.22：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.29-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
+    desktop_parts=["Windows 音标与词汇目标补丁 0.1.23：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.30-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
     for package in sorted(metadata['packages'],key=lambda p:(p['name'],p['version'])):
         if package.get('source') is None: continue
         current=[f"\n\n=== {package['name']} {package['version']} ===\n许可：{package.get('license') or '见源文件'}\n仓库：{package.get('repository') or ''}\n"]

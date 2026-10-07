@@ -129,11 +129,20 @@ pub fn senses(chinese: &str) -> impl Iterator<Item = Sense> {
             fresh: false,
         })
 }
-pub fn source(chinese: &str, english: &str) -> Option<&'static str> {
+pub fn sources<'a>(
+    chinese: &str,
+    english: &'a str,
+) -> impl Iterator<Item = &'static str> + 'a {
     INDEX
         .get(chinese)
-        .and_then(|items| items.iter().find(|(word, _, _)| *word == english))
+        .into_iter()
+        .flatten()
+        .filter(move |(word, _, _)| *word == english)
         .map(|(_, _, origin)| *origin)
+}
+
+pub fn source(chinese: &str, english: &str) -> Option<&'static str> {
+    sources(chinese, english).next()
 }
 
 /// 熟悉度只记录候选行实际展示的译词，不把详情里尚未看到的词计为曝光。
@@ -224,6 +233,13 @@ mod tests {
         assert_eq!(source("放弃", "relinquish"), Some("Wordtrail-reviewed"));
         assert!(senses("放弃").all(|s| s.text != "relinguish"));
         assert!(senses("丰富").all(|s| s.text != "affluent"));
+    }
+
+    #[test]
+    fn duplicate_mappings_keep_each_source_attribution() {
+        let origins: Vec<_> = sources("介入", "intervention").collect();
+        assert!(origins.contains(&"NAER Management Academic Terms OGDL v1.0"));
+        assert!(origins.contains(&"NAER Psychology Terminology OGDL v1.0"));
     }
     #[test]
     fn batch02_additions_are_queryable_by_exact_candidate_text() {

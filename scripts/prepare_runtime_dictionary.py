@@ -114,7 +114,7 @@ def pack() -> None:
          "--name", "词伴考试词汇拼音词库", "--license", "Mixed; see NOTICE.txt",
          "--attribution", "Qingjian v0.1.4 pinned base; Wordtrail exam vocabulary overlay; see NOTICE.txt",
          "--source", "https://github.com/dakaizigitup/wordtrail",
-         "--data-version", "Wordtrail 0.1.27"], cwd=EXTERNAL_CARGO_CWD)
+         "--data-version", "Wordtrail 0.1.30"], cwd=EXTERNAL_CARGO_CWD)
 
 
 def verify_order() -> dict:

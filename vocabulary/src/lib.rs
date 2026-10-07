@@ -722,14 +722,21 @@ mod tests {
         assert_eq!(selected_ids(selected), ["cet6", "computer", "medical"]);
 
         let cerebrum_tags = tags("cerebrum", selected);
-        assert_eq!(cerebrum_tags.len(), 1);
-        assert_eq!(cerebrum_tags[0].id, "medical");
-        assert_eq!(cerebrum_tags[0].label, "医学");
-        assert!(cerebrum_tags[0].selected);
+        assert_eq!(cerebrum_tags.len(), 2);
+        let medical = cerebrum_tags
+            .iter()
+            .find(|tag| tag.id == "medical")
+            .unwrap();
+        assert_eq!(medical.label, "医学");
+        assert!(medical.selected);
+        let psychology = cerebrum_tags
+            .iter()
+            .find(|tag| tag.id == "psychology")
+            .unwrap();
+        assert_eq!(psychology.label, "心理学");
+        assert!(!psychology.selected);
         assert!(
-            cerebrum_tags[0]
-                .sources
-                .contains(&"Wiktionary CC BY-SA 4.0")
+            medical.sources.contains(&"Wiktionary CC BY-SA 4.0")
         );
 
         let mixed = tags("adapt", selected);
@@ -1123,10 +1130,8 @@ mod tests {
                     panic!("missing NAER administration mapping {chinese} -> {english}")
                 });
             assert_eq!(sense.part_of_speech, Some(pos));
-            assert_eq!(
-                expansion::source(chinese, english),
-                Some("NAER Administration Academic Terms OGDL v1.0")
-            );
+            assert!(expansion::sources(chinese, english)
+                .any(|source| source == "NAER Administration Academic Terms OGDL v1.0"));
             assert!(tags(english, selected).iter().any(|tag| {
                 tag.id == "administration"
                     && tag.selected
@@ -1242,10 +1247,8 @@ mod tests {
                     panic!("missing NAER educational-studies mapping {chinese} -> {english}")
                 });
             assert_eq!(sense.part_of_speech, Some(pos));
-            assert_eq!(
-                expansion::source(chinese, english),
-                Some("NAER Educational Studies Terminology OGDL v1.0")
-            );
+            assert!(expansion::sources(chinese, english)
+                .any(|source| source == "NAER Educational Studies Terminology OGDL v1.0"));
             assert!(tags(english, selected).iter().any(|tag| {
                 tag.id == "education"
                     && tag.selected
@@ -1305,10 +1308,8 @@ mod tests {
                     panic!("missing NAER psychology mapping {chinese} -> {english}")
                 });
             assert_eq!(sense.part_of_speech, Some(pos));
-            assert_eq!(
-                expansion::source(chinese, english),
-                Some("NAER Psychology Terminology OGDL v1.0")
-            );
+            assert!(expansion::sources(chinese, english)
+                .any(|source| source == "NAER Psychology Terminology OGDL v1.0"));
             assert!(tags(english, selected).iter().any(|tag| {
                 tag.id == "psychology"
                     && tag.selected

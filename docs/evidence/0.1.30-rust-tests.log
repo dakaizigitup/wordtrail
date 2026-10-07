@@ -1,0 +1,116 @@
+   Compiling wordtrail-windows-server v0.1.6 (D:\研究方向\多模态\qingjian-mobile\desktop)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 53.62s
+     Running unittests src\lib.rs (target\debug\deps\wordtrail_mobile-ffa43e6eecb2a05c.exe)
+
+running 3 tests
+test vocabulary::tests::unknown_words_and_phrases_are_not_assigned_guessed_levels ... ok
+test vocabulary::tests::covers_all_six_reference_levels_and_normalizes_case ... ok
+test vocabulary::tests::preserves_individual_senses_and_deduplicates_words ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running unittests src\bin\export_dictionary_tsv.rs (target\debug\deps\export_dictionary_tsv-b77d9bec2abc8904.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\export_glossary.rs (target\debug\deps\export_glossary-aaef652271fdfbd1.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\bin\export_pinyin_candidates.rs (target\debug\deps\export_pinyin_candidates-76ec444f99f290c2.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\lib.rs (target\debug\deps\wordtrail_vocabulary-4644f6bb75bff735.exe)
+
+running 42 tests
+test expansion::tests::expanded_constructor_is_bounded_default_stays_two ... ok
+test expansion::tests::third_cc_cedict_batch_is_queryable_with_separate_attribution ... ok
+test expansion::tests::wiktionary_batch_additions_are_queryable_with_source_and_exam_tags ... ok
+test expansion::tests::duplicate_mappings_keep_each_source_attribution ... ok
+test expansion::tests::batch02_additions_are_queryable_by_exact_candidate_text ... ok
+test expansion::tests::non_english_unchanged_and_hidden_senses_not_exposed ... ok
+test expansion::tests::retains_originals_deduplicates_and_keeps_extras ... ok
+test tests::exact_matches_multitag_and_sources ... ok
+test expansion::tests::fourth_cc_cedict_batch_is_queryable_with_separate_attribution ... ok
+test tests::cjk_computer_science_terms_add_reachable_mappings_and_source_tags ... ok
+test expansion::tests::wiktionary_second_tranche_is_queryable_with_source_and_exam_tags ... ok
+test expansion::tests::openetymology_batch_29_adds_reviewed_cet_mappings_and_tags ... ok
+test expansion::tests::professional_batch_14_adds_queryable_medical_terms_and_domain_tags ... ok
+test tests::fibo_adds_business_tags_without_changing_dictionary_candidates ... ok
+test tests::better_quant_adds_finance_mappings_and_business_tags_without_reordering_chinese ... ok
+test expansion::tests::cc_cedict_second_tranche_is_queryable_with_exam_tags_and_source ... ok
+test tests::finance_i18n_adds_reviewed_mappings_and_business_tags_without_reordering_chinese ... ok
+test expansion::tests::cc_cedict_first_tranche_is_queryable_with_exam_tags_and_source ... ok
+test expansion::tests::openetymology_batch_10_is_queryable_and_target_tagged ... ok
+test tests::merges_separately_licensed_openetymology_wordlist_tags ... ok
+test tests::computerese_adds_reviewed_mappings_and_computer_tags_without_reordering_chinese ... ok
+test tests::cfpb_adds_reviewed_finance_mappings_and_tags_without_reordering_chinese ... ok
+test tests::naer_batches_26_and_27_add_reviewed_mappings_and_traceable_medical_tags ... ok
+test tests::naer_administration_adds_reviewed_mappings_and_selectable_tags_without_reordering_chinese ... ok
+test tests::naer_batch_24_adds_reviewed_medical_mappings_and_tags ... ok
+test tests::naer_batch_25_adds_exact_medical_glosses_for_existing_headwords ... ok
+test tests::naer_economics_adds_reviewed_mappings_and_business_tags ... ok
+test tests::naer_accounting_adds_reviewed_mappings_and_business_tags_without_reordering_chinese ... ok
+test tests::naer_computer_terms_add_reviewed_mappings_and_tags_without_reordering_chinese ... ok
+test tests::professional_categories_are_independent_selectable_tags ... ok
+test tests::validates_and_deduplicates_selection ... ok
+test tests::stable_priority_preserves_senses_and_non_english ... ok
+test tests::naer_education_adds_reviewed_mappings_and_selectable_tags_without_reordering_chinese ... ok
+test tests::wikidata_mesh_batch_23_adds_reviewed_mappings_and_new_medical_tags ... ok
+test tests::wordlevel_batch_adds_traceable_toefl_ielts_membership_and_reviewed_mappings ... ok
+test tests::naer_educational_studies_adds_mappings_and_education_memberships ... ok
+test tests::wikidata_mesh_batch_adds_cc0_medical_mappings_and_tags ... ok
+test tests::naer_management_adds_reviewed_mappings_and_business_tags_without_reordering_chinese ... ok
+test tests::naer_psychology_adds_reviewed_mappings_and_selectable_tags_without_reordering_chinese ... ok
+test tests::mesh_adds_reviewed_medical_mappings_and_tags_without_reordering_chinese ... ok
+test expansion::tests::exam_target_batch_09_is_queryable_with_ipa_source_and_tags ... ok
+test expansion::tests::exam_target_batches_11_and_12_are_queryable_and_tagged ... ok
+
+test result: ok. 42 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+     Running unittests src\lib.rs (target\debug\deps\qingjian_windows_server-86bede6aee1bb67d.exe)
+
+running 10 tests
+test ui::candidates::render_data::tests::window_keeps_the_pinyin_row_unless_inline_only ... ok
+test ui::candidates::row::tests::professional_category_is_visible_on_windows_translation_rows ... ok
+test dispatch::key::tests::shift_tab_precedes_prediction_and_english_commit ... ok
+test dispatch::key::tests::tab_with_raw_input_and_no_candidates_is_consumed_without_commit ... ok
+test dispatch::key::tests::tab_and_backtab_page_boundaries_and_current_page_selection ... ok
+test dispatch::reload::tests::vocabulary_preferences_load_reload_and_reject_invalid_without_touching_general_config ... ok
+test dispatch::key::tests::exam_priority_keeps_chinese_order_and_ctrl_digit_matches_display ... ok
+test dispatch::key::tests::extra_translations_can_be_browsed_and_committed_without_chinese_reordering ... ok
+test dispatch::reload::tests::dictionary_changes_do_not_retry_broken_config ... ok
+test dispatch::reload::tests::import_replace_and_remove_without_config_changes ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
+
+     Running unittests src\main.rs (target\debug\deps\qingjian_server-3401ed27c2f11ee1.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wordtrail_mobile
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests wordtrail_vocabulary
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests qingjian_windows_server
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n
