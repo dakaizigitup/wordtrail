@@ -49,6 +49,7 @@ const NAER_MANAGEMENT_DATA: &str = include_str!("../../data/naer-management-expa
 const NAER_COMPUTER_DATA: &str = include_str!("../../data/naer-computer-expansion.tsv");
 const NAER_ADMINISTRATION_DATA: &str = include_str!("../../data/naer-administration-expansion.tsv");
 const NAER_EDUCATION_DATA: &str = include_str!("../../data/naer-education-expansion.tsv");
+const NAER_PSYCHOLOGY_DATA: &str = include_str!("../../data/naer-psychology-expansion.tsv");
 const WORDLEVEL_TOEFL_IELTS_DATA: &str =
     include_str!("../../data/wordlevel-toefl-ielts-expansion.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
@@ -92,6 +93,7 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             NAER_COMPUTER_DATA,
             NAER_ADMINISTRATION_DATA,
             NAER_EDUCATION_DATA,
+            NAER_PSYCHOLOGY_DATA,
             WORDLEVEL_TOEFL_IELTS_DATA,
         ] {
             for row in data.lines() {

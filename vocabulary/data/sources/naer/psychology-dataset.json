@@ -1,0 +1,14 @@
+{
+  "dataset_id": "15167",
+  "title": "國家教育研究院-心理學學術名詞",
+  "provider": "國家教育研究院",
+  "dataset_url": "https://data.gov.tw/en/datasets/15167",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-心理學學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-08-12 15:59",
+  "snapshot_date": "2026-10-07",
+  "snapshot_sha256": "d603fce3628389aa849c73f1af4104653357e715fb82946e35b67507d992f166",
+  "snapshot_bytes": 803910,
+  "records": 11085
+}

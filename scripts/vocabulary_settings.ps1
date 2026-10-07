@@ -3,8 +3,8 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
-$qjIds = @('cet4','cet6','tem4','tem8','toefl','ielts','computer','business','medical','administration','education')
-$qjNames = @('四级','六级','专四','专八','托福','雅思','计算机','商务','医学','行政学','教育')
+$qjIds = @('cet4','cet6','tem4','tem8','toefl','ielts','computer','business','medical','administration','education','psychology')
+$qjNames = @('四级','六级','专四','专八','托福','雅思','计算机','商务','医学','行政学','教育','心理学')
 $qjSelected = @()
 if(Test-Path -LiteralPath $SettingsPath){
     try{$qjSelected = @((Get-Content -LiteralPath $SettingsPath -Raw | ConvertFrom-Json).targets)}

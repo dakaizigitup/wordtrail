@@ -535,6 +535,32 @@ def main():
         parts.append(
             f"{row['chinese']} -> {row['english']} (n.); NAER education record {row['source_records']}\n"
         )
+    psychology_manifest = json.loads((ROOT/'vocabulary/data/naer-psychology-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/36-naer-psychology-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        psychology_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    psychology_accepted = [row for row in psychology_reviewed if row['decision'] == 'accept']
+    psychology_counts = psychology_manifest['counts']
+    parts.append("\n=== 心理学词汇批次36（NAER Psychology Terminology）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research, 2026, Psychology Terminology "
+        "（dataset 15167，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/en/datasets/15167 。"
+        "许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 含{psychology_counts['source_records']}条数据记录，SHA-256：{psychology_manifest['source']['snapshot_sha256']}。"
+        f"{psychology_counts['eligible_exact_pairs']}组有本机精确名词/拼音/音标证据，{psychology_counts['already_mapped_pairs']}组原已映射；"
+        f"另有{psychology_counts['capacity_blocked_pairs']}组因单键扩展上限未进入审校。"
+        f"其余{psychology_counts['new_review_candidates']}组逐项审校后接受{psychology_counts['accepted_mappings']}组、"
+        f"排除{psychology_counts['rejected_candidates']}组、暂缓{psychology_counts['deferred_candidates']}组，"
+        f"新增{psychology_counts['new_english_headwords']}个英文词头。"
+        f"另有{psychology_counts['reviewed_tag_headwords']}个有精确词义、音标和拼音证据的来源词头加入心理学分类；"
+        "来源成员关系不代表词条在所有语境下都专属于心理学。运行时只载入精简映射与成员关系，不扫描来源 CSV。"
+        "完整来源、修改说明、SHA-256、逐项审校和构建器见 vocabulary/data/NAER-PSYCHOLOGY-ATTRIBUTION.md、"
+        "vocabulary/data/naer-psychology-manifest.json、vocabulary/data/batches/36-naer-psychology-reviewed.tsv、"
+        "vocabulary/data/batches/36-naer-psychology-tags-reviewed.tsv 和 scripts/build_naer_psychology_batch.py。\n"
+    )
+    for row in psychology_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER psychology record {row['source_records']}\n"
+        )
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))

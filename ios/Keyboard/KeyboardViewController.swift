@@ -76,7 +76,7 @@ final class KeyboardViewController: UIInputViewController {
             }
         }
         let selectedTargets = UserDefaults.standard.stringArray(forKey: "vocabularyTargets") ?? []
-        let goals = [("cet4", "四级"), ("cet6", "六级"), ("tem4", "专四"), ("tem8", "专八"), ("toefl", "托福"), ("ielts", "雅思"), ("computer", "计算机"), ("business", "商务"), ("medical", "医学"), ("administration", "行政学"), ("education", "教育")]
+        let goals = [("cet4", "四级"), ("cet6", "六级"), ("tem4", "专四"), ("tem8", "专八"), ("toefl", "托福"), ("ielts", "雅思"), ("computer", "计算机"), ("business", "商务"), ("medical", "医学"), ("administration", "行政学"), ("education", "教育"), ("psychology", "心理学")]
         var targetActions: [UIMenuElement] = goals.map { id, label in
             UIAction(title: label, state: selectedTargets.contains(id) ? .on : .off) { [weak self] _ in
                 var targets = UserDefaults.standard.stringArray(forKey: "vocabularyTargets") ?? []

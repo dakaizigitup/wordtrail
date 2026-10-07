@@ -1,0 +1,307 @@
+{
+  "batch": "36-naer-psychology-terminology",
+  "source": {
+    "title": "National Academy for Educational Research - Psychology Terminology",
+    "provider": "National Academy for Educational Research",
+    "dataset_id": "15167",
+    "dataset_url": "https://data.gov.tw/en/datasets/15167",
+    "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-心理學學術名詞.csv",
+    "license": "Open Government Data License v1.0",
+    "license_url": "https://data.gov.tw/license",
+    "portal_updated_at": "2026-08-12 15:59",
+    "snapshot_sha256": "d603fce3628389aa849c73f1af4104653357e715fb82946e35b67507d992f166",
+    "snapshot_bytes": 803910,
+    "records": 11085
+  },
+  "filters": {
+    "source_scope": "Single-word English entries with exact local ECDICT noun gloss, UK or US IPA, reachable local pinyin key, and local expansion capacity.",
+    "candidate_scope": "Every previously unmapped eligible pair receives an explicit accept/reject/defer decision; only reviewed concise standalone mappings enter runtime data.",
+    "psychology_tag_scope": "A word receives psychology-source membership only when it occurs in the official NAER Psychology Terminology snapshot and has exact local noun, IPA, and pinyin evidence; membership does not imply every sense is psychology-specific.",
+    "traditional_to_simplified": "Traditional Chinese source terms are normalized using OpenCC t2s before matching.",
+    "runtime_per_key_cap": 8
+  },
+  "counts": {
+    "source_records": 11085,
+    "eligible_exact_pairs": 485,
+    "already_mapped_pairs": 365,
+    "capacity_blocked_pairs": 2,
+    "new_review_candidates": 118,
+    "accepted_mappings": 89,
+    "rejected_candidates": 16,
+    "deferred_candidates": 13,
+    "new_english_headwords": 14,
+    "psychology_tag_source_memberships": 443,
+    "new_psychology_tag_memberships": 443,
+    "reviewed_tag_headwords": 443
+  },
+  "accepted_pairs": [
+    "一致 -> congruence (n.)",
+    "人道主义 -> humanism (n.)",
+    "介入 -> intervention (n.)",
+    "仪式 -> ritual (n.)",
+    "保持 -> retention (n.)",
+    "保留 -> retention (n.)",
+    "催眠术 -> mesmerism (n.)",
+    "僵局 -> impasse (n.)",
+    "公平 -> justice (n.)",
+    "再现 -> reproduction (n.)",
+    "分离 -> dissociation (n.)",
+    "判断 -> judgement (n.)",
+    "压力 -> stress (n.)",
+    "变换 -> transformation (n.)",
+    "同情 -> sympathy (n.)",
+    "同意 -> consent (n.)",
+    "和谐 -> congruence (n.)",
+    "咨询 -> consultation (n.)",
+    "哀悼 -> mourning (n.)",
+    "善行 -> beneficence (n.)",
+    "复制 -> reproduction (n.)",
+    "复原 -> recovery (n.)",
+    "妒忌 -> jealousy (n.)",
+    "存在 -> being (n.)",
+    "孤立 -> isolation (n.)",
+    "学习 -> learning (n.)",
+    "宣传 -> propaganda (n.)",
+    "容忍 -> tolerance (n.)",
+    "寂寞 -> loneliness (n.)",
+    "对比 -> contrast (n.)",
+    "少数民族 -> minority (n.)",
+    "尿床 -> enuresis (n.)",
+    "平均数 -> mean (n.)",
+    "归因 -> attribution (n.)",
+    "忠诚 -> loyalty (n.)",
+    "忽略 -> neglect (n.)",
+    "悲伤 -> sadness (n.)",
+    "悲观 -> pessimism (n.)",
+    "情感 -> affection (n.)",
+    "惩罚 -> punishment (n.)",
+    "抑制 -> inhibition (n.)",
+    "折射 -> refraction (n.)",
+    "指导 -> guidance (n.)",
+    "损伤 -> impairment (n.)",
+    "损害 -> impairment (n.)",
+    "排斥 -> ostracism (n.)",
+    "接纳 -> acceptance (n.)",
+    "放大 -> amplification (n.)",
+    "放逐 -> ostracism (n.)",
+    "期望 -> expectancy (n.)",
+    "欺骗 -> deception (n.)",
+    "沮丧 -> depression (n.)",
+    "混淆 -> confusion (n.)",
+    "温暖 -> warmth (n.)",
+    "烙印 -> stigma (n.)",
+    "犯罪 -> criminality (n.)",
+    "理解 -> comprehension (n.)",
+    "痛苦 -> distress (n.)",
+    "相关 -> correlation (n.)",
+    "真诚 -> genuineness (n.)",
+    "磋商 -> negotiation (n.)",
+    "禁欲 -> abstinence (n.)",
+    "移动 -> locomotion (n.)",
+    "精神 -> psyche (n.)",
+    "羞怯 -> shyness (n.)",
+    "群众 -> crowd (n.)",
+    "节食 -> dieting (n.)",
+    "行动 -> act (n.)",
+    "衰退 -> deterioration (n.)",
+    "解构 -> deconstruction (n.)",
+    "解释 -> interpretation (n.)",
+    "警戒 -> vigilance (n.)",
+    "认同 -> identification (n.)",
+    "论证 -> argument (n.)",
+    "评估 -> evaluation (n.)",
+    "误解 -> misconception (n.)",
+    "说话 -> speech (n.)",
+    "调停 -> mediation (n.)",
+    "贬抑 -> abasement (n.)",
+    "超越 -> transcendence (n.)",
+    "转换 -> transition (n.)",
+    "迁移 -> transfer (n.)",
+    "逃避 -> avoidance (n.)",
+    "道德 -> moral (n.)",
+    "镇静剂 -> depressant (n.)",
+    "镇静剂 -> tranquillizer (n.)",
+    "雇用 -> employment (n.)",
+    "顺从 -> compliance (n.)",
+    "预期 -> expectancy (n.)"
+  ],
+  "rejected_pairs": [
+    {
+      "pair": "介入 -> interposition",
+      "reason": "Interposition names an object positioned in front of another (a visual depth cue), not intervention/介入; the ECDICT synonym alone is too broad."
+    },
+    {
+      "pair": "作业 -> exercise",
+      "reason": "In this pair 作业 means an assignment/homework; exercise as a psychological construct or physical activity is not an exact translation."
+    },
+    {
+      "pair": "分裂 -> fission",
+      "reason": "Fission is a biological division process; it is not a precise psychology translation for generic 分裂."
+    },
+    {
+      "pair": "命运 -> karma",
+      "reason": "Karma is a culturally specific doctrine of moral causation, not the general Chinese meaning 命运."
+    },
+    {
+      "pair": "干涉 -> interposition",
+      "reason": "Interposition is a visual depth cue, not the broad Chinese meaning 干涉."
+    },
+    {
+      "pair": "性行为 -> sexuality",
+      "reason": "Sexuality is broader than a particular sexual behavior and does not precisely translate 性行为."
+    },
+    {
+      "pair": "慈善 -> beneficence",
+      "reason": "慈善 means charity/charitable activity; beneficence is the ethical principle of doing good, so these are not interchangeable."
+    },
+    {
+      "pair": "显性 -> dominance",
+      "reason": "Dominance is not a safe translation for 显性, which commonly denotes a dominant genetic trait or an explicit property depending on context."
+    },
+    {
+      "pair": "果蝇 -> drosophila",
+      "reason": "Drosophila is a research organism, but 果蝇 is not a useful human-psychology translation pair for this target."
+    },
+    {
+      "pair": "核心 -> cores",
+      "reason": "The English entry is plural and its exact noun sense does not establish a standalone psychology term corresponding to 核心."
+    },
+    {
+      "pair": "禁令 -> injunction",
+      "reason": "An injunction is a legal order; 禁令 is too broad and the source does not establish a psychology-specific meaning."
+    },
+    {
+      "pair": "蒸馏 -> distillation",
+      "reason": "Distillation is a chemical/industrial process, not a psychology term in the supplied pair."
+    },
+    {
+      "pair": "表达 -> voice",
+      "reason": "Voice does not mean the broad nominal concept 表达; the source/local pair is not an exact translation."
+    },
+    {
+      "pair": "调停 -> intervention",
+      "reason": "Intervention means a deliberate intervening action; 调停 specifically means mediation and is not equivalent in this pair."
+    },
+    {
+      "pair": "连接 -> connections",
+      "reason": "The English item is plural and the generic relation sense does not establish a standalone psychology mapping for 连接."
+    },
+    {
+      "pair": "驱魔 -> exorcism",
+      "reason": "Exorcism is a religious ritual/practice; the translation is outside the intended psychology term mapping."
+    }
+  ],
+  "deferred_pairs": [
+    {
+      "pair": "伪装 -> camouflage",
+      "reason": "Could describe masking behavior in psychology, but the source/local pair is too general to distinguish that from ordinary concealment; defer."
+    },
+    {
+      "pair": "分离 -> separation",
+      "reason": "分离 has only one remaining runtime expansion slot; retain the more specific dissociation mapping and defer this broader alternative under the per-key cap."
+    },
+    {
+      "pair": "变异 -> variance",
+      "reason": "Variance is normally 方差/变异数 in psychometrics; the broad gloss 变异 is not sufficiently exact; defer."
+    },
+    {
+      "pair": "处罚 -> punishment",
+      "reason": "The translation can be valid in behavioral psychology but 处罚 is often legal/administrative; defer pending narrower context."
+    },
+    {
+      "pair": "忠实 -> fidelity",
+      "reason": "Psychological treatment/test fidelity is usually 忠实度 or 保真度; bare 忠实 is a broad gloss, so defer."
+    },
+    {
+      "pair": "忠诚 -> fidelity",
+      "reason": "The relevant psychometric/treatment sense is usually 忠实度, while 忠诚 suggests interpersonal loyalty; defer."
+    },
+    {
+      "pair": "摄取 -> ingestion",
+      "reason": "This is an exact nutrition/physiology gloss but the source does not establish a psychology-specific usage; defer."
+    },
+    {
+      "pair": "特殊化 -> specialization",
+      "reason": "Specialization can be a psychology topic, but 特殊化 is an awkward broad mapping without a clear term-level match; defer."
+    },
+    {
+      "pair": "特殊性 -> specificity",
+      "reason": "In psychological measurement specificity is usually 特异性; the broad surface gloss 特殊性 is ambiguous; defer."
+    },
+    {
+      "pair": "监督 -> surveillance",
+      "reason": "Surveillance can mean monitoring in research, but 监督 more often maps to supervision/oversight; defer without context."
+    },
+    {
+      "pair": "线索 -> cues",
+      "reason": "The source uses a plural English form and the local gloss is broad; the singular psychological term cue is not supplied, so defer."
+    },
+    {
+      "pair": "胜算 -> odds",
+      "reason": "Odds is a statistical/probability term, while 胜算 is context-specific and not a stable general psychology translation; defer."
+    },
+    {
+      "pair": "过程 -> course",
+      "reason": "Course can mean a process, but the gloss is broad and the source does not establish a distinct psychology term; defer."
+    }
+  ],
+  "source_hashes": {
+    "psychology-academic-terms-2026-08-12.csv": "d603fce3628389aa849c73f1af4104653357e715fb82946e35b67507d992f166",
+    "psychology-dataset.json": "a364cf70adcd6366c16bacf89eb2a88fa3dd2e9ec0d8ebfef7044726c43bb130",
+    "batches/02-additions.tsv": "1166c86fb3916969bbff348424abb2e75abd3b4bb41c7e4639652aac2094aa37",
+    "better-quant-expansion.tsv": "f3fff56be103337217ed41a3b0fda1faf8a4a853d1a6ea019a3091e30f5b8a81",
+    "cccedict-expansion-2.tsv": "9fe002674813b6c235b6d5dedb008f21bc008a6422860c4e3513d8fe006064a5",
+    "cccedict-expansion-3.tsv": "6285e1aca0e8b7a0aee6773c92c6c8a9a09e414c892e01a35d0fbd7800cb651f",
+    "cccedict-expansion-4.tsv": "fa7b7e84068f6d02f3df19f4baf8e8094eb8d77f5f6c303fec69688dcc866eb4",
+    "cccedict-expansion.tsv": "cfa15cc83f27bb9115018d797fc27067691491e580ff888640b646ae3e08e063",
+    "cfpb-finance-expansion.tsv": "8cfb4a34e064dbf443d5c144e8796647a1fb99b3984da03bbb4f5d2a0cec7fd0",
+    "cjk-compsci-expansion.tsv": "b779d390325f5eefec2194fb77f0f87d5fe00de111c4a575037474b691185f59",
+    "computerese-expansion.tsv": "38472e2c14bfa6d3fd25575040dbab6428f38ff527b45ba9967ccf7b819c9d30",
+    "english-expansion.tsv": "2573c23bc422800252534ccda0fda745c81c87cbbb2c874f7300ea7f81fe5398",
+    "exam-target-batch-11-cc-by-sa-expansion.tsv": "2226a5294ed7fa5ed09ddbb57814f299abb2bfdff5d2a50de5b86d7ae0f7ec2d",
+    "exam-target-batch-11-cow-expansion.tsv": "00082d303c83741ebc229db9df1e82d8567d06eead8dfdc688a6feec70b4a8ce",
+    "exam-target-batch-11-dual-expansion.tsv": "c103886f74592f795f48b01a617a34c9bb2a74cfec2af17b8c458a388dcb429c",
+    "exam-target-batch-11-ecdict-expansion.tsv": "694ec8f2be061732fcd6a024476ab4d250d4239951b9c8d113bf37e7de4e671b",
+    "exam-target-batch-11-koreader-cow-expansion.tsv": "5a86961003d460de24d25277873d6950dd8160f37a2f0e4c6b00a67f8afe291d",
+    "exam-target-batch-11-kylebing-expansion.tsv": "29a59444d8d7161095057544a805fc138a11fc15e0d458034d8d713a8805dd6b",
+    "exam-target-batch-12-ecdict-expansion.tsv": "e7a4abbf99f83a1b531a7af80816674766d7532fc142bd9132aeed8fba792d43",
+    "exam-target-ecdict-expansion.tsv": "90e21a9fbe892de10962cba915c178aeaba6b7e171c4363f02e6e89411e2c7f8",
+    "exam-target-kylebing-expansion.tsv": "8b889fc6acb5283b8eb2c771ef7331b6f03e2dde1e333f788a7ccd1db11083fa",
+    "finance-i18n-expansion.tsv": "8f1db8dacfc5eb7e5aafe9116a23ea6cda3416d36be9c13815bd97c58957bf08",
+    "mesh-medical-expansion.tsv": "c8512790a682295f3e57b5fdb9ddb1587a890ae1fb3c013de1d26f48659b2193",
+    "naer-accounting-expansion.tsv": "0cb3eb43b4f8daf9914c118df3b30fe3652059be707905e44e6b9f827cffbdf4",
+    "naer-administration-expansion.tsv": "d3ad71f0bf5fe6eb3a86d0016c0e3d3719570b679c7ab5cb678fbec5588f0144",
+    "naer-computer-expansion.tsv": "72b52fc065a186a53caa1485d5153fc6698773fb4658733b57cf7c5ad69aab2a",
+    "naer-economics-expansion.tsv": "a91e317e98cece26934ce04647992a974004c91f20ffc990a1cfefff6f0403d4",
+    "naer-education-expansion.tsv": "05502cffeb088c1fe13994f7169c556031a9bed87df775b3b59b1b21d1d66440",
+    "naer-life-science-expansion.tsv": "38623e0718495ecf8382a096ac371bc002cabec354a88f92f18c67f37bb52f08",
+    "naer-medical-expansion-2.tsv": "24bb9ab4ad750b0bd995afe5a2bf305c4675c9eab308ea4a278941272328fe93",
+    "naer-medical-expansion.tsv": "27188279a826134bed91cd5d5aaf9a9768be7a3f4e8fa01af97a1a23389e0262",
+    "naer-veterinary-expansion.tsv": "253d178d76257905ffceda2593a9e0cc80a8061b4b42c03e3ef920ab985c9d59",
+    "openetymology-cet-expansion.tsv": "51879662de85d62c09a3fb6c29de737061849cc609bd5c7d6e428ce639ff2c8a",
+    "openetymology-exam-expansion.tsv": "2145157ca260a1009cdb8c8143bfdf3ceb11d13b62a3666a123c5a44d25130a2",
+    "professional-expansion.tsv": "1cde0af9fce1417ef257e0d840e36e3d00954a23ab675dd21ca91c016314f3df",
+    "wikidata-medical-expansion-2.tsv": "3e95115e99d7ae617328ef06ab413c1786e8a2f84db1057455eb580aab6200a6",
+    "wikidata-medical-expansion.tsv": "3aa5e60abe3dee7a93cfd7962d763ab4310a95792d82e1f14a02acd6101486b6",
+    "wiktionary-expansion-2.tsv": "3b07310a30eb57f7e672ac62e4e9372de639eb6c003bc46e8a294488e038b93d",
+    "wiktionary-expansion.tsv": "ddd58e54a4df2c6c17e5561cd004052939e58bfeb5f0e27b03676d87b2fbab32",
+    "wordlevel-toefl-ielts-expansion.tsv": "6890615e1b5bec329f561f639f972dff5336b97e1465573478a4c1edde25002f"
+  },
+  "base_lexicon_hashes": {
+    "database": "98fef9ba82047d0eaba650c1da074810c135da3c90e1fdb59f2faf197d6b7dd2",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67"
+  },
+  "outputs": {
+    "batches/36-naer-psychology-prefilter.tsv": "cc3a3a1012dcb876fc9a11b3e2934fe50a2b69c4ba03bf2a646c66b64dbb2b22",
+    "batches/36-naer-psychology-candidates.tsv": "cdc75d51aa15df96871aa914b6fe2a839ffe14cd403b9721c01a4847f330bb3c",
+    "batches/36-naer-psychology-reviewed.tsv": "c8034da6bded306b5122bcf13be693b401094c10d86fdab4130ee9b76b993056",
+    "batches/36-naer-psychology-tags-reviewed.tsv": "fbea488dccc60731a564019817facb8b0dd34f45c5c11331a3b2f8901ed91244",
+    "naer-psychology-expansion.tsv": "944d55d22f8f9e12c1571ed45e29c07633425cebe76a2a515c0749c96b58dea2",
+    "naer-psychology-tags.tsv": "dc1e38a0a8ea401937f618cb444b2fb566837e474ac733226b9d425fd5c20242"
+  },
+  "runtime_note": "Only 89 reviewed mappings and 443 psychology-membership rows enter the once-initialized offline lookup; the 11,085-row source CSV is never read while typing."
+}

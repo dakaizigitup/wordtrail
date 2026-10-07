@@ -1661,6 +1661,189 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 院长 -> rector (n.); NAER education record 1647
 
 
+=== 心理学词汇批次36（NAER Psychology Terminology）===
+
+署名：National Academy for Educational Research, 2026, Psychology Terminology （dataset 15167，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/en/datasets/15167 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 含11085条数据记录，SHA-256：d603fce3628389aa849c73f1af4104653357e715fb82946e35b67507d992f166。485组有本机精确名词/拼音/音标证据，365组原已映射；另有2组因单键扩展上限未进入审校。其余118组逐项审校后接受89组、排除16组、暂缓13组，新增14个英文词头。另有443个有精确词义、音标和拼音证据的来源词头加入心理学分类；来源成员关系不代表词条在所有语境下都专属于心理学。运行时只载入精简映射与成员关系，不扫描来源 CSV。完整来源、修改说明、SHA-256、逐项审校和构建器见 vocabulary/data/NAER-PSYCHOLOGY-ATTRIBUTION.md、vocabulary/data/naer-psychology-manifest.json、vocabulary/data/batches/36-naer-psychology-reviewed.tsv、vocabulary/data/batches/36-naer-psychology-tags-reviewed.tsv 和 scripts/build_naer_psychology_batch.py。
+
+一致 -> congruence (n.); NAER psychology record 2177
+
+人道主义 -> humanism (n.); NAER psychology record 4969
+
+介入 -> intervention (n.); NAER psychology record 5585
+
+仪式 -> ritual (n.); NAER psychology record 8842
+
+保持 -> retention (n.); NAER psychology record 8771
+
+保留 -> retention (n.); NAER psychology record 8771
+
+催眠术 -> mesmerism (n.); NAER psychology record 6390
+
+僵局 -> impasse (n.); NAER psychology record 5149
+
+公平 -> justice (n.); NAER psychology record 5700
+
+再现 -> reproduction (n.); NAER psychology record 8717
+
+分离 -> dissociation (n.); NAER psychology record 3130
+
+判断 -> judgement (n.); NAER psychology record 5692
+
+压力 -> stress (n.); NAER psychology record 9898
+
+变换 -> transformation (n.); NAER psychology record 10490
+
+同情 -> sympathy (n.); NAER psychology record 10104
+
+同意 -> consent (n.); NAER psychology record 2210
+
+和谐 -> congruence (n.); NAER psychology record 2177
+
+咨询 -> consultation (n.); NAER psychology record 2251
+
+哀悼 -> mourning (n.); NAER psychology record 6651
+
+善行 -> beneficence (n.); NAER psychology record 1116
+
+复制 -> reproduction (n.); NAER psychology record 8717
+
+复原 -> recovery (n.); NAER psychology record 8589
+
+妒忌 -> jealousy (n.); NAER psychology record 5657
+
+存在 -> being (n.); NAER psychology record 1101
+
+孤立 -> isolation (n.); NAER psychology record 5631
+
+学习 -> learning (n.); NAER psychology record 5877
+
+宣传 -> propaganda (n.); NAER psychology record 8188
+
+容忍 -> tolerance (n.); NAER psychology record 10413
+
+寂寞 -> loneliness (n.); NAER psychology record 6043
+
+对比 -> contrast (n.); NAER psychology record 2342
+
+少数民族 -> minority (n.); NAER psychology record 6492
+
+尿床 -> enuresis (n.); NAER psychology record 3626
+
+平均数 -> mean (n.); NAER psychology record 6256
+
+归因 -> attribution (n.); NAER psychology record 800
+
+忠诚 -> loyalty (n.); NAER psychology record 6082
+
+忽略 -> neglect (n.); NAER psychology record 6846
+
+悲伤 -> sadness (n.); NAER psychology record 8905
+
+悲观 -> pessimism (n.); NAER psychology record 7705
+
+情感 -> affection (n.); NAER psychology record 270
+
+惩罚 -> punishment (n.); NAER psychology record 8384
+
+抑制 -> inhibition (n.); NAER psychology record 5353
+
+折射 -> refraction (n.); NAER psychology record 8622
+
+指导 -> guidance (n.); NAER psychology record 4700
+
+损伤 -> impairment (n.); NAER psychology record 5148
+
+损害 -> impairment (n.); NAER psychology record 5148
+
+排斥 -> ostracism (n.); NAER psychology record 7325
+
+接纳 -> acceptance (n.); NAER psychology record 67
+
+放大 -> amplification (n.); NAER psychology record 457
+
+放逐 -> ostracism (n.); NAER psychology record 7325
+
+期望 -> expectancy (n.); NAER psychology record 3814
+
+欺骗 -> deception (n.); NAER psychology record 2733
+
+沮丧 -> depression (n.); NAER psychology record 2853
+
+混淆 -> confusion (n.); NAER psychology record 2172
+
+温暖 -> warmth (n.); NAER psychology record 10922
+
+烙印 -> stigma (n.); NAER psychology record 9862
+
+犯罪 -> criminality (n.); NAER psychology record 2539
+
+理解 -> comprehension (n.); NAER psychology record 2058
+
+痛苦 -> distress (n.); NAER psychology record 3154
+
+相关 -> correlation (n.); NAER psychology record 2442
+
+真诚 -> genuineness (n.); NAER psychology record 4493
+
+磋商 -> negotiation (n.); NAER psychology record 6848
+
+禁欲 -> abstinence (n.); NAER psychology record 52
+
+移动 -> locomotion (n.); NAER psychology record 6026
+
+精神 -> psyche (n.); NAER psychology record 8239
+
+羞怯 -> shyness (n.); NAER psychology record 9359
+
+群众 -> crowd (n.); NAER psychology record 2594
+
+节食 -> dieting (n.); NAER psychology record 2986
+
+行动 -> act (n.); NAER psychology record 120
+
+衰退 -> deterioration (n.); NAER psychology record 2904
+
+解构 -> deconstruction (n.); NAER psychology record 2748
+
+解释 -> interpretation (n.); NAER psychology record 5563
+
+警戒 -> vigilance (n.); NAER psychology record 10814
+
+认同 -> identification (n.); NAER psychology record 5073
+
+论证 -> argument (n.); NAER psychology record 656
+
+评估 -> evaluation (n.); NAER psychology record 3739
+
+误解 -> misconception (n.); NAER psychology record 6506
+
+说话 -> speech (n.); NAER psychology record 9720
+
+调停 -> mediation (n.); NAER psychology record 6302
+
+贬抑 -> abasement (n.); NAER psychology record 21
+
+超越 -> transcendence (n.); NAER psychology record 10476
+
+转换 -> transition (n.); NAER psychology record 10496
+
+迁移 -> transfer (n.); NAER psychology record 10485
+
+逃避 -> avoidance (n.); NAER psychology record 922
+
+道德 -> moral (n.); NAER psychology record 6581
+
+镇静剂 -> depressant (n.); NAER psychology record 2852
+
+镇静剂 -> tranquillizer (n.); NAER psychology record 10470
+
+雇用 -> employment (n.); NAER psychology record 3562
+
+顺从 -> compliance (n.); NAER psychology record 2047
+
+预期 -> expectancy (n.); NAER psychology record 3814
+
+
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
 署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。
