@@ -1,0 +1,13 @@
+{
+  "dataset_id": "15404",
+  "title": "National Academy for Educational Research - Accounting Academic Terms",
+  "provider": "National Academy for Educational Research",
+  "dataset_url": "https://data.gov.tw/dataset/15404",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-會計學學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-08-12 14:00",
+  "snapshot_sha256": "46eaea4143811919253f94cd86062dcd49a9376bbe8ee85ac8c514a5d00a9869",
+  "snapshot_bytes": 337455,
+  "records": 4878
+}

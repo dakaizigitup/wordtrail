@@ -1435,6 +1435,55 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 顺序 -> sequence (n.); NAER computer-science records 1207
 
 
+=== 商务会计词汇批次32（NAER Accounting Academic Terms）===
+
+署名：National Academy for Educational Research, 2026, Accounting Academic Terms （dataset 15404，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15404 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 含4878条数据记录，SHA-256：46eaea4143811919253f94cd86062dcd49a9376bbe8ee85ac8c514a5d00a9869。191组有本机精确名词/拼音/音标证据，144组原已映射；其余45组审校后纳入22组、排除12组、暂缓11组。纳入3个新英文词头；174个有本地候选的来源词头逐项审查后，133个加入商务来源归属（新增66个商务成员）、31个排除、10个暂缓。繁体中文以 OpenCC t2s 转简体；源定义和例句不进入应用。完整快照、许可、SHA-256、逐项审校和构建器见 vocabulary/data/NAER-ACCOUNTING-ATTRIBUTION.md、vocabulary/data/naer-accounting-manifest.json、vocabulary/data/batches/32-naer-accounting-reviewed.tsv、vocabulary/data/batches/32-naer-accounting-tags-reviewed.tsv 和 scripts/build_naer_accounting_batch.py。
+
+商业 -> business (n.); NAER accounting record 608
+
+合并 -> combination (n.); NAER accounting record 858
+
+交货 -> delivery (n.); NAER accounting record 1289
+
+解散 -> dissolution (n.); NAER accounting record 1443
+
+财产 -> estate (n.); NAER accounting record 1623
+
+汇兑 -> exchange (n.); NAER accounting record 1667
+
+商号 -> firm (n.); NAER accounting record 1817
+
+资金 -> fund (n.); NAER accounting record 1936
+
+收益 -> income (n.); NAER accounting record 2164
+
+差额 -> margin (n.); NAER accounting record 2600
+
+到期 -> maturity (n.); NAER accounting record 2652
+
+支出 -> outgo (n.); NAER accounting record 3028
+
+合伙 -> partnership (n.); NAER accounting record 3100
+
+专利权 -> patent (n.); NAER accounting record 3110
+
+准备 -> provision (n.); NAER accounting record 3467
+
+价目 -> quotations (n.); NAER accounting record 3538
+
+实现 -> realization (n.); NAER accounting record 3599
+
+折扣 -> rebate (n.); NAER accounting record 3611
+
+收入 -> receipt (n.); NAER accounting record 3615
+
+改组 -> reorganization (n.); NAER accounting record 3710
+
+收入 -> revenue (n.); NAER accounting record 3855
+
+出纳员 -> treasurer (n.); NAER accounting record 4584
+
+
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
 署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。

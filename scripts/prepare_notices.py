@@ -434,6 +434,32 @@ def main():
             f"{row['chinese']} -> {row['english']} ({row['runtime_pos']}); "
             f"NAER computer-science records {row['source_records']}\n"
         )
+    accounting_manifest = json.loads((ROOT/'vocabulary/data/naer-accounting-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/32-naer-accounting-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        accounting_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    accounting_accepted = [row for row in accounting_reviewed if row['decision'] == 'accept']
+    accounting_counts = accounting_manifest['counts']
+    parts.append("\n=== 商务会计词汇批次32（NAER Accounting Academic Terms）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research, 2026, Accounting Academic Terms "
+        "（dataset 15404，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15404 。"
+        "许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 含{accounting_counts['source_records']}条数据记录，SHA-256：{accounting_manifest['source']['snapshot_sha256']}。"
+        f"{accounting_counts['eligible_exact_pairs']}组有本机精确名词/拼音/音标证据，{accounting_counts['already_mapped_pairs']}组原已映射；"
+        f"其余{accounting_counts['new_review_candidates']}组审校后纳入{accounting_counts['accepted_mappings']}组、"
+        f"排除{accounting_counts['rejected_candidates']}组、暂缓{accounting_counts['deferred_candidates']}组。"
+        f"纳入{accounting_counts['new_english_headwords']}个新英文词头；{accounting_counts['reviewed_tag_headwords']}个有本地候选的来源词头逐项审查后，"
+        f"{accounting_counts['accounting_tag_source_memberships']}个加入商务来源归属（新增{accounting_counts['new_business_tag_memberships']}个商务成员）、"
+        f"{accounting_counts['rejected_tag_headwords']}个排除、{accounting_counts['deferred_tag_headwords']}个暂缓。"
+        "繁体中文以 OpenCC t2s 转简体；源定义和例句不进入应用。完整快照、许可、SHA-256、逐项审校和构建器见 "
+        "vocabulary/data/NAER-ACCOUNTING-ATTRIBUTION.md、vocabulary/data/naer-accounting-manifest.json、"
+        "vocabulary/data/batches/32-naer-accounting-reviewed.tsv、vocabulary/data/batches/32-naer-accounting-tags-reviewed.tsv "
+        "和 scripts/build_naer_accounting_batch.py。\n"
+    )
+    for row in accounting_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER accounting record {row['source_records']}\n"
+        )
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))

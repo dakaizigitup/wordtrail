@@ -33,6 +33,7 @@ const NAER_MEDICAL_2_TSV: &str = include_str!("../data/naer-medical-tags-2.tsv")
 const NAER_LIFE_SCIENCE_TSV: &str = include_str!("../data/naer-life-science-tags.tsv");
 const NAER_VETERINARY_TSV: &str = include_str!("../data/naer-veterinary-tags.tsv");
 const NAER_ECONOMICS_TSV: &str = include_str!("../data/naer-economics-tags.tsv");
+const NAER_ACCOUNTING_TSV: &str = include_str!("../data/naer-accounting-tags.tsv");
 const NAER_COMPUTER_TSV: &str = include_str!("../data/naer-computer-tags.tsv");
 const WORDLEVEL_TOEFL_IELTS_TSV: &str = include_str!("../data/wordlevel-toefl-ielts-tags.tsv");
 static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
@@ -280,6 +281,23 @@ static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
         );
         words.entry(word).or_default().naer_economics = mask;
     }
+    for line in NAER_ACCOUNTING_TSV.lines() {
+        let mut fields = line.split('\t');
+        let word = fields.next().expect("NAER accounting tag has a word");
+        let mask: u16 = fields
+            .next()
+            .expect("NAER accounting tag has a mask")
+            .parse()
+            .expect("valid NAER accounting category mask");
+        let source = fields.next().expect("NAER accounting tag has a source");
+        assert_eq!(source, "NAER Accounting Academic Terms OGDL v1.0");
+        assert_eq!(mask, 1 << 7, "NAER accounting rows only add business tags");
+        assert!(
+            fields.next().is_none(),
+            "unexpected NAER accounting tag column"
+        );
+        words.entry(word).or_default().naer_accounting = mask;
+    }
     for line in NAER_COMPUTER_TSV.lines() {
         let mut fields = line.split('\t');
         let word = fields.next().expect("NAER computer tag has a word");
@@ -336,6 +354,7 @@ pub struct Membership {
     pub naer_life_science: u16,
     pub naer_veterinary: u16,
     pub naer_economics: u16,
+    pub naer_accounting: u16,
     pub naer_computer: u16,
     pub wordlevel: u16,
 }
@@ -357,6 +376,7 @@ impl Membership {
             | self.naer_life_science
             | self.naer_veterinary
             | self.naer_economics
+            | self.naer_accounting
             | self.naer_computer
             | self.wordlevel
     }
@@ -458,6 +478,9 @@ pub fn tags(word: &str, selected: u16) -> Vec<Tag> {
             }
             if entry.naer_economics & (1 << i) != 0 {
                 sources.push("NAER Economics Academic Terms OGDL v1.0");
+            }
+            if entry.naer_accounting & (1 << i) != 0 {
+                sources.push("NAER Accounting Academic Terms OGDL v1.0");
             }
             if entry.naer_computer & (1 << i) != 0 {
                 sources.push("NAER Computer Science Academic Terms OGDL v1.0");
@@ -815,6 +838,69 @@ mod tests {
         prioritize(&mut candidate, selected);
         assert_eq!(candidate.text, original_chinese);
         assert_eq!(candidate.translation.unwrap().senses()[0].text, "merger");
+    }
+
+    #[test]
+    fn naer_accounting_adds_reviewed_mappings_and_business_tags_without_reordering_chinese() {
+        let selected = selection(&["business".into()]).unwrap();
+        let mappings: Vec<_> = include_str!("../data/naer-accounting-expansion.tsv")
+            .lines()
+            .collect();
+        assert_eq!(mappings.len(), 22);
+        for row in mappings {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let pos: PartOfSpeech = fields.next().unwrap().parse().unwrap();
+            assert_eq!(
+                fields.next(),
+                Some("NAER Accounting Academic Terms OGDL v1.0")
+            );
+            let sense = expansion::senses(chinese)
+                .find(|sense| sense.text == english)
+                .unwrap_or_else(|| {
+                    panic!("missing NAER accounting mapping {chinese} -> {english}")
+                });
+            assert_eq!(sense.part_of_speech, Some(pos));
+            assert_eq!(
+                expansion::source(chinese, english),
+                Some("NAER Accounting Academic Terms OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "business"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Accounting Academic Terms OGDL v1.0")
+            }));
+        }
+
+        let tagged: Vec<_> = include_str!("../data/naer-accounting-tags.tsv")
+            .lines()
+            .collect();
+        assert_eq!(tagged.len(), 133);
+        for row in tagged {
+            let mut fields = row.split('\t');
+            let english = fields.next().unwrap();
+            assert_eq!(fields.next(), Some("128"));
+            assert_eq!(
+                fields.next(),
+                Some("NAER Accounting Academic Terms OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "business"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Accounting Academic Terms OGDL v1.0")
+            }));
+        }
+
+        let mut candidate = candidate(&["unlabelled test", "business"], Language::English);
+        let original_chinese = candidate.text.clone();
+        prioritize(&mut candidate, selected);
+        assert_eq!(candidate.text, original_chinese);
+        assert_eq!(candidate.translation.unwrap().senses()[0].text, "business");
     }
 
     #[test]
