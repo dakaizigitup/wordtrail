@@ -20,6 +20,8 @@ GitHub 最新发布版为 **v0.1.23**（Android 0.1.23、Windows 补丁 0.1.16�
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
+本地共享词库继续按批次扩充。批次28固定 [WordLevel TOEFL/IELTS 学术词表](https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset)，946个有本地中文释义和音标的词头加入双考试标签；11条可输入候选逐项处理后，接受4组映射（3个新英文词头）、排除6组、暂缓1组。该社区词表不是官方考纲；GitHub 仓库声明 MIT，Mendeley 记录声明 CC BY 4.0，因此项目同时保留 MIT 文本及 [WordLevel](https://wordlevel.net) 链接署名。该批尚未打包发布，电脑版仍按安排暂不安装。详见[批次28说明](docs/28-WordLevel考试词汇.md)和[来源记录](vocabulary/data/WORDLEVEL-ATTRIBUTION.md)。
+
 ## 当前功能
 
 | 功能 | Android 本地 0.1.28 | Windows 本地 0.1.21 | iOS 源码 |

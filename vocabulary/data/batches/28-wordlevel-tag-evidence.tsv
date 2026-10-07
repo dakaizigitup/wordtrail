@@ -1,0 +1,1001 @@
+word	source_pos	theme	difficulty	existing_mapping	accepted_new_mappings	has_ipa	prior_exam_mask	new_toefl_membership	new_ielts_membership	runtime_indexed	reason
+abandon	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+aberration	noun	Astronomy	5	false	畸变 [n.]	true	0	true	true	true	indexed: local Chinese translation and IPA
+abolish	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+abound	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+abrupt	adjective	Geology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+absorb	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+abstract	adjective	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+abundance	noun	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+abuse	noun/verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+accelerate	verb	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+accessible	adjective	Education Technology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+acclaim	noun	Arts & Literature	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+accompany	verb	Musicology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+account	noun	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+accurate	adjective	Statistics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+accurately	adverb	Physics	3	false		true	0	false	false	false	excluded: no local Chinese translation
+acetic	adjective	Chemistry	5	false		true	0	false	false	false	excluded: no local Chinese translation
+acidification	noun	Environmental Science	5	false		true	0	false	false	false	excluded: no local Chinese translation
+acknowledge	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+acoustic	adjective	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+acquaint	verb	Education	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+acquire	verb	Linguistics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+activate	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+actuate	verb	Engineering	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+acute	adjective	Medicine	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adamant	adjective	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+adapt	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+addendum	noun	Publishing	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+addiction	noun	Psychology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+address	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adhere	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adherent	noun	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+adjacent	adjective	Urban Planning	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adjust	verb	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adjustment	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+administrate	verb	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+administrator	noun	Business Administration	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adopt	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+adversary	noun	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+advocate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+afflict	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+aftermath	noun	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+aggravate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+aggregate	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+agonize	verb	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+agronomist	noun	Agricultural Science	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+aground	adverb	Maritime History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+airlift	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+alienate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+allegation	noun	Law	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+allege	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+allocate	verb	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+allude	verb	Literature	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+alteration	noun	Geology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+alternate	verb	Geology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+alternative	noun	Environmental Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+amass	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ambiguous	adjective	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+amenable	adjective	Biology	5	false		true	16	false	false	false	excluded: no local Chinese translation
+amend	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+amnesty	noun	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+amphibian	noun	Biology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+ample	adjective	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+amplification	noun	Physics	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+analogous	adjective	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+anomalous	adjective	Astronomy	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+anticipate	verb	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+antiquity	noun	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+apathy	noun	Psychology	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+appalling	adjective	Sociology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+apparatus	noun	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+apparent	adjective	Astronomy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+appeal	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+appendage	noun	Biology	5	false		true	0	false	false	false	excluded: no local Chinese translation
+appreciate	verb	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+apprehensive	adjective	Psychology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+approach	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+appropriate	adjective/verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+aptitude	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+arbitrary	adjective	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ardently	adverb	History	4	false		true	0	false	false	false	excluded: no local Chinese translation
+argue	verb	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+arid	adjective	Geography	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+arise	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+articulate	verb	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ascendancy	noun	History	5	false		true	0	false	false	false	excluded: no local Chinese translation
+ascension	noun	History	4	false		true	0	false	false	false	excluded: no local Chinese translation
+ascribe	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+aspect	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+aspire	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+assassinate	verb	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+assault	noun	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+assemble	verb	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+assessment	noun	Education	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+asset	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+association	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+assort	verb	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+assume	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+assumption	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+assurance	noun	Political Science	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+asylum	noun	Political Science	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+attainment	noun	Education	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+audacity	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+authentic	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+authority	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+availability	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+axis	noun	Mathematics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+banish	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+basal	adjective	Biology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+behalf	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+behaviour	noun	Psychology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+belligerent	adjective	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+beneficial	adjective	Health Sciences	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+benefit	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+benign	adjective	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+beset	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+bewilder	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+bewitch	verb	Anthropology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+biased	adjective	Sociology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+bluntly	adverb	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+bound	verb	Geography	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+bountiful	adjective	Agriculture	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+boycott	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+breakdown	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+brigade	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+budget	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+bulk	noun	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+burglary	noun	Criminology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+calorific	adjective	Biology	5	false		true	0	false	false	false	excluded: no local Chinese translation
+campaign	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+canopy	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+capability	noun	Technology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+capacity	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+cardiac	adjective	Medicine	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+ceaseless	adjective	Geology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+celestial	adjective	Astronomy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+census	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+chaos	noun	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+characterize	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+chronicle	noun	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+circulate	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+circulatory	adjective	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+circumstance	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+cite	verb	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+clad	adjective	History	4	false		true	0	false	false	false	excluded: no local Chinese translation
+claim	verb	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+climate	noun	Geography	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+coalesce	verb	Chemistry	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+cognitive	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+coherent	adjective	Rhetoric	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+coincidence	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+colonize	verb	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+commendable	adjective	Sociology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+commit	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+communal	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+communicate	verb	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+compatibility	noun	Computer Science	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+compatible	adjective	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+compel	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+compensate	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+competition	noun	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+complacent	adjective	Sociology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+complex	adjective	Systems Theory	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+compliance	noun	Law	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+complicate	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+component	noun	Engineering	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+composite	adjective	Geology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+comprehension	noun	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+comprehensively	adverb	Sociology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+compromise	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+concede	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conceive	verb	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+concept	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+concern	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+concise	adjective	Linguistics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conclude	verb	Logic and Reasoning	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conclusion	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conclusive	adjective	Scientific Research	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+condemn	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conditionally	adverb	Law	4	false		true	0	false	false	false	excluded: no local Chinese translation
+conduct	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+configure	verb	Computer Science	4	false		true	0	false	false	false	excluded: no local Chinese translation
+confirm	verb	Scientific Research	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+confrontation	noun	Political Science	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+congenital	adjective	Biology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+congress	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conjecture	noun	Mathematics	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+conjointly	adverb	Law	5	false		false	0	false	false	false	excluded: no local Chinese translation
+connotation	noun	Linguistics	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+consensus	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+consequence	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conservation	noun	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conserve	verb	Environmental Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+considerable	adjective	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+considerably	adverb	Environmental Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+consolidate	verb	Business	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conspiracy	noun	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+consternation	noun	Psychology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+constipation	noun	Medicine	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+constitute	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+constrain	verb	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+constraint	noun	Engineering	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+construct	verb	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+consumption	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+contagious	adjective	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+contaminate	verb	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+contemporary	adjective	Art History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+contend	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+continuously	adverb	Physics	3	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+contour	noun/verb	Geography	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+contradict	verb	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+contradictory	adjective	Philosophy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+contribute	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+controversial	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+controversy	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+convene	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+convention	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+conversion	noun	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+coordinate	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+corporation	noun	Business	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+correlation	noun	Statistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+corroborate	verb	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+corrode	verb	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+corrosive	adjective	Chemistry	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+corrupt	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+counteract	verb	Pharmacology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+counterfeit	adjective	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+countermeasure	noun	Cybersecurity	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+counterpart	noun	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+covenant	noun	Law	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+credibility	noun	Sociology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+cretaceous	adjective	Geology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+crevice	noun	Geology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+crick	noun	Geography	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+crisis	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+criterion	noun	Research Methodology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+critical	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+crucial	adjective	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+crude	adjective	Anthropology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+culmination	noun	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+culprit	noun	Environmental Science	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+cultivate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+cultivation	noun	Agriculture	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+culture	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+curator	noun	Art History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+curricula	noun	Education	4	false	课程 [n.]	true	0	true	true	true	indexed: local Chinese translation and IPA
+curriculum	noun	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+curtail	verb	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+cyclic	adjective	Geology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+data	noun	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+daunt	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+debate	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+debris	noun	Geology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+decay	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deception	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deceptively	adverb	Psychology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+deciduous	adjective	Biology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+declare	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deduce	verb	Logic	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+deduction	noun	Logic	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+deficiency	noun	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deficit	noun	Economics	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deforestation	noun	Environmental Science	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+defy	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+degeneration	noun	Biology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+degrade	verb	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+degree	noun	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deliberate	adjective	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deliberately	adverb	Law	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+delude	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+delusion	noun	Psychology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+demobilize	verb	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+democracy	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+demonstrate	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+denote	verb	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+denounce	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+density	noun	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+depict	verb	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deplore	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+desalination	noun	Environmental Science	5	false		true	16	false	false	false	excluded: no local Chinese translation
+despot	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+detail	noun	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+detection	noun	Computer Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+deter	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+determination	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+detonator	noun	Engineering	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+detrimental	adjective	Environmental Science	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+devastate	verb	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+devastating	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+deviate	verb	Statistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+diagnostic	adjective	Medicine	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+differentiate	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+diffuse	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dilute	verb	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dimension	noun	General Academic	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+diminish	verb	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+discard	verb	Environmental Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+discipline	noun	Academia	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disclose	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+discredit	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+discreet	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+discretion	noun	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+discriminate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disdain	noun/verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disease	noun	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disintegrate	verb	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disparate	adjective	Sociology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+dispel	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disperse	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+displace	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dispute	noun/verb	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disregard	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disrepute	noun	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+disrupt	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disruption	noun	Business	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+disseminate	verb	Communication Studies	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dissuade	verb	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+distinct	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+distinctive	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+distinguish	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+distort	verb	Media Studies	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+diverse	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+diversity	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+docile	adjective	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+domain	noun	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dominate	verb	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dormancy	noun	Biology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+draft	noun	Academic Writing	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+drastic	adjective	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dubious	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+durable	adjective	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+duration	noun	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+dwell	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+effective	adjective	Public Policy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+eject	verb	Astronomy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+elaborate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+elapse	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+element	noun	Chemistry	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+elicit	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+eliminate	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+elite	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+elude	verb	Neuroscience	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+embed	verb	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+embody	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+emigrate	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+eminent	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+eminently	adverb	Political Science	4	false		true	0	false	false	false	excluded: no local Chinese translation
+emission	noun	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+emit	verb	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+empirical	adjective	Sociology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+empower	verb	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+emulate	verb	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+enable	verb	Technology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+enact	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+encode	verb	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+encrypt	verb	Computer Science	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+endeavor	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+endeavour	noun	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+endorse	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+endure	verb	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+engender	verb	Sociology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+engulf	verb	Geology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+enhancement	noun	Technology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+enmity	noun	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+enormous	adjective	Astronomy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+enroll	verb	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+enshroud	verb	Meteorology	5	false	掩盖 [v.] | 隐蔽 [v.]	true	0	true	true	true	indexed: local Chinese translation and IPA
+enslave	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ensue	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+entice	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+entity	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+entrap	verb	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+environment	noun	Ecology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+envisage	verb	Urban Planning	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+epoch	noun	Geology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+equality	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+equilibrium	noun	Physics	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+equity	noun	Sociology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+eradicate	verb	Biology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+erode	verb	Geology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+escalation	noun	Political Science	4	false		true	0	false	false	false	excluded: no local Chinese translation
+essence	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+essential	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+essentially	adverb	Philosophy	3	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+establish	verb	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+estimate	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ethic	noun	Philosophy	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+evidence	noun	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+evidently	adverb	Archaeology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+exalt	verb	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+excavate	verb	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+excavation	noun	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exceptionally	adverb	Biology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+excess	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exclude	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+execute	verb	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exemplify	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exert	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exhibit	verb	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exorbitant	adjective	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+expansion	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+expedite	verb	Business Administration	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+expenditure	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+explicit	adjective	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+explore	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+export	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exposure	noun	Public Health	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+exquisite	adjective	Art History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+extend	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+extension	noun	Architecture	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+extensive	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+extinct	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+extinction	noun	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+extravagant	adjective	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+fabricate	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+facilitate	verb	Education	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+facilities	noun	Urban Planning	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+facility	noun	Urban Planning	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+factor	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+faculty	noun	Higher Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+famish	verb	Sociology	4	false		false	16	false	false	false	excluded: no local Chinese translation
+fatal	adjective	Medicine	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+feasibility	noun	Engineering	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+feasible	adjective	Engineering	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+feature	noun	Geography	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+federal	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+fermentation	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+ferrous	adjective	Chemistry	5	false		true	0	false	false	false	excluded: no local Chinese translation
+finance	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+fissure	noun	Geology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+flaunt	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+flaw	noun	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+flourish	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+follicle	noun	Biology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+followthrough	noun	Psychology	4	false		false	0	false	false	false	excluded: no local Chinese translation
+forecast	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+foremost	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+forensic	adjective	Criminology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+forerunner	noun	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+foresee	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+forgery	noun	Art History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+former	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+formidable	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+forthcoming	adjective	Sociology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+fortify	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+foster	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+foundation	noun	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+framework	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+fringe	noun/verb/adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+fulcrum	noun	Physics	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+fulfil	verb	Psychology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+function	noun	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+fundamental	adjective	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+furtively	adverb	Sociology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+futile	adjective	History	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+generate	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+genesis	noun	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+genocide	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+genuine	adjective	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+germicide	noun	Biology	5	false		true	0	false	false	false	excluded: no local Chinese translation
+germinate	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+gestation	noun	Biology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+global	adjective	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+gradual	adjective	Geology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+grapple	verb	Philosophy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+gratify	verb	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+grave	noun, adjective	Political Science	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+guidance	noun	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+gusty	adjective	Meteorology	4	false		true	16	false	false	false	excluded: no local Chinese translation
+harsh	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+hasten	verb	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+havoc	noun	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+hence	adverb	Geology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+herbivorous	adjective	Biology	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+heritage	noun	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+hierarchy	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+highlight	verb	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+hinder	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+holdout	noun	Sociology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+horrific	adjective	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+hurtle	verb	Astronomy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+identification	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+identify	verb	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+identity	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+illustrate	verb	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+immediacy	noun	Communication Studies	4	false		true	0	false	false	false	excluded: no local Chinese translation
+immense	adjective	Astronomy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+immunity	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+immunization	noun	Medicine	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+impact	noun	Environmental Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+impair	verb	Medicine/Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+impetus	noun	History	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+implement	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+implicate	verb	Criminology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+implication	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+implode	verb	Physics	4	false		true	0	false	false	false	excluded: no local Chinese translation
+imply	verb	Philosophy	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+import	verb	Economics	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+impose	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+impregnate	verb	Biology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+impulse	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inasmuchas	conjunction	Law	5	false		false	0	false	false	false	Malformed fused phrase: the source example uses 'inasmuch as'; this is not a single-word headword.
+inaudible	adjective	Acoustics	4	false		true	0	false	false	false	excluded: no local Chinese translation
+inborn	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+incentive	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+incessant	adjective	Meteorology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+incident	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+incoherent	adjective	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+incompetence	noun	Management	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+inconvenient	adjective	Urban Planning	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+incurable	adjective	Medicine	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+indefinite	adjective	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+independent	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+index	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+indifferent	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+indigenous	adjective	Anthropology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+indispensable	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+indisputable	adjective	History	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+individual	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+induce	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inefficient	adjective	Economics	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+inequality	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+inert	adjective	Chemistry	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inevitable	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+infer	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inferior	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inflict	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+influential	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ingenious	adjective	Engineering	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inhibit	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+initial	adjective	Research Methodology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+innate	adjective	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+innovation	noun	Business	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+innovative	adjective	Technology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inquiry	noun	Philosophy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+insatiable	adjective	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+inscribe	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+insight	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+insignificant	adjective	Statistics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inspect	verb	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+institutional	adjective	Sociology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+insulate	verb	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+insulin	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+intact	adjective	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+integrate	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+integrity	noun	Ethics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intelligence	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intend	verb	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intensity	noun	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intention	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+interact	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+interfere	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+interpret	verb	Linguistics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+interrogate	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+interval	noun	Mathematics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intervene	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intestine	noun	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intimacy	noun	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+intractable	adjective	Political Science	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+intrigue	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+intrinsic	adjective	Philosophy	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+inundate	verb	Sociology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+invalid	adjective	Logic	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+invaluable	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+invariably	adverb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+invertebrate	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+investigate	verb	Criminology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+invoke	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+involve	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+involvement	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+irreducible	adjective	Philosophy	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+irregularity	noun	Astronomy	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+irrelevant	adjective	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+irreversible	adjective	Chemistry	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+irrigation	noun	Agriculture	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+isolation	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+jargon	noun	Linguistics	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+jeopardize	verb	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+journal	noun	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+judicial	adjective	Law	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+justify	verb	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+latter	adjective	Political Science	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+legislation	noun	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+legitimate	adjective	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+leniency	noun	Law	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+levy	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+liability	noun	Law	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+limelight	noun	Theater Arts	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+lineage	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+linkage	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+listless	adjective	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+literacy	noun	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+logic	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+lucrative	adjective	Economics	4	false		true	48	false	false	false	excluded: no local Chinese translation
+magnitude	noun	Astronomy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+maintain	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+malign	adjective	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+malnutrition	noun	Health Sciences	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+management	noun	Business Studies	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+mandatory	adjective	Education	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+manifest	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+mankind	noun	Sociology	3	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+manoeuvre	noun	Military History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+manufacture	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+margin	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+markup	noun	Computer Science	4	false		true	0	false	false	false	excluded: no local Chinese translation
+mature	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+maximum	noun	Mathematics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+meteorology	noun	Earth Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+meticulous	adjective	Archaeology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+migration	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+migratory	adjective	Biology	4	false		true	48	false	false	false	excluded: no local Chinese translation
+minimal	adjective	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+miraculously	adverb	Biology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+misconduct	noun	Law	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+misgiving	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+mislead	verb	Psychology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+mission	noun	Astronomy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+mistrustful	adjective	Psychology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+moderate	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+modify	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+monetary	adjective	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+monumental	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+motive	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+multitude	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+municipal	adjective	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+muse	verb	Philosophy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+mutual	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+mutually	adverb	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+negation	noun	Linguistics	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+neglect	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+negligible	adjective	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+negotiate	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+network	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+neutral	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+neutrality	noun	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+neutralize	verb	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+noble	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+nomenclature	noun	Biology	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+nonetheless	adverb	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+notably	adverb	Art History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+notorious	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+nurture	verb	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+obesity	noun	Medicine	3	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+oblivious	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+obnoxious	adjective	Sociology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+obscure	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+obscurity	noun	History	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+obsolete	adjective	Technology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+obstacle	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+obtain	verb	Chemistry	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+obviate	verb	Engineering	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+occur	verb	Geology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+occurrence	noun	Geology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+official	adjective	Political Science	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+officious	adjective	Sociology	5	false		true	16	false	false	false	excluded: no local Chinese translation
+offset	verb	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+omit	verb	Research Methodology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ongoing	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+operation	noun	Medicine	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+opportunity	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+option	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+organic	adjective	Chemistry	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+orientation	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+origin	noun	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+originally	adverb	Art History	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+originate	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+oscillation	noun	Physics	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+ostentatious	adjective	Sociology	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+overall	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+overestimate	verb	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+overrate	verb	Sociology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+overrule	verb	Law	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+oversee	verb	Management	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+overstate	verb	Sociology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+overthrow	verb	Political Science	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+overwhelm	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+panel	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+paradox	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+paralyse	verb	Biology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+participant	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+participate	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+particularly	adverb	Environmental Science	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+partition	noun	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+passover	noun	Religious Studies	4	false		true	0	false	false	false	excluded: no local Chinese translation
+patent	noun	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+pattern	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+peculiar	adjective	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+penalize	verb	Law	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+perceive	verb	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+perception	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+perpetrate	verb	Criminology	5	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+perpetual	adjective	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+persistent	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+personnel	noun	Business Administration	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+perspective	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+persuade	verb	Rhetoric	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+pert	adjective	Psychology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+pervade	verb	Sociology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+phenomenon	noun	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+philosophy	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+photosynthesis	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+pilgrimage	noun	Religious Studies	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+plague	noun	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+plaintiff	noun	Law	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+plausible	adjective	Archaeology	4	false		true	48	false	false	false	excluded: no local Chinese translation
+plead	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+political	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+poll	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+pollutant	noun	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+populate	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+populous	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+portray	verb	Art History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+possess	verb	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+possession	noun	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+posterity	noun	History	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+postpone	verb	Project Management	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+postulate	verb	Philosophy	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+potential	noun	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+practically	adverb	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+practitioner	noun	Medicine	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+precipitation	noun	Meteorology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+precise	adjective	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+preconceive	verb	Psychology	5	false		true	0	false	false	false	excluded: no local Chinese translation
+predict	verb	Meteorology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+predominant	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+preferable	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+preference	noun	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prehensile	adjective	Biology	5	false		true	0	false	false	false	excluded: no local Chinese translation
+prejudice	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+preliminary	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+premium	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+preposterous	adjective	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+preside	verb	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+pressure	noun	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prestige	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+presumably	adverb	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prevail	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prevalent	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prime	adjective	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+primeval	adjective	Geology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+principle	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prior	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+privacy	noun	Sociology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+probability	noun	Mathematics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+proceed	verb	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+proclaim	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+production	noun	Economics	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+profound	adjective	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+progress	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+proliferation	noun	Political Science	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+prolific	adjective	Literature	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prominent	adjective	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+promote	verb	Business Administration	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prone	adjective	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+propel	verb	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+proportion	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+propose	verb	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prosecute	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+prosecutor	noun	Law	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+prospect	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+protagonist	noun	Literature	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+provocative	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+provoke	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+proximity	noun	Urban Planning	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+publication	noun	Library Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+publicity	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+pursuit	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+qualified	adjective	Education	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+quarantine	noun	Public Health	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+questionnaire	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+quintessence	noun	Philosophy	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+rabies	noun	Medicine	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+racism	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+radiant	adjective	Physics	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+radiation	noun	Physics	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+radical	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ravage	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+realistic	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+rebuke	verb	Political Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+rebut	verb	Law	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+recipient	noun	Communication Studies	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+recommend	verb	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+recommendation	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reconcile	verb	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reconnaissance	noun	Military Science	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+rectify	verb	Law and Ethics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+redundant	adjective	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+refine	verb	Research Methodology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reflect	verb	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+refrain	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+refugee	noun	Sociology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+refute	verb	Philosophy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+regression	noun	Statistics	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+regulate	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+regulation	noun	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+regulatory	adjective	Law	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+reinforcement	noun	Psychology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+reiterate	verb	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reject	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+rejuvenate	verb	Environmental Science	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+relationship	noun	Sociology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+relative	adjective	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+relevance	noun	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+relevant	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reliance	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+relic	noun	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+reminiscent	adjective	Art History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+remnant	noun	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+removal	noun	Environmental Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+renown	noun	History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+replica	noun	Art History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+represent	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+repulsive	adjective	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+repute	noun	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+requirement	noun	Education	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+resemble	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reside	verb	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+resist	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+resolutely	adverb	Political Science	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+resolve	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+resource	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+responsibility	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+restrict	verb	Law/Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+retain	verb	Psychology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+retard	verb	Chemistry	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+retrieve	verb	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reveal	verb	Archaeology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+revelation	noun	Philosophy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+revenue	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+reverberate	verb	Sociology	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+revert	verb	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+revoke	verb	Law	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+ridicule	noun	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+rife	adjective	Sociology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+rigid	adjective	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+rigorous	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+runoff	noun	Environmental Science	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+rural	adjective	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+ruthless	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sabotage	verb	Political Science	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+sacrifice	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+safeguard	verb	Environmental Science	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+salinity	noun	Oceanography	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sample	noun	Statistics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sanction	noun	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+satellite	noun	Astronomy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+satirical	adjective	Literature	4	false		true	16	false	false	false	excluded: no local Chinese translation
+satisfy	verb	Psychology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+saturate	verb	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+scale	noun/verb	Geography	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+scarce	adjective	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sceptical	adjective	Philosophy	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+scientific	adjective	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+scornful	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+scour	verb	Archaeology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+secession	noun	Political Science	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+secure	adjective	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sedate	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+sensitive	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sensuous	adjective	Art History	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+sentiment	noun	Psychology	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+setback	noun	Project Management	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+severe	adjective	Medicine	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+severely	adverb	Environmental Science	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+similarity	noun	Biology	3	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+simulate	verb	Computer Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+simultaneous	adjective	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sinister	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+skirmish	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+solution	noun	Chemistry	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sophisticated	adjective	Technology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+source	noun	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sovereign	adjective	Political Science	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sparse	adjective	Ecology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+specialist	noun	Medicine	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+specialization	noun	Economics	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+specific	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+specify	verb	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+spectacular	adjective	Astronomy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+spectrum	noun	Physics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+speculate	verb	Astronomy	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+splendour	noun	Art History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+spore	noun	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+stability	noun	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+stagnant	adjective	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+stagnation	noun	Economics	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+standard	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+stature	noun	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+statutory	adjective	Law	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+steadily	adverb	Economics	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+stealthily	adverb	Biology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+stem	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+stereotype	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sterilize	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+stipulate	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+strain	noun	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+strew	verb	Archaeology	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+subconscious	adjective	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+submissive	adjective	Sociology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+submit	verb	Academia	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+subsequent	adjective	History	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+subsidize	verb	Economics	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+substance	noun	Chemistry	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+substitution	noun	Chemistry	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+substratum	noun	Linguistics	5	false		false	0	false	false	false	excluded: no local Chinese translation
+subtle	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+subversive	adjective	Political Science	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+succinct	adjective	Linguistics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sufficient	adjective	Research Methodology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sufficiently	adverb	Chemistry	3	false		true	0	false	false	false	excluded: no local Chinese translation
+suffrage	noun	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+sullen	adjective	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+summon	verb	History	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+superficial	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+superficially	adverb	Psychology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+supersede	verb	Law	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+supplant	verb	History	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+supplement	noun	Nutrition	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+suppress	verb	Political Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+surge	verb	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+surgical	adjective	Medicine	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+surveillance	noun	Sociology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+survey	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sustain	verb	Ecology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+sustainable	adjective	Environmental Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+synthesis	noun	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tackle	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tamper	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tariff	noun	Economics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+technique	noun	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+teem	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+telepathic	adjective	Psychology	5	false		true	0	false	false	false	excluded: no local Chinese translation
+telltale	adjective	Archaeology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+tenacious	adjective	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tendency	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tentative	adjective	Scientific Research	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tentatively	adverb	Archaeology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+terminate	verb	Business	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+territory	noun	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+theory	noun	Philosophy of Science	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+thereby	adverb	Engineering	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+thoroughly	adverb	Chemistry	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+threat	noun	Ecology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+threshold	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+thrust	verb	Physics	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+toxic	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+toxin	noun	Biology	4	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+tragedy	noun	Literature	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+transaction	noun	Economics	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+transform	verb	Technology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+transmit	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+transparent	adjective	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+transplant	verb	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+treaty	noun	Political Science	3	true		true	32	true	false	true	indexed: local Chinese translation and IPA
+tremendous	adjective	Geology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+tripe	noun	Culinary Arts	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+tyranny	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+tyrant	noun	History	4	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+unanimously	adverb	Political Science	4	false		true	0	false	false	false	excluded: no local Chinese translation
+unbiased	adjective	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+unconscious	adjective	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+undergo	verb	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+underlie	verb	Psychology	4	false		true	16	false	false	false	excluded: no local Chinese translation
+undermine	verb	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+undertake	verb	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+unify	verb	Political Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+unique	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+unite	verb	Sociology	3	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+unity	noun	Sociology	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+uphold	verb	Law	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+uptake	noun	Biology	4	false		true	0	false	false	false	excluded: no local Chinese translation
+urbanity	noun	Sociology	5	false		false	16	false	false	false	excluded: no local Chinese translation
+urbanization	noun	Sociology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+utilize	verb	Engineering	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+vague	adjective	Philosophy	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+valid	adjective	Research Methodology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+validity	noun	Psychology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+vaporize	verb	Physics	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+venture	noun	Business	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+verify	verb	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+versatile	adjective	Engineering	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+versatility	noun	Materials Science	5	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+vertebrate	noun	Biology	5	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+viable	adjective	Biology	4	false		true	48	false	false	false	excluded: no local Chinese translation
+vicinity	noun	Geography	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+vigorously	adverb	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+violate	verb	Law	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+violation	noun	Law	3	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+virtually	adverb	Computer Science	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+vital	adjective	Biology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+vitality	noun	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+volatile	adjective	Chemistry	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+voracious	adjective	Biology	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+vulnerable	adjective	Biology	4	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+wantonly	adverb	History	5	true		true	0	true	true	true	indexed: local Chinese translation and IPA
+welfare	noun	Sociology	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA
+whence	adverb	Philosophy	4	true		true	16	false	true	true	indexed: local Chinese translation and IPA
+woefully	adverb	Economics	4	false		true	0	false	false	false	excluded: no local Chinese translation
+yield	verb, noun	Agriculture	3	true		true	48	false	false	true	indexed: local Chinese translation and IPA

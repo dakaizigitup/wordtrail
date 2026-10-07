@@ -371,11 +371,36 @@ def main():
             f"来源与修改说明、输入/输出散列、逐项理由见 vocabulary/data/{attribution}、"
             f"vocabulary/data/{manifest_name}、vocabulary/data/batches/{reviewed_name} 和 scripts/build_{'naer_life_science_batch.py' if batch.startswith('26') else 'naer_veterinary_batch.py'}。\n"
         )
-        for row in accepted:
-            parts.append(
-                f"{row['chinese']} -> {row['english']} (n.); NAER source record {row['source_records']}; "
-                f"MeSH {row['mesh_ids']}\n"
-            )
+    for row in accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER source record {row['source_records']}; "
+            f"MeSH {row['mesh_ids']}\n"
+        )
+    wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    wordlevel_accepted = [row for row in wordlevel_reviewed if row['decision'] == 'accept']
+    wordlevel_counts = wordlevel_manifest['counts']
+    parts.append("\n=== WordLevel TOEFL/IELTS 学术词表（批次28）===\n")
+    parts.append(
+        "署名：Gungor Kaya / WordLevel；来源仓库："
+        f"{wordlevel_manifest['source']['repository']}，固定提交 {wordlevel_manifest['source']['commit']}。"
+        "上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；"
+        "对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。"
+        "因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。"
+        f"CSV SHA-256：{wordlevel_manifest['source']['source_sha256']['toefl_essential_vocabulary.csv']}。"
+        f"来源共{wordlevel_counts['source_records']}词；运行索引限于有本地映射及 IPA 的{wordlevel_counts['runtime_tagged_source_headwords']}词。"
+        f"筛选候选{wordlevel_counts['candidates_reviewed']}组，接受{wordlevel_counts['accepted_mappings']}组、"
+        f"排除{wordlevel_counts['rejected_candidates']}组、暂缓{wordlevel_counts['deferred_candidates']}组。"
+        "该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。"
+        "ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 "
+        "vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、"
+        "vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。\n"
+    )
+    for row in wordlevel_accepted:
+        parts.append(f"{row['chinese']} -> {row['english']} ({row['pos']}); ECDICT MIT; WordLevel TOEFL/IELTS list membership\n")
+    parts.append("\n=== vocabulary/data/sources/wordlevel/LICENSE ===\n")
+    parts.append((ROOT/'vocabulary/data/sources/wordlevel/LICENSE').read_text(encoding='utf-8'))
     cedict_rows = []
     for batch in ('04-cc-cedict-reviewed.tsv', '05-cc-cedict-reviewed.tsv', '07-cc-cedict-reviewed.tsv', '08-cc-cedict-reviewed.tsv'):
         with (ROOT/'vocabulary/data/batches'/batch).open(encoding='utf-8', newline='') as stream:

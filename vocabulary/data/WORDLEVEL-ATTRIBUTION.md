@@ -1,0 +1,13 @@
+# WordLevel TOEFL/IELTS academic vocabulary
+
+This batch uses the word list from [gungorkaya-eng/toefl-essential-vocabulary-dataset](https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset), pinned to commit `85d4392a2254d2a1ad73cf12cdd8898b49cd3295` (2026-04-29). The source describes 1,000 academic headwords and says the list is intended for TOEFL iBT, IELTS, and advanced English comprehension. These are community-list memberships, not official exam syllabi.
+
+The GitHub repository declares MIT and includes its upstream `LICENSE`; its README also requests a clickable backlink to [WordLevel](https://wordlevel.net), which is retained here. The corresponding [Mendeley Data record](https://data.mendeley.com/datasets/wfksk94zr9/1) identifies Gungor Kaya and declares [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Because these records state different licenses, this project preserves the MIT notice and follows CC BY attribution as well. The fixed CSV, README, and license hashes are recorded in `wordlevel-toefl-ielts-manifest.json`.
+
+The runtime membership index includes 946 source headwords with a local Chinese translation and bundled IPA after four individually reviewed ECDICT mappings across three previously unmapped headwords (943 were already covered). Each indexed headword receives the TOEFL and IELTS membership bits. The remaining 54 source words have no complete local translation/IPA pair, so they are not indexed in this batch. The index adds 122 TOEFL and 254 IELTS category memberships across 295 headwords; 81 receive both category memberships for the first time.
+
+One malformed source entry, `inasmuchas`, fuses the phrase “inasmuch as” into a single token. It is explicitly excluded from mapping discovery and the runtime index.
+
+ECDICT supplies the Chinese mappings; WordLevel is used only as evidence for TOEFL/IELTS list membership. The four accepted mappings are `aberration → 畸变`, `curricula → 课程`, and `enshroud → 掩盖 / 隐蔽`. Six candidates were rejected for sense mismatch. `eminently → 非常` is accurate, but is deferred because that pinyin key has already reached the runtime limit of eight added senses. The existing `gestation → 妊娠` mapping was already present and was not counted as a new mapping. The WordLevel definitions, examples, and synonyms are not copied into the runtime index.
+
+For review and reproducible builds, see `sources/wordlevel/`, `batches/28-wordlevel-reviewed.tsv`, `batches/28-wordlevel-tag-evidence.tsv`, `wordlevel-toefl-ielts-manifest.json`, and `scripts/build_wordlevel_toefl_batch.py`. The Chinese candidate order is unchanged; selected exam targets only affect English translation priority.

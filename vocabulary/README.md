@@ -85,3 +85,7 @@ python scripts/build_cedict_expansion.py --input vocabulary/data/batches/05-cc-c
 批次24从國家教育研究院《醫學學術名詞》固定开放数据快照中审查154组新词头对应，接受57组、排除12组、暂缓85组，并新增57个医学标签成员。每个采纳的英语词头有本地音标和 ECDICT 名词词性证据；繁体中文转换为本地拼音可达的简体形式。来源逐行网址字段为 `[url]` 占位值，因此不推断整份资料集的医学覆盖率。运行时只加入57行映射和57行标签。来源与许可见 `data/NAER-MEDICAL-ATTRIBUTION.md`，审校见 `data/batches/24-naer-medical-reviewed.tsv`。
 
 批次25继续从同一来源的已有词头中筛选，使用 MeSH 主题和 ECDICT 完整名词义交叉核对45组候选，接受37组中英映射（0个新英文词头），新增18个医学标签成员。运行时只加入37行映射和18行标签；每条精确释义和来源证据见 `data/batches/25-naer-medical-existing-headwords-reviewed.tsv` 与 `data/naer-medical-manifest-2.json`。
+
+## 批次28：WordLevel TOEFL/IELTS 学术词表
+
+固定 [WordLevel GitHub 数据集](https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset)提交 `85d4392a2254d2a1ad73cf12cdd8898b49cd3295`。1,000个来源词中，946个已有本地中文释义和音标并加入 TOEFL/IELTS 双标签；新增122个 TOEFL、254个 IELTS 标签归属（重叠），81个词头首次同时获得两类标签。另逐项审核11条可输入候选，接受4组中英对应（3个新英文词头）、排除6组、暂缓1组；54个来源词尚无可用本地映射/音标。词表为社区学术词表，不代表官方考试范围。GitHub 仓库声明 MIT，Mendeley DOI 记录声明 CC BY 4.0；本项目同时保留 MIT 文本、作者署名和 [WordLevel 链接](https://wordlevel.net)。固定数据、许可元数据、SHA-256、构建脚本及逐词处理见 `data/WORDLEVEL-ATTRIBUTION.md`、`data/wordlevel-toefl-ielts-manifest.json`、`data/batches/28-wordlevel-reviewed.tsv`、`data/batches/28-wordlevel-tag-evidence.tsv` 和 `../scripts/build_wordlevel_toefl_batch.py`。

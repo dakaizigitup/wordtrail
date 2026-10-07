@@ -1,0 +1,12 @@
+chinese	english	pos	wordlevel_pos	wordlevel_theme	wordlevel_difficulty	pinyin	base_senses	ecdict_translation	decision	review_note
+优势	ascendancy	n.	noun	History	5	you shi	advantage [n.] | strength [n.]	n. 优势, 支配地位	reject	Too broad for the defined state of dominant power; ECDICT's more exact 支配地位 is not a current input key.
+利润	markup	n.	noun	Computer Science	4	li run	profit [n.]	n. 涨价, 利润, 标高价	reject	Financial markup sense conflicts with WordLevel's computer-science markup-language definition.
+掩盖	enshroud	v.	verb	Meteorology	5	yan gai	cover [v.] | conceal [v.]	vt. 掩盖, 隐蔽	accept	Exact ECDICT verb gloss; matches the core sense 'cover and hide'.
+爆裂	implode	v.	verb	Physics	4	bao lie	burst [v.] | explode [v.]	vi. 内爆, 向内破裂, 爆裂\n[电] 内裂	reject	Loses the defining inward-collapse meaning; a direct inputtable 内爆 gloss is unavailable.
+畸变	aberration	n.	noun	Astronomy	5	ji bian	distortion [n.]	n. 离开正路, 偏离, 畸变, 光行差, 心理失常, 色差\n[化] 光行差; 像差	accept	Exact ECDICT noun gloss; preserves the general distortion/deviation sense.
+目前	immediacy	n.	noun	Communication Studies	4	mu qian	currently [n.]	n. 直接, 目前, 迫切需要的事物	reject	Temporal 'currently' gloss does not match the noun meaning of direct, immediate involvement.
+色差	aberration	n.	noun	Astronomy	5	se cha	color difference [n.]	n. 离开正路, 偏离, 畸变, 光行差, 心理失常, 色差\n[化] 光行差; 像差	reject	Too narrow as a translation of the general headword; it names chromatic aberration specifically.
+装配	configure	v.	verb	Computer Science	4	zhuang pei	assemble [v.]	vt. 装配, 使成形	reject	Means assemble; the WordLevel computer/software sense is better translated as 配置 or 设置.
+课程	curricula	n.	noun	Education	4	ke cheng	course [n.] | curriculum [n.]	n. 课程	accept	Exact ECDICT noun gloss and a direct rendering of the plural of curriculum.
+隐蔽	enshroud	v.	verb	Meteorology	5	yin bi	conceal [v.] | hide [v.]	vt. 掩盖, 隐蔽	accept	Exact ECDICT verb gloss; matches the concealment sense.
+非常	eminently	adv.	adverb	Political Science	4	fei chang	very [adv.]	adv. 很, 突出地, 非常	defer	The gloss is accurate, but this pinyin key already has the maximum eight expansion rows; no alternate inputtable gloss passed the same filters.

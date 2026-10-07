@@ -31,6 +31,7 @@ const NAER_MEDICAL_TSV: &str = include_str!("../data/naer-medical-tags.tsv");
 const NAER_MEDICAL_2_TSV: &str = include_str!("../data/naer-medical-tags-2.tsv");
 const NAER_LIFE_SCIENCE_TSV: &str = include_str!("../data/naer-life-science-tags.tsv");
 const NAER_VETERINARY_TSV: &str = include_str!("../data/naer-veterinary-tags.tsv");
+const WORDLEVEL_TOEFL_IELTS_TSV: &str = include_str!("../data/wordlevel-toefl-ielts-tags.tsv");
 static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
     let mut words: HashMap<_, _> = TSV
         .lines()
@@ -252,6 +253,24 @@ static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
         );
         words.entry(word).or_default().naer_veterinary = mask;
     }
+    for line in WORDLEVEL_TOEFL_IELTS_TSV.lines() {
+        let mut fields = line.split('\t');
+        let word = fields.next().expect("WordLevel tag has a word");
+        let mask: u16 = fields
+            .next()
+            .expect("WordLevel tag has a mask")
+            .parse()
+            .expect("valid WordLevel exam-category mask");
+        let source = fields.next().expect("WordLevel tag has a source");
+        assert_eq!(source, "WordLevel TOEFL/IELTS Academic List");
+        assert_eq!(
+            mask,
+            (1 << 4) | (1 << 5),
+            "WordLevel only adds TOEFL and IELTS tags"
+        );
+        assert!(fields.next().is_none(), "unexpected WordLevel tag column");
+        words.entry(word).or_default().wordlevel = mask;
+    }
     words
 });
 
@@ -272,6 +291,7 @@ pub struct Membership {
     pub naer_medical: u16,
     pub naer_life_science: u16,
     pub naer_veterinary: u16,
+    pub wordlevel: u16,
 }
 impl Membership {
     pub fn mask(self) -> u16 {
@@ -290,6 +310,7 @@ impl Membership {
             | self.naer_medical
             | self.naer_life_science
             | self.naer_veterinary
+            | self.wordlevel
     }
 }
 
@@ -386,6 +407,9 @@ pub fn tags(word: &str, selected: u16) -> Vec<Tag> {
             }
             if entry.naer_veterinary & (1 << i) != 0 {
                 sources.push("NAER Veterinary Medical Terms OGDL v1.0");
+            }
+            if entry.wordlevel & (1 << i) != 0 {
+                sources.push("WordLevel TOEFL/IELTS Academic List");
             }
             Tag {
                 id,
@@ -1051,6 +1075,53 @@ mod tests {
         );
         assert!(selection(&["imaginary".into()]).is_err());
         assert_eq!(selected_ids(33), ["cet4", "ielts"]);
+    }
+
+    #[test]
+    fn wordlevel_batch_adds_traceable_toefl_ielts_membership_and_reviewed_mappings() {
+        let selected = selection(&["toefl".into(), "ielts".into()]).unwrap();
+        let apathy_tags = tags("apathy", selected);
+        for id in ["toefl", "ielts"] {
+            let tag = apathy_tags.iter().find(|tag| tag.id == id).unwrap();
+            assert!(tag.selected);
+            assert!(tag.sources.contains(&"WordLevel TOEFL/IELTS Academic List"));
+        }
+
+        let expected = [
+            ("畸变", "aberration", PartOfSpeech::Noun),
+            ("课程", "curricula", PartOfSpeech::Noun),
+            ("掩盖", "enshroud", PartOfSpeech::Verb),
+            ("隐蔽", "enshroud", PartOfSpeech::Verb),
+        ];
+        for (chinese, english, pos) in expected {
+            let sense = expansion::senses(chinese)
+                .find(|sense| sense.text == english)
+                .unwrap_or_else(|| {
+                    panic!("missing WordLevel batch mapping {chinese} -> {english}")
+                });
+            assert_eq!(sense.part_of_speech, Some(pos));
+            assert_eq!(expansion::source(chinese, english), Some("ECDICT MIT"));
+            assert!(lookup(english).mask() & selected != 0);
+        }
+        for (chinese, english) in [
+            ("色差", "aberration"),
+            ("优势", "ascendancy"),
+            ("装配", "configure"),
+            ("目前", "immediacy"),
+            ("爆裂", "implode"),
+            ("利润", "markup"),
+        ] {
+            assert_eq!(expansion::source(chinese, english), None);
+        }
+
+        let mut translated = candidate(&["wordtrailuntaggedsense", "gestation"], Language::English);
+        let original_text = translated.text.clone();
+        prioritize(&mut translated, selection(&["toefl".into()]).unwrap());
+        assert_eq!(translated.text, original_text);
+        assert_eq!(
+            translated.translation.as_ref().unwrap().senses()[0].text,
+            "gestation"
+        );
     }
     #[test]
     fn stable_priority_preserves_senses_and_non_english() {

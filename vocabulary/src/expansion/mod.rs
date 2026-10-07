@@ -42,6 +42,8 @@ const NAER_MEDICAL_DATA: &str = include_str!("../../data/naer-medical-expansion.
 const NAER_MEDICAL_2_DATA: &str = include_str!("../../data/naer-medical-expansion-2.tsv");
 const NAER_LIFE_SCIENCE_DATA: &str = include_str!("../../data/naer-life-science-expansion.tsv");
 const NAER_VETERINARY_DATA: &str = include_str!("../../data/naer-veterinary-expansion.tsv");
+const WORDLEVEL_TOEFL_IELTS_DATA: &str =
+    include_str!("../../data/wordlevel-toefl-ielts-expansion.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
@@ -76,6 +78,7 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             NAER_MEDICAL_2_DATA,
             NAER_LIFE_SCIENCE_DATA,
             NAER_VETERINARY_DATA,
+            WORDLEVEL_TOEFL_IELTS_DATA,
         ] {
             for row in data.lines() {
                 let mut fields = row.split('\t');

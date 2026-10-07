@@ -1244,20 +1244,6 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 
 署名：國家教育研究院（National Academy for Educational Research）；数据集：https://data.gov.tw/en/datasets/15213。许可：政府資料開放授權條款第1版（Open Government Data License v1.0），https://data.gov.tw/license。固定来源文件 life-science-academic-terms.csv，SHA-256：d8d00e504e1e5feeeb5cad1464c1a1806963689dc43b398594d9e5bdce1556f0；共9230条数据记录。候选审查10组，接受7组、排除3组、暂缓0组；新增1个英文词头和2个医学标签成员。筛选要求本机 IPA、ECDICT 精确名词义、拼音可达及 MeSH 主题；运行时只载入经审校的精简 TSV。来源与修改说明、输入/输出散列、逐项理由见 vocabulary/data/NAER-LIFE-SCIENCE-ATTRIBUTION.md、vocabulary/data/naer-life-science-manifest.json、vocabulary/data/batches/26-naer-life-science-reviewed.tsv 和 scripts/build_naer_life_science_batch.py。
 
-交媾 -> coitus (n.); NAER source record 2644; MeSH D003075
-
-射精 -> ejaculation (n.); NAER source record 3366; MeSH D004542
-
-发炎 -> inflammation (n.); NAER source record 4790; MeSH D007249
-
-结扎 -> ligation (n.); NAER source record 5185; MeSH D008026
-
-麻痹 -> paralysis (n.); NAER source record 6318; MeSH D010243
-
-知觉 -> perception (n.); NAER source record 6414; MeSH D010465
-
-繁殖 -> reproduction (n.); NAER source record 7264; MeSH D012098
-
 
 === 医学词汇批次 27（NAER Veterinary Medical Terms）===
 
@@ -1274,6 +1260,44 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 苍白 -> pallor (n.); NAER source record 17407; MeSH D010167
 
 瘫痪 -> paralysis (n.); NAER source record 17536; MeSH D010243
+
+
+=== WordLevel TOEFL/IELTS 学术词表（批次28）===
+
+署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的946词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。
+
+掩盖 -> enshroud (v.); ECDICT MIT; WordLevel TOEFL/IELTS list membership
+
+畸变 -> aberration (n.); ECDICT MIT; WordLevel TOEFL/IELTS list membership
+
+课程 -> curricula (n.); ECDICT MIT; WordLevel TOEFL/IELTS list membership
+
+隐蔽 -> enshroud (v.); ECDICT MIT; WordLevel TOEFL/IELTS list membership
+
+
+=== vocabulary/data/sources/wordlevel/LICENSE ===
+
+MIT License
+
+Copyright (c) 2026 gungorkaya-eng
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 === CC-CEDICT 词汇补充（独立 CC BY-SA 4.0 数据）===

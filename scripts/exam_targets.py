@@ -16,6 +16,11 @@ def load_exam_tags(data_dir: Path) -> dict[str, int]:
         for line in open_tags.read_text(encoding="utf-8").splitlines():
             word, mask = line.split("\t")
             tags[word] = tags.get(word, 0) | int(mask)
+    wordlevel_tags = data_dir / "wordlevel-toefl-ielts-tags.tsv"
+    if wordlevel_tags.exists():
+        for line in wordlevel_tags.read_text(encoding="utf-8").splitlines():
+            word, mask, _source = line.split("\t")
+            tags[word] = tags.get(word, 0) | int(mask)
     return tags
 
 
@@ -37,4 +42,5 @@ RUNTIME_EXPANSIONS = (
     "exam-target-batch-11-koreader-cow-expansion.tsv",
     "exam-target-batch-11-cc-by-sa-expansion.tsv",
     "exam-target-batch-12-ecdict-expansion.tsv",
+    "wordlevel-toefl-ielts-expansion.tsv",
 )
