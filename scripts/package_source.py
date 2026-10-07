@@ -10,13 +10,13 @@ SKIP_PREFIXES=('third-party/rust/','android/app/src/main/assets/data/','android/
 
 GUIDES=('安装与测试指南.md', '测试报告.md', 'GitHub调研.md', '主题预览.html', '0.1.2界面更新.md', '0.1.3语音更新.md', '0.1.4语音更新.md', '0.1.5布局更新.md', '0.1.6词汇分级.md', '0.1.7图标更新.md', '0.1.8词汇目标.md', '0.1.8测试报告.md', '0.1.9标签精简.md', '0.1.10实际扩词.md', '0.1.10测试报告.md', '分批补词计划.md', '0.1.11四六级补词.md', '0.1.11测试报告.md', '0.1.12四六级补词.md', '0.1.12测试报告.md', '0.1.13四六级补词.md', '0.1.13测试报告.md', '0.1.14四六级补词.md', '0.1.14测试报告.md', '0.1.15四六级补词.md', '0.1.15测试报告.md', '0.1.16四六级补词.md', '0.1.16测试报告.md', '0.1.17四六级补词.md', '0.1.17测试报告.md', '0.1.18四六级补词.md', '0.1.18测试报告.md', '0.1.19四六级补词.md', '0.1.19测试报告.md', '0.1.20专四专八雅思托福补词.md', '0.1.21专八托福雅思补词.md', '0.1.22专四专八雅思托福补词.md', '0.1.23专四专八雅思托福补词.md', '0.1.23测试报告.md', '0.1.24专业词汇首批.md', '0.1.25计算机术语第二段.md', '0.1.26商务金融标签.md', '0.1.26测试报告.md', '0.1.27商业金融词汇.md', '0.1.27测试报告.md', '0.1.28商业金融词汇.md', '0.1.28测试报告.md', '21-MeSH医学词汇.md', '22-Wikidata医学译词.md', '23-Wikidata医学译词补充.md', '24-NAER医学学术词汇.md', '25-NAER医学词条补充.md')
 GUIDES += ('26-NAER生命科学词汇.md', '27-NAER兽医学词汇.md', '28-WordLevel考试词汇.md')
-GUIDES += ('29-OpenEtymology四六级补词.md',)
+GUIDES += ('29-OpenEtymology四六级补词.md', '0.1.29测试报告.md')
 
 def main():
     for name in GUIDES:
         if not (ROOT/'docs'/name).is_file():raise FileNotFoundError('Missing delivery guide: '+name)
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
-    archive=dist/'wordtrail-0.1.28-source.zip'
+    archive=dist/'wordtrail-0.1.29-source.zip'
     count=0
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,strict_timestamps=False) as output:
         # Prune build/cache trees before walking; their contents never belong
@@ -43,7 +43,7 @@ def main():
     with zipfile.ZipFile(archive) as source:
         assert source.testzip() is None
     DELIVERY.mkdir(parents=True,exist_ok=True)
-    files=[archive,dist/'wordtrail-0.1.28-debug.apk']
+    files=[archive,dist/'wordtrail-0.1.29-debug.apk']
     for file in files: shutil.copy2(file,DELIVERY/file.name)
     for name in GUIDES:shutil.copy2(ROOT/'docs'/name,DELIVERY/name)
     shutil.copy2(ROOT/'branding/wordtrail-warm-icon.png',DELIVERY/'词伴暖色图标.png')
