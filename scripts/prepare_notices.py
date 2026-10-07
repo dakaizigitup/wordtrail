@@ -390,6 +390,26 @@ def main():
             f"{row['chinese']} -> {row['english']} (n.); NAER source record {row['source_records']}; "
             f"MeSH {row['mesh_ids']}\n"
         )
+    economics_manifest = json.loads((ROOT/'vocabulary/data/naer-economics-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/30-naer-economics-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        economics_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    economics_accepted = [row for row in economics_reviewed if row['decision'] == 'accept']
+    parts.append("\n=== 商务词汇批次30（NAER Economics Terminology）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research, 2025, Economics Terminology（dataset 15405，页面更新于2025-12-16）。"
+        "来源：https://data.gov.tw/en/datasets/15405 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 含{economics_manifest['counts']['source_records']}条数据记录，SHA-256：{economics_manifest['source']['snapshot_sha256']}。"
+        f"253组本地精确名词/拼音/音标候选中，189组已有对应；其余63组审校后纳入{economics_manifest['counts']['accepted_mappings']}组、"
+        f"排除{economics_manifest['counts']['rejected_candidates']}组、暂缓{economics_manifest['counts']['deferred_candidates']}组。"
+        f"纳入{economics_manifest['counts']['new_english_headwords']}个新英文词头，并新增{economics_manifest['counts']['new_business_tag_memberships']}个商务标签成员。"
+        "繁体中文以 OpenCC t2s 转简体。项目只保留审校通过的短映射及分类，不含源定义和例句。"
+        "完整来源、修改说明、SHA-256、候选决定与构建器见 vocabulary/data/NAER-ECONOMICS-ATTRIBUTION.md、"
+        "vocabulary/data/naer-economics-manifest.json、vocabulary/data/batches/30-naer-economics-reviewed.tsv 和 scripts/build_naer_economics_batch.py。\n"
+    )
+    for row in economics_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER economics record {row['source_records']}\n"
+        )
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))

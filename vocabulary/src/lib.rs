@@ -32,6 +32,7 @@ const NAER_MEDICAL_TSV: &str = include_str!("../data/naer-medical-tags.tsv");
 const NAER_MEDICAL_2_TSV: &str = include_str!("../data/naer-medical-tags-2.tsv");
 const NAER_LIFE_SCIENCE_TSV: &str = include_str!("../data/naer-life-science-tags.tsv");
 const NAER_VETERINARY_TSV: &str = include_str!("../data/naer-veterinary-tags.tsv");
+const NAER_ECONOMICS_TSV: &str = include_str!("../data/naer-economics-tags.tsv");
 const WORDLEVEL_TOEFL_IELTS_TSV: &str = include_str!("../data/wordlevel-toefl-ielts-tags.tsv");
 static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
     let mut words: HashMap<_, _> = TSV
@@ -261,6 +262,23 @@ static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
         );
         words.entry(word).or_default().naer_veterinary = mask;
     }
+    for line in NAER_ECONOMICS_TSV.lines() {
+        let mut fields = line.split('\t');
+        let word = fields.next().expect("NAER economics tag has a word");
+        let mask: u16 = fields
+            .next()
+            .expect("NAER economics tag has a mask")
+            .parse()
+            .expect("valid NAER economics category mask");
+        let source = fields.next().expect("NAER economics tag has a source");
+        assert_eq!(source, "NAER Economics Academic Terms OGDL v1.0");
+        assert_eq!(mask, 1 << 7, "NAER economics rows only add business tags");
+        assert!(
+            fields.next().is_none(),
+            "unexpected NAER economics tag column"
+        );
+        words.entry(word).or_default().naer_economics = mask;
+    }
     for line in WORDLEVEL_TOEFL_IELTS_TSV.lines() {
         let mut fields = line.split('\t');
         let word = fields.next().expect("WordLevel tag has a word");
@@ -299,6 +317,7 @@ pub struct Membership {
     pub naer_medical: u16,
     pub naer_life_science: u16,
     pub naer_veterinary: u16,
+    pub naer_economics: u16,
     pub wordlevel: u16,
 }
 impl Membership {
@@ -318,6 +337,7 @@ impl Membership {
             | self.naer_medical
             | self.naer_life_science
             | self.naer_veterinary
+            | self.naer_economics
             | self.wordlevel
     }
 }
@@ -415,6 +435,9 @@ pub fn tags(word: &str, selected: u16) -> Vec<Tag> {
             }
             if entry.naer_veterinary & (1 << i) != 0 {
                 sources.push("NAER Veterinary Medical Terms OGDL v1.0");
+            }
+            if entry.naer_economics & (1 << i) != 0 {
+                sources.push("NAER Economics Academic Terms OGDL v1.0");
             }
             if entry.wordlevel & (1 << i) != 0 {
                 sources.push("WordLevel TOEFL/IELTS Academic List");
@@ -708,6 +731,67 @@ mod tests {
             candidate.translation.unwrap().senses()[0].text,
             "devaluation"
         );
+    }
+
+    #[test]
+    fn naer_economics_adds_reviewed_mappings_and_business_tags() {
+        let selected = selection(&["business".into()]).unwrap();
+        let mappings: Vec<_> = include_str!("../data/naer-economics-expansion.tsv")
+            .lines()
+            .collect();
+        assert_eq!(mappings.len(), 28);
+        for row in mappings {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let pos: PartOfSpeech = fields.next().unwrap().parse().unwrap();
+            assert_eq!(
+                fields.next(),
+                Some("NAER Economics Academic Terms OGDL v1.0")
+            );
+            let sense = expansion::senses(chinese)
+                .find(|sense| sense.text == english)
+                .unwrap_or_else(|| panic!("missing NAER economics mapping {chinese} -> {english}"));
+            assert_eq!(sense.part_of_speech, Some(pos));
+            assert_eq!(
+                expansion::source(chinese, english),
+                Some("NAER Economics Academic Terms OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "business"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Economics Academic Terms OGDL v1.0")
+            }));
+        }
+
+        let tagged: Vec<_> = include_str!("../data/naer-economics-tags.tsv")
+            .lines()
+            .collect();
+        assert_eq!(tagged.len(), 28);
+        for row in tagged {
+            let mut fields = row.split('\t');
+            let english = fields.next().unwrap();
+            assert_eq!(fields.next(), Some("128"));
+            assert_eq!(
+                fields.next(),
+                Some("NAER Economics Academic Terms OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "business"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Economics Academic Terms OGDL v1.0")
+            }));
+        }
+
+        let mut candidate = candidate(&["unlabelled test", "merger"], Language::English);
+        let original_chinese = candidate.text.clone();
+        prioritize(&mut candidate, selected);
+        assert_eq!(candidate.text, original_chinese);
+        assert_eq!(candidate.translation.unwrap().senses()[0].text, "merger");
     }
 
     #[test]

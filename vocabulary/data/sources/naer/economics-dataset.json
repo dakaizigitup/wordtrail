@@ -1,0 +1,16 @@
+{
+  "dataset_id": "15405",
+  "resource_id": null,
+  "title": "National Academy for Educational Research - Economics Terminology",
+  "provider": "National Academy for Educational Research",
+  "published_at": "2015-05-22",
+  "portal_updated_at": "2025-12-16 07:51",
+  "dataset_url": "https://data.gov.tw/en/datasets/15405",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-經濟學學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "snapshot_sha256": "6c6f605a05ed30c9c11dadd1df5a4de3d7ca621a49b70f64669a847fc6d1eea9",
+  "snapshot_bytes": 507758,
+  "records": 7357,
+  "note": "The source is a Traditional Chinese CSV. Only individually reviewed complete English-Chinese pairs are compiled; source definitions and examples are not redistributed."
+}

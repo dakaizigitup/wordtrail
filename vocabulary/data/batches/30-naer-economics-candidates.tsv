@@ -1,0 +1,64 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	ecdict_exact_noun_glosses	already_mapped	existing_headword	existing_business_tag	spare_capacity
+absenteeism	旷工	曠工	5	https://terms.naer.edu.tw/	kuang gong	167	UK,US	旷工 | 旷职 | 旷课 | 经常无故缺席	false	true	false	true
+abstention	回避	棄權；迴避	26	https://terms.naer.edu.tw/	hui bi	608	UK,US	回避 | 弃权 | 戒绝	false	true	false	true
+anonymity	匿名	匿名	227	https://terms.naer.edu.tw/	ni ming	1029	UK,US	匿名 | 姓氏不明	false	true	false	true
+asylum	庇护	庇護	334	https://terms.naer.edu.tw/	bi hu	1284	UK,US	庇护 | 收容所	false	true	false	true
+authority	当局	當局；當權者	382	https://terms.naer.edu.tw/	dang ju	6609	UK,US	专家 | 当局 | 当权者 | 权力 | 权威	false	true	false	true
+bargaining	谈判	談判；議價	510	https://terms.naer.edu.tw/	tan pan	4396	UK,US	交涉 | 讨价还价 | 谈判	false	false	false	true
+beliefs	信仰	信仰；主張	588	https://terms.naer.edu.tw/	xin yang	5615	UK,US	信仰	false	false	false	true
+bubbles	泡沫	泡沫	807	https://terms.naer.edu.tw/	pao mo	1415	UK,US	泡沫	false	false	false	true
+bureaucracy	官僚	官僚	822	https://terms.naer.edu.tw/	guan liao	699	UK,US	官僚 | 官吏	false	true	false	true
+classification	分类	分類	1087	https://terms.naer.edu.tw/	fen lei	8017	UK,US	分类 | 分级	false	true	false	true
+coherence	一致性	一致性	1150	https://terms.naer.edu.tw/	yi zhi xing	274	UK,US	一致性 | 连贯性	false	true	false	true
+commissions	佣金	佣金	1198	https://terms.naer.edu.tw/	yong jin	113	UK,US	任命 | 佣金 | 职权	false	false	false	true
+competition	竞争	競爭	1263	https://terms.naer.edu.tw/	jing zheng	6249	UK,US	竞争 | 竞赛	false	true	false	true
+consumption	消费	消費	1434	https://terms.naer.edu.tw/	xiao fei	7121	UK,US	消费 | 消费量 | 痨病	false	true	false	true
+contagion	蔓延	蔓延	1444	https://terms.naer.edu.tw/	man yan	1133	UK,US	歪风 | 蔓延 | 触染 | 触染病	false	false	false	true
+convergence	收敛	收斂	1500	https://terms.naer.edu.tw/	shou lian	1391	UK,US	收敛 | 集中	false	true	false	true
+coordination	协调	協調；整合	1534	https://terms.naer.edu.tw/	xie tiao	5062	UK,US	协调 | 同等	false	true	false	true
+corporations	公司	公司	1554	https://terms.naer.edu.tw/	gong si	96719	UK,US	公司	false	false	false	true
+correlation	相关	相關	1558	https://terms.naer.edu.tw/	xiang guan	27891	UK,US	关联 | 相互关系 | 相关	false	true	false	true
+craftsman	技工	技工	1645	https://terms.naer.edu.tw/	ji gong	176	UK,US	工匠 | 手艺人 | 技工	false	true	false	true
+distortion	扭曲	扭曲	2091	https://terms.naer.edu.tw/	niu qu	1974	UK,US	变形 | 扭曲 | 曲解	false	true	false	true
+divestiture	剥夺	剝奪	2112	https://terms.naer.edu.tw/	bo duo	1379	US	剥夺 | 脱衣	false	false	false	true
+effort	努力	努力	2338	https://terms.naer.edu.tw/	nu li	62215	UK,US	努力 | 成就	false	true	false	true
+embezzlement	侵占	侵佔	2376	https://terms.naer.edu.tw/	qin zhan	498	UK,US	侵占 | 挪用 | 盗用	false	true	true	true
+enforcement	执行	執行；強制執行	2434	https://terms.naer.edu.tw/	zhi xing	16946	UK,US	强制 | 执行	false	false	false	true
+enrolment	入学	入學	2442	https://terms.naer.edu.tw/	ru xue	2082	UK	入伍 | 入会 | 入学 | 入学人数 | 注册 | 注册人数 | 登记	false	true	false	true
+enumeration	列举	列舉	2453	https://terms.naer.edu.tw/	lie ju	886	UK,US	列举 | 细目 | 计算	false	false	false	true
+equilibrium	均衡	均衡	2491	https://terms.naer.edu.tw/	jun heng	415	UK,US	均衡 | 平衡 | 平静	false	true	false	true
+failure	失败	失敗	2808	https://terms.naer.edu.tw/	shi bai	14255	UK,US	不足 | 失败 | 失败者 | 破产 | 缺乏	false	true	false	true
+gambling	赌博	賭博；投機	3175	https://terms.naer.edu.tw/	du bo	608	UK,US	赌博	false	true	false	true
+grouping	分组	分組	3379	https://terms.naer.edu.tw/	fen zu	1735	UK,US	分组	false	false	false	true
+harmony	调和	調和	3405	https://terms.naer.edu.tw/	tiao he	500	UK,US	协调 | 和睦 | 调和	false	true	false	true
+hypothesis	假设	假設	3560	https://terms.naer.edu.tw/	jia she	2751	UK,US	假设	false	true	false	true
+imprisonment	监禁	監禁	3610	https://terms.naer.edu.tw/	jian jin	2289	UK,US	下狱 | 坐牢 | 监禁	false	true	false	true
+incentives	诱因	誘因	3632	https://terms.naer.edu.tw/	you yin	132	UK,US	刺激 | 动机 | 诱因	false	false	false	true
+indemnity	补偿	補償；賠款	3677	https://terms.naer.edu.tw/	bu chang	2785	UK,US	保护 | 保障 | 补偿 | 赔偿 | 赦免	false	true	true	true
+independence	独立	獨立	3680	https://terms.naer.edu.tw/	du li	26139	UK,US	独立 | 自主 | 自立	false	true	false	true
+innovation	创新	創新	3819	https://terms.naer.edu.tw/	chuang xin	4590	UK,US	创新 | 改革	false	true	false	true
+learning	学习	學習	4320	https://terms.naer.edu.tw/	xue xi	31925	UK,US	学习 | 学识 | 学问	false	true	false	true
+liquidation	清算	清算	4487	https://terms.naer.edu.tw/	qing suan	396	UK,US	偿付 | 偿还 | 清算	false	false	false	true
+mean	平均数	平均數	4824	https://terms.naer.edu.tw/	ping jun shu	81	UK,US	中庸 | 中间 | 平均数	false	true	false	true
+mediation	调解	調解	4863	https://terms.naer.edu.tw/	tiao jie	748	UK,US	中介 | 调停 | 调解	false	false	false	true
+merger	合并	併購；合併	4888	https://terms.naer.edu.tw/	he bing	16459	UK,US	合并 | 归并	false	true	false	true
+mobility	流动性	流動性	4964	https://terms.naer.edu.tw/	liu dong xing	226	UK,US	可动性 | 机动性 | 流动性	false	true	false	true
+obsolescence	过时	廢棄；過時	5120	https://terms.naer.edu.tw/	guo shi	1314	UK,US	淘汰 | 荒废 | 过时 | 退化	false	false	false	true
+refrigeration	冷冻	冷凍	5191	https://terms.naer.edu.tw/	leng dong	1313	UK,US	冷冻 | 冷却 | 冷藏	false	true	false	true
+reproduction	复制	複製	5283	https://terms.naer.edu.tw/	fu zhi	1774	UK,US	再现 | 复制 | 复制品 | 生殖 | 繁殖	false	true	false	true
+scholarships	奖学金	獎學金	5565	https://terms.naer.edu.tw/	jiang xue jin	2345	UK,US	奖学金 | 学问	false	false	false	true
+securities	有价证券	有價證券	5626	https://terms.naer.edu.tw/	you jia zheng quan	69	UK,US	有价证券	false	true	false	true
+statement	陈述	陳述	6090	https://terms.naer.edu.tw/	chen shu	1429	UK,US	声明 | 指令 | 陈述	false	true	false	true
+subcontracting	转包	轉包	6254	https://terms.naer.edu.tw/	zhuan bao	20	UK,US	分包 | 转包	false	false	false	true
+subsidization	补助	補助	6275	https://terms.naer.edu.tw/	bu zhu	3695	US	奖金 | 提供津贴 | 补助	false	false	false	true
+supervision	监督	監督；督導	6330	https://terms.naer.edu.tw/	jian du	11021	UK,US	监督 | 管理	false	true	false	true
+surety	保证	保證；擔保	6352	https://terms.naer.edu.tw/	bao zheng	8287	UK,US	保证 | 保证人 | 担保	false	true	true	true
+surplus	剩余	剩餘	6353	https://terms.naer.edu.tw/	sheng yu	2202	UK,US	剩余 | 盈余 | 过剩	false	true	true	true
+targets	目标	目標	6433	https://terms.naer.edu.tw/	mu biao	20772	UK,US	枪靶 | 目标	false	false	false	true
+technique	技术	技術	6493	https://terms.naer.edu.tw/	ji shu	34527	UK,US	技巧 | 技术 | 方法	false	true	false	true
+textiles	纺织品	紡織品	6538	https://terms.naer.edu.tw/	fang zhi pin	247	UK,US	纺织业 | 纺织品 | 纺织面料	false	false	false	true
+transformations	转换	轉換	6734	https://terms.naer.edu.tw/	zhuan huan	4054	UK,US	转换	false	false	false	true
+transportation	运输	運輸	6748	https://terms.naer.edu.tw/	yun shu	11167	UK,US	交通车辆 | 输送 | 运输	false	true	false	true
+treadle	踏板	踏板	6762	https://terms.naer.edu.tw/	ta ban	340	UK	踏木 | 踏板	false	false	false	true
+treadmill	踏车	踏車	6763	https://terms.naer.edu.tw/	ta che	6	UK,US	踏车	false	true	false	true
+warranty	保证	保證	7179	https://terms.naer.edu.tw/	bao zheng	8287	UK,US	保证 | 担保 | 授权 | 根据 | 正当理由	false	true	true	true
