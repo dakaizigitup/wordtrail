@@ -3,8 +3,8 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
-$qjIds = @('cet4','cet6','tem4','tem8','toefl','ielts','computer','business','medical')
-$qjNames = @('四级','六级','专四','专八','托福','雅思','计算机','商务','医学')
+$qjIds = @('cet4','cet6','tem4','tem8','toefl','ielts','computer','business','medical','administration')
+$qjNames = @('四级','六级','专四','专八','托福','雅思','计算机','商务','医学','行政学')
 $qjSelected = @()
 if(Test-Path -LiteralPath $SettingsPath){
     try{$qjSelected = @((Get-Content -LiteralPath $SettingsPath -Raw | ConvertFrom-Json).targets)}
@@ -12,7 +12,7 @@ if(Test-Path -LiteralPath $SettingsPath){
 }
 $qjForm = [System.Windows.Forms.Form]::new()
 $qjForm.Text = '词伴 · 词汇学习目标'
-$qjForm.ClientSize = [System.Drawing.Size]::new(520,440)
+$qjForm.ClientSize = [System.Drawing.Size]::new(520,480)
 $qjForm.Font = [System.Drawing.Font]::new('Microsoft YaHei UI',10)
 $qjForm.StartPosition = 'CenterScreen'
 $qjForm.FormBorderStyle = 'FixedDialog'
@@ -39,29 +39,30 @@ $qjDomainHeading = [System.Windows.Forms.Label]::new()
 $qjDomainHeading.Text = '专业领域'
 $qjDomainHeading.SetBounds(24,190,472,24)
 $qjForm.Controls.Add($qjDomainHeading)
-for($qjIndex=6;$qjIndex -lt 9;$qjIndex++){
+for($qjIndex=6;$qjIndex -lt $qjIds.Length;$qjIndex++){
     $qjCheck = [System.Windows.Forms.CheckBox]::new()
     $qjCheck.Text = $qjNames[$qjIndex]
     $qjCheck.Checked = $qjSelected -contains $qjIds[$qjIndex]
-    $qjCheck.SetBounds((24+($qjIndex-6)*160),216,148,34)
+    $qjDomainOffset = $qjIndex - 6
+    $qjCheck.SetBounds((24+($qjDomainOffset%3)*160),(216+[Math]::Floor($qjDomainOffset/3)*38),148,34)
     $qjForm.Controls.Add($qjCheck)
     $qjBoxes += $qjCheck
 }
 $qjNote = [System.Windows.Forms.Label]::new()
 $qjNote.Text = "不选目标 = 全部词汇、原译词顺序。`r`n同词可有多个考试或领域标签；标签表示社区词表收录类别，`r`n不代表难度等级或官方完整考纲。保存后约一秒生效。"
-$qjNote.SetBounds(24,266,472,82)
+$qjNote.SetBounds(24,304,472,72)
 $qjForm.Controls.Add($qjNote)
 $qjAll = [System.Windows.Forms.Button]::new()
 $qjAll.Text = '全部词汇 / 清除目标'
-$qjAll.SetBounds(24,378,220,38)
+$qjAll.SetBounds(24,414,220,38)
 $qjAll.Add_Click({foreach($qjBox in $qjBoxes){$qjBox.Checked=$false}})
 $qjForm.Controls.Add($qjAll)
 $qjSave = [System.Windows.Forms.Button]::new()
 $qjSave.Text = '保存'
-$qjSave.SetBounds(346,378,150,38)
+$qjSave.SetBounds(346,414,150,38)
 $qjSave.Add_Click({
     try {
-        $qjTargets=@(for($qjN=0;$qjN -lt 9;$qjN++){if($qjBoxes[$qjN].Checked){$qjIds[$qjN]}})
+        $qjTargets=@(for($qjN=0;$qjN -lt $qjIds.Length;$qjN++){if($qjBoxes[$qjN].Checked){$qjIds[$qjN]}})
         $qjFolder = [System.IO.Path]::GetDirectoryName([System.IO.Path]::GetFullPath($SettingsPath))
         [System.IO.Directory]::CreateDirectory($qjFolder)|Out-Null
         $qjTemporary = Join-Path $qjFolder ([System.IO.Path]::GetRandomFileName())

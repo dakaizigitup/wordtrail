@@ -1571,6 +1571,45 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 集中 -> concentration (n.); NAER management records 1755
 
 
+=== 行政学词汇批次34（NAER Administration Academic Terms）===
+
+署名：National Academy for Educational Research, 2026, Administration Academic Terms （dataset 15262，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15262 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 含3737条数据记录，SHA-256：8faf844b2393fbb27f432a8a5df8e4194c6e64c8a0c7754b0a6242a7b2e4f05b。79组有本机精确名词/拼音/音标证据，61组原已映射；其余18组经逐项审校，接受17组、暂缓1组，新增4个英文词头。另有76个可核验来源词头加入行政学标签；运行标签来源名为 NAER Administration Academic Terms OGDL v1.0。项目只保留审核通过的短映射和来源成员关系，不载入来源 CSV、定义或例句进行按键查询。完整来源、修改说明、SHA-256、逐项决定和构建器见 vocabulary/data/NAER-ADMINISTRATION-ATTRIBUTION.md、vocabulary/data/naer-administration-manifest.json、vocabulary/data/batches/34-naer-administration-reviewed.tsv、vocabulary/data/batches/34-naer-administration-tags-reviewed.tsv 和 scripts/build_naer_administration_batch.py。
+
+假定 -> assumption (n.); NAER administration record 196
+
+假设 -> hypothesis (n.); NAER administration record 1623
+
+公正 -> equity (n.); NAER administration record 1154
+
+分化 -> differentiation (n.); NAER administration record 936
+
+国有化 -> nationalization (n.); NAER administration record 2239
+
+城邦 -> polis (n.); NAER administration record 2686
+
+多样化 -> diversification (n.); NAER administration record 991
+
+大会 -> convention (n.); NAER administration record 692
+
+官员 -> officer (n.); NAER administration record 2362
+
+宣言 -> manifesto (n.); NAER administration record 2055
+
+政体 -> polity (n.); NAER administration record 2733
+
+无私 -> selflessness (n.); NAER administration record 3230
+
+目的 -> objective (n.); NAER administration record 2346
+
+能力 -> competence (n.); NAER administration record 587
+
+自信 -> self-confidence (n.); NAER administration record 3211
+
+试用 -> probation (n.); NAER administration record 2819
+
+降级 -> demotion (n.); NAER administration record 898
+
+
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
 署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。

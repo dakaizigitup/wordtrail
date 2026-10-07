@@ -1,0 +1,14 @@
+{
+  "dataset_id": "15262",
+  "title": "國家教育研究院-行政學學術名詞",
+  "provider": "國家教育研究院",
+  "dataset_url": "https://data.gov.tw/dataset/15262",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-行政學學術名詞.csv",
+  "license": "政府資料開放授權條款-第1版",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-08-12 15:23",
+  "snapshot_date": "2026-10-07",
+  "snapshot_sha256": "8faf844b2393fbb27f432a8a5df8e4194c6e64c8a0c7754b0a6242a7b2e4f05b",
+  "snapshot_bytes": 255135,
+  "records": 3737
+}

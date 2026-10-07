@@ -4,7 +4,7 @@ use qingjian_core::{Candidate, Language};
 use serde::{Deserialize, Serialize};
 use std::{borrow::Cow, collections::HashMap, path::Path, sync::LazyLock};
 
-pub const CATEGORIES: [(&str, &str); 9] = [
+pub const CATEGORIES: [(&str, &str); 10] = [
     ("cet4", "四级"),
     ("cet6", "六级"),
     ("tem4", "专四"),
@@ -14,6 +14,7 @@ pub const CATEGORIES: [(&str, &str); 9] = [
     ("computer", "计算机"),
     ("business", "商务"),
     ("medical", "医学"),
+    ("administration", "行政学"),
 ];
 const TSV: &str = include_str!("../data/english-tags.tsv");
 const OPENETYMOLOGY_TSV: &str = include_str!("../data/openetymology-exam-tags.tsv");
@@ -36,6 +37,7 @@ const NAER_ECONOMICS_TSV: &str = include_str!("../data/naer-economics-tags.tsv")
 const NAER_ACCOUNTING_TSV: &str = include_str!("../data/naer-accounting-tags.tsv");
 const NAER_MANAGEMENT_TSV: &str = include_str!("../data/naer-management-tags.tsv");
 const NAER_COMPUTER_TSV: &str = include_str!("../data/naer-computer-tags.tsv");
+const NAER_ADMINISTRATION_TSV: &str = include_str!("../data/naer-administration-tags.tsv");
 const WORDLEVEL_TOEFL_IELTS_TSV: &str = include_str!("../data/wordlevel-toefl-ielts-tags.tsv");
 static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
     let mut words: HashMap<_, _> = TSV
@@ -333,6 +335,27 @@ static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
         );
         words.entry(word).or_default().naer_computer = mask;
     }
+    for line in NAER_ADMINISTRATION_TSV.lines() {
+        let mut fields = line.split('\t');
+        let word = fields.next().expect("NAER administration tag has a word");
+        let mask: u16 = fields
+            .next()
+            .expect("NAER administration tag has a mask")
+            .parse()
+            .expect("valid NAER administration category mask");
+        let source = fields.next().expect("NAER administration tag has a source");
+        assert_eq!(source, "NAER Administration Academic Terms OGDL v1.0");
+        assert_eq!(
+            mask,
+            1 << 9,
+            "NAER administration rows only add administration tags"
+        );
+        assert!(
+            fields.next().is_none(),
+            "unexpected NAER administration tag column"
+        );
+        words.entry(word).or_default().naer_administration = mask;
+    }
     for line in WORDLEVEL_TOEFL_IELTS_TSV.lines() {
         let mut fields = line.split('\t');
         let word = fields.next().expect("WordLevel tag has a word");
@@ -375,6 +398,7 @@ pub struct Membership {
     pub naer_accounting: u16,
     pub naer_management: u16,
     pub naer_computer: u16,
+    pub naer_administration: u16,
     pub wordlevel: u16,
 }
 impl Membership {
@@ -398,6 +422,7 @@ impl Membership {
             | self.naer_accounting
             | self.naer_management
             | self.naer_computer
+            | self.naer_administration
             | self.wordlevel
     }
 }
@@ -507,6 +532,9 @@ pub fn tags(word: &str, selected: u16) -> Vec<Tag> {
             }
             if entry.naer_computer & (1 << i) != 0 {
                 sources.push("NAER Computer Science Academic Terms OGDL v1.0");
+            }
+            if entry.naer_administration & (1 << i) != 0 {
+                sources.push("NAER Administration Academic Terms OGDL v1.0");
             }
             if entry.wordlevel & (1 << i) != 0 {
                 sources.push("WordLevel TOEFL/IELTS Academic List");
@@ -987,6 +1015,72 @@ mod tests {
         prioritize(&mut candidate, selected);
         assert_eq!(candidate.text, original_chinese);
         assert_eq!(candidate.translation.unwrap().senses()[0].text, "management");
+    }
+
+    #[test]
+    fn naer_administration_adds_reviewed_mappings_and_selectable_tags_without_reordering_chinese() {
+        let selected = selection(&["administration".into()]).unwrap();
+        assert_eq!(selected, 1 << 9);
+        assert!(selected_ids(selected).contains(&"administration"));
+
+        let mappings: Vec<_> = include_str!("../data/naer-administration-expansion.tsv")
+            .lines()
+            .collect();
+        assert_eq!(mappings.len(), 17);
+        for row in mappings {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let pos: PartOfSpeech = fields.next().unwrap().parse().unwrap();
+            assert_eq!(
+                fields.next(),
+                Some("NAER Administration Academic Terms OGDL v1.0")
+            );
+            let sense = expansion::senses(chinese)
+                .find(|sense| sense.text == english)
+                .unwrap_or_else(|| {
+                    panic!("missing NAER administration mapping {chinese} -> {english}")
+                });
+            assert_eq!(sense.part_of_speech, Some(pos));
+            assert_eq!(
+                expansion::source(chinese, english),
+                Some("NAER Administration Academic Terms OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "administration"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Administration Academic Terms OGDL v1.0")
+            }));
+        }
+
+        let tagged: Vec<_> = include_str!("../data/naer-administration-tags.tsv")
+            .lines()
+            .collect();
+        assert_eq!(tagged.len(), 76);
+        for row in tagged {
+            let mut fields = row.split('\t');
+            let english = fields.next().unwrap();
+            assert_eq!(fields.next(), Some("512"));
+            assert_eq!(
+                fields.next(),
+                Some("NAER Administration Academic Terms OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "administration"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Administration Academic Terms OGDL v1.0")
+            }));
+        }
+
+        let mut candidate = candidate(&["unlabelled test", "officer"], Language::English);
+        let original_chinese = candidate.text.clone();
+        prioritize(&mut candidate, selected);
+        assert_eq!(candidate.text, original_chinese);
+        assert_eq!(candidate.translation.unwrap().senses()[0].text, "officer");
     }
 
     #[test]

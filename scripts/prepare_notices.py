@@ -485,6 +485,30 @@ def main():
         parts.append(
             f"{row['chinese']} -> {row['english']} (n.); NAER management records {row['source_records']}\n"
         )
+    administration_manifest = json.loads((ROOT/'vocabulary/data/naer-administration-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/34-naer-administration-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        administration_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    administration_accepted = [row for row in administration_reviewed if row['decision'] == 'accept']
+    administration_counts = administration_manifest['counts']
+    parts.append("\n=== 行政学词汇批次34（NAER Administration Academic Terms）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research, 2026, Administration Academic Terms "
+        "（dataset 15262，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15262 。"
+        "许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 含{administration_counts['source_records']}条数据记录，SHA-256：{administration_manifest['source']['snapshot_sha256']}。"
+        f"{administration_counts['eligible_exact_pairs']}组有本机精确名词/拼音/音标证据，{administration_counts['already_mapped_pairs']}组原已映射；"
+        f"其余{administration_counts['new_review_candidates']}组经逐项审校，接受{administration_counts['accepted_mappings']}组、"
+        f"暂缓{administration_counts['deferred_candidates']}组，新增{administration_counts['new_english_headwords']}个英文词头。"
+        f"另有{administration_counts['reviewed_tag_headwords']}个可核验来源词头加入行政学标签；运行标签来源名为 NAER Administration Academic Terms OGDL v1.0。"
+        "项目只保留审核通过的短映射和来源成员关系，不载入来源 CSV、定义或例句进行按键查询。"
+        "完整来源、修改说明、SHA-256、逐项决定和构建器见 vocabulary/data/NAER-ADMINISTRATION-ATTRIBUTION.md、"
+        "vocabulary/data/naer-administration-manifest.json、vocabulary/data/batches/34-naer-administration-reviewed.tsv、"
+        "vocabulary/data/batches/34-naer-administration-tags-reviewed.tsv 和 scripts/build_naer_administration_batch.py。\n"
+    )
+    for row in administration_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER administration record {row['source_records']}\n"
+        )
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))
