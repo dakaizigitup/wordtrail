@@ -1,0 +1,172 @@
+{
+  "batch": "35-naer-education-terminology",
+  "source": {
+    "title": "National Academy for Educational Research - Education Terminology",
+    "provider": "National Academy for Educational Research",
+    "dataset_id": "6319",
+    "dataset_url": "https://data.gov.tw/en/datasets/6319",
+    "resource_url": "https://opendata.naer.edu.tw/學術名詞/教育學學術名詞.csv",
+    "license": "Open Government Data License v1.0",
+    "license_url": "https://data.gov.tw/license",
+    "portal_updated_at": "2026-06-01 08:27",
+    "snapshot_sha256": "b674073b959c749546cac19ef867d27a908ee492d39f69cec4bc4c2dcdcaed57",
+    "snapshot_bytes": 151200,
+    "records": 2198
+  },
+  "filters": {
+    "source_scope": "Single-word English entries with exact local ECDICT noun gloss, UK or US IPA, reachable local pinyin key, and local expansion capacity.",
+    "candidate_scope": "Every previously unmapped eligible pair receives an explicit accept/reject/defer decision; only reviewed concise standalone mappings enter runtime data.",
+    "education_tag_scope": "A word receives education-source membership only when it occurs in the official NAER Education Terminology snapshot and has exact local noun, IPA, and pinyin evidence; membership does not imply every sense is education-specific.",
+    "traditional_to_simplified": "Traditional Chinese source terms are normalized using OpenCC t2s before matching.",
+    "runtime_per_key_cap": 8
+  },
+  "counts": {
+    "source_records": 2198,
+    "eligible_exact_pairs": 141,
+    "already_mapped_pairs": 105,
+    "capacity_blocked_pairs": 1,
+    "new_review_candidates": 35,
+    "accepted_mappings": 23,
+    "rejected_candidates": 10,
+    "deferred_candidates": 2,
+    "new_english_headwords": 2,
+    "education_tag_source_memberships": 130,
+    "new_education_tag_memberships": 130,
+    "reviewed_tag_headwords": 130
+  },
+  "accepted_pairs": [
+    "休息 -> recess (n.)",
+    "免除 -> exemption (n.)",
+    "内省 -> introspection (n.)",
+    "出席 -> attendance (n.)",
+    "分数 -> point (n.)",
+    "分类 -> classification (n.)",
+    "分级 -> classification (n.)",
+    "同学 -> schoolmate (n.)",
+    "国语 -> mandarin (n.)",
+    "学院 -> institute (n.)",
+    "心理 -> mind (n.)",
+    "思考 -> thinking (n.)",
+    "感觉 -> sensation (n.)",
+    "教化 -> cultivation (n.)",
+    "教导 -> instruction (n.)",
+    "毕业 -> graduation (n.)",
+    "示范 -> demonstration (n.)",
+    "背诵 -> recital (n.)",
+    "自治 -> self-government (n.)",
+    "视察 -> inspection (n.)",
+    "讲师 -> instructor (n.)",
+    "适应 -> adaptation (n.)",
+    "院长 -> rector (n.)"
+  ],
+  "rejected_pairs": [
+    {
+      "pair": "休会 -> recess",
+      "reason": "休会 refers to an adjournment of a meeting or legislative session; it does not match the school-break sense of recess."
+    },
+    {
+      "pair": "修道院 -> cloister",
+      "reason": "The source/local pair names a monastery or cloister, not a useful standalone education term."
+    },
+    {
+      "pair": "占有 -> occupation",
+      "reason": "Occupation usually means a job or activity in this context; 占有 is not a reliable translation."
+    },
+    {
+      "pair": "同情 -> sympathy",
+      "reason": "The translation is generic and no specific educational or pedagogical sense is evidenced."
+    },
+    {
+      "pair": "开始 -> commencement",
+      "reason": "The local gloss is a generic beginning; in education commencement usually refers to a graduation ceremony, so this pair is not equivalent."
+    },
+    {
+      "pair": "徽章 -> insignia",
+      "reason": "The gloss denotes an insignia generally and the source gives no education-specific meaning."
+    },
+    {
+      "pair": "操作 -> manipulation",
+      "reason": "The local noun gloss is too broad and the source provides no pedagogical context."
+    },
+    {
+      "pair": "格言 -> maxim",
+      "reason": "A maxim is a general saying; the source does not establish a distinct education-domain sense."
+    },
+    {
+      "pair": "神经质 -> nervousness",
+      "reason": "Nervousness means anxiety or apprehension; 神经质 more directly means neuroticism and is not an exact translation."
+    },
+    {
+      "pair": "长官 -> prefect",
+      "reason": "A school prefect is usually a student monitor; the broad gloss 长官 can mislead without a narrower context."
+    }
+  ],
+  "deferred_pairs": [
+    {
+      "pair": "免职 -> dismissal",
+      "reason": "Could refer to dismissal of school personnel, but the source gives no education-specific context; defer."
+    },
+    {
+      "pair": "学派 -> school",
+      "reason": "Could mean a school of thought in education theory, but this standalone source record does not disambiguate that sense; defer."
+    }
+  ],
+  "source_hashes": {
+    "education-terminology-2026-06-01.csv": "b674073b959c749546cac19ef867d27a908ee492d39f69cec4bc4c2dcdcaed57",
+    "education-dataset.json": "a4b592990b5ee8ee0cf80d7a15cba5af08a1dcde801f98c36495f2bb13b9396d",
+    "batches/02-additions.tsv": "1166c86fb3916969bbff348424abb2e75abd3b4bb41c7e4639652aac2094aa37",
+    "better-quant-expansion.tsv": "f3fff56be103337217ed41a3b0fda1faf8a4a853d1a6ea019a3091e30f5b8a81",
+    "cccedict-expansion-2.tsv": "9fe002674813b6c235b6d5dedb008f21bc008a6422860c4e3513d8fe006064a5",
+    "cccedict-expansion-3.tsv": "6285e1aca0e8b7a0aee6773c92c6c8a9a09e414c892e01a35d0fbd7800cb651f",
+    "cccedict-expansion-4.tsv": "fa7b7e84068f6d02f3df19f4baf8e8094eb8d77f5f6c303fec69688dcc866eb4",
+    "cccedict-expansion.tsv": "cfa15cc83f27bb9115018d797fc27067691491e580ff888640b646ae3e08e063",
+    "cfpb-finance-expansion.tsv": "8cfb4a34e064dbf443d5c144e8796647a1fb99b3984da03bbb4f5d2a0cec7fd0",
+    "cjk-compsci-expansion.tsv": "b779d390325f5eefec2194fb77f0f87d5fe00de111c4a575037474b691185f59",
+    "computerese-expansion.tsv": "38472e2c14bfa6d3fd25575040dbab6428f38ff527b45ba9967ccf7b819c9d30",
+    "english-expansion.tsv": "2573c23bc422800252534ccda0fda745c81c87cbbb2c874f7300ea7f81fe5398",
+    "exam-target-batch-11-cc-by-sa-expansion.tsv": "2226a5294ed7fa5ed09ddbb57814f299abb2bfdff5d2a50de5b86d7ae0f7ec2d",
+    "exam-target-batch-11-cow-expansion.tsv": "00082d303c83741ebc229db9df1e82d8567d06eead8dfdc688a6feec70b4a8ce",
+    "exam-target-batch-11-dual-expansion.tsv": "c103886f74592f795f48b01a617a34c9bb2a74cfec2af17b8c458a388dcb429c",
+    "exam-target-batch-11-ecdict-expansion.tsv": "694ec8f2be061732fcd6a024476ab4d250d4239951b9c8d113bf37e7de4e671b",
+    "exam-target-batch-11-koreader-cow-expansion.tsv": "5a86961003d460de24d25277873d6950dd8160f37a2f0e4c6b00a67f8afe291d",
+    "exam-target-batch-11-kylebing-expansion.tsv": "29a59444d8d7161095057544a805fc138a11fc15e0d458034d8d713a8805dd6b",
+    "exam-target-batch-12-ecdict-expansion.tsv": "e7a4abbf99f83a1b531a7af80816674766d7532fc142bd9132aeed8fba792d43",
+    "exam-target-ecdict-expansion.tsv": "90e21a9fbe892de10962cba915c178aeaba6b7e171c4363f02e6e89411e2c7f8",
+    "exam-target-kylebing-expansion.tsv": "8b889fc6acb5283b8eb2c771ef7331b6f03e2dde1e333f788a7ccd1db11083fa",
+    "finance-i18n-expansion.tsv": "8f1db8dacfc5eb7e5aafe9116a23ea6cda3416d36be9c13815bd97c58957bf08",
+    "mesh-medical-expansion.tsv": "c8512790a682295f3e57b5fdb9ddb1587a890ae1fb3c013de1d26f48659b2193",
+    "naer-accounting-expansion.tsv": "0cb3eb43b4f8daf9914c118df3b30fe3652059be707905e44e6b9f827cffbdf4",
+    "naer-administration-expansion.tsv": "d3ad71f0bf5fe6eb3a86d0016c0e3d3719570b679c7ab5cb678fbec5588f0144",
+    "naer-computer-expansion.tsv": "72b52fc065a186a53caa1485d5153fc6698773fb4658733b57cf7c5ad69aab2a",
+    "naer-economics-expansion.tsv": "a91e317e98cece26934ce04647992a974004c91f20ffc990a1cfefff6f0403d4",
+    "naer-life-science-expansion.tsv": "38623e0718495ecf8382a096ac371bc002cabec354a88f92f18c67f37bb52f08",
+    "naer-medical-expansion-2.tsv": "24bb9ab4ad750b0bd995afe5a2bf305c4675c9eab308ea4a278941272328fe93",
+    "naer-medical-expansion.tsv": "27188279a826134bed91cd5d5aaf9a9768be7a3f4e8fa01af97a1a23389e0262",
+    "naer-veterinary-expansion.tsv": "253d178d76257905ffceda2593a9e0cc80a8061b4b42c03e3ef920ab985c9d59",
+    "openetymology-cet-expansion.tsv": "51879662de85d62c09a3fb6c29de737061849cc609bd5c7d6e428ce639ff2c8a",
+    "openetymology-exam-expansion.tsv": "2145157ca260a1009cdb8c8143bfdf3ceb11d13b62a3666a123c5a44d25130a2",
+    "professional-expansion.tsv": "1cde0af9fce1417ef257e0d840e36e3d00954a23ab675dd21ca91c016314f3df",
+    "wikidata-medical-expansion-2.tsv": "3e95115e99d7ae617328ef06ab413c1786e8a2f84db1057455eb580aab6200a6",
+    "wikidata-medical-expansion.tsv": "3aa5e60abe3dee7a93cfd7962d763ab4310a95792d82e1f14a02acd6101486b6",
+    "wiktionary-expansion-2.tsv": "3b07310a30eb57f7e672ac62e4e9372de639eb6c003bc46e8a294488e038b93d",
+    "wiktionary-expansion.tsv": "ddd58e54a4df2c6c17e5561cd004052939e58bfeb5f0e27b03676d87b2fbab32",
+    "wordlevel-toefl-ielts-expansion.tsv": "6890615e1b5bec329f561f639f972dff5336b97e1465573478a4c1edde25002f"
+  },
+  "base_lexicon_hashes": {
+    "database": "98fef9ba82047d0eaba650c1da074810c135da3c90e1fdb59f2faf197d6b7dd2",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67"
+  },
+  "outputs": {
+    "batches/35-naer-education-prefilter.tsv": "547a3ab775e64ead3fc70cac0383fe0c956f0facd7c649606d0f316d39d7ea5a",
+    "batches/35-naer-education-candidates.tsv": "baa08897281e71d7554bda94d9902c654657f4ebd22fed306e63b59d94b76c77",
+    "batches/35-naer-education-reviewed.tsv": "f2902414fd142ab3b90c030431b08361925fd6b101461ad538683fb885d7f3f8",
+    "batches/35-naer-education-tags-reviewed.tsv": "68e36268a79d17a02706d5f867f7a6703bf1176f7ba079be1f54fbac6e24c39e",
+    "naer-education-expansion.tsv": "05502cffeb088c1fe13994f7169c556031a9bed87df775b3b59b1b21d1d66440",
+    "naer-education-tags.tsv": "9a07349a5ecc638a9603dbe10bbe238ed5381a8b7fbdfaddf19b0bf962f5d4af"
+  },
+  "runtime_note": "Only 23 reviewed mappings and 130 education-membership rows enter the once-initialized offline lookup; the 2,198-row source CSV is never read while typing."
+}

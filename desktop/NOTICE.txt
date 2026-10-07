@@ -1610,6 +1610,57 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 降级 -> demotion (n.); NAER administration record 898
 
 
+=== 教育词汇批次35（NAER Education Terminology）===
+
+署名：National Academy for Educational Research, 2026, Education Terminology （dataset 6319，页面元数据更新于2026-06-01）。来源：https://data.gov.tw/en/datasets/6319 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 含2198条数据记录，SHA-256：b674073b959c749546cac19ef867d27a908ee492d39f69cec4bc4c2dcdcaed57。141组有本机精确名词/拼音/音标证据，105组原已映射；另有1组因单键扩展上限未进入审校。其余35组逐项审校后接受23组、排除10组、暂缓2组，新增2个英文词头。另有130个有精确词义、音标和拼音证据的来源词头加入教育分类；来源成员关系不代表词条在所有语境下都专属于教育。运行时只载入精简映射与成员关系，不扫描来源 CSV。完整来源、修改说明、SHA-256、逐项审校和构建器见 vocabulary/data/NAER-EDUCATION-ATTRIBUTION.md、vocabulary/data/naer-education-manifest.json、vocabulary/data/batches/35-naer-education-reviewed.tsv、vocabulary/data/batches/35-naer-education-tags-reviewed.tsv 和 scripts/build_naer_education_batch.py。
+
+休息 -> recess (n.); NAER education record 1639
+
+免除 -> exemption (n.); NAER education record 705
+
+内省 -> introspection (n.); NAER education record 1040
+
+出席 -> attendance (n.); NAER education record 160
+
+分数 -> point (n.); NAER education record 1476
+
+分类 -> classification (n.); NAER education record 319
+
+分级 -> classification (n.); NAER education record 319
+
+同学 -> schoolmate (n.); NAER education record 1816
+
+国语 -> mandarin (n.); NAER education record 1143
+
+学院 -> institute (n.); NAER education record 1001
+
+心理 -> mind (n.); NAER education record 1241
+
+思考 -> thinking (n.); NAER education record 2068
+
+感觉 -> sensation (n.); NAER education record 1866
+
+教化 -> cultivation (n.); NAER education record 457
+
+教导 -> instruction (n.); NAER education record 1006
+
+毕业 -> graduation (n.); NAER education record 856
+
+示范 -> demonstration (n.); NAER education record 502
+
+背诵 -> recital (n.); NAER education record 1640
+
+自治 -> self-government (n.); NAER education record 1851
+
+视察 -> inspection (n.); NAER education record 995
+
+讲师 -> instructor (n.); NAER education record 1010
+
+适应 -> adaptation (n.); NAER education record 58
+
+院长 -> rector (n.); NAER education record 1647
+
+
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
 署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。

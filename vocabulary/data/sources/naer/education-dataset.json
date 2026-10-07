@@ -1,0 +1,14 @@
+{
+  "dataset_id": "6319",
+  "title": "國家教育研究院-教育學學術名詞",
+  "provider": "國家教育研究院",
+  "dataset_url": "https://data.gov.tw/dataset/6319",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/教育學學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-06-01 08:27",
+  "snapshot_date": "2026-10-07",
+  "snapshot_sha256": "b674073b959c749546cac19ef867d27a908ee492d39f69cec4bc4c2dcdcaed57",
+  "snapshot_bytes": 151200,
+  "records": 2198
+}

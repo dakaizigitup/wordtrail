@@ -509,6 +509,32 @@ def main():
         parts.append(
             f"{row['chinese']} -> {row['english']} (n.); NAER administration record {row['source_records']}\n"
         )
+    education_manifest = json.loads((ROOT/'vocabulary/data/naer-education-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/35-naer-education-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        education_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    education_accepted = [row for row in education_reviewed if row['decision'] == 'accept']
+    education_counts = education_manifest['counts']
+    parts.append("\n=== 教育词汇批次35（NAER Education Terminology）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research, 2026, Education Terminology "
+        "（dataset 6319，页面元数据更新于2026-06-01）。来源：https://data.gov.tw/en/datasets/6319 。"
+        "许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 含{education_counts['source_records']}条数据记录，SHA-256：{education_manifest['source']['snapshot_sha256']}。"
+        f"{education_counts['eligible_exact_pairs']}组有本机精确名词/拼音/音标证据，{education_counts['already_mapped_pairs']}组原已映射；"
+        f"另有{education_counts['capacity_blocked_pairs']}组因单键扩展上限未进入审校。"
+        f"其余{education_counts['new_review_candidates']}组逐项审校后接受{education_counts['accepted_mappings']}组、"
+        f"排除{education_counts['rejected_candidates']}组、暂缓{education_counts['deferred_candidates']}组，"
+        f"新增{education_counts['new_english_headwords']}个英文词头。"
+        f"另有{education_counts['reviewed_tag_headwords']}个有精确词义、音标和拼音证据的来源词头加入教育分类；"
+        "来源成员关系不代表词条在所有语境下都专属于教育。运行时只载入精简映射与成员关系，不扫描来源 CSV。"
+        "完整来源、修改说明、SHA-256、逐项审校和构建器见 vocabulary/data/NAER-EDUCATION-ATTRIBUTION.md、"
+        "vocabulary/data/naer-education-manifest.json、vocabulary/data/batches/35-naer-education-reviewed.tsv、"
+        "vocabulary/data/batches/35-naer-education-tags-reviewed.tsv 和 scripts/build_naer_education_batch.py。\n"
+    )
+    for row in education_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER education record {row['source_records']}\n"
+        )
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))
