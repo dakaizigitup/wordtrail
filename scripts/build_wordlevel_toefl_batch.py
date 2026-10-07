@@ -147,6 +147,11 @@ def local_inputs():
         for line in open_tags.read_text(encoding="utf-8").splitlines():
             word, mask = line.split("\t")
             prior_tags[word] = prior_tags.get(word, 0) | int(mask)
+    open_cet_tags = DATA / "openetymology-cet-tags.tsv"
+    if open_cet_tags.is_file():
+        for line in open_cet_tags.read_text(encoding="utf-8").splitlines():
+            word, mask = line.split("\t")
+            prior_tags[word] = prior_tags.get(word, 0) | int(mask)
 
     input_files = {
         "wordlevel_csv": SOURCE_CSV,
@@ -159,6 +164,7 @@ def local_inputs():
         "us_ipa": US_IPA,
         "english_tags": DATA / "english-tags.tsv",
         "openetymology_exam_tags": open_tags,
+        "openetymology_cet_tags": open_cet_tags,
         "expansion_index": ROOT / "vocabulary/src/expansion/mod.rs",
     }
     for number, name in enumerate(runtime_files, start=1):

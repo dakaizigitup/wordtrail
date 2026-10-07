@@ -1,0 +1,10 @@
+word	chinese	pos	targets	pinyin	pinyin_frequency	ecdict_rows	ecdict_translation	uk_ipa	us_ipa	existing_chinese_senses	existing_extra_count
+dishonor	不名誉	n.	cet4	bu ming yu	0	205170	n. 不名誉\nvt. 玷辱, 使蒙羞		/dɪˈsɑnɝ/		2
+dishonor	玷辱	v.	cet4	dian ru	12	205170	n. 不名誉\nvt. 玷辱, 使蒙羞		/dɪˈsɑnɝ/	disgrace [v.]	0
+permanently	不变	adv.	cet4	bu bian	4495	521887	adv. 永久, 不变, 持久\n[计] 永久性的	/pˈɜːmənəntli/	/ˈpɝmənəntɫi/	unchanged [v.]	0
+permanently	持久	adv.	cet4	chi jiu	1176	521887	adv. 永久, 不变, 持久\n[计] 永久性的	/pˈɜːmənəntli/	/ˈpɝmənəntɫi/	lasting [adj.]	6
+permanently	永久	adv.	cet4	yong jiu	4020	521887	adv. 永久, 不变, 持久\n[计] 永久性的	/pˈɜːmənəntli/	/ˈpɝmənəntɫi/	permanent [adj.] | eternal [adj.]	3
+sufficiently	充分	adv.	cet4	chong fen	3241	673571	adv. 足够, 充分	/səfˈɪʃəntli/	/səˈfɪʃəntɫi/	sufficient [adj.]	0
+sufficiently	足够	adv.	cet4	zu gou	7339	673571	adv. 足够, 充分	/səfˈɪʃəntli/	/səˈfɪʃəntɫi/	enough [adj.]	3
+tack	附加	v.	cet6	fu jia	2213	684247	n. 平头钉, 大头钉, 粗缝针脚, 行动方针, 食物\nvt. 以大头针钉住, 附加	/tˈæk/	/ˈtæk/	attach [v.]	1
+tack	食物	n.	cet6	shi wu	9740	684247	n. 平头钉, 大头钉, 粗缝针脚, 行动方针, 食物\nvt. 以大头针钉住, 附加	/tˈæk/	/ˈtæk/	food [n.]	0

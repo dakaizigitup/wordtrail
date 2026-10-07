@@ -15,6 +15,7 @@ const CC_CEDICT_4_DATA: &str = include_str!("../../data/cccedict-expansion-4.tsv
 const EXAM_TARGET_ECDICT_DATA: &str = include_str!("../../data/exam-target-ecdict-expansion.tsv");
 const EXAM_TARGET_KYLE_DATA: &str = include_str!("../../data/exam-target-kylebing-expansion.tsv");
 const OPENETYMOLOGY_DATA: &str = include_str!("../../data/openetymology-exam-expansion.tsv");
+const OPENETYMOLOGY_CET_DATA: &str = include_str!("../../data/openetymology-cet-expansion.tsv");
 const EXAM_TARGET_BATCH_11_ECDICT_DATA: &str =
     include_str!("../../data/exam-target-batch-11-ecdict-expansion.tsv");
 const EXAM_TARGET_BATCH_11_KYLE_DATA: &str =
@@ -57,6 +58,7 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             EXAM_TARGET_ECDICT_DATA,
             EXAM_TARGET_KYLE_DATA,
             OPENETYMOLOGY_DATA,
+            OPENETYMOLOGY_CET_DATA,
             EXAM_TARGET_BATCH_11_ECDICT_DATA,
             EXAM_TARGET_BATCH_11_KYLE_DATA,
             EXAM_TARGET_BATCH_11_DUAL_DATA,
@@ -506,6 +508,33 @@ mod tests {
                 .sources
                 .contains(&"OpenEtymology")
         );
+    }
+
+    #[test]
+    fn openetymology_batch_29_adds_reviewed_cet_mappings_and_tags() {
+        let rows: Vec<_> = OPENETYMOLOGY_CET_DATA.lines().collect();
+        assert_eq!(rows.len(), 6);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let pos: PartOfSpeech = fields.next().unwrap().parse().unwrap();
+            assert_eq!(fields.next(), Some("ECDICT MIT"));
+            let sense = senses(chinese)
+                .find(|sense| sense.text == english)
+                .unwrap_or_else(|| panic!("missing batch 29 mapping {chinese} -> {english}"));
+            assert_eq!(sense.part_of_speech, Some(pos));
+            assert_eq!(source(chinese, english), Some("ECDICT MIT"));
+            assert!(
+                crate::tags(english, 0)
+                    .iter()
+                    .any(|tag| matches!(tag.id, "cet4" | "cet6"))
+            );
+        }
+        let sufficient = senses("充分")
+            .find(|sense| sense.text == "sufficiently")
+            .unwrap();
+        assert_eq!(sufficient.part_of_speech, Some(PartOfSpeech::Adverb));
     }
 
     #[test]

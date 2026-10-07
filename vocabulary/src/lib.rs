@@ -17,6 +17,7 @@ pub const CATEGORIES: [(&str, &str); 9] = [
 ];
 const TSV: &str = include_str!("../data/english-tags.tsv");
 const OPENETYMOLOGY_TSV: &str = include_str!("../data/openetymology-exam-tags.tsv");
+const OPENETYMOLOGY_CET_TSV: &str = include_str!("../data/openetymology-cet-tags.tsv");
 const PROFESSIONAL_TSV: &str = include_str!("../data/professional-domain-tags.tsv");
 const CJK_COMPSCI_TSV: &str = include_str!("../data/cjk-compsci-tags.tsv");
 const FIBO_BUSINESS_TSV: &str = include_str!("../data/fibo-business-tags.tsv");
@@ -54,6 +55,13 @@ static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
         let (word, mask) = line.split_once('\t').expect("valid OpenEtymology tag row");
         words.entry(word).or_default().openetymology =
             mask.parse().expect("valid OpenEtymology mask");
+    }
+    for line in OPENETYMOLOGY_CET_TSV.lines() {
+        let (word, mask) = line
+            .split_once('\t')
+            .expect("valid OpenEtymology CET tag row");
+        words.entry(word).or_default().openetymology |=
+            mask.parse::<u16>().expect("valid OpenEtymology CET mask");
     }
     for line in PROFESSIONAL_TSV.lines() {
         let mut fields = line.split('\t');
@@ -498,6 +506,12 @@ mod tests {
         assert!(entries[0].selected);
         assert_eq!(entries[0].sources, ["OpenEtymology"]);
         assert_eq!(lookup("ABANDON").openetymology & (1 << 4), 1 << 4);
+
+        let cet4 = tags("abandon", 1 << 0);
+        let tag = cet4.iter().find(|tag| tag.id == "cet4").unwrap();
+        assert!(tag.selected);
+        assert!(tag.sources.contains(&"OpenEtymology"));
+        assert_eq!(lookup("abandon").openetymology & 1, 1);
     }
 
     #[test]

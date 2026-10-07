@@ -353,6 +353,29 @@ vivacity (n.) -> 快活; target: tem8,toefl
 waddle (n.) -> 蹒跚; target: tem8,toefl
 
 
+=== OpenEtymology CET4/CET6 补充（批次29；CC BY-SA 4.0名单 + ECDICT MIT释义）===
+
+署名：openetymology/OpenEtymology contributors；固定提交 7d89f3697abf26e305fe2627f181b692c2c10b28。CET4 与 CET6 社区词单声明 CC BY-SA 4.0；本项目仅提取规范化词头及成员关系，不复制释义、例句或词源。从45个未映射词头中筛出9组同时具备ECDICT释义、本机IPA、可拼音输入键和容量的候选；接受6组映射（4个新英文词头）。新增词单关系与筛选映射表按CC BY-SA 4.0署名；中文释义来源为ECDICT MIT。详情见 vocabulary/data/OPENETYMOLOGY-CET-DATA-ATTRIBUTION.md、openetymology-cet-tags-manifest.json、openetymology-cet-manifest.json 与 batches/29-openetymology-cet-reviewed.tsv。
+
+不名誉 -> dishonor (n.); decision: accept; ECDICT gives the noun gloss 不名誉; the exact Chinese key is present in a pinned pinyin overlay and local IPA is present.
+
+玷辱 -> dishonor (v.); decision: accept; ECDICT gives the verb sense “bring disgrace to”; 玷辱 is an exact, inputtable gloss and local IPA is present.
+
+不变 -> permanently (adv.); decision: reject; “不变” is a state/adjectival gloss and does not provide a stable adverb rendering here; accept the precise 永久 mapping instead.
+
+持久 -> permanently (adv.); decision: reject; “持久” describes a lasting state and is not a natural standalone adverb equivalent here; avoid a loose gloss.
+
+永久 -> permanently (adv.); decision: accept; ECDICT lists 永久 for the adverb; the Chinese key is inputtable, has spare capacity, and the headword has local IPA.
+
+充分 -> sufficiently (adv.); decision: accept; ECDICT lists 充分 for the adverb; this directly expresses “to an adequate degree”.
+
+足够 -> sufficiently (adv.); decision: accept; ECDICT lists 足够 for the adverb; this is a concise, natural equivalent for “enough”.
+
+附加 -> tack (v.); decision: accept; ECDICT lists the verb sense “attach/add”; 附加 is an exact inputtable gloss with local IPA.
+
+食物 -> tack (n.); decision: defer; ECDICT lists a rare nautical/provisions noun sense, but the headword-only exam list provides no context to confirm that this is useful for the intended study target.
+
+
 === Wiktionary 词汇补充（22 组，CC BY-SA 4.0）===
 
 署名：English Wiktionary contributors；https://en.wiktionary.org/ 。
@@ -1264,7 +1287,7 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
-署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的946词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。
+署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。
 
 掩盖 -> enshroud (v.); ECDICT MIT; WordLevel TOEFL/IELTS list membership
 

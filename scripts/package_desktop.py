@@ -74,6 +74,17 @@ def main():
         ROOT/'vocabulary/data/openetymology-tags-manifest.json',
         ROOT/'vocabulary/data/openetymology-exam-expansion.tsv',
         ROOT/'vocabulary/data/openetymology-expansion-manifest.json',
+        ROOT/'vocabulary/data/OPENETYMOLOGY-CET-DATA-ATTRIBUTION.md',
+        ROOT/'vocabulary/data/openetymology-cet-tags.tsv',
+        ROOT/'vocabulary/data/openetymology-cet-tags-manifest.json',
+        ROOT/'vocabulary/data/openetymology-cet-expansion.tsv',
+        ROOT/'vocabulary/data/openetymology-cet-manifest.json',
+        ROOT/'vocabulary/data/batches/29-openetymology-cet-candidates.tsv',
+        ROOT/'vocabulary/data/batches/29-openetymology-cet-review.tsv',
+        ROOT/'vocabulary/data/batches/29-openetymology-cet-reviewed.tsv',
+        ROOT/'scripts/build_openetymology_cet_tags.py',
+        ROOT/'scripts/build_openetymology_cet_batch.py',
+        ROOT/'docs/29-OpenEtymology四六级补词.md',
         ROOT/'vocabulary/data/batches/10-openetymology-review-decisions.tsv',
         ROOT/'vocabulary/data/batches/10-openetymology-reviewed.tsv',
         ROOT/'vocabulary/data/EXAM-TARGETS-ATTRIBUTION.md',
@@ -137,10 +148,10 @@ def main():
     original='c9c3ac98a5b51f57fcbfd8ccec8ed25a96502592b7a40b498bc2a6447c54e554'
     shutil.copy2(ROOT/'scripts/vocabulary_settings.ps1',DELIVERY/'vocabulary_settings.ps1')
     (DELIVERY/'settings.cmd').write_text('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0vocabulary_settings.ps1"\r\n',encoding='ascii')
-    supported=['b3b7100268fa64a89560f2142038623ac9527fa7875149ed68caec4aaf625634','a08ac3fa0b4a151d8b5e0bf18b21bc545c5360f2f623e031867645c147ca1b18','2fcb6f5b467fc0dce46777fdb1723c807e04712c84c9e25718e43880e817396d','2ef3aa287d6987795877c28e1d6b2be55f7e017f2a687a3693e40a31b230b6d7','e68aa1eabd3689f0e749acd82516d36f9db12d1e9e1c451e1525a8362b1cd703','0f5e0aaaeaacc97879a1003ca08adfc907919867dc249e4e64912560d826fb8f','f4ea6155c89d2537bfb1c8a2fd99783e4367a332b022819ac9a535657fe8b2bd','31fe230e9c4e86ea2713b97ef37e61743804aa277db61466e7210bdccb827ccb','c1f0164589343b3db2b2c9d43018d9fa38baffa402ef4343e2035cb5dc8291c4','ba55c5d9fb619935704dd8a205d88bea6732ef6ae32bdf39d813e1a0f513fa6f','30bb3b9e6aad17b2779570dbb4366df0827432cf49129743a5af336a77792de8']
+    supported=['b3b7100268fa64a89560f2142038623ac9527fa7875149ed68caec4aaf625634','a08ac3fa0b4a151d8b5e0bf18b21bc545c5360f2f623e031867645c147ca1b18','2fcb6f5b467fc0dce46777fdb1723c807e04712c84c9e25718e43880e817396d','2ef3aa287d6987795877c28e1d6b2be55f7e017f2a687a3693e40a31b230b6d7','e68aa1eabd3689f0e749acd82516d36f9db12d1e9e1c451e1525a8362b1cd703','0f5e0aaaeaacc97879a1003ca08adfc907919867dc249e4e64912560d826fb8f','f4ea6155c89d2537bfb1c8a2fd99783e4367a332b022819ac9a535657fe8b2bd','31fe230e9c4e86ea2713b97ef37e61743804aa277db61466e7210bdccb827ccb','c1f0164589343b3db2b2c9d43018d9fa38baffa402ef4343e2035cb5dc8291c4','ba55c5d9fb619935704dd8a205d88bea6732ef6ae32bdf39d813e1a0f513fa6f','30bb3b9e6aad17b2779570dbb4366df0827432cf49129743a5af336a77792de8','4ec9c04a27f11abbbaf6d938715602a5a6e30e1a19e58572a37976a03d9dee7b']
     previous_server=previous_manifest.get('artifacts',{}).get('qingjian-server.exe',{}).get('sha256')
     if previous_server and previous_server not in supported and previous_server != original:supported.append(previous_server)
-    manifest=dict(version='0.1.21',base_version='Qingjian Windows 0.1.4',original_server_sha256=original,supported_previous_server_sha256=supported,
+    manifest=dict(version='0.1.22',base_version='Qingjian Windows 0.1.4',original_server_sha256=original,supported_previous_server_sha256=supported,
                   original_dictionary_sha256='3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc',
                   supported_previous_dictionary_sha256=['07a4ce7fc57b45ca49fd7e5474d555c72c722c7f084d83cf9a08eecbd7c65157'],artifacts={})
     for name in ['qingjian-server.exe','pronunciation-en.qj','dict.qj','install_desktop_ipa.ps1','vocabulary_settings.ps1','settings.cmd']:

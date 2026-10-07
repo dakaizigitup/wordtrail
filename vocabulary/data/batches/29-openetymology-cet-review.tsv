@@ -1,0 +1,10 @@
+word	chinese	pos	decision	review_note
+dishonor	玷辱	v.	accept	ECDICT gives the verb sense “bring disgrace to”; 玷辱 is an exact, inputtable gloss and local IPA is present.
+dishonor	不名誉	n.	accept	ECDICT gives the noun gloss 不名誉; the exact Chinese key is present in a pinned pinyin overlay and local IPA is present.
+permanently	不变	adv.	reject	“不变” is a state/adjectival gloss and does not provide a stable adverb rendering here; accept the precise 永久 mapping instead.
+permanently	永久	adv.	accept	ECDICT lists 永久 for the adverb; the Chinese key is inputtable, has spare capacity, and the headword has local IPA.
+permanently	持久	adv.	reject	“持久” describes a lasting state and is not a natural standalone adverb equivalent here; avoid a loose gloss.
+sufficiently	充分	adv.	accept	ECDICT lists 充分 for the adverb; this directly expresses “to an adequate degree”.
+sufficiently	足够	adv.	accept	ECDICT lists 足够 for the adverb; this is a concise, natural equivalent for “enough”.
+tack	附加	v.	accept	ECDICT lists the verb sense “attach/add”; 附加 is an exact inputtable gloss with local IPA.
+tack	食物	n.	defer	ECDICT lists a rare nautical/provisions noun sense, but the headword-only exam list provides no context to confirm that this is useful for the intended study target.

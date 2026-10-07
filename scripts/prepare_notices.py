@@ -84,6 +84,20 @@ def main():
                  "openetymology-expansion-manifest.json 与 batches/10-openetymology-reviewed.tsv。\n")
     for row in open_rows:
         parts.append(f"{row['word']} ({row['pos']}) -> {row['chinese']}; target: {row['targets']}\n")
+    cet_manifest = json.loads((ROOT/'vocabulary/data/openetymology-cet-manifest.json').read_text(encoding='utf-8'))
+    cet_rows = []
+    with (ROOT/'vocabulary/data/batches/29-openetymology-cet-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        cet_rows = list(csv.DictReader(stream, delimiter='\t'))
+    parts.append("\n=== OpenEtymology CET4/CET6 补充（批次29；CC BY-SA 4.0名单 + ECDICT MIT释义）===\n")
+    parts.append(
+        "署名：openetymology/OpenEtymology contributors；固定提交 "
+        f"{cet_manifest['source_commit']}。CET4 与 CET6 社区词单声明 CC BY-SA 4.0；本项目仅提取规范化词头及成员关系，不复制释义、例句或词源。"
+        f"从{cet_manifest['candidate_gate']['unmapped_source_headwords']}个未映射词头中筛出{cet_manifest['candidate_gate']['fully_eligible_pairs']}组同时具备ECDICT释义、本机IPA、可拼音输入键和容量的候选；"
+        f"接受{cet_manifest['review']['accepted_pairs']}组映射（{cet_manifest['review']['new_english_headwords']}个新英文词头）。新增词单关系与筛选映射表按CC BY-SA 4.0署名；中文释义来源为ECDICT MIT。"
+        "详情见 vocabulary/data/OPENETYMOLOGY-CET-DATA-ATTRIBUTION.md、openetymology-cet-tags-manifest.json、openetymology-cet-manifest.json 与 batches/29-openetymology-cet-reviewed.tsv。\n"
+    )
+    for row in cet_rows:
+        parts.append(f"{row['chinese']} -> {row['word']} ({row['pos']}); decision: {row['decision']}; {row['review_note']}\n")
     wiktionary_rows = []
     for filename in ('03-wiktionary-reviewed.tsv', '06-wiktionary-zh-reviewed.tsv'):
         with (ROOT/'vocabulary/data/batches'/filename).open(encoding='utf-8', newline='') as stream:
@@ -427,7 +441,7 @@ def main():
     while pending:
         for dependency in nodes[pending.pop()]['dependencies']:
             if dependency not in mobile:mobile.add(dependency);pending.append(dependency)
-    desktop_parts=["Windows 音标与词汇目标补丁 0.1.21：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.28-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
+    desktop_parts=["Windows 音标与词汇目标补丁 0.1.22：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.28-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
     for package in sorted(metadata['packages'],key=lambda p:(p['name'],p['version'])):
         if package.get('source') is None: continue
         current=[f"\n\n=== {package['name']} {package['version']} ===\n许可：{package.get('license') or '见源文件'}\n仓库：{package.get('repository') or ''}\n"]

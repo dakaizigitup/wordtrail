@@ -1,0 +1,79 @@
+{
+  "batch": "29-openetymology-cet4-cet6",
+  "source": "openetymology/OpenEtymology",
+  "source_commit": "7d89f3697abf26e305fe2627f181b692c2c10b28",
+  "license": "CC BY-SA 4.0 for list-derived selection and membership; ECDICT MIT for gloss mappings",
+  "source_files": {
+    "CET4/CET4.txt": {
+      "target": "cet4",
+      "words": 4533,
+      "sha256": "55c074bcb06aaa2fe5aa99b550d255b55d373ef313bc051fa53f9d82231784e0",
+      "url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/CET4/CET4.txt"
+    },
+    "CET6/CET6.txt": {
+      "target": "cet6",
+      "words": 2219,
+      "sha256": "9a8fa3f2464a39526472211228ef1f331ab1e3d67567b11eea49efc7444d5647",
+      "url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/CET6/CET6.txt"
+    }
+  },
+  "input_sha256": {
+    "openetymology_exam_tags": "934de4d3929e889cf62fc3e40a5bb01329285cd16c58b3fb28a4328f81f3fe3f",
+    "openetymology_cet_tags": "4a1e8198bf0899e018c3d32415ff5e786285c3ab8e0c7f169256b156ab34ba0f",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67",
+    "exam-target-batch-11.tsv": "a42e86df9afbf2a6a811cb2e844545c8e1b4b6df40fcf81f1dd333ef0be7d859",
+    "exam-target-batch-12.tsv": "60c6e0648bfe16e18566088db22ef51fde8437c42ce314843774f6691e13b1d9",
+    "exam-target-batch-13.tsv": "2bff3ae926be131d4edc0f1871dfecc566889d24e0d4d62838972372a3a94fb5"
+  },
+  "candidate_gate": {
+    "unmapped_source_headwords": 45,
+    "with_ECDICT_gloss": 28,
+    "with_local_IPA": 40,
+    "with_inputtable_pinyin_gloss": 5,
+    "fully_eligible_pairs": 9,
+    "manual_review": "Every eligible pair has an explicit accept/reject/defer decision."
+  },
+  "review": {
+    "accepted_pairs": 6,
+    "new_english_headwords": 4,
+    "rejected_pairs": 2,
+    "deferred_pairs": 1,
+    "candidates_sha256": "06993ae916c452d4ced872bcf543e5dda0e6eb057792383d72a6568756222cce",
+    "reviewed_sha256": "34fcab7a7207114f3dce73f6c8b9b26e31250dedda5f9a3aa3133472216ee3b6",
+    "curation_sha256": "ed21de8729982ad85f46e60c8d1f80d812f817720c3d13d0dbd774349c2422f7"
+  },
+  "coverage": {
+    "cet4": {
+      "source_words": 4533,
+      "mapped_before": 4500,
+      "mapped_after": 4503,
+      "mapped_percent_after": 99.34,
+      "pinyin_reachable_before": 4408,
+      "pinyin_reachable_after": 4411,
+      "pinyin_reachable_percent_after": 97.31,
+      "new_tag_memberships_missing_from_ECDICT_KyleBing": 247
+    },
+    "cet6": {
+      "source_words": 2219,
+      "mapped_before": 2206,
+      "mapped_after": 2207,
+      "mapped_percent_after": 99.46,
+      "pinyin_reachable_before": 2176,
+      "pinyin_reachable_after": 2177,
+      "pinyin_reachable_percent_after": 98.11,
+      "new_tag_memberships_missing_from_ECDICT_KyleBing": 2
+    }
+  },
+  "runtime_file": {
+    "path": "openetymology-cet-expansion.tsv",
+    "rows": 6,
+    "bytes": 196,
+    "sha256": "51879662de85d62c09a3fb6c29de737061849cc609bd5c7d6e428ce639ff2c8a"
+  },
+  "runtime_notes": "The input path is indexed once with the other compact TSV expansions; no source text is scanned during keystrokes. Chinese candidate ordering is unchanged.",
+  "scope_note": "These are community reference wordbooks, not official complete syllabi. Coverage is against these two pinned lists only."
+}

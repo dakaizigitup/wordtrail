@@ -1,0 +1,39 @@
+{
+  "source": "openetymology/OpenEtymology",
+  "commit": "7d89f3697abf26e305fe2627f181b692c2c10b28",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_data_license_url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/DATA_LICENSE.md",
+  "source_data_license_sha256": "a92399cf4721a4a80b8c05f6028729bbe2c230e48cb3cdc0e28cef6084651069",
+  "wordbooks": [
+    {
+      "path": "CET4/CET4.txt",
+      "target": "cet4",
+      "words": 4533,
+      "bytes": 33755,
+      "sha256": "55c074bcb06aaa2fe5aa99b550d255b55d373ef313bc051fa53f9d82231784e0",
+      "url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/CET4/CET4.txt"
+    },
+    {
+      "path": "CET6/CET6.txt",
+      "target": "cet6",
+      "words": 2219,
+      "bytes": 18462,
+      "sha256": "9a8fa3f2464a39526472211228ef1f331ab1e3d67567b11eea49efc7444d5647",
+      "url": "https://github.com/openetymology/OpenEtymology/blob/7d89f3697abf26e305fe2627f181b692c2c10b28/CET6/CET6.txt"
+    }
+  ],
+  "targets": {
+    "cet4": 4533,
+    "cet6": 2219
+  },
+  "unique_headwords": 5709,
+  "output": {
+    "path": "openetymology-cet-tags.tsv",
+    "format": "lowercase headword<TAB>six-category bitmask; only CET4 and CET6 bits are set",
+    "rows": 5709,
+    "bytes": 55037,
+    "sha256": "4a1e8198bf0899e018c3d32415ff5e786285c3ab8e0c7f169256b156ab34ba0f"
+  },
+  "scope": "Headwords and list membership only; no source definitions, examples, etymology, or audio. These are community wordbooks, not official complete syllabi."
+}
