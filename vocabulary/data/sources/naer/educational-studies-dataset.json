@@ -1,0 +1,14 @@
+{
+  "dataset_id": "15367",
+  "title": "National Academy for Educational Research - Terminology of Educational Studies",
+  "provider": "National Academy for Educational Research",
+  "dataset_url": "https://data.gov.tw/en/datasets/15367",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-教育學學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-08-12 14:19",
+  "snapshot_date": "2026-10-07",
+  "snapshot_sha256": "6a72f8970c4e86999f53063866625df6852b93158b4a425b2a4bd0cab3b87d45",
+  "snapshot_bytes": 188928,
+  "records": 2740
+}

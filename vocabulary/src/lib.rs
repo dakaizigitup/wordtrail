@@ -41,6 +41,8 @@ const NAER_MANAGEMENT_TSV: &str = include_str!("../data/naer-management-tags.tsv
 const NAER_COMPUTER_TSV: &str = include_str!("../data/naer-computer-tags.tsv");
 const NAER_ADMINISTRATION_TSV: &str = include_str!("../data/naer-administration-tags.tsv");
 const NAER_EDUCATION_TSV: &str = include_str!("../data/naer-education-tags.tsv");
+const NAER_EDUCATIONAL_STUDIES_TSV: &str =
+    include_str!("../data/naer-educational-studies-tags.tsv");
 const NAER_PSYCHOLOGY_TSV: &str = include_str!("../data/naer-psychology-tags.tsv");
 const WORDLEVEL_TOEFL_IELTS_TSV: &str = include_str!("../data/wordlevel-toefl-ielts-tags.tsv");
 static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
@@ -374,6 +376,31 @@ static WORDS: LazyLock<HashMap<&'static str, Membership>> = LazyLock::new(|| {
         assert!(fields.next().is_none(), "unexpected NAER education tag column");
         words.entry(word).or_default().naer_education = mask;
     }
+    for line in NAER_EDUCATIONAL_STUDIES_TSV.lines() {
+        let mut fields = line.split('\t');
+        let word = fields
+            .next()
+            .expect("NAER educational-studies tag has a word");
+        let mask: u16 = fields
+            .next()
+            .expect("NAER educational-studies tag has a mask")
+            .parse()
+            .expect("valid NAER educational-studies category mask");
+        let source = fields
+            .next()
+            .expect("NAER educational-studies tag has a source");
+        assert_eq!(source, "NAER Educational Studies Terminology OGDL v1.0");
+        assert_eq!(
+            mask,
+            1 << 10,
+            "NAER educational-studies rows only add education tags"
+        );
+        assert!(
+            fields.next().is_none(),
+            "unexpected NAER educational-studies tag column"
+        );
+        words.entry(word).or_default().naer_educational_studies = mask;
+    }
     for line in NAER_PSYCHOLOGY_TSV.lines() {
         let mut fields = line.split('\t');
         let word = fields.next().expect("NAER psychology tag has a word");
@@ -439,6 +466,7 @@ pub struct Membership {
     pub naer_computer: u16,
     pub naer_administration: u16,
     pub naer_education: u16,
+    pub naer_educational_studies: u16,
     pub naer_psychology: u16,
     pub wordlevel: u16,
 }
@@ -465,6 +493,7 @@ impl Membership {
             | self.naer_computer
             | self.naer_administration
             | self.naer_education
+            | self.naer_educational_studies
             | self.naer_psychology
             | self.wordlevel
     }
@@ -581,6 +610,9 @@ pub fn tags(word: &str, selected: u16) -> Vec<Tag> {
             }
             if entry.naer_education & (1 << i) != 0 {
                 sources.push("NAER Education Terminology OGDL v1.0");
+            }
+            if entry.naer_educational_studies & (1 << i) != 0 {
+                sources.push("NAER Educational Studies Terminology OGDL v1.0");
             }
             if entry.naer_psychology & (1 << i) != 0 {
                 sources.push("NAER Psychology Terminology OGDL v1.0");
@@ -1184,6 +1216,71 @@ mod tests {
         prioritize(&mut candidate, selected);
         assert_eq!(candidate.text, original_chinese);
         assert_eq!(candidate.translation.unwrap().senses()[0].text, "graduation");
+    }
+
+    #[test]
+    fn naer_educational_studies_adds_mappings_and_education_memberships() {
+        let selected = selection(&["education".into()]).unwrap();
+        assert_eq!(selected, 1 << 10);
+
+        let mappings: Vec<_> = include_str!("../data/naer-educational-studies-expansion.tsv")
+            .lines()
+            .collect();
+        assert_eq!(mappings.len(), 5);
+        for row in mappings {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let pos: PartOfSpeech = fields.next().unwrap().parse().unwrap();
+            assert_eq!(
+                fields.next(),
+                Some("NAER Educational Studies Terminology OGDL v1.0")
+            );
+            let sense = expansion::senses(chinese)
+                .find(|sense| sense.text == english)
+                .unwrap_or_else(|| {
+                    panic!("missing NAER educational-studies mapping {chinese} -> {english}")
+                });
+            assert_eq!(sense.part_of_speech, Some(pos));
+            assert_eq!(
+                expansion::source(chinese, english),
+                Some("NAER Educational Studies Terminology OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "education"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Educational Studies Terminology OGDL v1.0")
+            }));
+        }
+
+        let tagged: Vec<_> = include_str!("../data/naer-educational-studies-tags.tsv")
+            .lines()
+            .collect();
+        assert_eq!(tagged.len(), 171);
+        for row in tagged {
+            let mut fields = row.split('\t');
+            let english = fields.next().unwrap();
+            assert_eq!(fields.next(), Some("1024"));
+            assert_eq!(
+                fields.next(),
+                Some("NAER Educational Studies Terminology OGDL v1.0")
+            );
+            assert!(tags(english, selected).iter().any(|tag| {
+                tag.id == "education"
+                    && tag.selected
+                    && tag
+                        .sources
+                        .contains(&"NAER Educational Studies Terminology OGDL v1.0")
+            }));
+        }
+
+        let mut candidate = candidate(&["unlabelled test", "school"], Language::English);
+        let original_chinese = candidate.text.clone();
+        prioritize(&mut candidate, selected);
+        assert_eq!(candidate.text, original_chinese);
+        assert_eq!(candidate.translation.unwrap().senses()[0].text, "school");
     }
 
     #[test]

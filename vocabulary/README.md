@@ -12,6 +12,8 @@
 
 批次36固定 NAER Psychology Terminology（dataset 15167，Open Government Data License v1.0），逐项审校后纳入89组映射、14个新英文词头及443个心理学来源成员。逐项决定、来源快照、SHA-256 与可重复构建见 `data/NAER-PSYCHOLOGY-ATTRIBUTION.md`、`data/naer-psychology-manifest.json`、`data/batches/36-naer-psychology-reviewed.tsv` 和 `scripts/build_naer_psychology_batch.py`。运行时仅载入紧凑 TSV，不扫描完整 CSV。
 
+批次37固定 NAER Terminology of Educational Studies（dataset 15367，Open Government Data License v1.0），逐项审校后纳入5组映射、2个新英文词头和171个教育来源成员，其中42个是新增教育标签。该来源并入已有教育目标，不新增设置项。来源快照、逐项决定、SHA-256 与构建器见 `data/NAER-EDUCATIONAL-STUDIES-ATTRIBUTION.md`、`data/naer-educational-studies-manifest.json`、`data/batches/37-naer-educational-studies-reviewed.tsv` 和 `scripts/build_naer_educational_studies_batch.py`。
+
 0=四级、1=六级、2=专四、3=专八、4=托福、5=雅思、6=计算机、7=商务、8=医学、9=行政学、10=教育、11=心理学；新增领域位号追加在旧目标之后，旧设置位号保持不变。领域类别独立于考试类别。未选目标时保留原译词顺序；多选目标采用任一命中优先、组内稳定排序。中文候选保持原顺序，译词对应的读音、词性、熟悉度一起排序。输入界面不展示 A1–C2 标签。
 
 来源：
