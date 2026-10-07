@@ -1480,6 +1480,93 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 出纳员 -> treasurer (n.); NAER accounting record 4584
 
 
+=== 商务管理学术词汇批次33（NAER Management Academic Terms）===
+
+署名：National Academy for Educational Research, 2026, Management Academic Terms （dataset 15440，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15440 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 含12936条数据记录，SHA-256：2f323ca6b4cf2a5a83dc01b1b044551c809e73f2f025858fd0b69c7b99e2bf4d。285组有本机精确名词/拼音/音标证据，238组原已映射；其余47组审校后纳入41组、排除5组、暂缓1组。纳入11个新英文词头；274个来源词头加入商务来源归属（新增199个商务成员）。繁体中文以 OpenCC t2s 转简体；源定义和例句不进入应用。完整快照、许可、SHA-256、逐项审校和构建器见 vocabulary/data/NAER-MANAGEMENT-ATTRIBUTION.md、vocabulary/data/naer-management-manifest.json、vocabulary/data/batches/33-naer-management-reviewed.tsv、vocabulary/data/batches/33-naer-management-tags-reviewed.tsv 和 scripts/build_naer_management_batch.py。
+
+交易所 -> exchanges (n.); NAER management records 3479
+
+介入 -> intervention (n.); NAER management records 5660
+
+保证 -> assurance (n.); NAER management records 470
+
+信条 -> credo (n.); NAER management records 2191
+
+公司 -> corporation (n.); NAER management records 2069
+
+决策 -> decision-making (n.); NAER management records 2450
+
+压力 -> stress (n.); NAER management records 11164,11165
+
+合理化 -> rationalization (n.); NAER management records 9393
+
+处罚 -> punishment (n.); NAER management records 9183
+
+委托书 -> proxy (n.); NAER management records 9132
+
+威胁 -> threats (n.); NAER management records 11981
+
+官僚 -> bureaucracy (n.); NAER management records 990
+
+定位 -> positioning (n.); NAER management records 8613
+
+归因 -> attribution (n.); NAER management records 491
+
+忠诚 -> loyalty (n.); NAER management records 6537
+
+怠工 -> sabotage (n.); NAER management records 9921,9922
+
+惩罚 -> punishment (n.); NAER management records 9183
+
+惯例 -> routine (n.); NAER management records 9903
+
+批发 -> wholesaling (n.); NAER management records 12774
+
+接管 -> takeovers (n.); NAER management records 11513
+
+支配 -> domination (n.); NAER management records 2884
+
+新奇 -> novelty (n.); NAER management records 7622
+
+条款 -> provision (n.); NAER management records 9123
+
+检验 -> inspection (n.); NAER management records 5270
+
+特征 -> features (n.); NAER management records 3737
+
+环境 -> environments (n.); NAER management records 3257
+
+目的 -> objective (n.); NAER management records 7632
+
+管理 -> management (n.); NAER management records 6608
+
+线索 -> cues (n.); NAER management records 2243
+
+组织 -> organization (n.); NAER management records 7914,7915
+
+聚合 -> aggregation (n.); NAER management records 259
+
+能力 -> competence (n.); NAER management records 1641
+
+行销 -> marketing (n.); NAER management records 6820,6821
+
+装配 -> assembly (n.); NAER management records 431
+
+评估 -> evaluation (n.); NAER management records 3397
+
+负债 -> liabilities (n.); NAER management records 6244
+
+资源 -> resources (n.); NAER management records 9726,9727
+
+辞职 -> resignation (n.); NAER management records 9702
+
+透支 -> overdrafts (n.); NAER management records 8081
+
+降职 -> demotion (n.); NAER management records 2571
+
+集中 -> concentration (n.); NAER management records 1755
+
+
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
 署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。

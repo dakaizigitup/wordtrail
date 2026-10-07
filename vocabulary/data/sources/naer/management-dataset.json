@@ -1,0 +1,14 @@
+{
+  "dataset_id": "15440",
+  "title": "國家教育研究院-管理學學術名詞",
+  "provider": "National Academy for Educational Research",
+  "dataset_url": "https://data.gov.tw/dataset/15440",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-管理學學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-08-12 13:43",
+  "snapshot_file": "management-academic-terms-2026-08-12.csv",
+  "snapshot_sha256": "2f323ca6b4cf2a5a83dc01b1b044551c809e73f2f025858fd0b69c7b99e2bf4d",
+  "snapshot_bytes": 1057195,
+  "source_records": 12936
+}
