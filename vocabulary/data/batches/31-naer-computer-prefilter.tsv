@@ -1,0 +1,372 @@
+chinese	english	ecdict_pos	source_records	source_fields	source_traditional	source_mainland	pinyin	pinyin_frequency	ipa_sources	already_mapped	existing_headword	already_computer_tag	spare_capacity
+一致性	consistency	n.	205	mainland	一致	一致性	yi zhi xing	274	UK,US	true	true	true	true
+一般化	generalization	n.	474	traditional	簡約化；類化；一般化；概推；推廣；通則化；概化；類推；推論；廣義化；普遍化；全身化	泛化	yi ban hua	97	US	true	true	false	true
+上下文	context	n.	211	mainland,traditional	上下文	上下文	shang xia wen	378	UK,US	true	true	true	true
+下划线	underline	n.	1446	mainland	底線	下划线【动】	xia hua xian	90	US	true	true	false	true
+中断	break	n.	90	traditional	破裂；中斷；斷線；斷路；截斷	停歇	zhong duan	2337	UK,US	false	true	false	true
+中断	interrupt	n.,v.	617	mainland,traditional	中斷；岔斷	中断	zhong duan	2337	UK,US	true	true	true	true
+中止	suspend	v.	1336	traditional	懸置；停止；中止；懸掛；中繼；停話	挂起【动】	zhong zhi	1338	UK,US	false	true	false	true
+主机	mainframe	n.	708	mainland,traditional	主機；大型電腦	主机	zhu ji	1649	UK,US	true	true	true	true
+事实	fact	n.	414	mainland,traditional	事實	事实	shi shi	18101	UK,US	true	true	false	true
+交互作用	interaction	n.	604	mainland,traditional	交互作用	交互[作用]	jiao hu zuo yong	272	UK,US	true	true	false	true
+交易	transaction	n.	1409	traditional	交易；異動	事务[元]	jiao yi	6759	UK,US	true	true	true	true
+亮度	luminosity	n.	699	traditional	亮度	光度	liang du	1114	UK	false	true	false	true
+代理	proxy	n.	1014	mainland	代理伺服器	[网络]代理	dai li	5500	UK,US	true	true	true	true
+仲裁	arbitration	n.	27	mainland,traditional	仲裁	仲裁	zhong cai	624	UK,US	true	true	false	true
+价值	value	n.	1474	traditional	值；價值	值	jia zhi	8392	UK,US	true	true	false	true
+任务	task	n.	1361	mainland,traditional	任務	任务	ren wu	18823	UK,US	true	true	false	true
+优先	priority	n.	986	traditional	優先	优先级	you xian	3012	UK,US	false	true	false	true
+传感器	sensor	n.	1204	mainland	感測器	传感器	chuan gan qi	849	UK,US	true	true	false	true
+传染	infection	n.	558	traditional	傳染	感染	chuan ran	2262	UK,US	false	true	false	true
+传递	transfer	n.,v.	1412	traditional	轉移；傳送；傳輸；傳遞	传送【动】	chuan di	2808	US	true	true	false	true
+伸展	stretch	n.,v.	1315	traditional	伸展	抻挤【动】	shen zhan	403	UK,US	true	true	false	true
+例外	exception	n.	398	traditional	異常；例外	异常	li wai	2032	UK,US	true	true	false	true
+保存	save	v.	1151	mainland,traditional	保存；存；節省；保留	保存	bao cun	7895	UK,US	true	true	false	true
+保留	save	v.	1151	traditional	保存；存；節省；保留	保存	bao liu	9137	UK,US	true	true	false	true
+信息	information	n.	559	mainland	資訊；消息	信息	xin xi	18110	UK,US	true	true	false	true
+修改	modification	n.	768	mainland,traditional	修改；修正	修改	xiu gai	6567	UK,US	true	true	false	true
+修正	modification	n.	768	traditional	修改；修正	修改	xiu zheng	3088	UK,US	false	true	false	true
+像素	pixel	n.	944	mainland,traditional	像素	像素	xiang su	2564	UK,US	true	true	true	true
+允许	permission	n.	928	traditional	允許	许可[权]	yun xu	13357	UK,US	false	true	false	true
+光度	luminosity	n.	699	mainland	亮度	光度	guang du	641	UK	true	true	false	true
+光标	cursor	n.	238	mainland	游標	光标	guang biao	113	UK,US	true	true	true	true
+入口	entrance	n.	385	mainland,traditional	入口	入口	ru kou	7874	US	true	true	false	true
+关键	key	n.	634	traditional	鍵；鑰；關鍵	密钥	guan jian	19217	UK,US	true	true	false	true
+内存	memory	n.	738	mainland	記憶體；記憶	内存[储器]	nei cun	3408	UK,US	true	true	true	true
+内核	kernel	n.	633	mainland	核心；核心要點	内核	nei he	701	UK,US	true	true	true	true
+冲程	stroke	n.	1317	traditional	筆畫；衝程	笔画	chong cheng	264	UK,US	true	true	false	true
+净化	purge	n.	1019	mainland	清除；去除	净化【动】	jing hua	1669	UK,US	false	true	false	true
+凸轮	cam	n.	107	traditional	凸輪、電腦輔助製造	计算机辅助制造	tu lun	148	UK,US	true	true	false	true
+出口	exit	n.	403	traditional	出口，跳出	退出【动】	chu kou	8153	UK,US	true	true	false	true
+函数	function	n.	465	mainland,traditional	函數；功能	函数	han shu	4948	UK,US	true	true	false	true
+分割	partition	n.,v.	908	traditional	分區；分割；區間；劃分	分区	fen ge	2629	UK,US	false	true	true	true
+分支	branch	v.	88	mainland,traditional	分支；轉移；；分路；支路；分局；支局	分支	fen zhi	3251	UK,US	true	true	false	true
+分离器	separator	n.	1206	traditional	分離符；分離器	分隔符	fen li qi	45	UK,US	true	true	false	true
+分类	sort	v.	1261	traditional	排序；分類	归类【动】	fen lei	8017	UK,US	true	true	false	true
+分配	allocation	n.	19	mainland,traditional	分配；配置；指派；配置算法	分配	fen pei	6297	UK,US	false	true	false	false
+列表	list	n.	671,672	mainland,traditional	列表；串列；顯示	[列]表 | 列表【动】	lie biao	27795	UK,US	true	true	false	true
+删除	delete	v.	297	mainland,traditional	刪除	删除	shan chu	4611	UK,US	true	true	false	true
+刷新	refresh	v.	1063	mainland	再新；重清；復新	刷新	shua xin	2703	US	true	true	true	true
+前景	foreground	n.	445	traditional	前景；前台	前台的【形】	qian jing	467	UK,US	true	true	false	true
+副本	copy	n.	225	mainland	複製；抄寫；拷貝；複本	副本	fu ben	826	UK,US	true	true	false	true
+功能	function	n.	465	traditional	函數；功能	函数	gong neng	16088	UK,US	true	true	false	true
+加速器	accelerator	n.	3	mainland,traditional	加速器	加速器	jia su qi	495	UK,US	true	true	true	true
+包含	inclusion	n.	549	mainland,traditional	包含	包含	bao han	17031	UK,US	true	true	false	true
+包装	pack	n.,v.	873	traditional	包裝；磁碟組；壓縮；縮緊；縮整；聚集；包裹；組裝；封裝	紧缩【动】	bao zhuang	4933	UK,US	false	true	false	true
+包装	packing	n.	875	traditional	壓縮；包裝	压紧	bao zhuang	4933	UK,US	false	false	false	true
+包裹	pack	n.	873	traditional	包裝；磁碟組；壓縮；縮緊；縮整；聚集；包裹；組裝；封裝	紧缩【动】	bao guo	2869	UK,US	false	true	false	true
+升级	upgrade	n.,v.	1462	mainland,traditional	升級；提高質量	升级【动】	sheng ji	10324	US	true	true	false	true
+单位	unit	n.	1454	traditional	單位；單元；部件；裝置；設備；器	单元	dan wei	42405	UK,US	true	true	false	true
+单元	cell	n.	117	mainland	細胞(行動通訊系統中的一個服務區)	单元	dan yuan	4512	UK,US	true	true	true	true
+单元	unit	n.	1454	mainland,traditional	單位；單元；部件；裝置；設備；器	单元	dan yuan	4512	UK,US	true	true	false	true
+原型	prototype	n.	1012	mainland,traditional	原型；標準型態；雛型；試作	原型	yuan xing	3941	UK,US	true	true	true	true
+参数	parameter	n.	900	mainland,traditional	參數	参数	can shu	2691	UK,US	true	true	false	true
+参考	reference	n.	1061	traditional	參考資料；參考	引用【动】	can kao	6851	UK,US	false	true	false	true
+发动机	engine	n.	382	traditional	機；引擎；發動機	引擎	fa dong ji	4736	UK,US	true	true	false	true
+发布	release	n.,v.	1076	mainland	釋放；鬆開	发布【动】	fa bu	25447	US	true	true	false	true
+取消	undo	v.	1447	traditional	取消；廢除	撤消所做【动】	qu xiao	15453	UK,US	false	true	false	true
+变形	morphing	n.	779	mainland	漸變	变形	bian xing	3996	UK,US	false	false	false	true
+变换	transform	v.	1414	mainland,traditional	變換	变换【动】	bian huan	1246	US	true	true	false	true
+变数	variable	n.	1476	traditional	變數	变量	bian shu	907	UK,US	true	true	false	true
+变量	variable	n.	1476	mainland	變數	变量	bian liang	1170	UK,US	true	true	false	true
+口令	password	n.	912	mainland	通行碼；密碼；暗碼	口令	kou ling	311	UK,US	true	true	true	true
+句子	sentence	n.	1205	mainland	句	句子	ju zi	1812	UK,US	true	true	false	true
+句法	syntax	n.	1344	mainland	語法	句法	ju fa	142	UK,US	true	true	false	true
+可行性	feasibility	n.	421	mainland,traditional	可行性	可行性	ke xing xing	790	UK,US	true	true	false	true
+合并	merge	v.	747	traditional	合併；併入；歸併；合併程序；拼接	归并【动】	he bing	16459	UK,US	true	true	true	true
+合成器	synthesizer	n.	1346	mainland,traditional	合成器；合成裝置	合成器	he cheng qi	507	UK,US	true	true	false	true
+否定	negation	n.	799	traditional	非；負；否定	“反”[运算]	fou ding	2910	UK,US	false	true	false	true
+否认	repudiation	n.	1092	traditional	否認	抵赖	fou ren	4143	UK,US	false	false	false	true
+周期	cycle	n.	244	mainland,traditional	循環；週期	周期	zhou qi	3112	UK,US	true	true	false	true
+周期	period	n.	925	mainland,traditional	週期；期間；時期；句點	周期	zhou qi	3112	UK,US	true	true	false	true
+呼叫	call	n.,v.	105	traditional	呼叫；撥叫；召用	调用	hu jiao	1244	UK,US	true	true	true	true
+命令	command	n.,v.	158	mainland,traditional	命令	命令	ming ling	7778	UK,US	true	true	true	true
+命令	order	n.,v.	860,861	traditional	次序；次；級；命令；訂單；訂購；階	定序【动】 | 次序	ming ling	7778	UK,US	true	true	false	true
+哄骗	spoofing	n.	1294	mainland	電子欺騙	哄骗【动】	hong pian	81	UK,US	false	false	false	true
+响应	response	n.	1106	mainland,traditional	回應；響應	响应	xiang ying	2717	UK,US	false	true	false	true
+图像	image	n.	542	mainland	影像	图像	tu xiang	3388	UK,US	true	true	false	true
+图形	graph	n.	483	traditional	圖形；圖	图	tu xing	1153	UK,US	false	true	true	true
+地位	status	n.	1309	traditional	狀態；地位	状态	di wei	9354	UK,US	true	true	false	true
+地点	site	n.	1244	traditional	現場;地點	站点	di dian	9652	UK,US	false	true	false	true
+基底	substrate	n.	1329	traditional	基體；基底	衬底	ji di	509	UK,US	false	true	false	true
+基数	radix	n.	1033	mainland	數基	基数	ji shu	535	UK	false	false	false	true
+基线	baseline	n.	54	mainland,traditional	基線	基线	ji xian	253	UK,US	true	true	false	true
+堆叠	stack	n.	1299	traditional	堆疊；疊列；堆疊器	栈	dui die	260	UK,US	true	true	true	true
+填充	fill	v.	429	mainland,traditional	填充	填充【动】	tian chong	812	UK,US	true	true	false	true
+复制	copy	v.	225,226	traditional	複製；抄寫；拷貝；複本	副本 | 拷贝【动】	fu zhi	1774	UK,US	true	true	false	true
+复制	replication	n.	1088	mainland,traditional	複製	[同步]复制	fu zhi	1774	UK,US	false	false	false	true
+复杂性	complexity	n.	168	mainland,traditional	複雜性	复杂性	fu za xing	313	UK,US	true	true	false	true
+多媒体	multimedia	n.	787	mainland,traditional	多媒體	多媒体	duo mei ti	1411	UK,US	true	true	false	true
+多数	majority	n.	711	traditional	多數	择多[运算]符	duo shu	6411	UK,US	true	true	false	true
+太空	space	n.	1273,1274	traditional	空間；空格；太空；間隔	空格 | 空间	tai kong	61470	UK,US	true	true	false	true
+威胁	threat	n.	1382	mainland,traditional	威脅	威胁	wei xie	7542	UK,US	false	true	false	true
+媒体	media	n.	732,733	mainland,traditional	媒體；傳輸介質；介質；媒介質(midium的複數)	介质 | 媒体	mei ti	20058	UK,US	true	true	false	true
+字符	character	n.	124	mainland,traditional	字符；字元	字符	zi fu	1289	UK,US	true	true	true	true
+字节	byte	n.	101	mainland	位元組；拜	字节	zi jie	650	UK,US	true	true	true	true
+存储器	storage	n.	1311	mainland	儲存，儲存器	存储器	cun chu qi	151	UK,US	true	true	false	true
+存取	access	v.	4	traditional	存取；進接；讀取；進出；擷取；	访问	cun qu	367	UK,US	true	true	true	true
+学习	learning	n.	655	mainland,traditional	學習	学习	xue xi	31925	UK,US	false	true	false	true
+安全	security	n.	1192	mainland,traditional	保全；安全	安全	an quan	37205	UK,US	true	true	true	true
+安装	install	v.	592	mainland,traditional	安裝	安装【动】	an zhuang	7839	UK,US	true	true	false	true
+定义	definition	n.	296	traditional	定義；確定	清晰度	ding yi	10334	UK,US	false	true	false	true
+定制	customize	v.	240	mainland,traditional	自定；定制；設定客戶規格	定制【动】	ding zhi	2576	US	true	true	true	true
+实体	entity	n.	384	mainland,traditional	實體；實質；實體物	实体	shi ti	6673	UK,US	true	true	true	true
+审计	audit	n.	39	traditional	審計；稽核；查帳	审核	shen ji	1008	UK,US	true	true	false	true
+客户	client	n.	142	mainland,traditional	客戶	客户	ke hu	5549	UK,US	true	true	true	true
+宣告	declaration	n.	291	traditional	宣告	声明	xuan gao	2212	UK,US	false	true	false	true
+容器	container	n.	209	mainland,traditional	容器	容器	rong qi	1255	UK,US	true	true	true	true
+寄存器	register	n.	1066	mainland	暫存器；紀錄器	寄存器	ji cun qi	571	UK,US	true	true	true	true
+密码	cipher	n.	135	mainland,traditional	凱撒加密法；密碼	密码	mi ma	4713	UK,US	true	true	true	true
+密码	password	n.	912	traditional	通行碼；密碼；暗碼	口令	mi ma	4713	UK,US	true	true	true	true
+对比	contrast	n.	216	traditional	對比	反差	dui bi	5052	US	false	true	false	true
+对话	dialog	n.	310	mainland,traditional	DIALOG系統、對話、交談	对话	dui hua	6437	UK,US	true	true	false	true
+寻找	seek	v.	1197	traditional	尋覓；尋找	寻道【动】	xun zhao	8345	UK,US	true	true	false	true
+导航	navigation	n.	798	mainland,traditional	導航；領航	导航	dao hang	1886	UK,US	true	true	false	true
+局部	local	n.	678	traditional	區域的；局部；區性	局部的【形】	ju bu	1807	UK,US	true	true	false	true
+属性	attribute	n.	37	mainland,traditional	屬性；特徵	属性	shu xing	3363	US	true	true	true	true
+崩溃	crash	n.	230	mainland	當機；故障的；系統故障	崩溃【动】	beng kui	7043	UK,US	true	true	true	true
+工作站	workstation	n.	1516	mainland,traditional	工作站	工作站	gong zuo zhan	283	UK,US	true	true	false	true
+布局	layout	n.	653	mainland,traditional	布局；布置；列印格式	布局	bu ju	2016	UK,US	true	true	false	true
+布景	setting	n.	1224	mainland	設定	布景	bu jing	433	UK,US	false	true	false	true
+常数	constant	n.	207	traditional	常數	常量	chang shu	908	UK,US	true	true	true	true
+干线	trunk	n.	1427	mainland,traditional	幹線；中繼線	干线	gan xian	3620	UK,US	false	true	false	true
+平台	platform	n.	947	mainland,traditional	平台	平台	ping tai	14075	UK,US	true	true	true	true
+平行	parallel	n.	892,893	traditional	平行；並列；併列	并联的【形】 | 并行的【形】	ping xing	2562	UK,US	true	true	true	true
+序列	sequence	n.	1207	mainland,traditional	順序；序列	序列	xu lie	2246	UK,US	true	true	false	true
+延伸	extend	v.	411	traditional	延伸；擴充	扩展	yan shen	5942	UK,US	true	true	false	true
+开发者	developer	n.	305	mainland	顯影器	开发者	kai fa zhe	1217	UK,US	true	true	true	true
+引擎	engine	n.	382	mainland,traditional	機；引擎；發動機	引擎	yin qing	4754	UK,US	true	true	false	true
+引用	reference	v.	1061	mainland	參考資料；參考	引用【动】	yin yong	2929	UK,US	false	true	false	true
+归档	file	v.	426	traditional	檔案；歸檔	文件	gui dang	127	US	true	true	false	true
+影像	image	n.	542	traditional	影像	图像	ying xiang	3951	UK,US	true	true	false	true
+循环	cycle	n.,v.	244	traditional	循環；週期	周期	xun huan	6619	UK,US	true	true	false	true
+循环	loop	n.	692	mainland,traditional	迴路；環；循環；環路；回線；環形天線；程式中一群重複指令	循环	xun huan	6619	UK,US	true	true	false	true
+恢复	recovery	n.	1054	mainland,traditional	恢復；復元；回復	恢复	hui fu	18517	UK,US	true	true	false	true
+惯例	convention	n.	221	traditional	規約；約定；慣例	约定	guan li	1009	UK,US	true	true	true	true
+成员	member	n.	736	mainland,traditional	成員；構件	成员	cheng yuan	47192	UK,US	true	true	false	true
+手迹	script	n.	1175	traditional	手跡；劇本；原本；腳本	脚本	shou ji	39	UK,US	true	true	true	true
+打印	print	n.,v.	978	mainland	列印；印	打印【动】	da yin	2168	UK,US	true	true	false	true
+打印机	printer	n.	984	mainland	列印機	打印机	da yin ji	518	UK,US	true	true	false	true
+执行	execution	n.	401	mainland,traditional	執行；執行過程	执行	zhi xing	16946	UK,US	true	true	false	true
+扩充	extend	v.	411	traditional	延伸；擴充	扩展	kuo chong	1136	UK,US	true	true	false	true
+扫描	scan	n.,v.	1159	mainland	掃瞄	扫描【动】	sao miao	1265	UK,US	true	true	false	true
+报告	report	n.,v.	1090	mainland	報表	报告	bao gao	21745	US	true	true	false	true
+拥挤	congestion	n.	200	traditional	擁擠；擁塞；阻塞	拥塞	yong ji	860	UK,US	false	true	false	true
+指令	instruction	n.	595	mainland,traditional	指令	指令	zhi ling	2638	UK,US	true	true	true	true
+指标	index	n.	553	traditional	索引；指標	索引	zhi biao	1636	UK,US	true	true	true	true
+指标	indicator	n.	555	mainland	指示器；指示元	指标	zhi biao	1636	UK,US	true	true	false	true
+指示器	indicator	n.	555	traditional	指示器；指示元	指标	zhi shi qi	116	UK,US	false	true	false	true
+指纹	fingerprint	n.	433	mainland,traditional	指紋	指纹	zhi wen	2248	UK,US	true	true	false	true
+指针	pointer	n.	957	mainland	指標	指针	zhi zhen	417	UK,US	true	true	true	true
+排序	sort	v.	1261	traditional	排序；分類	归类【动】	pai xu	1309	UK,US	true	true	false	true
+排队	queue	v.	1029	mainland	隊列；佇列	排队【动】	pai dui	8499	UK,US	true	true	true	true
+探针	probe	n.	992	traditional	探針	探查件	tan zhen	138	UK,US	true	true	true	true
+接种	inoculate	v.	580	mainland	接種劑	接种【动】	jie zhong	927	UK,US	true	true	false	true
+控制	control	n.,v.	217	traditional	控制	控件	kong zhi	30760	UK,US	true	true	false	true
+提交	submission	n.	1323	mainland,traditional	提交	提交	ti jiao	3530	UK,US	false	true	false	true
+提示	prompt	n.,v.	1008	mainland	候答訊號；提示號；提示符號；提示字元	提示	ti shi	3911	UK,US	true	true	false	true
+插入	insert	v.	590	mainland,traditional	插入	插入【动】	cha ru	1400	US	true	true	false	true
+搜寻	search	n.,v.	1180	traditional	搜尋；搜索	搜索	sou xun	8863	UK,US	true	true	false	true
+搜索	search	v.	1180	mainland,traditional	搜尋；搜索	搜索	sou suo	4744	UK,US	true	true	false	true
+操作	operation	n.	840,841	mainland,traditional	作業；操作；運算	操作 | 运算	cao zuo	6569	UK,US	false	true	false	true
+操作员	operator	n.	845	traditional	運算子；操作員；運算符；接線生	操作符	cao zuo yuan	311	UK,US	true	true	true	true
+收缩	contraction	n.	215	mainland,traditional	收縮	收缩	shou suo	824	UK,US	true	true	false	true
+攻破	breach	v.	89	mainland	破壞；違反	攻破	gong po	671	UK,US	false	true	false	true
+数据库	database	n.	282	mainland	資料庫	数据库	shu ju ku	1862	UK,US	true	true	true	true
+文件	document	n.	336	traditional	文件	文档（件）	wen jian	7387	US	false	true	false	true
+文件	file	n.	426	mainland	檔案；歸檔	文件	wen jian	7387	US	true	true	false	true
+文本	text	n.	1374	mainland	正文；本文；電文	文本	wen ben	1439	UK,US	true	true	false	true
+文档	document	n.	336	mainland	文件	文档（件）	wen dang	1105	US	true	true	false	true
+旁路	bypass	n.	100	mainland,traditional	旁路；跳過；略過	旁路	pang lu	38	UK,US	true	true	false	true
+旋转	rotate	v.	1141	mainland,traditional	旋轉	旋转【动】	xuan zhuan	3114	UK,US	true	true	false	true
+日志	log	n.	681	mainland,traditional	日誌；對數	[记]日志【动】	ri zhi	805	UK,US	true	true	true	true
+时期	period	n.	925	traditional	週期；期間；時期；句點	周期	shi qi	35630	UK,US	true	true	false	true
+映像	map	n.	718,719	mainland,traditional	映射；映成表；地區圖；圖解；映像；標定（網）；圖；圖像；變換；變址	映像 | 映射【动】	ying xiang	1104	UK,US	false	true	true	true
+映射	map	v.	718,719	mainland,traditional	映射；映成表；地區圖；圖解；映像；標定（網）；圖；圖像；變換；變址	映像 | 映射【动】	ying she	746	UK,US	true	true	true	true
+显示	display	n.,v.	328	mainland,traditional	顯示；顯示器	显示【动】	xian shi	19339	UK,US	true	true	false	true
+显示器	display	n.	328	traditional	顯示；顯示器	显示【动】	xian shi qi	996	UK,US	true	true	false	true
+晶片	wafer	n.	1497	traditional	晶片；晶元；圓片；大晶片；薄片；干膠片	圆片	jing pian	694	UK,US	true	true	false	true
+暴露	exposure	n.	409	mainland	曝光	暴露	bao lu	7367	UK,US	true	true	false	true
+更换	replacement	n.	1086	traditional	更換	替换	geng huan	3365	UK,US	true	true	false	true
+更新	update	n.,v.	1461	mainland,traditional	更新；修正	更新【动】	geng xin	20976	US	true	true	false	true
+服务	service	n.	1218	mainland,traditional	服務	服务	fu wu	35585	UK,US	false	true	false	true
+服务器	server	n.	1217	mainland	伺服器	服务器	fu wu qi	1941	UK,US	true	true	true	true
+标签	label	n.	644	traditional	標號；標記；標籤	标号	biao qian	1282	UK,US	true	true	false	true
+标签	tag	n.	1352	traditional	標籤；鍵	标志	biao qian	1282	UK,US	true	true	false	true
+标识符	identifier	n.	534	mainland	識別符；標識符號；識別碼	标识符	biao zhi fu	216	UK,US	true	true	false	true
+样式	style	n.	1320	mainland	式樣	样式	yang shi	1356	UK,US	true	true	false	true
+核心	kernel	n.	633	traditional	核心；核心要點	内核	he xin	7693	UK,US	true	true	true	true
+格式	format	n.	451	mainland,traditional	格式；製作格式	格式	ge shi	2963	UK,US	true	true	false	true
+桌面	desktop	n.	301	mainland	桌上	桌面	zhuo mian	1712	UK,US	true	true	true	true
+档案	file	n.	426	traditional	檔案；歸檔	文件	dang an	4842	US	true	true	false	true
+检索	retrieval	n.	1111	mainland,traditional	檢索	检索	jian suo	330	UK,US	false	true	false	true
+检验	inspection	n.	591	traditional	檢驗	审查	jian yan	2052	UK,US	false	true	false	true
+概要	schema	n.	1167	traditional	簡圖；概要；綱目	模式	gai yao	198	UK,US	true	true	true	true
+模型	model	n.	764	mainland,traditional	模型；型號	模型	mo xing	7142	UK,US	true	true	false	true
+模式	pattern	n.	918	mainland	型樣；圖型	模式	mo shi	16604	UK,US	true	true	true	true
+模拟	simulation	n.	1238	mainland,traditional	模擬；模擬實驗	模拟	mo ni	4521	UK,US	true	true	false	true
+模板	template	n.	1368	mainland,traditional	模板	模板	mu ban	653	UK,US	true	true	false	true
+次序	order	n.	860,861	mainland,traditional	次序；次；級；命令；訂單；訂購；階	定序【动】 | 次序	ci xu	411	UK,US	true	true	false	true
+正文	text	n.	1374	traditional	正文；本文；電文	文本	zheng wen	462	UK,US	false	true	false	true
+步骤	step	n.	1310	traditional	步；步驟	步	bu zhou	984	UK,US	true	true	false	true
+比例尺	scale	n.	1156,1157	traditional	標度；尺度；音階；比例尺；規模	定标【动】 | 比例缩放【动】	bi li chi	28	UK,US	true	true	false	true
+水印	watermark	n.	1501	mainland	浮水印	水印	shui yin	5012	UK,US	true	true	false	true
+泄露	disclosure	n.	324	mainland	公佈；解密	泄露	xie lu	1152	UK,US	false	true	false	true
+流程图	flowchart	n.	444	mainland,traditional	流程圖	流程图	liu cheng tu	91	UK,US	true	true	true	true
+浏览	browse	n.,v.	92	mainland,traditional	瀏覽	浏览【动】	liu lan	840	UK,US	true	true	false	true
+消息	information	n.	559	traditional	資訊；消息	信息	xiao xi	22395	UK,US	false	true	false	true
+清除	purge	n.,v.	1019	traditional	清除；去除	净化【动】	qing chu	1279	UK,US	false	true	false	true
+滤波器	filter	n.	431	traditional	過濾器；濾波器	过滤器	lv bo qi	557	UK,US	true	true	true	true
+灵敏度	sensitivity	n.	1203	traditional	靈敏度；敏感度；敏感性	敏感度	ling min du	181	UK,US	true	true	false	true
+炸弹	bomb	n.	78	mainland,traditional	炸彈	炸弹	zha dan	3144	UK,US	true	true	false	true
+特征	feature	n.	422	mainland,traditional	特徵	特征	te zheng	7688	UK,US	true	true	false	true
+状态	status	n.	1309	mainland,traditional	狀態；地位	状态	zhuang tai	22208	UK,US	true	true	false	true
+环境	environment	n.	388	mainland,traditional	環境	环境	huan jing	25698	UK,US	true	true	false	true
+电子商务	e-commerce	n.	359	traditional	電子商務	电子商业	dian zi shang wu	353	US	true	true	false	true
+电脑	computer	n.	170	traditional	電腦；計算機	计算机	dian nao	24617	UK,US	true	true	false	true
+画笔	paintbrush	n.	884	mainland	繪圖軟體、塗抹刷	画笔	hua bi	195	UK,US	true	true	false	true
+病毒	virus	n.	1488	mainland,traditional	病毒	病毒	bing du	7094	UK,US	true	true	true	true
+登记	registration	n.	1067,1068	mainland,traditional	登記	对准 | 登记	deng ji	4029	UK,US	true	true	false	true
+监听	monitor	v.	774,775	traditional	監視器；監視程式；監督；(電腦)顯示器；；監控器；監聽；監視；監控	监控程序 | 监视器	jian ting	315	UK,US	true	true	false	true
+监督	monitor	v.	774,775	traditional	監視器；監視程式；監督；(電腦)顯示器；；監控器；監聽；監視；監控	监控程序 | 监视器	jian du	11021	UK,US	true	true	false	true
+监视	monitor	v.	774,775	traditional	監視器；監視程式；監督；(電腦)顯示器；；監控器；監聽；監視；監控	监控程序 | 监视器	jian shi	59009	UK,US	true	true	false	true
+监视器	monitor	n.	774,775	mainland,traditional	監視器；監視程式；監督；(電腦)顯示器；；監控器；監聽；監視；監控	监控程序 | 监视器	jian shi qi	274	UK,US	true	true	false	true
+目标	target	n.	1357	mainland,traditional	目標	目标	mu biao	20772	UK,US	true	true	false	true
+目的	destination	n.	303	traditional	目的地；目的；收報局；收報台；終點局	目的地	mu di	11860	UK,US	false	true	false	true
+目的地	destination	n.	303	mainland,traditional	目的地；目的；收報局；收報台；終點局	目的地	mu di di	2070	UK,US	true	true	false	true
+知识	knowledge	n.	640	mainland,traditional	知識	知识	zhi shi	9111	UK,US	true	true	false	true
+码头	dock	n.	335	traditional	碼頭	入坞【动】	ma tou	4058	UK,US	true	true	false	true
+破坏	breach	n.	89	traditional	破壞；違反	攻破	po huai	10026	UK,US	false	true	false	false
+硬件	hardware	n.	509	mainland	硬體	硬件	ying jian	1531	UK,US	true	true	true	true
+碰撞	collision	n.	153	mainland,traditional	碰撞	碰撞	peng zhuang	1391	UK,US	true	true	false	true
+磁带	tape	n.	1355	mainland,traditional	磁帶	磁带	ci dai	512	UK,US	true	true	false	true
+磁盘	disk	n.	327	mainland	磁碟	[磁]盘	ci pan	249	UK,US	true	true	true	true
+示范	demonstration	n.	299	traditional	示範	演示	shi fan	2487	UK,US	false	true	false	true
+禁止	inhibit	v.	575	mainland,traditional	禁止	禁止【动】	jin zhi	8567	UK,US	false	true	false	true
+种子	seed	n.	1196	mainland	種	种子	zhong zi	5659	UK,US	true	true	true	true
+移位	shift	n.	1232	mainland,traditional	移位；偏移；移動；位移；漂移；頻移；輪班	移位	yi wei	164	UK,US	false	true	false	true
+移动	shift	n.,v.	1232	traditional	移位；偏移；移動；位移；漂移；頻移；輪班	移位	yi dong	11333	UK,US	false	true	false	true
+程序	procedure	n.	994	traditional	程序	过程	cheng xu	8044	UK,US	true	true	true	true
+程序	program	n.	1000	mainland	程式；節目	程序	cheng xu	8044	UK,US	true	true	false	true
+空间	space	n.	1273,1274	mainland,traditional	空間；空格；太空；間隔	空格 | 空间	kong jian	17483	UK,US	true	true	false	true
+穿透	penetration	n.	924	traditional	穿透	渗入	chuan tou	604	UK,US	false	true	false	true
+窗口	window	n.	1506	mainland,traditional	視窗；窗；窗口	窗口	chuang kou	2448	UK,US	true	true	false	true
+等价	equivalence	n.	389	mainland,traditional	等值；等價；等效	等价	deng jia	549	UK,US	false	true	false	true
+等值	equivalence	n.	389	traditional	等值；等價；等效	等价	deng zhi	114	UK,US	true	true	false	true
+答复	reply	n.,v.	1089	traditional	答覆	回复【动】	da fu	929	UK,US	true	true	false	true
+算法	algorithm	n.	17	mainland	演算法(一套規則；方法)	算法	suan fa	2921	UK,US	true	true	true	true
+类型	type	n.	1437,1438	mainland,traditional	類型；型態	[类]型 | 键入【动】	lei xing	16253	UK,US	true	true	false	true
+粘贴	paste	n.	914	mainland	貼補；補貼；糊；膠；膏	粘贴【动】	zhan tie	147	UK,US	true	true	true	true
+索引	index	n.	553	mainland,traditional	索引；指標	索引	suo yin	551	UK,US	true	true	true	true
+约定	convention	n.	221	mainland,traditional	規約；約定；慣例	约定	yue ding	2493	UK,US	true	true	true	true
+约束	constraint	n.	208	mainland,traditional	約束	约束	yue shu	1350	UK,US	false	true	false	true
+线路	line	n.	663	mainland,traditional	列；線路	线路	xian lu	12850	UK,US	true	true	false	true
+组件	module	n.	772	traditional	模組；程序塊；組件	模块	zu jian	1357	UK,US	false	true	true	true
+细胞	cell	n.	116,117,118	traditional	細胞(行動通訊系統中的一個服務區)	单元 | 小区 | 表元	xi bao	6592	UK,US	true	true	true	true
+细菌	bacterium	n.	51	mainland,traditional	細菌	细菌[程序]	xi jun	1394	UK,US	true	true	false	true
+终止	terminate	v.	1371	traditional	終止	端接【动】	zhong zhi	2957	UK,US	true	true	false	true
+经理	manager	n.	717	traditional	管理器；經理	管理器	jing li	4234	UK,US	true	true	false	true
+结合	join	n.,v.	625	traditional	聯合；結合；或	并	jie he	8038	UK,US	false	true	false	true
+结构	structure	n.	1318	mainland,traditional	結構	结构	jie gou	15591	UK,US	true	true	true	true
+缓冲	buffer	v.	94	traditional	緩衝；緩衝器；緩衝區	缓冲器	huan chong	700	UK,US	true	true	true	true
+缓冲区	buffer	n.	94	traditional	緩衝；緩衝器；緩衝區	缓冲器	huan chong qu	360	UK,US	false	true	true	true
+缓冲器	buffer	n.	94	mainland,traditional	緩衝；緩衝器；緩衝區	缓冲器	huan chong qi	98	UK,US	true	true	true	true
+编辑	edit	v.	364	mainland,traditional	編輯	编辑【动】	bian ji	10975	UK,US	true	true	false	true
+缩小	reduce	v.	1057	mainland	縮減；歸約	缩小【动】	suo xiao	1491	UK,US	true	true	false	true
+缺点	flaw	n.	442	traditional	裂隙；瑕疪；缺陷；隙痕；斷裂；弗老風；橫推斷層 ; 疵裂；疵點；缺點；橫推斷層；捩斷層；走向滑斷層；裂縫；裂紋；裂痕	瑕点	que dian	3146	UK,US	true	true	false	true
+翻译	translate	v.	1415	mainland,traditional	翻譯；移位；轉換	翻译【动】	fan yi	12153	UK,US	true	true	false	true
+联合	union	n.	1452,1453	mainland,traditional	聯合；聯集；聯盟	并 | 联合[号]	lian he	27897	UK,US	false	true	false	true
+联盟	union	n.	1452,1453	traditional	聯合；聯集；聯盟	并 | 联合[号]	lian meng	30548	UK,US	true	true	false	true
+背景	background	n.	47,48	mainland,traditional	後台；背景；底色	后台 | 背景	bei jing	13777	UK,US	true	true	false	true
+脚手架	scaffolding	n.	1152	mainland	過渡支架	脚手架	jiao shou jia	45	UK,US	true	true	false	true
+色彩	hue	n.	526	traditional	色相；色彩	色调	se cai	4007	US	false	true	false	true
+色调	hue	n.	526	mainland	色相；色彩	色调	se diao	1793	US	true	true	false	true
+色调	tone	n.	1395	mainland,traditional	音調；音；單音；純音；色調	色调	se diao	1793	UK,US	true	true	false	true
+节目	program	n.	1000	traditional	程式；節目	程序	jie mu	59104	UK,US	true	true	false	true
+节省	save	v.	1151	traditional	保存；存；節省；保留	保存	jie sheng	1297	UK,US	true	true	false	true
+范例	paradigm	n.	891	mainland,traditional	典範；範例	范例	fan li	367	UK,US	false	true	false	true
+菜单	menu	n.	745	traditional	菜單；功能表；選項單	选单	cai dan	1085	UK,US	true	true	false	true
+蓄电池	accumulator	n.	8	traditional	存儲器；累加器；蓄電池；儲能電路	累加器	xu dian chi	207	UK,US	false	true	false	true
+蠕虫	worm	n.	1517	mainland	蟲	蠕虫	ru chong	307	UK,US	true	true	false	true
+裂纹	flaw	n.	442	traditional	裂隙；瑕疪；缺陷；隙痕；斷裂；弗老風；橫推斷層 ; 疵裂；疵點；缺點；橫推斷層；捩斷層；走向滑斷層；裂縫；裂紋；裂痕	瑕点	lie wen	96	UK,US	false	true	false	true
+装置	device	n.	307	traditional	裝置；設備	器件	zhuang zhi	6643	UK,US	true	true	true	true
+装置	unit	n.	1454	traditional	單位；單元；部件；裝置；設備；器	单元	zhuang zhi	6643	UK,US	false	true	false	true
+覆盖	overlay	n.	867	mainland,traditional	覆蓋	覆盖【动】	fu gai	5616	US	false	true	false	true
+规格	specification	n.	1278	traditional	規格；說明書	规格说明	gui ge	2045	UK,US	true	true	false	true
+规模	scale	n.	1156,1157	traditional	標度；尺度；音階；比例尺；規模	定标【动】 | 比例缩放【动】	gui mo	12863	UK,US	true	true	false	true
+视图	view	n.	1482	mainland	視野；觀點	视图	shi tu	215	UK,US	true	true	true	true
+视野	view	n.	1482	traditional	視野；觀點	视图	shi ye	1540	UK,US	false	true	true	true
+解析	resolve	v.	1103	traditional	（位址）解析	[地址]解算【动】	jie xi	1430	US	false	true	false	true
+解码	decode	v.	292	traditional	解碼	译码【动】	jie ma	444	UK,US	true	true	false	true
+解释	interpret	v.	614	mainland	解譯	解释【动】	jie shi	22653	UK,US	false	true	false	true
+触发	trigger	v.	1424	mainland,traditional	觸發；觸發器	触发【动】	chu fa	1364	UK,US	true	true	false	true
+触发器	trigger	n.	1424	traditional	觸發；觸發器	触发【动】	chu fa qi	53	UK,US	true	true	false	true
+计时器	timer	n.	1391	mainland,traditional	計時器	计时器	ji shi qi	201	UK,US	true	true	false	true
+计算器	calculator	n.	103	mainland,traditional	計算器	计算器	ji suan qi	126	UK,US	true	true	false	true
+订户	subscriber	n.	1326	mainland	用戶；(電話)用戶；訂購戶	订户	ding hu	99	UK,US	true	true	false	true
+记号	notation	n.	820	traditional	記法；表示法；記號；記數法；符號	记法	ji hao	684	UK,US	false	true	false	true
+记录	record	n.,v.	1052,1053	mainland,traditional	記錄	记录 | 记录【动】	ji lu	16459	US	true	true	false	true
+记忆	memory	n.	738	traditional	記憶體；記憶	内存[储器]	ji yi	11409	UK,US	true	true	true	true
+许可	permission	n.	928	mainland	允許	许可[权]	xu ke	2672	UK,US	true	true	false	true
+设备	device	n.	307	traditional	裝置；設備	器件	she bei	12592	UK,US	true	true	true	true
+访问	access	v.	4	mainland	存取；進接；讀取；進出；擷取；	访问	fang wen	8581	UK,US	true	true	true	true
+证书	certificate	n.	119	mainland	憑證	证书	zheng shu	2671	US	true	true	true	true
+语法	syntax	n.	1344	traditional	語法	句法	yu fa	1673	UK,US	false	true	false	true
+语言	language	n.	645	mainland,traditional	語言	语言	yu yan	21519	UK,US	true	true	false	true
+误差	error	n.	393,394	mainland,traditional	錯誤；誤差	差错 | 误差	wu cha	982	UK,US	true	true	false	true
+说话	speech	n.	1280	traditional	話音；語音；語言；說話	语音	shuo hua	47547	UK,US	false	true	false	true
+读取	read	n.	1040	traditional	讀；讀出；讀取	读【动】	du qu	701	US	true	true	false	true
+调制解调器	modem	n.	766	mainland	數據機	调制解调器	tiao zhi jie tiao qi	99	UK,US	true	true	false	true
+调色板	palette	n.	885	mainland	調色	调色板	tiao se ban	45	UK,US	true	true	false	true
+调试	debug	v.	288	mainland	除錯	调试【动】	tiao shi	345	US	true	true	false	true
+负荷	load	n.	675	traditional	負荷；載入	装入【动】	fu he	459	UK,US	true	true	true	true
+资源	resource	n.	1104	mainland,traditional	資源	资源	zi yuan	16202	UK,US	true	true	false	true
+跳过	skip	v.	1245	mainland	跨越	跳过【动】	tiao guo	909	UK,US	true	true	false	true
+踪迹	trace	n.	1405	mainland	追蹤	[踪]迹	zong ji	418	UK,US	true	true	false	true
+轨迹	track	n.	1407	mainland	磁軌	[声像]轨迹	gui ji	1283	UK,US	true	true	false	true
+转换	conversion	n.	223	mainland,traditional	轉換	转换	zhuan huan	4054	UK,US	true	true	false	true
+转移	transfer	n.,v.	1412	traditional	轉移；傳送；傳輸；傳遞	传送【动】	zhuan yi	7813	US	true	true	false	true
+轮廓	profile	n.	999	mainland,traditional	設定檔；外形；輪廓	轮廓	lun kuo	781	UK,US	false	true	false	true
+轮班	shift	n.	1232	traditional	移位；偏移；移動；位移；漂移；頻移；輪班	移位	lun ban	116	UK,US	true	true	false	true
+软件	software	n.	1256	mainland	軟體	软件	ruan jian	12787	UK,US	true	true	true	true
+轰炸	bombing	n.	79	mainland	病毒惡意轟炸	轰炸	hong zha	2784	UK,US	false	true	false	true
+输入	input	n.,v.	581	traditional	輸入	输入的【形】	shu ru	10549	UK,US	true	true	false	true
+边界	border	n.	84	traditional	邊界	边框	bian jie	8113	UK,US	true	true	false	true
+过滤器	filter	n.	431	mainland,traditional	過濾器；濾波器	过滤器	guo lv qi	148	UK,US	true	true	true	true
+过程	procedure	n.	994	mainland	程序	过程	guo cheng	22061	UK,US	true	true	true	true
+过程	process	n.	995	mainland,traditional	處理；過程	过程	guo cheng	22061	US	true	true	false	true
+运算	operation	n.	840,841	mainland,traditional	作業；操作；運算	操作 | 运算	yun suan	1221	UK,US	false	true	false	true
+运算符	operator	n.	845	traditional	運算子；操作員；運算符；接線生	操作符	yun suan fu	126	UK,US	true	true	true	true
+返回	return	n.,v.	1113	mainland,traditional	折回；轉回；返回；回程；回路；回線	返回【动】	fan hui	9514	US	true	true	false	true
+进位	carry	n.	114	mainland,traditional	進位	进位【动】	jin wei	300	UK,US	true	true	false	true
+违反	breach	n.	89	traditional	破壞；違反	攻破	wei fan	5248	UK,US	false	true	false	true
+连接	connection	n.	202	mainland,traditional	連接	连接	lian jie	14030	UK,US	false	true	false	true
+追踪	trace	v.	1405	traditional	追蹤	[踪]迹	zhui zong	21617	UK,US	true	true	false	true
+退出	exit	v.	403	mainland	出口，跳出	退出【动】	tui chu	7722	UK,US	true	true	false	true
+选项	option	n.	858	mainland,traditional	選項；任選	选项	xuan xiang	2205	UK,US	true	true	false	true
+逻辑	logic	n.	682	mainland,traditional	邏輯	逻辑	luo ji	7186	UK,US	true	true	false	true
+部件	unit	n.	1454	traditional	單位；單元；部件；裝置；設備；器	单元	bu jian	1117	UK,US	false	true	false	true
+配置	allocation	n.	19	traditional	分配；配置；指派；配置算法	分配	pei zhi	4384	UK,US	true	true	false	true
+释放	release	n.,v.	1075,1076	mainland,traditional	釋放；鬆開	发布【动】 | 释放【动】	shi fang	6204	US	true	true	false	true
+重新启动	restart	v.	1108	mainland	重新開始；再啟動	重新启动【动】	chong xin qi dong	208	UK,US	true	true	false	true
+重置	reset	v.	1098	traditional	重設；重新開始；重置；重置載波	复位【动】	chong zhi	699	UK,US	true	true	true	true
+量子	quantum	n.	1026	mainland,traditional	量子；量程；時間片（分時系統用）	量子	liang zi	1909	UK,US	true	true	false	true
+链接	link	n.	669	mainland	鏈結；連線	链接【动】	lian jie	745	UK,US	true	true	true	true
+错误	bug	n.	95	traditional	錯誤	隐错	cuo wu	8965	UK,US	true	true	true	true
+错误	error	n.	393,394	traditional	錯誤；誤差	差错 | 误差	cuo wu	8965	UK,US	true	true	false	true
+键盘	keyboard	n.	635	mainland,traditional	鍵盤	键盘	jian pan	6832	UK,US	true	true	true	true
+门槛	threshold	n.	1383	traditional	定限；門檻；臨界(值)	阈[值]	men kan	1277	UK,US	true	true	false	true
+闪烁	blink	n.	72	mainland,traditional	閃爍；閃視	闪烁【动】	shan shuo	475	UK,US	false	true	false	true
+间隔	space	n.	1273,1274	traditional	空間；空格；太空；間隔	空格 | 空间	jian ge	1591	UK,US	false	true	false	true
+队列	queue	n.	1028,1029	mainland,traditional	隊列；佇列	排队【动】 | 队列	dui lie	413	UK,US	true	true	true	true
+阻塞	block	v.	74	mainland	塊；段；資料段；成塊；區塊；阻擋	阻塞【动】	zu se	702	UK,US	true	true	false	true
+陈述	statement	n.	1306	traditional	敘述；陳述	语句	chen shu	1429	UK,US	false	true	false	true
+除错	debug	v.	288	traditional	除錯	调试【动】	chu cuo	53	US	true	true	false	true
+陷阱	trap	n.	1418	mainland,traditional	陷阱	陷阱	xian jing	1383	UK,US	true	true	false	true
+隐私	privacy	n.	987	mainland,traditional	隱私	隐私[权]	yin si	1734	UK,US	true	true	false	true
+隐藏	hide	v.	517	mainland,traditional	隱藏	隐藏【动】	yin cang	4434	UK,US	true	true	false	true
+集合	set	n.	1222,1223	traditional	集（合）；組；集合	系 | 设置【动】	ji he	4087	UK,US	true	true	true	true
+音调	tone	n.	1395	traditional	音調；音；單音；純音；色調	色调	yin diao	422	UK,US	true	true	false	true
+顺序	sequence	n.	1207	traditional	順序；序列	序列	shun xu	3707	UK,US	false	true	false	true
+预览	preview	n.	975	mainland,traditional	預視；預覽	预览	yu lan	554	UK,US	true	true	true	true
+鼠标	mouse	n.	782	mainland	滑鼠；游標控制器；鼠標器	鼠标[器]	shu biao	1461	US	true	true	true	true

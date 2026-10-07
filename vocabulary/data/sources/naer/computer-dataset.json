@@ -1,0 +1,16 @@
+{
+  "dataset_id": "15275",
+  "resource_id": null,
+  "title": "National Academy for Educational Research - Cross-Strait Comparative Terminology - Computer Science",
+  "provider": "National Academy for Educational Research",
+  "published_at": "2015-07-07",
+  "portal_updated_at": "2026-08-12 15:06",
+  "dataset_url": "https://data.gov.tw/dataset/15275",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-兩岸對照名詞-計算機學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "snapshot_sha256": "d8d65ba4097d45dd1c5d6b737fc942a1bd92d74d76ce6d6fb5348001b11b75bd",
+  "snapshot_bytes": 115146,
+  "records": 1532,
+  "note": "The source includes Taiwan Traditional Chinese and Mainland Chinese translations. Only individually reviewed mappings that match local ECDICT glosses, IPA, and a pinyin key are compiled; source definitions are not redistributed."
+}

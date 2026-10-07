@@ -1,0 +1,81 @@
+chinese	english	ecdict_pos	source_records	source_fields	source_traditional	source_mainland	pinyin	pinyin_frequency	ipa_sources	already_mapped	existing_headword	already_computer_tag	spare_capacity
+中断	break	n.	90	traditional	破裂；中斷；斷線；斷路；截斷	停歇	zhong duan	2337	UK,US	false	true	false	true
+中止	suspend	v.	1336	traditional	懸置；停止；中止；懸掛；中繼；停話	挂起【动】	zhong zhi	1338	UK,US	false	true	false	true
+亮度	luminosity	n.	699	traditional	亮度	光度	liang du	1114	UK	false	true	false	true
+优先	priority	n.	986	traditional	優先	优先级	you xian	3012	UK,US	false	true	false	true
+传染	infection	n.	558	traditional	傳染	感染	chuan ran	2262	UK,US	false	true	false	true
+修正	modification	n.	768	traditional	修改；修正	修改	xiu zheng	3088	UK,US	false	true	false	true
+允许	permission	n.	928	traditional	允許	许可[权]	yun xu	13357	UK,US	false	true	false	true
+净化	purge	n.	1019	mainland	清除；去除	净化【动】	jing hua	1669	UK,US	false	true	false	true
+分割	partition	n.,v.	908	traditional	分區；分割；區間；劃分	分区	fen ge	2629	UK,US	false	true	true	true
+包装	pack	n.,v.	873	traditional	包裝；磁碟組；壓縮；縮緊；縮整；聚集；包裹；組裝；封裝	紧缩【动】	bao zhuang	4933	UK,US	false	true	false	true
+包装	packing	n.	875	traditional	壓縮；包裝	压紧	bao zhuang	4933	UK,US	false	false	false	true
+包裹	pack	n.	873	traditional	包裝；磁碟組；壓縮；縮緊；縮整；聚集；包裹；組裝；封裝	紧缩【动】	bao guo	2869	UK,US	false	true	false	true
+参考	reference	n.	1061	traditional	參考資料；參考	引用【动】	can kao	6851	UK,US	false	true	false	true
+取消	undo	v.	1447	traditional	取消；廢除	撤消所做【动】	qu xiao	15453	UK,US	false	true	false	true
+变形	morphing	n.	779	mainland	漸變	变形	bian xing	3996	UK,US	false	false	false	true
+否定	negation	n.	799	traditional	非；負；否定	“反”[运算]	fou ding	2910	UK,US	false	true	false	true
+否认	repudiation	n.	1092	traditional	否認	抵赖	fou ren	4143	UK,US	false	false	false	true
+哄骗	spoofing	n.	1294	mainland	電子欺騙	哄骗【动】	hong pian	81	UK,US	false	false	false	true
+响应	response	n.	1106	mainland,traditional	回應；響應	响应	xiang ying	2717	UK,US	false	true	false	true
+图形	graph	n.	483	traditional	圖形；圖	图	tu xing	1153	UK,US	false	true	true	true
+地点	site	n.	1244	traditional	現場;地點	站点	di dian	9652	UK,US	false	true	false	true
+基底	substrate	n.	1329	traditional	基體；基底	衬底	ji di	509	UK,US	false	true	false	true
+基数	radix	n.	1033	mainland	數基	基数	ji shu	535	UK	false	false	false	true
+复制	replication	n.	1088	mainland,traditional	複製	[同步]复制	fu zhi	1774	UK,US	false	false	false	true
+威胁	threat	n.	1382	mainland,traditional	威脅	威胁	wei xie	7542	UK,US	false	true	false	true
+学习	learning	n.	655	mainland,traditional	學習	学习	xue xi	31925	UK,US	false	true	false	true
+定义	definition	n.	296	traditional	定義；確定	清晰度	ding yi	10334	UK,US	false	true	false	true
+宣告	declaration	n.	291	traditional	宣告	声明	xuan gao	2212	UK,US	false	true	false	true
+对比	contrast	n.	216	traditional	對比	反差	dui bi	5052	US	false	true	false	true
+布景	setting	n.	1224	mainland	設定	布景	bu jing	433	UK,US	false	true	false	true
+干线	trunk	n.	1427	mainland,traditional	幹線；中繼線	干线	gan xian	3620	UK,US	false	true	false	true
+引用	reference	v.	1061	mainland	參考資料；參考	引用【动】	yin yong	2929	UK,US	false	true	false	true
+拥挤	congestion	n.	200	traditional	擁擠；擁塞；阻塞	拥塞	yong ji	860	UK,US	false	true	false	true
+指示器	indicator	n.	555	traditional	指示器；指示元	指标	zhi shi qi	116	UK,US	false	true	false	true
+提交	submission	n.	1323	mainland,traditional	提交	提交	ti jiao	3530	UK,US	false	true	false	true
+操作	operation	n.	840,841	mainland,traditional	作業；操作；運算	操作 | 运算	cao zuo	6569	UK,US	false	true	false	true
+攻破	breach	v.	89	mainland	破壞；違反	攻破	gong po	671	UK,US	false	true	false	true
+文件	document	n.	336	traditional	文件	文档（件）	wen jian	7387	US	false	true	false	true
+映像	map	n.	718,719	mainland,traditional	映射；映成表；地區圖；圖解；映像；標定（網）；圖；圖像；變換；變址	映像 | 映射【动】	ying xiang	1104	UK,US	false	true	true	true
+服务	service	n.	1218	mainland,traditional	服務	服务	fu wu	35585	UK,US	false	true	false	true
+检索	retrieval	n.	1111	mainland,traditional	檢索	检索	jian suo	330	UK,US	false	true	false	true
+检验	inspection	n.	591	traditional	檢驗	审查	jian yan	2052	UK,US	false	true	false	true
+正文	text	n.	1374	traditional	正文；本文；電文	文本	zheng wen	462	UK,US	false	true	false	true
+泄露	disclosure	n.	324	mainland	公佈；解密	泄露	xie lu	1152	UK,US	false	true	false	true
+消息	information	n.	559	traditional	資訊；消息	信息	xiao xi	22395	UK,US	false	true	false	true
+清除	purge	n.,v.	1019	traditional	清除；去除	净化【动】	qing chu	1279	UK,US	false	true	false	true
+目的	destination	n.	303	traditional	目的地；目的；收報局；收報台；終點局	目的地	mu di	11860	UK,US	false	true	false	true
+示范	demonstration	n.	299	traditional	示範	演示	shi fan	2487	UK,US	false	true	false	true
+禁止	inhibit	v.	575	mainland,traditional	禁止	禁止【动】	jin zhi	8567	UK,US	false	true	false	true
+移位	shift	n.	1232	mainland,traditional	移位；偏移；移動；位移；漂移；頻移；輪班	移位	yi wei	164	UK,US	false	true	false	true
+移动	shift	n.,v.	1232	traditional	移位；偏移；移動；位移；漂移；頻移；輪班	移位	yi dong	11333	UK,US	false	true	false	true
+穿透	penetration	n.	924	traditional	穿透	渗入	chuan tou	604	UK,US	false	true	false	true
+等价	equivalence	n.	389	mainland,traditional	等值；等價；等效	等价	deng jia	549	UK,US	false	true	false	true
+约束	constraint	n.	208	mainland,traditional	約束	约束	yue shu	1350	UK,US	false	true	false	true
+组件	module	n.	772	traditional	模組；程序塊；組件	模块	zu jian	1357	UK,US	false	true	true	true
+结合	join	n.,v.	625	traditional	聯合；結合；或	并	jie he	8038	UK,US	false	true	false	true
+缓冲区	buffer	n.	94	traditional	緩衝；緩衝器；緩衝區	缓冲器	huan chong qu	360	UK,US	false	true	true	true
+联合	union	n.	1452,1453	mainland,traditional	聯合；聯集；聯盟	并 | 联合[号]	lian he	27897	UK,US	false	true	false	true
+色彩	hue	n.	526	traditional	色相；色彩	色调	se cai	4007	US	false	true	false	true
+范例	paradigm	n.	891	mainland,traditional	典範；範例	范例	fan li	367	UK,US	false	true	false	true
+蓄电池	accumulator	n.	8	traditional	存儲器；累加器；蓄電池；儲能電路	累加器	xu dian chi	207	UK,US	false	true	false	true
+裂纹	flaw	n.	442	traditional	裂隙；瑕疪；缺陷；隙痕；斷裂；弗老風；橫推斷層 ; 疵裂；疵點；缺點；橫推斷層；捩斷層；走向滑斷層；裂縫；裂紋；裂痕	瑕点	lie wen	96	UK,US	false	true	false	true
+装置	unit	n.	1454	traditional	單位；單元；部件；裝置；設備；器	单元	zhuang zhi	6643	UK,US	false	true	false	true
+覆盖	overlay	n.	867	mainland,traditional	覆蓋	覆盖【动】	fu gai	5616	US	false	true	false	true
+视野	view	n.	1482	traditional	視野；觀點	视图	shi ye	1540	UK,US	false	true	true	true
+解析	resolve	v.	1103	traditional	（位址）解析	[地址]解算【动】	jie xi	1430	US	false	true	false	true
+解释	interpret	v.	614	mainland	解譯	解释【动】	jie shi	22653	UK,US	false	true	false	true
+记号	notation	n.	820	traditional	記法；表示法；記號；記數法；符號	记法	ji hao	684	UK,US	false	true	false	true
+语法	syntax	n.	1344	traditional	語法	句法	yu fa	1673	UK,US	false	true	false	true
+说话	speech	n.	1280	traditional	話音；語音；語言；說話	语音	shuo hua	47547	UK,US	false	true	false	true
+轮廓	profile	n.	999	mainland,traditional	設定檔；外形；輪廓	轮廓	lun kuo	781	UK,US	false	true	false	true
+轰炸	bombing	n.	79	mainland	病毒惡意轟炸	轰炸	hong zha	2784	UK,US	false	true	false	true
+运算	operation	n.	840,841	mainland,traditional	作業；操作；運算	操作 | 运算	yun suan	1221	UK,US	false	true	false	true
+违反	breach	n.	89	traditional	破壞；違反	攻破	wei fan	5248	UK,US	false	true	false	true
+连接	connection	n.	202	mainland,traditional	連接	连接	lian jie	14030	UK,US	false	true	false	true
+部件	unit	n.	1454	traditional	單位；單元；部件；裝置；設備；器	单元	bu jian	1117	UK,US	false	true	false	true
+闪烁	blink	n.	72	mainland,traditional	閃爍；閃視	闪烁【动】	shan shuo	475	UK,US	false	true	false	true
+间隔	space	n.	1273,1274	traditional	空間；空格；太空；間隔	空格 | 空间	jian ge	1591	UK,US	false	true	false	true
+陈述	statement	n.	1306	traditional	敘述；陳述	语句	chen shu	1429	UK,US	false	true	false	true
+顺序	sequence	n.	1207	traditional	順序；序列	序列	shun xu	3707	UK,US	false	true	false	true

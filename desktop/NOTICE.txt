@@ -1350,6 +1350,91 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 保证 -> warranty (n.); NAER economics record 7179
 
 
+=== 计算机词汇批次31（NAER Computer Science Terms）===
+
+署名：National Academy for Educational Research, 2026, Cross-Strait Comparative Terminology - Computer Science （dataset 15275，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15275 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 含1532条数据记录，SHA-256：d8d65ba4097d45dd1c5d6b737fc942a1bd92d74d76ce6d6fb5348001b11b75bd。371组有本机精确词义/拼音/音标证据，289组原已映射；其余80组审校后纳入40组、排除8组、暂缓32组。纳入3个新英文词头，并新增49个计算机分类成员。繁体中文以 OpenCC t2s 转简体，并分别审核两岸译名；项目只保留审核通过的精简映射和标签，不含源定义。完整来源、修改说明、SHA-256、逐项决定和构建器见 vocabulary/data/NAER-COMPUTER-ATTRIBUTION.md、vocabulary/data/naer-computer-manifest.json、vocabulary/data/batches/31-naer-computer-reviewed.tsv、vocabulary/data/batches/31-naer-computer-tags-reviewed.tsv 和 scripts/build_naer_computer_batch.py。
+
+中断 -> break (n.); NAER computer-science records 90
+
+中止 -> suspend (v.); NAER computer-science records 1336
+
+亮度 -> luminosity (n.); NAER computer-science records 699
+
+优先 -> priority (n.); NAER computer-science records 986
+
+传染 -> infection (n.); NAER computer-science records 558
+
+修正 -> modification (n.); NAER computer-science records 768
+
+变形 -> morphing (n.); NAER computer-science records 779
+
+否定 -> negation (n.); NAER computer-science records 799
+
+响应 -> response (n.); NAER computer-science records 1106
+
+图形 -> graph (n.); NAER computer-science records 483
+
+基数 -> radix (n.); NAER computer-science records 1033
+
+复制 -> replication (n.); NAER computer-science records 1088
+
+威胁 -> threat (n.); NAER computer-science records 1382
+
+定义 -> definition (n.); NAER computer-science records 296
+
+干线 -> trunk (n.); NAER computer-science records 1427
+
+引用 -> reference (v.); NAER computer-science records 1061
+
+指示器 -> indicator (n.); NAER computer-science records 555
+
+提交 -> submission (n.); NAER computer-science records 1323
+
+操作 -> operation (n.); NAER computer-science records 840,841
+
+攻破 -> breach (v.); NAER computer-science records 89
+
+文件 -> document (n.); NAER computer-science records 336
+
+服务 -> service (n.); NAER computer-science records 1218
+
+检索 -> retrieval (n.); NAER computer-science records 1111
+
+正文 -> text (n.); NAER computer-science records 1374
+
+泄露 -> disclosure (n.); NAER computer-science records 324
+
+清除 -> purge (n.); NAER computer-science records 1019
+
+移位 -> shift (n.); NAER computer-science records 1232
+
+等价 -> equivalence (n.); NAER computer-science records 389
+
+约束 -> constraint (n.); NAER computer-science records 208
+
+组件 -> module (n.); NAER computer-science records 772
+
+缓冲区 -> buffer (n.); NAER computer-science records 94
+
+覆盖 -> overlay (n.); NAER computer-science records 867
+
+解析 -> resolve (v.); NAER computer-science records 1103
+
+记号 -> notation (n.); NAER computer-science records 820
+
+语法 -> syntax (n.); NAER computer-science records 1344
+
+运算 -> operation (n.); NAER computer-science records 840,841
+
+连接 -> connection (n.); NAER computer-science records 202
+
+闪烁 -> blink (n.); NAER computer-science records 72
+
+陈述 -> statement (n.); NAER computer-science records 1306
+
+顺序 -> sequence (n.); NAER computer-science records 1207
+
+
 === WordLevel TOEFL/IELTS 学术词表（批次28）===
 
 署名：Gungor Kaya / WordLevel；来源仓库：https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset，固定提交 85d4392a2254d2a1ad73cf12cdd8898b49cd3295。上游 GitHub 仓库声明 MIT，并要求提供指向 https://wordlevel.net 的可点击链接；对应 Mendeley DOI 记录标示 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。因两处许可元数据不同，本项目保留上游 MIT 文本并同时提供 CC BY 署名。CSV SHA-256：2c780f2cc35da4efb0ec2bc28b6011de63d4b580fc61e6768aab62a3eba81099。来源共1000词；运行索引限于有本地映射及 IPA 的947词。筛选候选11组，接受4组、排除6组、暂缓1组。该社区词表不是官方完整考纲。只提取目标列表成员关系；不将 WordLevel 定义、例句或同义词复制到运行索引。ECDICT MIT 提供新增中文短义；完整来源、输入输出哈希和逐项理由见 vocabulary/data/WORDLEVEL-ATTRIBUTION.md、vocabulary/data/wordlevel-toefl-ielts-manifest.json、vocabulary/data/batches/28-wordlevel-reviewed.tsv 和 vocabulary/data/batches/28-wordlevel-tag-evidence.tsv。

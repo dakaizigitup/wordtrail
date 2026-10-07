@@ -1,0 +1,75 @@
+english	source_records	source_pairs	already_computer_tag	decision	review_note
+allocation	19	分配 -> allocation | 配置 -> allocation	false	accept	Allocation is a standard memory/resource-management concept, and the official glossary provides an exact local translation; the Chinese key is already at capacity so only the category tag is added.
+application			true	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+blink	72	闪烁 -> blink	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+blog			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+breach	89	攻破 -> breach | 破坏 -> breach | 违反 -> breach	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+break	90	中断 -> break	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+buffer	94	缓冲 -> buffer | 缓冲区 -> buffer | 缓冲器 -> buffer	true	accept	Buffer is a core computing term.
+character	124	字符 -> character	true	accept	Character is a standard text-encoding and computing term.
+collision	153	碰撞 -> collision	false	accept	Collision is a standard networking term; the source includes 碰撞.
+computer	170	电脑 -> computer	false	accept	The official source directly identifies 电脑/计算机.
+connection	202	连接 -> connection	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+constant	207	常数 -> constant	true	accept	Constant is a standard programming concept.
+constraint	208	约束 -> constraint	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+core			true	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+definition	296	定义 -> definition	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+desktop	301	桌面 -> desktop	true	accept	Desktop is a computer form factor and user-interface term.
+disclosure	324	泄露 -> disclosure	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+document	336	文件 -> document | 文档 -> document	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+equivalence	389	等价 -> equivalence | 等值 -> equivalence	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+file	426	归档 -> file | 文件 -> file | 档案 -> file	false	accept	The source gives 档案 for file, a core computer term.
+format	451	格式 -> format	false	accept	Format is a standard file/data representation term; the source gives 格式.
+graph	483	图形 -> graph	true	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+hertz			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+index	553	指标 -> index | 索引 -> index	true	accept	The source includes 索引, a standard database/search structure.
+indicator	555	指标 -> indicator | 指示器 -> indicator	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+infection	558	传染 -> infection	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+infrared			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+input	581	输入 -> input	false	accept	Input is a core computing and interface term; the source gives 输入.
+integer			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+kernel	633	内核 -> kernel | 核心 -> kernel	true	accept	Kernel is a core operating-system term.
+keyboard	635	键盘 -> keyboard	true	accept	Keyboard is a computer peripheral.
+loop	692	循环 -> loop	false	accept	Loop is a standard programming/control-flow concept; the source gives 循环.
+luminosity	699	亮度 -> luminosity | 光度 -> luminosity	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+mainframe	708	主机 -> mainframe	true	accept	The NAER source identifies mainframe as 大型电脑/主机.
+microphone			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+modification	768	修改 -> modification | 修正 -> modification	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+module	772	组件 -> module	true	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+monitor	774,775	监听 -> monitor | 监督 -> monitor | 监视 -> monitor | 监视器 -> monitor	false	accept	The source includes 显示器 and 监视器, a computer display/system process sense.
+morphing	779	变形 -> morphing	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+multimedia	787	多媒体 -> multimedia	false	accept	The source gives 多媒体, an unambiguous computing/media term.
+negation	799	否定 -> negation	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+notation	820	记号 -> notation	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+operation	840,841	操作 -> operation | 运算 -> operation	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+output			true	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+overlay	867	覆盖 -> overlay	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+pixel	944	像素 -> pixel	true	accept	Pixel is a core graphics/display term.
+priority	986	优先 -> priority	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+privacy	987	隐私 -> privacy	false	accept	Privacy is a standard information-security and data-protection term.
+process	995	过程 -> process	false	accept	The source distinguishes 程序/过程 for process; this is a core computing term.
+proxy	1014	代理 -> proxy	true	accept	Proxy is a standard networking concept.
+purge	1019	净化 -> purge | 清除 -> purge	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+radix	1033	基数 -> radix	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+reference	1061	参考 -> reference | 引用 -> reference	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+replication	1088	复制 -> replication	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+resolve	1103	解析 -> resolve	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+response	1106	响应 -> response	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+retrieval	1111	检索 -> retrieval	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+selection			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+sequence	1207	序列 -> sequence | 顺序 -> sequence	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+service	1218	服务 -> service	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+shift	1232	移位 -> shift | 移动 -> shift | 轮班 -> shift	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+spam			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+speaker			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+stack	1299	堆叠 -> stack	true	accept	Stack is a standard data structure and runtime concept.
+statement	1306	陈述 -> statement	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+submission	1323	提交 -> submission	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+suspend	1336	中止 -> suspend	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+switch			false	defer	The pinned source did not yield an exact local ECDICT gloss + pinyin + IPA pair for this headword, so its computer tag is not added from this batch.
+syntax	1344	句法 -> syntax | 语法 -> syntax	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+text	1374	文本 -> text | 正文 -> text	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+threat	1382	威胁 -> threat	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+trunk	1427	干线 -> trunk	false	accept	The accepted mapping is an exact term in the NAER computer-science glossary.
+variable	1476	变数 -> variable | 变量 -> variable	false	accept	Variable is a standard programming and data concept; the source gives 变量.
+workstation	1516	工作站 -> workstation	false	accept	Workstation is a computing device/category; the source gives 工作站.

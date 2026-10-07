@@ -410,6 +410,30 @@ def main():
         parts.append(
             f"{row['chinese']} -> {row['english']} (n.); NAER economics record {row['source_records']}\n"
         )
+    computer_manifest = json.loads((ROOT/'vocabulary/data/naer-computer-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/31-naer-computer-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        computer_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    computer_accepted = [row for row in computer_reviewed if row['decision'] == 'accept']
+    parts.append("\n=== 计算机词汇批次31（NAER Computer Science Terms）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research, 2026, Cross-Strait Comparative Terminology - Computer Science "
+        "（dataset 15275，页面元数据更新于2026-08-12）。来源：https://data.gov.tw/dataset/15275 。"
+        "许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 含{computer_manifest['source']['records']}条数据记录，SHA-256：{computer_manifest['source']['snapshot_sha256']}。"
+        f"{computer_manifest['candidate_exact_pairs']}组有本机精确词义/拼音/音标证据，{computer_manifest['already_mapped_pairs']}组原已映射；"
+        f"其余{computer_manifest['new_mapping_candidates_with_capacity']}组审校后纳入{computer_manifest['accepted_new_mappings']}组、"
+        f"排除{computer_manifest['rejected_new_mappings']}组、暂缓{computer_manifest['deferred_new_mappings']}组。"
+        f"纳入{computer_manifest['accepted_new_headwords']}个新英文词头，并新增{len(computer_manifest['new_unique_computer_tag_headwords'])}个计算机分类成员。"
+        "繁体中文以 OpenCC t2s 转简体，并分别审核两岸译名；项目只保留审核通过的精简映射和标签，不含源定义。"
+        "完整来源、修改说明、SHA-256、逐项决定和构建器见 vocabulary/data/NAER-COMPUTER-ATTRIBUTION.md、"
+        "vocabulary/data/naer-computer-manifest.json、vocabulary/data/batches/31-naer-computer-reviewed.tsv、"
+        "vocabulary/data/batches/31-naer-computer-tags-reviewed.tsv 和 scripts/build_naer_computer_batch.py。\n"
+    )
+    for row in computer_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} ({row['runtime_pos']}); "
+            f"NAER computer-science records {row['source_records']}\n"
+        )
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))
