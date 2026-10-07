@@ -1,0 +1,119 @@
+{
+  "batch": "22-wikidata-mesh-medical",
+  "sources": [
+    {
+      "name": "Wikidata structured data",
+      "license": "CC0 1.0",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Licensing"
+    },
+    {
+      "name": "NLM Medical Subject Headings (MeSH), 2026",
+      "terms": "Free use with NLM attribution and version identification",
+      "url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html"
+    }
+  ],
+  "wikidata_snapshot": {
+    "retrieved_at_utc": "2026-10-07",
+    "query_endpoint": "https://query.wikidata.org/sparql",
+    "label_query_rows": 409,
+    "entity_revision_records": 48
+  },
+  "translation_method": "Chinese label and MeSH descriptor are joined by the exact Wikidata P486 external identifier. The runtime adds no definitions, examples, or unreviewed labels.",
+  "candidate_filter": "Existing pinyin key; local UK or US IPA for the MeSH preferred term; ECDICT noun POS evidence; spare per-key capacity; no duplicate mapping; entity revision independently confirms the same P486 MeSH ID and language label.",
+  "source_sha256": {
+    "mesh-label-query-20261007.json": "754cf2c43a6dc6b21f44b09c24f95bb8ad37d0857364d33e200614c83ff39569",
+    "mesh-entity-revisions-20261007.json": "1c331dd24ca8cb862d614535998b716471eab9107aa32ed58c7d97c6757b3d01",
+    "NLM-MeSH-2026-desc.zip": "bb73dfdfe78cbfcd692ef399bb6df24750327ff62c4f53574826c56ba3d6a3f3"
+  },
+  "runtime_input_sha256": {
+    "database": "98fef9ba82047d0eaba650c1da074810c135da3c90e1fdb59f2faf197d6b7dd2",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67",
+    "computerese-expansion.tsv": "38472e2c14bfa6d3fd25575040dbab6428f38ff527b45ba9967ccf7b819c9d30",
+    "professional-domain-tags.tsv": "0462c64e0ef9a54ecc6c1c5ec03b9c71d3647cbf241f5b06d2433fad3e068585",
+    "mesh-medical-expansion.tsv": "c8512790a682295f3e57b5fdb9ddb1587a890ae1fb3c013de1d26f48659b2193",
+    "mesh-medical-tags.tsv": "390d0278a86788eb1900877fae3eb21b496ee6a46756f2d4d2f6f1545354029d"
+  },
+  "candidates": 48,
+  "accepted_mappings": 25,
+  "accepted_new_english_headwords": 24,
+  "rejected_candidates": 5,
+  "deferred_candidates": 18,
+  "new_medical_tag_memberships": 24,
+  "accepted_rows": [
+    "丧偶 -> widowhood (n.)",
+    "塑料 -> plastics (n.)",
+    "奶嘴 -> pacifiers (n.)",
+    "山崩 -> landslides (n.)",
+    "微波 -> microwaves (n.)",
+    "感染 -> infections (n.)",
+    "排尿 -> urination (n.)",
+    "斩首 -> decapitation (n.)",
+    "森林 -> forests (n.)",
+    "毛细血管 -> capillaries (n.)",
+    "气体 -> gases (n.)",
+    "洪灾 -> floods (n.)",
+    "潜水 -> diving (n.)",
+    "激光器 -> lasers (n.)",
+    "灾害 -> disasters (n.)",
+    "焦油 -> tars (n.)",
+    "爆炸 -> explosions (n.)",
+    "疣 -> warts (n.)",
+    "经络 -> meridians (n.)",
+    "职业 -> occupations (n.)",
+    "聚合 -> polymerization (n.)",
+    "聚合物 -> polymers (n.)",
+    "过滤 -> filtration (n.)",
+    "错觉 -> illusions (n.)",
+    "龙卷风 -> tornadoes (n.)"
+  ],
+  "wikidata_entity_revisions": {
+    "Q103142": "2517927937",
+    "Q204933": "2551405525",
+    "Q3839081": "2539478941",
+    "Q179643": "2552058772",
+    "Q179057": "2541627115",
+    "Q244772": "2551149615",
+    "Q8068": "2551301427",
+    "Q4421": "2553957691",
+    "Q11432": "2554094288",
+    "Q182593": "2522791454",
+    "Q166231": "2550317033",
+    "Q167903": "2535657611",
+    "Q38867": "2522584738",
+    "Q1413962": "2516878906",
+    "Q127995": "2538561670",
+    "Q12737077": "2553023278",
+    "Q152596": "2529174304",
+    "Q11474": "2553078082",
+    "Q181898": "2506604270",
+    "Q81163": "2523535413",
+    "Q186209": "2529379014",
+    "Q8081": "2551746225",
+    "Q105726": "2549615145",
+    "Q101971": "2553444271",
+    "Q16675060": "2505003690"
+  },
+  "outputs": {
+    "wikidata-medical-expansion.tsv": {
+      "rows": 25,
+      "sha256": "3aa5e60abe3dee7a93cfd7962d763ab4310a95792d82e1f14a02acd6101486b6"
+    },
+    "wikidata-medical-tags.tsv": {
+      "rows": 24,
+      "sha256": "1f6a5f967eda0d30c4f9022ac49520dba3cfc2555e25c8de7f3912fb194ccfdb"
+    },
+    "batches/22-wikidata-medical-candidates.tsv": {
+      "rows": 48,
+      "sha256": "40b96c1b684e4137c8af51bde4c6112b52e5a5ccbd1dea58d28d7140695412c9"
+    },
+    "batches/22-wikidata-medical-reviewed.tsv": {
+      "rows": 48,
+      "sha256": "a694f8f4b4b21efc6260d0d343a9b89d798cc7d479cbf3d10cf977559fdb9117"
+    }
+  },
+  "runtime_note": "The runtime compiles only short reviewed mappings and compact medical tag rows; CC0 source snapshots and audit tables are not loaded during typing."
+}

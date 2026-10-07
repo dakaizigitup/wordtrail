@@ -1,12 +1,14 @@
 # 英语考试标签与实际扩词
 
-仅提取 ECDICT（MIT）和 KyleBing/english-vocabulary（BSD-3-Clause）的词条与六类收录标签。标签索引未复制释义、例句、图片或音频。0.1.10 的独立扩词表额外从 ECDICT 提取短中文词义对应，不复制例句或音频。English Wiktionary 派生数据单独按 CC BY-SA 4.0 署名和分发：首批15条在 `data/wiktionary-expansion.tsv`，第二批7条在 `data/wiktionary-expansion-2.tsv`，逐词固定修订见 `data/batches/03-wiktionary-reviewed.tsv` 与 `data/batches/06-wiktionary-zh-reviewed.tsv`，累计数量、来源快照及许可边界见两份 `wiktionary-manifest*.json` 和 `data/WIKTIONARY-ATTRIBUTION.md`。0.1.15 首段和0.1.16第二段分别加入58、66条 CC-CEDICT 派生对应，独立放在 `data/cccedict-expansion.tsv` 与 `data/cccedict-expansion-2.tsv`；逐批署名、审校记录和快照校验见 `data/CC-CEDICT-ATTRIBUTION.md`、两份 `cccedict-manifest*.json` 与 `data/batches/04-`、`05-cc-cedict-reviewed.tsv`。这些来源保持分开，不能把它们统称为同一种许可。
+批次16使用固定 [FIBO 金融本体](https://github.com/edmcouncil/fibo) MIT 快照，为已有且拼音可达的英文词头补充商务/金融标签。批次17从固定 [Better Quant Wiki](https://github.com/Tomortec/better-quant-wiki) MIT 双语术语表新增7组经逐项审校的可达金融映射，其中3个是新英文词头。批次18从 [CFPB 2024 官方中英金融术语表](https://files.consumerfinance.gov/f/documents/cfpb_adult-fin-ed_chinese-style-guide-glossary.pdf) 筛出246组去重后可核验候选，映射率为223/246（90.65%）；接受67组映射（13个新英文词头），新增193个商务标签归属。批次19从固定 [finance_i18n](https://github.com/hotvulcan/finance_i18n) MIT 词表中审核491组本地可达候选，新增47组映射（12个新英文词头）和41个商务标签归属。批次20从固定 [computerese-cross-references](https://github.com/EarsEyesMouth/computerese-cross-references) MIT 快照过滤书籍脚注与长解释后，审核75组精确候选，增加13组既有英文词头的新中文义项（新英文词头0个）及55个计算机标签归属。批次21从美国国家医学图书馆 NLM MeSH 2026 英文主题词与本机拼音可达释义交集中，新增75组经审校的医学映射（74个新英文词头）和1,079个医学标签成员；256组候选中7组排除、174组暂缓。批次22从 Wikidata CC0 中文标签与 MeSH P486 编号交集中复核48组可输入候选，新增25组医学译词（24个此前未映射词头）和24个医学标签成员。批次23扩展到1,326个有本地音标及名词词性证据的 MeSH 编号，48组进入逐项审核，新增19组映射（18个此前未映射词头）和18个医学标签成员；3组排除、26组暂缓。批次26–27从 NAER 生命科学和兽医学 OGL v1.0 数据中继续筛选，27 组候选逐项审核后接受13组映射（2个新英文词头）、排除14组，并增加4个医学标签成员。两个批次要求精确拼音、IPA、ECDICT 名词义和 MeSH 主题，保留逐项理由；来源及散列见 `data/NAER-LIFE-SCIENCE-ATTRIBUTION.md`、`data/NAER-VETERINARY-ATTRIBUTION.md`、`data/naer-life-science-manifest.json`、`data/naer-veterinary-manifest.json`、`data/batches/26-naer-life-science-reviewed.tsv` 和 `data/batches/27-naer-veterinary-reviewed.tsv`。两批 Wikidata 来源、许可、固定查询、实体修订和逐项决定见 `data/WIKIDATA-MEDICAL-ATTRIBUTION.md`、`data/wikidata-medical-manifest.json`、`data/wikidata-medical-manifest-2.json`、`data/batches/22-wikidata-medical-reviewed.tsv` 和 `data/batches/23-wikidata-medical-reviewed.tsv`。MeSH 提供英文概念与主题范围；批次21中文短义由 ECDICT MIT 精确核验，批次22–23的中文标签来自 Wikidata。批次18的90.65%只针对其拼音、音标和 ECDICT 均核验通过的筛选子集，不代表来源全表覆盖；金融、计算机和医学专业词汇没有固定完整分母，因此不宣称总体覆盖率。来源、许可边界、审校表和构建脚本见 `data/FIBO-ATTRIBUTION.md`、`data/BETTER-QUANT-ATTRIBUTION.md`、`data/CFPB-ATTRIBUTION.md`、`data/FINANCE-I18N-ATTRIBUTION.md`、`data/COMPUTERESE-ATTRIBUTION.md`、`data/MESH-ATTRIBUTION.md`、`data/WIKIDATA-MEDICAL-ATTRIBUTION.md`、`data/batches/19-finance-i18n-reviewed.tsv`、`data/batches/20-computerese-reviewed.tsv`、`data/batches/21-mesh-medical-reviewed.tsv`、`data/batches/22-wikidata-medical-reviewed.tsv` 和 `data/batches/23-wikidata-medical-reviewed.tsv`。
+
+标签索引从 ECDICT（MIT）和 KyleBing/english-vocabulary（BSD-3-Clause）提取词条与六类考试收录关系，不复制其释义、例句、图片或音频。0.1.10 的独立扩词表额外从 ECDICT 提取短中文词义对应。English Wiktionary 派生数据单独按 CC BY-SA 4.0 署名和分发：早期22条英语考试映射分别在 `data/wiktionary-expansion.tsv` 与 `data/wiktionary-expansion-2.tsv`；批次14新增10条医学映射，并加入可单独选择的计算机、商务、医学标签。批次15从固定 CC BY-SA 4.0 计算机术语对照表新增26组可达对应，其中5个此前没有的英文词头。固定来源、逐项核对和许可边界见 `data/CJK-COMPSCI-ATTRIBUTION.md`、`data/batches/15-cjk-compsci-reviewed.tsv`、`data/batches/15-cjk-compsci-evidence.tsv`、`data/cjk-compsci-manifest.json` 与 `data/WIKTIONARY-ATTRIBUTION.md`。其他 CC-CEDICT、OpenEtymology、KOReader 等来源仍按各自许可独立保存，不混作同一词源。
 
 `python scripts/prepare_vocabulary.py --download` 可在项目根目录重建；下载缓存放在忽略的 `build/vocabulary-research/`。已有研究缓存时无需 `--download`。输出逐字节确定；所有输入先校验 SHA-256。普通用户无需下载这些开发数据，程序嵌入精简索引。
 
 词条保守归一化：首尾空白、Unicode 小写，完整词面精确匹配。保留短语、连字符、撇号，不按子串或词根猜标签。重复词求标签并集，并分别保存两个来源的位掩码。标签仅代表社区词表收录类别，不代表词义难度、个人水平或官方完整考试范围。
 
-0=四级、1=六级、2=专四、3=专八、4=托福、5=雅思；类别 ID 与位号稳定。未选目标时保留原译词顺序；多选目标采用任一命中优先、组内稳定排序。中文候选保持原顺序，译词对应的读音、词性、熟悉度一起排序。原有 CEFR 数据单独保留。
+0=四级、1=六级、2=专四、3=专八、4=托福、5=雅思、6=计算机、7=商务、8=医学；类别 ID 与位号稳定，领域类别独立于考试类别。未选目标时保留原译词顺序；多选目标采用任一命中优先、组内稳定排序。中文候选保持原顺序，译词对应的读音、词性、熟悉度一起排序。输入界面不展示 A1–C2 标签。
 
 来源：
 
@@ -62,8 +64,24 @@ python scripts/build_cedict_expansion.py --input vocabulary/data/batches/05-cc-c
 
 0.1.20 起另有专四、专八、托福、雅思派生数据，ECDICT 与 KyleBing 来源分文件保留许可。覆盖率和精确拼音可触达率分别记录；此批由固定来源交叉筛选，未逐条人工审校。选入记录、数据散列、选择规则和复建命令见 [`09-exam-target-reviewed.tsv`](data/batches/09-exam-target-reviewed.tsv)、[`exam-target-manifest.json`](data/exam-target-manifest.json) 与 [`来源说明`](data/EXAM-TARGETS-ATTRIBUTION.md)。
 
+## 专业词汇首批（批次14）
+
+运行索引增加计算机、商务、医学三个独立标签；只有来源主题、完整译词、既有中文译词和本机真实拼音候选精确吻合时才贴标签。首批可触达标签覆盖149个计算机译词、100个商务译词、415个医学译词；这些是固定快照与现有候选面的社区数据统计，不表示官方专业课程覆盖率。另增加10组经人工复核的医学中文—英文映射。11条新词候选中排除1条可能造成误导的释义，不把“打标签”计作新增译词。
+
+候选发现由 `python scripts/build_professional_vocabulary.py --candidates-only` 重建；研究队列只写入被 Git 忽略的 `build/source-audit/`。确认 `data/batches/14-professional-reviewed.tsv` 中每条候选都有 accept/reject 决定后，运行 `python scripts/build_professional_vocabulary.py --apply` 可确定性重建三份运行/审计数据与 SHA-256 清单。脚本校验固定 Kaikki 派生 Wiktionary 快照、ECDICT、拼音候选面、基线译词和英美音标，不联网下载或扫描研究文件作为运行时索引。
+
+## 计算机术语第二段（批次15）
+
+固定 `dahlia/cjk-compsci-terms` 提交 `3cf825e81375202fd408427933c3a30442defa4f` 的28份 YAML 表采用 CC BY-SA 4.0。运行数据只取简体中文键和本地真实拼音候选可达项；已有映射只有在组成对应完全匹配英文词面时才贴“计算机”标签。另逐项审校28个有本地英美音标和 ECDICT 词性依据的候选，接受26组、排除两组误配 `value → 变量/常量`。新增组中5个英文词头是此前词库没有的，其他是给已有英文词头补充准确的计算机中文入口。上游表、许可、输入/输出 SHA-256、审校结论和修改范围见 `data/CJK-COMPSCI-ATTRIBUTION.md`、`data/sources/cjk-compsci-terms/`、`data/batches/15-cjk-compsci-reviewed.tsv`、`data/batches/15-cjk-compsci-evidence.tsv` 与 `data/cjk-compsci-manifest.json`。
+
+候选与运行数据通过 `python scripts/build_cjk_compsci_batch.py --discover` / `python scripts/build_cjk_compsci_batch.py` 复建。正常键盘查询只读编译进来的紧凑 TSV，不读取上游 YAML 表、审计记录或研究数据库。该批覆盖的是固定社区计算机术语表中可输入且有音标的子集，不表示完整专业课程覆盖率。
+
 ## 0.1.23 拼音可达率补充
 
 批次11–12已添加2,291组专四、专八、托福、雅思考试映射。复核拼音可达率时发现，旧统计漏掉键盘实际支持的单字候选，也没有统计新拼音键同时解锁的原始词库和既有扩展释义；按实际候选面修正后，批次12托福拼音可达率为86.55%。批次13只为现有译词加拼音，不新增中英释义，加入407个频率为0的新键，将托福拼音可达率提升到90.01%。所有读音均来自固定 CC-CEDICT/Rime ICE 精确词条；两边都有记录时须完全一致，多音歧义、冲突和无法核验候选不加入。逐键记录、hash、重建命令和许可见 `data/EXAM-TARGETS-ATTRIBUTION.md` 与 `data/exam-target-batch-13-manifest.json`。
 
 四级/六级/专四/专八/托福/雅思精确拼音可达率为97.74%、96.67%、96.15%、94.05%、90.01%、94.91%；其含义是完整中文词面存在本地拼音键，不代表译词显示在第一页。固定社区词表并非官方完整考纲。
+
+批次24从國家教育研究院《醫學學術名詞》固定开放数据快照中审查154组新词头对应，接受57组、排除12组、暂缓85组，并新增57个医学标签成员。每个采纳的英语词头有本地音标和 ECDICT 名词词性证据；繁体中文转换为本地拼音可达的简体形式。来源逐行网址字段为 `[url]` 占位值，因此不推断整份资料集的医学覆盖率。运行时只加入57行映射和57行标签。来源与许可见 `data/NAER-MEDICAL-ATTRIBUTION.md`，审校见 `data/batches/24-naer-medical-reviewed.tsv`。
+
+批次25继续从同一来源的已有词头中筛选，使用 MeSH 主题和 ECDICT 完整名词义交叉核对45组候选，接受37组中英映射（0个新英文词头），新增18个医学标签成员。运行时只加入37行映射和18行标签；每条精确释义和来源证据见 `data/batches/25-naer-medical-existing-headwords-reviewed.tsv` 与 `data/naer-medical-manifest-2.json`。

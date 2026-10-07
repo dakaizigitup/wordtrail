@@ -1,0 +1,49 @@
+mesh_id	mesh_english	chinese	wikidata_qid	wikidata_english	label_language	wikidata_revision	modified_utc	tree_numbers	pinyin	pinyin_frequency	ipa_sources	pos	decision	review_note
+D000438	Alcohols	醇	Q156	alcohols	zh-cn	2517836255	2026-07-15T18:37:26Z	D02.033	chun	2195	UK,US	n.	accept	Alcohols are a chemical class within the MeSH substances tree; 醇 is the concise technical Chinese term.
+D000468	Alkalies	碱	Q485742	alkali	zh-hans	2517980742	2026-07-16T00:35:45Z	D01.045	jian	1617	US	n.	accept	Alkalies are basic chemical substances; 碱 is the standard concise chemistry term.
+D000999	Antlers	鹿角	Q834007	antlers	zh-hans	2550088877	2026-09-27T16:18:08Z	A13.507.288	lu jiao	407	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D001046	Aphrodisiacs	春药	Q211420	aphrodisiac	zh-cn	2551199684	2026-09-30T07:07:13Z	D27.505.696.282.045,D27.505.954.427.220.045	chun yao	18	UK	n.	accept	Aphrodisiacs are substances used to increase sexual desire; 春药 is the direct Chinese term.
+D061006	Bays	湾	Q39594	bay	zh-cn	2534320067	2026-08-21T17:15:34Z	G01.311.625.080	wan	12478	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D026686	Beneficence	慈善	Q1077064	charity	zh-hans	2551562339	2026-10-01T01:23:53Z	N05.350.958.500	ci shan	3533	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D003250	Constriction	缠绕	Q495626	constriction	zh-hans	2511511248	2026-06-28T14:42:32Z	E05.225	chan rao	438	UK,US	n.	reject	缠绕 means winding/entangling, not the physiological constriction concept.
+D003815	Dentists	牙医	Q27349	dentist	zh-cn	2553374601	2026-10-05T09:08:32Z	N02.360.330.330	ya yi	1707	UK,US	n.	accept	Dentists are dental health professionals; 牙医 is exact.
+D004325	Dreams	梦	Q36348	dream	zh-cn	2551954218	2026-10-01T23:33:35Z	F02.463.188.634.309,F02.830.855.268	meng	45778	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D004531	Eggs	蛋	Q93189	egg as food	zh-cn	2549624250	2026-09-26T11:14:40Z	G07.203.300.470	dan	21029	UK,US	n.	reject	The Wikidata item is specifically egg as food; the MeSH descriptor has broader scope.
+D004954	Esthetics	美学	Q35986	aesthetics	zh-cn	2547083880	2026-09-17T16:27:28Z	F02.463.785.477	mei xue	978	US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D005220	Fathers	父亲	Q7565	father	zh-cn	2553226661	2026-10-04T23:19:36Z	F01.829.263.875.100	fu qin	24508	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D005390	Fires	火	Q3196	fire	zh-hans	2552409429	2026-10-03T03:20:22Z	N06.230.216	huo	29952	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D005582	Foundations	基金会	Q157031	foundation	zh-cn	2537994170	2026-08-30T02:05:28Z	N03.219.483.311,N03.540.630.180	ji jin hui	6107	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D055608	Galaxies	星系	Q318	galaxy	zh-cn	2545467206	2026-09-14T07:08:23Z	G01.060.075.320	xing xi	1589	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D005868	Gestures	手势	Q371174	gesture	zh-cn	2532550432	2026-08-17T23:27:27Z	F01.145.209.530.538.445	shou shi	1224	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D005880	Gills	鳃	Q132390	gill	zh-cn	2552105149	2026-10-02T09:44:34Z	A13.421	sai	968	US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D006733	Horns	角	Q82025	horn	zh-hans	2535901003	2026-08-24T18:41:02Z	A13.507	jiao	14123	UK,US	n.	reject	角 is highly ambiguous and does not distinguish anatomical horns from unrelated senses.
+D007022	Hypotension	低血压	Q275419	hypotension	zh-cn	2546216840	2026-09-15T13:58:01Z	C14.907.514	di xue ya	75	UK,US	n.	accept	Hypotension is abnormally low blood pressure; 低血压 is exact.
+D007267	Injections	注射	Q245359	injection	zh-cn	2534453961	2026-08-21T22:14:55Z	E02.319.267.530	zhu she	1007	UK,US	n.	accept	Injections are administration by injection; 注射 is exact.
+D007603	Jurisprudence	法学	Q4932206	jurisprudence	zh-cn	2546658778	2026-09-16T13:12:57Z	N03.706.535	fa xue	2762	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D054368	Laxatives	泻药	Q217972	laxative	zh-cn	2526679548	2026-08-03T08:32:20Z	D27.505.954.483.620	xie yao	17	UK,US	n.	accept	Laxatives are agents used to relieve constipation; 泻药 is exact.
+D007989	Libido	性冲动	Q178066	libido	zh-cn	2545544673	2026-09-14T10:25:34Z	F02.739.794.511	xing chong dong	66	UK,US	n.	accept	Libido is sexual desire/drive; 性冲动 is an established concise equivalent.
+D009014	Morals	道德	Q48324	morality	zh-cn	2540837381	2026-09-06T04:28:19Z	F01.829.500	dao de	5634	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D009035	Mothers	母亲	Q7560	mother	zh-cn	2553226793	2026-10-04T23:20:04Z	F01.829.263.875.200	mu qin	15520	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D017008	Negotiating	谈判	Q202875	negotiation	zh-cn	2551774598	2026-10-01T12:58:16Z	F01.145.209.520,F01.829.401.520,F02.463.785.373.520,N04.452.677.430	tan pan	4396	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D009558	Nipples	乳头	Q188641	nipple	zh-cn	2553314168	2026-10-05T05:57:41Z	A01.236.500	ru tou	263	UK,US	n.	accept	Nipples are the anatomical structures; 乳头 is exact.
+D009757	Nylons	尼龙	Q177941	nylon	zh-cn	2552673768	2026-10-03T17:02:04Z	D05.750.716.392,D25.720.716.392	ni long	176	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D009821	Oils	油	Q42962	oil	zh-hans	2543299940	2026-09-10T13:54:59Z	D10.627	you	21103	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D009938	Organizations	组织	Q43229	organization	zh-cn	2553188382	2026-10-04T21:23:22Z	N03.540	zu zhi	51880	US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D010575	Pesticides	农药	Q131656	pesticide	zh-cn	2532280699	2026-08-17T10:22:56Z	D27.720.031.700,D27.888.723	nong yao	2171	UK,US	n.	accept	Pesticides are agents used to control pests and are a toxicology topic; 农药 is exact.
+D010919	Placebos	安慰剂	Q269829	placebo	zh-cn	2548898196	2026-09-23T19:08:56Z	D26.660,E02.785	an wei ji	61	UK,US	n.	accept	Placebos are inactive or sham interventions used as controls; 安慰剂 is exact.
+D011208	Powders	粉末	Q2908004	powder	zh-cn	2550936559	2026-09-29T17:24:42Z	D26.255.779	fen mo	433	UK,US	n.	accept	Powders are a recognized pharmaceutical preparation form under MeSH D26; 粉末 is exact in that dosage-form context.
+D055656	Prescriptions	处方	Q3355478	medical prescription	zh-hans	2524436296	2026-07-29T18:26:07Z	N02.421.668.778	chu fang	346	UK,US	n.	accept	A medical prescription is an order for treatment/medication; 处方 is exact.
+D000075665	Recidivism	累犯	Q1420643	recidivism	zh-hans	2551952030	2026-10-01T23:26:58Z	F01.145.250.625	lei fan	14	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D000080682	Salads	沙拉	Q9266	salad	zh-cn	2552366066	2026-10-03T00:34:00Z	G07.203.300.756	sha la	1991	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D012621	Seasons	季节	Q24384	season	zh-cn	2553077984	2026-10-04T15:13:04Z	G01.910.645.661,G16.500.275.071.590,N06.230.300.100.250.525	ji jie	8337	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D018805	Sepsis	败血症	Q183134	sepsis	zh-hans	2516771751	2026-07-12T20:56:56Z	C01.757,C23.550.470.790.500	bai xue zheng	120	UK,US	n.	accept	Sepsis is a life-threatening response to infection; 败血症 is the established Chinese medical term.
+D012915	Soaps	肥皂	Q34396	soap	zh-cn	2550911527	2026-09-29T15:43:39Z	D27.720.877.265.861	fei zao	1764	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D013009	Somnambulism	梦游	Q388626	sleepwalking	zh-cn	2545228199	2026-09-13T20:43:37Z	C10.886.659.635.700,F03.870.664.635.700	meng you	1487	UK	n.	accept	Somnambulism is sleepwalking; 梦游 is exact.
+D018454	Spouses	配偶	Q1196129	spouse	zh-hans	2549408949	2026-09-25T21:51:59Z	F01.829.263.968	pei ou	677	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D013594	Syringes	注射器	Q273318	syringe	zh-cn	2553324451	2026-10-05T06:32:00Z	E07.877	zhu she qi	61	US	n.	accept	Syringes are devices for injection; 注射器 is exact.
+D013607	Tablets	片剂	Q206077	tablet	zh-cn	2553418418	2026-10-05T11:21:48Z	D26.255.830	pian ji	31	UK,US	n.	accept	Tablets are solid pharmaceutical dosage forms; 片剂 is exact in this MeSH context.
+D013812	Therapeutics	疗法	Q179661	therapy	zh-cn	2549693281	2026-09-26T15:33:57Z	E02	liao fa	940	UK,US	n.	accept	MeSH defines therapeutics as procedures for treatment or prevention of disease; 疗法 is a concise matching term.
+D014341	Trustees	董事	Q67378402	trustee	zh-cn	2462545109	2026-02-11T09:06:56Z	N04.452.394.600	dong shi	3101	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D028722	Virtues	美德	Q157811	virtue	zh-cn	2549173405	2026-09-25T04:53:19Z	F01.829.500.840	mei de	928	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。
+D014836	Volition	意志	Q1441519	volition	zh-hans	2500042628	2026-05-31T11:38:48Z	F02.463.902	yi zhi	4864	UK,US	n.	accept	Volition is the faculty/process of willing or choosing; 意志 is the exact psychological term.
+D053833	Wetlands	湿地	Q170321	wetland	zh-cn	2550406844	2026-09-28T08:58:13Z	G16.500.275.157.812,N06.230.124.625	shi di	1517	UK,US	n.	defer	MeSH/Wikidata 编号关系可核验，但该译词不够精确、专业关联较弱或尚需语境复核；暂不进入运行词库。

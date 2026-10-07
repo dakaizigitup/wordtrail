@@ -1,0 +1,590 @@
+{
+  "retrieved_at_utc": "2026-10-07",
+  "entities": {
+    "Q101971": {
+      "lastrevid": 2553444271,
+      "modified": "2026-10-05T12:34:43Z",
+      "mesh_ids": [
+        "D014860"
+      ],
+      "labels": {
+        "zh-hans": "疣",
+        "zh-cn": "疣",
+        "zh-sg": "疣",
+        "en": "wart"
+      }
+    },
+    "Q103142": {
+      "lastrevid": 2517927937,
+      "modified": "2026-07-15T22:19:13Z",
+      "mesh_ids": [
+        "D002196"
+      ],
+      "labels": {
+        "zh-hans": "毛细管",
+        "zh-cn": "毛细血管",
+        "zh-sg": "毛细血管",
+        "en": "capillary"
+      }
+    },
+    "Q105726": {
+      "lastrevid": 2549615145,
+      "modified": "2026-09-26T10:40:23Z",
+      "mesh_ids": [
+        "D014554"
+      ],
+      "labels": {
+        "zh-hans": "排尿",
+        "zh-cn": "排尿",
+        "zh-sg": "排尿",
+        "en": "urination"
+      }
+    },
+    "Q1077064": {
+      "lastrevid": 2551562339,
+      "modified": "2026-10-01T01:23:53Z",
+      "mesh_ids": [
+        "D026686"
+      ],
+      "labels": {
+        "zh-hans": "慈善",
+        "en": "charity"
+      }
+    },
+    "Q11432": {
+      "lastrevid": 2554094288,
+      "modified": "2026-10-06T18:46:04Z",
+      "mesh_ids": [
+        "D005740"
+      ],
+      "labels": {
+        "en": "gas",
+        "zh-cn": "气体",
+        "zh-hans": "气体"
+      }
+    },
+    "Q11474": {
+      "lastrevid": 2553078082,
+      "modified": "2026-10-04T15:13:17Z",
+      "mesh_ids": [
+        "D010969"
+      ],
+      "labels": {
+        "en": "plastic",
+        "zh-hans": "塑料"
+      }
+    },
+    "Q1196129": {
+      "lastrevid": 2549408949,
+      "modified": "2026-09-25T21:51:59Z",
+      "mesh_ids": [
+        "D018454"
+      ],
+      "labels": {
+        "zh-hans": "配偶",
+        "en": "spouse"
+      }
+    },
+    "Q12737077": {
+      "lastrevid": 2553023278,
+      "modified": "2026-10-04T12:03:50Z",
+      "mesh_ids": [
+        "D009790"
+      ],
+      "labels": {
+        "en": "occupation",
+        "zh-hans": "职业",
+        "zh-cn": "职业"
+      }
+    },
+    "Q127995": {
+      "lastrevid": 2538561670,
+      "modified": "2026-08-31T09:05:16Z",
+      "mesh_ids": [
+        "D008872"
+      ],
+      "labels": {
+        "zh-hans": "微波",
+        "zh-cn": "微波",
+        "zh-sg": "微波",
+        "en": "microwave"
+      }
+    },
+    "Q1413962": {
+      "lastrevid": 2516878906,
+      "modified": "2026-07-13T02:58:10Z",
+      "mesh_ids": [
+        "D016740"
+      ],
+      "labels": {
+        "zh-hans": "经络",
+        "en": "meridian"
+      }
+    },
+    "Q1420643": {
+      "lastrevid": 2551952030,
+      "modified": "2026-10-01T23:26:58Z",
+      "mesh_ids": [
+        "D000075665"
+      ],
+      "labels": {
+        "zh-hans": "累犯",
+        "en": "recidivism"
+      }
+    },
+    "Q1441519": {
+      "lastrevid": 2500042628,
+      "modified": "2026-05-31T11:38:48Z",
+      "mesh_ids": [
+        "D014836"
+      ],
+      "labels": {
+        "zh-hans": "意志",
+        "en": "volition"
+      }
+    },
+    "Q152596": {
+      "lastrevid": 2529174304,
+      "modified": "2026-08-09T11:11:18Z",
+      "mesh_ids": [
+        "D041361"
+      ],
+      "labels": {
+        "zh-hans": "奶嘴",
+        "zh-cn": "奶嘴",
+        "zh-sg": "奶嘴",
+        "en": "pacifier"
+      }
+    },
+    "Q157031": {
+      "lastrevid": 2537994170,
+      "modified": "2026-08-30T02:05:28Z",
+      "mesh_ids": [
+        "D005582"
+      ],
+      "labels": {
+        "zh-hans": "基金会",
+        "zh-cn": "基金会",
+        "zh-sg": "基金会",
+        "en": "foundation"
+      }
+    },
+    "Q157811": {
+      "lastrevid": 2549173405,
+      "modified": "2026-09-25T04:53:19Z",
+      "mesh_ids": [
+        "D028722"
+      ],
+      "labels": {
+        "zh-hans": "美德",
+        "zh-cn": "美德",
+        "zh-sg": "美德",
+        "en": "virtue"
+      }
+    },
+    "Q166231": {
+      "lastrevid": 2550317033,
+      "modified": "2026-09-28T04:21:48Z",
+      "mesh_ids": [
+        "D007239"
+      ],
+      "labels": {
+        "zh-hans": "感染",
+        "zh-cn": "感染",
+        "zh-sg": "感染",
+        "en": "infection"
+      }
+    },
+    "Q16675060": {
+      "lastrevid": 2505003690,
+      "modified": "2026-06-12T09:53:29Z",
+      "mesh_ids": [
+        "D017805"
+      ],
+      "labels": {
+        "en": "widowhood",
+        "zh-hans": "丧偶"
+      }
+    },
+    "Q167903": {
+      "lastrevid": 2535657611,
+      "modified": "2026-08-24T02:57:41Z",
+      "mesh_ids": [
+        "D055876"
+      ],
+      "labels": {
+        "zh-hans": "山体滑坡",
+        "zh-cn": "山体滑坡",
+        "zh-sg": "山崩",
+        "en": "landslide"
+      }
+    },
+    "Q178066": {
+      "lastrevid": 2545544673,
+      "modified": "2026-09-14T10:25:34Z",
+      "mesh_ids": [
+        "D007989"
+      ],
+      "labels": {
+        "zh-hans": "性冲动",
+        "zh-cn": "性冲动",
+        "zh-sg": "性冲动",
+        "en": "libido"
+      }
+    },
+    "Q179057": {
+      "lastrevid": 2541627115,
+      "modified": "2026-09-07T10:01:41Z",
+      "mesh_ids": [
+        "D005107"
+      ],
+      "labels": {
+        "zh-hans": "爆炸",
+        "zh-cn": "爆炸",
+        "zh-sg": "爆炸",
+        "en": "explosion"
+      }
+    },
+    "Q179643": {
+      "lastrevid": 2552058772,
+      "modified": "2026-10-02T07:13:14Z",
+      "mesh_ids": [
+        "D004242"
+      ],
+      "labels": {
+        "zh-hans": "潜水",
+        "zh-cn": "潜水",
+        "zh-sg": "潜水",
+        "en": "underwater diving"
+      }
+    },
+    "Q181898": {
+      "lastrevid": 2506604270,
+      "modified": "2026-06-16T08:18:42Z",
+      "mesh_ids": [
+        "D058105"
+      ],
+      "labels": {
+        "zh-hans": "聚合",
+        "zh-cn": "聚合",
+        "zh-sg": "聚合",
+        "en": "polymerization"
+      }
+    },
+    "Q182593": {
+      "lastrevid": 2522791454,
+      "modified": "2026-07-26T07:00:22Z",
+      "mesh_ids": [
+        "D007088"
+      ],
+      "labels": {
+        "zh-hans": "错觉",
+        "zh-cn": "错觉",
+        "zh-sg": "错觉",
+        "en": "illusion"
+      }
+    },
+    "Q186209": {
+      "lastrevid": 2529379014,
+      "modified": "2026-08-09T22:33:05Z",
+      "mesh_ids": [
+        "D013638"
+      ],
+      "labels": {
+        "zh-hans": "焦油",
+        "zh-cn": "焦油",
+        "zh-sg": "焦油",
+        "en": "tar"
+      }
+    },
+    "Q202875": {
+      "lastrevid": 2551774598,
+      "modified": "2026-10-01T12:58:16Z",
+      "mesh_ids": [
+        "D017008"
+      ],
+      "labels": {
+        "zh-hans": "谈判",
+        "zh-cn": "谈判",
+        "zh-sg": "谈判",
+        "en": "negotiation"
+      }
+    },
+    "Q204933": {
+      "lastrevid": 2551405525,
+      "modified": "2026-09-30T17:46:30Z",
+      "mesh_ids": [
+        "D049248"
+      ],
+      "labels": {
+        "zh-hans": "斩首",
+        "zh-cn": "斩首",
+        "zh-sg": "斩首",
+        "en": "decapitation"
+      }
+    },
+    "Q24384": {
+      "lastrevid": 2553077984,
+      "modified": "2026-10-04T15:13:04Z",
+      "mesh_ids": [
+        "D012621"
+      ],
+      "labels": {
+        "en": "season",
+        "zh-cn": "季节",
+        "zh-hans": "季节",
+        "zh-sg": "季节"
+      }
+    },
+    "Q244772": {
+      "lastrevid": 2551149615,
+      "modified": "2026-09-30T04:11:29Z",
+      "mesh_ids": [
+        "D005374"
+      ],
+      "labels": {
+        "zh-hans": "过滤",
+        "zh-cn": "过滤",
+        "zh-sg": "过滤",
+        "en": "filtration"
+      }
+    },
+    "Q318": {
+      "lastrevid": 2545467206,
+      "modified": "2026-09-14T07:08:23Z",
+      "mesh_ids": [
+        "D055608"
+      ],
+      "labels": {
+        "en": "galaxy",
+        "zh-cn": "星系",
+        "zh-sg": "星系",
+        "zh-hans": "星系"
+      }
+    },
+    "Q3196": {
+      "lastrevid": 2552409429,
+      "modified": "2026-10-03T03:20:22Z",
+      "mesh_ids": [
+        "D005390"
+      ],
+      "labels": {
+        "en": "fire",
+        "zh-hans": "火"
+      }
+    },
+    "Q35986": {
+      "lastrevid": 2547083880,
+      "modified": "2026-09-17T16:27:28Z",
+      "mesh_ids": [
+        "D004954"
+      ],
+      "labels": {
+        "en": "aesthetics",
+        "zh-cn": "美学",
+        "zh-hans": "美学"
+      }
+    },
+    "Q36348": {
+      "lastrevid": 2551954218,
+      "modified": "2026-10-01T23:33:35Z",
+      "mesh_ids": [
+        "D004325"
+      ],
+      "labels": {
+        "en": "dream",
+        "zh-cn": "梦",
+        "zh-hans": "梦"
+      }
+    },
+    "Q371174": {
+      "lastrevid": 2532550432,
+      "modified": "2026-08-17T23:27:27Z",
+      "mesh_ids": [
+        "D005868"
+      ],
+      "labels": {
+        "zh-hans": "手势",
+        "zh-cn": "手势",
+        "zh-sg": "手势",
+        "en": "gesture"
+      }
+    },
+    "Q3839081": {
+      "lastrevid": 2539478941,
+      "modified": "2026-09-02T15:16:53Z",
+      "mesh_ids": [
+        "D004190"
+      ],
+      "labels": {
+        "zh-hans": "灾害",
+        "en": "disaster",
+        "zh-cn": "灾害"
+      }
+    },
+    "Q38867": {
+      "lastrevid": 2522584738,
+      "modified": "2026-07-25T17:23:56Z",
+      "mesh_ids": [
+        "D007834"
+      ],
+      "labels": {
+        "en": "laser",
+        "zh-hans": "激光器"
+      }
+    },
+    "Q39594": {
+      "lastrevid": 2534320067,
+      "modified": "2026-08-21T17:15:34Z",
+      "mesh_ids": [
+        "D061006"
+      ],
+      "labels": {
+        "en": "bay",
+        "zh-hans": "湾",
+        "zh-cn": "湾"
+      }
+    },
+    "Q43229": {
+      "lastrevid": 2553188382,
+      "modified": "2026-10-04T21:23:22Z",
+      "mesh_ids": [
+        "D009938"
+      ],
+      "labels": {
+        "en": "organization",
+        "zh-hans": "组织",
+        "zh-cn": "组织",
+        "zh-sg": "组织"
+      }
+    },
+    "Q4421": {
+      "lastrevid": 2553957691,
+      "modified": "2026-10-06T14:01:36Z",
+      "mesh_ids": [
+        "D065928"
+      ],
+      "labels": {
+        "en": "forest",
+        "zh-hans": "森林"
+      }
+    },
+    "Q48324": {
+      "lastrevid": 2540837381,
+      "modified": "2026-09-06T04:28:19Z",
+      "mesh_ids": [
+        "D009014"
+      ],
+      "labels": {
+        "en": "morality",
+        "zh-cn": "道德"
+      }
+    },
+    "Q495626": {
+      "lastrevid": 2511511248,
+      "modified": "2026-06-28T14:42:32Z",
+      "mesh_ids": [
+        "D003250"
+      ],
+      "labels": {
+        "en": "constriction",
+        "zh-hans": "缠绕"
+      }
+    },
+    "Q67378402": {
+      "lastrevid": 2462545109,
+      "modified": "2026-02-11T09:06:56Z",
+      "mesh_ids": [
+        "D014341"
+      ],
+      "labels": {
+        "en": "trustee",
+        "zh-cn": "董事"
+      }
+    },
+    "Q7560": {
+      "lastrevid": 2553226793,
+      "modified": "2026-10-04T23:20:04Z",
+      "mesh_ids": [
+        "D009035"
+      ],
+      "labels": {
+        "en": "mother",
+        "zh-hans": "母亲",
+        "zh-sg": "母亲",
+        "zh-cn": "母亲"
+      }
+    },
+    "Q7565": {
+      "lastrevid": 2553226661,
+      "modified": "2026-10-04T23:19:36Z",
+      "mesh_ids": [
+        "D005220"
+      ],
+      "labels": {
+        "en": "father",
+        "zh-cn": "父亲",
+        "zh-hans": "父亲",
+        "zh-sg": "父亲"
+      }
+    },
+    "Q8068": {
+      "lastrevid": 2551301427,
+      "modified": "2026-09-30T12:03:10Z",
+      "mesh_ids": [
+        "D055868"
+      ],
+      "labels": {
+        "en": "flood",
+        "zh-hans": "洪灾"
+      }
+    },
+    "Q8081": {
+      "lastrevid": 2551746225,
+      "modified": "2026-10-01T11:30:35Z",
+      "mesh_ids": [
+        "D055869"
+      ],
+      "labels": {
+        "en": "tornado",
+        "zh-hans": "龙卷风"
+      }
+    },
+    "Q81163": {
+      "lastrevid": 2523535413,
+      "modified": "2026-07-27T17:34:45Z",
+      "mesh_ids": [
+        "D011108"
+      ],
+      "labels": {
+        "en": "polymer",
+        "zh-hans": "聚合物",
+        "zh-cn": "聚合物"
+      }
+    },
+    "Q82025": {
+      "lastrevid": 2535901003,
+      "modified": "2026-08-24T18:41:02Z",
+      "mesh_ids": [
+        "D006733"
+      ],
+      "labels": {
+        "en": "horn",
+        "zh-hans": "角"
+      }
+    },
+    "Q93189": {
+      "lastrevid": 2549624250,
+      "modified": "2026-09-26T11:14:40Z",
+      "mesh_ids": [
+        "D004531"
+      ],
+      "labels": {
+        "zh-hans": "蛋",
+        "zh-cn": "蛋",
+        "zh-sg": "蛋",
+        "en": "egg as food"
+      }
+    }
+  }
+}

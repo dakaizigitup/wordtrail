@@ -1,0 +1,746 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	noun_evidence	already_mapped	existing_headword	spare_capacity	review_scope
+ablation	剥离	剝離	93	[url]	bo li	355	UK,US	ECDICT n.	false	false	true	new_headword
+abnormalities	异常	異常	97	[url]	yi chang	3940	UK,US	ECDICT n.	false	false	true	new_headword
+abnormality	异常	異常	98	[url]	yi chang	3940	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+absence	失神	失神	116	[url]	shi shen	33	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+absorption	吸收	吸收	140	[url]	xi shou	4300	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+access	入口	入口	213	[url]	ru kou	7874	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+accommodation	调节	調節	253	[url]	tiao jie	3365	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+accretions	生长	生長	263	[url]	sheng zhang	5463	UK	ECDICT n.	false	false	true	new_headword
+accumulation	蓄积	蓄積	265	[url]	xu ji	94	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+acid	酸	酸	361	[url]	suan	14929	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+activation	活化	活化	676	[url]	huo hua	633	UK,US	ECDICT n.	false	false	true	new_headword
+adaptation	适应	適應	803	[url]	shi ying	7998	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+addition	添加	添加	818	[url]	tian jia	3250	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+additive	附加	附加；加成	822	[url]	fu jia	2213	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+adherence	黏附	黏著；黏附；依從性	904	[url]	nian fu	59	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+admission	住院	住院	961	[url]	zhu yuan	3368	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+adrenalin	肾上腺素	腎上腺素	984	[url]	shen shang xian su	161	UK,US	ECDICT n.	false	false	true	new_headword
+affect	情感	情感	1058	[url]	qing gan	5430	US	ECDICT n.	false	true	true	existing_headword_pair
+affection	病变	病變	1063	[url]	bing bian	608	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+agent	制剂	因子；製劑	1116	[url]	zhi ji	196	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+agent	因子	因子；製劑	1116	[url]	yin zi	1028	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+aircraft	飞机	飛機	1193	[url]	fei ji	28735	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+alcohol	乙醇	乙醇	1255	[url]	yi chun	574	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+amnesia	健忘	健忘	1694	[url]	jian wang	42	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+anastomosis	吻合	吻合；接通	1818	[url]	wen he	369	UK	ECDICT n.	false	false	true	new_headword
+anastomosis	接通	吻合；接通	1818	[url]	jie tong	367	UK	ECDICT n.	false	false	true	new_headword
+aneurism	动脉瘤	動脈瘤	1889	[url]	dong mai liu	86	UK,US	ECDICT n.	false	false	true	new_headword
+angle	角	角	2015	[url]	jiao	14123	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+anise	茴香	茴香	2058	[url]	hui xiang	93	UK,US	ECDICT n.	false	false	true	new_headword
+anomaly	异常	異常	2127	[url]	yi chang	3940	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+antecedent	前身	前身；祖先	2160	[url]	qian shen	7054	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+anthropoid	类人猿	類人猿	2312	[url]	lei ren yuan	58	UK	ECDICT n.	false	false	true	new_headword
+anti	抗	抗	2316	[url]	kang	5993	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+anxiety	焦虑	焦慮	2460	[url]	jiao lv	3367	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+aperture	口	口	2498	[url]	kou	28961	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+apex	尖	尖	2499	[url]	jian	7456	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+apparatus	装置	器械；裝置	2580	[url]	zhuang zhi	6643	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+approach	方法	方法	2608	[url]	fang fa	21743	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+arch	弓	弓	2654	[url]	gong	2866	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+area	区	區	2689	[url]	qu	170948	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+aspiration	抽吸	抽吸	3016	[url]	chou xi	32	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+assay	分析	鑑定；測定；分析	3022	[url]	fen xi	11738	UK,US	ECDICT n.	false	false	true	new_headword
+assay	测定	鑑定；測定；分析	3022	[url]	ce ding	924	UK,US	ECDICT n.	false	false	true	new_headword
+assay	鉴定	鑑定；測定；分析	3022	[url]	jian ding	3836	UK,US	ECDICT n.	false	false	true	new_headword
+assessment	判断	判斷/評估	3023	[url]	pan duan	4202	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+association	联合	聯合；協會	3029	[url]	lian he	27897	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+attachment	附著	附著	3239	[url]	fu zhuo	351	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+attention	注意	注意；注意力	3246	[url]	zhu yi	67417	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+attraction	吸引	吸引	3253	[url]	xi yin	9620	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+augmentation	增大	增大	3306	[url]	zeng da	698	UK,US	ECDICT n.	false	false	true	new_headword
+aura	先兆	先兆	3308	[url]	xian zhao	41	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+autonomy	自主	自主	3416	[url]	zi zhu	2232	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+aversion	规避	厭惡；規避	3443	[url]	gui bi	357	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+backflow	回流	回流	3550	[url]	hui liu	338	UK	ECDICT n.	false	true	true	existing_headword_pair
+band	带	帶	3649	[url]	dai	225834	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bank	库	庫	3663	[url]	ku	19144	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bar	棒	棒；槓	3668	[url]	bang	77786	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+barrier	阻碍	屏障；阻礙	3693	[url]	zu ai	2043	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+beam	束	束	3843	[url]	shu	1855	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+beard	须	鬚	3844	[url]	xu	8864	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+beat	搏动	搏動	3846	[url]	bo dong	12	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bend	弯	彎	3908	[url]	wan	5971	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+beneficence	行善	行善	3911	[url]	xing shan	275	UK,US	ECDICT n.	false	false	true	new_headword
+birch	白桦	白樺	4135	[url]	bai hua	115	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bite	咬伤	咬傷	4169	[url]	yao shang	177	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bladder	囊	膀胱；囊	4204	[url]	nang	2478	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bleeding	出血	出血	4243	[url]	chu xue	681	UK,US	ECDICT n.	false	false	true	new_headword
+blindness	失明	盲；失明	4268	[url]	shi ming	403	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+blindness	盲	盲；失明	4268	[url]	mang	2202	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+blotch	斑点	斑點	4308	[url]	ban dian	804	UK,US	ECDICT n.	false	false	true	new_headword
+bond	连结	連結	4365	[url]	lian jie	2888	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+borderline	边缘	邊緣	4398	[url]	bian yuan	3970	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bowel	肠	腸	4452	[url]	chang	2866	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+branching	分支	分支	4535	[url]	fen zhi	3251	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+breath	呼吸	呼吸	4563	[url]	hu xi	5243	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+breathing	呼吸	呼吸	4564	[url]	hu xi	5243	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bristle	鬃	鬃	4596	[url]	zong	110	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+brood	孵育	孵育	4705	[url]	fu yu	27	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+brow	眉	眉	4711	[url]	mei	4237	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+bulb	球	球；延髓	4798	[url]	qiu	36328	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+burrow	隧道	隧道	4874	[url]	sui dao	7649	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+buttock	臀	臀	4909	[url]	tun	1030	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+calcification	钙化	鈣化	5010	[url]	gai hua	100	UK	ECDICT n.	false	false	true	new_headword
+calibration	校正	校正	5064	[url]	jiao zheng	312	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+canal	管	管	5098	[url]	guan	35124	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+capillaries	微血管	毛細管；微血管	5175	[url]	wei xue guan	42	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+capsicum	辣椒	辣椒	5212	[url]	la jiao	6140	UK	ECDICT n.	false	false	true	new_headword
+capsule	囊	囊	5217	[url]	nang	2478	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+care	照护	照護；照顧	5435	[url]	zhao hu	436	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+care	照顾	照護；照顧	5435	[url]	zhao gu	24991	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+caries	蛀	齲；蛀；骨疽	5438	[url]	zhu	139	UK	ECDICT n.	false	false	true	new_headword
+caries	龋	齲；蛀；骨疽	5438	[url]	qu	22	UK	ECDICT n.	false	false	true	new_headword
+cart	手推车	手推車	5506	[url]	shou tui che	126	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cascara	鼠李	鼠李；用其樹皮製成的緩瀉劑	5524	[url]	shu li	330	UK	ECDICT n.	false	false	true	new_headword
+cassia	肉桂	肉桂	5543	[url]	rou gui	147	UK,US	ECDICT n.	false	false	true	new_headword
+cast	圆柱	模型；圓柱	5545	[url]	yuan zhu	645	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cast	模型	模型；圓柱	5545	[url]	mo xing	7142	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+castration	阉割	閹割	5552	[url]	yan ge	64	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cauda	尾	尾	5596	[url]	wei	13334	UK	ECDICT n.	false	false	true	new_headword
+cerumen	耳垢	耳垢	5953	[url]	er gou	16	UK	ECDICT n.	false	true	true	existing_headword_pair
+chamber	室	室	6025	[url]	shi	25644	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+channel	管道	通道；管道	6041	[url]	guan dao	1685	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+char	炭化	炭化	6043	[url]	tan hua	9	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+character	特性	特性	6044	[url]	te xing	3000	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+child	儿童	兒童	6161	[url]	er tong	13748	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+childbirth	分娩	分娩；生產	6164	[url]	fen mian	417	UK,US	ECDICT n.	false	false	true	new_headword
+childbirth	生产	分娩；生產	6164	[url]	sheng chan	21992	UK,US	ECDICT n.	false	false	true	new_headword
+chip	碎片	碎片	6177	[url]	sui pian	2369	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+chrome	铬	鉻	6348	[url]	ge	531	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+chrysalis	蛹	蛹	6440	[url]	yong	435	UK,US	ECDICT n.	false	false	true	new_headword
+circle	环	環	6526	[url]	huan	12151	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+circulation	循环	循環	6539	[url]	xun huan	6619	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cirrhosis	硬化	硬化	6566	[url]	ying hua	256	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+clamp	夹	夾	6592	[url]	jia	6853	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+clasp	钩	扣環；鉤	6602	[url]	gou	2040	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+class	类	類；綱	6604	[url]	lei	35757	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+class	纲	類；綱	6604	[url]	gang	2941	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+classification	分类	分類	6614	[url]	fen lei	8017	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+clearing	清洁	清潔；澄清	6642	[url]	qing jie	2374	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+clearing	澄清	清潔；澄清	6642	[url]	cheng qing	2306	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cleavage	裂开	裂開；裂解	6643	[url]	lie kai	342	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cleavage	裂解	裂開；裂解	6643	[url]	lie jie	151	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cleft	裂	裂；裂縫	6647	[url]	lie	3096	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+closure	闭合	閉合	6709	[url]	bi he	264	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+clot	血块	血塊	6710	[url]	xue kuai	58	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+coagulation	凝固	凝固；凝血	6749	[url]	ning gu	400	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cold	感冒	感冒	6874	[url]	gan mao	25480	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+comfrey	紫草	紫草	7029	[url]	zi cao	71	UK,US	ECDICT n.	false	false	true	new_headword
+composition	组成	組成	7136	[url]	zu cheng	27179	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+compression	压迫	壓迫	7157	[url]	ya po	923	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+conception	受孕	受孕	7186	[url]	shou yun	79	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+concha	甲	甲；鼻甲	7188	[url]	jia	13521	UK,US	ECDICT n.	false	false	true	new_headword
+concordance	一致性	一致性	7196	[url]	yi zhi xing	274	UK	ECDICT n.	false	false	true	new_headword
+condensation	凝结	凝結	7205	[url]	ning jie	242	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+conjunction	连接	連接	7354	[url]	lian jie	14030	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+connection	接合	連結；接合	7357	[url]	jie he	298	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+connection	连结	連結；接合	7357	[url]	lian jie	2888	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+consent	同意	同意	7368	[url]	tong yi	23673	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+consortium	公会	公會；協會	7370	[url]	gong hui	3878	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+consortium	协会	公會；協會	7370	[url]	xie hui	22441	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+constriction	狭窄	狹窄	7386	[url]	xia zhai	1206	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+consumption	消耗	消耗	7391	[url]	xiao hao	3152	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+contra	反	反	7426	[url]	fan	24051	UK,US	ECDICT n.	false	false	true	new_headword
+contraction	挛缩	收縮；攣縮	7437	[url]	luan suo	18	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+control	对照	控制；對照	7441	[url]	dui zhao	521	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+contusion	挫伤	挫傷	7445	[url]	cuo shang	70	UK,US	ECDICT n.	false	false	true	new_headword
+convenience	方便	方便	7452	[url]	fang bian	19100	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cord	带	索；帶	7511	[url]	dai	225834	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cord	索	索；帶	7511	[url]	suo	25099	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+corona	冠	冠	7544	[url]	guan	7027	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+corps	体	體	7573	[url]	ti	21339	US	ECDICT n.	false	true	true	existing_headword_pair
+corpus	体	體；小體	7574	[url]	ti	21339	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+costa	肋	肋	7693	[url]	lei	800	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+counting	计数	計數	7749	[url]	ji shu	491	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+coup	打击	打擊	7751	[url]	da ji	10878	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+couple	连结	連結；力偶	7753	[url]	lian jie	2888	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cream	乳剂	乳劑	7808	[url]	ru ji	23	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+crease	皱褶	皺褶	7809	[url]	zhou zhe	47	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+crest	嵴	嵴	7834	[url]	ji	125	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+culture	培养	培養	7963	[url]	pei yang	5608	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+current	流	流；電流	7976	[url]	liu	18356	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+current	电流	流；電流	7976	[url]	dian liu	1624	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+curve	弯	彎；曲線	7979	[url]	wan	5971	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cusp	尖	尖；瓣尖	7990	[url]	jian	7456	UK,US	ECDICT n.	false	false	true	new_headword
+cutis	皮肤	皮膚	8082	[url]	pi fu	18417	UK	ECDICT n.	false	false	true	new_headword
+cutting	切削	切削	8091	[url]	qie xiao	69	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cycle	环	環；週期	8108	[url]	huan	12151	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+cyclops	独眼	獨眼	8125	[url]	du yan	222	UK,US	ECDICT n.	false	false	true	new_headword
+damage	伤害	傷害	8244	[url]	shang hai	14041	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deafness	聋	聾	8290	[url]	long	641	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+death	死亡	死亡	8293	[url]	si wang	18210	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+debris	碎屑	碎屑；碎片	8300	[url]	sui xie	314	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+debris	碎片	碎屑；碎片	8300	[url]	sui pian	2369	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+decapitation	分泌	分泌	8305	[url]	fen mi	784	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+decay	衰退	衰退	8308	[url]	shuai tui	869	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+decomposition	分解	分解	8327	[url]	fen jie	2364	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+defense	防卫	防衛	8390	[url]	fang wei	2543	US	ECDICT n.	false	true	true	existing_headword_pair
+deficiency	缺乏	缺乏；不足	8400	[url]	que fa	6458	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deficit	不足	不足；短缺	8402	[url]	bu zu	8087	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deficit	短缺	不足；短缺	8402	[url]	duan que	917	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+definition	分界	定義；分界	8403	[url]	fen jie	541	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+definition	定义	定義；分界	8403	[url]	ding yi	10334	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deflection	偏向	偏轉；偏向	8405	[url]	pian xiang	1076	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deflection	偏转	偏轉；偏向	8405	[url]	pian zhuan	101	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deformations	变形	變形	8408	[url]	bian xing	3996	UK	ECDICT n.	false	false	true	new_headword
+deformity	变形	變形	8409	[url]	bian xing	3996	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+degeneration	变性	變性；變質；退化	8410	[url]	bian xing	454	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+degeneration	变质	變性；變質；退化	8410	[url]	bian zhi	596	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dehydration	脱水	脫水	8427	[url]	tuo shui	210	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deletion	缺失	削除；缺失	8445	[url]	que shi	863	UK,US	ECDICT n.	false	false	true	new_headword
+delivery	分娩	分娩	8473	[url]	fen mian	417	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+delta	三角形	丁型；三角形	8478	[url]	san jiao xing	1631	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+delusion	幻想	幻想；妄想	8488	[url]	huan xiang	5198	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+demarcation	分界	分界	8490	[url]	fen jie	541	UK,US	ECDICT n.	false	false	true	new_headword
+dentition	牙齿	牙齒	8629	[url]	ya chi	6085	UK,US	ECDICT n.	false	false	true	new_headword
+denture	假牙	義齒；假牙	8636	[url]	jia ya	342	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dependent	依赖	依賴	8651	[url]	yi lai	3748	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+depletion	缺乏	空竭；缺乏	8656	[url]	que fa	6458	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deposit	沉淀	沉澱；沉積	8660	[url]	chen dian	1281	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deposition	沉积	沉著；沉積	8661	[url]	chen ji	823	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+depot	贮存	貯存	8662	[url]	zhu cun	195	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+depression	凹陷	凹陷；憂鬱	8667	[url]	ao xian	348	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+depression	忧郁	凹陷；憂鬱	8667	[url]	you yu	2765	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+derma	真皮	真皮	8689	[url]	zhen pi	54	UK,US	ECDICT n.	false	false	true	new_headword
+development	发育	發育；長成	8844	[url]	fa yu	2529	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deviation	偏斜	偏離；偏斜	8848	[url]	pian xie	40	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+deviation	偏离	偏離；偏斜	8848	[url]	pian li	478	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dextrose	葡萄糖	右旋糖；葡萄糖	8856	[url]	pu tao tang	315	UK,US	ECDICT n.	false	false	true	new_headword
+differentiation	分化	分化；鑑別	8966	[url]	fen hua	911	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+differentiation	鉴别	分化；鑑別	8966	[url]	jian bie	178	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+digestion	消化	消化	8998	[url]	xiao hua	3092	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dilatation	扩张	擴張	9030	[url]	kuo zhang	2544	UK,US	ECDICT n.	false	false	true	new_headword
+dilation	扩大	擴大	9040	[url]	kuo da	5543	UK,US	ECDICT n.	false	false	true	new_headword
+disc	板	盤；板	9120	[url]	ban	11459	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+disc	盘	盤；板	9120	[url]	pan	15217	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+discoloration	变色	變色	9132	[url]	bian se	731	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dish	碟	碟；皿	9147	[url]	die	2704	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+disintegration	分裂	分解；分裂	9150	[url]	fen lie	2936	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+disintegration	分解	分解；分裂	9150	[url]	fen jie	2364	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dislocation	脱位	脫位	9157	[url]	tuo wei	16	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+disorder	病症	病症；障礙	9164	[url]	bing zheng	403	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+disorder	障碍	病症；障礙	9164	[url]	zhang ai	3326	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dispersion	分散	分散	9173	[url]	fen san	2126	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+displacement	移位	移位	9176	[url]	yi wei	164	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dissection	分割	分割；剝離	9187	[url]	fen ge	2629	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dissection	剥离	分割；剝離	9187	[url]	bo li	355	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+distress	困苦	困苦；窘迫	9238	[url]	kun ku	166	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+distress	窘迫	困苦；窘迫	9238	[url]	jiong po	168	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+distribution	分布	分布	9239	[url]	fen bu	20635	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+disturbance	障碍	障礙	9243	[url]	zhang ai	3326	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+division	分裂	分裂；切斷術	9272	[url]	fen lie	2936	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+doctrine	学说	學說	9294	[url]	xue shuo	762	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+down	胎毛	胎毛	9421	[url]	tai mao	3	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+drainage	引流	引流	9431	[url]	yin liu	119	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dressing	包扎	包紮；敷料	9436	[url]	bao za	76	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+drop	下垂	滴劑；下垂	9441	[url]	xia chui	600	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+duct	管	管	9487	[url]	guan	35124	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+dumbness	哑	啞	9552	[url]	ya	1320	UK	ECDICT n.	false	false	true	new_headword
+dust	粉	塵；粉	9581	[url]	fen	6828	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+ejection	射出	射出	10041	[url]	she chu	443	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+emulsions	乳化	乳化	10249	[url]	ru hua	24	UK	ECDICT n.	false	true	true	existing_headword_pair
+end	终端	端；終端	10295	[url]	zhong duan	847	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+enrichment	浓缩	富集；濃縮；強化{食品}；增菌法	10437	[url]	nong suo	606	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+ephedrine	麻黄	麻黃	10566	[url]	ma huang	151	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+episode	发作	偶發事件；發作	10726	[url]	fa zuo	1171	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+evacuation	排除	排除；清空	11137	[url]	pai chu	2842	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+evacuation	清空	排除；清空	11137	[url]	qing kong	888	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+evolution	演化	演化	11143	[url]	yan hua	2391	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+examination	检查	檢查；診察	11148	[url]	jian cha	10063	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+examination	诊察	檢查；診察	11148	[url]	zhen cha	26	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+excess	过度	過度	11158	[url]	guo du	4290	US	ECDICT n.	false	true	true	existing_headword_pair
+excrescence	赘疣	贅疣	11181	[url]	zhui you	11	UK	ECDICT n.	false	false	true	new_headword
+excretion	排泄	排泄	11182	[url]	pai xie	128	UK,US	ECDICT n.	false	false	true	new_headword
+exercise	操练	運動；操練	11186	[url]	cao lian	232	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+exfoliation	剥落	剝落；脫落	11195	[url]	bo luo	127	UK,US	ECDICT n.	false	false	true	new_headword
+exfoliation	脱落	剝落；脫落	11195	[url]	tuo luo	737	UK,US	ECDICT n.	false	false	true	new_headword
+exhaustion	疲惫	衰竭；疲憊	11202	[url]	pi bei	1479	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+expansion	膨胀	膨脹	11235	[url]	peng zhang	2626	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+exposure	感光	曝露；感光	11248	[url]	gan guang	290	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+extremities	肢体	肢體	11405	[url]	zhi ti	566	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+extremity	末端	肢；末端	11406	[url]	mo duan	1304	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+extremity	肢	肢；末端	11406	[url]	zhi	664	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fainting	昏厥	昏厥	11498	[url]	hun jue	56	UK,US	ECDICT n.	false	false	true	new_headword
+famine	饥饿	飢餓	11593	[url]	ji e	1527	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+feathers	羽毛	羽毛	11672	[url]	yu mao	1171	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+feeding	喂养	餵養	11687	[url]	wei yang	407	UK,US	ECDICT n.	false	false	true	new_headword
+field	范围	範圍；視野	11860	[url]	fan wei	22166	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+field	视野	範圍；視野	11860	[url]	shi ye	1540	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+figure	图	圖	11872	[url]	tu	64050	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+filament	丝	絲	11876	[url]	si	16232	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+finger	指	指	11898	[url]	zhi	40849	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fission	分裂	分裂	11923	[url]	fen lie	2936	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fissure	裂	裂；裂隙	11978	[url]	lie	3096	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fissure	裂隙	裂；裂隙	11978	[url]	lie xi	82	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fitting	装置	裝置；配備	11990	[url]	zhuang zhi	6643	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fitting	配备	裝置；配備	11990	[url]	pei bei	3595	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+flake	片	片	12020	[url]	pian	41285	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+flap	片	瓣；片	12027	[url]	pian	41285	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+flap	瓣	瓣；片	12027	[url]	ban	1428	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+flare	发红	發紅	12029	[url]	fa hong	347	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+flexure	弯曲	彎曲	12062	[url]	wan qu	1265	UK	ECDICT n.	false	false	true	new_headword
+floor	底部	底部	12072	[url]	di bu	1543	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+flora	菌落	菌落	12076	[url]	jun luo	64	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+florists	花匠	花匠	12078	[url]	hua jiang	38	UK,US	ECDICT n.	false	false	true	new_headword
+fluid	液体	液體	12085	[url]	ye ti	2014	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+follicle	囊	濾泡；囊	12145	[url]	nang	2478	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+foramen	孔	孔	12204	[url]	kong	11577	UK,US	ECDICT n.	false	false	true	new_headword
+force	力	力	12226	[url]	li	28452	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+forceps	镊子	鑷子	12236	[url]	nie zi	112	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+formation	形成	形成	12258	[url]	xing cheng	18279	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fragmentation	断裂	碎裂；斷裂	12322	[url]	duan lie	923	UK,US	ECDICT n.	false	false	true	new_headword
+fragmentation	碎裂	碎裂；斷裂	12322	[url]	sui lie	182	UK,US	ECDICT n.	false	false	true	new_headword
+frame	支架	支架	12328	[url]	zhi jia	394	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fremitus	震颤	震顫	12359	[url]	zhen chan	42	US	ECDICT n.	false	false	true	new_headword
+fright	惊吓	驚嚇	12378	[url]	jing xia	1271	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+frostbite	冻疮	凍瘡	12405	[url]	dong chuang	7	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fume	烟	煙	12438	[url]	yan	5506	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+fusion	融合	融合	12525	[url]	rong he	3408	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+gall	胆汁	膽汁	12551	[url]	dan zhi	64	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+gauntlet	手套	手套/手套形繃帶	12690	[url]	shou tao	3328	UK,US	ECDICT n.	false	false	true	new_headword
+genetics	基因	基因	12764	[url]	ji yin	5184	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+germ	微生物	微生物；菌；胚	12819	[url]	wei sheng wu	972	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+germ	胚	微生物；菌；胚	12819	[url]	pei	389	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+germ	菌	微生物；菌；胚	12819	[url]	jun	3845	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+gestation	妊娠	妊娠；懷孕	12832	[url]	ren shen	517	UK,US	ECDICT n.	false	false	true	new_headword
+gestation	怀孕	妊娠；懷孕	12832	[url]	huai yun	1594	UK,US	ECDICT n.	false	false	true	new_headword
+girdle	带	帶；束帶	12883	[url]	dai	225834	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+glide	滑动	滑動	12921	[url]	hua dong	645	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+glomerulus	小球	小球；腎絲球	12957	[url]	xiao qiu	323	UK	ECDICT n.	false	true	true	existing_headword_pair
+gonorrhoea	淋病	淋病	13073	[url]	lin bing	81	UK	ECDICT n.	false	false	true	new_headword
+grandeur	夸大	誇大	13139	[url]	kua da	517	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+grief	悲恸	悲慟	13255	[url]	bei tong	39	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+grouping	分组	分組	13287	[url]	fen zu	1735	UK,US	ECDICT n.	false	false	true	new_headword
+growth	生长	生長	13289	[url]	sheng zhang	5463	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+gutter	槽	溝；槽	13355	[url]	cao	2523	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+gutter	沟	溝；槽	13355	[url]	gou	5713	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+habit	体型	習慣；體型	13380	[url]	ti xing	2561	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+haemorrhage	出血	出血	13416	[url]	chu xue	681	UK	ECDICT n.	false	false	true	new_headword
+halo	晕	暈	13470	[url]	yun	12978	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+handicap	残障	障礙；殘障	13513	[url]	can zhang	438	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+handicap	障碍	障礙；殘障	13513	[url]	zhang ai	3326	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hazard	危害	危害	13562	[url]	wei hai	1833	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+headgear	头套	頭套	13568	[url]	tou tao	515	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+health	健康	健康；衛生	13572	[url]	jian kang	31355	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+health	卫生	健康；衛生	13572	[url]	wei sheng	11569	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hearing	听	聽	13590	[url]	ting	110700	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+heat	热	熱	13607	[url]	re	66271	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hemoglobin	血红素	血色素；血紅素	13735	[url]	xue hong su	78	US	ECDICT n.	false	true	true	existing_headword_pair
+hemorrhage	出血	出血	13756	[url]	chu xue	681	US	ECDICT n.	false	true	true	existing_headword_pair
+hemorrhoid	痔	痔	13785	[url]	zhi	117	US	ECDICT n.	false	true	true	existing_headword_pair
+herd	群	羣	13869	[url]	qun	24195	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hibernation	冬眠	冬眠	14011	[url]	dong mian	1497	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hierarchy	分层	分層；譜系	14023	[url]	fen ceng	365	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hierarchy	谱系	分層；譜系	14023	[url]	pu xi	250	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hives	荨麻疹	蕁麻疹	14111	[url]	xun ma zhen	39	UK,US	ECDICT n.	false	false	true	new_headword
+hollow	凹陷	凹陷；空洞	14130	[url]	ao xian	348	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hominid	人类	人類	14153	[url]	ren lei	22661	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hornets	大黄蜂	大黃蜂	14220	[url]	da huang feng	422	UK,US	ECDICT n.	false	false	true	new_headword
+horseshoe	马蹄	蹄鐵；馬蹄	14233	[url]	ma ti	449	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+human	人	人；人的	14267	[url]	ren	1060110	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+human	人的	人；人的	14267	[url]	ren de	48885	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hybridization	杂交	雜交；混合	14351	[url]	za jiao	890	US	ECDICT n.	false	false	true	new_headword
+hybridization	混合	雜交；混合	14351	[url]	hun he	6126	US	ECDICT n.	false	false	true	new_headword
+hydrophobia	狂犬病	恐水症；狂犬病	14424	[url]	kuang quan bing	88	UK	ECDICT n.	false	false	true	new_headword
+hypertrophy	肥厚	肥大；肥厚	14586	[url]	fei hou	67	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+hypoxia	缺氧	缺氧	14703	[url]	que yang	204	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+icterus	黄疸	黃疸	14742	[url]	huang dan	97	UK	ECDICT n.	false	false	true	new_headword
+ill	病	病	14826	[url]	bing	25470	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+impairment	损伤	損傷；損害	14891	[url]	sun shang	1409	UK,US	ECDICT n.	false	false	true	new_headword
+impairment	损害	損傷；損害	14891	[url]	sun hai	1844	UK,US	ECDICT n.	false	false	true	new_headword
+implantation	植入	移植；植入	14919	[url]	zhi ru	553	UK,US	ECDICT n.	false	false	true	new_headword
+implantation	移植	移植；植入	14919	[url]	yi zhi	1096	UK,US	ECDICT n.	false	false	true	new_headword
+impulse	搏动	衝動；搏動	14930	[url]	bo dong	12	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+incision	切开	切開；切開術	14962	[url]	qie kai	540	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+incisor	门牙	門牙	14980	[url]	men ya	864	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+inclusion	包涵	包涵；包涵物	14986	[url]	bao han	64	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+incubation	孵育	潛伏；孵育	15018	[url]	fu yu	27	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+incubation	潜伏	潛伏；孵育	15018	[url]	qian fu	760	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+index	食指	指數；食指	15031	[url]	shi zhi	132	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+indicator	食指	指示劑；食指	15035	[url]	shi zhi	132	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+infection	感染	感染	15094	[url]	gan ran	7751	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+infiltration	浸润	浸潤	15171	[url]	jin run	99	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+inheritance	遗传	遺傳	15222	[url]	yi chuan	2695	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+inhibitors	抑制剂	抑制劑	15225	[url]	yi zhi ji	513	UK,US	ECDICT n.	false	false	true	new_headword
+institution	协会	設施裝備；公共機構；協會；學院	15252	[url]	xie hui	22441	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+institution	学院	設施裝備；公共機構；協會；學院	15252	[url]	xue yuan	40165	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+instrument	器械	器械	15253	[url]	qi xie	631	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+insult	发作	發作	15259	[url]	fa zuo	1171	US	ECDICT n.	false	true	true	existing_headword_pair
+interference	干扰	干擾	15306	[url]	gan rao	2100	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+interposition	中介	中介	15443	[url]	zhong jie	367	UK	ECDICT n.	false	false	true	new_headword
+intervention	介入	介入	15479	[url]	jie ru	1884	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+inverse	反常	反常	15658	[url]	fan chang	368	US	ECDICT n.	false	true	true	existing_headword_pair
+irradiation	照射	照射	15696	[url]	zhao she	514	US	ECDICT n.	false	false	true	new_headword
+isthmus	峡	峽	15778	[url]	xia	824	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+jelly	胶	膠	15839	[url]	jiao	3686	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+jerking	反射	反射	15843	[url]	fan she	1168	UK,US	ECDICT n.	false	false	true	new_headword
+jet	喷射	噴射	15849	[url]	pen she	840	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+juice	液	汁；液	15892	[url]	ye	4135	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+kink	扭结	扭結	16014	[url]	niu jie	18	UK	ECDICT n.	false	true	true	existing_headword_pair
+kit	组	組	16018	[url]	zu	47048	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+labor	分娩	分娩；生產	16093	[url]	fen mian	417	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+labor	生产	分娩；生產	16093	[url]	sheng chan	21992	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+labyrinth	迷路	迷路	16098	[url]	mi lu	2594	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+laceration	撕裂	撕裂	16107	[url]	si lie	336	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+lamina	层	層	16153	[url]	ceng	18410	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+larynx	喉	喉	16215	[url]	hou	1436	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+ledge	板	板	16300	[url]	ban	11459	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+leukocyte	白血球	白血球	16410	[url]	bai xue qiu	149	US	ECDICT n.	false	false	true	new_headword
+lice	虱	蝨	16442	[url]	shi	252	UK,US	ECDICT n.	false	false	true	new_headword
+lien	脾	脾	16449	[url]	pi	234	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+lines	线	線	16548	[url]	xian	100555	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+linkage	连结	連結；鍵結	16572	[url]	lian jie	2888	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+liquor	液	液	16614	[url]	ye	4135	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+lobe	叶	葉	16644	[url]	ye	24213	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+loop	圈	圈；環	16728	[url]	quan	42956	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+loop	环	圈；環	16728	[url]	huan	12151	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+looseness	松弛	鬆弛	16737	[url]	song chi	376	UK	ECDICT n.	false	true	true	existing_headword_pair
+loss	丧失	缺失；喪失	16741	[url]	sang shi	1923	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+loss	缺失	缺失；喪失	16741	[url]	que shi	863	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+lues	梅毒	梅毒	16787	[url]	mei du	111	UK	ECDICT n.	false	false	true	new_headword
+macula	斑	斑	17020	[url]	ban	5012	UK	ECDICT n.	false	true	true	existing_headword_pair
+major	大的	大的；主要的	17064	[url]	da de	33508	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+malady	病	病	17077	[url]	bing	25470	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+malaise	不适	不適	17078	[url]	bu shi	1908	UK,US	ECDICT n.	false	false	true	new_headword
+malformation	畸形	畸形	17094	[url]	ji xing	402	UK,US	ECDICT n.	false	false	true	new_headword
+man	人	人	17181	[url]	ren	1060110	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mane	上午	上午	17266	[url]	shang wu	18244	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mantle	外套	外套；套膜	17287	[url]	wai tao	8274	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+manus	手	手	17294	[url]	shou	70239	US	ECDICT n.	false	false	true	new_headword
+march	前进	前進	17311	[url]	qian jin	4636	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+marker	标记	標記；特徵	17348	[url]	biao ji	2937	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+marker	特征	標記；特徵	17348	[url]	te zheng	7688	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mass	块	量；塊	17370	[url]	kuai	20195	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mass	量	量；塊	17370	[url]	liang	21646	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+material	物质	物質	17419	[url]	wu zhi	7395	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+media	中层	介質；中層	17527	[url]	zhong ceng	631	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+media	介质	介質；中層	17527	[url]	jie zhi	621	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+medicine	内科学	醫學；內科學；藥物	17629	[url]	nei ke xue	62	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+medicine	药物	醫學；內科學；藥物	17629	[url]	yao wu	4996	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+medulla	髓	髓；延髓	17644	[url]	sui	266	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+member	肢	肢；會員	17711	[url]	zhi	664	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+metamorphosis	变形	變形；變態	17921	[url]	bian xing	3996	UK,US	ECDICT n.	false	false	true	new_headword
+metamorphosis	变态	變形；變態	17921	[url]	bian tai	390	UK,US	ECDICT n.	false	false	true	new_headword
+midline	中线	中線	18095	[url]	zhong xian	592	UK,US	ECDICT n.	false	false	true	new_headword
+minor	小的	小的；少量的	18173	[url]	xiao de	13707	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mood	情感	情感	18350	[url]	qing gan	5430	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+motion	运动	運動	18421	[url]	yun dong	46199	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+motor	运动	運動	18436	[url]	yun dong	46199	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+movement	运动	運動；動作	18472	[url]	yun dong	46199	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mucosa	黏膜	黏膜	18506	[url]	nian mo	163	UK,US	ECDICT n.	false	false	true	new_headword
+multiple	多的	多發的；多的	18535	[url]	duo de	29102	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+multiplication	增殖	增殖；繁殖	18549	[url]	zeng zhi	375	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+multiplication	繁殖	增殖；繁殖	18549	[url]	fan zhi	1988	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mutation	突变	突變	18895	[url]	tu bian	626	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+mutilation	切断	切斷	18898	[url]	qie duan	1079	UK,US	ECDICT n.	false	false	true	new_headword
+nail	指甲	指甲；趾甲	19095	[url]	zhi jia	7060	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+nail	趾甲	指甲；趾甲	19095	[url]	zhi jia	8	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+narcotics	麻醉剂	麻醉劑	19129	[url]	ma zui ji	110	UK,US	ECDICT n.	false	false	true	new_headword
+negativity	消极	嗜電子性；消極	19250	[url]	xiao ji	1521	UK,US	ECDICT n.	false	false	true	new_headword
+neonate	新生儿	新生兒	19277	[url]	xin sheng er	409	UK	ECDICT n.	false	true	true	existing_headword_pair
+neoplasm	肿瘤	腫瘤；贅生物	19282	[url]	zhong liu	1348	US	ECDICT n.	false	false	true	new_headword
+nephrosis	肾病	腎病	19298	[url]	shen bing	175	US	ECDICT n.	false	false	true	new_headword
+nickel	镊	鑷	19643	[url]	nie	50	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+node	结	結；結節	19698	[url]	jie	14042	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+node	结节	結；結節	19698	[url]	jie jie	257	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+nodule	小结	小結	19717	[url]	xiao jie	129	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+normal	正常的	正常的	19785	[url]	zheng chang de	6033	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+note	符号	符號；音	19809	[url]	fu hao	4029	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+note	音	符號；音	19809	[url]	yin	17299	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+nuisance	公害	公害	19844	[url]	gong hai	185	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+nursing	哺乳	看護；哺乳	19854	[url]	bu ru	1308	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+nursing	看护	看護；哺乳	19854	[url]	kan hu	533	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+oat	燕麦	燕麥	19888	[url]	yan mai	954	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+obliteration	堵塞	堵塞；消滅	19912	[url]	du se	723	UK,US	ECDICT n.	false	false	true	new_headword
+obliteration	消灭	堵塞；消滅	19912	[url]	xiao mie	4282	UK,US	ECDICT n.	false	false	true	new_headword
+obstruction	梗塞	阻塞；梗塞	19920	[url]	geng se	267	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+obstruction	阻塞	阻塞；梗塞	19920	[url]	zu se	702	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+occlusion	闭塞	咬合；閉塞	19968	[url]	bi se	836	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+oedema	水肿	水腫	20050	[url]	shui zhong	104	UK	ECDICT n.	false	true	true	existing_headword_pair
+opacity	混浊	混濁	20192	[url]	hun zhuo	154	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+organization	有机体	有機體；機構	20358	[url]	you ji ti	63	US	ECDICT n.	false	true	true	existing_headword_pair
+orifice	口	口	20369	[url]	kou	28961	UK,US	ECDICT n.	false	false	true	new_headword
+os	骨	骨	20416	[url]	gu	6345	US	ECDICT n.	false	true	true	existing_headword_pair
+oscillation	摆动	震動；擺動	20455	[url]	bai dong	283	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+oscillation	震动	震動；擺動	20455	[url]	zhen dong	1123	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+oxygenation	氧化	氧合作用；氧化	20680	[url]	yang hua	3497	UK	ECDICT n.	false	false	true	new_headword
+palisade	栅栏	柵欄；柵狀排列	20789	[url]	zha lan	418	UK,US	ECDICT n.	false	false	true	new_headword
+panic	恐惧	恐懼	20879	[url]	kong ju	6509	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+papilla	乳突	乳頭；乳突	20906	[url]	ru tu	83	UK	ECDICT n.	false	true	true	existing_headword_pair
+parallelism	平行	平行	21062	[url]	ping xing	2562	US	ECDICT n.	false	true	true	existing_headword_pair
+parotid	腮腺	腮腺	21232	[url]	sai xian	10	UK	ECDICT n.	false	false	true	new_headword
+passage	路	通道；路	21308	[url]	lu	63513	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+patch	斑	斑	21335	[url]	ban	5012	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pathway	路径	路徑	21374	[url]	lu jing	1892	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pattern	型	型；範型	21376	[url]	xing	43103	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+paucity	缺乏	缺乏	21382	[url]	que fa	6458	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pedigree	系谱	系譜	21429	[url]	xi pu	199	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+peg	栓	釘；栓；樁	21439	[url]	shuan	1100	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+peg	桩	釘；栓；樁	21439	[url]	zhuang	1520	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+peg	钉	釘；栓；樁	21439	[url]	ding	1885	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+perforation	穿孔	穿孔	21552	[url]	chuan kong	315	UK,US	ECDICT n.	false	false	true	new_headword
+peri	周边	周邊	21564	[url]	zhou bian	9492	UK	ECDICT n.	false	false	true	new_headword
+pertussis	百日咳	百日咳	21825	[url]	bai ri ke	47	UK,US	ECDICT n.	false	false	true	new_headword
+perversion	失常	倒錯；失常	21826	[url]	shi chang	198	UK,US	ECDICT n.	false	false	true	new_headword
+pesticide	杀虫剂	殺蟲劑	21834	[url]	sha chong ji	281	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+phage	噬菌体	噬菌體	21872	[url]	shi jun ti	105	UK,US	ECDICT n.	false	false	true	new_headword
+phallus	阴茎	陰莖	21902	[url]	yin jing	530	UK	ECDICT n.	false	false	true	new_headword
+phantom	幻觉	幻象；幻覺	21903	[url]	huan jue	1622	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+phantom	幻象	幻象；幻覺	21903	[url]	huan xiang	399	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+phase	期	期；相	21932	[url]	qi	28676	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+phenol	石炭酸	酚；石炭酸	21936	[url]	shi tan suan	6	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+photo	光	光	22018	[url]	guang	47644	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+phylum	门	門	22106	[url]	men	42711	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+physician	医生	醫生	22125	[url]	yi sheng	21572	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+physiotherapy	物理治疗	物理治療	22145	[url]	wu li zhi liao	148	UK	ECDICT n.	false	true	true	existing_headword_pair
+pier	支柱	支柱	22178	[url]	zhi zhu	665	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pinna	耳廓	耳廓	22293	[url]	er kuo	33	UK	ECDICT n.	false	false	true	new_headword
+pitch	沥青	瀝青	22326	[url]	li qing	372	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pitting	凹陷	壓陷；凹陷	22336	[url]	ao xian	348	UK,US	ECDICT n.	false	false	true	new_headword
+plaque	斑	斑	22468	[url]	ban	5012	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+plate	板	板	22521	[url]	ban	11459	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+plateau	平台	平台；高原	22523	[url]	ping tai	14075	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+plates	板	板	22534	[url]	ban	11459	UK,US	ECDICT n.	false	false	true	new_headword
+plucking	摘除	摘除	22672	[url]	zhai chu	100	UK,US	ECDICT n.	false	false	true	new_headword
+poly	多的	多的	22767	[url]	duo de	29102	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pomade	发油	髮油	22876	[url]	fa you	90	UK	ECDICT n.	false	false	true	new_headword
+pool	池	池	22890	[url]	chi	6549	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pore	孔	孔	22906	[url]	kong	11577	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+posterior	后的	後的	22980	[url]	hou de	16935	UK,US	ECDICT n.	false	false	true	new_headword
+power	能力	力；能力	23169	[url]	neng li	30601	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+practice	行医	實習；行醫	23173	[url]	xing yi	283	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+precipitation	沉淀	沉澱	23191	[url]	chen dian	1281	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pregnancy	妊娠	妊娠；懷孕	23209	[url]	ren shen	517	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pregnancy	怀孕	妊娠；懷孕	23209	[url]	huai yun	1594	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+premature	早产儿	過早的；早產兒	23228	[url]	zao chan er	89	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+preparation	准备	準備	23261	[url]	zhun bei	85828	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+probe	探头	探針；探子；探頭	23414	[url]	tan tou	181	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+probe	探子	探針；探子；探頭	23414	[url]	tan zi	19	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+procedure	处置	處置；程序；步驟	23415	[url]	chu zhi	1305	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+procedure	步骤	處置；程序；步驟	23415	[url]	bu zhou	984	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+process	突	突	23417	[url]	tu	2365	US	ECDICT n.	false	true	true	existing_headword_pair
+proconsul	类人猿	類人猿	23421	[url]	lei ren yuan	58	UK,US	ECDICT n.	false	false	true	new_headword
+projection	投射	投射	23474	[url]	tou she	421	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+proliferation	增生	增生	23494	[url]	zeng sheng	310	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+promotion	促进	促進；啟動	23508	[url]	cu jin	6457	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+promotion	启动	促進；啟動	23508	[url]	qi dong	5475	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+protrusion	突出	突出	23614	[url]	tu chu	4158	UK	ECDICT n.	false	true	true	existing_headword_pair
+psychosis	精神病	精神病；精神變態	23812	[url]	jing shen bing	902	UK,US	ECDICT n.	false	false	true	new_headword
+pulp	髓	髓	23940	[url]	sui	266	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pulsation	搏动	搏動	23952	[url]	bo dong	12	UK	ECDICT n.	false	false	true	new_headword
+puncture	刺伤	穿刺；刺傷	23975	[url]	ci shang	346	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+pyrexia	发热	發熱	24140	[url]	fa re	1598	UK	ECDICT n.	false	false	true	new_headword
+quiet	宁静	靜的；寧靜	24184	[url]	ning jing	1226	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+quills	羽毛	羽毛	24187	[url]	yu mao	1171	UK	ECDICT n.	false	false	true	new_headword
+radiation	放射	輻射；放射	24238	[url]	fang she	594	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+ragweed	猪草	豬草	24296	[url]	zhu cao	6	UK,US	ECDICT n.	false	false	true	new_headword
+rate	等级	速率；等級	24335	[url]	deng ji	5181	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+ratio	比例	比率；比例	24342	[url]	bi li	6328	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+recombinant	重组	重組	24394	[url]	chong zu	2331	US	ECDICT n.	false	true	true	existing_headword_pair
+reconstruction	改建	改建	24397	[url]	gai jian	3739	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+recovery	复原	恢復；復原	24401	[url]	fu yuan	989	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reducing	还原	還原	24467	[url]	huan yuan	2053	UK,US	ECDICT n.	false	false	true	new_headword
+reduction	减缩	減縮；還原；整復	24473	[url]	jian suo	17	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reduction	整复	減縮；還原；整復	24473	[url]	zheng fu	35	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reduction	还原	減縮；還原；整復	24473	[url]	huan yuan	2053	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reel	摇摆	蹣跚；搖擺	24479	[url]	yao bai	338	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reel	蹒跚	蹣跚；搖擺	24479	[url]	pan shan	38	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reentry	回路	迴路；再迴旋	24482	[url]	hui lu	1182	US	ECDICT n.	false	false	true	new_headword
+reflux	回流	逆流；回流	24505	[url]	hui liu	338	UK,US	ECDICT n.	false	false	true	new_headword
+reflux	逆流	逆流；回流	24505	[url]	ni liu	245	UK,US	ECDICT n.	false	false	true	new_headword
+refrigeration	冷却	冷卻	24507	[url]	leng que	1427	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+regeneration	再生	再生	24513	[url]	zai sheng	1048	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+region	区	部；區	24515	[url]	qu	170948	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+region	部	部；區	24515	[url]	bu	134687	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+register	音域	註冊；登記；音域	24522	[url]	yin yu	299	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+regular	正常的	規則的；正常的	24526	[url]	zheng chang de	6033	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+regulation	调节	調節	24528	[url]	tiao jie	3365	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+regurgitation	回流	逆流；回流	24534	[url]	hui liu	338	UK	ECDICT n.	false	false	true	new_headword
+regurgitation	逆流	逆流；回流	24534	[url]	ni liu	245	UK	ECDICT n.	false	false	true	new_headword
+rehabilitation	复健	復健	24537	[url]	fu jian	245	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+rejection	排斥	排斥	24552	[url]	pai chi	1109	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+relapse	复发	復發；再發	24553	[url]	fu fa	362	US	ECDICT n.	false	true	true	existing_headword_pair
+relaxation	弛缓	弛緩；鬆弛	24564	[url]	chi huan	11	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+relaxation	松弛	弛緩；鬆弛	24564	[url]	song chi	376	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+relief	救助	救助；緩解	24572	[url]	jiu zhu	1391	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+relief	缓解	救助；緩解	24572	[url]	huan jie	2380	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+remedy	药	治療物；藥	24574	[url]	yao	19185	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+remnant	残留	殘留；殘留物	24576	[url]	can liu	996	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+replacement	替代	置換；替代	24622	[url]	ti dai	4207	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+replacement	置换	置換；替代	24622	[url]	zhi huan	484	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reposition	复位	復位；放回	24630	[url]	fu wei	197	UK,US	ECDICT n.	false	false	true	new_headword
+reptiles	爬虫类	爬蟲類	24632	[url]	pa chong lei	89	UK,US	ECDICT n.	false	false	true	new_headword
+requirement	需要	需要；需要量	24633	[url]	xu yao	103142	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reserve	储量	儲備；儲量	24637	[url]	chu liang	171	US	ECDICT n.	false	true	true	existing_headword_pair
+resonance	反响	反響	24651	[url]	fan xiang	697	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+restoration	恢复	恢復	24695	[url]	hui fu	18517	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+restriction	限制	限制	24697	[url]	xian zhi	12454	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+resuscitation	复苏	復甦	24703	[url]	fu su	411	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+retardation	迟缓	遲緩	24708	[url]	chi huan	247	UK,US	ECDICT n.	false	false	true	new_headword
+retention	保留	保留；滯留	24716	[url]	bao liu	9137	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+retention	滞留	保留；滯留	24716	[url]	zhi liu	805	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+reticulum	网	網	24758	[url]	wang	25173	UK	ECDICT n.	false	true	true	existing_headword_pair
+reversal	逆转	翻轉；逆轉	24816	[url]	ni zhuan	1119	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+revolution	回转	繞轉；迴轉	24832	[url]	hui zhuan	452	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+rigidity	僵硬	僵硬	24985	[url]	jiang ying	652	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+rim	边缘	邊緣	24989	[url]	bian yuan	3970	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+risk	危险	危險	25011	[url]	wei xian	10896	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+rod	杆	桿	25029	[url]	gan	3882	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+roof	盖	頂；蓋	25058	[url]	gai	18456	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+roof	顶	頂；蓋	25058	[url]	ding	15049	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+rotunda	圆形	圓形	25108	[url]	yuan xing	2257	UK,US	ECDICT n.	false	false	true	new_headword
+rubbing	摩擦	摩擦	25143	[url]	mo ca	1490	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+rump	臀部	臀部	25173	[url]	tun bu	236	UK,US	ECDICT n.	false	false	true	new_headword
+rupture	破裂	破裂	25178	[url]	po lie	1172	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+sac	囊	囊	25208	[url]	nang	2478	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+scab	疥癣	疥癬	25389	[url]	jie xuan	7	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+scarlatina	猩红热	猩紅熱	25424	[url]	xing hong re	24	UK	ECDICT n.	false	false	true	new_headword
+sclerosis	硬化	硬化	25540	[url]	ying hua	256	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+section	切片	切面；切片	25669	[url]	qie pian	479	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+segmentation	分节	分節；分裂	25689	[url]	fen jie	78	UK,US	ECDICT n.	false	false	true	new_headword
+segmentation	分裂	分節；分裂	25689	[url]	fen lie	2936	UK,US	ECDICT n.	false	false	true	new_headword
+sense	觉	覺；感覺	25769	[url]	jue	12405	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+separation	分离	分離	25806	[url]	fen li	4662	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+shaft	干	幹	25914	[url]	gan	48441	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+shampoos	洗发精	洗髮精	25920	[url]	xi fa jing	46	UK,US	ECDICT n.	false	false	true	new_headword
+shedding	脱落	脫落	25929	[url]	tuo luo	737	UK,US	ECDICT n.	false	false	true	new_headword
+sheet	表格	床單；表格；片狀	25936	[url]	biao ge	1027	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+shellfish	贝	貝	25941	[url]	bei	23999	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+shunt	分流	分流	25988	[url]	fen liu	708	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+sickness	病	病	26006	[url]	bing	25470	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+simple	单纯的	單純的	26056	[url]	dan chun de	3258	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+situation	地位	處境；地位	26132	[url]	di wei	9354	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+situs	位置	位置	26135	[url]	wei zhi	24695	UK,US	ECDICT n.	false	false	true	new_headword
+slit	裂隙	裂隙	26201	[url]	lie xi	82	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+smoking	抽烟	抽菸	26249	[url]	chou yan	185	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+solution	溶化	溶化	26357	[url]	rong hua	25	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+sore	伤	瘡；傷；痛的	26386	[url]	shang	22934	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+soreness	疼痛	疼痛	26388	[url]	teng tong	1033	UK	ECDICT n.	false	false	true	new_headword
+souffle	杂音	雜音	26390	[url]	za yin	216	US	ECDICT n.	false	false	true	new_headword
+spa	温泉	溫泉	26403	[url]	wen quan	4893	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+space	间隙	間隙；空間	26404	[url]	jian xi	467	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+special	特别的	特別的	26437	[url]	te bie de	5168	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+spirit	精油	精神；酒精製劑；精油	26596	[url]	jing you	634	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+splint	夹	夾板；夾；副木	26635	[url]	jia	6853	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+split	隙	隙	26641	[url]	xi	304	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+spot	点	斑；點	26714	[url]	dian	436781	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+spur	骨刺	骨刺	26735	[url]	gu ci	28	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stage	期	期	26812	[url]	qi	28676	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stain	染料	染色；染料	26823	[url]	ran liao	435	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stalk	柄	莖；蒂；柄	26827	[url]	bing	2379	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stalk	茎	莖；蒂；柄	26827	[url]	jing	1361	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stalk	蒂	莖；蒂；柄	26827	[url]	di	15471	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stasis	停滞	鬱滯；停滯	26867	[url]	ting zhi	464	UK	ECDICT n.	false	true	true	existing_headword_pair
+stature	身高	身高	26885	[url]	shen gao	14076	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stem	干	幹	26916	[url]	gan	48441	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stenosis	狭窄	狹窄	26922	[url]	xia zhai	1206	UK,US	ECDICT n.	false	false	true	new_headword
+stigma	斑痕	斑痕；汙名	26982	[url]	ban hen	6	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+sting	植物	螫傷{昆蟲；水母；植物；海秋牡}	26995	[url]	zhi wu	15428	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+sting	水母	螫傷{昆蟲；水母；植物；海秋牡}	26995	[url]	shui mu	750	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stoma	口	口；孔	27012	[url]	kou	28961	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stoma	孔	口；孔	27012	[url]	kong	11577	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stratum	层	層	27050	[url]	ceng	18410	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stream	流	流	27069	[url]	liu	18356	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stress	压力	壓力；應力	27088	[url]	ya li	19602	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stroke	发作	猝發；發作；中風	27133	[url]	fa zuo	1171	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stroke	猝发	猝發；發作；中風	27133	[url]	cu fa	7	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+stroma	基质	基質	27136	[url]	ji zhi	304	US	ECDICT n.	false	false	true	new_headword
+subdivision	亚门	分裂；亞門	27249	[url]	ya men	164	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+subdivision	分裂	分裂；亞門	27249	[url]	fen lie	2936	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+suction	抽吸	抽吸	27361	[url]	chou xi	32	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+suffocation	窒息	窒息	27377	[url]	zhi xi	1497	UK,US	ECDICT n.	false	false	true	new_headword
+sulphur	硫黄	硫黃	27456	[url]	liu huang	43	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+summation	积聚	積聚	27463	[url]	ji ju	146	UK,US	ECDICT n.	false	false	true	new_headword
+superior	上的	上的	27507	[url]	shang de	49399	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+support	护具	支持；護具	27587	[url]	hu ju	125	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+suppression	抑制	抑制	27595	[url]	yi zhi	2018	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+survival	存活	生存；存活	27685	[url]	cun huo	1346	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+survival	生存	生存；存活	27685	[url]	sheng cun	5717	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+suture	缝	縫；縫合	27702	[url]	feng	3013	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+swab	擦拭	擦拭	27705	[url]	ca shi	56	UK,US	ECDICT n.	false	false	true	new_headword
+swarm	群集	群集	27710	[url]	qun ji	63	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+swelling	肿胀	腫脹	27736	[url]	zhong zhang	217	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+symmetry	对称	對稱	27755	[url]	dui chen	2761	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+synthetic	合成	合成	27845	[url]	he cheng	4076	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+systole	收缩	收縮	27926	[url]	shou suo	824	UK	ECDICT n.	false	true	true	existing_headword_pair
+table	手术台	表格；板；手術台	27955	[url]	shou shu tai	12	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+table	板	表格；板；手術台	27955	[url]	ban	11459	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tache	斑	斑；點	27957	[url]	ban	5012	UK	ECDICT n.	false	false	true	new_headword
+tache	点	斑；點	27957	[url]	dian	436781	UK	ECDICT n.	false	false	true	new_headword
+tarsus	跗骨	跗骨	28035	[url]	fu gu	55	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tears	泪	淚	28066	[url]	lei	6642	US	ECDICT n.	false	true	true	existing_headword_pair
+tent	幕	塞條；幕	28152	[url]	mu	3219	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+term	足月	足月	28166	[url]	zu yue	144	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+termination	终止	終止；終端	28178	[url]	zhong zhi	2957	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+termination	终端	終止；終端	28178	[url]	zhong duan	847	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+test	检查	試驗；檢查	28184	[url]	jian cha	10063	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+theory	假说	理論；假說	28253	[url]	jia shuo	700	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+therapy	治疗	治療	28260	[url]	zhi liao	13129	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+thrill	震颤	震顫	28354	[url]	zhen chan	42	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+thrombosis	栓塞	栓塞	28383	[url]	shuan se	122	UK,US	ECDICT n.	false	false	true	new_headword
+tic	抽搐	抽搐	28450	[url]	chou chu	79	UK,US	ECDICT n.	false	false	true	new_headword
+tincture	酊	酊	28472	[url]	ding	128	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tip	尖	尖	28486	[url]	jian	7456	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tissue	组织	組織	28487	[url]	zu zhi	51880	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tract	径	徑；束	28644	[url]	jing	1945	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tract	束	徑；束	28644	[url]	shu	1855	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+transcription	转录	轉錄	28685	[url]	zhuan lu	338	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+transduction	传导	傳導	28686	[url]	chuan dao	313	UK	ECDICT n.	false	false	true	new_headword
+transfusion	输血	轉輸；輸血	28690	[url]	shu xue	216	UK,US	ECDICT n.	false	false	true	new_headword
+transition	转变	轉變；過渡	28700	[url]	zhuan bian	2848	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+transmission	传	傳；傳染	28714	[url]	chuan	19425	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+transmission	传染	傳；傳染	28714	[url]	chuan ran	2262	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+transplantation	移植	移植	28722	[url]	yi zhi	1096	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+transposition	错位	錯位	28726	[url]	cuo wei	62	UK	ECDICT n.	false	true	true	existing_headword_pair
+treatment	治疗	治療	28821	[url]	zhi liao	13129	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tremor	震颤	震顫	28828	[url]	zhen chan	42	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+trial	试验	試驗	28876	[url]	shi yan	5308	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tuba	管	管	29068	[url]	guan	35124	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tube	管	管	29084	[url]	guan	35124	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tuft	丛	叢	29152	[url]	cong	1661	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tumor	肿块	腫塊	29158	[url]	zhong kuai	61	US	ECDICT n.	false	true	true	existing_headword_pair
+tumour	肿瘤	腫瘤	29166	[url]	zhong liu	1348	UK	ECDICT n.	false	true	true	existing_headword_pair
+tunnel	管道	隧道；管道	29173	[url]	guan dao	1685	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+twilight	朦胧	朦朧	29192	[url]	meng long	1534	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+twin	双胞胎	雙胞胎	29197	[url]	shuang bao tai	3128	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+tympanum	鼓膜	鼓室；鼓膜	29218	[url]	gu mo	48	UK,US	ECDICT n.	false	false	true	new_headword
+ulceration	溃疡	潰瘍	29244	[url]	kui yang	121	UK,US	ECDICT n.	false	false	true	new_headword
+union	愈合	癒合；接合	29340	[url]	yu he	247	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+union	接合	癒合；接合	29340	[url]	jie he	298	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+urgency	急迫	急迫；緊急	29422	[url]	ji po	123	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+urgency	紧急	急迫；緊急	29422	[url]	jin ji	5617	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+vagina	鞘	陰道；鞘	29550	[url]	qiao	990	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+value	值	值	29584	[url]	zhi	14637	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+valve	瓣	瓣；瓣膜	29585	[url]	ban	1428	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+varicella	水痘	水痘	29610	[url]	shui dou	38	UK	ECDICT n.	false	false	true	new_headword
+variola	天花	痘瘡；天花	29628	[url]	tian hua	387	UK	ECDICT n.	false	false	true	new_headword
+vector	载体	病媒；載體	29691	[url]	zai ti	478	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+velum	帆	帆；蓋	29731	[url]	fan	3245	UK	ECDICT n.	false	false	true	new_headword
+velum	盖	帆；蓋	29731	[url]	gai	18456	UK	ECDICT n.	false	false	true	new_headword
+vena	静脉	靜脈	29733	[url]	jing mai	292	UK,US	ECDICT n.	false	false	true	new_headword
+vent	孔	孔	30030	[url]	kong	11577	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+venter	腹	腹	30032	[url]	fu	2696	US	ECDICT n.	false	false	true	new_headword
+ventilation	换气	換氣；換氣法	30035	[url]	huan qi	42	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+ventricle	室	室	30048	[url]	shi	25644	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+verruca	疣	疣	30114	[url]	you	188	UK	ECDICT n.	false	false	true	new_headword
+vertebra	脊椎	脊椎；椎骨	30143	[url]	ji zhui	560	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+vessel	血管	小管；血管	30211	[url]	xue guan	853	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+violet	紫	紫；紫色染料	30281	[url]	zi	8361	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+viper	蝮蛇	蝮蛇	30283	[url]	fu she	27	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+viscera	内脏	內臟	30305	[url]	nei zang	496	UK	ECDICT n.	false	true	true	existing_headword_pair
+vision	视力	視力；視覺	30324	[url]	shi li	454	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+vomiting	呕吐	嘔吐	30385	[url]	ou tu	428	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+vulva	口	女陰；口	30401	[url]	kou	28961	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+weakness	无力	衰弱；無力	30482	[url]	wu li	3911	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+weakness	衰弱	衰弱；無力	30482	[url]	shuai ruo	276	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+weep	滴水	哭泣；滴水；滴落	30496	[url]	di shui	476	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+weep	滴落	哭泣；滴水；滴落	30496	[url]	di luo	46	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+wheel	轮	輪	30533	[url]	lun	12087	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+wheeze	哮喘	哮喘；喘鳴	30536	[url]	xiao chuan	255	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+white	白色的	白色的	30544	[url]	bai se de	3311	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+wind	胀气	脹氣	30586	[url]	zhang qi	217	US	ECDICT n.	false	true	true	existing_headword_pair
+worm	虫	蟲；蠕蟲	30633	[url]	chong	8919	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+wound	创伤	創傷	30637	[url]	chuang shang	1092	US	ECDICT n.	false	true	true	existing_headword_pair
+wrist	腕	腕	30646	[url]	wan	945	UK,US	ECDICT n.	false	true	true	existing_headword_pair
+zone	区	區	30763	[url]	qu	170948	UK,US	ECDICT n.	false	true	true	existing_headword_pair

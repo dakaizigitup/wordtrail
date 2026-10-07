@@ -1,0 +1,12 @@
+chinese	english	pos	domains	source_glosses	source_entry_ids	source_sense_ids	pinyin	pinyin_frequency	ecdict_rows	review_decision	review_note
+乳头	papilla	n.	medical	papilla	42847	7492198628517046968	ru tou	263	508699	accept	作为解剖学乳头状结构术语收录；与日常 nipple 含义有区别，保留为医学补充译词。
+大脑	cerebrum	n.	medical	cerebrum	42774	7758911917536426195	da nao	3420	124289	accept	与大脑解剖学义项及 ECDICT 同词性整词释义一致。
+浮肿	oedema	n.	medical	oedema	48217	2120069533123191389	fu zhong	322	485592	accept	医学水肿术语；采用英式拼写 oedema，随包有音标。
+灌注	perfuse	v.	medical	to perfuse	68349	3668017061007538982	guan zhu	108	520161	accept	医学动词义项；Wiktionary 与 ECDICT 的完整中文义和词性一致。
+甲状腺肿	goitre	n.	medical	goitre	48937	4429689094925748845	jia zhuang xian zhong	76	299118	accept	甲状腺疾病的明确医学名词；采用英式拼写 goitre。
+疱疹	bleb	n.	medical	bleb	23149	6270956179030511775	pao zhen	151	87394	reject	虽然快照和 ECDICT 有对应，但 bleb 更常指水疱/大疱，可能让一般疱疹误映射为病灶形态词，暂不纳入。
+盲肠	caecum	n.	medical	caecum	22366	1478598756716533072	mang chang	35	107898	accept	明确的解剖学名词；Wiktionary 与 ECDICT 同词性整词释义一致。
+蠕动	peristalsis	n.	medical	peristalsis	76690	437666020749942328	ru dong	235	521430	accept	明确的生理学术语；Wiktionary 与 ECDICT 同词性整词释义一致。
+血尿	haematuria	n.	medical	haematuria	72583	3953377398642644160	xue niao	30	309764	accept	医学检验/症状术语；采用英式拼写 haematuria，随包有音标。
+败血症	septicaemia	n.	medical	septicaemia	64581	6422103428741575198	bai xue zheng	120	625997	accept	疾病名称的明确医学术语；采用英式拼写 septicaemia，随包有音标。
+转移	metastasis	n.	medical	metastasis	42380	4750192540591532756	zhuan yi	7813	436538	accept	在医学病理语境中对应转移灶/转移过程；与源义项及 ECDICT 同词性释义一致。

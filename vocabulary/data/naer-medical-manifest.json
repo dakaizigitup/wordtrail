@@ -1,0 +1,62 @@
+{
+  "batch": "24-naer-medical-academic-terms",
+  "source": {
+    "dataset_id": "4ca6b322-b160-41dd-a16a-02249f540bf8",
+    "resource_id": "7bf30890-e4c4-4e81-9a98-b1d931a20894",
+    "title": "National Academy for Educational Research - Medical Academic Terms",
+    "provider": "National Academy for Educational Research",
+    "published_at": "2026-06-24",
+    "license": "Open Government Data License v1.0",
+    "url": "https://taic.moda.gov.tw/datasets/4ca6b322-b160-41dd-a16a-02249f540bf8",
+    "license_url": "https://data.gov.tw/license",
+    "sha256": "5dfdea2f57d5cb9826006265f73d37d73dadc8dbc205bf317c9ddd09ec859537",
+    "bytes": 1457660,
+    "records": 30797,
+    "note": "The source CSV's per-row 來源網站 field is the literal [url] placeholder; no independent row-level source URL is claimed."
+  },
+  "filters": {
+    "single_token_english": true,
+    "local_ipa_required": true,
+    "ecdict_noun_required": true,
+    "local_pinyin_required": true,
+    "traditional_to_simplified": "OpenCC t2s",
+    "existing_exact_pairs_excluded": true,
+    "candidate_capacity_limit": 8,
+    "manual_review_scope": "new English headwords only; other pairs retained in prefilter for future review"
+  },
+  "counts": {
+    "source_records": 30797,
+    "eligible_unique_new_pairs": 745,
+    "eligible_existing_headword_pairs": 591,
+    "reviewed_new_headword_candidates": 154,
+    "reviewed_new_english_headwords": 136,
+    "accepted_mappings": 57,
+    "rejected_candidates": 12,
+    "deferred_candidates": 85,
+    "accepted_new_english_headwords": 57,
+    "new_medical_tag_memberships": 57
+  },
+  "source_hashes": {
+    "medical-academic-terms-2026-06-24.csv": "5dfdea2f57d5cb9826006265f73d37d73dadc8dbc205bf317c9ddd09ec859537",
+    "dataset.json": "a10f3b993bc6e098ee19a3f693b668f11f3a67bf1518ab6fe518490a67c886ff",
+    "database": "98fef9ba82047d0eaba650c1da074810c135da3c90e1fdb59f2faf197d6b7dd2",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67",
+    "mesh-medical-expansion.tsv": "c8512790a682295f3e57b5fdb9ddb1587a890ae1fb3c013de1d26f48659b2193",
+    "wikidata-medical-expansion.tsv": "3aa5e60abe3dee7a93cfd7962d763ab4310a95792d82e1f14a02acd6101486b6",
+    "wikidata-medical-expansion-2.tsv": "3e95115e99d7ae617328ef06ab413c1786e8a2f84db1057455eb580aab6200a6",
+    "mesh-medical-tags.tsv": "390d0278a86788eb1900877fae3eb21b496ee6a46756f2d4d2f6f1545354029d",
+    "wikidata-medical-tags.tsv": "1f6a5f967eda0d30c4f9022ac49520dba3cfc2555e25c8de7f3912fb194ccfdb",
+    "wikidata-medical-tags-2.tsv": "9ec629b4d96fcbf7b91e4ce914f86e84607e08535502ac9502329a3f1f2130a9"
+  },
+  "outputs": {
+    "24-naer-medical-prefilter.tsv": "5a528c833da4e0d7ca144689af336686d4c672ed19034602cfb57c2723c8e522",
+    "24-naer-medical-candidates.tsv": "b936ecbcc2e3568137a022f71aad1c287883a1fd9cdac9fb35bd110cc9c87ec5",
+    "24-naer-medical-reviewed.tsv": "cd6778df51a8f576384c847652c1c605ab42601d389f197f6b084f1c45f7f209",
+    "naer-medical-expansion.tsv": "27188279a826134bed91cd5d5aaf9a9768be7a3f4e8fa01af97a1a23389e0262",
+    "naer-medical-tags.tsv": "e621de864230b6a08254665da098e82b92c787c803bffb22df3199a292b444de"
+  }
+}

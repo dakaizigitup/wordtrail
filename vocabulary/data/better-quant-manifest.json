@@ -1,0 +1,41 @@
+{
+  "batch": "17-better-quant-business-finance",
+  "upstream": "https://github.com/Tomortec/better-quant-wiki",
+  "commit": "5611485adb669828fcaf704aeb2ce9c8a86886d4",
+  "license": "MIT",
+  "source_file_count": 10,
+  "source_files_sha256": "5cff1e7fce97c7f95c372b68089c0cbd786516922a862a3a72ca15d0760bbd82",
+  "source_file_hashes": {
+    "GLOSSARY.md": "6ce375ceac3e74a6baf4b81cc7c0e2c0b01ab9e803b9a8fea72e816413b8e068",
+    "LICENSE": "5c3aaa4e27ba905a388e3d20fbc11aba4e8b2f7361a56a800272e28a56d2e42a",
+    "src/content/glossary/derivatives.ts": "7e67a920beff8b351330549653907c0e981fba8ac700da87d4339aaccbe30533",
+    "src/content/glossary/macro.ts": "54e88656d9f33b714c5bb9bd52fc8c4a824693d93ba7d8122420734bf4369fa5",
+    "src/content/glossary/markets.ts": "8be7990ba93769cb0dc442c7a9feeb98598e095689e3565c769718db93195b67",
+    "src/content/glossary/pricing.ts": "abf51981863cfbdc0ccf85066f58682f8f1f39150111ad4acb0fa1f70717caf3",
+    "src/content/glossary/probability.ts": "507f5087049c62926a9e8fb17421e4cd5104286e17848a88f3a758b57522959e",
+    "src/content/glossary/statistics.ts": "8e0b4b82018e6d55174cc3c4c7f7f39de9d71076c0804b74f979e673ce850da4",
+    "src/content/glossary/strategies.ts": "0820e414a757fab4181dfa7d0b215ba29ddf9e9d9245d787571fa0a511819582",
+    "src/content/glossary/valuation.ts": "d64afbbab345d91fe4d371fe0c4320dc8655f6c1e8efdc6a2bb2e4f62379c82b"
+  },
+  "source_terms": 211,
+  "pinyin_reachable_terms": 41,
+  "reviewed_candidates": 41,
+  "accepted_mappings": 7,
+  "new_english_headwords": 3,
+  "accepted_business_tag_memberships": 7,
+  "new_business_tag_memberships": 6,
+  "accepted_terms": [
+    "市值 -> capitalization",
+    "复利 -> compounding",
+    "回撤 -> drawdown",
+    "权益 -> equity",
+    "杠杆 -> leverage",
+    "报价 -> quotation",
+    "证券 -> security"
+  ],
+  "expansion_sha256": "f3fff56be103337217ed41a3b0fda1faf8a4a853d1a6ea019a3091e30f5b8a81",
+  "tag_file_sha256": "dfc1a3bd2b81ec4505febab384f4bc1597727593681fb9fcd939be4e2cf12201",
+  "evidence_file_sha256": "3d7f25cfc53ae88f311f43b17ed06c3e4523829bcca603198d124b821447469c",
+  "curation_sha256": "51836a5c8a45c3c8ef473cc380a8daa125595e09c0a8b07e4c5e74fda244eeb5",
+  "runtime_note": "Only seven reviewed bilingual mappings and their business tags enter the compact runtime index; the 211-term glossary, definitions, and review evidence remain outside the keystroke path."
+}

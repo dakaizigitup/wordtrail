@@ -1,0 +1,21 @@
+{
+  "dataset_id": "4ca6b322-b160-41dd-a16a-02249f540bf8",
+  "resource_id": "7bf30890-e4c4-4e81-9a98-b1d931a20894",
+  "title": "國家教育研究院-醫學學術名詞",
+  "title_english": "National Academy for Educational Research - Medical Academic Terms",
+  "provider": "國家教育研究院 / National Academy for Educational Research",
+  "portal": "臺灣主權 AI 訓練語料庫",
+  "dataset_url": "https://taic.moda.gov.tw/datasets/4ca6b322-b160-41dd-a16a-02249f540bf8",
+  "license": "政府資料開放授權條款-第1版 / Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "published_at": "2026-06-24T22:11:13+08:00",
+  "last_modified_at": "2026-06-24T22:11:13+08:00",
+  "source_filename": "國家教育研究院-醫學學術名詞.csv",
+  "format": "CSV UTF-8",
+  "bytes": 1457660,
+  "records": 30797,
+  "token_count_reported_by_portal": 655058,
+  "snapshot_file": "medical-academic-terms-2026-06-24.csv",
+  "snapshot_sha256": "5dfdea2f57d5cb9826006265f73d37d73dadc8dbc205bf317c9ddd09ec859537",
+  "source_note": "The CSV's per-row 來源網站 column contains the literal [url] placeholder, so this project does not claim independent row-level source URLs."
+}

@@ -1,0 +1,8107 @@
+[
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q73984"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "消毒"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "disinfectant"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004202"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q80726"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "等位基因"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "allele"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000483"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q80726"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "等位基因"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "allele"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000483"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q81163"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "聚合物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011108"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q81163"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "聚合物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011108"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q81163"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "聚合物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011108"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q82025"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "角"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "horn"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006733"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q82025"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "角"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "horn"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006733"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q101971"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "疣"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "wart"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014860"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q101971"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "疣"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "wart"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014860"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q101971"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "疣"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "wart"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014860"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q101971"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "疣"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "wart"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014860"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4421"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "森林"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "forest"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D065928"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4421"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "森林"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "forest"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D065928"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q318"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "星系"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "galaxy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q318"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "星系"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "galaxy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q318"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "星系"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "galaxy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q499"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "腋窝"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "armpit"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001365"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q499"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "腋窝"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "armpit"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001365"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3196"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "火"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "fire"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005390"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3196"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "火"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "fire"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005390"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q318"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "星系"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "galaxy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q83323"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "肥料"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "fertilizer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005308"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q103142"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "毛细血管"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "capillary"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002196"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q103142"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "毛细管"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "capillary"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002196"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q103142"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "毛细血管"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "capillary"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002196"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q103142"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "毛细血管"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "capillary"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002196"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7560"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "母親"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mother"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009035"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7560"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "母亲"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mother"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009035"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7565"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "父親"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "father"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005220"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7565"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "父亲"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "father"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005220"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7565"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "父亲"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "father"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005220"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q93189"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "蛋"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "egg as food"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004531"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q93189"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "蛋"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "egg as food"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004531"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q93189"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "蛋"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "egg as food"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004531"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q93189"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "蛋"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "egg as food"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004531"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7565"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "父亲"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "father"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005220"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q105726"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "排尿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "urination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014554"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q105726"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "排尿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "urination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014554"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q105726"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "排尿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "urination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014554"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q105726"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "排尿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "urination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014554"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7560"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "母亲"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mother"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009035"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7560"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "母亲"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mother"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009035"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104541"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "气溶胶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aerosol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000336"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104541"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "气溶胶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aerosol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000336"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104541"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "气溶胶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aerosol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000336"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104541"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "气溶胶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aerosol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000336"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q127995"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "微波"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "microwave"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008872"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q127995"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "微波"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "microwave"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008872"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132501"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "甘油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "glycerol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005990"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132501"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "甘油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "glycerol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005990"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132501"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "甘油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "glycerol"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005990"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4290"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "投资"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "investment"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007449"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7868"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "细胞"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cell"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002477"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7868"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "细胞"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cell"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002477"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7946"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "礦物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mineral"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008903"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q160108"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "睫毛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "eyelashes"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005140"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q160108"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "睫毛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "eyelashes"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005140"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q160108"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "睫毛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "eyelashes"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005140"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q163942"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "纏擾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "stalking"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055807"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q114953"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "中毒"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "poisoning"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011041"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q114953"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "中毒"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "poisoning"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011041"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q116646"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "解剖"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dissection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004210"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q116646"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "解剖"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dissection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004210"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q116646"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "解剖"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dissection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004210"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q116646"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "解剖"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dissection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004210"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q127995"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "微波"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "microwave"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008872"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q127995"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "微波"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "microwave"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008872"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157031"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "基金会"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "foundation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005582"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157031"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "基金会"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "foundation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005582"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157031"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "基金会"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "foundation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005582"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157811"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "美德"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "virtue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D028722"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8068"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "洪灾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "flood"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055868"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8068"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "洪灾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "flood"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055868"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9609"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "靜脈"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "vein"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014680"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157811"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "美德"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "virtue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D028722"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157811"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "美德"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "virtue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D028722"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157811"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "美德"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "virtue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D028722"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q160108"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "睫毛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "eyelashes"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005140"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q177171"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "脆弱综合征"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "frailty syndrome"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000073496"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q177171"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "脆弱综合征"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "frailty syndrome"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000073496"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q178066"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "性冲动"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "libido"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007989"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q178066"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "性冲动"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "libido"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007989"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q178066"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "性冲动"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "libido"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007989"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179057"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "爆炸"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "explosion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005107"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179643"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "潜水"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "underwater diving"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004242"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179643"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "潜水"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "underwater diving"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004242"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179643"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "潜水"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "underwater diving"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004242"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179643"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "潜水"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "underwater diving"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004242"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179965"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "腦電圖"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "electroencephalography"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179965"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "脑电图"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "electroencephalography"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179965"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "脑电图"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "electroencephalography"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179965"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "脑电图"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "electroencephalography"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8081"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "龍捲風"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tornado"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055869"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8081"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "龙卷风"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tornado"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055869"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9415"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "情绪"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emotion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004644"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q166231"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "感染"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "infection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007239"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q166231"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "感染"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "infection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007239"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q166231"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "感染"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "infection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007239"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q166231"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "感染"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "infection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007239"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9415"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "情绪"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emotion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004644"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9415"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "情绪"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emotion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004644"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9415"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "情绪"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emotion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004644"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q170145"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "受精卵"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "zygote"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D015053"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q170145"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "受精卵"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "zygote"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D015053"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q170145"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "受精卵"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "zygote"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D015053"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q170145"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "受精卵"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "zygote"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D015053"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132621"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "肾上腺素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "epinephrine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004837"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132621"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "肾上腺素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "epinephrine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004837"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132621"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "肾上腺素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "epinephrine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004837"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132621"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "肾上腺素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "epinephrine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004837"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q152596"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "奶嘴"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pacifier"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D041361"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q152596"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "奶嘴"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pacifier"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D041361"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q152596"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "奶嘴"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pacifier"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D041361"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q152596"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "奶嘴"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pacifier"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D041361"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q157031"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "基金会"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "foundation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005582"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q134808"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "疫苗"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "vaccine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014612"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q134808"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "疫苗"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "vaccine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014612"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q134808"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "疫苗"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "vaccine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014612"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q134808"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "疫苗"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "vaccine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014612"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q143720"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "牙冠"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "crown"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003442"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q178066"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "性冲动"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "libido"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007989"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179057"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "爆炸"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "explosion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005107"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179057"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "爆炸"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "explosion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005107"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q179057"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "爆炸"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "explosion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005107"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11364"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "激素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hormone"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006728"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11364"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "激素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hormone"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006728"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q181898"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "聚合"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymerization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D058105"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q181898"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "聚合"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymerization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D058105"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q181898"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "聚合"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymerization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D058105"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q181898"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "聚合"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "polymerization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D058105"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q167903"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "山崩"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "landslide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055876"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q167903"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "山体滑坡"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "landslide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055876"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q167903"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "山体滑坡"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "landslide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055876"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q167903"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "山崩"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "landslide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D055876"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11358"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "醣類"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "carbohydrate"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002241"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11364"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "激素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hormone"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006728"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q182593"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "錯覺"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "illusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007088"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q182593"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "错觉"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "illusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007088"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q182593"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "错觉"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "illusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007088"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q182593"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "错觉"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "illusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007088"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q184240"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "冷发光"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "luminescence"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049449"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q184240"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "冷发光"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "luminescence"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049449"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q184240"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "冷发光"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "luminescence"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049449"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q184240"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "冷发光"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "luminescence"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049449"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q180254"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "吸附"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "adsorption"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000327"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q180254"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "吸附"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "adsorption"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000327"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q180254"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "吸附"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "adsorption"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000327"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q180254"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "吸附"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "adsorption"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000327"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11432"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "气体"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gas"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005740"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11432"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "气体"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gas"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005740"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187634"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "乳浊液"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emulsion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004655"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187634"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "乳浊液"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emulsion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004655"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187634"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "乳浊液"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emulsion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004655"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187634"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "乳浊液"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emulsion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004655"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q189643"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "妄想"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "delusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003702"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q189643"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "妄想"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "delusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003702"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186209"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "焦油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tar"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013638"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186209"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "焦油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tar"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013638"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186209"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "焦油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tar"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013638"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186209"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "焦油"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tar"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013638"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9644"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "关节"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "joint"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007596"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16343"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "锁骨"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "clavicle"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002968"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16343"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "锁骨"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "clavicle"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002968"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16408"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "口臭"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "halitosis"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006209"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11474"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "塑料"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "plastic"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010969"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11474"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "塑料"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "plastic"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010969"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11432"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "气体"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gas"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005740"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187181"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "突触"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "synapse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187181"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "突触"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "synapse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187181"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "突触"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "synapse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q187181"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "突触"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "synapse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013569"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186360"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "護理人員"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "nurse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009726"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186360"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "护理人员"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "nurse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009726"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186360"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "护理人员"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "nurse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009726"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186360"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "护理人员"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "nurse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009726"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186676"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "口吃"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "stuttering"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013342"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186676"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "口吃"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "stuttering"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013342"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186676"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "口吃"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "stuttering"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013342"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q186676"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "口吃"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "stuttering"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013342"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q193840"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "窒息"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "asphyxia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001237"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q193840"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "窒息"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "asphyxia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001237"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q193840"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "窒息"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "asphyxia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001237"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q193840"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "窒息"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "asphyxia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001237"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q189643"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "妄想"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "delusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003702"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q189643"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "妄想"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "delusion"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003702"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q193211"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "囊腫"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cyst"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003560"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19035"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "泄殖腔"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cloaca"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002988"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19625"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "犬齒"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "canine tooth"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003481"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19625"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "犬齿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "canine tooth"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003481"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19625"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "犬齿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "canine tooth"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003481"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19625"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "犬齿"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "canine tooth"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003481"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q24384"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "季节"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "season"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012621"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q24384"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "季节"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "season"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012621"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q24384"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "季节"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "season"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012621"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q24384"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "季节"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "season"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012621"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25276"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "同位素"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "isotope"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007554"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204015"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "排便"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "defecation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003672"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204015"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "排便"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "defecation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003672"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204015"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "排便"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "defecation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003672"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204015"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "排便"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "defecation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003672"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204933"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "斬首"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decapitation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049248"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204933"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "斩首"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decapitation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049248"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204933"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "斩首"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decapitation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049248"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204933"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "斩首"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decapitation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049248"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q216211"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "攣縮性"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hypertrophy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006984"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q216211"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "过度增殖"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hypertrophy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006984"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q239762"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "向性"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tropism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D018523"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q239762"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "向性"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tropism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D018523"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q239762"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "向性"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tropism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D018523"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q239762"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "向性"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tropism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D018523"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q194101"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "侏儒症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dwarfism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004392"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q194101"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "侏儒症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dwarfism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004392"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q194101"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "侏儒症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dwarfism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004392"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q194101"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "侏儒症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dwarfism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004392"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q244772"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "过滤"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "filtration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005374"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q244772"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "过滤"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "filtration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005374"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q244772"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "过滤"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "filtration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005374"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q244772"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "过滤"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "filtration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005374"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q326277"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "阳离子"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002412"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q371174"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "手势"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gesture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005868"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q371174"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "手势"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gesture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005868"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q371174"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "手势"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gesture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005868"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q371174"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "手势"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gesture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005868"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q574491"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "嚴重血腫"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bruise"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003288"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q574491"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "瘀斑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bruise"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003288"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q617079"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "结石"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "calculus"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002137"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q617079"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "结石"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "calculus"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002137"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q30953"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "骨痛熱症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dengue fever"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003715"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q30953"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "登革热"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dengue fever"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003715"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q30953"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "登革热"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dengue fever"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003715"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q35986"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "美学"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aesthetics"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004954"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q35986"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "美学"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aesthetics"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004954"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q35986"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "美学"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "aesthetics"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004954"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q36348"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "梦"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dream"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004325"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q36348"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "梦"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dream"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004325"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q202875"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "谈判"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "negotiation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017008"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q202875"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "谈判"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "negotiation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017008"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q202875"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "谈判"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "negotiation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017008"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q202875"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "谈判"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "negotiation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017008"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q326277"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "阳离子"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002412"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q338924"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "杏仁核"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "amygdala"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000679"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q338924"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "杏仁核"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "amygdala"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000679"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q338924"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "杏仁核"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "amygdala"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000679"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q338924"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "杏仁核"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "amygdala"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000679"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q341045"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "正念"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mindfulness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D064866"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q422423"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "溴化物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bromide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001965"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q422423"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "溴化物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bromide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001965"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q422423"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "溴化物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bromide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001965"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q422423"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "溴化物"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bromide"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001965"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q484785"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "止痛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "analgesia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000698"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q495626"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "絞纏"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "constriction"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003250"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q495626"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "缠绕"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "constriction"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003250"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q26100"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "悬浊液"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "suspension"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013535"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q341045"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "正念"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mindfulness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D064866"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q341045"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "正念"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mindfulness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D064866"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q356405"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "失血過多"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bloodletting"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001815"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q501829"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "巨人症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gigantism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005877"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q501829"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "巨人症"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gigantism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005877"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q519410"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "膠囊劑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "capsule"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002214"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q568378"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "消瘦"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "emaciation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004614"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q36348"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "夢"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dream"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004325"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q708676"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "慈善组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "charitable organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q708676"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "慈善组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "charitable organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q708676"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "慈善组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "charitable organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002608"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q719426"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "哺乳"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "lactation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007774"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q719426"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "哺乳"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "lactation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007774"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q619800"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "手术缝合线"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "surgical suture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013537"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q619800"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "手术缝合线"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "surgical suture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013537"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q621414"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "醫療溫度計"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "clinical thermometer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013821"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q621414"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "医疗温度计"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "clinical thermometer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013821"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q621414"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "医疗温度计"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "clinical thermometer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013821"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q621414"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "医疗温度计"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "clinical thermometer"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013821"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q622772"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "垃圾焚烧"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "incineration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017745"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q622772"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "垃圾焚烧"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "incineration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017745"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q674328"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "拒绝社交"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "social rejection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000091488"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q38867"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "激光器"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "laser"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007834"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q38867"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "激光器"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "laser"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007834"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39631"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "医生"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "physician"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010820"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q920550"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "自我肯定"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "assertiveness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001242"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q948144"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "合理化"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "rationalization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011908"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q999981"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "个人仪容"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "grooming behavior"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006120"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q999981"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "个人仪容"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "grooming behavior"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006120"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q999981"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "个人仪容"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "grooming behavior"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006120"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39631"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "医生"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "physician"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010820"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39631"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "医生"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "physician"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010820"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q877096"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "白熾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "incandescence"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049450"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q877096"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "白炽"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "incandescence"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D049450"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q913572"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "感覺毛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "whiskers"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014738"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q913572"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "感觉毛"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "whiskers"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014738"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q840343"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "吸入"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "inhalation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001239"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q840343"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "吸入"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "inhalation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001239"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q868575"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "賦權"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "empowerment"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000079102"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q868575"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "赋权"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "empowerment"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000079102"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1136347"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "燒灼"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cauterization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002425"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1136347"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "烧烙术"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cauterization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002425"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1136347"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "烧灼"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cauterization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002425"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1142879"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "嘔吐反射"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "gag reflex"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005683"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2197000"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "呼出"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "exhalation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D045853"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2260058"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "發冷"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "chills"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D023341"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1060890"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "打冷顫"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "shivering"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012768"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1060890"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "shiver"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "shivering"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012768"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1077064"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "慈善"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "charity"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D026686"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1077064"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "慈善"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "charity"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D026686"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39594"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "湾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bay"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D061006"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39594"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "湾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bay"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D061006"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39594"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "湾"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "bay"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D061006"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39631"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "医生"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "physician"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010820"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q730302"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "顴骨弓"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "zygomatic arch"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D015050"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q754424"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "呼吸中止"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "apnea"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D001049"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q827742"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "咀嚼"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mastication"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008409"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q829080"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "专业技术协会"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "professional association"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012952"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q829080"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "专业技术协会"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "professional association"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012952"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q835051"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "細胞增生"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hyperplasia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006965"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q44512"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "流行病"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "epidemic"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D058872"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q44602"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "禁食"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "fasting"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005215"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1413962"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "经络"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "meridian"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D016740"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1420643"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "累犯"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "recidivism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000075665"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1420643"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "累犯"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "recidivism"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000075665"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1441519"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "意志"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "volition"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014836"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1441519"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "意志"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "volition"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014836"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q39888"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "韧带"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "ligament"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008022"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1480291"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "攣縮"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "contracture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003286"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1480291"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "挛缩"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "contracture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003286"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1480291"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "挛缩"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "contracture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003286"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1551965"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "手術釘"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "surgical staples"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D013537"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1587185"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "生物膜"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "biological membrane"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008566"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48228"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "眼睑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "eyelid"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005143"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48228"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "眼睑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "eyelid"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005143"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48324"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "道德"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "morality"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009014"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48422"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "屍體"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "corpse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002102"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48422"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "尸体"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "corpse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D002102"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48324"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "道德"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "morality"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009014"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2336398"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "面色蒼白"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pallor"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010167"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2336398"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "皮膚蒼白"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pallor"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010167"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2336398"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "皮膚蒼白"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pallor"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010167"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q60915"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "熏蒸"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "fumigation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005651"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1196129"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "配偶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "spouse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D018454"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1196129"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "配偶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "spouse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D018454"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1379223"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "授精"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "insemination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007314"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1379223"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "授精"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "insemination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007314"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1413962"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "经络"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "meridian"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D016740"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q54237"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "渗透"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "osmosis"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009995"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q40397"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "生物組織"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tissue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014024"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q40397"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "生物组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tissue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014024"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q40397"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "生物组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "tissue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014024"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q43229"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009938"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q43229"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009938"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2697787"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "脫髮"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "alopecia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000505"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3149921"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "無禮行為"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "incivility"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000075282"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3480271"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "專利藥"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "patent medicine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009671"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3480271"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "专利药品"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "patent medicine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009671"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3480271"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "专利药品"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "patent medicine"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009671"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3503392"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "电镀"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "electroplating"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004595"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q43229"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009938"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1780322"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "商品化"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "commodification"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D032821"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2125439"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "留置導管"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "cannula"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000072601"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q43229"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "组织"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "organization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009938"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4004659"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "软膏剂"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Unguent"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009824"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4620674"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "生殖器"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "sex organ"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005835"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4620674"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "生殖器"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "sex organ"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D005835"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4990531"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "麻醉藥"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "anesthetic"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000777"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5215707"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "头垢皮屑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dander"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D063607"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5215707"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "头垢皮屑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dander"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D063607"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5215707"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "头垢皮屑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dander"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D063607"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3839081"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "灾害"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "disaster"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004190"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3839081"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "灾害"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "disaster"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004190"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3839081"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "灾害"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "disaster"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004190"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3930506"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "嘶哑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hoarseness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006685"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3930506"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "嘶哑"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "hoarseness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D006685"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12829165"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "喪失知覺"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "unconsciousness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014474"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12829165"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "失去意识"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "unconsciousness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014474"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16675060"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "丧偶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "widowhood"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017805"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16675060"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "丧偶"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "widowhood"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D017805"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17008689"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "去污染"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decontamination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003666"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17008689"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "去污染"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decontamination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003666"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17008689"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "除污"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "decontamination"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003666"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19386377"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "名录"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "register"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012042"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q30600878"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "耦合连结"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "copulation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003307"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q67378402"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "董事"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "trustee"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014341"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q67378402"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "董事"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "trustee"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014341"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13107184"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "藥房"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pharmacy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010594"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13107184"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "药房"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pharmacy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010594"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13107184"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "药房"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pharmacy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010594"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13107184"
+    },
+    "zh": {
+      "xml:lang": "zh-sg",
+      "type": "literal",
+      "value": "药房"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pharmacy"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010594"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q14820885"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "射精"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "ejaculation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004542"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q164654"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "penile–vaginal intercourse"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003075"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q991932"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "truss"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014340"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1762933"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "seed"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012639"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1818307"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "lentigo"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D007911"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3396153"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "puncture"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D011677"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4391416"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "laceration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D022125"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12307971"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "deceleration"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003654"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16325196"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "pension"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010415"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q24887418"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "disinfection"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004203"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q27675547"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "vaccinia"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D014615"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q57445378"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "functional mask"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008397"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q68001329"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "metacarpus"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D008663"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q69943763"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "permissiveness"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D010541"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q73228459"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "dilatation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D004106"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q114368386"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "demoralization"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D000079224"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12737077"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "職業"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "occupation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009790"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12737077"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "职业"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "occupation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009790"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12737077"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "职业"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "occupation"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D009790"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5447188"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "溶液"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "solution"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012996"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6279182"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "癲癇發作"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "seizure"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012640"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6279182"
+    },
+    "zh": {
+      "xml:lang": "zh-cn",
+      "type": "literal",
+      "value": "癫痫发作"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "seizure"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012640"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6279182"
+    },
+    "zh": {
+      "xml:lang": "zh-hans",
+      "type": "literal",
+      "value": "癫痫发作"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "seizure"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D012640"
+    }
+  },
+  {
+    "item": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7451120"
+    },
+    "zh": {
+      "xml:lang": "zh",
+      "type": "literal",
+      "value": "感官提示"
+    },
+    "en": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "sensory cue"
+    },
+    "mesh": {
+      "type": "literal",
+      "value": "D003463"
+    }
+  }
+]

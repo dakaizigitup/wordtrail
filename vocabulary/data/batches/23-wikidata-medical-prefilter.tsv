@@ -1,0 +1,158 @@
+mesh_id	mesh_english	chinese	wikidata_qid	wikidata_english	label_language	wikidata_revision	modified_utc	tree_numbers	pinyin	pinyin_frequency	ipa_sources	pos	already_in_baseline	already_in_runtime
+D000059	Accidents	意外	Q171558	accident	zh-cn	2544026321	2026-09-11T14:26:52Z	N06.850.135	yi wai	12390	UK,US	n.	true	true
+D000374	Aggression	侵犯	Q191797	aggression	zh-cn	2536106705	2026-08-25T07:57:05Z	F01.145.126.050.500,F01.145.126.125,F01.145.813.045	qin fan	1917	UK,US	n.	true	true
+D000374	Aggression	侵略	Q191797	aggression	zh-hans	2536106705	2026-08-25T07:57:05Z	F01.145.126.050.500,F01.145.126.125,F01.145.813.045	qin lve	1764	UK,US	n.	true	true
+D000438	Alcohols	醇	Q156	alcohols	zh-cn	2517836255	2026-07-15T18:37:26Z	D02.033	chun	2195	UK,US	n.	false	false
+D000468	Alkalies	碱	Q485742	alkali	zh-hans	2517980742	2026-07-16T00:35:45Z	D01.045	jian	1617	US	n.	false	false
+D000786	Anger	愤怒	Q79871	anger	zh-cn	2543093740	2026-09-10T06:16:29Z	F01.470.093	fen nu	4280	UK,US	n.	true	true
+D000999	Antlers	鹿角	Q834007	antlers	zh-hans	2550088877	2026-09-27T16:18:08Z	A13.507.288	lu jiao	407	UK,US	n.	false	false
+D001007	Anxiety	焦虑	Q154430	anxiety	zh-cn	2543183268	2026-09-10T09:37:13Z	F01.470.132	jiao lv	3367	UK,US	n.	true	true
+D001046	Aphrodisiacs	春药	Q211420	aphrodisiac	zh-cn	2551199684	2026-09-30T07:07:13Z	D27.505.696.282.045,D27.505.954.427.220.045	chun yao	18	UK	n.	false	false
+D001076	Aptitude	能力	Q1347367	aptitude	zh-hans	2553024816	2026-10-04T12:14:30Z	F02.784.629.131	neng li	30601	UK,US	n.	true	true
+D001143	Arousal	唤起	Q379784	arousal	zh-hans	2553141531	2026-10-04T18:32:12Z	F02.830.104,G11.561.035	huan qi	357	UK,US	n.	true	true
+D001244	Association	联想	Q744778	association	zh-hans	2553332227	2026-10-05T06:57:16Z	F02.463.425.069,F04.754.720.346	lian xiang	2079	UK,US	n.	true	true
+D001259	Ataxia	失调	Q213373	ataxia	zh-cn	2549316972	2026-09-25T17:28:46Z	C10.597.350.090,C23.888.592.350.090	shi tiao	292	UK,US	n.	true	true
+D001288	Attention	注意	Q6501338	attention	zh-hans	2534022587	2026-08-21T04:01:31Z	F02.830.104.214	zhu yi	67417	UK,US	n.	true	true
+D001494	Baths	沐浴	Q327651	bathing	zh-cn	2531009068	2026-08-13T20:18:29Z	E02.056.110	mu yu	1272	US	n.	true	true
+D061006	Bays	湾	Q39594	bay	zh-cn	2534320067	2026-08-21T17:15:34Z	G01.311.625.080	wan	12478	UK,US	n.	false	false
+D026686	Beneficence	慈善	Q1077064	charity	zh-hans	2551562339	2026-10-01T01:23:53Z	N05.350.958.500	ci shan	3533	UK,US	n.	false	false
+D001766	Blindness	失明	Q10874	blindness	zh-cn	2542242674	2026-09-08T12:27:37Z	C10.597.751.941.162,C11.966.075,C23.888.592.763.941.162	shi ming	403	UK,US	n.	true	true
+D002056	Burns	烧伤	Q170518	burn	zh-cn	2545464391	2026-09-14T07:00:00Z	C26.200	shao shang	722	UK,US	n.	true	true
+D002138	Calibration	标定	Q736777	calibration	zh-hans	2550084186	2026-09-27T15:59:23Z	E05.978.155	biao ding	138	UK,US	n.	true	true
+D059552	Caves	洞穴	Q35509	cave	zh-cn	2547707501	2026-09-19T09:56:33Z	G01.311.169,G16.500.275.067,N06.230.066	dong xue	1175	UK,US	n.	true	true
+D002568	Certification	认证	Q374814	certification	zh-cn	2532920690	2026-08-18T22:17:21Z	N03.706.110.120,N05.700.200.190	ren zheng	5650	UK,US	n.	true	true
+D002680	Chin	颌	Q82714	chin	zh-hans	2541297638	2026-09-06T20:23:10Z	A01.456.505.259,A02.835.232.781.324.502.632.130,A14.521.632.300	he	349	UK,US	n.	true	true
+D003142	Communication	沟通	Q11024	communication	zh-cn	2552537744	2026-10-03T10:18:10Z	F01.145.209	gou tong	6116	UK,US	n.	true	true
+D003187	Compliance	顺从	Q633140	compliance	zh-hans	2383436192	2025-07-24T05:05:58Z	G01.374.590.210	shun cong	360	UK,US	n.	true	true
+D003221	Confusion	神经错乱	Q557945	mental confusion	zh-cn	2532259842	2026-08-17T09:14:57Z	C10.597.606.337,C23.888.592.604.339,F01.700.250	shen jing cuo luan	33	UK,US	n.	true	true
+D003250	Constriction	缠绕	Q495626	constriction	zh-hans	2511511248	2026-06-28T14:42:32Z	E05.225	chan rao	438	UK,US	n.	false	true
+D032982	Contracts	合同	Q93288	contract	zh-cn	2551770010	2026-10-01T12:43:19Z	N03.706.535.241	he tong	3278	US	n.	true	true
+D032982	Contracts	合约	Q93288	contract	zh-sg	2551770010	2026-10-01T12:43:19Z	N03.706.535.241	he yue	5236	US	n.	true	true
+D003380	Courtship	求偶	Q376596	courtship	zh-hans	2537343774	2026-08-28T09:08:19Z	F01.145.802.279	qiu ou	171	UK,US	n.	true	true
+D003446	Crutches	拐杖	Q268828	crutch	zh-hans	2521622520	2026-07-23T12:16:10Z	E07.858.442.281	guai zhang	284	UK,US	n.	true	true
+D003624	Darkness	黑暗	Q204170	darkness	zh-cn	2545389121	2026-09-14T03:46:09Z	G01.590.540.233	hei an	6630	UK,US	n.	true	true
+D003643	Death	死亡	Q4	death	zh-cn	2550750710	2026-09-29T04:26:15Z	C23.550.260	si wang	18210	UK,US	n.	true	true
+D003681	Dehydration	脱水	Q194290	dehydration	zh-cn	2526476130	2026-08-02T22:10:47Z	C18.452.950.179,C23.550.274	tuo shui	210	UK,US	n.	true	true
+D003815	Dentists	牙医	Q27349	dentist	zh-cn	2553374601	2026-10-05T09:08:32Z	N02.360.330.330	ya yi	1707	UK,US	n.	false	false
+D003863	Depression	抑郁	Q4340209	depression	zh-cn	2551143521	2026-09-30T03:45:02Z	F01.145.126.350,F01.470.282	yi yu	3294	UK,US	n.	true	true
+D057168	Distillation	蒸馏	Q101017	distillation	zh-cn	2523398122	2026-07-27T12:25:10Z	E05.196.155.249	zheng liu	286	UK,US	n.	true	true
+D004325	Dreams	梦	Q36348	dream	zh-cn	2551954218	2026-10-01T23:33:35Z	F02.463.188.634.309,F02.830.855.268	meng	45778	UK,US	n.	false	false
+D004326	Drinking	饮	Q876776	drinking	zh-hans	2544777077	2026-09-12T23:23:45Z	G07.203.650.283.249,G10.261.330.249	yin	3189	UK,US	n.	true	true
+D004435	Eating	进食	Q213449	eating	zh-cn	2552231497	2026-10-02T17:11:11Z	G07.203.650.283,G10.261.330	jin shi	783	UK,US	n.	true	true
+D004531	Eggs	蛋	Q93189	egg as food	zh-cn	2549624250	2026-09-26T11:14:40Z	G07.203.300.470	dan	21029	UK,US	n.	false	false
+D004602	Elements	化学元素	Q11344	chemical element	zh-cn	2550028287	2026-09-27T13:25:32Z	D01.268	hua xue yuan su	123	UK,US	n.	true	true
+D004651	Employment	雇佣	Q656365	employment	zh-hans	2542832662	2026-09-09T18:29:05Z	N01.824.245	gu yong	777	UK,US	n.	true	true
+D004733	Enema	灌肠	Q194517	enema	zh-cn	2526680919	2026-08-03T08:39:51Z	E02.319.347	guan chang	27	UK,US	n.	true	true
+D004777	Environment	生态环境	Q2249676	environment	zh-hans	2547611593	2026-09-19T00:28:17Z	G16.500.275,N06.230	sheng tai huan jing	573	UK,US	n.	true	true
+D004954	Esthetics	美学	Q35986	aesthetics	zh-cn	2547083880	2026-09-17T16:27:28Z	F02.463.785.477	mei xue	978	US	n.	false	false
+D005006	Ethnicity	族群	Q41710	ethnic group	zh-cn	2551251707	2026-09-30T09:27:01Z	N01.224.317	zu qun	2546	UK,US	n.	true	true
+D005059	Euphoria	亢奋	Q203994	euphoria	zh-hans	2540735869	2026-09-06T00:20:50Z	F01.470.323	kang fen	626	UK,US	n.	true	true
+D005201	Fantasy	白日梦	Q6028924	daydream	zh-hans	2539168241	2026-09-01T19:10:07Z	F01.393.351,F02.463.188.634.507	bai ri meng	951	UK,US	n.	true	true
+D005220	Fathers	父亲	Q7565	father	zh-cn	2553226661	2026-10-04T23:19:36Z	F01.829.263.875.100	fu qin	24508	UK,US	n.	false	false
+D005241	Feathers	羽毛	Q81025	feather	zh-hans	2532258154	2026-08-17T09:10:04Z	A13.370	yu mao	1171	UK,US	n.	true	true
+D005385	Fingers	手指	Q620207	finger	zh-cn	2553357001	2026-10-05T08:13:08Z	A01.378.800.667.430	shou zhi	4367	UK,US	n.	true	true
+D005390	Fires	火	Q3196	fire	zh-hans	2552409429	2026-10-03T03:20:22Z	N06.230.216	huo	29952	UK,US	n.	false	false
+D005414	Flatulence	屁	Q160184	flatulence	zh-cn	2548509383	2026-09-22T17:13:33Z	C23.888.821.360	pi	9308	UK	n.	true	true
+D005582	Foundations	基金会	Q157031	foundation	zh-cn	2537994170	2026-08-30T02:05:28Z	N03.219.483.311,N03.540.630.180	ji jin hui	6107	UK,US	n.	false	false
+D055608	Galaxies	星系	Q318	galaxy	zh-cn	2545467206	2026-09-14T07:08:23Z	G01.060.075.320	xing xi	1589	UK,US	n.	false	false
+D005782	Gels	凝胶	Q185744	gel	zh-cn	2552850205	2026-10-04T02:10:44Z	D20.280.320,D26.255.165.320	ning jiao	185	UK,US	n.	true	true
+D018525	Germination	发芽	Q193838	germination	zh-cn	2525959270	2026-08-02T01:37:55Z	G07.345.625.249,G15.589.250	fa ya	1066	UK,US	n.	true	true
+D005868	Gestures	手势	Q371174	gesture	zh-cn	2532550432	2026-08-17T23:27:27Z	F01.145.209.530.538.445	shou shi	1224	UK,US	n.	false	false
+D005880	Gills	鳃	Q132390	gill	zh-cn	2552105149	2026-10-02T09:44:34Z	A13.421	sai	968	US	n.	false	false
+D006240	Happiness	快乐	Q8	happiness	zh-cn	2553196853	2026-10-04T21:51:51Z	F01.470.516	kuai le	242589	UK,US	n.	true	true
+D006252	Hate	仇恨	Q160232	hatred	zh-cn	2541622766	2026-09-07T09:50:13Z	F01.470.548	chou hen	4370	UK,US	n.	true	true
+D006470	Hemorrhage	出血	Q166019	bleeding	zh-cn	2552831846	2026-10-04T00:55:09Z	C23.550.414	chu xue	681	US	n.	true	true
+D006605	Hibernation	冬眠	Q159408	hibernation	zh-cn	2550626521	2026-09-28T20:53:06Z	G07.110.232.889.500,G07.410.421.889.500,G16.012.500.535.889.500	dong mian	1497	UK,US	n.	true	true
+D006615	Hip	髋关节	Q193818	hip	zh-cn	2553337596	2026-10-05T07:13:30Z	A01.378.610.400	kuan guan jie	63	UK,US	n.	true	true
+D006706	Homeostasis	稳态	Q103191	homeostasis	zh-cn	2530519668	2026-08-12T18:10:32Z	G07.410	wen tai	197	US	n.	true	true
+D006733	Horns	角	Q82025	horn	zh-hans	2535901003	2026-08-24T18:41:02Z	A13.507	jiao	14123	UK,US	n.	false	false
+D006854	Hydrocortisone	皮质醇	Q190875	cortisol	zh-cn	2546799236	2026-09-16T21:02:49Z	D04.210.500.745.745.654.600,D06.472.040.585.353.476,D06.472.040.585.478.392	pi zhi chun	51	UK	n.	true	true
+D006990	Hypnosis	催眠	Q8609	hypnosis	zh-cn	2550059077	2026-09-27T14:42:44Z	E02.190.525.217,F04.754.424	cui mian	422	UK,US	n.	true	true
+D007022	Hypotension	低血压	Q275419	hypotension	zh-cn	2546216840	2026-09-15T13:58:01Z	C14.907.514	di xue ya	75	UK,US	n.	false	false
+D000860	Hypoxia	缺氧	Q105688	hypoxia	zh-cn	2553501891	2026-10-05T15:27:38Z	C23.888.852.079	que yang	204	UK,US	n.	true	true
+D007046	Hysteria	歇斯底里	Q144119	hysteria	zh-cn	2553905304	2026-10-06T11:46:12Z	F03.675.400.500	xie si di li	231	UK,US	n.	true	true
+D015994	Incidence	发病率	Q217690	incidence	zh-cn	2526902156	2026-08-03T22:45:53Z	E05.318.308.985.525.375,N01.224.935.597.500,N06.850.505.400.975.525.375,N06.850.520.308.985.525.375	fa bing lv	181	UK,US	n.	true	true
+D007267	Injections	注射	Q245359	injection	zh-cn	2534453961	2026-08-21T22:14:55Z	E02.319.267.530	zhu she	1007	UK,US	n.	false	false
+D062312	Islands	岛屿	Q23442	island	zh-cn	2552287709	2026-10-02T20:04:46Z	G16.500.275.505,N06.230.295	dao yu	4923	UK,US	n.	true	true
+D007590	Jogging	慢跑	Q816261	jogging	zh-hans	2543581938	2026-09-10T23:05:26Z	G11.427.410.568.610.320,G11.427.410.698.277.750.320	man pao	554	UK,US	n.	true	true
+D007600	Judgment	判断	Q12621536	judgment	zh-cn	2537878743	2026-08-29T20:38:48Z	F02.463.785.626	pan duan	4202	UK,US	n.	true	true
+D007603	Jurisprudence	法学	Q4932206	jurisprudence	zh-cn	2546658778	2026-09-16T13:12:57Z	N03.706.535	fa xue	2762	UK,US	n.	false	false
+D007830	Larynx	喉	Q9637	larynx	zh-hans	2546976429	2026-09-17T09:52:23Z	A04.329	hou	1436	UK,US	n.	true	true
+D007845	Laughter	笑	Q170579	laughter	zh-cn	2539063740	2026-09-01T13:07:34Z	F01.145.209.530.614	xiao	67022	UK,US	n.	true	true
+D054368	Laxatives	泻药	Q217972	laxative	zh-cn	2526679548	2026-08-03T08:32:20Z	D27.505.954.483.620	xie yao	17	UK,US	n.	false	false
+D007857	Leadership	领导	Q484275	leadership	zh-cn	2547188925	2026-09-17T23:39:10Z	F01.752.609,N04.452.677.415	ling dao	21963	UK,US	n.	true	true
+D007858	Learning	学习	Q133500	learning	zh-cn	2550406295	2026-09-28T08:57:05Z	F02.463.425,F02.784.629.529	xue xi	31925	UK,US	n.	true	true
+D053609	Lethargy	呆滞	Q15637420	lethargy	zh-hans	2528834939	2026-08-08T15:12:16Z	C10.597.606.441,C23.888.592.604.444,F01.700.470	dai zhi	255	UK,US	n.	true	true
+D007989	Libido	性冲动	Q178066	libido	zh-cn	2545544673	2026-09-14T10:25:34Z	F02.739.794.511	xing chong dong	66	UK,US	n.	false	true
+D008026	Ligation	结扎	Q2144381	ligature	zh-hans	2433858426	2025-11-25T15:28:47Z	E04.426	jie za	40	US	n.	true	true
+D008132	Loneliness	孤独	Q223270	loneliness	zh-hans	2540733337	2026-09-06T00:14:47Z	F01.470.713	gu du	12471	UK,US	n.	true	true
+D008136	Longevity	寿命	Q1066907	longevity	zh-hans	2549921124	2026-09-27T07:36:51Z	G07.345.124.519,G07.540	shou ming	1911	UK,US	n.	true	true
+D008372	Manure	有机肥	Q185716	manure	zh-cn	2545480227	2026-09-14T07:41:21Z	D20.601	you ji fei	16	UK,US	n.	true	true
+D062407	Meals	餐	Q6460735	meal	zh-hans	2540873145	2026-09-06T05:46:09Z	G07.203.300.590	can	7531	UK,US	n.	true	true
+D009014	Morals	道德	Q48324	morality	zh-cn	2540837381	2026-09-06T04:28:19Z	F01.829.500	dao de	5634	UK,US	n.	false	false
+D009035	Mothers	母亲	Q7560	mother	zh-cn	2553226793	2026-10-04T23:20:04Z	F01.829.263.875.200	mu qin	15520	UK,US	n.	false	false
+D017008	Negotiating	谈判	Q202875	negotiation	zh-cn	2551774598	2026-10-01T12:58:16Z	F01.145.209.520,F01.829.401.520,F02.463.785.373.520,N04.452.677.430	tan pan	4396	UK,US	n.	false	false
+D009558	Nipples	乳头	Q188641	nipple	zh-cn	2553314168	2026-10-05T05:57:41Z	A01.236.500	ru tou	263	UK,US	n.	false	false
+D009757	Nylons	尼龙	Q177941	nylon	zh-cn	2552673768	2026-10-03T17:02:04Z	D05.750.716.392,D25.720.716.392	ni long	176	UK,US	n.	false	false
+D019370	Observation	观察	Q193181	observation	zh-cn	2551575512	2026-10-01T02:08:04Z	E05.581.249	guan cha	10258	UK,US	n.	true	true
+D009821	Oils	油	Q42962	oil	zh-hans	2543299940	2026-09-10T13:54:59Z	D10.627	you	21103	UK,US	n.	false	false
+D009938	Organizations	组织	Q43229	organization	zh-cn	2553188382	2026-10-04T21:23:22Z	N03.540	zu zhi	51880	US	n.	false	false
+D010243	Paralysis	瘫痪	Q107231	paralysis	zh-hans	2541619951	2026-09-07T09:42:35Z	C10.597.622,C23.888.592.636	tan huan	763	UK,US	n.	true	true
+D010290	Parents	亲本	Q7566	parent	zh-hans	2553903949	2026-10-06T11:42:28Z	F01.829.263.875	qin ben	43	UK,US	n.	true	true
+D010465	Perception	知觉	Q160402	perception	zh-cn	2548885627	2026-09-23T18:09:39Z	F02.463.593	zhi jue	436	UK,US	n.	true	true
+D010507	Periodicity	定期	Q443564	periodicity	zh-cn	2533890894	2026-08-20T21:29:34Z	G01.910.645,G07.180.562	ding qi	3750	UK	n.	true	true
+D010575	Pesticides	农药	Q131656	pesticide	zh-cn	2532280699	2026-08-17T10:22:56Z	D27.720.031.700,D27.888.723	nong yao	2171	UK,US	n.	false	false
+D010919	Placebos	安慰剂	Q269829	placebo	zh-cn	2548898196	2026-09-23T19:08:56Z	D26.660,E02.785	an wei ji	61	UK,US	n.	false	false
+D054817	Pollination	传粉	Q134624	pollination	zh-cn	2528995079	2026-08-09T01:25:08Z	G08.686.784.743,G15.776	chuan fen	43	UK,US	n.	true	true
+D011203	Poverty	贫穷	Q10294	poverty	zh-cn	2544485149	2026-09-12T10:17:46Z	N01.824.600	pin qiong	2998	UK,US	n.	true	true
+D011208	Powders	粉末	Q2908004	powder	zh-cn	2550936559	2026-09-29T17:24:42Z	D26.255.779	fen mo	433	UK,US	n.	false	false
+D011247	Pregnancy	妊娠	Q11995	human pregnancy	zh-hans	2539058503	2026-09-01T12:37:38Z	G08.686.784.769	ren shen	517	UK,US	n.	true	true
+D055656	Prescriptions	处方	Q3355478	medical prescription	zh-hans	2524436296	2026-07-29T18:26:07Z	N02.421.668.778	chu fang	346	UK,US	n.	false	false
+D000075682	Procrastination	延宕	Q330104	procrastination	zh-cn	2545480969	2026-09-14T07:42:45Z	F01.393.661,F02.463.617	yan dang	125	UK,US	n.	true	true
+D011678	Punishment	惩罚	Q186361	punishment	zh-cn	2553481149	2026-10-05T14:32:49Z	F02.463.425.770.571	cheng fa	3100	UK,US	n.	true	true
+D011889	Rage	愤怒	Q153641	rage	zh-cn	2549302252	2026-09-25T16:29:31Z	F01.470.093.640	fen nu	4280	UK,US	n.	true	true
+D000075665	Recidivism	累犯	Q1420643	recidivism	zh-hans	2551952030	2026-10-01T23:26:58Z	F01.145.250.625	lei fan	14	UK,US	n.	false	false
+D012008	Recurrence	复发	Q2292472	relapse	zh-cn	2524864625	2026-07-30T16:44:38Z	C23.550.291.937	fu fa	362	UK,US	n.	true	true
+D012034	Refrigeration	冷却	Q747713	refrigeration	zh-hans	2552947352	2026-10-04T07:12:07Z	E02.792.643,E05.760.643	leng que	1427	UK,US	n.	true	true
+D060926	Remuneration	报酬	Q1742093	remuneration	zh-cn	2542832306	2026-09-09T18:28:26Z	N01.824.417.605	bao chou	541	UK,US	n.	true	true
+D012098	Reproduction	繁殖	Q11990	reproduction	zh-cn	2552750170	2026-10-03T20:12:31Z	G08.686.784	fan zhi	1988	UK,US	n.	true	true
+D012272	Ribs	肋骨	Q196672	rib	zh-cn	2552212063	2026-10-02T16:01:47Z	A02.835.232.570.500	lei gu	319	UK,US	n.	true	true
+D045483	Rivers	河流	Q4022	river	zh-cn	2547895221	2026-09-20T08:17:14Z	G01.311.750,G16.500.275.280.650,N06.230.232.650	he liu	7394	UK,US	n.	true	true
+D012399	Rotation	自转	Q107617	rotation	zh-cn	2542456010	2026-09-08T20:55:07Z	G01.482.703	zi zhuan	409	UK,US	n.	true	true
+D012420	Running	跑步	Q105674	running	zh-cn	2550344215	2026-09-28T05:54:58Z	G11.427.410.568.610,G11.427.410.698.277.750	pao bu	12867	UK,US	n.	true	true
+D000078602	Sadness	悲伤	Q169251	sadness	zh-cn	2540737046	2026-09-06T00:23:30Z	F01.470.933	bei shang	6848	UK,US	n.	true	true
+D012449	Safety	安全	Q10566551	safety	zh-cn	2551548337	2026-10-01T00:35:55Z	N06.850.135.060.075	an quan	37205	UK,US	n.	true	true
+D000080682	Salads	沙拉	Q9266	salad	zh-cn	2552366066	2026-10-03T00:34:00Z	G07.203.300.756	sha la	1991	UK,US	n.	false	false
+D012492	Salts	盐	Q12370	salt	zh-cn	2544071919	2026-09-11T16:04:50Z	D01.786	yan	9152	UK,US	n.	true	true
+D012621	Seasons	季节	Q24384	season	zh-cn	2553077984	2026-10-04T15:13:04Z	G01.910.645.661,G16.500.275.071.590,N06.230.300.100.250.525	ji jie	8337	UK,US	n.	false	false
+D018805	Sepsis	败血症	Q183134	sepsis	zh-hans	2516771751	2026-07-12T20:56:56Z	C01.757,C23.550.470.790.500	bai xue zheng	120	UK,US	n.	false	false
+D063346	Singing	歌唱	Q27939	singing	zh-cn	2540230511	2026-09-04T20:11:03Z	G09.772.585.500	ge chang	3477	UK,US	n.	true	true
+D012863	Skeleton	骨骼系统	Q7881	skeleton	zh-hans	2553893297	2026-10-06T11:19:49Z	A02.835	gu ge xi tong	62	UK,US	n.	true	true
+D012905	Smog	烟雾	Q169994	smog	zh-cn	2553437191	2026-10-05T12:12:22Z	D20.633.875	yan wu	824	UK,US	n.	true	true
+D012915	Soaps	肥皂	Q34396	soap	zh-cn	2550911527	2026-09-29T15:43:39Z	D27.720.877.265.861	fei zao	1764	UK,US	n.	false	false
+D013009	Somnambulism	梦游	Q388626	sleepwalking	zh-cn	2545228199	2026-09-13T20:43:37Z	C10.886.659.635.700,F03.870.664.635.700	meng you	1487	UK	n.	false	false
+D018454	Spouses	配偶	Q1196129	spouse	zh-hans	2549408949	2026-09-25T21:51:59Z	F01.829.263.968	pei ou	677	UK,US	n.	false	false
+D013217	Starvation	饿死	Q853930	starvation	zh-hans	2544225037	2026-09-11T22:31:23Z	C18.654.521.750	e si	5309	UK,US	n.	true	true
+D013242	Sterilization	杀菌	Q191618	sterilization	zh-cn	2504640669	2026-06-11T15:02:59Z	N06.850.780.200.450.850	sha jun	308	US	n.	true	true
+D055107	Suntan	日光浴	Q321458	tanning	zh-cn	2531397247	2026-08-14T17:36:15Z	G13.750.837.500	ri guang yu	32	UK,US	n.	true	true
+D013550	Swimming	游泳	Q6388	swimming	zh-hans	2542868128	2026-09-09T19:48:39Z	G11.427.410.568.800,G11.427.410.698.277.875	you yong	15954	UK,US	n.	true	true
+D013575	Syncope	昏厥	Q180007	syncope	zh-cn	2524099083	2026-07-28T22:30:00Z	C10.597.606.358.800.600,C23.888.592.604.359.800.600	hun jue	56	UK,US	n.	true	true
+D013594	Syringes	注射器	Q273318	syringe	zh-cn	2553324451	2026-10-05T06:32:00Z	E07.877	zhu she qi	61	US	n.	false	false
+D013607	Tablets	片剂	Q206077	tablet	zh-cn	2553418418	2026-10-05T11:21:48Z	D26.255.830	pian ji	31	UK,US	n.	false	false
+D013666	Tears	泪	Q76469	tear	zh-hans	2528861382	2026-08-08T16:45:53Z	A12.200.882	lei	6642	US	n.	true	true
+D013737	Testis	睾丸	Q9384	testicle	zh-cn	2551389072	2026-09-30T16:50:48Z	A05.360.444.849,A05.360.576.782,A06.300.312.782	gao wan	100	UK	n.	true	true
+D013812	Therapeutics	疗法	Q179661	therapy	zh-cn	2549693281	2026-09-26T15:33:57Z	E02	liao fa	940	UK,US	n.	false	false
+D013894	Thirst	口渴	Q474187	thirst	zh-cn	2543324288	2026-09-10T14:58:07Z	F01.658.293.787	kou ke	46	UK,US	n.	true	true
+D013909	Thorax	胸部	Q9645	thorax	zh-hans	2548599516	2026-09-22T21:34:16Z	A01.923.761	xiong bu	770	UK,US	n.	true	true
+D064348	Torpor	蛰伏	Q1651205	torpor	zh-cn	2528835661	2026-08-08T15:15:25Z	G07.110.232.889,G07.410.421.889,G16.012.500.535.889	zhe fu	70	UK,US	n.	true	true
+D014180	Transplantation	器官移植	Q105196	transplantation	zh-cn	2551498968	2026-09-30T22:11:27Z	E04.936	qi guan yi zhi	155	UK,US	n.	true	true
+D014341	Trustees	董事	Q67378402	trustee	zh-cn	2462545109	2026-02-11T09:06:56Z	N04.452.394.600	dong shi	3101	UK,US	n.	false	false
+D014472	Umbilicus	肚脐	Q43801	navel	zh-hans	2553337942	2026-10-05T07:14:28Z	A01.923.047.849	du qi	687	UK	n.	true	true
+D014675	Vegetables	蔬菜	Q11004	vegetable	zh-cn	2553472118	2026-10-05T14:04:15Z	G07.203.300.850	shu cai	4104	UK,US	n.	true	true
+D028722	Virtues	美德	Q157811	virtue	zh-cn	2549173405	2026-09-25T04:53:19Z	F01.829.500.840	mei de	928	UK,US	n.	false	false
+D014836	Volition	意志	Q1441519	volition	zh-hans	2500042628	2026-05-31T11:38:48Z	F02.463.902	yi zhi	4864	UK,US	n.	false	false
+D014839	Vomiting	呕吐	Q127076	vomiting	zh-cn	2530988397	2026-08-13T19:20:39Z	C23.888.821.937	ou tu	428	UK,US	n.	true	true
+D016138	Walking	步行	Q6537379	walking	zh-cn	2541757550	2026-09-07T15:50:45Z	G11.427.410.568.900,G11.427.410.698.277.937	bu xing	2378	UK,US	n.	true	true
+D014885	Waxes	蜡	Q124695	wax	zh-cn	2526663559	2026-08-03T07:22:07Z	D10.945	la	1162	UK,US	n.	true	true
+D053833	Wetlands	湿地	Q170321	wetland	zh-cn	2550406844	2026-09-28T08:58:13Z	G16.500.275.157.812,N06.230.124.625	shi di	1517	UK,US	n.	false	false
+D014953	Wrist	腕	Q185706	wrist	zh-cn	2553395461	2026-10-05T10:15:50Z	A01.378.800.875	wan	945	UK,US	n.	true	true

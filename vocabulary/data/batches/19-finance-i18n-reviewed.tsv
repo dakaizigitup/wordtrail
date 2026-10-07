@@ -1,0 +1,492 @@
+chinese	english	pos	decision	review_note
+潜逃	abscond	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+节制	abstinence	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+会计师	accountant	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+累积	accumulation	n.	accept	The source pairs accumulation with 累积; ECDICT confirms the exact noun gloss. Retained as a financial/accounting accumulation term.
+法案	act	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+诉讼	action	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+调整	adjustment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+寿命	age	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+代理商	agent	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+协议	agreement	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+分配	allocation	n.	reject	The Chinese key has reached the reviewed expansion limit.
+津贴	allowance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+合并	amalgamation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+修订	amendment	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+分析	analysis	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+年金	annuity	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+经历	antecedents	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+申请	application	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+分摊	apportionment	n.	accept	The source pairs apportionment with 分摊; ECDICT confirms the exact noun gloss. This is a cost and allocation term.
+分配	apportionment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+估价	appraisal	n.	accept	The source pairs appraisal with 估价; ECDICT confirms the exact noun gloss. Asset and property appraisal is relevant to finance.
+拨款	appropriation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+套汇	arbitrage	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+仲裁	arbitration	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+资产	asset	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+转让	assignment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+吸收	assimilation	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+协会	association	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+假定	assumption	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+保证	assurance	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+保险	assurance	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+代理人	attorney	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+律师	attorney	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+属性	attribute	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+拍卖	auction	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+拍卖	auction	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+审计	audit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+授权	authorization	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+平均数	average	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+海损	average	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+平衡	balance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+平衡	balance	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+银行	bank	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+银行家	banker	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+钞票	banknote	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+交易	bargain	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+交易	bargain	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+受益人	beneficiary	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+遗产	bequest	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+遗赠	bequest	n.	accept	The source pairs bequest with 遗赠; ECDICT confirms the exact noun gloss. This is an estate and property-transfer term.
+出价	bid	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+投标	bid	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+票据	bill	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+债券	bond	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+奖金	bonus	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+红利	bonus	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+繁荣	boom	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+受贿	bribery	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+行贿	bribery	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+经纪人	broker	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+预算	budget	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+负担	burden	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+商业	business	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+买主	buyer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+计算	calculation	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+计算器	calculator	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+资本	capital	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+运输	carriage	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+卡特尔	cartel	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+兑现	cash	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+现金	cash	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+证书	certificate	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+字符	character	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+性质	character	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+费用	charge	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+图表	chart	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+执照	charter	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+动产	chattel	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+支票	check	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+核对	check	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+检查	check	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+检查	check	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+支票	cheque	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+条款	clause	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+办事员	clerk	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+职员	clerk	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+委托人	client	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+客户	client	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+代码	code	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+法规	code	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+系数	coefficient	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+硬币	coin	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+合并	combination	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+联合	combination	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+佣金	commission	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+委员会	committee	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+商品	commodity	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+共有	community	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+社区	community	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+公司	company	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+补偿	compensation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+竞争	competition	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+和解	compromise	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+妥协	compromise	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+电子计算机	computer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+电脑	computer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+概念	concept	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+特许	concession	n.	accept	The source pairs concession with 特许; ECDICT confirms the exact noun gloss used for commercial concessions.
+条件	condition	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+确认	confirmation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+充公	confiscation	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+没收	confiscation	n.	accept	The source pairs confiscation with 没收; ECDICT confirms the exact noun gloss in a legal/financial enforcement sense.
+一致性	consistency	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+顾问	consultant	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+消费	consumption	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+承包商	contractor	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+控制	control	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+控制	control	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+副本	copy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+版权	copyright	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+信用	credit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+债权人	creditor	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+标准	criterion	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+货币	currency	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+通货	currency	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+关税	customs	n.	accept	The source pairs customs with 关税; ECDICT confirms the exact noun gloss in a trade/tax context.
+海关	customs	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+买卖	deal	n.	accept	The source pairs deal with 买卖; ECDICT confirms the exact noun gloss. This is a commercial transaction sense.
+交易	deal	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+经销商	dealer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+借方	debit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+债务	debt	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+债务人	debtor	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+宣告	declaration	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+契约	deed	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+拖欠	default	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+违约	default	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+废止	defeasance	n.	accept	The source pairs defeasance with 废止; ECDICT confirms the exact noun gloss. Retained as a specialized contract/legal term.
+延期	deferral	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+赤字	deficit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+通货紧缩	deflation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+交货	delivery	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+需求	demand	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+部门	department	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+存款	deposit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+定金	deposit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+折旧	depreciation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+贬值	devaluation	n.	accept	The source pairs devaluation with 贬值; ECDICT confirms the exact noun gloss used in currency and asset valuation.
+发展	development	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+差异	difference	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+董事	director	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+支付	disbursement	n.	accept	The source pairs disbursement with 支付; ECDICT confirms the exact noun gloss. This is a finance and accounting payment term.
+解雇	discharge	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+折扣	discount	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+贴现	discount	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+磁盘	disk	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+解散	dissolution	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+歪曲	distort	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+分配	distribution	n.	reject	The Chinese key has reached the reviewed expansion limit.
+股利	dividend	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+文件	document	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+汇票	draft	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+草案	draft	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+倾销	dumping	n.	accept	The source pairs dumping with 倾销; ECDICT confirms the exact noun gloss in international trade.
+副本	duplicate	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+关税	duty	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+经济学	economics	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+节约	economize	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+经济	economy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+效率	efficiency	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+弹性	elasticity	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+盗用	embezzlement	n.	accept	The source pairs embezzlement with 盗用; ECDICT confirms the exact noun gloss for financial misconduct.
+背书	endorsement	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+企业	enterprise	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+企业家	entrepreneur	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+委托	entrust	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+均衡	equilibrium	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+平衡	equilibrium	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+设备	equipment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+误差	error	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+财产	estate	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+证据	evidence	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+审查	examination	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+超额	excess	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+交易	exchange	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+交易所	exchange	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+兑换	exchange	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+汇兑	exchange	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+国库	exchequer	n.	accept	The source pairs exchequer with 国库; ECDICT confirms the exact noun gloss. Marked as a government-finance term.
+执行	execution	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+免税	exemption	n.	accept	The source pairs exemption with 免税; ECDICT confirms the exact noun gloss in a tax context.
+费用	expense	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+征用	expropriation	n.	accept	The source pairs expropriation with 征用; ECDICT confirms the exact noun gloss for a property/legal context.
+设备	facility	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+传真	facsimile	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+传真	facsimile	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+因素	factor	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工厂	factory	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+反馈	feedback	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+文件	file	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+财务	finance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+财政	finance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+罚款	fine	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+罚款	fine	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+罚金	fine	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+商号	firm	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+发行	float	v.	accept	The source pairs float with 发行; ECDICT confirms the exact verb gloss. Retained for issuing securities or shares.
+浮动	float	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+底价	floor	n.	accept	The source pairs floor with 底价; ECDICT confirms the exact noun gloss used for a minimum price/price floor.
+预测	forecast	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+预测	forecast	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+获利	gain	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+供过于求	glut	n.	accept	The source pairs glut with 供过于求; ECDICT confirms the exact noun gloss. This is a market-supply term.
+货物	goods	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+图表	graph	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+担保	guaranty	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+进口	import	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+进口	import	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+赔偿	indemnity	n.	accept	The source pairs indemnity with 赔偿; ECDICT confirms the exact noun gloss used in insurance and contracts.
+契约	indenture	n.	accept	The source pairs indenture with 契约; ECDICT confirms the exact noun gloss. This is a contract/securities term.
+指数	index	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+索引	index	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工业化	industrialization	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+通货膨胀	inflation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+信息	information	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+情报	information	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+基础设施	infrastructure	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+输入	input	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+输入	input	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+检查	inspection	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+指令	instruction	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+保险	insurance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+利息	interest	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+国际化	internationalization	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+无效	invalidity	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+投资	investment	n.	accept	The source pairs investment with 投资; ECDICT confirms the exact noun gloss.
+发行	issue	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+发行	issue	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工作	job	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+知识	knowledge	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+滞后	lag	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+土地	land	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+地产	land	n.	accept	The source pairs land with 地产; ECDICT confirms the exact noun gloss in a property context.
+失效	lapse	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+法则	law	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+法律	law	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+诉讼	lawsuit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+立法	legislation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+故障	malfunction	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+管理	management	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+经理	manager	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工厂	manufactory	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+厂商	manufacturer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+保证金	margin	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+市场	market	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+行情	market	n.	accept	The source pairs market with 行情; ECDICT confirms the exact noun gloss used for market conditions/quotes.
+材料	material	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+重要的	material	adj.	reject	The Chinese key has reached the reviewed expansion limit.
+矩阵	matrix	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工具	means	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+手段	means	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+收入	means	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+财产	means	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+媒体	media	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+调解	mediation	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+会员	member	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+商品	merchandise	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+商人	merchandiser	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+里程碑	milestone	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+流动性	mobility	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+模型	model	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+货币	money	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+垄断	monopoly	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+抵押	mortgage	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+抵押	mortgage	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+鼠标	mouse	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+多媒体	multimedia	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+疏忽	negligence	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+网络	network	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+票据	note	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+目标	objective	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+债务	obligation	n.	accept	The source pairs obligation with 债务; ECDICT confirms the exact noun gloss in a debt/contract context.
+观察	observation	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+观测	observation	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+报价	offer	n.	accept	The source pairs offer with 报价; ECDICT confirms the exact noun gloss used in an offer/pricing context.
+抵消	offset	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+抵消	offset	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+评价	opinion	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+选择权	option	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+支出	outgo	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+支出	outlay	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+产量	output	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+输出	output	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+透支	overdraft	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+所有权	ownership	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+参数	parameter	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+同等	parity	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+平价	parity	n.	accept	The source pairs parity with 平价; ECDICT confirms the exact noun gloss used in exchange-rate and price parity.
+当事人	party	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+密码	password	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+专利权	patent	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+付款	pay	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+付款	pay	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+支付	pay	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+付款	payment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+支出	payout	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+罚款	penalty	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+养老金	pension	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+退休金	pension	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+成绩	performance	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+危险	peril	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+执照	permit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+许可证	permit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+动产	personalty	n.	accept	The source pairs personalty with 动产; ECDICT confirms the exact noun gloss. Retained as a specialized property-law term.
+偷窃	pilferage	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+地点	place	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+原告	plaintiff	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工厂	plant	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+抵押	pledge	n.	accept	The source pairs pledge with 抵押; ECDICT confirms the exact noun gloss in collateral/secured finance.
+抵押	pledge	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+保险单	policy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+政策	policy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+方针	policy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+联营	pool	n.	accept	The source pairs pool with 联营; ECDICT confirms the exact noun gloss in a business/investment grouping sense.
+联营	pool	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+人口	population	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+占有	possession	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+邮资	postage	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+延期	postponement	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+精确度	precision	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+奖金	premium	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+价格	price	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+委托人	principal	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+本金	principal	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+原则	principle	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+原理	principle	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+打印机	printer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+隐私	privacy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+概率	probability	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+程序	procedure	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+过程	process	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+产品	product	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+生产	production	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+利润	profit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+奸商	profiteer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+程序	program	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+计划	program	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+财产	property	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+繁荣	prosperity	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+协议	protocol	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+条款	provision	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+配额	quota	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+限额	quota	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+报价	quotation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+诈骗	racketeering	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+随机	random	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+比率	rate	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+批准	ratification	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+认可	ratification	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+比率	ratio	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+阅读	read	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+阅读	read	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+实现	realization	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+不动产	realty	n.	accept	The source pairs realty with 不动产; ECDICT confirms the exact noun gloss in property terminology.
+收入	receipt	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+收据	receipt	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+衰退	recession	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+记录	record	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+记录	record	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+补偿	recoup	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+偿还	redemption	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+赎回	redemption	n.	accept	The source pairs redemption with 赎回; ECDICT confirms the exact noun gloss for securities and financial instruments.
+索引	reference	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+改革	reform	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+改革	reform	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+寄存器	register	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+注册	registration	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+登记	registration	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+救济	relief	n.	accept	The source pairs relief with 救济; ECDICT confirms the exact noun gloss used in legal/financial remedy contexts.
+汇款	remittance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+报酬	remuneration	n.	accept	The source pairs remuneration with 报酬; ECDICT confirms the exact noun gloss used in compensation and employment finance.
+更新	renewal	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+租用	rent	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+租金	rent	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+偿还	repayment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+转售	resale	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+决议	resolution	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+资源	resource	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+偿还	restitution	n.	accept	The source pairs restitution with 偿还; ECDICT confirms the exact noun gloss in repayment/legal contexts.
+赔偿	restitution	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+退休	retirement	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+检索	retrieval	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+收入	revenue	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+税收	revenue	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+报酬	reward	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+权利	right	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+规则	rule	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+样本	sample	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+制裁	sanction	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+储蓄	savings	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+扫描	scan	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+扫描	scan	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+印章	seal	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+充公	seizure	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+没收	seizure	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+服务	service	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+结算	settlement	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+股东	shareholder	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+签字	signature	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+模拟	simulation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+破产	smash	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+破产	smash	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+走私	smuggling	n.	accept	The source pairs smuggling with 走私; ECDICT confirms the exact noun gloss in customs/trade compliance.
+软件	software	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+硬币	specie	n.	accept	The source pairs specie with 硬币; ECDICT confirms the exact noun gloss for coin money.
+投机	speculation	n.	accept	The source pairs speculation with 投机; ECDICT confirms the exact noun gloss used in financial markets.
+稳定	stabilization	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+停滞	stagnation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+标准	standard	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+薪金	stipend	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+股份	stock	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+股票	stock	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+股东	stockholder	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+存储器	storage	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+仓库	storehouse	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+存根	stub	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+转租	sublease	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+转租	sublease	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+提交	submission	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+签署	subscribe	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+认购	subscribe	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+补助金	subsidy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+子系统	subsystem	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+诉讼	suit	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+合计	sum	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+总计	sum	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+监督	supervision	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+附加税	surcharge	n.	accept	The source pairs surcharge with 附加税; ECDICT confirms the exact noun gloss in taxation.
+保证	surety	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+保证人	surety	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+担保	surety	n.	accept	The source pairs surety with 担保; ECDICT confirms the exact noun gloss in credit and contract contexts.
+盈余	surplus	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+附加税	surtax	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+符号	symbol	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+制度	system	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+系统	system	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+表格	table	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+标签	tag	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+进款	takings	n.	accept	The source pairs takings with 进款; ECDICT confirms the exact noun gloss for money received/revenue.
+指标	target	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+目标	target	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+出纳员	teller	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+租赁	tenancy	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+偿还	tender	v.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+投标	tender	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+投标	tender	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+条件	term	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+节约	thrift	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+小费	tip	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+公差	tolerance	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+贸易	trade	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+商标	trademark	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+转让	transfer	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+转让	transfer	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+过户	transfer	n.	accept	The source pairs transfer with 过户; ECDICT confirms the exact noun gloss used for property/title transfer.
+传输	transmission	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+国库	treasury	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+托拉斯	trust	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+受托人	trustee	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+企业	undertaking	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+失业	unemployment	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+高利贷	usury	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+公用事业	utility	n.	accept	The source pairs utility with 公用事业; ECDICT confirms the exact noun gloss used as a business/sector term.
+实用程序	utility	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+估价	valuation	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+价值	value	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+变量	variables	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+买主	vendee	n.	accept	The source pairs vendee with 买主; ECDICT confirms the exact noun gloss in sale/contract terminology.
+卖主	vendor	n.	accept	The source pairs vendor with 卖主; ECDICT confirms the exact noun gloss in commercial transactions.
+病毒	virus	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+签证	visa	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+工资	wage	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+仓库	warehouse	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+货栈	warehouse	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+损耗	waste	n.	defer	Candidate passed exact ECDICT/POS, local pinyin, and IPA checks, but the upstream list has no earlier data provenance and this pair was not selected for the reviewed finance tranche. Keep it out of runtime data.
+财富	wealth	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+批发	wholesale	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+批发	wholesale	v.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+批发商	wholesaler	n.	reject	This exact Chinese-English pair already exists in the compiled vocabulary; do not add a duplicate or alter its order.
+提款	withdrawal	n.	accept	The source pairs withdrawal with 提款; ECDICT confirms the exact noun gloss in banking.
+价值	worth	n.	accept	The source pairs worth with 价值; ECDICT confirms the exact noun gloss used in valuation.

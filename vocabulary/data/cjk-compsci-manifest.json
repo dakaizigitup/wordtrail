@@ -1,0 +1,52 @@
+{
+  "batch": "15-cjk-computer-science-terms",
+  "input_sha256": {
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "curation": "c2d990ec7dfcddf1ffe3fd5010e86b5b94bb579d8157c1c6dcf6b70c2fbcf12f",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "upstream_license": "21617ba96327d3f8d69c639439cbc95ec156c304250f835ea6a2ecd94dfcab88",
+    "upstream_tables": "5a4eca03b0de8404b8b21b1278ba68aa8e212a50753ab9af71d10b50ceaabf39",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67"
+  },
+  "modifications": "Retained only simplified Chinese terms on the exact local pinyin candidate surface. Existing mappings receive a computer-domain tag only when source component correspondences reconstruct the English term. New single-word candidates require local IPA, an ECDICT POS record, spare per-key capacity, and explicit human review. Added mappings are separate from the upstream source tables.",
+  "outputs": {
+    "batches/15-cjk-compsci-evidence.tsv": {
+      "rows": 65,
+      "sha256": "2d0bd07ed6ddcb56d1f41e5fa58722e3d75c223354ffcfa0f3411c14044542c8"
+    },
+    "cjk-compsci-expansion.tsv": {
+      "rows": 26,
+      "sha256": "b779d390325f5eefec2194fb77f0f87d5fe00de111c4a575037474b691185f59"
+    },
+    "cjk-compsci-tags.tsv": {
+      "rows": 61,
+      "sha256": "a326887c604ae6579bd5676bbc14ea3d583df057d24a841e5a13c03f0ab9d704"
+    }
+  },
+  "review": {
+    "accepted_mappings": 26,
+    "candidate_mappings": 28,
+    "curation_file": "batches/15-cjk-compsci-reviewed.tsv",
+    "new_headword_list": [
+      "iteration",
+      "latency",
+      "searching",
+      "typeface",
+      "widget"
+    ],
+    "new_headwords": 5,
+    "rejected_mappings": 2
+  },
+  "scope_note": "An audited reachable subset of a community computer-science comparison glossary, not a complete computer curriculum.",
+  "upstream": {
+    "commit": "3cf825e81375202fd408427933c3a30442defa4f",
+    "license": "CC BY-SA 4.0",
+    "license_sha256": "21617ba96327d3f8d69c639439cbc95ec156c304250f835ea6a2ecd94dfcab88",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "repository": "https://github.com/dahlia/cjk-compsci-terms",
+    "tables": 28,
+    "tables_sha256": "5a4eca03b0de8404b8b21b1278ba68aa8e212a50753ab9af71d10b50ceaabf39"
+  }
+}

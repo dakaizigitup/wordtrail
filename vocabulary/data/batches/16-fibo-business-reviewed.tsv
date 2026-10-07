@@ -1,0 +1,88 @@
+headword	decision	review_note
+account	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+affiliate	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+affiliation	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+allocation	reject	The pinned FIBO class has no English definition; keep it out of runtime until stronger evidence is available.
+announcement	reject	The pinned FIBO class has no English definition; keep it out of runtime until stronger evidence is available.
+association	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+auditor	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+balance	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+bank	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+bankruptcy	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+basket	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+bond	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+branch	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+broker	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+butterfly	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+cardholder	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+catalog	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+civilian	reject	FIBO definition is demographic, government, judicial, legislative, or physical-material vocabulary, outside this business label.
+clearing	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+collar	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+collateral	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+corporation	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+correspondent	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+creditor	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+dealer	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+debt	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+debtor	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+dissemination	reject	The pinned FIBO class has no English definition; keep it out of runtime until stronger evidence is available.
+dividend	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+division	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+downgrade	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+drawer	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+enterprise	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+establishment	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+ethnicity	reject	FIBO definition is demographic, government, judicial, legislative, or physical-material vocabulary, outside this business label.
+exchange	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+executive	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+exposure	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+fee	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+fence	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+forward	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+future	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+government	reject	FIBO definition is demographic, government, judicial, legislative, or physical-material vocabulary, outside this business label.
+guarantor	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+household	reject	FIBO definition is demographic, government, judicial, legislative, or physical-material vocabulary, outside this business label.
+indenture	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+insurer	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+interest	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+investor	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+lease	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+ledger	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+loan	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+margin	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+merchant	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+metal	reject	FIBO definition is demographic, government, judicial, legislative, or physical-material vocabulary, outside this business label.
+mortgage	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+offering	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+option	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+partner	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+pool	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+position	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+principal	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+productivity	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+publication	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+publisher	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+race	reject	FIBO definition is demographic, government, judicial, legislative, or physical-material vocabulary, outside this business label.
+receiver	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+registration	reject	The pinned FIBO class has no English definition; keep it out of runtime until stronger evidence is available.
+security	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+settlement	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+share	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+shareholder	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+sponsor	reject	The pinned FIBO class has no English definition; keep it out of runtime until stronger evidence is available.
+straddle	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+strangle	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+strip	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+subscriber	reject	The pinned FIBO class has no English definition; keep it out of runtime until stronger evidence is available.
+subsidiary	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+swap	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+syndicate	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+trade	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+trader	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+trust	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+trustee	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+volatility	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+warrant	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.
+yield	accept	FIBO defines this as a business or financial concept; the single-word headword already has a pinyin-reachable local mapping. This adds a category tag only.

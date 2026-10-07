@@ -1,0 +1,46 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	noun_evidence	already_mapped_after_batch_24	spare_capacity_after_batch_24	mesh_term_ids	mesh_preferred_terms	mesh_tree_numbers	ecdict_exact_noun_glosses	decision	review_note
+absorption	吸收	吸收	140	[url]	xi shou	4300	UK,US	ECDICT n.	false	true	D000042	Absorption	G01.015,G02.010,G03.015,G03.787.024,G07.690.725.015	吸收	accept	Absorption is a recognized physiological and biomedical process; 吸收 is the exact ECDICT noun gloss.
+anxiety	焦虑	焦慮	2460	[url]	jiao lv	3367	UK,US	ECDICT n.	false	true	D001007	Anxiety	F01.470.132	焦虑	accept	焦虑 is the direct clinical/psychological term and an exact local noun gloss.
+attention	注意	注意；注意力	3246	[url]	zhu yi	67417	UK,US	ECDICT n.	false	true	D001288	Attention	F02.830.104.214	注意	accept	注意 is the direct cognitive/clinical term; MeSH includes Attention as a psychological concept.
+blindness	失明	盲；失明	4268	[url]	shi ming	403	UK,US	ECDICT n.	false	true	D001766	Blindness	C10.597.751.941.162,C11.966.075,C23.888.592.763.941.162	失明	accept	失明 is exact for loss of vision.
+breathing	呼吸	呼吸	4564	[url]	hu xi	5243	UK,US	ECDICT n.	false	true	D012119	Respiration	G09.772.705	呼吸	accept	呼吸 is exact; MeSH identifies the respiratory concept as Respiration.
+castration	阉割	閹割	5552	[url]	yan ge	64	UK,US	ECDICT n.	false	true	D002369	Castration	E04.270.282,E04.950.165	阉割	accept	阉割 is the direct medical procedure term.
+cerumen	耳垢	耳垢	5953	[url]	er gou	16	UK	ECDICT n.	false	true	D002571	Cerumen	A12.200.147	耳垢	accept	耳垢 is exact; cerumen is the anatomical/clinical term for earwax.
+cold	感冒	感冒	6874	[url]	gan mao	25480	UK,US	ECDICT n.	false	true	D003080	Cold Temperature	G01.906.595.272,G16.500.275.063.725.710.300,G16.500.750.775.710.300,N06.230.300.100.725.154,N06.230.300.100.725.710.300	感冒	accept	感冒 is an exact common medical noun sense of cold; the source is a medical glossary and ECDICT confirms the gloss.
+death	死亡	死亡	8293	[url]	si wang	18210	UK,US	ECDICT n.	false	true	D003643	Death	C23.550.260	死亡	accept	死亡 is exact in a clinical and public-health context.
+dehydration	脱水	脫水	8427	[url]	tuo shui	210	UK,US	ECDICT n.	false	true	D003681	Dehydration	C18.452.950.179,C23.550.274	脱水	accept	脱水 is exact.
+forceps	镊子	鑷子	12236	[url]	nie zi	112	UK,US	ECDICT n.	false	true	D013525	Surgical Instruments	E07.858.700	镊子	accept	镊子 is the direct instrument term; MeSH places forceps under surgical instruments.
+frostbite	冻疮	凍瘡	12405	[url]	dong chuang	7	UK,US	ECDICT n.	false	true	D005627	Frostbite	C26.212.500,C26.417	冻疮	reject	冻疮 usually means chilblains/pernio; frostbite is 冻伤, so this source gloss is misleading.
+growth	生长	生長	13289	[url]	sheng zhang	5463	UK,US	ECDICT n.	false	true	D006128	Growth	G07.345.249	生长	accept	生长 is the biological growth sense and is supported by the MeSH Growth term.
+health	健康	健康；衛生	13572	[url]	jian kang	31355	UK,US	ECDICT n.	false	true	D006262	Health	N01.400	健康	accept	健康 is the direct health-state term; the alternative source gloss 卫生 is deferred as less precise.
+health	卫生	健康；衛生	13572	[url]	wei sheng	11569	UK,US	ECDICT n.	false	true	D006262	Health	N01.400	卫生	defer	雖有官方英中對照、ECDICT 完整名詞義和 MeSH 關聯，但孤立中文詞面不夠精確或英文詞面有多義；暫不加入。
+hemorrhage	出血	出血	13756	[url]	chu xue	681	US	ECDICT n.	false	true	D006470	Hemorrhage	C23.550.414	出血	accept	出血 is the exact clinical term.
+hibernation	冬眠	冬眠	14011	[url]	dong mian	1497	UK,US	ECDICT n.	false	true	D006605	Hibernation	G07.110.232.889.500,G07.410.421.889.500,G16.012.500.535.889.500	冬眠	accept	冬眠 is exact in physiology.
+incisor	门牙	門牙	14980	[url]	men ya	864	UK,US	ECDICT n.	false	true	D007180	Incisor	A14.549.167.860.425	门牙	accept	门牙 is a direct common anatomical name for an incisor.
+labyrinth	迷路	迷路	16098	[url]	mi lu	2594	UK,US	ECDICT n.	false	true	D007758	Ear, Inner	A09.246.300	迷路	defer	雖有官方英中對照、ECDICT 完整名詞義和 MeSH 關聯，但孤立中文詞面不夠精確或英文詞面有多義；暫不加入。
+movement	运动	運動；動作	18472	[url]	yun dong	46199	UK,US	ECDICT n.	false	true	D009068	Movement	G07.568,G11.427.410	运动	accept	运动 is the direct physiological movement sense; MeSH includes Movement.
+mutation	突变	突變	18895	[url]	tu bian	626	UK,US	ECDICT n.	false	true	D009154	Mutation	G05.365.590	突变	accept	突变 is the established genetics/biomedical term.
+nail	指甲	指甲；趾甲	19095	[url]	zhi jia	7060	UK,US	ECDICT n.	false	true	D009262	Nails	A17.600	指甲	accept	指甲 is the exact anatomical nail sense; MeSH includes Nails.
+nursing	看护	看護；哺乳	19854	[url]	kan hu	533	UK,US	ECDICT n.	false	true	D009729	Nursing	N04.452.758.377	看护	accept	看护 is the direct care sense; the MeSH Nursing concept covers professional nursing practice.
+pesticide	杀虫剂	殺蟲劑	21834	[url]	sha chong ji	281	UK,US	ECDICT n.	false	true	D010575	Pesticides	D27.720.031.700,D27.888.723	杀虫剂	accept	杀虫剂 is exact and relevant to toxicology.
+phenol	石炭酸	酚；石炭酸	21936	[url]	shi tan suan	6	UK,US	ECDICT n.	false	true	D019800	Phenol	D02.455.426.559.389.657.595	石炭酸	accept	石炭酸 is an established synonym for phenol.
+pregnancy	怀孕	妊娠；懷孕	23209	[url]	huai yun	1594	UK,US	ECDICT n.	false	true	D011247	Pregnancy	G08.686.784.769	怀孕	accept	怀孕 is an exact, commonly used Chinese translation of pregnancy.
+refrigeration	冷却	冷卻	24507	[url]	leng que	1427	UK,US	ECDICT n.	false	true	D012034	Refrigeration	E02.792.643,E05.760.643	冷却	defer	雖有官方英中對照、ECDICT 完整名詞義和 MeSH 關聯，但孤立中文詞面不夠精確或英文詞面有多義；暫不加入。
+regeneration	再生	再生	24513	[url]	zai sheng	1048	UK,US	ECDICT n.	false	true	D012038	Regeneration	G16.762	再生	accept	再生 is the direct biological/tissue process sense.
+relapse	复发	復發；再發	24553	[url]	fu fa	362	US	ECDICT n.	false	true	D012008	Recurrence	C23.550.291.937	复发	accept	复发 is exact for recurrence of a disease or symptoms.
+risk	危险	危險	25011	[url]	wei xian	10896	UK,US	ECDICT n.	false	true	D012306	Risk	E05.318.740.600.800,N05.715.360.750.625.700,N06.850.520.830.600.800	危险	defer	雖有官方英中對照、ECDICT 完整名詞義和 MeSH 關聯，但孤立中文詞面不夠精確或英文詞面有多義；暫不加入。
+rupture	破裂	破裂	25178	[url]	po lie	1172	UK,US	ECDICT n.	false	true	D012421	Rupture	C26.761	破裂	accept	破裂 is the direct anatomical/pathological sense.
+sclerosis	硬化	硬化	25540	[url]	ying hua	256	UK,US	ECDICT n.	false	true	D012598	Sclerosis	C23.550.823	硬化	accept	硬化 is the direct pathological process term; MeSH includes Sclerosis.
+separation	分离	分離	25806	[url]	fen li	4662	UK,US	ECDICT n.	false	true	D004243	Divorce	F01.829.263.315.500.300,N01.224.361.500.300,N01.824.308.500.300	分离	reject	The matching MeSH English entry is Divorce, not a medical separation concept; the source pair lacks clear medical scope.
+smoking	抽烟	抽菸	26249	[url]	chou yan	185	UK,US	ECDICT n.	false	true	D012907	Smoking	F01.145.805	抽烟	accept	抽烟 is the direct behavioral/clinical term.
+tarsus	跗骨	跗骨	28035	[url]	fu gu	55	UK,US	ECDICT n.	false	true	D000842	Ankle	A01.378.610.050	跗骨	accept	跗骨 is the anatomical foot-bone term.
+therapy	治疗	治療	28260	[url]	zhi liao	13129	UK,US	ECDICT n.	false	true	D013812	Therapeutics	E02	治疗	accept	治疗 is exact; MeSH includes Therapeutics as a treatment concept.
+tissue	组织	組織	28487	[url]	zu zhi	51880	UK,US	ECDICT n.	false	true	D014024	Tissues	A10	组织	accept	组织 is exact in histology and anatomy; MeSH includes Tissues.
+transplantation	移植	移植	28722	[url]	yi zhi	1096	UK,US	ECDICT n.	false	true	D014180	Transplantation	E04.936	移植	accept	移植 is the established clinical procedure term.
+treatment	治疗	治療	28821	[url]	zhi liao	13129	UK,US	ECDICT n.	false	true	D013812	Therapeutics	E02	治疗	accept	治疗 is exact in clinical care; MeSH maps treatment concepts under Therapeutics.
+tumor	肿块	腫塊	29158	[url]	zhong kuai	61	US	ECDICT n.	false	true	D009369	Neoplasms	C04	肿块	reject	肿块 is a mass/lump; tumor is more precisely 肿瘤, so this short mapping is misleading.
+vertebra	脊椎	脊椎；椎骨	30143	[url]	ji zhui	560	UK,US	ECDICT n.	false	true	D013131	Spine	A02.835.232.834	脊椎	defer	雖有官方英中對照、ECDICT 完整名詞義和 MeSH 關聯，但孤立中文詞面不夠精確或英文詞面有多義；暫不加入。
+viscera	内脏	內臟	30305	[url]	nei zang	496	UK	ECDICT n.	false	true	D014781	Viscera	A01.960	内脏	accept	内脏 is exact for the internal organs.
+vision	视力	視力；視覺	30324	[url]	shi li	454	UK,US	ECDICT n.	false	true	D014785	Vision, Ocular	F02.830.816.964,G02.111.820.480.900,G04.835.480.900,G11.561.790.964,G14.935	视力	accept	视力 is the exact ocular sense; the MeSH preferred term is Vision, Ocular.
+vomiting	呕吐	嘔吐	30385	[url]	ou tu	428	UK,US	ECDICT n.	false	true	D014839	Vomiting	C23.888.821.937	呕吐	accept	呕吐 is exact.
+wound	创伤	創傷	30637	[url]	chuang shang	1092	US	ECDICT n.	false	true	D014947	Wounds and Injuries	C26	创伤	accept	创伤 is an accepted concise clinical injury sense and an exact ECDICT noun gloss.

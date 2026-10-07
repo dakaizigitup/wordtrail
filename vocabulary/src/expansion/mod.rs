@@ -29,6 +29,19 @@ const EXAM_TARGET_BATCH_11_CC_BY_SA_DATA: &str =
     include_str!("../../data/exam-target-batch-11-cc-by-sa-expansion.tsv");
 const EXAM_TARGET_BATCH_12_ECDICT_DATA: &str =
     include_str!("../../data/exam-target-batch-12-ecdict-expansion.tsv");
+const PROFESSIONAL_DATA: &str = include_str!("../../data/professional-expansion.tsv");
+const CJK_COMPSCI_DATA: &str = include_str!("../../data/cjk-compsci-expansion.tsv");
+const BETTER_QUANT_DATA: &str = include_str!("../../data/better-quant-expansion.tsv");
+const CFPB_FINANCE_DATA: &str = include_str!("../../data/cfpb-finance-expansion.tsv");
+const FINANCE_I18N_DATA: &str = include_str!("../../data/finance-i18n-expansion.tsv");
+const COMPUTERESE_DATA: &str = include_str!("../../data/computerese-expansion.tsv");
+const MESH_MEDICAL_DATA: &str = include_str!("../../data/mesh-medical-expansion.tsv");
+const WIKIDATA_MEDICAL_DATA: &str = include_str!("../../data/wikidata-medical-expansion.tsv");
+const WIKIDATA_MEDICAL_2_DATA: &str = include_str!("../../data/wikidata-medical-expansion-2.tsv");
+const NAER_MEDICAL_DATA: &str = include_str!("../../data/naer-medical-expansion.tsv");
+const NAER_MEDICAL_2_DATA: &str = include_str!("../../data/naer-medical-expansion-2.tsv");
+const NAER_LIFE_SCIENCE_DATA: &str = include_str!("../../data/naer-life-science-expansion.tsv");
+const NAER_VETERINARY_DATA: &str = include_str!("../../data/naer-veterinary-expansion.tsv");
 static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'static str)>>> =
     LazyLock::new(|| {
         let mut index: HashMap<_, Vec<_>> = HashMap::new();
@@ -50,6 +63,19 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             EXAM_TARGET_BATCH_11_CC_BY_SA_DATA,
             EXAM_TARGET_BATCH_12_ECDICT_DATA,
             WIKTIONARY_2_DATA,
+            PROFESSIONAL_DATA,
+            CJK_COMPSCI_DATA,
+            BETTER_QUANT_DATA,
+            CFPB_FINANCE_DATA,
+            FINANCE_I18N_DATA,
+            COMPUTERESE_DATA,
+            MESH_MEDICAL_DATA,
+            WIKIDATA_MEDICAL_DATA,
+            WIKIDATA_MEDICAL_2_DATA,
+            NAER_MEDICAL_DATA,
+            NAER_MEDICAL_2_DATA,
+            NAER_LIFE_SCIENCE_DATA,
+            NAER_VETERINARY_DATA,
         ] {
             for row in data.lines() {
                 let mut fields = row.split('\t');
@@ -312,6 +338,32 @@ mod tests {
         ] {
             assert!(senses(chinese).any(|sense| sense.text == english));
         }
+    }
+
+    #[test]
+    fn professional_batch_14_adds_queryable_medical_terms_and_domain_tags() {
+        let rows: Vec<_> = PROFESSIONAL_DATA.lines().collect();
+        assert_eq!(rows.len(), 10);
+        for row in rows {
+            let mut fields = row.split('\t');
+            let chinese = fields.next().unwrap();
+            let english = fields.next().unwrap();
+            let _pos = fields.next().unwrap();
+            let source_label = fields.next().unwrap();
+            assert_eq!(source_label, "Wiktionary CC BY-SA 4.0");
+            assert!(senses(chinese).any(|sense| sense.text == english));
+            assert_eq!(source(chinese, english), Some(source_label));
+            let medical = crate::tags(english, 1 << 8);
+            assert!(
+                medical
+                    .iter()
+                    .any(|tag| tag.id == "medical" && tag.selected)
+            );
+            assert_eq!(crate::lookup(english).professional & (1 << 8), 1 << 8);
+        }
+        assert!(senses("大脑").any(|sense| sense.text == "cerebrum"));
+        assert!(senses("转移").any(|sense| sense.text == "metastasis"));
+        assert!(!senses("疱疹").any(|sense| sense.text == "bleb"));
     }
 
     #[test]

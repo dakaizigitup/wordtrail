@@ -1,0 +1,69 @@
+{
+  "batch": "14-professional-domains-first-tranche",
+  "categories": [
+    {
+      "id": "computer",
+      "bit": 6,
+      "label": "计算机",
+      "tagged_terms": 149,
+      "exact_candidate_pairs": 157,
+      "new_mappings": 0
+    },
+    {
+      "id": "business",
+      "bit": 7,
+      "label": "商务",
+      "tagged_terms": 100,
+      "exact_candidate_pairs": 102,
+      "new_mappings": 0
+    },
+    {
+      "id": "medical",
+      "bit": 8,
+      "label": "医学",
+      "tagged_terms": 415,
+      "exact_candidate_pairs": 439,
+      "new_mappings": 10
+    }
+  ],
+  "candidate_review": {
+    "source": "pinned Kaikki/Wiktionary Chinese-English snapshot plus exact same-POS ECDICT cross-check",
+    "candidate_pairs": 11,
+    "accepted_mappings": 10,
+    "rejected_mappings": 1,
+    "curation_file": "batches/14-professional-reviewed.tsv",
+    "curation_sha256": "b45a81fa2e6351f156da21e3b783be76c1c7e3a04878b44e6feebfc326f2ef72"
+  },
+  "data_source": {
+    "project": "English Wiktionary contributors via Kaikki/Wiktextract",
+    "snapshot": "lexhint-zh-english-dictionary-s10-2026.09.09.sqlite3",
+    "snapshot_sha256": "98fef9ba82047d0eaba650c1da074810c135da3c90e1fdb59f2faf197d6b7dd2",
+    "wiktionary_upstream_sha256": "2fa05a70de03fc0d8a3855a70e0b56c6087078571eb39173da4acb54df87e68",
+    "license": "CC BY-SA 4.0; source entries additionally available under GFDL",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Selected exact glossary headwords and short complete phrases; traditional headwords normalized to simplified; retained category membership only for exact pinyin-reachable pairs. No source definitions or examples are included."
+  },
+  "input_sha256": {
+    "database": "98fef9ba82047d0eaba650c1da074810c135da3c90e1fdb59f2faf197d6b7dd2",
+    "pinyin": "914f6894fff1f6033af6d8bb9858f6901aa2d1a960cd2afd8923f899584f1290",
+    "baseline": "ed58a90825243beada4d759f2f90d55ccdb4d38fc8701dffd78090e3a0b21d35",
+    "ecdict": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "uk_ipa": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+    "us_ipa": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67"
+  },
+  "outputs": {
+    "professional-domain-tags.tsv": {
+      "rows": 659,
+      "sha256": "0462c64e0ef9a54ecc6c1c5ec03b9c71d3647cbf241f5b06d2433fad3e068585"
+    },
+    "professional-expansion.tsv": {
+      "rows": 10,
+      "sha256": "1cde0af9fce1417ef257e0d840e36e3d00954a23ab675dd21ca91c016314f3df"
+    },
+    "batches/14-professional-domain-evidence.tsv": {
+      "rows": 698,
+      "sha256": "b0f740fbee805de3a978d130815a6237f6ddaabdb05ab4ea893cb76a1e21da9f"
+    }
+  },
+  "scope_note": "Community topic classification, not an official curriculum. Domain tags are independent of exam tags and never reorder Chinese candidates."
+}

@@ -1,0 +1,29 @@
+chinese	english	pinyin	pinyin_frequency	ipa_sources	ecdict_pos	ecdict_exact_pos	source_tables	source_correspondence
+事务	transaction	shi wu	13339	UK,US	n.		database	affair task
+仓库	repository	cang ku	1728	UK,US	n.	n.	version-control	(no component gloss)
+会话	session	hui hua	52	UK,US	n.		web	meeting speech
+关卡	level	guan qia	1452	UK,US	adj.,n.,v.		game-dev	gate checkpoint
+变量	value	bian liang	1170	UK,US	n.,v.		programming	variable quantity
+图	graph	tu	64050	UK,US	n.		data-structures	graph
+堆	heap	dui	6096	UK,US	n.,v.		data-structures	heap
+声道	channel	sheng dao	289	UK,US	n.,v.		audio	(no component gloss)
+头目	boss	tou mu	997	UK,US	n.,v.		game-dev	head eye
+字体	typeface	zi ti	3371	UK,US	n.	n.	typography	character style
+密码	cipher	mi ma	4713	UK,US	n.,v.	n.	security	secret code
+常量	value	chang liang	127	UK,US	n.,v.		programming	constant quantity
+延迟	latency	yan chi	2726	UK,US	n.		networking	extend delay
+控件	widget	kong jian	63	UK,US	n.		ui-ux	(no component gloss)
+提交	commit	ti jiao	3530	UK,US	v.		version-control	(no component gloss)
+搜索	searching	sou suo	4744	UK,US	adj.,n.	n.	algorithms	search seek
+数据包	packet	shu ju bao	241	UK,US	n.,v.		networking	data packet
+栈	stack	zhan	372	UK,US	n.,v.		data-structures	stack
+模式	schema	mo shi	16604	UK,US	n.		database	pattern style
+流水线	pipeline	liu shui xian	226	UK,US	n.		architecture	flow water line
+渲染	rendering	xuan ran	736	UK,US	n.		graphics	spread dye
+漏洞	bug	lou dong	1066	UK,US	n.,v.		programming	hole
+精灵	sprite	jing ling	5206	UK,US	n.		game-dev	spirit soul
+认证	authentication	ren zheng	5650	UK,US	n.		security	recognize proof
+训练	training	xun lian	18467	UK,US	n.	n.	ai-ml	training
+迭代	iteration	die dai	324	UK,US	n.		algorithms	repeat generation
+通知	notification	tong zhi	13354	UK,US	n.	n.	mobile	(no component gloss)
+错误	bug	cuo wu	8965	UK,US	n.,v.	n.	programming	mistake

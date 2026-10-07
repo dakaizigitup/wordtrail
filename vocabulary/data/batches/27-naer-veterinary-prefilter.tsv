@@ -1,0 +1,261 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	noun_evidence	ecdict_exact_noun_gloss	mesh_ids	mesh_preferred_terms	mesh_tree_numbers	already_mapped	existing_headword	existing_medical_tag	spare_capacity
+abscess	脓肿	膿瘍，膿腫	57	https://terms.naer.edu.tw/	nong zhong	39	UK,US	ECDICT n.	脓肿	D000038	Abscess	C01.830.025,C23.550.470.756.100	true	true	true	true
+acceleration	加速	加速，加速作用，加速運動	107	https://terms.naer.edu.tw/	jia su	3316	UK,US	ECDICT n.	加速	D000054	Acceleration	G01.482.107	true	true	true	true
+acetone	丙酮	丙酮	140	https://terms.naer.edu.tw/	bing tong	328	UK,US	ECDICT n.	丙酮	D000096	Acetone	D02.522.064	true	true	true	true
+adenocarcinoma	腺癌	腺癌	304	https://terms.naer.edu.tw/	xian ai	119	UK	ECDICT n.	腺癌	D000230	Adenocarcinoma	C04.557.470.200.025	true	true	true	true
+adenosine	腺苷	腺苷	314	https://terms.naer.edu.tw/	xian gan	126	UK,US	ECDICT n.	腺苷	D000241	Adenosine	D03.633.100.759.590.138,D13.570.583.138,D13.570.800.096	true	true	true	true
+agar	琼脂	瓊脂，洋菜	441	https://terms.naer.edu.tw/	qiong zhi	25	UK,US	ECDICT n.	琼脂	D000362	Agar	D09.698.360.041	true	true	true	true
+air	空气	空氣	497	https://terms.naer.edu.tw/	kong qi	13602	UK,US	ECDICT n.	空气	D000388	Air	G16.500.275.063.150,N06.230.300.100.150	true	true	true	true
+alcoholism	酗酒	酒精中毒，酗酒	539	https://terms.naer.edu.tw/	xu jiu	609	UK,US	ECDICT n.	酗酒	D000437	Alcoholism	C25.775.100.250,F03.900.100.350	false	true	false	true
+altitude	海拔	海拔	667	https://terms.naer.edu.tw/	hai ba	44030	UK,US	ECDICT n.	海拔	D000531	Altitude	G16.500.275.058,N06.230.058	true	true	true	true
+amber	琥珀	琥珀	703	https://terms.naer.edu.tw/	hu po	894	UK,US	ECDICT n.	琥珀	D018647	Amber	D05.750.078.840.109,D20.215.721.500.109	true	true	true	true
+amygdala	扁桃体	扁桃體	805	https://terms.naer.edu.tw/	bian tao ti	22	UK,US	ECDICT n.	扁桃体	D000679	Amygdala	A08.186.211.180.090,A08.186.211.200.885.287.249.152	false	false	false	true
+anesthesia	麻木	麻醉〔法〕，麻木	907	https://terms.naer.edu.tw/	ma mu	94	US	ECDICT n.	麻木	D000758	Anesthesia	E03.155	false	true	true	true
+anorexia	厌食	厭食，食慾不振	1004	https://terms.naer.edu.tw/	yan shi	50	UK,US	ECDICT n.	厌食	D000855	Anorexia	C23.888.821.108	true	true	true	true
+anthrax	炭疽	炭疽	1039	https://terms.naer.edu.tw/	tan ju	69	UK,US	ECDICT n.	炭疽	D000881	Anthrax	C01.150.252.410.090.072	true	true	true	true
+anxiety	焦虑	悸懼，焦慮，恐懼	1174	https://terms.naer.edu.tw/	jiao lv	3367	UK,US	ECDICT n.	焦虑	D001007	Anxiety	F01.470.132	true	true	true	true
+aorta	主动脉	主動脈	1176	https://terms.naer.edu.tw/	zhu dong mai	61	UK,US	ECDICT n.	主动脉	D001011	Aorta	A07.015.114.056	true	true	true	true
+appetite	食欲	食慾	1224	https://terms.naer.edu.tw/	shi yu	4196	UK,US	ECDICT n.	食欲	D001066	Appetite	F02.830.071,G07.203.650.390.070,G10.261.390.070	true	true	true	true
+arteriosclerosis	动脉硬化	動脈硬化	1327	https://terms.naer.edu.tw/	dong mai ying hua	20	UK,US	ECDICT n.	动脉硬化	D001161	Arteriosclerosis	C14.907.137.126	true	true	true	true
+arthritis	关节炎	關節炎	1335	https://terms.naer.edu.tw/	guan jie yan	382	UK,US	ECDICT n.	关节炎	D001168	Arthritis	C05.550.114	true	true	true	true
+ascites	腹水	水腹，水臌，腹水	1409	https://terms.naer.edu.tw/	fu shui	26	UK	ECDICT n.	腹水	D001201	Ascites	C23.550.081	true	true	true	true
+asphyxia	窒息	窒息	1448	https://terms.naer.edu.tw/	zhi xi	1497	UK	ECDICT n.	窒息	D001237	Asphyxia	C23.550.260.095,C26.103	true	true	true	true
+atmosphere	大气	大氣	1509	https://terms.naer.edu.tw/	da qi	4426	UK,US	ECDICT n.	大气	D001272	Atmosphere	G16.500.275.063,N06.230.300.100	true	true	true	true
+atrophy	萎缩	萎縮，萎縮症	1553	https://terms.naer.edu.tw/	wei suo	303	UK,US	ECDICT n.	萎缩	D001284	Atrophy	C23.300.070	true	true	true	true
+attitude	姿势	體態，姿勢	1565	https://terms.naer.edu.tw/	zi shi	5136	UK,US	ECDICT n.	姿势	D001290	Attitude	F01.100	true	true	true	true
+back	背部	背部	1759	https://terms.naer.edu.tw/	bei bu	886	UK,US	ECDICT n.	背部	D001415	Back	A01.923.176	true	true	true	true
+behavior	行为	行為	1943	https://terms.naer.edu.tw/	xing wei	18703	UK,US	ECDICT n.	行为	D001519	Behavior	F01.145	true	true	true	true
+bile	胆汁	膽汁	2029	https://terms.naer.edu.tw/	dan zhi	64	UK,US	ECDICT n.	胆汁	D001646	Bile	A12.200.087	true	true	true	true
+blindness	失明	失明	2181	https://terms.naer.edu.tw/	shi ming	403	UK,US	ECDICT n.	失明	D001766	Blindness	C10.597.751.941.162,C11.966.075,C23.888.592.763.941.162	true	true	true	true
+cadaver	尸体	屍體	2748	https://terms.naer.edu.tw/	shi ti	3072	UK,US	ECDICT n.	尸体	D002102	Cadaver	C23.550.260.224	true	true	true	true
+cardia	贲门	賁門，心臟	3162	https://terms.naer.edu.tw/	ben men	7	US	ECDICT n.	贲门	D002299	Cardia	A03.556.875.875.163	true	true	true	true
+cartilage	软骨	軟骨	3311	https://terms.naer.edu.tw/	ruan gu	325	UK,US	ECDICT n.	软骨	D002356	Cartilage	A02.165,A10.165.382	true	true	true	true
+castration	阉割	去勢，閹割	3389	https://terms.naer.edu.tw/	yan ge	64	UK,US	ECDICT n.	阉割	D002369	Castration	E04.270.282,E04.950.165	true	true	true	true
+cataract	白内障	白內障，晶體混濁	3435	https://terms.naer.edu.tw/	bai nei zhang	82	UK,US	ECDICT n.	白内障	D002386	Cataract	C11.510.245	true	true	true	true
+cerebellum	小脑	小腦	3859	https://terms.naer.edu.tw/	xiao nao	49	UK	ECDICT n.	小脑	D002531	Cerebellum	A08.186.211.132.810.428.200	true	true	true	true
+cerebrum	大脑	大腦	3905	https://terms.naer.edu.tw/	da nao	3420	UK	ECDICT n.	大脑	D054022	Cerebrum	A08.186.211.200.885.287	true	true	true	true
+certification	证明	證明	3930	https://terms.naer.edu.tw/	zheng ming	17389	UK,US	ECDICT n.	证明	D002568	Certification	N03.706.110.120,N05.700.200.190	true	true	true	true
+chlorophyll	叶绿素	葉綠素	4208	https://terms.naer.edu.tw/	ye lv su	126	UK,US	ECDICT n.	叶绿素	D002734	Chlorophyll	D03.383.129.578.840.374,D03.633.400.909.374,D04.345.783.374	true	true	true	true
+cholecystitis	胆囊炎	膽囊炎	4235	https://terms.naer.edu.tw/	dan nang yan	35	UK	ECDICT n.	胆囊炎	D002764	Cholecystitis	C06.130.564.263	true	true	true	true
+cholera	霍乱	霍亂	4264	https://terms.naer.edu.tw/	huo luan	204	UK,US	ECDICT n.	霍乱	D002771	Cholera	C01.150.252.400.959.347	true	true	true	true
+clitoris	阴蒂	陰蒂	4763	https://terms.naer.edu.tw/	yin di	104	UK,US	ECDICT n.	阴蒂	D002987	Clitoris	A05.360.319.887.436	true	true	true	true
+coitus	交媾	交媾，交合，交配	4968	https://terms.naer.edu.tw/	jiao gou	13	UK,US	ECDICT n.	交媾	D003075	Coitus	F01.145.802.188,G08.686.784.041	true	true	true	true
+colon	结肠	結腸	5080	https://terms.naer.edu.tw/	jie chang	73	US	ECDICT n.	结肠	D003106	Colon	A03.556.124.526.356,A03.556.249.249.356	true	true	true	true
+coma	昏迷	昏迷	5130	https://terms.naer.edu.tw/	hun mi	886	UK,US	ECDICT n.	昏迷	D003128	Coma	C10.597.606.358.800.200,C23.888.592.604.359.800.200	true	true	true	true
+conjunctiva	结膜	結膜，結合膜	5343	https://terms.naer.edu.tw/	jie mo	48	UK,US	ECDICT n.	结膜	D003228	Conjunctiva	A09.371.060.200,A09.371.337.168	true	true	true	true
+consciousness	意识	意識，神志，感覺	5368	https://terms.naer.edu.tw/	yi shi	8445	UK,US	ECDICT n.	意识	D003243	Consciousness	F02.463.188.409,F02.830.233	true	true	true	true
+constipation	便秘	便秘，便閉	5391	https://terms.naer.edu.tw/	bian bi	1368	UK,US	ECDICT n.	便秘	D003248	Constipation	C23.888.821.150	true	true	true	true
+contraception	避孕	避孕，避孕法	5432	https://terms.naer.edu.tw/	bi yun	248	UK,US	ECDICT n.	避孕	D003267	Contraception	E02.875.194	true	true	true	true
+contracture	挛缩	攣縮	5442	https://terms.naer.edu.tw/	luan suo	18	UK	ECDICT n.	挛缩	D003286	Contracture	C05.550.323,C05.651.197	true	true	true	true
+cornea	角膜	角膜	5578	https://terms.naer.edu.tw/	jiao mo	164	UK,US	ECDICT n.	角膜	D003315	Cornea	A09.371.060.217	true	true	true	true
+corrosion	腐蚀	腐蝕	5646	https://terms.naer.edu.tw/	fu shi	707	UK,US	ECDICT n.	腐蚀	D003343	Corrosion	G02.165	true	true	true	true
+cotyledon	子叶	子葉，絨毛葉	5693	https://terms.naer.edu.tw/	zi ye	58	US	ECDICT n.	子叶	D018548	Cotyledon	A18.024.500.750.333,A18.024.875.500	true	true	true	true
+cough	咳嗽	咳嗽	5697	https://terms.naer.edu.tw/	ke sou	2732	UK,US	ECDICT n.	咳嗽	D003371	Cough	C08.618.248,C23.888.852.293	true	true	true	true
+cowpox	牛痘	牛痘	5723	https://terms.naer.edu.tw/	niu dou	15	UK	ECDICT n.	牛痘	D015605	Cowpox	C01.925.256.743.175	true	true	true	true
+cytoplasm	细胞质	細胞質，胞漿	6049	https://terms.naer.edu.tw/	xi bao zhi	170	UK,US	ECDICT n.	细胞质	D003593	Cytoplasm	A11.284.430.214	true	true	true	true
+death	死亡	死亡	6177	https://terms.naer.edu.tw/	si wang	18210	UK,US	ECDICT n.	死亡	D003643	Death	C23.550.260	true	true	true	true
+dehydration	脱水	脫水，失水	6276	https://terms.naer.edu.tw/	tuo shui	210	UK,US	ECDICT n.	脱水	D003681	Dehydration	C18.452.950.179,C23.550.274	true	true	true	true
+dengue	登革热	登革熱	6306	https://terms.naer.edu.tw/	deng ge re	101	UK,US	ECDICT n.	登革热	D003715	Dengue	C01.920.852.157,C01.925.081.270,C01.925.782.350.250.214,C01.925.782.417.214	true	true	true	true
+dermis	真皮	真皮	6384	https://terms.naer.edu.tw/	zhen pi	54	UK,US	ECDICT n.	真皮	D020405	Dermis	A17.815.180	true	true	true	true
+desiccation	干燥	乾燥，乾燥法，乾燥現象	6401	https://terms.naer.edu.tw/	gan zao	2203	UK,US	ECDICT n.	干燥	D003890	Desiccation	E05.196.335,G02.176	true	true	true	true
+diagnosis	诊断	診斷	6445	https://terms.naer.edu.tw/	zhen duan	2303	UK,US	ECDICT n.	诊断	D003933	Diagnosis	E01	true	true	true	true
+dialysis	透析	滲析，透析	6458	https://terms.naer.edu.tw/	tou xi	75	UK,US	ECDICT n.	透析	D003956	Dialysis	E05.196.353,G02.186	true	true	true	true
+diphtheria	白喉	白喉	6631	https://terms.naer.edu.tw/	bai hou	96	UK,US	ECDICT n.	白喉	D004165	Diphtheria	C01.150.252.410.040.246.388	true	true	true	true
+disinfection	消毒	消毒	6802	https://terms.naer.edu.tw/	xiao du	455	UK,US	ECDICT n.	消毒	D004203	Disinfection	N06.850.780.200.450.850.375	true	true	true	true
+distillation	蒸馏	蒸餾	6861	https://terms.naer.edu.tw/	zheng liu	286	UK,US	ECDICT n.	蒸馏	D057168	Distillation	E05.196.155.249	false	true	true	true
+drainage	排水	排水，洩液法，排液法	6948	https://terms.naer.edu.tw/	pai shui	975	UK,US	ECDICT n.	排水	D004322	Drainage	E02.309,E04.237	true	true	true	true
+duodenum	十二指肠	十二指腸	7111	https://terms.naer.edu.tw/	shi er zhi chang	108	UK,US	ECDICT n.	十二指肠	D004386	Duodenum	A03.556.124.684.124,A03.556.875.249	true	true	true	true
+dust	尘埃	塵埃，粉末	7122	https://terms.naer.edu.tw/	chen ai	1071	UK,US	ECDICT n.	尘埃	D004391	Dust	D20.633.222	true	true	true	true
+dust	粉末	塵埃，粉末	7122	https://terms.naer.edu.tw/	fen mo	433	UK,US	ECDICT n.	粉末	D004391	Dust	D20.633.222	false	true	true	true
+dysentery	痢疾	痢疾，赤痢	7153	https://terms.naer.edu.tw/	li ji	118	UK,US	ECDICT n.	痢疾	D004403	Dysentery	C06.405.205.331,C06.405.469.300	true	true	true	true
+eczema	湿疹	濕疹	7309	https://terms.naer.edu.tw/	shi zhen	53	UK,US	ECDICT n.	湿疹	D004485	Eczema	C17.800.174.620,C17.800.815.620	true	true	true	true
+edema	水肿	水腫	7319	https://terms.naer.edu.tw/	shui zhong	104	US	ECDICT n.	水肿	D004487	Edema	C23.888.277	true	true	true	true
+efficiency	效率	效率	7345	https://terms.naer.edu.tw/	xiao lv	3811	UK,US	ECDICT n.	效率	D004526	Efficiency	F02.784.692.351,N04.452.209	true	true	true	true
+elasticity	弹性	彈性	7439	https://terms.naer.edu.tw/	tan xing	879	UK,US	ECDICT n.	弹性	D004548	Elasticity	G01.374.590	true	true	true	true
+embarrassment	阻碍	阻礙，窘迫	7550	https://terms.naer.edu.tw/	zu ai	2043	UK,US	ECDICT n.	阻碍	D000078385	Embarrassment	F01.470.483.666.500	false	true	true	true
+encephalitis	脑炎	腦炎	7682	https://terms.naer.edu.tw/	nao yan	78	UK,US	ECDICT n.	脑炎	D004660	Encephalitis	C10.228.140.430,C10.586.250	true	true	true	true
+endometrium	子宫内膜	子宮內膜	7814	https://terms.naer.edu.tw/	zi gong nei mo	91	UK	ECDICT n.	子宫内膜	D004717	Endometrium	A05.360.319.679.490	true	true	true	true
+enteritis	肠炎	腸炎	7915	https://terms.naer.edu.tw/	chang yan	95	UK	ECDICT n.	肠炎	D004751	Enteritis	C06.405.205.462,C06.405.469.326	true	true	true	true
+environment	环境	環境	7996	https://terms.naer.edu.tw/	huan jing	25698	UK,US	ECDICT n.	环境	D004777	Environment	G16.500.275,N06.230	true	true	true	true
+erythema	红斑	紅斑	8242	https://terms.naer.edu.tw/	hong ban	95	UK	ECDICT n.	红斑	D004890	Erythema	C17.800.229,C23.888.885.328	true	true	true	true
+erythromycin	红霉素	紅黴素	8266	https://terms.naer.edu.tw/	hong mei su	19	UK	ECDICT n.	红霉素	D004917	Erythromycin	D02.540.576.500.992	true	true	true	true
+euthanasia	安乐死	安樂死，安死術	8381	https://terms.naer.edu.tw/	an le si	193	UK,US	ECDICT n.	安乐死	D005065	Euthanasia	E02.760.905.199,N02.421.585.905.199	true	true	true	true
+exhalation	呼气	蒸發，蒸氣，呼出，呼氣	8444	https://terms.naer.edu.tw/	hu qi	92	UK,US	ECDICT n.	呼气	D045853	Exhalation	G09.772.705.700.275	true	true	true	true
+exhalation	蒸发	蒸發，蒸氣，呼出，呼氣	8444	https://terms.naer.edu.tw/	zheng fa	793	UK,US	ECDICT n.	蒸发	D045853	Exhalation	G09.772.705.700.275	false	true	true	true
+eye	眼睛	眼睛	8543	https://terms.naer.edu.tw/	yan jing	43844	UK,US	ECDICT n.	眼睛	D005123	Eye	A01.456.505.420,A09.371	true	true	true	true
+family	家庭	家族，家庭，科（分類學）	8605	https://terms.naer.edu.tw/	jia ting	21606	UK,US	ECDICT n.	家庭	D005190	Family	F01.829.263	true	true	true	true
+fasting	禁食	禁食	8649	https://terms.naer.edu.tw/	jin shi	227	UK,US	ECDICT n.	禁食	D005215	Fasting	F01.145.407.400,G07.203.650.240.587,G07.203.650.353.400	true	true	true	true
+fatigue	疲劳	疲勞	8661	https://terms.naer.edu.tw/	pi lao	381	UK,US	ECDICT n.	疲劳	D005221	Fatigue	C23.888.369	true	true	true	true
+fermentation	发酵	發酵	8786	https://terms.naer.edu.tw/	fa jiao	1277	UK,US	ECDICT n.	发酵	D005285	Fermentation	G02.111.158.249,G03.191.249	true	true	true	true
+fever	发烧	〔發〕熱，發燒，體溫上升	8832	https://terms.naer.edu.tw/	fa shao	6489	UK,US	ECDICT n.	发烧	D005334	Fever	C23.888.119.344	false	true	true	true
+fibula	腓骨	腓骨	8914	https://terms.naer.edu.tw/	fei gu	86	UK,US	ECDICT n.	腓骨	D005360	Fibula	A02.835.232.043.650.321	true	true	true	true
+food	食物	食物	9160	https://terms.naer.edu.tw/	shi wu	9740	UK,US	ECDICT n.	食物	D005502	Food	G07.203.300	true	true	true	true
+forearm	前臂	前臂	9235	https://terms.naer.edu.tw/	qian bi	174	US	ECDICT n.	前臂	D005542	Forearm	A01.378.800.585	true	true	true	true
+forehead	前额	前額	9238	https://terms.naer.edu.tw/	qian e	104	UK,US	ECDICT n.	前额	D005546	Forehead	A01.456.505.580	true	true	true	true
+forelimb	前肢	前肢	9243	https://terms.naer.edu.tw/	qian zhi	144	UK,US	ECDICT n.	前肢	D005552	Forelimb	A13.395	true	true	true	true
+foreskin	包皮	包皮	9246	https://terms.naer.edu.tw/	bao pi	83	UK,US	ECDICT n.	包皮	D052816	Foreskin	A05.360.444.492.362	true	true	true	true
+formaldehyde	甲醛	甲醛，蟻醛	9250	https://terms.naer.edu.tw/	jia quan	112	UK,US	ECDICT n.	甲醛	D005557	Formaldehyde	D02.047.407	true	true	true	true
+frostbite	冻疮	凍瘡	9380	https://terms.naer.edu.tw/	dong chuang	7	UK,US	ECDICT n.	冻疮	D005627	Frostbite	C26.212.500,C26.417	false	true	true	true
+fructose	果糖	果糖	9384	https://terms.naer.edu.tw/	guo tang	32	UK,US	ECDICT n.	果糖	D005632	Fructose	D09.947.875.359.250,D09.947.875.465.354	true	true	true	true
+gait	步态	步態，步伐	9444	https://terms.naer.edu.tw/	bu tai	46	UK,US	ECDICT n.	步态	D005684	Gait	E01.370.600.250,G11.427.410.568.900.750	true	true	true	true
+galactose	半乳糖	半乳糖	9470	https://terms.naer.edu.tw/	ban ru tang	57	UK,US	ECDICT n.	半乳糖	D005690	Galactose	D09.947.875.359.377	true	true	true	true
+gastritis	胃炎	胃炎	9602	https://terms.naer.edu.tw/	wei yan	27	UK,US	ECDICT n.	胃炎	D005756	Gastritis	C06.405.205.697,C06.405.748.398	true	true	true	true
+gelatin	明胶	明膠	9669	https://terms.naer.edu.tw/	ming jiao	57	UK,US	ECDICT n.	明胶	D005780	Gelatin	D12.776.860.476	true	true	true	true
+genotype	基因型	遺傳型，基因型	9729	https://terms.naer.edu.tw/	ji yin xing	97	UK,US	ECDICT n.	基因型	D005838	Genotype	G05.380	true	true	true	true
+germination	发芽	發芽	9765	https://terms.naer.edu.tw/	fa ya	1066	UK,US	ECDICT n.	发芽	D018525	Germination	G07.345.625.249,G15.589.250	false	true	true	true
+glaucoma	青光眼	青光眼，綠內障	9872	https://terms.naer.edu.tw/	qing guang yan	62	UK,US	ECDICT n.	青光眼	D005901	Glaucoma	C11.525.381	true	true	true	true
+glottis	声门	聲門	9940	https://terms.naer.edu.tw/	sheng men	115	UK,US	ECDICT n.	声门	D005931	Glottis	A04.329.364	true	true	true	true
+glucose	葡萄糖	葡萄糖	9960	https://terms.naer.edu.tw/	pu tao tang	315	UK,US	ECDICT n.	葡萄糖	D005947	Glucose	D09.947.875.359.448	true	true	true	true
+glycerol	甘油	甘油	9984	https://terms.naer.edu.tw/	gan you	209	UK,US	ECDICT n.	甘油	D005990	Glycerol	D02.033.800.875.500,D09.853.875.500	true	true	true	true
+gout	痛风	痛風	10085	https://terms.naer.edu.tw/	tong feng	63	UK,US	ECDICT n.	痛风	D006073	Gout	C05.550.114.423,C05.550.354.500,C05.799.414,C16.320.565.798.368,C18.452.648.798.368	true	true	true	true
+groin	腹股沟	腹股溝，鼠蹊	10220	https://terms.naer.edu.tw/	fu gu gou	39	UK,US	ECDICT n.	腹股沟	D006119	Groin	A01.923.047.365	true	true	true	true
+growth	生长	生長	10235	https://terms.naer.edu.tw/	sheng zhang	5463	UK,US	ECDICT n.	生长	D006128	Growth	G07.345.249	true	true	true	true
+halitosis	口臭	口臭，呼氣臭	10425	https://terms.naer.edu.tw/	kou chou	10	UK	ECDICT n.	口臭	D006209	Halitosis	C23.888.821.475	true	true	true	true
+heart	心脏	心臟	10508	https://terms.naer.edu.tw/	xin zang	4675	UK,US	ECDICT n.	心脏	D006321	Heart	A07.541	true	true	true	true
+hemiplegia	偏瘫	偏癱，半身不遂	10805	https://terms.naer.edu.tw/	pian tan	31	UK,US	ECDICT n.	偏瘫	D006429	Hemiplegia	C10.597.622.295,C23.888.592.636.312	true	true	true	true
+hemiplegia	半身不遂	偏癱，半身不遂	10805	https://terms.naer.edu.tw/	ban shen bu sui	31	UK,US	ECDICT n.	半身不遂	D006429	Hemiplegia	C10.597.622.295,C23.888.592.636.312	true	true	true	true
+hemorrhage	出血	出血	10914	https://terms.naer.edu.tw/	chu xue	681	US	ECDICT n.	出血	D006470	Hemorrhage	C23.550.414	true	true	true	true
+heparin	肝素	肝素，肝燐脂	10961	https://terms.naer.edu.tw/	gan su	67	UK,US	ECDICT n.	肝素	D006493	Heparin	D09.698.373.400	true	true	true	true
+hepatitis	肝炎	肝炎	10983	https://terms.naer.edu.tw/	gan yan	244	UK,US	ECDICT n.	肝炎	D006505	Hepatitis	C06.552.380	true	true	true	true
+heredity	遗传	遺傳	11042	https://terms.naer.edu.tw/	yi chuan	2695	UK,US	ECDICT n.	遗传	D040941	Heredity	G05.390	true	true	true	true
+hibernation	冬眠	冬眠，寒冷療法	11172	https://terms.naer.edu.tw/	dong mian	1497	UK,US	ECDICT n.	冬眠	D006605	Hibernation	G07.110.232.889.500,G07.410.421.889.500,G16.012.500.535.889.500	true	true	true	true
+humerus	肱骨	肱骨	11408	https://terms.naer.edu.tw/	gong gu	158	UK,US	ECDICT n.	肱骨	D006811	Humerus	A02.835.232.087.090.400	true	true	true	true
+hunger	饥饿	饑餓	11417	https://terms.naer.edu.tw/	ji e	1527	UK,US	ECDICT n.	饥饿	D006815	Hunger	F01.658.293.391,G07.203.650.390,G10.261.390	true	true	true	true
+hyperplasia	增殖	增殖，數量性肥大	11605	https://terms.naer.edu.tw/	zeng zhi	375	US	ECDICT n.	增殖	D006965	Hyperplasia	C23.550.444	false	true	true	true
+hypertension	高血压	高血壓，張力過度	11636	https://terms.naer.edu.tw/	gao xue ya	364	UK,US	ECDICT n.	高血压	D006973	Hypertension	C14.907.489	true	true	true	true
+hypertrophy	肥大	肥大	11651	https://terms.naer.edu.tw/	fei da	193	UK,US	ECDICT n.	肥大	D006984	Hypertrophy	C23.300.775	true	true	true	true
+immunity	免疫	免疫	12024	https://terms.naer.edu.tw/	mian yi	622	UK,US	ECDICT n.	免疫	D007109	Immunity	G12.450	true	true	true	true
+incineration	焚化	焚化	12124	https://terms.naer.edu.tw/	fen hua	107	UK,US	ECDICT n.	焚化	D017745	Incineration	N06.850.860.510.900.600.500	false	false	false	true
+inhalation	吸入	吸入	12339	https://terms.naer.edu.tw/	xi ru	601	UK,US	ECDICT n.	吸入	D001239	Inhalation	G09.772.705.700.390	true	true	true	true
+insulin	胰岛素	胰島素	12454	https://terms.naer.edu.tw/	yi dao su	430	UK,US	ECDICT n.	胰岛素	D007328	Insulin	D06.472.699.587.200.500.625,D12.644.548.586.200.500.625	true	true	true	true
+iris	虹膜	虹膜，虹彩	12744	https://terms.naer.edu.tw/	hong mo	100	UK,US	ECDICT n.	虹膜	D007498	Iris	A09.371.060.450,A09.371.894.513	true	true	true	true
+keratitis	角膜炎	角膜炎	13116	https://terms.naer.edu.tw/	jiao mo yan	28	UK	ECDICT n.	角膜炎	D007634	Keratitis	C11.204.564	true	true	true	true
+lactose	乳糖	乳糖	13363	https://terms.naer.edu.tw/	ru tang	54	UK,US	ECDICT n.	乳糖	D007785	Lactose	D09.698.629.305.340,D09.947.750.340	true	true	true	true
+larva	幼虫	蟲幼，幼蟲	13474	https://terms.naer.edu.tw/	you chong	958	UK,US	ECDICT n.	幼虫	D007814	Larva	G07.345.500.550.500.500	true	true	true	true
+laryngitis	喉炎	喉炎	13492	https://terms.naer.edu.tw/	hou yan	12	UK,US	ECDICT n.	喉炎	D007827	Laryngitis	C01.748.368,C08.360.535,C08.730.368,C09.400.535	true	true	true	true
+larynx	喉头	喉，喉頭	13502	https://terms.naer.edu.tw/	hou tou	20	UK,US	ECDICT n.	喉头	D007830	Larynx	A04.329	true	true	true	true
+leukemia	白血病	白血病	13718	https://terms.naer.edu.tw/	bai xue bing	452	US	ECDICT n.	白血病	D007938	Leukemia	C04.557.337,C15.378.508	true	true	true	true
+libido	性欲	性慾	13777	https://terms.naer.edu.tw/	xing yu	368	UK,US	ECDICT n.	性欲	D007989	Libido	F02.739.794.511	true	true	true	true
+ligation	结扎	結紮，縛法，結法	13818	https://terms.naer.edu.tw/	jie za	40	US	ECDICT n.	结扎	D008026	Ligation	E04.426	true	true	true	true
+lighting	照明	照明	13827	https://terms.naer.edu.tw/	zhao ming	1211	UK,US	ECDICT n.	照明	D008029	Lighting	N06.230.150.410	true	true	true	true
+lung	肺脏	肺，肺臟	14155	https://terms.naer.edu.tw/	fei zang	47	UK,US	ECDICT n.	肺脏	D008168	Lung	A04.411	true	true	true	true
+lymph	淋巴	淋巴	14195	https://terms.naer.edu.tw/	lin ba	207	UK,US	ECDICT n.	淋巴	D008196	Lymph	A12.207.270.606,A15.382.520.150	true	true	true	true
+lymphoma	淋巴瘤	淋巴瘤	14257	https://terms.naer.edu.tw/	lin ba liu	230	UK,US	ECDICT n.	淋巴瘤	D008223	Lymphoma	C04.557.386,C15.604.515.569,C20.683.515.761	true	true	true	true
+malaria	疟疾	瘧疾	14400	https://terms.naer.edu.tw/	nve ji	293	UK,US	ECDICT n.	疟疾	D008288	Malaria	C01.610.752.530,C01.920.852.750	true	true	true	true
+malnutrition	营养不良	營養不良	14450	https://terms.naer.edu.tw/	ying yang bu liang	255	UK,US	ECDICT n.	营养不良	D044342	Malnutrition	C18.654.521	true	true	true	true
+maltose	麦芽糖	麥芽糖	14466	https://terms.naer.edu.tw/	mai ya tang	37	UK,US	ECDICT n.	麦芽糖	D008320	Maltose	D09.698.365.450,D09.698.629.305.523,D09.947.750.523	true	true	true	true
+mastication	咀嚼	咀嚼	14576	https://terms.naer.edu.tw/	ju jue	109	UK	ECDICT n.	咀嚼	D008409	Mastication	G07.203.650.283.500,G10.261.330.500	true	true	true	true
+measles	麻疹	麻疹	14675	https://terms.naer.edu.tw/	ma zhen	239	UK,US	ECDICT n.	麻疹	D008457	Measles	C01.925.782.580.600.500.500	true	true	true	true
+meiosis	减数分裂	減數分裂	14826	https://terms.naer.edu.tw/	jian shu fen lie	57	UK,US	ECDICT n.	减数分裂	D008540	Meiosis	G04.144.220.220.687,G05.113.220.687	true	true	true	true
+meningitis	脑膜炎	腦膜炎	14904	https://terms.naer.edu.tw/	nao mo yan	146	UK,US	ECDICT n.	脑膜炎	D008581	Meningitis	C10.586.625	true	true	true	true
+menstruation	月经	月經，行經	14936	https://terms.naer.edu.tw/	yue jing	385	UK,US	ECDICT n.	月经	D008598	Menstruation	G08.686.605.428	true	true	true	true
+metabolism	新陈代谢	新陳代謝	15043	https://terms.naer.edu.tw/	xin chen dai xie	394	UK,US	ECDICT n.	新陈代谢	D008660	Metabolism	G03	true	true	true	true
+metacarpus	掌骨	掌，掌骨	15052	https://terms.naer.edu.tw/	zhang gu	78	UK	ECDICT n.	掌骨	D008663	Metacarpus	A01.378.800.667.572	true	true	true	true
+molar	臼齿	臼齒，大塊的，胎塊的，克分子	15396	https://terms.naer.edu.tw/	jiu chi	127	UK,US	ECDICT n.	臼齿	D008963	Molar	A14.549.167.860.525	true	true	true	true
+molasses	糖蜜	糖蜜	15398	https://terms.naer.edu.tw/	tang mi	57	UK,US	ECDICT n.	糖蜜	D008965	Molasses	G07.203.300.662	true	true	true	true
+morphine	吗啡	嗎啡	15481	https://terms.naer.edu.tw/	ma fei	121	UK,US	ECDICT n.	吗啡	D009020	Morphine	D03.132.577.249.562.571,D03.605.497.607.587,D03.633.400.686.607.587,D04.615.723.795.576.571	true	true	true	true
+mortality	死亡率	死亡率	15490	https://terms.naer.edu.tw/	si wang lv	553	UK,US	ECDICT n.	死亡率	D009026	Mortality	E05.318.308.985.550,N01.224.935.698,N06.850.505.400.975.550,N06.850.520.308.985.550	true	true	true	true
+movement	运动	運動	15531	https://terms.naer.edu.tw/	yun dong	46199	UK,US	ECDICT n.	运动	D009068	Movement	G07.568,G11.427.410	true	true	true	true
+mutation	突变	突變	15706	https://terms.naer.edu.tw/	tu bian	626	UK,US	ECDICT n.	突变	D009154	Mutation	G05.365.590	true	true	true	true
+myelitis	脊髓炎	脊髓炎	15782	https://terms.naer.edu.tw/	ji sui yan	40	UK	ECDICT n.	脊髓炎	D009187	Myelitis	C01.207.618,C10.228.228.618,C10.228.854.525,C10.586.750	true	true	true	true
+myocarditis	心肌炎	心肌炎	15860	https://terms.naer.edu.tw/	xin ji yan	39	UK	ECDICT n.	心肌炎	D009205	Myocarditis	C14.280.238.625	true	true	true	true
+myocardium	心肌	心肌	15861	https://terms.naer.edu.tw/	xin ji	325	UK,US	ECDICT n.	心肌	D009206	Myocardium	A02.633.580,A07.541.704,A10.690.552.750	true	true	true	true
+nausea	恶心	噁心，乾嘔	16088	https://terms.naer.edu.tw/	e xin	361	UK,US	ECDICT n.	恶心	D009325	Nausea	C23.888.821.712	true	true	true	true
+necrosis	坏死	壞死	16119	https://terms.naer.edu.tw/	huai si	228	UK,US	ECDICT n.	坏死	D009336	Necrosis	C23.550.717	true	true	true	true
+nephritis	肾炎	腎炎	16227	https://terms.naer.edu.tw/	shen yan	80	UK	ECDICT n.	肾炎	D009393	Nephritis	C12.050.351.968.419.570,C12.200.777.419.570,C12.950.419.570	true	true	true	true
+neuralgia	神经痛	神經痛	16315	https://terms.naer.edu.tw/	shen jing tong	8	UK	ECDICT n.	神经痛	D009437	Neuralgia	C10.668.829.600,C23.888.592.612.664,F02.830.816.444.515,G11.561.790.444.538	true	true	true	true
+noise	噪音	噪音	16531	https://terms.naer.edu.tw/	zao yin	1238	UK,US	ECDICT n.	噪音	D009622	Noise	G01.750.770.776.567,G16.500.275.600,N06.230.400,N06.850.460.610	true	true	true	true
+obesity	肥胖	肥胖，肥胖病	16730	https://terms.naer.edu.tw/	fei pang	1280	UK,US	ECDICT n.	肥胖	D009765	Obesity	C18.654.726.750.500,C23.888.144.699.500	false	true	true	true
+orbit	眼眶	眼眶，眼窠	17056	https://terms.naer.edu.tw/	yan kuang	99	UK,US	ECDICT n.	眼眶	D009915	Orbit	A02.835.232.781.324.690	true	true	true	true
+ovary	卵巢	卵巢	17273	https://terms.naer.edu.tw/	luan chao	225	UK,US	ECDICT n.	卵巢	D010053	Ovary	A05.360.319.114.630,A05.360.576.497,A06.300.312.497	true	true	true	true
+ozone	臭氧	臭氧	17346	https://terms.naer.edu.tw/	chou yang	188	UK,US	ECDICT n.	臭氧	D010126	Ozone	D01.362.670.600	true	true	true	true
+pallor	苍白	蒼白，蒼黃	17407	https://terms.naer.edu.tw/	cang bai	159	UK	ECDICT n.	苍白	D010167	Pallor	C23.888.885.500	false	false	false	true
+paralysis	瘫痪	麻痺，癱瘓	17536	https://terms.naer.edu.tw/	tan huan	763	UK,US	ECDICT n.	瘫痪	D010243	Paralysis	C10.597.622,C23.888.592.636	false	true	true	true
+paraplegia	截瘫	截癱	17565	https://terms.naer.edu.tw/	jie tan	19	US	ECDICT n.	截瘫	D010264	Paraplegia	C10.597.622.669,C23.888.592.636.637	true	true	true	true
+pelvis	骨盆	骨盆	17757	https://terms.naer.edu.tw/	gu pen	427	UK,US	ECDICT n.	骨盆	D010388	Pelvis	A01.923.600	true	true	true	true
+pericardium	心包	心包，圍心囊	17831	https://terms.naer.edu.tw/	xin bao	33	UK	ECDICT n.	心包	D010496	Pericardium	A07.541.795,A10.615.789.470	true	true	true	true
+peristalsis	蠕动	蠕動	17867	https://terms.naer.edu.tw/	ru dong	235	UK	ECDICT n.	蠕动	D010528	Peristalsis	G10.261.360.596	true	true	true	true
+peritonitis	腹膜炎	腹膜炎	17876	https://terms.naer.edu.tw/	fu mo yan	64	UK	ECDICT n.	腹膜炎	D010538	Peritonitis	C01.463.600,C06.844.640	true	true	true	true
+pharyngitis	咽炎	咽炎	17940	https://terms.naer.edu.tw/	yan yan	43	UK	ECDICT n.	咽炎	D010612	Pharyngitis	C01.748.561,C07.550.781,C08.730.561,C09.775.649	true	true	true	true
+phenol	石炭酸	石炭酸，酚	17949	https://terms.naer.edu.tw/	shi tan suan	6	UK,US	ECDICT n.	石炭酸	D019800	Phenol	D02.455.426.559.389.657.595	true	true	true	true
+photosynthesis	光合作用	光合作用	18027	https://terms.naer.edu.tw/	guang he zuo yong	301	UK,US	ECDICT n.	光合作用	D010788	Photosynthesis	G02.111.158.937,G02.111.669.700,G02.740.921,G03.191.937,G03.493.700,G03.800.700,G15.568	true	true	true	true
+placenta	胎盘	胎盤	18191	https://terms.naer.edu.tw/	tai pan	260	UK,US	ECDICT n.	胎盘	D010920	Placenta	A16.710	true	true	true	true
+plasma	血浆	血漿	18242	https://terms.naer.edu.tw/	xue jiang	252	UK,US	ECDICT n.	血浆	D010949	Plasma	A12.207.152.693,A12.207.270.695,A15.145.693	true	true	true	true
+pleura	胸膜	胸膜，側板	18308	https://terms.naer.edu.tw/	xiong mo	10	UK	ECDICT n.	胸膜	D010994	Pleura	A04.716,A10.615.789.736	true	true	true	true
+pleurisy	胸膜炎	胸膜炎	18318	https://terms.naer.edu.tw/	xiong mo yan	19	UK,US	ECDICT n.	胸膜炎	D010998	Pleurisy	C01.748.582,C08.528.735,C08.730.582	true	true	true	true
+pneumothorax	气胸	氣胸	18417	https://terms.naer.edu.tw/	qi xiong	21	UK	ECDICT n.	气胸	D011030	Pneumothorax	C08.528.778	true	true	true	true
+poisoning	中毒	中毒	18444	https://terms.naer.edu.tw/	zhong du	4067	UK,US	ECDICT n.	中毒	D011041	Poisoning	C25.723	true	true	true	true
+pollen	花粉	花粉	18474	https://terms.naer.edu.tw/	hua fen	634	UK,US	ECDICT n.	花粉	D011058	Pollen	A18.024.249.500.249.500	true	true	true	true
+posture	姿势	姿勢，臥式	18590	https://terms.naer.edu.tw/	zi shi	5136	UK,US	ECDICT n.	姿势	D011187	Posture	G11.427.695	true	true	true	true
+poultry	家禽	家禽	18599	https://terms.naer.edu.tw/	jia qin	253	UK,US	ECDICT n.	家禽	D011200	Poultry	G07.203.300.600.750	true	true	true	true
+pregnancy	怀孕	懷孕，姙娠	18641	https://terms.naer.edu.tw/	huai yun	1594	UK,US	ECDICT n.	怀孕	D011247	Pregnancy	G08.686.784.769	true	true	true	true
+prognosis	预后	預後	18749	https://terms.naer.edu.tw/	yu hou	130	UK,US	ECDICT n.	预后	D011379	Prognosis	E01.789	true	true	true	true
+psoriasis	牛皮癣	牛皮癬	18905	https://terms.naer.edu.tw/	niu pi xuan	15	UK,US	ECDICT n.	牛皮癣	D011565	Psoriasis	C17.800.859.675	true	true	true	true
+pulse	脉搏	脈搏	18931	https://terms.naer.edu.tw/	mai bo	131	UK,US	ECDICT n.	脉搏	D011674	Pulse	G09.330.380.750	true	true	true	true
+rabies	狂犬病	狂犬病	19110	https://terms.naer.edu.tw/	kuang quan bing	88	UK,US	ECDICT n.	狂犬病	D011818	Rabies	C01.925.782.580.830.750	true	true	true	true
+radiation	辐射	輻射，放射線	19135	https://terms.naer.edu.tw/	fu she	2357	UK,US	ECDICT n.	辐射	D011827	Radiation	G01.750	true	true	true	true
+radioactivity	放射性	放射性	19155	https://terms.naer.edu.tw/	fang she xing	699	UK,US	ECDICT n.	放射性	D011851	Radioactivity	G01.828	true	true	true	true
+radius	半径	橈骨，半徑	19176	https://terms.naer.edu.tw/	ban jing	1447	UK,US	ECDICT n.	半径	D011884	Radius	A02.835.232.087.090.700	true	true	true	true
+rectum	直肠	直腸	19369	https://terms.naer.edu.tw/	zhi chang	143	UK,US	ECDICT n.	直肠	D012007	Rectum	A03.556.124.526.767,A03.556.249.249.767	true	true	true	true
+reflex	反射	反射	19425	https://terms.naer.edu.tw/	fan she	1168	US	ECDICT n.	反射	D012018	Reflex	E01.370.376.550.650,E01.370.600.550.650,F02.830.702,G11.561.731	true	true	true	true
+refrigeration	冷藏	冷藏	19441	https://terms.naer.edu.tw/	leng cang	711	UK,US	ECDICT n.	冷藏	D012034	Refrigeration	E02.792.643,E05.760.643	true	true	true	true
+regeneration	再生	再生	19443	https://terms.naer.edu.tw/	zai sheng	1048	UK,US	ECDICT n.	再生	D012038	Regeneration	G16.762	true	true	true	true
+rehabilitation	复原	恢復，復原，重建	19464	https://terms.naer.edu.tw/	fu yuan	989	UK,US	ECDICT n.	复原	D012046	Rehabilitation	E02.760.169.063.500,E02.831,N02.421.784	true	true	true	true
+reproduction	繁殖	生殖〔作用〕，繁殖	19555	https://terms.naer.edu.tw/	fan zhi	1988	UK,US	ECDICT n.	繁殖	D012098	Reproduction	G08.686.784	true	true	true	true
+retina	视网膜	視網膜	19719	https://terms.naer.edu.tw/	shi wang mo	280	UK,US	ECDICT n.	视网膜	D012160	Retina	A09.371.729	true	true	true	true
+rhinitis	鼻炎	鼻炎	19786	https://terms.naer.edu.tw/	bi yan	37	UK	ECDICT n.	鼻炎	D012220	Rhinitis	C01.748.674,C08.460.799,C08.730.674,C09.603.799	true	true	true	true
+riboflavin	核黄素	核黃素	19842	https://terms.naer.edu.tw/	he huang su	8	UK	ECDICT n.	核黄素	D012256	Riboflavin	D03.633.100.733.315.650,D03.633.300.507.650,D08.211.474.650,D23.767.405.650	true	true	true	true
+rickets	佝偻病	佝僂病	19856	https://terms.naer.edu.tw/	gou lou bing	41	UK,US	ECDICT n.	佝偻病	D012279	Rickets	C05.116.198.816,C18.452.104.816,C18.452.174.845,C18.654.521.500.133.770.734	true	true	true	true
+rotation	旋转	位旋轉（胎位，胎向），旋轉	19953	https://terms.naer.edu.tw/	xuan zhuan	3114	UK,US	ECDICT n.	旋转	D012399	Rotation	G01.482.703	true	true	true	true
+rubber	橡胶	橡膠	19984	https://terms.naer.edu.tw/	xiang jiao	1457	UK,US	ECDICT n.	橡胶	D012408	Rubber	D25.720.099.750,D25.720.327.840	true	true	true	true
+rubella	风疹	風疹	19991	https://terms.naer.edu.tw/	feng zhen	24	UK,US	ECDICT n.	风疹	D012409	Rubella	C01.925.782.930.700.700	true	true	true	true
+rupture	破裂	破裂	20034	https://terms.naer.edu.tw/	po lie	1172	UK,US	ECDICT n.	破裂	D012421	Rupture	C26.761	true	true	true	true
+saccharin	糖精	糖精	20068	https://terms.naer.edu.tw/	tang jing	55	UK,US	ECDICT n.	糖精	D012439	Saccharin	D02.886.675.687,D03.383.129.708.089.708,D03.633.100.185.708	true	true	true	true
+sacrum	骶骨	薦骨，骶骨	20088	https://terms.naer.edu.tw/	di gu	60	UK	ECDICT n.	骶骨	D012447	Sacrum	A02.835.232.834.717	true	true	true	true
+saliva	唾液	唾液	20112	https://terms.naer.edu.tw/	tuo ye	145	UK,US	ECDICT n.	唾液	D012463	Saliva	A12.200.666	true	true	true	true
+sarcoma	肉瘤	肉瘤	20219	https://terms.naer.edu.tw/	rou liu	64	UK,US	ECDICT n.	肉瘤	D012509	Sarcoma	C04.557.450.795	true	true	true	true
+scapula	肩胛骨	肩胛骨，髆骨	20295	https://terms.naer.edu.tw/	jian jia gu	98	UK,US	ECDICT n.	肩胛骨	D012540	Scapula	A02.835.232.087.783	true	true	true	true
+schistosomiasis	血吸虫病	血吸蟲病	20316	https://terms.naer.edu.tw/	xue xi chong bing	305	UK	ECDICT n.	血吸虫病	D012552	Schistosomiasis	C01.610.335.865.859,C01.920.922	true	true	true	true
+sclera	巩膜	鞏膜	20342	https://terms.naer.edu.tw/	gong mo	46	UK	ECDICT n.	巩膜	D012590	Sclera	A09.371.784	true	true	true	true
+scrotum	阴囊	陰囊	20401	https://terms.naer.edu.tw/	yin nang	42	UK	ECDICT n.	阴囊	D012611	Scrotum	A05.360.444.661	true	true	true	true
+scurvy	坏血病	壞血病	20407	https://terms.naer.edu.tw/	huai xue bing	22	UK	ECDICT n.	坏血病	D012614	Scurvy	C14.907.454.800,C15.378.463.515.800,C18.654.521.500.133.115.661	true	true	true	true
+sebum	皮脂	皮脂，綿羊脂，牛脂	20442	https://terms.naer.edu.tw/	pi zhi	15	UK	ECDICT n.	皮脂	D012629	Sebum	A12.200.702	true	true	true	true
+semen	精液	種子，精液	20514	https://terms.naer.edu.tw/	jing ye	197	UK,US	ECDICT n.	精液	D012661	Semen	A12.200.732	true	true	true	true
+sex	性别	性，性別	20649	https://terms.naer.edu.tw/	xing bie	6719	UK,US	ECDICT n.	性别	D012723	Sex	G08.686.810	true	true	true	true
+shock	休克	休克，震盪，猝變	20713	https://terms.naer.edu.tw/	xiu ke	242	UK,US	ECDICT n.	休克	D012769	Shock	C23.550.835	true	true	true	true
+skin	皮肤	皮膚，〔牛〕肘肉（澳）	20892	https://terms.naer.edu.tw/	pi fu	18417	UK,US	ECDICT n.	皮肤	D012867	Skin	A17.815	true	true	true	true
+sleep	睡眠	睡覺，睡眠	20946	https://terms.naer.edu.tw/	shui mian	6607	UK,US	ECDICT n.	睡眠	D012890	Sleep	F02.830.855,G11.561.803	true	true	true	true
+smallpox	天花	天花，痘瘡	20977	https://terms.naer.edu.tw/	tian hua	387	UK,US	ECDICT n.	天花	D012899	Smallpox	C01.925.256.743.826	true	true	true	true
+smog	烟雾	煙霧	20985	https://terms.naer.edu.tw/	yan wu	824	UK,US	ECDICT n.	烟雾	D012905	Smog	D20.633.875	false	true	true	true
+soil	土壤	土壤，糞汙，糞尿，肥料	21035	https://terms.naer.edu.tw/	tu rang	1642	UK,US	ECDICT n.	土壤	D012987	Soil	D20.721,G01.311.820,G16.500.275.815,N06.230.600	true	true	true	true
+spasm	痉挛	痙攣	21136	https://terms.naer.edu.tw/	jing luan	200	UK,US	ECDICT n.	痉挛	D013035	Spasm	C10.597.613.750,C23.888.592.608.750	true	true	true	true
+spine	脊柱	棘，脊柱	21236	https://terms.naer.edu.tw/	ji zhu	183	UK,US	ECDICT n.	脊柱	D013131	Spine	A02.835.232.834	true	true	true	true
+starch	淀粉	澱粉	21446	https://terms.naer.edu.tw/	dian fen	986	UK,US	ECDICT n.	淀粉	D013213	Starch	D05.750.078.562.855,D09.301.915,D09.698.365.855	true	true	true	true
+sternum	胸骨	胸骨，龍骨（家禽）	21507	https://terms.naer.edu.tw/	xiong gu	69	UK	ECDICT n.	胸骨	D013249	Sternum	A02.835.232.570.750	true	true	true	true
+strabismus	斜视	斜視，斜眼	21575	https://terms.naer.edu.tw/	xie shi	150	UK	ECDICT n.	斜视	D013285	Strabismus	C10.292.562.887,C11.590.810	true	true	true	true
+streptomycin	链霉素	鏈黴素，鏈絲菌素	21643	https://terms.naer.edu.tw/	lian mei su	13	UK	ECDICT n.	链霉素	D013307	Streptomycin	D09.408.051.885	true	true	true	true
+sucrose	蔗糖	蔗糖	21774	https://terms.naer.edu.tw/	zhe tang	124	UK,US	ECDICT n.	蔗糖	D013395	Sucrose	D09.698.629.305.770,D09.947.750.770	true	true	true	true
+sunstroke	中暑	日射病，中暑	21833	https://terms.naer.edu.tw/	zhong shu	1885	UK	ECDICT n.	中暑	D013474	Sunstroke	C26.522.500.500	true	true	true	true
+taste	味觉	味覺	22211	https://terms.naer.edu.tw/	wei jue	169	UK,US	ECDICT n.	味觉	D013649	Taste	F02.830.816.724,G11.561.790.724	true	true	true	true
+temperature	温度	溫度	22274	https://terms.naer.edu.tw/	wen du	10033	UK,US	ECDICT n.	温度	D013696	Temperature	G01.906.595,G16.500.275.063.725.710,G16.500.750.775.710,N06.230.150.450,N06.230.300.100.725.710	true	true	true	true
+tetanus	破伤风	破傷風	22396	https://terms.naer.edu.tw/	po shang feng	33	UK,US	ECDICT n.	破伤风	D013742	Tetanus	C01.150.252.410.222.864	true	true	true	true
+tetracycline	四环素	四環素	22409	https://terms.naer.edu.tw/	si huan su	33	UK	ECDICT n.	四环素	D013752	Tetracycline	D02.455.426.559.847.562.900.875,D04.615.562.900.875	true	true	true	true
+thigh	大腿	股，大腿	22475	https://terms.naer.edu.tw/	da tui	365	UK,US	ECDICT n.	大腿	D013848	Thigh	A01.378.610.750	true	true	true	true
+tibia	胫骨	脛骨	22570	https://terms.naer.edu.tw/	jing gu	180	UK,US	ECDICT n.	胫骨	D013977	Tibia	A02.835.232.043.650.883	true	true	true	true
+trachea	气管	氣管	22718	https://terms.naer.edu.tw/	qi guan	194	UK,US	ECDICT n.	气管	D014132	Trachea	A04.889	true	true	true	true
+ulcer	溃疡	潰瘍	23031	https://terms.naer.edu.tw/	kui yang	121	UK,US	ECDICT n.	溃疡	D014456	Ulcer	C23.550.891	true	true	true	true
+ulna	尺骨	尺骨	23037	https://terms.naer.edu.tw/	chi gu	105	UK	ECDICT n.	尺骨	D014457	Ulna	A02.835.232.087.090.850	true	true	true	true
+urea	尿素	尿素，甲醯二胺，脲	23110	https://terms.naer.edu.tw/	niao su	114	UK,US	ECDICT n.	尿素	D014508	Urea	D02.065.950	true	true	true	true
+ureter	输尿管	輸尿管	23114	https://terms.naer.edu.tw/	shu niao guan	74	UK	ECDICT n.	输尿管	D014513	Ureter	A05.810.776	true	true	true	true
+urethra	尿道	尿道	23119	https://terms.naer.edu.tw/	niao dao	138	UK,US	ECDICT n.	尿道	D014521	Urethra	A05.360.444.492.726,A05.810.876	true	true	true	true
+uterus	子宫	子宮	23226	https://terms.naer.edu.tw/	zi gong	425	UK,US	ECDICT n.	子宫	D014599	Uterus	A05.360.319.679	true	true	true	true
+vaccinia	牛痘	牛痘	23269	https://terms.naer.edu.tw/	niu dou	15	UK,US	ECDICT n.	牛痘	D014615	Vaccinia	C01.925.256.743.929	true	true	true	true
+vacuum	真空	真空	23276	https://terms.naer.edu.tw/	zhen kong	744	UK,US	ECDICT n.	真空	D014618	Vacuum	G01.374.715.902,G16.500.750.274.902,N06.230.300.100.185.902	true	true	true	true
+vagina	阴道	鞘，陰道	23286	https://terms.naer.edu.tw/	yin dao	561	UK,US	ECDICT n.	阴道	D014621	Vagina	A05.360.319.779	true	true	true	true
+ventilation	通风	通風，換氣法	23439	https://terms.naer.edu.tw/	tong feng	1448	UK,US	ECDICT n.	通风	D014691	Ventilation	N06.230.150.520	true	true	true	true
+vertigo	眩晕	眩暈	23519	https://terms.naer.edu.tw/	xuan yun	77	UK,US	ECDICT n.	眩晕	D014717	Vertigo	C09.218.568.900.883,C10.597.951,C23.888.592.958	true	true	true	true
+vibrissae	鼻毛	鬚髯，鼻毛，貓鬚	23617	https://terms.naer.edu.tw/	bi mao	322	UK	ECDICT n.	鼻毛	D014738	Vibrissae	A13.950	false	false	false	true
+viscera	内脏	內臟	23683	https://terms.naer.edu.tw/	nei zang	496	UK	ECDICT n.	内脏	D014781	Viscera	A01.960	true	true	true	true
+vomiting	呕吐	嘔吐	23769	https://terms.naer.edu.tw/	ou tu	428	UK,US	ECDICT n.	呕吐	D014839	Vomiting	C23.888.821.937	true	true	true	true
+whey	乳清	乳清	23920	https://terms.naer.edu.tw/	ru qing	76	UK,US	ECDICT n.	乳清	D000067796	Whey	A12.790.760,G07.203.100.700.750,G07.203.300.350.525.760	true	true	true	true
+wool	羊毛	羊毛	23990	https://terms.naer.edu.tw/	yang mao	994	UK,US	ECDICT n.	羊毛	D014935	Wool	A13.970,A17.360.855	true	true	true	true

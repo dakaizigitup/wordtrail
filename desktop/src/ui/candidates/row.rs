@@ -103,3 +103,37 @@ pub(crate) fn from_candidate(position: usize, candidate: &Candidate, show_code: 
         cloud: candidate.kind == CandidateKind::Cloud,
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use qingjian_core::{Sense, Translation};
+
+    #[test]
+    fn professional_category_is_visible_on_windows_translation_rows() {
+        let candidate = Candidate {
+            text: "大脑".into(),
+            kind: CandidateKind::Chinese,
+            syllables: vec![],
+            reading: None,
+            aux_code: None,
+            translation: Some(Translation::new(
+                Language::English,
+                vec![Sense {
+                    text: "cerebrum".into(),
+                    part_of_speech: Some(qingjian_core::PartOfSpeech::Noun),
+                    reading: None,
+                    fresh: false,
+                }],
+            )),
+        };
+        let row = from_candidate(0, &candidate, false);
+        let annotation = row
+            .annotation
+            .iter()
+            .map(|(text, _)| text.as_str())
+            .collect::<String>();
+        assert!(annotation.contains("cerebrum"));
+        assert!(annotation.contains("[医学]"));
+    }
+}

@@ -266,7 +266,7 @@ public final class WordtrailIME extends InputMethodService {
                 for(int t=0;t<count;t++){JSONObject tag=tags.optJSONObject(t);if(tag==null)continue;if(t>0)title.append("/");title.append(VocabularySettings.shortLabel(tag.optString("id")));preferred|=tag.optBoolean("selected");}
                 if(tags.length()>count)title.append("+").append(tags.length()-count);
                 tagBadge.setText(title);tagBadge.setTextSize(7.5f);tagBadge.setIncludeFontPadding(false);tagBadge.setSingleLine(true);tagBadge.setPadding(dp(2),0,dp(2),0);tagBadge.setGravity(Gravity.CENTER);tagBadge.setTextColor(preferred?palette.accent:palette.muted);tagBadge.setBackground(palette.shape(this,palette.soft,0,4));
-                tagBadge.setContentDescription(firstSense.optString("text")+" · 考试标签 "+tagLabels(tags));tagBadge.setOnClickListener(v->showPronunciation(candidate));LinearLayout.LayoutParams bp=new LinearLayout.LayoutParams(-2,dp(13));bp.leftMargin=dp(2);translationRow.addView(tagBadge,bp);
+                tagBadge.setContentDescription(firstSense.optString("text")+" · 词汇标签 "+tagLabels(tags));tagBadge.setOnClickListener(v->showPronunciation(candidate));LinearLayout.LayoutParams bp=new LinearLayout.LayoutParams(-2,dp(13));bp.leftMargin=dp(2);translationRow.addView(tagBadge,bp);
             }
             cell.addView(translationRow,new LinearLayout.LayoutParams(-1,dp(14)));
             cell.setContentDescription(candidate.optString("text")+" "+candidate.optString("annotation"));
@@ -303,7 +303,7 @@ public final class WordtrailIME extends InputMethodService {
         JSONArray senses=candidate.optJSONArray("translation_senses");
         if(senses!=null)for(int i=0;i<senses.length();i++){
             JSONObject sense=senses.optJSONObject(i);if(sense==null)continue;JSONArray tags=sense.optJSONArray("tags");
-            String tagDescription=displayed.optString("language").equals("en")?" · "+(tags==null || tags.length()==0?"暂无考试标签":tagLabels(tags)):"";
+            String tagDescription=displayed.optString("language").equals("en")?" · "+(tags==null || tags.length()==0?"暂无词汇标签":tagLabels(tags)):"";
             TextView entry=detailLine(sense.optString("text")+tagDescription);entry.setTextColor(palette.accent);body.addView(entry);
             if(!sense.isNull("translation_source")){TextView origin=detailLine("新增译词："+sense.optString("translation_source"));origin.setTextSize(10);origin.setTextColor(palette.muted);body.addView(origin);}
             java.util.LinkedHashSet<String> sources=new java.util.LinkedHashSet<>();if(tags!=null)for(int t=0;t<tags.length();t++){JSONArray names=tags.optJSONObject(t).optJSONArray("sources");if(names!=null)for(int n=0;n<names.length();n++)sources.add(names.optString(n));}

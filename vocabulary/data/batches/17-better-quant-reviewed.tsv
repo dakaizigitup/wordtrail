@@ -1,0 +1,42 @@
+chinese	english	decision	review_note
+熊市	bear market	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+贝塔	beta	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+债券	bond	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+牛市	bull market	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+资本主义	capitalism	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+市值	capitalization	accept	The pinned valuation glossary defines capitalization as total market value of a company's common shares; its bilingual entry includes 市值. This reachable key is missing the mapping; local US IPA is available.
+复利	compounding	accept	The pinned glossary defines interest being added to principal and then earning interest; 复利 is the exact established Chinese term. The key is pinyin-reachable and UK/US IPA are available.
+交易商	dealer	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+通货紧缩	deflation	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+股息	dividend	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+回撤	drawdown	accept	The pinned risk glossary defines the decline from a historical peak to a later trough; 回撤 is the exact finance term. The key is pinyin-reachable and US IPA is available; UK IPA is absent and will not be guessed.
+经济增长	economic growth	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+权益	equity	accept	The pinned market glossary lists 股权 / 权益 for Equity. Add the missing, pinyin-reachable 权益 sense while retaining the existing 股权 mapping; UK/US IPA are available.
+股权	equity	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+汇率	exchange rate	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+期望值	expected value	reject	The independent pronunciation data has no whole-term IPA entry; do not create a guessed phrase pronunciation.
+面值	face value	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+外汇	foreign exchange	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+自由市场	free market	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+期货	futures	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+伽马	gamma	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+大萧条	great depression	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+增长率	growth rate	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+对冲	hedge	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+通货膨胀	inflation	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+利率	interest rate	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+知识经济	knowledge economy	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+杠杆	leverage	accept	The pinned finance glossary defines leveraged economic exposure from borrowing or derivatives; 杠杆 is the exact finance term. The key is pinyin-reachable and UK/US IPA are available.
+流动性	liquidity	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+保证金	margin	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+动量	momentum	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+概率分布	probability distribution	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+生产率	productivity	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+报价	quotation	accept	The pinned market glossary defines the visible bid and ask prices; 报价 is the exact finance sense and is independently present in ECDICT as a noun. The key is pinyin-reachable with UK/US IPA.
+证券	security	accept	The pinned market glossary defines a transferable claim on future cash flow or ownership; 证券 is the exact finance sense. FIBO independently identifies the headword as a financial class; pinyin and UK/US IPA are available.
+股票市场	stock market	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+关税	tariff	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+失业	unemployment	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+均匀分布	uniform distribution	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+方差	variance	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.
+风险投资	venture capital	reject	This exact Chinese-English mapping is already in the current runtime vocabulary.

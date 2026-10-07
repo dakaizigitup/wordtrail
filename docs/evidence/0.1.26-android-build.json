@@ -1,0 +1,22 @@
+{
+  "version_name": "0.1.26",
+  "version_code": 27,
+  "application_id": "org.wordtrail.ime",
+  "apk": "wordtrail-0.1.26-debug.apk",
+  "apk_bytes": 252840293,
+  "apk_sha256": "cb7e9d4f73c762e2c11af0fc2e21d8d3cb7cd44dc583dadf67452d9cea291cc8",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "zipalign_16kb": true,
+  "signature_v2": true,
+  "signature_v3": true,
+  "on_device_install_tested": false,
+  "windows_release_build": "passed",
+  "windows_patch_packaged_or_installed": false,
+  "rust_workspace_unit_tests_passed": 37,
+  "rust_workspace_unit_tests_failed": 0
+}

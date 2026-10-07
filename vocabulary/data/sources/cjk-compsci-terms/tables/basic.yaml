@@ -1,0 +1,237 @@
+# Computer
+- en:
+    computer:
+    - { term: comput, correspond: compute }
+    - { term: er,                                      space: no }
+  ja:
+    computer:
+    - { term: コンピュータ, loan: computer }
+  ko:
+    computer:
+    - { term: 컴퓨터,       loan: computer }
+  zh-CN:
+    計算機:
+    - { term: 计算, correspond: compute, read: jì suàn }
+    - { term: 机,   correspond: er,      read: jī,      space: no }
+    電腦:
+    - { term: 电, correspond: electronic, read: diàn }
+    - { term: 脑, correspond: brain,      read: nǎo,   space: no }
+  zh-HK:
+    電腦:
+    - { term: 電, correspond: electronic, read: din6 }
+    - { term: 腦, correspond: brain,      read: nou5,  space: no }
+  zh-TW:
+    電腦:
+    - { term: 電, correspond: electronic, read: ㄉㄧㄢˋ }
+    - { term: 腦, correspond: brain,      read: ㄋㄠˇ, space: no }
+
+# Smartphone
+- en:
+    smartphone:
+    - term:   smart
+    - { term: phone, correspond: telephone, space: no }
+  ja:
+    smartphone:
+    - { term: スマート, loan: smart }
+    - { term: フォン,   loan: phone, correspond: telephone }
+  ko:
+    smartphone:
+    - { term: 스마트,   loan: smart }
+    - { term: 폰,       loan: phone, correspond: telephone }
+  zh-CN:
+    智能手機:
+    - { term: 智能, correspond: smart,     read: zhì néng }
+    - { term: 手机, correspond: telephone, read: shǒu jī }
+  zh-HK:
+    智能電話:
+    - { term: 智能, correspond: smart,     read: zi3 nang4 }
+    - { term: 電話, correspond: telephone, read: din6 waa2 }
+    智能手機:
+    - { term: 智能, correspond: smart,     read: zi3 nang4 }
+    - { term: 手機, correspond: telephone, read: sau2 gei1 }
+  zh-TW:
+    智慧型手機:
+    - { term: 智慧, correspond: smart,     read: ㄓˋ ㄏㄨㄟˋ }
+    - { term: 型,   correspond: type,      read: ㄒㄧㄥˊ }
+    - { term: 手機, correspond: telephone, read: ㄕㄡˇ ㄐㄧ }
+
+# Software
+- en:
+    software:
+    - term:   soft
+    - { term: ware,                              space: no }
+  ja:
+    software:
+    - { term: ソフト,   loan: soft }
+    - { term: ウェア,   loan: ware,              space: no }
+  ko:
+    software:
+    - { term: 소프트,   loan: soft }
+    - { term: 웨어,     loan: ware,              space: no }
+  zh-CN:
+    軟件:
+    - { term: 软, correspond: soft, read: ruǎn }
+    - { term: 件, correspond: ware, read: jiàn,  space: no }
+  zh-HK:
+    軟件:
+    - { term: 軟, correspond: soft, read: jyun5 }
+    - { term: 件, correspond: ware, read: gin2,  space: no }
+  zh-TW:
+    軟體:
+    - { term: 軟, correspond: soft, read: ㄖㄨㄢˇ }
+    - { term: 體, correspond: ware, read: ㄊㄧˇ, space: no }
+
+# Hardware
+- en:
+    hardware:
+    - { term: hard }
+    - { term: ware,                              space: no }
+  ja:
+    hardware:
+    - { term: ハード,   loan: hard }
+    - { term: ウェア,   loan: ware,              space: no }
+  ko:
+    hardware:
+    - { term: 하드,     loan: hard }
+    - { term: 웨어,     loan: ware,              space: no }
+  zh-CN:
+    硬件:
+    - { term: 硬, correspond: hard, read: yìng }
+    - { term: 件, correspond: ware, read: jiàn,  space: no }
+  zh-HK:
+    硬件:
+    - { term: 硬, correspond: hard, read: ngaang6 }
+    - { term: 件, correspond: ware, read: gin2,  space: no }
+  zh-TW:
+    硬體:
+    - { term: 硬, correspond: hard, read: ㄧㄥˋ }
+    - { term: 體, correspond: ware, read: ㄊㄧˇ, space: no }
+
+# Information
+- en:
+    information:
+    - term: information
+  ja:
+    情報:
+    - { term: 情, read: じょう, correspond: feeling }
+    - { term: 報, read: ほう, correspond: report, space: no }
+  ko:
+    情報:
+    - { term: 情, read: 정, correspond: feeling }
+    - { term: 報, read: 보, correspond: report, space: no }
+  zh-CN:
+    信息:
+    - { term: 信, read: xìn, correspond: message }
+    - { term: 息, read: xī, correspond: breath, space: no }
+  zh-HK:
+    資訊:
+    - { term: 資, read: zi1, correspond: resource }
+    - { term: 訊, read: seon3, correspond: message, space: no }
+    信息:
+    - { term: 信, read: seon3, correspond: message }
+    - { term: 息, read: sik1, correspond: breath, space: no }
+  zh-TW:
+    資訊:
+    - { term: 資, read: ㄗ, correspond: resource }
+    - { term: 訊, read: ㄒㄩㄣˋ, correspond: message, space: no }
+
+# Data
+- en:
+    data:
+    - term: data
+  ja:
+    data:
+    - { term: データ, loan:       data }
+  ko:
+    data:
+    - { term: 데이터, loan:       data }
+    資料:
+    - { term: 資,     read: 자, correspond: resource }
+    - { term: 料,     read: 료, correspond: material, space: no }
+  zh-CN:
+    數據:
+    - { term: 数,     correspond: number,   read: shù }
+    - { term: 据,     correspond: evidence, read: jù,    space: no }
+  zh-HK:
+    資料:
+    - { term: 資,     read: zi1, correspond: resource }
+    - { term: 料,     read: liu2, correspond: material, space: no }
+    數據:
+    - { term: 數,     correspond: number,   read: sou3 }
+    - { term: 據,     correspond: evidence, read: geoi3, space: no }
+  zh-TW:
+    資料:
+    - { term: 資,     read: ㄗ, correspond: resource }
+    - { term: 料,     read: ㄌㄧㄠˋ, correspond: material, space: no }
+
+# Network
+- en:
+    network:
+    - term:   net
+    - { term: work, space: no }
+  ja:
+    network:
+    - { term: ネット, loan:   net }
+    - { term: ワーク, loan:   work, space: no }
+    net:
+    - { term: ネット, loan:   net }
+  ko:
+    network:
+    - { term: 네트,   loan:   net }
+    - { term: 워크,   loan:   work, space: no }
+  zh-CN:
+    網絡:
+    - { term: 网, correspond: net,  read: wǎng }
+    - { term: 络, correspond: tie,  read: luò, space: no }
+  zh-HK:
+    網絡:
+    - { term: 網, correspond: net,  read: mong5 }
+    - { term: 絡, correspond: tie,  read: lok3, space: no }
+  zh-TW:
+    網路:
+    - { term: 網, correspond: net,  read: ㄨㄤˇ }
+    - { term: 路, correspond: road, read: ㄌㄨˋ, space: no }
+
+# Application
+- en:
+    application:
+    - term: application
+    app:
+    - term: app
+  ja:
+    application:
+    - { term: アプリケーション, loan:       application }
+    app:
+    - { term: アプリ,           correspond: app }
+    應用:
+    - { term: 応, norm: 應,     read: おう, correspond: respond }
+    - { term: 用,               read: よう, correspond: use, space: no }
+  ko:
+    application:
+    - { term: 애플리케이션,     loan:       application }
+    app:
+    - { term: 앱,               loan:       app }
+    應用 program:
+    - { term: 應,               read: 응, correspond: respond }
+    - { term: 用,               read: 용, correspond: use, space: no }
+    - { term: 프로그램,         loan:       program }
+  zh-CN:
+    應用程序:
+    - { term: 应, norm: 應,     read: yìng, correspond: respond }
+    - { term: 用,               read: yòng, correspond: use, space: no }
+    - { term: 程,               read: chéng, correspond: procedure, space: no }
+    - { term: 序,               read: xù, correspond: order, space: no }
+  zh-HK:
+    應用程式:
+    - { term: 應,               read: jing3, correspond: respond }
+    - { term: 用,               read: jung6, correspond: use, space: no }
+    - { term: 程,               read: cing4, correspond: procedure, space: no }
+    - { term: 式,               read: sik1, correspond: style, space: no }
+  zh-TW:
+    應用程式:
+    - { term: 應,               read: ㄧㄥˋ, correspond: respond }
+    - { term: 用,               read: ㄩㄥˋ, correspond: use, space: no }
+    - { term: 程,               read: ㄔㄥˊ, correspond: procedure, space: no }
+    - { term: 式,               read: ㄕˋ, correspond: style, space: no }
+
+# vim: set et sw=2 ts=2 sts=2 ft=yaml:

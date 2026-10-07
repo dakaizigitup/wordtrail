@@ -1,0 +1,66 @@
+chinese	english	status	source_tables	pinyin	pinyin_frequency	source	review_note
+主键	primary key	existing-exact-correspondence	database	zhu jian	70	CJK computer science terms CC BY-SA 4.0	
+事务	transaction	accepted	database	shi wu	13339	CJK computer science terms CC BY-SA 4.0	数据库术语 transaction；与普通“事务/事情”区分，采用计算机词表对应。
+人工智能	artificial intelligence	existing-exact-correspondence	ai-ml,studies	ren gong zhi neng	1437	CJK computer science terms CC BY-SA 4.0	
+仓库	repository	accepted	version-control	cang ku	1728	CJK computer science terms CC BY-SA 4.0	版本控制术语 repository；拼音候选可达。
+会话	session	accepted	web	hui hua	52	CJK computer science terms CC BY-SA 4.0	Web 会话 session；不取普通谈话义。
+关卡	level	accepted	game-dev	guan qia	1452	CJK computer science terms CC BY-SA 4.0	游戏开发语境的 game level；选择名词义。
+变量	value	rejected	programming	bian liang	1170	CJK computer science terms CC BY-SA 4.0	源条目的组成对应写的是 variable quantity，不能把 variable 错标为 value。
+后端	backend	existing-exact-correspondence	web	hou duan	285	CJK computer science terms CC BY-SA 4.0	
+固件	firmware	existing-exact-correspondence	mobile	gu jian	400	CJK computer science terms CC BY-SA 4.0	
+图	graph	accepted	data-structures	tu	64050	CJK computer science terms CC BY-SA 4.0	数据结构/图论语境的 graph，来源组件对应与英文头词一致。
+堆	heap	accepted	data-structures	dui	6096	CJK computer science terms CC BY-SA 4.0	数据结构中的 heap，来源组件对应与英文头词一致。
+声道	channel	accepted	audio	sheng dao	289	CJK computer science terms CC BY-SA 4.0	音频领域的 channel，选择名词义。
+头目	boss	accepted	game-dev	tou mu	997	CJK computer science terms CC BY-SA 4.0	游戏语境的 boss 敌人，不取组织管理者义。
+字	word	existing-exact-correspondence	units	zi	53508	CJK computer science terms CC BY-SA 4.0	
+字体	typeface	accepted	typography	zi ti	3371	CJK computer science terms CC BY-SA 4.0	排版领域的 typeface；ECDICT 有对应释义和名词词性。
+字符集	character set	existing-exact-correspondence	typography	zi fu ji	97	CJK computer science terms CC BY-SA 4.0	
+密码	cipher	accepted	security	mi ma	4713	CJK computer science terms CC BY-SA 4.0	安全/密码学中的 cipher；ECDICT 有对应名词义。
+带宽	bandwidth	existing-exact-correspondence	networking	dai kuan	317	CJK computer science terms CC BY-SA 4.0	
+帧率	frame rate	existing-exact-correspondence	game-dev	zhen lv	250	CJK computer science terms CC BY-SA 4.0	
+常量	value	rejected	programming	chang liang	127	CJK computer science terms CC BY-SA 4.0	源条目的组成对应写的是 constant quantity；value 与“常量”不是同义映射。
+延迟	latency	accepted	networking	yan chi	2726	CJK computer science terms CC BY-SA 4.0	网络传输语境的 latency，选择名词义。
+指令集	instruction set	existing-exact-correspondence	architecture	zhi ling ji	228	CJK computer science terms CC BY-SA 4.0	
+控件	widget	accepted	ui-ux	kong jian	63	CJK computer science terms CC BY-SA 4.0	用户界面组件 widget，来源表列在 UI/UX。
+提交	commit	accepted	version-control	ti jiao	3530	CJK computer science terms CC BY-SA 4.0	版本控制中的 commit 操作，选择动词义。
+搜索	searching	accepted	algorithms	sou suo	4744	CJK computer science terms CC BY-SA 4.0	算法中的 searching 操作；ECDICT 有同义名词义。
+数据包	packet	accepted	networking	shu ju bao	241	CJK computer science terms CC BY-SA 4.0	网络中的 packet，“数据包”为来源表整词。
+数据库	database	existing-exact-correspondence	database	shu ju ku	1862	CJK computer science terms CC BY-SA 4.0	
+数据集	dataset	existing-exact-correspondence	ai-ml	shu ju ji	164	CJK computer science terms CC BY-SA 4.0	
+文件系统	file system	existing-exact-correspondence	os	wen jian xi tong	366	CJK computer science terms CC BY-SA 4.0	
+无限循环	infinite loop	existing-exact-correspondence	programming	wu xian xun huan	292	CJK computer science terms CC BY-SA 4.0	
+时间复杂度	time complexity	existing-exact-correspondence	algorithms	shi jian fu za du	103	CJK computer science terms CC BY-SA 4.0	
+智能手机	smartphone	existing-exact-correspondence	mobile	zhi neng shou ji	987	CJK computer science terms CC BY-SA 4.0	
+机器学习	machine learning	existing-exact-correspondence	ai-ml	ji qi xue xi	275	CJK computer science terms CC BY-SA 4.0	
+栈	stack	accepted	data-structures	zhan	372	CJK computer science terms CC BY-SA 4.0	数据结构中的 stack，来源组件对应与英文头词一致。
+树	tree	existing-exact-correspondence	data-structures	shu	23122	CJK computer science terms CC BY-SA 4.0	
+模式	schema	accepted	database	mo shi	16604	CJK computer science terms CC BY-SA 4.0	数据库 schema，按数据库语境理解“模式”。
+波形	waveform	existing-exact-correspondence	audio	bo xing	192	CJK computer science terms CC BY-SA 4.0	
+流水线	pipeline	accepted	architecture	liu shui xian	226	CJK computer science terms CC BY-SA 4.0	计算机体系结构中的 pipeline。
+流程图	flowchart	existing-exact-correspondence	programming	liu cheng tu	91	CJK computer science terms CC BY-SA 4.0	
+深度学习	deep learning	existing-exact-correspondence	ai-ml	shen du xue xi	126	CJK computer science terms CC BY-SA 4.0	
+渲染	rendering	accepted	graphics	xuan ran	736	CJK computer science terms CC BY-SA 4.0	计算机图形学中的 rendering，选择名词义。
+游戏引擎	game engine	existing-exact-correspondence	game-dev	you xi yin qing	131	CJK computer science terms CC BY-SA 4.0	
+漏洞	bug	accepted	programming	lou dong	1066	CJK computer science terms CC BY-SA 4.0	软件缺陷义的 bug，来源表列在 programming。
+用户界面	user interface	existing-exact-correspondence	ui-ux	yong hu jie mian	236	CJK computer science terms CC BY-SA 4.0	
+硬件	hardware	existing-exact-correspondence	basic	ying jian	1531	CJK computer science terms CC BY-SA 4.0	
+神经网络	neural network	existing-exact-correspondence	ai-ml	shen jing wang luo	136	CJK computer science terms CC BY-SA 4.0	
+管线	pipeline	existing-exact-correspondence	architecture	guan xian	313	CJK computer science terms CC BY-SA 4.0	
+精灵	sprite	accepted	game-dev	jing ling	5206	CJK computer science terms CC BY-SA 4.0	游戏开发中的 sprite。
+网络	network	existing-exact-correspondence	networking	wang luo	18682	CJK computer science terms CC BY-SA 4.0	
+自由软件	free software	existing-exact-correspondence	foss	zi you ruan jian	179	CJK computer science terms CC BY-SA 4.0	
+表	table	existing-exact-correspondence	database	biao	23403	CJK computer science terms CC BY-SA 4.0	
+计算机安全	computer security	existing-exact-correspondence	studies	ji suan ji an quan	60	CJK computer science terms CC BY-SA 4.0	
+计算机工程	computer engineering	existing-exact-correspondence	studies	ji suan ji gong cheng	69	CJK computer science terms CC BY-SA 4.0	
+计算机科学	computer science	existing-exact-correspondence	studies	ji suan ji ke xue	824	CJK computer science terms CC BY-SA 4.0	
+认证	authentication	accepted	security	ren zheng	5650	CJK computer science terms CC BY-SA 4.0	信息安全中的 authentication，选择名词义。
+训练	training	accepted	ai-ml	xun lian	18467	CJK computer science terms CC BY-SA 4.0	机器学习训练过程；ECDICT 有对应名词义。
+设计模式	design pattern	existing-exact-correspondence	design-patterns	she ji mo shi	53	CJK computer science terms CC BY-SA 4.0	
+软件	software	existing-exact-correspondence	basic	ruan jian	12787	CJK computer science terms CC BY-SA 4.0	
+软件工程	software engineering	existing-exact-correspondence	studies	ruan jian gong cheng	137	CJK computer science terms CC BY-SA 4.0	
+迭代	iteration	accepted	algorithms	die dai	324	CJK computer science terms CC BY-SA 4.0	算法/程序中的 iteration，选择名词义。
+通知	notification	accepted	mobile	tong zhi	13354	CJK computer science terms CC BY-SA 4.0	移动软件中的 notification；ECDICT 有对应名词义。
+锁	lock	existing-exact-correspondence	concurrency	suo	6188	CJK computer science terms CC BY-SA 4.0	
+错误	bug	accepted	programming	cuo wu	8965	CJK computer science terms CC BY-SA 4.0	软件语境的 bug/error；ECDICT 有对应名词义。
+防火墙	firewall	existing-exact-correspondence	networking	fang huo qiang	137	CJK computer science terms CC BY-SA 4.0	
+集合	set	existing-exact-correspondence	data-structures	ji he	4087	CJK computer science terms CC BY-SA 4.0	

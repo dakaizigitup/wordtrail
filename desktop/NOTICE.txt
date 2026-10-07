@@ -1,8 +1,8 @@
-Windows 音标与考试词汇补丁 0.1.16：用于现有青简 0.1.4 安装。
+Windows 音标与词汇目标补丁 0.1.21：用于现有青简 0.1.4 安装。
 非官方发布；不分发青简品牌图标。保持已安装官方资源。
-对应源码在 wordtrail-0.1.23-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
+对应源码在 wordtrail-0.1.28-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
 
-词伴输入法 / Wordtrail 0.1.23
+词伴输入法 / Wordtrail 0.1.28
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -10,7 +10,7 @@ Windows 音标与考试词汇补丁 0.1.16：用于现有青简 0.1.4 安装。
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.23-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.28-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -406,6 +406,878 @@ refuel (v.) -> 加油; https://en.wiktionary.org/wiki/%E5%8A%A0%E6%B2%B9?oldid=8
 superintendent (n.) -> 警司; https://en.wiktionary.org/wiki/%E8%AD%A6%E5%8F%B8?oldid=78676088
 
 utopian (adj.) -> 空想; https://en.wiktionary.org/wiki/%E7%A9%BA%E6%83%B3?oldid=92164396
+
+
+=== 专业词汇领域标签及医学新增译词（批次14，CC BY-SA 4.0）===
+
+署名：English Wiktionary contributors；https://en.wiktionary.org/ 。候选发现数据来自 Kaikki/Wiktextract 固定中文—英文快照；上游来源、快照 SHA-256、修改说明及 CC BY-SA 4.0 链接见 vocabulary/data/professional-vocabulary-manifest.json 与 vocabulary/data/WIKTIONARY-ATTRIBUTION.md。
+修改：按精确中文—英文词面对应筛选计算机、商务、医学主题标签；繁体中文键转为简体，只保留真实拼音候选可达的条目，不复制定义、例句或音频。新增映射另经相同词性 ECDICT 完整短义、随包 IPA、拼音键和人工审校筛选。运行标签索引有 659 个英文词面，其中计算机149、商务100、医学415；此数是固定快照的可达交集，不代表完整专业课程覆盖。
+接受的医学映射及来源 sense ID 见 vocabulary/data/batches/14-professional-reviewed.tsv 与 14-professional-domain-evidence.tsv；所有候选的逐项接受/排除理由均保留。
+
+乳头 -> papilla (n.); Wiktionary snapshot entry 42847 / sense 7492198628517046968
+
+大脑 -> cerebrum (n.); Wiktionary snapshot entry 42774 / sense 7758911917536426195
+
+浮肿 -> oedema (n.); Wiktionary snapshot entry 48217 / sense 2120069533123191389
+
+灌注 -> perfuse (v.); Wiktionary snapshot entry 68349 / sense 3668017061007538982
+
+甲状腺肿 -> goitre (n.); Wiktionary snapshot entry 48937 / sense 4429689094925748845
+
+盲肠 -> caecum (n.); Wiktionary snapshot entry 22366 / sense 1478598756716533072
+
+蠕动 -> peristalsis (n.); Wiktionary snapshot entry 76690 / sense 437666020749942328
+
+血尿 -> haematuria (n.); Wiktionary snapshot entry 72583 / sense 3953377398642644160
+
+败血症 -> septicaemia (n.); Wiktionary snapshot entry 64581 / sense 6422103428741575198
+
+转移 -> metastasis (n.); Wiktionary snapshot entry 42380 / sense 4750192540591532756
+
+
+=== 计算机术语第二段（批次15，CC BY-SA 4.0）===
+
+署名：dahlia 与贡献者，[CJK computer science terms comparison](https://github.com/dahlia/cjk-compsci-terms)，固定提交 3cf825e81375202fd408427933c3a30442defa4f。许可：CC BY-SA 4.0，https://creativecommons.org/licenses/by-sa/4.0/ 。
+修改：只筛选简体中文完整词面和本机实际拼音候选可达项；已有译词须有上游组件逐词对应证据，新映射必须有本地 IPA、ECDICT 词性、每键余量并经逐项审核。保留来源头词与组成对应，未复制定义、例句或音频。上游28份固定 YAML 与 LICENSE 随源码保留在 vocabulary/data/sources/cjk-compsci-terms/；输入和输出 SHA-256、修改说明与结果统计见 vocabulary/data/CJK-COMPSCI-ATTRIBUTION.md、cjk-compsci-manifest.json、batches/15-cjk-compsci-reviewed.tsv 和 batches/15-cjk-compsci-evidence.tsv。候选28组，接受26组，排除2组。
+
+事务 -> transaction (n.); database
+
+仓库 -> repository (n.); version-control
+
+会话 -> session (n.); web
+
+关卡 -> level (n.); game-dev
+
+图 -> graph (n.); data-structures
+
+堆 -> heap (n.); data-structures
+
+声道 -> channel (n.); audio
+
+头目 -> boss (n.); game-dev
+
+字体 -> typeface (n.); typography
+
+密码 -> cipher (n.); security
+
+延迟 -> latency (n.); networking
+
+控件 -> widget (n.); ui-ux
+
+提交 -> commit (v.); version-control
+
+搜索 -> searching (n.); algorithms
+
+数据包 -> packet (n.); networking
+
+栈 -> stack (n.); data-structures
+
+模式 -> schema (n.); database
+
+流水线 -> pipeline (n.); architecture
+
+渲染 -> rendering (n.); graphics
+
+漏洞 -> bug (n.); programming
+
+精灵 -> sprite (n.); game-dev
+
+认证 -> authentication (n.); security
+
+训练 -> training (n.); ai-ml
+
+迭代 -> iteration (n.); algorithms
+
+通知 -> notification (n.); mobile
+
+错误 -> bug (n.); programming
+
+
+=== FIBO 商务/金融标签（批次16，MIT）===
+
+署名：EDM Council，Financial Industry Business Ontology (FIBO)，[固定提交 9a7b90ccc64ef9df0762121ff058c9d27fd46037](https://github.com/edmcouncil/fibo/tree/9a7b90ccc64ef9df0762121ff058c9d27fd46037)。许可：MIT，随包保留 vocabulary/data/sources/fibo/LICENSE。FIBO 是 EDM Council 的商标；本项目未使用其标志或暗示官方背书。
+修改：从固定 RDF 文件中筛选单词类标签，与现有本机拼音可达译词求交集，并人工复核是否属于商务/金融词。只新增英文词头的商务标签，不复制定义到运行索引，不新增中英映射，也不改变中文候选顺序。52 个源 RDF 文件、来源散列、修改口径及完整审校见 vocabulary/data/FIBO-ATTRIBUTION.md、fibo-business-manifest.json、batches/16-fibo-business-candidates.tsv 与 batches/16-fibo-business-reviewed.tsv。
+候选87个，接受75个，排除12个；其中72个是新增商务分类成员，不是新增词条。
+
+account -> 商务（FIBO class label）
+
+affiliate -> 商务（FIBO class label）
+
+affiliation -> 商务（FIBO class label）
+
+association -> 商务（FIBO class label）
+
+auditor -> 商务（FIBO class label）
+
+balance -> 商务（FIBO class label）
+
+bank -> 商务（FIBO class label）
+
+bankruptcy -> 商务（FIBO class label）
+
+basket -> 商务（FIBO class label）
+
+bond -> 商务（FIBO class label）
+
+branch -> 商务（FIBO class label）
+
+broker -> 商务（FIBO class label）
+
+butterfly -> 商务（FIBO class label）
+
+cardholder -> 商务（FIBO class label）
+
+catalog -> 商务（FIBO class label）
+
+clearing -> 商务（FIBO class label）
+
+collar -> 商务（FIBO class label）
+
+collateral -> 商务（FIBO class label）
+
+corporation -> 商务（FIBO class label）
+
+correspondent -> 商务（FIBO class label）
+
+creditor -> 商务（FIBO class label）
+
+dealer -> 商务（FIBO class label）
+
+debt -> 商务（FIBO class label）
+
+debtor -> 商务（FIBO class label）
+
+dividend -> 商务（FIBO class label）
+
+division -> 商务（FIBO class label）
+
+downgrade -> 商务（FIBO class label）
+
+drawer -> 商务（FIBO class label）
+
+enterprise -> 商务（FIBO class label）
+
+establishment -> 商务（FIBO class label）
+
+exchange -> 商务（FIBO class label）
+
+executive -> 商务（FIBO class label）
+
+exposure -> 商务（FIBO class label）
+
+fee -> 商务（FIBO class label）
+
+fence -> 商务（FIBO class label）
+
+forward -> 商务（FIBO class label）
+
+future -> 商务（FIBO class label）
+
+guarantor -> 商务（FIBO class label）
+
+indenture -> 商务（FIBO class label）
+
+insurer -> 商务（FIBO class label）
+
+interest -> 商务（FIBO class label）
+
+investor -> 商务（FIBO class label）
+
+lease -> 商务（FIBO class label）
+
+ledger -> 商务（FIBO class label）
+
+loan -> 商务（FIBO class label）
+
+margin -> 商务（FIBO class label）
+
+merchant -> 商务（FIBO class label）
+
+mortgage -> 商务（FIBO class label）
+
+offering -> 商务（FIBO class label）
+
+option -> 商务（FIBO class label）
+
+partner -> 商务（FIBO class label）
+
+pool -> 商务（FIBO class label）
+
+position -> 商务（FIBO class label）
+
+principal -> 商务（FIBO class label）
+
+productivity -> 商务（FIBO class label）
+
+publication -> 商务（FIBO class label）
+
+publisher -> 商务（FIBO class label）
+
+receiver -> 商务（FIBO class label）
+
+security -> 商务（FIBO class label）
+
+settlement -> 商务（FIBO class label）
+
+share -> 商务（FIBO class label）
+
+shareholder -> 商务（FIBO class label）
+
+straddle -> 商务（FIBO class label）
+
+strangle -> 商务（FIBO class label）
+
+strip -> 商务（FIBO class label）
+
+subsidiary -> 商务（FIBO class label）
+
+swap -> 商务（FIBO class label）
+
+syndicate -> 商务（FIBO class label）
+
+trade -> 商务（FIBO class label）
+
+trader -> 商务（FIBO class label）
+
+trust -> 商务（FIBO class label）
+
+trustee -> 商务（FIBO class label）
+
+volatility -> 商务（FIBO class label）
+
+warrant -> 商务（FIBO class label）
+
+yield -> 商务（FIBO class label）
+
+
+=== Better Quant 商业金融词汇（批次17，MIT）===
+
+署名：Tomortec，[Better Quant Wiki](https://github.com/Tomortec/better-quant-wiki)，固定提交 5611485adb669828fcaf704aeb2ce9c8a86886d4。许可：MIT；随包保留 vocabulary/data/sources/better-quant-wiki/LICENSE。
+修改：从固定双语量化金融术语表中筛出本机拼音可达的精确中文词面，逐项核对词义和本地 IPA；仅保留短中英映射及商务标签，不复制定义、例句或音频。运行索引仅加入7组映射和7条标签记录，不加载完整术语表。来源文件 SHA-256、审校表、全部候选及修改说明见 vocabulary/data/BETTER-QUANT-ATTRIBUTION.md、better-quant-manifest.json、batches/17-better-quant-reviewed.tsv 与 batches/17-better-quant-candidates.tsv。
+候选41组，接受7组，排除34组；其中3个新英文词头，6个新增商务标签成员。
+
+市值 -> capitalization (n.); https://wiki.zibenxiuxing.com/glossary/capitalization
+
+复利 -> compounding (n.); https://wiki.zibenxiuxing.com/glossary/compounding
+
+回撤 -> drawdown (n.); https://wiki.zibenxiuxing.com/glossary/drawdown
+
+权益 -> equity (n.); https://wiki.zibenxiuxing.com/glossary/equity
+
+杠杆 -> leverage (n.); https://wiki.zibenxiuxing.com/glossary/leverage
+
+报价 -> quotation (n.); https://wiki.zibenxiuxing.com/glossary/quotation
+
+证券 -> security (n.); https://wiki.zibenxiuxing.com/glossary/security
+
+
+=== CFPB 消费金融词汇（批次18，公共领域来源）===
+
+署名：Consumer Financial Protection Bureau (CFPB), March 2024，[Chinese-English glossary of financial terms](https://files.consumerfinance.gov/f/documents/cfpb_adult-fin-ed_chinese-style-guide-glossary.pdf)。CFPB 网站政策说明其原创内容属于公共领域，除非另有标注；参见 https://www.consumerfinance.gov/privacy/website-privacy-policy/ 。
+修改：将词表中的繁体中文转换为简体，保留拼音可达且有本地 IPA 的词项，并以 ECDICT 的完整中文短义和词性交叉核验。不复制定义、例句或长解释。审查249组候选，接受67组映射，新增13个英文词头；词表成员标签共211项，其中193项新增商务归属。固定文本快照 SHA-256：e319ee28ae2a0a3a36995ec437386f9813ed2a67b6367def90447a60a3c7bbda。来源、处理说明、逐项审核表、候选表与数据清单见 vocabulary/data/CFPB-ATTRIBUTION.md、cfpb-finance-manifest.json、batches/18-cfpb-finance-reviewed.tsv 与 batches/18-cfpb-finance-candidates.tsv。
+
+减轻 -> abatement (n.); CFPB glossary line 60
+
+废除 -> abrogate (v.); CFPB glossary line 66
+
+加速 -> acceleration (n.); CFPB glossary line 76
+
+确认 -> acknowledgement (n.); CFPB glossary line 92
+
+评估 -> assessment (n.); CFPB glossary line 314
+
+分配 -> assignment (n.); CFPB glossary line 324
+
+转让 -> assignment (n.); CFPB glossary line 324
+
+作证 -> attest (v.); CFPB glossary line 350
+
+经纪人 -> broker (n.); CFPB glossary line 536
+
+费用 -> charge (n.); CFPB glossary line 672
+
+动产 -> chattel (n.); CFPB glossary line 684
+
+强迫 -> coerce (v.); CFPB glossary line 760
+
+补偿 -> compensation (n.); CFPB glossary line 814
+
+让步 -> concession (n.); CFPB glossary line 834
+
+转换 -> conversion (n.); CFPB glossary line 924
+
+转让 -> convey (v.); CFPB glossary line 932
+
+契约 -> covenant (n.); CFPB glossary line 972
+
+判决 -> decree (n.); CFPB glossary line 1114
+
+扣除 -> deduction (n.); CFPB glossary line 1122
+
+契约 -> deed (n.); CFPB glossary line 1124
+
+违约 -> default (n.); CFPB glossary line 1130
+
+延期 -> deferment (n.); CFPB glossary line 1138
+
+延期 -> deferral (n.); CFPB glossary line 1140
+
+捐赠 -> donation (n.); CFPB glossary line 1304
+
+背书 -> endorsement (n.); CFPB glossary line 1412
+
+登记 -> enrollment (n.); CFPB glossary line 1424
+
+权利 -> entitlement (n.); CFPB glossary line 1426
+
+费用 -> fee (n.); CFPB glossary line 1626
+
+受托人 -> fiduciary (n.); CFPB glossary line 1644
+
+融资 -> financing (n.); CFPB glossary line 1684
+
+丧失 -> forfeiture (n.); CFPB glossary line 1778
+
+基金 -> funds (n.); CFPB glossary line 1826
+
+受雇 -> hire (v.); CFPB glossary line 1924
+
+识别 -> identification (n.); CFPB glossary line 2028
+
+调查 -> inquiry (n.); CFPB glossary line 2110
+
+租赁 -> leasehold (n.); CFPB glossary line 2306
+
+垄断 -> monopoly (n.); CFPB glossary line 2570
+
+通知 -> notice (n.); CFPB glossary line 2780
+
+占有 -> occupancy (n.); CFPB glossary line 2802
+
+占用 -> occupancy (n.); CFPB glossary line 2802
+
+条例 -> ordinances (n.); CFPB glossary line 2892
+
+透支 -> overdraft (n.); CFPB glossary line 2918
+
+所有人 -> owner (n.); CFPB glossary line 2930
+
+付款 -> payment (n.); CFPB glossary line 2970
+
+处罚 -> penalty (n.); CFPB glossary line 3004
+
+财产 -> possession (n.); CFPB glossary line 3090
+
+免除 -> release (v.); CFPB glossary line 3424
+
+解除 -> release (v.); CFPB glossary line 3424
+
+汇款 -> remittance (n.); CFPB glossary line 3440
+
+取消 -> rescind (v.); CFPB glossary line 3498
+
+报复 -> retaliation (n.); CFPB glossary line 3520
+
+撤回 -> revoke (v.); CFPB glossary line 3548
+
+扣押 -> seize (v.); CFPB glossary line 3650
+
+没收 -> seizure (n.); CFPB glossary line 3652
+
+结算 -> settlement (n.); CFPB glossary line 3714
+
+法规 -> statute (n.); CFPB glossary line 3794
+
+约定 -> stipulation (n.); CFPB glossary line 3806
+
+转租 -> sublease (v.); CFPB glossary line 3818
+
+津贴 -> subsidy (n.); CFPB glossary line 3838
+
+传票 -> summons (n.); CFPB glossary line 3848
+
+暂停 -> suspension (n.); CFPB glossary line 3872
+
+条款 -> terms (n.); CFPB glossary line 3958
+
+公用事业 -> utilities (n.); CFPB glossary line 4208
+
+估价 -> valuation (n.); CFPB glossary line 4222
+
+违背 -> violation (n.); CFPB glossary line 4252
+
+工资 -> wages (n.); CFPB glossary line 4268
+
+担保 -> warranty (n.); CFPB glossary line 4274
+
+
+=== finance_i18n 金融与商务词汇（批次19，MIT）===
+
+署名：Vincent、[hotvulcan/finance_i18n](https://github.com/hotvulcan/finance_i18n)，固定提交 98a75886853e586c55896878bfab88e1161f50df。上游仓库声明 MIT 许可，完整文本见 vocabulary/data/sources/finance_i18n/LICENSE。上游 README 没有注明术语表的更早来源，故只用于候选发现；新增项另以 ECDICT 精确中文义项/词性、本机拼音、IPA 和逐项审校交叉核验。从 491 组候选中接受 47 组映射，新增 12 个英文词头和 41 个商务标签归属。README 固定快照 SHA-256：60e07fb4bb98c217031c09f97fcc66472b0cfc0c102de639769c0fb7904e2e71。仅分发精简对应，不复制定义；全部来源边界和审校理由见 vocabulary/data/FINANCE-I18N-ATTRIBUTION.md、vocabulary/data/finance-i18n-manifest.json、batches/19-finance-i18n-reviewed.tsv 与 batches/19-finance-i18n-candidates.tsv。
+
+累积 -> accumulation (n.); finance_i18n README line 313
+
+分摊 -> apportionment (n.); finance_i18n README line 687
+
+估价 -> appraisal (n.); finance_i18n README line 689
+
+遗赠 -> bequest (n.); finance_i18n README line 1311
+
+特许 -> concession (n.); finance_i18n README line 2500
+
+没收 -> confiscation (n.); finance_i18n README line 2534
+
+关税 -> customs (n.); finance_i18n README line 3034
+
+买卖 -> deal (n.); finance_i18n README line 3138,3371
+
+废止 -> defeasance (n.); finance_i18n README line 3284,3517
+
+贬值 -> devaluation (n.); finance_i18n README line 3720
+
+支付 -> disbursement (n.); finance_i18n README line 3819
+
+倾销 -> dumping (n.); finance_i18n README line 4075
+
+盗用 -> embezzlement (n.); finance_i18n README line 4261
+
+国库 -> exchequer (n.); finance_i18n README line 4504
+
+免税 -> exemption (n.); finance_i18n README line 4532
+
+征用 -> expropriation (n.); finance_i18n README line 4623
+
+发行 -> float (v.); finance_i18n README line 4998
+
+底价 -> floor (n.); finance_i18n README line 5013
+
+供过于求 -> glut (n.); finance_i18n README line 5220
+
+赔偿 -> indemnity (n.); finance_i18n README line 5517
+
+契约 -> indenture (n.); finance_i18n README line 5518
+
+投资 -> investment (n.); finance_i18n README line 5962
+
+地产 -> land (n.); finance_i18n README line 6160
+
+行情 -> market (n.); finance_i18n README line 6461
+
+债务 -> obligation (n.); finance_i18n README line 7175,7357
+
+报价 -> offer (n.); finance_i18n README line 7197,7379
+
+平价 -> parity (n.); finance_i18n README line 7700
+
+动产 -> personalty (n.); finance_i18n README line 7918
+
+抵押 -> pledge (n.); finance_i18n README line 7976
+
+联营 -> pool (n.); finance_i18n README line 8007
+
+不动产 -> realty (n.); finance_i18n README line 8653
+
+赎回 -> redemption (n.); finance_i18n README line 8708
+
+救济 -> relief (n.); finance_i18n README line 8800
+
+报酬 -> remuneration (n.); finance_i18n README line 8808
+
+偿还 -> restitution (n.); finance_i18n README line 8893
+
+走私 -> smuggling (n.); finance_i18n README line 9470
+
+硬币 -> specie (n.); finance_i18n README line 9565
+
+投机 -> speculation (n.); finance_i18n README line 9577
+
+附加税 -> surcharge (n.); finance_i18n README line 9918
+
+担保 -> surety (n.); finance_i18n README line 9919
+
+进款 -> takings (n.); finance_i18n README line 9981
+
+过户 -> transfer (n.); finance_i18n README line 10403
+
+公用事业 -> utility (n.); finance_i18n README line 10748
+
+买主 -> vendee (n.); finance_i18n README line 10804
+
+卖主 -> vendor (n.); finance_i18n README line 10805
+
+提款 -> withdrawal (n.); finance_i18n README line 10978
+
+价值 -> worth (n.); finance_i18n README line 11034
+
+
+=== 计算机术语补充批次20（MIT）===
+
+署名：[EarsEyesMouth/computerese-cross-references](https://github.com/EarsEyesMouth/computerese-cross-references)，固定提交 e92ca7dddf6b8122c7c0807f701fa9e237752506。许可：MIT，全文见 vocabulary/data/sources/computerese-cross-references/LICENSE。上游 README SHA-256：3f1fb6fb75fe56546380222d5dc7423e2dd36738852bb583e8d99d475a8435fc。README 注明部分条目摘自书籍；本批排除带来源脚注和长解释的条目，仅保留297条短词条作候选。逐项审核75组精确 ECDICT/拼音/IPA 候选，其中62组映射原已存在；新增13组中英映射，新增英文词头0个，新增计算机标签55项。运行数据只含精简映射及已审核标签，不含上游长解释。来源、逐项理由、候选、固定输入与散列见 vocabulary/data/COMPUTERESE-ATTRIBUTION.md、computerese-manifest.json、batches/20-computerese-reviewed.tsv 与 batches/20-computerese-evidence.tsv。
+
+主机 -> mainframe (n.); computerese README line(s) 617
+
+前提 -> precondition (n.); computerese README line(s) 763
+
+单元 -> cell (n.); computerese README line(s) 159
+
+安全 -> security (n.); computerese README line(s) 915
+
+崩溃 -> crash (n.); computerese README line(s) 264
+
+指令 -> directive (n.); computerese README line(s) 330
+
+探测器 -> probe (n.); computerese README line(s) 773
+
+约定 -> convention (n.); computerese README line(s) 246
+
+缺陷 -> bug (n.); computerese README line(s) 131
+
+节流 -> throttle (v.); computerese README line(s) 1024
+
+装箱 -> box (v.); computerese README line(s) 118
+
+解析 -> resolution (n.); computerese README line(s) 869
+
+设备 -> device (n.); computerese README line(s) 323
+
+本来源记录68个计算机标签词头，其中55项是此前没有的类别归属；词头清单：access, algorithm, annotation, antenna, application, attribute, authorization, automation, behavior, bottleneck, box, broadcast, bug, byte, cable, cell, certificate, channel, character, cipher, command, configuration, consistency, container, content, context, convention, convert, crash, cursor, device, directive, disk, elasticity, endpoint, entity, index, intercept, license, link, log, mainframe, map, merge, notification, pattern, precondition, probe, production, protocol, prototype, proxy, queue, quota, relay, repository, resolution, role, security, snapshot, sprint, stage, story, structure, subscription, throttle, topic, variant。
+
+
+=== 医学词汇批次21（NLM MeSH 2026 + ECDICT MIT）===
+
+署名：U.S. National Library of Medicine (NLM), Medical Subject Headings (MeSH), 2026; https://www.nlm.nih.gov/mesh/ 。官方数据下载与使用条款：https://www.nlm.nih.gov/databases/download/mesh.html 和 https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html 。MeSH 数据可免费使用，需署名 NLM 并标明版本；本项目使用英文 Descriptor XML，不使用 MeSH 中文翻译/MTMS 文件。MeSH 提供英文主题词与分类树，新增中文映射由 ECDICT MIT 短义及词性匹配并逐项审核。候选256组，接受75组映射（74个新英文词头），排除7组、暂缓174组；新增1079个医学标签归属。归档 SHA-256：bb73dfdfe78cbfcd692ef399bb6df24750327ff62c4f53574826c56ba3d6a3f3。固定来源、修改和逐项证据见vocabulary/data/MESH-ATTRIBUTION.md、vocabulary/data/mesh-medical-manifest.json、batches/21-mesh-medical-reviewed.tsv 与 batches/21-mesh-medical-tags-evidence.tsv。
+
+
+=== 医学译词第二段（Wikidata CC0 + NLM MeSH 2026）===
+
+署名：Wikidata contributors，结构化数据按 CC0 1.0 提供，https://www.wikidata.org/wiki/Wikidata:Licensing 。MeSH 英文主题和版本来自美国国家医学图书馆 NLM 2026；遵守 NLM 署名及版本标注要求，https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html 。中文标签经 Wikidata 项目的 MeSH P486 编号与 MeSH 主题精确关联；修改为仅保留已有拼音键、有本地音标且逐项审核接受的短映射，不复制定义、例句或整库词条。候选48组，接受25组映射、排除5组、暂缓18组；新增24个医学标签归属。固定 CC0 标签快照、Wikidata QID/修订、MeSH 编号、逐条审核和散列见vocabulary/data/WIKIDATA-MEDICAL-ATTRIBUTION.md、vocabulary/data/wikidata-medical-manifest.json、vocabulary/data/sources/wikidata/ 与 vocabulary/data/batches/22-wikidata-medical-reviewed.tsv。
+
+毛细血管 -> capillaries (n.); MeSH D002196; Wikidata Q103142 revision 2517927937
+
+斩首 -> decapitation (n.); MeSH D049248; Wikidata Q204933 revision 2551405525
+
+灾害 -> disasters (n.); MeSH D004190; Wikidata Q3839081 revision 2539478941
+
+潜水 -> diving (n.); MeSH D004242; Wikidata Q179643 revision 2552058772
+
+爆炸 -> explosions (n.); MeSH D005107; Wikidata Q179057 revision 2541627115
+
+过滤 -> filtration (n.); MeSH D005374; Wikidata Q244772 revision 2551149615
+
+洪灾 -> floods (n.); MeSH D055868; Wikidata Q8068 revision 2551301427
+
+森林 -> forests (n.); MeSH D065928; Wikidata Q4421 revision 2553957691
+
+气体 -> gases (n.); MeSH D005740; Wikidata Q11432 revision 2554094288
+
+错觉 -> illusions (n.); MeSH D007088; Wikidata Q182593 revision 2522791454
+
+感染 -> infections (n.); MeSH D007239; Wikidata Q166231 revision 2550317033
+
+山崩 -> landslides (n.); MeSH D055876; Wikidata Q167903 revision 2535657611
+
+激光器 -> lasers (n.); MeSH D007834; Wikidata Q38867 revision 2522584738
+
+经络 -> meridians (n.); MeSH D016740; Wikidata Q1413962 revision 2516878906
+
+微波 -> microwaves (n.); MeSH D008872; Wikidata Q127995 revision 2538561670
+
+职业 -> occupations (n.); MeSH D009790; Wikidata Q12737077 revision 2553023278
+
+奶嘴 -> pacifiers (n.); MeSH D041361; Wikidata Q152596 revision 2529174304
+
+塑料 -> plastics (n.); MeSH D010969; Wikidata Q11474 revision 2553078082
+
+聚合 -> polymerization (n.); MeSH D058105; Wikidata Q181898 revision 2506604270
+
+聚合物 -> polymers (n.); MeSH D011108; Wikidata Q81163 revision 2523535413
+
+焦油 -> tars (n.); MeSH D013638; Wikidata Q186209 revision 2529379014
+
+龙卷风 -> tornadoes (n.); MeSH D055869; Wikidata Q8081 revision 2551746225
+
+排尿 -> urination (n.); MeSH D014554; Wikidata Q105726 revision 2549615145
+
+疣 -> warts (n.); MeSH D014860; Wikidata Q101971 revision 2553444271
+
+丧偶 -> widowhood (n.); MeSH D017805; Wikidata Q16675060 revision 2505003690
+
+
+=== 医学译词第三段（Wikidata CC0 + NLM MeSH 2026）===
+
+扩展到1,326个本地有音标及名词词性的 MeSH 主题编号，固定1,964条 Wikidata 中文/英文标签关联和870个实体修订。在157组本地拼音可达的标签候选中，已存在于基础运行词头的条目不重复送审；剩余48组经逐项审核。接受19组映射、排除3组、暂缓26组；其中18个此前未映射词头，新增18个医学标签归属。保留原中文候选顺序；按键时只查编译后的短映射和标签，不读取来源快照。固定完整标签快照、修订记录、1,326个 MeSH 编号范围、SHA-256、逐条审核和构建器见vocabulary/data/WIKIDATA-MEDICAL-ATTRIBUTION.md、vocabulary/data/wikidata-medical-manifest-2.json、vocabulary/data/sources/wikidata/ 与 vocabulary/data/batches/23-wikidata-medical-reviewed.tsv。
+
+醇 -> alcohols (n.); MeSH D000438; Wikidata Q156 revision 2517836255
+
+碱 -> alkalies (n.); MeSH D000468; Wikidata Q485742 revision 2517980742
+
+春药 -> aphrodisiacs (n.); MeSH D001046; Wikidata Q211420 revision 2551199684
+
+牙医 -> dentists (n.); MeSH D003815; Wikidata Q27349 revision 2553374601
+
+低血压 -> hypotension (n.); MeSH D007022; Wikidata Q275419 revision 2546216840
+
+注射 -> injections (n.); MeSH D007267; Wikidata Q245359 revision 2534453961
+
+泻药 -> laxatives (n.); MeSH D054368; Wikidata Q217972 revision 2526679548
+
+性冲动 -> libido (n.); MeSH D007989; Wikidata Q178066 revision 2545544673
+
+乳头 -> nipples (n.); MeSH D009558; Wikidata Q188641 revision 2553314168
+
+农药 -> pesticides (n.); MeSH D010575; Wikidata Q131656 revision 2532280699
+
+安慰剂 -> placebos (n.); MeSH D010919; Wikidata Q269829 revision 2548898196
+
+粉末 -> powders (n.); MeSH D011208; Wikidata Q2908004 revision 2550936559
+
+处方 -> prescriptions (n.); MeSH D055656; Wikidata Q3355478 revision 2524436296
+
+败血症 -> sepsis (n.); MeSH D018805; Wikidata Q183134 revision 2516771751
+
+梦游 -> somnambulism (n.); MeSH D013009; Wikidata Q388626 revision 2545228199
+
+注射器 -> syringes (n.); MeSH D013594; Wikidata Q273318 revision 2553324451
+
+片剂 -> tablets (n.); MeSH D013607; Wikidata Q206077 revision 2553418418
+
+疗法 -> therapeutics (n.); MeSH D013812; Wikidata Q179661 revision 2549693281
+
+意志 -> volition (n.); MeSH D014836; Wikidata Q1441519 revision 2500042628
+
+
+=== 医学词汇第四段（NAER Medical Academic Terms / 國家教育研究院医学学术名词，2026）===
+
+署名：國家教育研究院，2026，《國家教育研究院-醫學學術名詞》（2026-06-24釋出版本）。本開放資料依政府資料開放授權條款（Open Government Data License）第1版提供；遵守條款後得利用。授權：https://data.gov.tw/license 。資料集：https://taic.moda.gov.tw/datasets/4ca6b322-b160-41dd-a16a-02249f540bf8 。固定CSV含30797筆資料列，SHA-256：5dfdea2f57d5cb9826006265f73d37d73dadc8dbc205bf317c9ddd09ec859537。篩選後745組本機可達新對應中，591組屬已存在英文詞頭，留待後續審查；另154組新詞頭候選逐項審核，接受57組、排除12組、暫緩85組，新增57個醫學標籤成員。繁體中文以 OpenCC t2s 轉簡體；要求本機拼音、IPA、ECDICT名詞詞性和每鍵容量檢查。原CSV逐筆「來源網站」欄為字面值 [url]，不聲稱獨立追溯原始網站。來源快照、來源輸出散列、審校理由及建構器見 vocabulary/data/NAER-MEDICAL-ATTRIBUTION.md、vocabulary/data/sources/naer/、vocabulary/data/naer-medical-manifest.json、vocabulary/data/batches/24-naer-medical-reviewed.tsv 與 scripts/build_naer_medical_batch.py。
+
+异常 -> abnormalities (ECDICT n.); NAER record 97
+
+活化 -> activation (ECDICT n.); NAER record 676
+
+肾上腺素 -> adrenalin (ECDICT n.); NAER record 984
+
+吻合 -> anastomosis (ECDICT n.); NAER record 1818
+
+动脉瘤 -> aneurism (ECDICT n.); NAER record 1889
+
+测定 -> assay (ECDICT n.); NAER record 3022
+
+出血 -> bleeding (ECDICT n.); NAER record 4243
+
+钙化 -> calcification (ECDICT n.); NAER record 5010
+
+辣椒 -> capsicum (ECDICT n.); NAER record 5212
+
+肉桂 -> cassia (ECDICT n.); NAER record 5543
+
+分娩 -> childbirth (ECDICT n.); NAER record 6164
+
+挫伤 -> contusion (ECDICT n.); NAER record 7445
+
+皮肤 -> cutis (ECDICT n.); NAER record 8082
+
+变形 -> deformations (ECDICT n.); NAER record 8408
+
+缺失 -> deletion (ECDICT n.); NAER record 8445
+
+葡萄糖 -> dextrose (ECDICT n.); NAER record 8856
+
+扩张 -> dilatation (ECDICT n.); NAER record 9030
+
+排泄 -> excretion (ECDICT n.); NAER record 11182
+
+脱落 -> exfoliation (ECDICT n.); NAER record 11195
+
+昏厥 -> fainting (ECDICT n.); NAER record 11498
+
+妊娠 -> gestation (ECDICT n.); NAER record 12832
+
+淋病 -> gonorrhoea (ECDICT n.); NAER record 13073
+
+出血 -> haemorrhage (ECDICT n.); NAER record 13416
+
+荨麻疹 -> hives (ECDICT n.); NAER record 14111
+
+杂交 -> hybridization (ECDICT n.); NAER record 14351
+
+黄疸 -> icterus (ECDICT n.); NAER record 14742
+
+植入 -> implantation (ECDICT n.); NAER record 14919
+
+抑制剂 -> inhibitors (ECDICT n.); NAER record 15225
+
+照射 -> irradiation (ECDICT n.); NAER record 15696
+
+白血球 -> leukocyte (ECDICT n.); NAER record 16410
+
+梅毒 -> lues (ECDICT n.); NAER record 16787
+
+不适 -> malaise (ECDICT n.); NAER record 17078
+
+畸形 -> malformation (ECDICT n.); NAER record 17094
+
+黏膜 -> mucosa (ECDICT n.); NAER record 18506
+
+肿瘤 -> neoplasm (ECDICT n.); NAER record 19282
+
+腮腺 -> parotid (ECDICT n.); NAER record 21232
+
+穿孔 -> perforation (ECDICT n.); NAER record 21552
+
+百日咳 -> pertussis (ECDICT n.); NAER record 21825
+
+噬菌体 -> phage (ECDICT n.); NAER record 21872
+
+阴茎 -> phallus (ECDICT n.); NAER record 21902
+
+耳廓 -> pinna (ECDICT n.); NAER record 22293
+
+精神病 -> psychosis (ECDICT n.); NAER record 23812
+
+搏动 -> pulsation (ECDICT n.); NAER record 23952
+
+发热 -> pyrexia (ECDICT n.); NAER record 24140
+
+逆流 -> reflux (ECDICT n.); NAER record 24505
+
+复位 -> reposition (ECDICT n.); NAER record 24630
+
+猩红热 -> scarlatina (ECDICT n.); NAER record 25424
+
+分节 -> segmentation (ECDICT n.); NAER record 25689
+
+狭窄 -> stenosis (ECDICT n.); NAER record 26922
+
+基质 -> stroma (ECDICT n.); NAER record 27136
+
+窒息 -> suffocation (ECDICT n.); NAER record 27377
+
+输血 -> transfusion (ECDICT n.); NAER record 28690
+
+溃疡 -> ulceration (ECDICT n.); NAER record 29244
+
+水痘 -> varicella (ECDICT n.); NAER record 29610
+
+天花 -> variola (ECDICT n.); NAER record 29628
+
+静脉 -> vena (ECDICT n.); NAER record 29733
+
+疣 -> verruca (ECDICT n.); NAER record 30114
+
+
+=== 医学词汇第五段（NAER + NLM MeSH 2026 + ECDICT）===
+
+NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集：https://taic.moda.gov.tw/datasets/4ca6b322-b160-41dd-a16a-02249f540bf8 。NLM MeSH 2026 僅用英文主題詞/樹編號確認醫學範圍，遵守 NLM 版本及署名要求：https://www.nlm.nih.gov/mesh/ 與 https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html 。ECDICT MIT 僅用作精確中文名詞義核對，不複製完整詞典或定義。從591組已有英文詞頭的 NAER 對應中，以 MeSH 交集與 ECDICT 精確名詞義篩出45組；接受37組映射，0個新英文詞頭；排除3組、暫緩5組，新增18個醫學標籤成員。來源快照、交叉證據、逐項理由和 SHA-256 見 vocabulary/data/NAER-MEDICAL-ATTRIBUTION.md、vocabulary/data/naer-medical-manifest-2.json、vocabulary/data/batches/25-naer-medical-existing-headwords-reviewed.tsv。
+
+吸收 -> absorption (n.); NAER record 140; MeSH D000042
+
+焦虑 -> anxiety (n.); NAER record 2460; MeSH D001007
+
+注意 -> attention (n.); NAER record 3246; MeSH D001288
+
+失明 -> blindness (n.); NAER record 4268; MeSH D001766
+
+呼吸 -> breathing (n.); NAER record 4564; MeSH D012119
+
+阉割 -> castration (n.); NAER record 5552; MeSH D002369
+
+耳垢 -> cerumen (n.); NAER record 5953; MeSH D002571
+
+感冒 -> cold (n.); NAER record 6874; MeSH D003080
+
+死亡 -> death (n.); NAER record 8293; MeSH D003643
+
+脱水 -> dehydration (n.); NAER record 8427; MeSH D003681
+
+镊子 -> forceps (n.); NAER record 12236; MeSH D013525
+
+生长 -> growth (n.); NAER record 13289; MeSH D006128
+
+健康 -> health (n.); NAER record 13572; MeSH D006262
+
+出血 -> hemorrhage (n.); NAER record 13756; MeSH D006470
+
+冬眠 -> hibernation (n.); NAER record 14011; MeSH D006605
+
+门牙 -> incisor (n.); NAER record 14980; MeSH D007180
+
+运动 -> movement (n.); NAER record 18472; MeSH D009068
+
+突变 -> mutation (n.); NAER record 18895; MeSH D009154
+
+指甲 -> nail (n.); NAER record 19095; MeSH D009262
+
+看护 -> nursing (n.); NAER record 19854; MeSH D009729
+
+杀虫剂 -> pesticide (n.); NAER record 21834; MeSH D010575
+
+石炭酸 -> phenol (n.); NAER record 21936; MeSH D019800
+
+怀孕 -> pregnancy (n.); NAER record 23209; MeSH D011247
+
+再生 -> regeneration (n.); NAER record 24513; MeSH D012038
+
+复发 -> relapse (n.); NAER record 24553; MeSH D012008
+
+破裂 -> rupture (n.); NAER record 25178; MeSH D012421
+
+硬化 -> sclerosis (n.); NAER record 25540; MeSH D012598
+
+抽烟 -> smoking (n.); NAER record 26249; MeSH D012907
+
+跗骨 -> tarsus (n.); NAER record 28035; MeSH D000842
+
+治疗 -> therapy (n.); NAER record 28260; MeSH D013812
+
+组织 -> tissue (n.); NAER record 28487; MeSH D014024
+
+移植 -> transplantation (n.); NAER record 28722; MeSH D014180
+
+治疗 -> treatment (n.); NAER record 28821; MeSH D013812
+
+内脏 -> viscera (n.); NAER record 30305; MeSH D014781
+
+视力 -> vision (n.); NAER record 30324; MeSH D014785
+
+呕吐 -> vomiting (n.); NAER record 30385; MeSH D014839
+
+创伤 -> wound (n.); NAER record 30637; MeSH D014947
+
+
+=== 医学词汇批次 26（NAER Life Science Academic Terms）===
+
+署名：國家教育研究院（National Academy for Educational Research）；数据集：https://data.gov.tw/en/datasets/15213。许可：政府資料開放授權條款第1版（Open Government Data License v1.0），https://data.gov.tw/license。固定来源文件 life-science-academic-terms.csv，SHA-256：d8d00e504e1e5feeeb5cad1464c1a1806963689dc43b398594d9e5bdce1556f0；共9230条数据记录。候选审查10组，接受7组、排除3组、暂缓0组；新增1个英文词头和2个医学标签成员。筛选要求本机 IPA、ECDICT 精确名词义、拼音可达及 MeSH 主题；运行时只载入经审校的精简 TSV。来源与修改说明、输入/输出散列、逐项理由见 vocabulary/data/NAER-LIFE-SCIENCE-ATTRIBUTION.md、vocabulary/data/naer-life-science-manifest.json、vocabulary/data/batches/26-naer-life-science-reviewed.tsv 和 scripts/build_naer_life_science_batch.py。
+
+交媾 -> coitus (n.); NAER source record 2644; MeSH D003075
+
+射精 -> ejaculation (n.); NAER source record 3366; MeSH D004542
+
+发炎 -> inflammation (n.); NAER source record 4790; MeSH D007249
+
+结扎 -> ligation (n.); NAER source record 5185; MeSH D008026
+
+麻痹 -> paralysis (n.); NAER source record 6318; MeSH D010243
+
+知觉 -> perception (n.); NAER source record 6414; MeSH D010465
+
+繁殖 -> reproduction (n.); NAER source record 7264; MeSH D012098
+
+
+=== 医学词汇批次 27（NAER Veterinary Medical Terms）===
+
+署名：國家教育研究院（National Academy for Educational Research）；数据集：https://data.gov.tw/en/datasets/15461。许可：政府資料開放授權條款第1版（Open Government Data License v1.0），https://data.gov.tw/license。固定来源文件 veterinary-academic-terms.csv，SHA-256：cc4599654cbf83fca9ec02b411f08cae8d4d8026925177477c26b97c30837863；共24171条数据记录。候选审查17组，接受6组、排除11组、暂缓0组；新增1个英文词头和2个医学标签成员。筛选要求本机 IPA、ECDICT 精确名词义、拼音可达及 MeSH 主题；运行时只载入经审校的精简 TSV。来源与修改说明、输入/输出散列、逐项理由见 vocabulary/data/NAER-VETERINARY-ATTRIBUTION.md、vocabulary/data/naer-veterinary-manifest.json、vocabulary/data/batches/27-naer-veterinary-reviewed.tsv 和 scripts/build_naer_veterinary_batch.py。
+
+酗酒 -> alcoholism (n.); NAER source record 539; MeSH D000437
+
+发烧 -> fever (n.); NAER source record 8832; MeSH D005334
+
+增殖 -> hyperplasia (n.); NAER source record 11605; MeSH D006965
+
+肥胖 -> obesity (n.); NAER source record 16730; MeSH D009765
+
+苍白 -> pallor (n.); NAER source record 17407; MeSH D010167
+
+瘫痪 -> paralysis (n.); NAER source record 17536; MeSH D010243
 
 
 === CC-CEDICT 词汇补充（独立 CC BY-SA 4.0 数据）===
@@ -1001,7 +1873,6 @@ Princeton University and LICENSEE agrees to preserve same.
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
-
 
 
 === vocabulary\data\OPENCC-PYTHON-NOTICE.txt ===
@@ -1746,6 +2617,531 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+=== vocabulary\data\sources\cjk-compsci-terms\LICENSE ===
+Attribution-ShareAlike 4.0 International
+
+=======================================================================
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and
+does not provide legal services or legal advice. Distribution of
+Creative Commons public licenses does not create a lawyer-client or
+other relationship. Creative Commons makes its licenses and related
+information available on an "as-is" basis. Creative Commons gives no
+warranties regarding its licenses, any material licensed under their
+terms and conditions, or any related information. Creative Commons
+disclaims all liability for damages resulting from their use to the
+fullest extent possible.
+
+Using Creative Commons Public Licenses
+
+Creative Commons public licenses provide a standard set of terms and
+conditions that creators and other rights holders may use to share
+original works of authorship and other material subject to copyright
+and certain other rights specified in the public license below. The
+following considerations are for informational purposes only, are not
+exhaustive, and do not form part of our licenses.
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
+     wiki.creativecommons.org/Considerations_for_licensors
+
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More considerations
+     for the public:
+     wiki.creativecommons.org/Considerations_for_licensees
+
+=======================================================================
+
+Creative Commons Attribution-ShareAlike 4.0 International Public
+License
+
+By exercising the Licensed Rights (defined below), You accept and agree
+to be bound by the terms and conditions of this Creative Commons
+Attribution-ShareAlike 4.0 International Public License ("Public
+License"). To the extent this Public License may be interpreted as a
+contract, You are granted the Licensed Rights in consideration of Your
+acceptance of these terms and conditions, and the Licensor grants You
+such rights in consideration of benefits the Licensor receives from
+making the Licensed Material available under these terms and
+conditions.
+
+
+Section 1 -- Definitions.
+
+  a. Adapted Material means material subject to Copyright and Similar
+     Rights that is derived from or based upon the Licensed Material
+     and in which the Licensed Material is translated, altered,
+     arranged, transformed, or otherwise modified in a manner requiring
+     permission under the Copyright and Similar Rights held by the
+     Licensor. For purposes of this Public License, where the Licensed
+     Material is a musical work, performance, or sound recording,
+     Adapted Material is always produced where the Licensed Material is
+     synched in timed relation with a moving image.
+
+  b. Adapter's License means the license You apply to Your Copyright
+     and Similar Rights in Your contributions to Adapted Material in
+     accordance with the terms and conditions of this Public License.
+
+  c. BY-SA Compatible License means a license listed at
+     creativecommons.org/compatiblelicenses, approved by Creative
+     Commons as essentially the equivalent of this Public License.
+
+  d. Copyright and Similar Rights means copyright and/or similar rights
+     closely related to copyright including, without limitation,
+     performance, broadcast, sound recording, and Sui Generis Database
+     Rights, without regard to how the rights are labeled or
+     categorized. For purposes of this Public License, the rights
+     specified in Section 2(b)(1)-(2) are not Copyright and Similar
+     Rights.
+
+  e. Effective Technological Measures means those measures that, in the
+     absence of proper authority, may not be circumvented under laws
+     fulfilling obligations under Article 11 of the WIPO Copyright
+     Treaty adopted on December 20, 1996, and/or similar international
+     agreements.
+
+  f. Exceptions and Limitations means fair use, fair dealing, and/or
+     any other exception or limitation to Copyright and Similar Rights
+     that applies to Your use of the Licensed Material.
+
+  g. License Elements means the license attributes listed in the name
+     of a Creative Commons Public License. The License Elements of this
+     Public License are Attribution and ShareAlike.
+
+  h. Licensed Material means the artistic or literary work, database,
+     or other material to which the Licensor applied this Public
+     License.
+
+  i. Licensed Rights means the rights granted to You subject to the
+     terms and conditions of this Public License, which are limited to
+     all Copyright and Similar Rights that apply to Your use of the
+     Licensed Material and that the Licensor has authority to license.
+
+  j. Licensor means the individual(s) or entity(ies) granting rights
+     under this Public License.
+
+  k. Share means to provide material to the public by any means or
+     process that requires permission under the Licensed Rights, such
+     as reproduction, public display, public performance, distribution,
+     dissemination, communication, or importation, and to make material
+     available to the public including in ways that members of the
+     public may access the material from a place and at a time
+     individually chosen by them.
+
+  l. Sui Generis Database Rights means rights other than copyright
+     resulting from Directive 96/9/EC of the European Parliament and of
+     the Council of 11 March 1996 on the legal protection of databases,
+     as amended and/or succeeded, as well as other essentially
+     equivalent rights anywhere in the world.
+
+  m. You means the individual or entity exercising the Licensed Rights
+     under this Public License. Your has a corresponding meaning.
+
+
+Section 2 -- Scope.
+
+  a. License grant.
+
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
+
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
+
+            b. produce, reproduce, and Share Adapted Material.
+
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
+
+       3. Term. The term of this Public License is specified in Section
+          6(a).
+
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
+
+       5. Downstream recipients.
+
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  b. Other rights.
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
+
+
+Section 3 -- License Conditions.
+
+Your exercise of the Licensed Rights is expressly made subject to the
+following conditions.
+
+  a. Attribution.
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+  b. ShareAlike.
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+Section 4 -- Sui Generis Database Rights.
+
+Where the Licensed Rights include Sui Generis Database Rights that
+apply to Your use of the Licensed Material:
+
+  a. for the avoidance of doubt, Section 2(a)(1) grants You the right
+     to extract, reuse, reproduce, and Share all or a substantial
+     portion of the contents of the database;
+
+  b. if You include all or a substantial portion of the database
+     contents in a database in which You have Sui Generis Database
+     Rights, then the database in which You have Sui Generis Database
+     Rights (but not its individual contents) is Adapted Material,
+
+     including for purposes of Section 3(b); and
+  c. You must comply with the conditions in Section 3(a) if You Share
+     all or a substantial portion of the contents of the database.
+
+For the avoidance of doubt, this Section 4 supplements and does not
+replace Your obligations under this Public License where the Licensed
+Rights include other Copyright and Similar Rights.
+
+
+Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+
+  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
+     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
+     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
+     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
+     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
+     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
+     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
+     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
+     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
+
+  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
+     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
+     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
+     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
+     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
+     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
+     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
+     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
+     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
+
+  c. The disclaimer of warranties and limitation of liability provided
+     above shall be interpreted in a manner that, to the extent
+     possible, most closely approximates an absolute disclaimer and
+     waiver of all liability.
+
+
+Section 6 -- Term and Termination.
+
+  a. This Public License applies for the term of the Copyright and
+     Similar Rights licensed here. However, if You fail to comply with
+     this Public License, then Your rights under this Public License
+     terminate automatically.
+
+  b. Where Your right to use the Licensed Material has terminated under
+     Section 6(a), it reinstates:
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. For the avoidance of doubt, the Licensor may also offer the
+     Licensed Material under separate terms or conditions or stop
+     distributing the Licensed Material at any time; however, doing so
+     will not terminate this Public License.
+
+  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
+     License.
+
+
+Section 7 -- Other Terms and Conditions.
+
+  a. The Licensor shall not be bound by any additional or different
+     terms or conditions communicated by You unless expressly agreed.
+
+  b. Any arrangements, understandings, or agreements regarding the
+     Licensed Material not stated herein are separate from and
+     independent of the terms and conditions of this Public License.
+
+
+Section 8 -- Interpretation.
+
+  a. For the avoidance of doubt, this Public License does not, and
+     shall not be interpreted to, reduce, limit, restrict, or impose
+     conditions on any use of the Licensed Material that could lawfully
+     be made without permission under this Public License.
+
+  b. To the extent possible, if any provision of this Public License is
+     deemed unenforceable, it shall be automatically reformed to the
+     minimum extent necessary to make it enforceable. If the provision
+     cannot be reformed, it shall be severed from this Public License
+     without affecting the enforceability of the remaining terms and
+     conditions.
+
+  c. No term or condition of this Public License will be waived and no
+     failure to comply consented to unless expressly agreed to by the
+     Licensor.
+
+  d. Nothing in this Public License constitutes or may be interpreted
+     as a limitation upon, or waiver of, any privileges and immunities
+     that apply to the Licensor or You, including from the legal
+     processes of any jurisdiction or authority.
+
+
+=======================================================================
+
+Creative Commons is not a party to its public licenses.
+Notwithstanding, Creative Commons may elect to apply one of its public
+licenses to material it publishes and in those instances will be
+considered the “Licensor.” The text of the Creative Commons public
+licenses is dedicated to the public domain under the CC0 Public Domain
+Dedication. Except for the limited purpose of indicating that material
+is shared under a Creative Commons public license or as otherwise
+permitted by the Creative Commons policies published at
+creativecommons.org/policies, Creative Commons does not authorize the
+use of the trademark "Creative Commons" or any other trademark or logo
+of Creative Commons without its prior written consent including,
+without limitation, in connection with any unauthorized modifications
+to any of its public licenses or any other arrangements,
+understandings, or agreements concerning use of licensed material. For
+the avoidance of doubt, this paragraph does not form part of the public
+licenses.
+
+Creative Commons may be contacted at creativecommons.org.
+
+
+=== vocabulary\data\sources\fibo\LICENSE ===
+The MIT License (MIT)
+
+Copyright (c) 2020 Enterprise Data Management Council
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+=== vocabulary\data\sources\better-quant-wiki\LICENSE ===
+MIT License
+
+Copyright (c) 2026 Tomortec and Better Quant Wiki contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+=== vocabulary\data\sources\finance_i18n\LICENSE ===
+MIT License
+
+Copyright (c) 2018 Vincent
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+=== vocabulary\data\sources\computerese-cross-references\LICENSE ===
+MIT License
+
+Copyright (c) 2017 EarsEyesMouth Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 

@@ -1,0 +1,699 @@
+english	domain	chinese	pos	source_gloss	pinyin	pinyin_frequency	source_entry_id	source_sense_id	mapping_status
+abdomen	medical	腹部	n.	abdomen	fu bu	1337	41409	6954638415587685816	existing
+abdominal cavity	medical	腹腔	n.	abdominal cavity	fu qiang	121	22643	7514454641719237438	existing
+accelerator	computer	加速器	n.	accelerator	jia su qi	495	44997	1220086292887458281	existing
+access	computer	存取	v.	to access	cun qu	367	77383	2864494034324950669	existing
+acne	medical	痤疮	n.	acne	cuo chuang	47	40969	4028982719550748002	existing
+acne	medical	青春痘	n.	acne	qing chun dou	371	73323	4314886007386421967	existing
+action potential	medical	动作电位	n.	action potential	dong zuo dian wei	56	122346	4529135803728561468	existing
+acute	medical	急性	adj.	acute	ji xing	1188	25880	2462643422657264960	existing
+acute abdomen	medical	急腹症	n.	acute abdomen	ji fu zheng	4	124161	8085397547034726461	existing
+adapt	computer	适配	v.	to adapt	shi pei	446	53731	6816713463340152191	existing
+adenocarcinoma	medical	腺癌	n.	adenocarcinoma	xian ai	119	56051	5501724703427217385	existing
+adenosine	medical	腺苷	n.	adenosine	xian gan	126	51285	8470661431519956070	existing
+adrenal gland	medical	肾上腺	n.	adrenal gland	shen shang xian	104	68751	8858090145095965017	existing
+air duty	business	空勤	n.	air duty	kong qin	178	118615	1603924614831320349	existing
+airspace	business	领空	n.	airspace	ling kong	213	67963	7992321783129314689	existing
+albinism	medical	白化病	n.	albinism	bai hua bing	8	54679	3081818325460061772	existing
+algorithm	computer	算法	n.	algorithm	suan fa	2921	33817	7680752634013443119	existing
+allele	medical	等位基因	n.	allele	deng wei ji yin	112	74230	3723864210858771728	existing
+allergic reaction	medical	过敏反应	n.	allergic reaction	guo min fan ying	153	156923	4454710247638188760	existing
+alopecia areata	medical	斑秃	n.	alopecia areata	ban tu	3	91992	4600415645090226134	existing
+alzheimer's disease	medical	阿尔茨海默病	n.	Alzheimer's disease	a er ci hai mo bing	82	40067	3486414964164398574	existing
+amnion	medical	羊膜	n.	amnion	yang mo	72	33228	6384950928842974431	existing
+amplifier	business	放大器	n.	amplifier	fang da qi	261	74239	5944864211840951119	existing
+amputate	medical	截肢	v.	to amputate	jie zhi	151	74237	8378620054352085281	existing
+anatomy	medical	解剖学	n.	anatomy	jie pou xue	295	56297	6011882788054095488	existing
+anesthetize	medical	麻醉	v.	to anesthetize	ma zui	345	41071	5763949460881229460	existing
+aneurysm	medical	动脉瘤	n.	aneurysm	dong mai liu	86	44549	379802107053985650	existing
+angina pectoris	medical	心绞痛	n.	angina pectoris	xin jiao tong	32	49248	1226089996555213705	existing
+annual interest	business	年息	n.	annual interest	nian xi	20	149958	1619015444911445613	existing
+antagonist	medical	拮抗剂	n.	antagonist	jie kang ji	131	145381	4403361204759208725	existing
+antibiotic	medical	抗生素	n.	antibiotic	kang sheng su	511	26525	6640628331440154937	existing
+antibiotic	medical	抗菌素	n.	antibiotic	kang jun su	11	47843	2335977565680394175	existing
+antibody	medical	抗体	n.	antibody	kang ti	663	22179	8113373647095984072	existing
+antigen	medical	抗原	n.	antigen	kang yuan	469	44494	2150084038675534178	existing
+anus	medical	肛门	n.	anus	gang men	227	18360	7224897989843269231	existing
+aorta	medical	主动脉	n.	aorta	zhu dong mai	61	74257	9192416628832628124	existing
+aphasia	medical	失语症	n.	aphasia	shi yu zheng	36	74261	6796716277687205781	existing
+apoptosis	medical	细胞凋亡	n.	apoptosis	xi bao diao wang	124	131817	4884545439595794757	existing
+appendicitis	medical	盲肠炎	n.	appendicitis	mang chang yan	21	21918	7579673986780256207	existing
+appendicitis	medical	阑尾炎	n.	appendicitis	lan wei yan	30	21917	5408431587201797689	existing
+appreciate	business	升值	v.	to appreciate	sheng zhi	70	55977	1123154400773474541	existing
+array	computer	数组	n.	array	shu zu	250	97514	5444954970346330322	existing
+array	computer	阵列	n.	array	zhen lie	704	78762	6954572671424583201	existing
+arteriosclerosis	medical	动脉硬化	n.	arteriosclerosis	dong mai ying hua	20	72830	2548654264894123062	existing
+artery	medical	动脉	n.	artery	dong mai	287	22400	1394887911591352656	existing
+arthritis	medical	关节炎	n.	arthritis	guan jie yan	382	22854	2294502942948445171	existing
+artificial insemination	medical	人工授精	n.	artificial insemination	ren gong shou jing	33	123106	9018272871689782807	existing
+aspirin	medical	阿司匹林	n.	aspirin	a si pi lin	47	18654	6947813151637748080	existing
+assembly	computer	汇编	n.	assembly	hui bian	617	74930	121206428365584716	existing
+assembly language	computer	汇编语言	n.	assembly language	hui bian yu yan	57	25833	3845552096375816190	existing
+assembly line	business	流水线	n.	assembly line	liu shui xian	226	60763	7759121939424044908	existing
+assembly line	business	装配线	n.	assembly line	zhuang pei xian	15	60762	4067108739715727996	existing
+asthma	medical	哮喘	n.	asthma	xiao chuan	255	45071	2878496642428380607	existing
+asthma	medical	气喘	n.	asthma	qi chuan	85	45105	2902383067788737705	existing
+astigmatism	medical	散光	n.	astigmatism	san guang	368	64574	8566000669754359878	existing
+athlete's foot	medical	脚气	n.	athlete's foot	jiao qi	275	48545	6773559494188632425	existing
+attachment	computer	附件	n.	attachment	fu jian	683	33376	6248009803876900896	existing
+atypical pneumonia	medical	非典型肺炎	n.	atypical pneumonia	fei dian xing fei yan	37	90435	6088971013478471107	existing
+audit	business	审计	v.	to audit	shen ji	1008	47516	5957314036045780139	existing
+augmented reality	computer	增强现实	n.	augmented reality	zeng qiang xian shi	60	45013	1753675216333779019	existing
+auscultate	medical	听诊	v.	to auscultate	ting zhen	5	47511	7075170718861501674	existing
+australia antigen	medical	澳抗	n.	Australia antigen	ao kang	6	152357	3588242939478958543	existing
+auto-reply	computer	自动回复	n.	auto-reply	zi dong hui fu	546	88094	1386140255547790040	existing
+autonomic	medical	自主	adj.	autonomic	zi zhu	2232	35319	6598097852821085539	existing
+autosome	medical	常染色体	n.	autosome	chang ran se ti	61	68463	401089270055117447	existing
+autumn grain	business	秋粮	n.	autumn grain	qiu liang	3	162936	6839029707869571520	existing
+axon	medical	轴突	n.	axon	zhou tu	97	62282	5870027318619937413	existing
+back	medical	背部	n.	back	bei bu	886	74312	7791423573306448349	existing
+backend	computer	后端	n.	backend	hou duan	285	39410	258406223737849257	existing
+backup	computer	备份	n.	backup	bei fen	1179	39338	6737943495581252736	existing
+bad debt	business	呆账	n.	bad debt	dai zhang	1	88044	8401568686229957606	existing
+barbital	medical	巴比妥	n.	barbital	ba bi tuo	77	85973	384272269734713020	existing
+be used as medicine	medical	入药	v.	to be used as medicine	ru yao	129	154726	607316344616995652	existing
+bear market	business	熊市	n.	bear market	xiong shi	14	97096	4845967841515061192	existing
+benign tumor	medical	良性肿瘤	n.	benign tumor	liang xing zhong liu	115	154044	6692739280275419050	existing
+bile duct	medical	胆管	n.	bile duct	dan guan	28	63418	3625224316806655297	existing
+bill of exchange	business	汇票	n.	bill of exchange	hui piao	30	66547	7897285221290887130	existing
+bit rate	computer	比特率	n.	bit rate	bi te lv	53	88773	3638954986752818673	existing
+bitmap	computer	位图	n.	bitmap	wei tu	50	84753	6514051295861952537	existing
+blackhead	medical	黑头	n.	blackhead	hei tou	62	123138	2990128263956538018	existing
+blockchain	business	区块链	n.	blockchain	qu kuai lian	349	96472	7477180906399346948	existing
+blood cell	medical	血球	n.	blood cell	xue qiu	38	44862	6366473559048645575	existing
+blood cell	medical	血细胞	n.	blood cell	xue xi bao	50	72943	727481708336205278	existing
+blood pressure	medical	血压	n.	blood pressure	xue ya	224	41798	7611211266233454425	existing
+bone	medical	骨头	n.	bone	gu tou	3147	35819	5272344482008585338	existing
+bone marrow	medical	骨髓	n.	bone marrow	gu sui	277	55308	7031069713663599907	existing
+bookkeeping	business	簿记	n.	bookkeeping	bu ji	44	22057	2586575477618559141	existing
+bookmark	computer	书签	n.	bookmark	shu qian	486	50443	4607902774754354034	existing
+boolean	computer	布林	n.	Boolean	bu lin	1014	100465	7596619854606267332	existing
+booster	business	助推器	n.	booster	zhu tui qi	189	158124	6569788355974190201	existing
+brain	medical	脑部	n.	brain	nao bu	449	79896	6278222628777731228	existing
+brain death	medical	脑死亡	n.	brain death	nao si wang	13	96929	2101409503883492395	existing
+brain tumor	medical	脑瘤	n.	brain tumor	nao liu	89	179855	850332879071666987	existing
+breast	medical	乳房	n.	breast	ru fang	500	31061	2950875323323910129	existing
+breed	business	育种	v.	to breed	yu zhong	357	73458	130601362550706152	existing
+bridge	computer	桥接	v.	to bridge	qiao jie	105	141291	1834635251718962431	existing
+bridge	medical	桥接	v.	to bridge	qiao jie	105	141291	1834635251718962431	existing
+bronchitis	medical	支气管炎	n.	bronchitis	zhi qi guan yan	56	43191	94652631449006603	existing
+buffer	computer	缓冲器	n.	buffer	huan chong qi	98	22875	6452954363789787537	existing
+buyer's market	business	买方市场	n.	buyer's market	mai fang shi chang	53	183056	7736352155049372147	existing
+byte	computer	字节	n.	byte	zi jie	650	37334	5493025213616046444	existing
+caecum	medical	盲肠	n.	caecum	mang chang	35	22366	1478598756716533072	batch14
+calcify	medical	钙化	v.	to calcify	gai hua	100	93152	1431024666422945466	existing
+call	computer	调用	v.	to call	diao yong	761	150049	7743956256084601517	existing
+capacitance	business	电容	n.	capacitance	dian rong	436	64122	490127590359276327	existing
+capillary	medical	微血管	n.	capillary	wei xue guan	42	48570	2077783681342418048	existing
+capillary	medical	毛细血管	n.	capillary	mao xi xue guan	41	44899	6042836547203282132	existing
+capital	business	资本	n.	capital	zi ben	2188	22320	4552869430631912760	existing
+capital market	business	资本市场	n.	capital market	zi ben shi chang	102	52553	4572867036652559120	existing
+cardia	medical	贲门	n.	cardia	ben men	7	88787	6235474472128927091	existing
+cardiovascular	medical	心血管	adj.	cardiovascular	xin xue guan	348	61086	986785784316416287	existing
+cartilage	medical	软骨	n.	cartilage	ruan gu	325	28264	8940198843064070734	existing
+category	computer	范畴	n.	category	fan chou	1110	43665	9061527209462032627	existing
+catheter	medical	导管	n.	catheter	dao guan	317	63997	4243399648801198086	existing
+cell cycle	medical	细胞周期	n.	cell cycle	xi bao zhou qi	50	136682	6948622322846106499	existing
+cell membrane	medical	细胞膜	n.	cell membrane	xi bao mo	293	28351	1611708670785062137	existing
+cell nucleus	medical	细胞核	n.	cell nucleus	xi bao he	246	28350	8600170075323109390	existing
+central nervous system	medical	中枢神经系统	n.	central nervous system	zhong shu shen jing xi tong	230	79898	6887579240243139072	existing
+cerebellum	medical	小脑	n.	cerebellum	xiao nao	49	42775	3542103169792502873	existing
+cerebral hemorrhage	medical	脑出血	n.	cerebral hemorrhage	nao chu xue	93	81298	8791853290209466962	existing
+cerebral palsy	medical	脑瘫	n.	cerebral palsy	nao tan	137	74731	844349519235145407	existing
+cerebrum	medical	大脑	n.	cerebrum	da nao	3420	42774	7758911917536426195	batch14
+cervical cancer	medical	宫颈癌	n.	cervical cancer	gong jing ai	75	66988	1895875434955595755	existing
+cervical spondylosis	medical	颈椎病	n.	cervical spondylosis	jing zhui bing	5	48515	1846835202449144400	existing
+cervix	medical	宫颈	n.	cervix	gong jing	62	66986	1060977310736707474	existing
+channel	computer	通道	n.	channel	tong dao	5304	52910	5043383057840649681	existing
+character	computer	字元	n.	character	zi yuan	665	112426	4692615792584515202	existing
+character	computer	字符	n.	character	zi fu	1289	18367	4945261267314493560	existing
+character set	computer	字符集	n.	character set	zi fu ji	97	18913	5469271200339232030	existing
+check out	computer	检出	v.	to check out	jian chu	584	139062	966651091228307510	existing
+checkpoint	computer	检查点	n.	checkpoint	jian cha dian	73	99929	9006914350079248411	existing
+checksum	computer	校验和	n.	checksum	jiao yan he	54	151316	3359137493855741593	existing
+cheek	medical	脸颊	n.	cheek	lian jia	683	60113	2367015054299284622	existing
+cheek	medical	面颊	n.	cheek	mian jia	29	41286	1512027163315469006	existing
+chest x-ray	medical	胸透	n.	chest X-ray	xiong tou	20	185636	4708934189377269479	existing
+chilblain	medical	冻疮	n.	chilblain	dong chuang	7	62250	6240838231253882062	existing
+chloramphenicol	medical	氯霉素	n.	chloramphenicol	lv mei su	26	86012	582070244458000006	existing
+chloroquine	medical	氯喹	n.	chloroquine	lv kui	91	134341	3686082966577011861	existing
+cholecystitis	medical	胆囊炎	n.	cholecystitis	dan nang yan	35	47869	2256044452514966800	existing
+chromosome	medical	染色体	n.	chromosome	ran se ti	649	48020	4599054770409997329	existing
+chronic	medical	慢性	adj.	chronic	man xing	771	22541	8815498062542543562	existing
+cilium	medical	纤毛	n.	cilium	xian mao	112	131602	3744048868321837612	existing
+cleft lip	medical	唇裂	n.	cleft lip	chun lie	17	64388	2804239767415414100	existing
+cleft palate	medical	腭裂	n.	cleft palate	e lie	6	49151	69285867836585522	existing
+client	computer	客户端	n.	client	ke hu duan	2160	67113	7069633836071222272	existing
+clinical	medical	临床	adj.	clinical	lin chuang	2106	26272	3256510083212570694	existing
+clinical trial	medical	临床试验	n.	clinical trial	lin chuang shi yan	429	88041	2448542607140724885	existing
+clitoris	medical	阴蒂	n.	clitoris	yin di	104	48609	6199454720883683780	existing
+close planting	business	密植	n.	close planting	mi zhi	7	78538	4013890984270480382	existing
+cloud	computer	云端	n.	cloud	yun duan	675	55411	1506631492329724312	existing
+clozapine	medical	氯氮平	n.	clozapine	lv dan ping	74	122436	7175733721884519973	existing
+cocaine	medical	可卡因	n.	cocaine	ke ka yin	170	18057	7666308782578926428	existing
+colon	medical	结肠	n.	colon	jie chang	73	37173	5861544104822365226	existing
+colon cancer	medical	结肠癌	n.	colon cancer	jie chang ai	65	122696	7489305839174450636	existing
+command line	computer	命令行	n.	command line	ming ling xing	81	120004	2653722526093803032	existing
+commercial bank	business	商业银行	n.	commercial bank	shang ye yin hang	864	162062	3609167217420572567	existing
+compensate	medical	代偿	v.	to compensate	dai chang	59	38207	6507477625013866002	existing
+compile	computer	编译	v.	to compile	bian yi	861	71685	7324851228627589602	existing
+compiler	computer	编译器	n.	compiler	bian yi qi	449	74932	7320207967336240266	existing
+complication	medical	并发症	n.	complication	bing fa zheng	1244	68894	8114555890199342903	existing
+compound interest	business	复利	n.	compound interest	fu li	8	88229	2340542964816087333	existing
+compress	computer	压缩	v.	to compress	ya suo	1635	42479	6889889843485179389	existing
+computer network	computer	计算机网络	n.	computer network	ji suan ji wang luo	195	135471	5424286482961575582	existing
+computer program	computer	计算机程序	n.	computer program	ji suan ji cheng xu	121	79164	4887187554658812626	existing
+computer virus	computer	计算机病毒	n.	computer virus	ji suan ji bing du	20	158497	4337490451336230642	existing
+configuration	computer	配置	n.	configuration	pei zhi	4384	39659	2235124025740278287	existing
+conjunctiva	medical	结膜	n.	conjunctiva	jie mo	48	44995	8601550492809775929	existing
+conjunctivitis	medical	结膜炎	n.	conjunctivitis	jie mo yan	54	48412	7440050843113322639	existing
+connective tissue	medical	结缔组织	n.	connective tissue	jie di zu zhi	128	68759	3642532277681287874	existing
+constant	computer	常数	n.	constant	chang shu	908	40580	8217144269019711385	existing
+consulting room	medical	诊室	n.	consulting room	zhen shi	37	78495	7156552281537081900	existing
+copy	business	文案	n.	copy	wen an	1860	37928	5239519446052585733	existing
+core	computer	核心	n.	core	he xin	7693	28060	2423040022714970368	existing
+cornea	medical	眼角膜	n.	cornea	yan jiao mo	15	61251	8447143177566530123	existing
+cornea	medical	角膜	n.	cornea	jiao mo	164	44935	5598527540172407892	existing
+coronary artery	medical	冠状动脉	n.	coronary artery	guan zhuang dong mai	102	69028	5655462334582837512	existing
+coronary heart disease	medical	冠心病	n.	coronary heart disease	guan xin bing	35	49251	3073414250140984820	existing
+corpus	computer	语料库	n.	corpus	yu liao ku	62	74971	6505325627454896080	existing
+corpus luteum	medical	黄体	n.	corpus luteum	huang ti	64	69210	7796645871911666529	existing
+cortex	medical	皮层	n.	cortex	pi ceng	279	186564	8746577559704887060	existing
+cortex	medical	皮质	n.	cortex	pi zhi	305	64341	7389180935047730060	existing
+cranial nerve	medical	脑神经	n.	cranial nerve	nao shen jing	54	53000	7662362464338774908	existing
+crash	business	崩盘	v.	to crash	beng pan	56	153893	211123359232247584	existing
+cross-platform	computer	跨平台	adj.	cross-platform	kua ping tai	290	95591	1585404382172578563	existing
+customize	computer	定制	v.	to customize	ding zhi	2576	124544	8420800598866427513	existing
+customize	computer	自定义	v.	to customize	zi ding yi	490	158606	536132251226542979	existing
+cyst	medical	囊肿	n.	cyst	nang zhong	135	46854	2947441415614719555	existing
+dantian	medical	丹田	n.	dantian	dan tian	58	20683	1591834995427803604	existing
+data center	computer	数据中心	n.	data center	shu ju zhong xin	198	166497	6386862915869550184	existing
+data mining	computer	数据挖掘	n.	data mining	shu ju wa jue	72	33813	3494992707784809844	existing
+data structure	computer	数据结构	n.	data structure	shu ju jie gou	233	97515	8058003227602608914	existing
+data type	computer	数据类型	n.	data type	shu ju lei xing	106	157806	5299352962945021718	existing
+dataset	computer	数据集	n.	dataset	shu ju ji	164	61819	657681685707584167	existing
+deduct	business	抵扣	v.	to deduct	di kou	64	156057	9205746793996155925	existing
+default	computer	默认	adj.	default	mo ren	1646	43216	7209188876439016851	existing
+delirium	medical	谵妄	n.	delirium	zhan wang	42	56187	5523617029939449855	existing
+depression	medical	抑郁症	n.	depression	yi yu zheng	242	61640	5930758426859381918	existing
+dermatitis	medical	皮炎	n.	dermatitis	pi yan	43	68755	8423201232243921697	existing
+dermatology	medical	皮肤科	n.	dermatology	pi fu ke	318	63426	5313191739251432734	existing
+dermis	medical	真皮	n.	dermis	zhen pi	54	77278	6862509163913958916	existing
+desktop	computer	桌面	n.	desktop	zhuo mian	1712	29804	4141518184273078378	existing
+desogestrel	medical	去氧孕烯	n.	desogestrel	qu yang yun xi	81	169583	7129134620929320524	existing
+developer	computer	开发人员	n.	developer	kai fa ren yuan	422	99395	7474387643509779477	existing
+disk	computer	磁盘	n.	disk	ci pan	249	56982	3164705168931792635	existing
+distributor	business	分销商	n.	distributor	fen xiao shang	76	152841	5080675491590452613	existing
+dividend	business	股利	n.	dividend	gu li	31	120028	1349653737601857502	existing
+dividend	business	股息	n.	dividend	gu xi	56	75378	2167170994011702164	existing
+dock	business	对接	v.	to dock	dui jie	721	75382	4775758540381817764	existing
+dodder seed	medical	菟丝子	n.	dodder seed	tu si zi	39	32434	1560748330118582866	existing
+domain name	computer	域名	n.	domain name	yu ming	691	75386	200436596643473095	existing
+dominant	medical	显性	adj.	dominant	xian xing	91	75388	1327110216265471904	existing
+donor	medical	供体	n.	donor	gong ti	95	123058	7055300836800634432	existing
+double precision	computer	双精度	n.	double precision	shuang jing du	95	97492	8778802874468244632	existing
+double-click	computer	双击	v.	to double-click	shuang ji	555	79520	6718318757765970123	existing
+down payment	business	首付	n.	down payment	shou fu	381	54555	4305221780476743299	existing
+downgrade	computer	降级	v.	to downgrade	jiang ji	1665	82044	3671898138987565335	existing
+download	computer	下载	v.	to download	xia zai	10445	33359	2029290540721326882	existing
+dressing	medical	敷料	n.	dressing	fu liao	35	97623	7212838480979526612	existing
+drive	computer	驱动器	n.	drive	qu dong qi	526	65087	6155928593371177098	existing
+drug resistance	medical	耐药性	n.	drug resistance	nai yao xing	97	70806	3215953952213827166	existing
+duodenal ulcer	medical	十二指肠溃疡	n.	duodenal ulcer	shi er zhi chang kui yang	50	52682	9214637591547648744	existing
+duodenum	medical	十二指肠	n.	duodenum	shi er zhi chang	108	22350	3239775900899880872	existing
+dysfunction	medical	功能障碍	n.	dysfunction	gong neng zhang ai	228	80475	7201604591920553944	existing
+eardrum	medical	耳膜	n.	eardrum	er mo	103	45065	1598936139501787309	existing
+eardrum	medical	耳鼓	n.	eardrum	er gu	3	45066	750883103983576019	existing
+earhole	medical	耳孔	n.	earhole	er kong	18	68784	3056814025672501135	existing
+earn foreign exchange	business	创汇	v.	to earn foreign exchange	chuang hui	14	103190	1567695654092607524	existing
+ears and eyes	medical	耳目	n.	ears and eyes	er mu	114	68699	310211404755797866	existing
+earthworm	medical	地龙	n.	earthworm	di long	36	57275	3343075675312612215	existing
+ectopic pregnancy	medical	宫外孕	n.	ectopic pregnancy	gong wai yun	20	66985	6491845694903161330	existing
+elbow	medical	肘子	n.	elbow	zhou zi	447	82609	5053893984814504160	existing
+elbow	medical	臂肘	n.	elbow	bi zhou	3	94936	3891931104841789853	existing
+electric current	business	电流	n.	electric current	dian liu	1624	22528	4645123200372402989	existing
+electric field	business	电场	n.	electric field	dian chang	325	32224	3442601682021638317	existing
+embedded	computer	嵌入式	adj.	embedded	qian ru shi	205	158566	8389562231497607387	existing
+embolus	medical	栓子	n.	embolus	shuan zi	4	105462	4923052246716153267	existing
+enamel	medical	釉质	n.	enamel	you zhi	17	122655	2743060712554356779	existing
+encapsulate	computer	封装	v.	to encapsulate	feng zhuang	318	151580	1453261625420249129	existing
+encode	computer	编码	v.	to encode	bian ma	29388	20071	3214139911999697129	existing
+encrypt	computer	加密	v.	to encrypt	jia mi	1225	87756	4720927718348603468	existing
+endometrium	medical	子宫内膜	n.	endometrium	zi gong nei mo	91	65573	4513979945454913967	existing
+endoscope	medical	内窥镜	n.	endoscope	nei kui jing	9	123456	3167759187388142071	existing
+endothelium	medical	内皮	n.	endothelium	nei pi	82	131601	359246676548430040	existing
+enrich the blood	medical	补血	v.	to enrich the blood	bu xue	64	89447	3673692364123032629	existing
+enter key	computer	回车键	n.	enter key	hui che jian	11	146487	5471885900548045279	existing
+erysipelas	medical	丹毒	n.	erysipelas	dan du	9	20942	8892235672561797570	existing
+erythema	medical	红斑	n.	erythema	hong ban	95	58389	972756113624101802	existing
+erythromycin	medical	红霉素	n.	erythromycin	hong mei su	19	68756	2502859266699596229	existing
+esophagus	medical	食管	n.	esophagus	shi guan	23	43083	625377360705926384	existing
+esophagus	medical	食道	n.	esophagus	shi dao	251	22377	3920114394160977996	existing
+export	computer	导出	v.	to export	dao chu	262	43772	6512171007171517469	existing
+extensive	business	粗放	adj.	extensive	cu fang	37	141838	1765910514869344948	existing
+eye socket	medical	眼圈	n.	eye socket	yan quan	3755	69207	3284910778307014136	existing
+eyeball	medical	眼球	n.	eyeball	yan qiu	1160	22825	5749040171009697811	existing
+facial nerve	medical	面神经	n.	facial nerve	mian shen jing	4	52999	2719710792904943734	existing
+feedback	business	反馈	n.	feedback	fan kui	2507	52705	2489544701518805589	existing
+fertilizer source	business	肥源	n.	fertilizer source	fei yuan	3	126845	2350272191677450014	existing
+fever	medical	热病	n.	fever	re bing	36	101159	8699438713496809472	existing
+fibroblast	medical	成纤维细胞	n.	fibroblast	cheng xian wei xi bao	89	131697	316988630124658010	existing
+fibroma	medical	纤维瘤	n.	fibroma	xian wei liu	42	123569	2276836785388786034	existing
+field	computer	字段	n.	field	zi duan	111	150227	5367773136447047069	existing
+field crop	business	大田作物	n.	field crop	da tian zuo wu	3	157918	70577449934746407	existing
+fill gaps with seedlings	business	补苗	v.	to fill gaps with seedlings	bu miao	2	160128	499707405563684762	existing
+filter	computer	滤镜	n.	filter	lv jing	5773	108787	4009543357948449504	existing
+financial management	business	财务管理	n.	financial management	cai wu guan li	104	89481	4111748034348324013	existing
+finger	medical	手指头	n.	finger	shou zhi tou	888	82202	6889006099855599333	existing
+firewall	computer	防火墙	n.	firewall	fang huo qiang	137	87117	7593834020320103412	existing
+firmware	computer	固件	n.	firmware	gu jian	400	88478	678549820595051478	existing
+fiscal deficit	business	财政赤字	n.	fiscal deficit	cai zheng chi zi	50	161508	2339103262059265607	existing
+flail	business	连枷	n.	flail	lian jia	133	127224	2458843866376756577	existing
+flash memory	computer	闪存	n.	flash memory	shan cun	276	64258	5017191517085597746	existing
+floating-point number	computer	浮点数	n.	floating-point number	fu dian shu	86	97493	4568405395997534815	existing
+forehead	medical	前额	n.	forehead	qian e	104	47873	8426219931817226484	existing
+forehead	medical	额头	n.	forehead	e tou	2970	47874	8023665865427739997	existing
+formalism	computer	形式主义	n.	formalism	xing shi zhu yi	47	73727	1434837277259299592	existing
+fourier transform	business	傅里叶变换	n.	Fourier transform	fu li ye bian huan	71	163947	6513670124716697071	existing
+free software	computer	自由软件	n.	free software	zi you ruan jian	179	92551	2703563801697662570	existing
+front end	computer	前端	n.	front end	qian duan	808	97498	1505577652017980414	existing
+frontal bone	medical	额骨	n.	frontal bone	e gu	77	69553	3248099943457175168	existing
+frontal lobe	medical	额叶	n.	frontal lobe	e ye	105	124269	8923877182410357757	existing
+futures	business	期货	n.	futures	qi huo	609	88219	7635857787287838313	existing
+gain	business	增益	n.	gain	zeng yi	321	97822	2399918857310104868	existing
+gallstone	medical	胆结石	n.	gallstone	dan jie shi	24	95349	6862446130419618948	existing
+gamete	medical	配子	n.	gamete	pei zi	55	134179	5859331904782265887	existing
+gamma knife	medical	伽马刀	n.	gamma knife	jia ma dao	2	89314	1741031275533109351	existing
+ganglion	medical	神经节	n.	ganglion	shen jing jie	79	81235	6770184687194347506	existing
+gastric perforation	medical	胃穿孔	n.	gastric perforation	wei chuan kong	23	99340	5954653268137754420	existing
+gastric ulcer	medical	胃溃疡	n.	gastric ulcer	wei kui yang	39	52683	20791526939977880	existing
+gastritis	medical	胃炎	n.	gastritis	wei yan	27	30250	9195646410632043349	existing
+gastrointestinal disease	medical	肠胃病	n.	gastrointestinal disease	chang wei bing	12	153824	6868555708773103905	existing
+gastroscope	medical	胃镜	n.	gastroscope	wei jing	6	64558	3080974972783981590	existing
+gene bank	medical	基因库	n.	gene bank	ji yin ku	36	123071	4122829629050650320	existing
+genetic engineering	medical	基因工程	n.	genetic engineering	ji yin gong cheng	109	123136	8655349923572226925	existing
+genetic engineering	medical	遗传工程	n.	genetic engineering	yi chuan gong cheng	16	147073	5134751164330074915	existing
+genotype	medical	基因型	n.	genotype	ji yin xing	97	93865	6397969472420588336	existing
+gentamicin	medical	庆大霉素	n.	gentamicin	qing da mei su	5	162654	684331092852657590	existing
+glaucoma	medical	青光眼	n.	glaucoma	qing guang yan	62	47802	2473052041824662814	existing
+glottis	medical	声门	n.	glottis	sheng men	115	69090	8082426030237900183	existing
+goitre	medical	甲状腺肿	n.	goitre	jia zhuang xian zhong	76	48937	4429689094925748845	batch14
+goodwill	business	商誉	n.	goodwill	shang yu	31	140730	124952767488959340	existing
+gout	medical	痛风	n.	gout	tong feng	63	47799	1876238106141140105	existing
+granuloma	medical	肉芽肿	n.	granuloma	rou ya zhong	75	68739	51833788202313942	existing
+groin	medical	腹股沟	n.	groin	fu gu gou	39	68082	1089236866008558979	existing
+gum	medical	牙龈	n.	gum	ya yin	38	69572	4677916219539986751	existing
+haematuria	medical	血尿	n.	haematuria	xue niao	30	72583	3953377398642644160	batch14
+hard currency	business	硬通货	n.	hard currency	ying tong huo	10	165364	1710194855574786670	existing
+hardware	computer	硬件	n.	hardware	ying jian	1531	42110	7983890590675825547	existing
+hardware	computer	硬体	n.	hardware	ying ti	571	50575	1718371606849247225	existing
+header file	computer	头文件	n.	header file	tou wen jian	61	159314	3959980156492366997	existing
+heart rhythm	medical	心律	n.	heart rhythm	xin lv	98	49405	9023544912237974411	existing
+heel	medical	脚后跟	n.	heel	jiao hou gen	315	51416	1650909135827246911	existing
+helix	medical	耳轮	n.	helix	er lun	1	83013	6513571174138115131	existing
+hemodialysis	medical	血液透析	n.	hemodialysis	xue ye tou xi	52	98280	4341251385710506096	existing
+heparin	medical	肝素	n.	heparin	gan su	67	86051	7532789657243718243	existing
+hepatitis	medical	肝炎	n.	hepatitis	gan yan	244	23147	5574144756575549947	existing
+hepatocellular carcinoma	medical	肝细胞癌	n.	hepatocellular carcinoma	gan xi bao ai	96	139202	1042101789132162766	existing
+hernia	medical	疝气	n.	hernia	shan qi	52	37926	5899234194531300259	existing
+herpes	medical	疱疹	n.	herpes	pao zhen	151	23149	8478493482003720669	existing
+hiccup	medical	打嗝	v.	to hiccup	da ge	562	47259	5512468313148352896	existing
+high fever	medical	高热	n.	high fever	gao re	110	58874	7604975406809635454	existing
+hip joint	medical	髋关节	n.	hip joint	kuan guan jie	63	157609	4122768810629547298	existing
+hormone	medical	激素	n.	hormone	ji su	663	18186	1505581291284327444	existing
+host	computer	托管	v.	to host	tuo guan	603	75567	332916417438025429	existing
+hot spot	computer	热点	n.	hot spot	re dian	1173	61516	7285204273091461892	existing
+hotbed	business	温床	n.	hotbed	wen chuang	62	54517	7164858059934150209	existing
+humerus	medical	肱骨	n.	humerus	gong gu	158	69551	2408118577265499632	existing
+hydrocephalus	medical	脑积水	n.	hydrocephalus	nao ji shui	5	102460	7311659210449865036	existing
+hydrotherapy	medical	水疗	n.	hydrotherapy	shui liao	136	54441	3576565679979093197	existing
+hymen	medical	处女膜	n.	hymen	chu nv mo	11	44450	5691029943487656414	existing
+ilium	medical	髂骨	n.	ilium	qia gu	78	69567	332798072884951610	existing
+immunity	medical	免疫力	n.	immunity	mian yi li	117	25891	8227968403807411999	existing
+immunoglobulin	medical	免疫球蛋白	n.	immunoglobulin	mian yi qiu dan bai	108	122657	4583004243264188938	existing
+implant	medical	植入	v.	to implant	zhi ru	553	50656	4739789976984406557	existing
+incision	medical	切口	n.	incision	qie kou	144	78652	7974717887908249755	existing
+income	business	所得	n.	income	suo de	1356	33388	2641462409943177916	existing
+increase capital	business	增资	v.	to increase capital	zeng zi	204	67489	6432875488688348997	existing
+infectious disease	medical	传染病	n.	infectious disease	chuan ran bing	1035	68826	8403129478174500451	existing
+inflammation	medical	炎症	n.	inflammation	yan zheng	248	38315	8815921450959328207	existing
+influenza	medical	流行性感冒	n.	influenza	liu xing xing gan mao	175	21752	8923799780311521803	existing
+inhibit	medical	抑制	v.	to inhibit	yi zhi	2018	37917	5629606050644480513	existing
+inner ear	medical	内耳	n.	inner ear	nei er	34	91361	2044153981463397008	existing
+inner wall	medical	内壁	n.	inner wall	nei bi	314	112502	4384423692670516187	existing
+instant messaging	computer	即时通讯	n.	instant messaging	ji shi tong xun	81	74301	7950403657575699208	existing
+instruction	computer	指令	n.	instruction	zhi ling	2638	22256	8719922546217091926	existing
+instruction set	computer	指令集	n.	instruction set	zhi ling ji	228	137651	3305965007467010229	existing
+insulate	business	绝缘	v.	to insulate	jue yuan	388	25769	2273987555437211606	existing
+insurance period	business	保险期	n.	insurance period	bao xian qi	1	153119	5414476528768892108	existing
+integrate	business	集成	v.	to integrate	ji cheng	912	37963	7867203012452495776	existing
+integrated circuit	business	集成电路	n.	integrated circuit	ji cheng dian lu	343	89075	5428066832057440533	existing
+intensive care	medical	重症监护	n.	intensive care	zhong zheng jian hu	259	90629	9114659928755474806	existing
+intercrop	business	间作	v.	to intercrop	jian zuo	17	175295	8059025605161093044	existing
+interest rate	business	利率	n.	interest rate	li lv	495	41312	597346294826698919	existing
+internal injury	medical	内伤	n.	internal injury	nei shang	21	68202	8698273122410837237	existing
+interrupt	business	中断	n.	interrupt	zhong duan	2337	27140	5645512234344434950	existing
+interrupt	computer	中断	n.	interrupt	zhong duan	2337	27140	5645512234344434950	existing
+intervertebral disc	medical	椎间盘	n.	intervertebral disc	zhui jian pan	70	79618	8597932313550475720	existing
+intramuscular injection	medical	肌肉注射	n.	intramuscular injection	ji rou zhu she	60	91113	5384675978194904419	existing
+intubate	medical	插管	v.	to intubate	cha guan	35	78731	2999787440630014159	existing
+investment portfolio	business	投资组合	n.	investment portfolio	tou zi zu he	75	88403	6338271278553858147	existing
+iou	business	白条	n.	IOU	bai tiao	270	152573	5974225009672774019	existing
+iron core	business	铁心	n.	iron core	tie xin	69	74808	2745677616118574032	existing
+ischium	medical	坐骨	n.	ischium	zuo gu	89	57859	4924625035248463560	existing
+iterate	computer	迭代	v.	to iterate	die dai	324	92707	6286272956592913254	existing
+joint	medical	骨节	n.	joint	gu jie	21	124897	6525428121975871058	existing
+journal	business	日记账	n.	journal	ri ji zhang	9	180376	8990753741224448869	existing
+keratitis	medical	角膜炎	n.	keratitis	jiao mo yan	28	56227	8268319214917480912	existing
+kernel	computer	内核	n.	kernel	nei he	701	72480	3421275785881429832	existing
+keyboard	computer	键盘	n.	keyboard	jian pan	6832	28001	4640527811627165010	existing
+keyword	computer	关键词	n.	keyword	guan jian ci	913	58852	1967426406476681725	existing
+kidney	medical	肾脏	n.	kidney	shen zang	469	42962	6053140609185262194	existing
+kidney stone	medical	肾结石	n.	kidney stone	shen jie shi	27	49813	8357603550517599859	existing
+knee joint	medical	膝关节	n.	knee joint	xi guan jie	58	102776	4975480343597575072	existing
+laryngitis	medical	喉炎	n.	laryngitis	hou yan	12	162664	5025568130237090884	existing
+left hand	medical	左手	n.	left hand	zuo shou	2811	18923	1584714143069986104	existing
+lens	medical	晶状体	n.	lens	jing zhuang ti	31	64573	7243722766969378182	existing
+leukemia	medical	白血病	n.	leukemia	bai xue bing	452	20212	2004773922066749555	existing
+leukemia	medical	血癌	n.	leukemia	xue ai	34	67528	3203143977840657732	existing
+leukorrhea	medical	白带	n.	leukorrhea	bai dai	11	88142	1255296546643667443	existing
+life insurance	business	人身保险	n.	life insurance	ren shen bao xian	4	161593	1096537617687553287	existing
+ligament	medical	韧带	n.	ligament	ren dai	387	62116	801500971981576315	existing
+lightweight	computer	轻量级	adj.	lightweight	qing liang ji	273	98010	7196478750098605625	existing
+lipoma	medical	脂肪瘤	n.	lipoma	zhi fang liu	11	162587	1049511004274112018	existing
+liquid diet	medical	流质	n.	liquid diet	liu zhi	41	69999	4665687594966570435	existing
+liquidity	business	流动性	n.	liquidity	liu dong xing	226	41579	3558321245253644422	existing
+liver function	medical	肝功能	n.	liver function	gan gong neng	27	145968	3848145696668406432	existing
+load	computer	载入	v.	to load	zai ru	269	78338	2157062754504718702	existing
+lock screen	computer	锁屏	n.	lock screen	suo ping	689	180628	1168359054441218838	existing
+locus	medical	位点	n.	locus	wei dian	350	141778	2903227680329301309	existing
+log in	computer	登入	v.	to log in	deng ru	323	68098	5091820074337489791	existing
+log in	computer	登录	v.	to log in	deng lu	2699	60551	5382040656978173009	existing
+loom	business	织机	n.	loom	zhi ji	35	40250	812593650442731900	existing
+loosen soil	business	松土	v.	to loosen soil	song tu	49	166694	7493104543214679973	existing
+lung cancer	medical	肺癌	n.	lung cancer	fei ai	568	22921	7298155320630441235	existing
+lung disease	medical	肺病	n.	lung disease	fei bing	149	56829	2393364989211069971	existing
+lupus	medical	狼疮	n.	lupus	lang chuang	22	56610	908308659718849110	existing
+lymph	medical	淋巴	n.	lymph	lin ba	207	34015	7993291242544012849	existing
+lymph gland	medical	淋巴腺	n.	lymph gland	lin ba xian	9	166946	1560141389119716735	existing
+lymph node	medical	淋巴结	n.	lymph node	lin ba jie	256	56118	7533220316712868146	existing
+lymphocyte	medical	淋巴细胞	n.	lymphocyte	lin ba xi bao	141	78724	7196450126439170607	existing
+lymphoma	medical	淋巴瘤	n.	lymphoma	lin ba liu	230	30251	1102781509172888585	existing
+macrophage	medical	巨噬细胞	n.	macrophage	ju shi xi bao	193	111719	7178409695599293420	existing
+maiden flight	business	首飞	n.	maiden flight	shou fei	370	164946	6780475927021801942	existing
+malignant tumor	medical	恶性肿瘤	n.	malignant tumor	e xing zhong liu	488	154043	7531710050977485924	existing
+mammary gland	medical	乳腺	n.	mammary gland	ru xian	114	62658	5190664841076980585	existing
+measles	medical	麻疹	n.	measles	ma zhen	239	39789	4496895056111486811	existing
+meiosis	medical	减数分裂	n.	meiosis	jian shu fen lie	57	69085	2877042135506381921	existing
+melanoma	medical	黑色素瘤	n.	melanoma	hei se su liu	113	78783	1812584931118102736	existing
+memory	computer	存储器	n.	memory	cun chu qi	151	68078	550852236930044110	existing
+meningitis	medical	脑膜炎	n.	meningitis	nao mo yan	146	48454	7798990325688458900	existing
+meniscus	medical	半月板	n.	meniscus	ban yue ban	56	125957	5299269981062055205	existing
+mental disorder	medical	精神障碍	n.	mental disorder	jing shen zhang ai	70	123057	3273125954482716687	existing
+metabolism	medical	新陈代谢	n.	metabolism	xin chen dai xie	394	39251	6030204647562561320	existing
+metacarpal bone	medical	掌骨	n.	metacarpal bone	zhang gu	78	69566	5789257939284122769	existing
+metadata	computer	元数据	n.	metadata	yuan shu ju	134	107438	443883984226993575	existing
+metastasis	medical	转移	n.	metastasis	zhuan yi	7813	42380	4750192540591532756	batch14
+microcirculation	medical	微循环	n.	microcirculation	wei xun huan	19	99316	953164373651117597	existing
+middle ear	medical	中耳	n.	middle ear	zhong er	31	27453	3629090542480985837	existing
+migraine	medical	偏头痛	n.	migraine	pian tou tong	45	42598	4090761638528208223	existing
+mining machine	business	矿机	n.	mining machine	kuang ji	81	146343	8494356460373107279	existing
+mitochondrion	medical	线粒体	n.	mitochondrion	xian li ti	156	28088	5019607282567764683	existing
+mitosis	medical	有丝分裂	n.	mitosis	you si fen lie	77	93317	7578127572523516301	existing
+mode	computer	模式	n.	mode	mo shi	16604	41549	749070302843421636	existing
+module	computer	模组	n.	module	mo zu	1042	78142	3891942766601224058	existing
+molecular biology	medical	分子生物学	n.	molecular biology	fen zi sheng wu xue	288	64330	5076593136224031664	existing
+monoclonal antibody	medical	单克隆抗体	n.	monoclonal antibody	dan ke long kang ti	62	91146	7217206227780043311	existing
+most favored nation	business	最惠国	n.	most favored nation	zui hui guo	10	99855	3174194262572032751	existing
+mouse	computer	鼠标	n.	mouse	shu biao	1461	41299	4343804107861446022	existing
+mouse	computer	鼠标器	n.	mouse	shu biao qi	10	104762	5458528505799810097	existing
+muscle	medical	肌肉	n.	muscle	ji rou	6608	27178	7649401642450191654	existing
+myelitis	medical	脊髓炎	n.	myelitis	ji sui yan	40	139353	144171855973036671	existing
+myocarditis	medical	心肌炎	n.	myocarditis	xin ji yan	39	68878	1365756376701798850	existing
+nasal bone	medical	鼻骨	n.	nasal bone	bi gu	70	69562	7948875363653592785	existing
+nasal cavity	medical	鼻腔	n.	nasal cavity	bi qiang	143	27553	4471379136704150295	existing
+neck	medical	脖子	n.	neck	bo zi	7768	19046	9002177274151295759	existing
+nephritis	medical	肾炎	n.	nephritis	shen yan	80	38779	5894988505893558253	existing
+network	computer	网络	n.	network	wang luo	18682	25158	493654071447497881	existing
+network card	computer	网卡	n.	network card	wang ka	200	73249	1737534694935590305	existing
+neuralgia	medical	神经痛	n.	neuralgia	shen jing tong	8	64250	29600038186931245	existing
+nipple	medical	乳头	n.	nipple	ru tou	263	42847	2143599703341465751	existing
+nipple	medical	奶头	n.	nipple	nai tou	11	31060	2899157670535676807	existing
+no-load	business	空载	adj.	no-load	kong zai	94	180550	426827566260119426	existing
+nodule	medical	结节	n.	nodule	jie jie	257	80077	9049002324914994305	existing
+nucleic acid	medical	核酸	n.	nucleic acid	he suan	2314	44778	285703882343757271	existing
+obstruction	medical	梗阻	n.	obstruction	geng zu	8	61676	7148421584574054210	existing
+occipital bone	medical	枕骨	n.	occipital bone	zhen gu	46	69556	5882551074095326895	existing
+occupational disease	medical	职业病	n.	occupational disease	zhi ye bing	51	61066	3609800112889408526	existing
+oedema	medical	浮肿	n.	oedema	fu zhong	322	48217	2120069533123191389	batch14
+omentum	medical	网膜	n.	omentum	wang mo	22	55180	9077307985532016817	existing
+open	computer	打开	v.	to open	da kai	10388	34669	5051577145339329937	existing
+operator	computer	运算符	n.	operator	yun suan fu	126	103266	2529530518322617303	existing
+optic disc	medical	视盘	n.	optic disc	shi pan	2	59420	2904196234891848485	existing
+optic nerve	medical	视神经	n.	optic nerve	shi shen jing	23	62143	9039593170187825926	existing
+option	business	选择权	n.	option	xuan ze quan	202	151916	5352275691355550226	existing
+organ	medical	器官	n.	organ	qi guan	1406	22170	8396957999546644060	existing
+organelle	medical	细胞器	n.	organelle	xi bao qi	56	136400	2646155487123015193	existing
+organic	medical	器质性	adj.	organic	qi zhi xing	29	109768	1385214424063640623	existing
+outer ear	medical	外耳	n.	outer ear	wai er	30	27454	102071523848575593	existing
+output	business	输出	v.	to output	shu chu	3735	30626	804231973126279650	existing
+output	computer	输出	v.	to output	shu chu	3735	30626	804231973126279650	existing
+ovary	medical	卵巢	n.	ovary	luan chao	225	48794	5158095324075786419	existing
+palm	medical	巴掌	n.	palm	ba zhang	2331	50427	8661401068367197225	existing
+pancreas	medical	胰脏	n.	pancreas	yi zang	377	42963	1565963411739680497	existing
+pancreatitis	medical	胰腺炎	n.	pancreatitis	yi xian yan	35	25881	2214688309437691029	existing
+papilla	medical	乳头	n.	papilla	ru tou	263	42847	7492198628517046968	batch14
+parallel	computer	并行	adj.	parallel	bing xing	779	43705	7808960086386400039	existing
+paralysis	medical	风瘫	n.	paralysis	feng tan	1	70073	3493711623695204644	existing
+parietal bone	medical	顶骨	n.	parietal bone	ding gu	116	69554	6754360571564146699	existing
+parkinson's disease	medical	帕金森病	n.	Parkinson's disease	pa jin sen bing	59	98834	5267117453395944416	existing
+partition	computer	分区	n.	partition	fen qu	2585	82732	8746147053132201576	existing
+password	computer	口令	n.	password	kou ling	311	33018	4931502459417984403	existing
+paste	computer	粘贴	v.	to paste	zhan tie	147	71351	7990730769072029368	existing
+pathogenicity	medical	致病性	n.	pathogenicity	zhi bing xing	52	102380	1620471155755089827	existing
+pay interest	business	付息	v.	to pay interest	fu xi	8	156527	8892518554171210719	existing
+pelvic cavity	medical	盆腔	n.	pelvic cavity	pen qiang	10	100226	6924168756456649158	existing
+pelvis	medical	骨盆	n.	pelvis	gu pen	427	49439	9042091373321416285	existing
+penicillin	medical	青霉素	n.	penicillin	qing mei su	97	28076	8656502700471752080	existing
+perforate	medical	穿孔	v.	to perforate	chuan kong	315	68891	2240858982069141059	existing
+perfuse	medical	灌注	v.	to perfuse	guan zhu	108	68349	3668017061007538982	batch14
+pericardium	medical	心包	n.	pericardium	xin bao	33	68879	4465170074251473685	existing
+pericyte	medical	周细胞	n.	pericyte	zhou xi bao	109	132025	2089730871884841957	existing
+perineum	medical	会阴	n.	perineum	hui yin	61	27172	2773067107638071654	existing
+periodontitis	medical	牙周炎	n.	periodontitis	ya zhou yan	5	91876	5552595146174292564	existing
+periosteum	medical	骨膜	n.	periosteum	gu mo	15	125926	5942239155950569032	existing
+peristalsis	medical	蠕动	n.	peristalsis	ru dong	235	76690	437666020749942328	batch14
+peritoneum	medical	腹膜	n.	peritoneum	fu mo	63	42887	3884611740439643055	existing
+peritonitis	medical	腹膜炎	n.	peritonitis	fu mo yan	64	39299	1059425937110160141	existing
+pharmacopoeia	medical	药典	n.	pharmacopoeia	yao dian	56	48881	5279956169297276434	existing
+pharyngitis	medical	咽炎	n.	pharyngitis	yan yan	43	49421	6140798380246971095	existing
+philtrum	medical	人中	n.	philtrum	ren zhong	72	30361	3950084961558939436	existing
+picture tube	business	显像管	n.	picture tube	xian xiang guan	13	161572	2837084492918272922	existing
+pit prop	business	坑木	n.	pit prop	keng mu	19	73812	3440078244177207794	existing
+pixel	computer	像素	n.	pixel	xiang su	2564	34531	3651379089480548407	existing
+placebo	medical	安慰剂	n.	placebo	an wei ji	61	88225	2278406228177552624	existing
+placenta	medical	胎盘	n.	placenta	tai pan	260	20877	8399865543011724065	existing
+plague	medical	鼠疫	n.	plague	shu yi	183	71752	4214198157534840908	existing
+plaintext	computer	明文	n.	plaintext	ming wen	377	51338	4659108528553130979	existing
+plant trees	business	植树	v.	to plant trees	zhi shu	341	59514	8929299782028129140	existing
+plasma	medical	血浆	n.	plasma	xue jiang	252	19020	1279918187911722790	existing
+plasmid	medical	质粒	n.	plasmid	zhi li	73	136597	7915956323832141745	existing
+platform	computer	平台	n.	platform	ping tai	14075	33333	7093168741270036695	existing
+playlist	computer	播放列表	n.	playlist	bo fang lie biao	94	57793	3509086948002438397	existing
+pleura	medical	胸膜	n.	pleura	xiong mo	10	48628	5798044754432097664	existing
+plush	business	长毛绒	n.	plush	chang mao rong	7	167814	417643016583192415	existing
+pneumoconiosis	medical	尘肺	n.	pneumoconiosis	chen fei	41	93135	3752308110239025711	existing
+pneumonia	medical	肺炎	n.	pneumonia	fei yan	6928	28364	2445334652244714429	existing
+pneumothorax	medical	气胸	n.	pneumothorax	qi xiong	21	48934	7396037724087176521	existing
+pointer	computer	指针	n.	pointer	zhi zhen	417	28991	8872000056783348283	existing
+polyp	medical	息肉	n.	polyp	xi rou	21	61753	1666979811505369060	existing
+poplin	business	府绸	n.	poplin	fu chou	2	114850	2022679317370690706	existing
+portal	computer	门户	n.	portal	men hu	504	32561	8799962331202131956	existing
+postpartum	medical	产后	adj.	postpartum	chan hou	547	122540	9179612584365247716	existing
+precast slab	business	预制板	n.	precast slab	yu zhi ban	23	159742	2322099326881484785	existing
+precocious	medical	早熟	adj.	precocious	zao shu	906	25302	5437608743323551082	existing
+premature ejaculation	medical	早泄	n.	premature ejaculation	zao xie	4	48706	1113340445786923594	existing
+preparation	medical	制剂	n.	preparation	zhi ji	196	62996	8438773259194590273	existing
+presbyopia	medical	老花眼	n.	presbyopia	lao hua yan	56	61937	5175559514038407858	existing
+prescription	medical	处方	n.	prescription	chu fang	346	47108	9042912236293174198	existing
+prescription	medical	方子	n.	prescription	fang zi	564	77670	2475083516625679726	existing
+prescription	medical	药方	n.	prescription	yao fang	185	43608	142196279644212449	existing
+preserve soil moisture	business	保墒	v.	to preserve soil moisture	bao shang	2	123693	318739611715060829	existing
+preview	computer	预览	v.	to preview	yu lan	554	77465	2183275520418463440	existing
+procedure	computer	过程	n.	procedure	guo cheng	22061	21619	463888681418358770	existing
+profit and loss	business	损益	n.	profit and loss	sun yi	32	31007	7202412752656024014	existing
+prognosis	medical	预后	n.	prognosis	yu hou	130	65554	3193644061178142228	existing
+program control	computer	程序控制	n.	program control	cheng xu kong zhi	16	177767	4088685500925572723	existing
+program control	computer	程控	n.	program control	cheng kong	19	128117	4484367706165574249	existing
+promoter	medical	启动子	n.	promoter	qi dong zi	89	86556	3556816421056450358	existing
+prospect	business	探矿	v.	to prospect	tan kuang	59	165539	2179583162477493027	existing
+prostate	medical	前列腺	n.	prostate	qian lie xian	55	23179	5576457189944281915	existing
+proteinuria	medical	蛋白尿	n.	proteinuria	dan bai niao	20	72365	3118595449742121065	existing
+protocol	computer	协议	n.	protocol	xie yi	8898	18069	7192398804692848795	existing
+psoriasis	medical	牛皮癣	n.	psoriasis	niu pi xuan	15	68266	1284188767515194208	existing
+pubis	medical	耻骨	n.	pubis	chi gu	124	58188	6627074987410409479	existing
+public health	medical	公共卫生	n.	public health	gong gong wei sheng	1142	92101	4345352784526535375	existing
+puerperium	medical	产褥期	n.	puerperium	chan ru qi	73	164054	6359919779960116526	existing
+pulley	medical	滑车	n.	pulley	hua che	15	26804	3054997201505587619	existing
+pulmonary edema	medical	肺水肿	n.	pulmonary edema	fei shui zhong	41	93130	7082077945081629811	existing
+pulmonary embolism	medical	肺栓塞	n.	pulmonary embolism	fei shuan se	56	93132	5044654502529784872	existing
+pupil	medical	眸子	n.	pupil	mou zi	18	43379	5370540926949842366	existing
+pupil	medical	瞳仁	n.	pupil	tong ren	5	43380	264846097179143478	existing
+pupil	medical	瞳孔	n.	pupil	tong kong	191	22399	6456815053431606562	existing
+purchase price	business	买价	n.	purchase price	mai jia	4	190944	6744987432548073192	existing
+pustule	medical	脓包	n.	pustule	nong bao	66	98817	8987786116375573985	existing
+pylorus	medical	幽门	n.	pylorus	you men	31	18204	3688216929641477874	existing
+qigong	medical	气功	n.	qigong	qi gong	138	31618	947889554127139185	existing
+queue	computer	队列	n.	queue	dui lie	413	87817	6408743043452117519	existing
+quinine	medical	奎宁	n.	quinine	kui ning	44	43457	5816190861422616897	existing
+quinine	medical	金鸡纳霜	n.	quinine	jin ji na shuang	4	151819	2870174446899128331	existing
+rabies	medical	狂犬病	n.	rabies	kuang quan bing	88	34191	5976577429560361053	existing
+radiotherapy	medical	放疗	n.	radiotherapy	fang liao	72	64547	6556747673238417166	existing
+radius	medical	桡骨	n.	radius	rao gu	75	22670	3531248270778764553	existing
+read-only	computer	只读	adj.	read-only	zhi du	201	150437	9180387284456786195	existing
+recessive	medical	隐性	adj.	recessive	yin xing	119	75389	1668409238499840898	existing
+rectum	medical	直肠	n.	rectum	zhi chang	143	42087	7385043553806625653	existing
+red blood cell	medical	红细胞	n.	red blood cell	hong xi bao	74	60512	3960824889306463875	existing
+redirect	computer	重定向	v.	to redirect	chong ding xiang	78	79279	1106655941230163916	existing
+reduce internal heat	medical	去火	v.	to reduce internal heat	qu huo	184	75962	5986832592657025126	existing
+reduce internal heat	medical	降火	v.	to reduce internal heat	jiang huo	429	125744	3052009358924313564	existing
+reduce swelling	medical	消肿	v.	to reduce swelling	xiao zhong	400	78100	8130854624552674526	existing
+refactor	computer	重构	v.	to refactor	chong gou	289	77627	3458939280034610902	existing
+reflection	computer	反射	n.	reflection	fan she	1168	21442	7398539297794625630	existing
+refresh	computer	刷新	v.	to refresh	shua xin	2703	44937	3380718753851039633	existing
+register	computer	寄存器	n.	register	ji cun qi	571	90956	2289107937697024101	existing
+reinstall	computer	重装	v.	to reinstall	zhong zhuang	702	23584	8688857840455724330	existing
+relation	computer	关系	n.	relation	guan xi	51604	20023	877724214114838257	existing
+relay	business	继电器	n.	relay	ji dian qi	103	83918	7235541602252322011	existing
+renal failure	medical	肾功能衰竭	n.	renal failure	shen gong neng shuai jie	51	123083	7575458851877752719	existing
+renal pelvis	medical	肾盂	n.	renal pelvis	shen yu	29	57806	7683692170370814533	existing
+rename	computer	重命名	v.	to rename	chong ming ming	181	79314	1348600343927873142	existing
+render	computer	渲染	v.	to render	xuan ran	736	39860	983543963995737191	existing
+reset	computer	重置	v.	to reset	chong zhi	699	79321	7172449021587628038	existing
+rib	medical	肋骨	n.	rib	lei gu	319	23451	3568849386842394601	existing
+ribosome	medical	核糖体	n.	ribosome	he tang ti	119	69342	6566881919016256122	existing
+right hand	medical	右手	n.	right hand	you shou	2923	38571	4416404810285973870	existing
+roof	business	顶板	n.	roof	ding ban	43	44038	2308033006809661583	existing
+rosacea	medical	酒糟鼻	n.	rosacea	jiu zao bi	15	95026	177389459276741333	existing
+sacrum	medical	骶骨	n.	sacrum	di gu	60	34823	307170736820824933	existing
+sample	medical	标本	n.	sample	biao ben	2339	22530	8098804126933947495	existing
+sarcoidosis	medical	结节病	n.	sarcoidosis	jie jie bing	95	97607	1674597025808891542	existing
+sarcoma	medical	肉瘤	n.	sarcoma	rou liu	64	74847	2949098462159465493	existing
+scabies	medical	疥癣	n.	scabies	jie xuan	7	56977	2284432262819307660	existing
+scar	medical	瘢痕	n.	scar	ban hen	25	56980	2046645938098009226	existing
+scarlet fever	medical	猩红热	n.	scarlet fever	xing hong re	24	55696	6771257170457789	existing
+schistosomiasis	medical	血吸虫病	n.	schistosomiasis	xue xi chong bing	305	91468	534025737780585324	existing
+schizophrenia	medical	精神分裂症	n.	schizophrenia	jing shen fen lie zheng	170	51375	962610323846702362	existing
+sciatic nerve	medical	坐骨神经	n.	sciatic nerve	zuo gu shen jing	1	59868	8892349000701103961	existing
+scope	computer	作用域	n.	scope	zuo yong yu	66	97256	8971320275679973201	existing
+screen	computer	萤幕	n.	screen	ying mu	1208	25804	1841461797104623479	existing
+script	computer	脚本	n.	script	jiao ben	773	32103	3584155717767497192	existing
+scrofula	medical	瘰疬	n.	scrofula	luo li	1	56573	8237542818622777016	existing
+scrotum	medical	阴囊	n.	scrotum	yin nang	42	51097	6442026387065224369	existing
+scurvy	medical	坏血病	n.	scurvy	huai xue bing	22	86400	2143670366833550908	existing
+sebum	medical	皮脂	n.	sebum	pi zhi	15	39319	4694671864386001313	existing
+seed	computer	种子	n.	seed	zhong zi	5659	35823	7786025380643631162	existing
+seller's market	business	卖方市场	n.	seller's market	mai fang shi chang	36	183057	1198678852466037227	existing
+selling point	business	卖点	n.	selling point	mai dian	195	97480	4056915859329328738	existing
+septicaemia	medical	败血症	n.	septicaemia	bai xue zheng	120	64581	6422103428741575198	batch14
+sequela	medical	后遗症	n.	sequela	hou yi zheng	199	27716	7886284898954450690	existing
+server	computer	伺服器	n.	server	si fu qi	737	53795	6804081720422850234	existing
+sewing kit	business	针线包	n.	sewing kit	zhen xian bao	9	148319	6741496697960075154	existing
+sex organ	medical	性器官	n.	sex organ	xing qi guan	105	69187	3891836866563754821	existing
+shadow	medical	阴影	n.	shadow	yin ying	3826	25816	8902605746144561761	existing
+shock	medical	休克	n.	shock	xiu ke	242	37307	6089681184455121074	existing
+shoulder	medical	肩膀	n.	shoulder	jian bang	2992	47998	1146754768068198735	existing
+shuttle	business	梭子	n.	shuttle	suo zi	37	65426	8184136068989461105	existing
+side effect	computer	副作用	n.	side effect	fu zuo yong	1367	27203	6644234159907681570	existing
+side effect	medical	副作用	n.	side effect	fu zuo yong	1367	27203	1152393830623656535	existing
+sign	medical	体征	n.	sign	ti zheng	71	48759	7030494705097249568	existing
+silicosis	medical	矽肺	n.	silicosis	xi fei	3	72913	3415942248437573494	existing
+simple interest	business	单利	n.	simple interest	dan li	4	72668	5717146922525808820	existing
+skeleton	medical	骨架	n.	skeleton	gu jia	1155	54918	1584708501485680222	existing
+skin	computer	皮肤	n.	skin	pi fu	18417	19165	8728284257047373395	existing
+skin test	medical	皮试	n.	skin test	pi shi	39	156369	470232553148767769	existing
+slag	business	矿渣	n.	slag	kuang zha	12	159640	143803874614184315	existing
+sleep paralysis	medical	鬼压床	n.	sleep paralysis	gui ya chuang	315	62755	6817542260500882119	existing
+small intestine	medical	小肠	n.	small intestine	xiao chang	165	22349	4157320989360662206	existing
+smear	medical	涂片	n.	smear	tu pian	13	66873	1988285816039976533	existing
+smooth muscle	medical	平滑肌	n.	smooth muscle	ping hua ji	80	101191	8420294840838700944	existing
+snake gall	medical	蛇胆	n.	snake gall	she dan	8	153783	6696261214673906517	existing
+soft tissue	medical	软组织	n.	soft tissue	ruan zu zhi	153	46728	372951787216002889	existing
+soil fertility	business	地力	n.	soil fertility	di li	46	63817	6404980579243189707	existing
+somatic cell	medical	体细胞	n.	somatic cell	ti xi bao	81	136683	2107950394161936397	existing
+sound card	computer	声卡	n.	sound card	sheng ka	69	75472	6221252002272590037	existing
+spleen	medical	脾脏	n.	spleen	pi zang	86	37073	8002829439547932579	existing
+splint	medical	夹板	n.	splint	jia ban	74	82100	8844658175697176386	existing
+status bar	computer	状态栏	n.	status bar	zhuang tai lan	103	185868	3360733836461898713	existing
+stem cell	medical	干细胞	n.	stem cell	gan xi bao	242	23178	2910936592976239268	existing
+stimulant	medical	兴奋剂	n.	stimulant	xing fen ji	314	67271	1922550784590034242	existing
+stomach and intestines	medical	肠胃	n.	stomach and intestines	chang wei	1816	49474	5415202797939684083	existing
+store	computer	存储	v.	to store	cun chu	1726	68077	7381336463695045276	existing
+subcutaneous	medical	皮下	adj.	subcutaneous	pi xia	151	71774	8158882805375746481	existing
+superscript	computer	上标	n.	superscript	shang biao	84	79960	8706752153143022940	existing
+suppository	medical	栓剂	n.	suppository	shuan ji	2	96955	586736541252950536	existing
+survival rate	medical	生存率	n.	survival rate	sheng cun lv	50	72372	2776762063536106961	existing
+suspend trading	business	停牌	v.	to suspend trading	ting pai	92	148651	8885842988722386405	existing
+suture	medical	缝线	n.	suture	feng xian	149	188670	6889341649391352705	existing
+swell	medical	肿胀	v.	to swell	zhong zhang	217	70797	7139542345398001342	existing
+swine fever	medical	猪瘟	n.	swine fever	zhu wen	337	141328	1481453560767806124	existing
+synapse	medical	突触	n.	synapse	tu chu	203	62283	8393262083504870580	existing
+syndrome	medical	综合征	n.	syndrome	zong he zheng	344	44122	8005549387545021646	existing
+syndrome	medical	综合症	n.	syndrome	zong he zheng	1232	44121	2448507222058116565	existing
+target	medical	靶点	n.	target	ba dian	86	152441	5485142295552493263	existing
+tarsal bone	medical	跗骨	n.	tarsal bone	fu gu	55	128542	4940781362185641274	existing
+tenon	business	榫头	n.	tenon	sun tou	4	77017	8983060356954741245	existing
+tenosynovitis	medical	腱鞘炎	n.	tenosynovitis	jian qiao yan	14	124113	9117610410533043738	existing
+terminal	computer	终端	n.	terminal	zhong duan	847	47446	9051354180953965774	existing
+tetanus	medical	破伤风	n.	tetanus	po shang feng	33	20851	7959193526721227622	existing
+thread	computer	线程	n.	thread	xian cheng	372	80584	4062721599753854332	existing
+three treasures	medical	三宝	n.	Three Treasures	san bao	643	76886	9065598712389663384	existing
+thresh	business	脱粒	v.	to thresh	tuo li	20	57321	6956999111496899717	existing
+thrombus	medical	血栓	n.	thrombus	xue shuan	274	48038	4611923573329622237	existing
+time complexity	computer	时间复杂度	n.	time complexity	shi jian fu za du	103	137468	4972528605452916538	existing
+tip of the nose	medical	鼻尖	n.	tip of the nose	bi jian	22	91412	5271537673346831415	existing
+token	computer	令牌	n.	token	ling pai	68	105920	7334057843216403462	existing
+tolerance	medical	耐受性	n.	tolerance	nai shou xing	61	71502	5418344480382969341	existing
+tonsil	medical	扁桃体	n.	tonsil	bian tao ti	22	65255	1967268228183870250	existing
+toolbar	computer	工具栏	n.	toolbar	gong ju lan	56	80631	4490309889749009200	existing
+topology	computer	拓扑	n.	topology	tuo pu	585	80632	2676470946818895949	existing
+tracheitis	medical	气管炎	n.	tracheitis	qi guan yan	8	64556	4752087121658437577	existing
+trachoma	medical	沙眼	n.	trachoma	sha yan	28	64572	7967963813614634755	existing
+transfer	business	转让	v.	to transfer	zhuan rang	1126	48530	6971878539140099923	existing
+transformer	business	变压器	n.	transformer	bian ya qi	453	25836	10363722111766458	existing
+transverse process	medical	横突	n.	transverse process	heng tu	52	140419	5931481257934491206	existing
+truncate	computer	截断	v.	to truncate	jie duan	313	57024	2588098685576145044	existing
+trust	business	托拉斯	n.	trust	tuo la si	59	84544	3676735265057438972	existing
+tuberculosis	medical	结核病	n.	tuberculosis	jie he bing	368	122572	7464955065751861585	existing
+turnover	business	营业额	n.	turnover	ying ye e	915	55797	8929392141094645702	existing
+typhus	medical	斑疹伤寒	n.	typhus	ban zhen shang han	56	80805	6850957157495589537	existing
+uniform	business	制服	n.	uniform	zhi fu	3078	39064	7300542087251728503	existing
+unlock	computer	解锁	v.	to unlock	jie suo	2570	77741	5828275238124098403	existing
+upload	computer	上传	v.	to upload	shang chuan	2668	32756	6146105647005313509	existing
+upload	computer	上载	v.	to upload	shang zai	536	33197	9212467292387209462	existing
+upper respiratory tract	medical	上呼吸道	n.	upper respiratory tract	shang hu xi dao	79	66059	2278496611677247206	existing
+uremia	medical	尿毒症	n.	uremia	niao du zheng	22	41875	2224993558967770097	existing
+ureter	medical	输尿管	n.	ureter	shu niao guan	74	73831	3557165975656808248	existing
+urethra	medical	尿道	n.	urethra	niao dao	138	32390	9055488678694330557	existing
+urinary incontinence	medical	尿失禁	n.	urinary incontinence	niao shi jin	49	67322	8014712263073609010	existing
+user interface	computer	用户界面	n.	user interface	yong hu jie mian	236	145399	2086840499885390981	existing
+vaccine	medical	菌苗	n.	vaccine	jun miao	11	82793	4673067936820152337	existing
+vacuum tube	business	真空管	n.	vacuum tube	zhen kong guan	80	42050	4342084826214398450	existing
+valve	medical	瓣膜	n.	valve	ban mo	58	71695	5971825281784866873	existing
+vein	medical	静脉	n.	vein	jing mai	292	62570	3375209045932315856	existing
+ventilator	medical	呼吸机	n.	ventilator	hu xi ji	135	79329	5838068932133417493	existing
+vertebral body	medical	椎体	n.	vertebral body	zhui ti	130	102297	8524728374747397503	existing
+view	computer	视图	n.	view	shi tu	215	70748	2937581045199442692	existing
+virus	computer	病毒	n.	virus	bing du	7094	24995	6874762801249749395	existing
+virus	medical	病毒	n.	virus	bing du	7094	24995	1308822238420055559	existing
+vitality	medical	中气	n.	vitality	zhong qi	56	165483	9174385301630848966	existing
+vitiligo	medical	白癜风	n.	vitiligo	bai dian feng	22	54681	1988641462444357936	existing
+voltage	business	电压	n.	voltage	dian ya	1589	36907	4427542689242996754	existing
+vomit	medical	呕吐	v.	to vomit	ou tu	428	35241	5365917259327303776	existing
+vomit blood	medical	吐血	v.	to vomit blood	tu xie	1530	70366	3641404047911704706	existing
+wallpaper	computer	壁纸	n.	wallpaper	bi zhi	2572	25809	8661913462555190241	existing
+wart	medical	瘊子	n.	wart	hou zi	9	37588	743078296306611964	existing
+wart	medical	赘疣	n.	wart	zhui you	11	57241	3104106482427922715	existing
+wholly-owned	business	全资	adj.	wholly-owned	quan zi	655	92714	8360660894295312918	existing
+wireless network	computer	无线网络	n.	wireless network	wu xian wang luo	110	81029	228287041288015350	existing
+yin deficiency	medical	阴虚	n.	yin deficiency	yin xu	2	123129	8354192942169251888	existing

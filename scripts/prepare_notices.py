@@ -7,7 +7,7 @@ def write_notice(path, text):
     normalized='\n'.join(line.rstrip(' \t\r') for line in text.splitlines())+'\n'
     path.write_text(normalized,encoding='utf-8',newline='\n')
 
-HEADER = """词伴输入法 / Wordtrail 0.1.23
+HEADER = """词伴输入法 / Wordtrail 0.1.28
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -15,7 +15,7 @@ HEADER = """词伴输入法 / Wordtrail 0.1.23
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.23-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.28-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -92,6 +92,290 @@ def main():
     parts.append("署名：English Wiktionary contributors；https://en.wiktionary.org/ 。\n许可：https://creativecommons.org/licenses/by-sa/4.0/ 。修改：从固定修订的英汉翻译义项及汉语词条释义中选择与词性/义项相符、且可由本机拼音候选输入的考试词，整理为精简中英词条。第二批候选发现使用固定 Kaikki 派生快照，校验散列与许可边界见 vocabulary/data/wiktionary-manifest-2.json 和 WIKTIONARY-ATTRIBUTION.md。\n以下列出各原始词条和修订版本；完整审校记录随 wordtrail-0.1.21-source.zip 的 vocabulary/data/batches/03-wiktionary-reviewed.tsv 与 06-wiktionary-zh-reviewed.tsv 提供。\n")
     for row in wiktionary_rows:
         parts.append(f"{row['english']} ({row['pos']}) -> {row['chinese']}; {row['source_url']}\n")
+    professional_rows = []
+    with (ROOT/'vocabulary/data/batches/14-professional-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        professional_rows = list(csv.DictReader(stream, delimiter='\t'))
+    professional_manifest = json.loads((ROOT/'vocabulary/data/professional-vocabulary-manifest.json').read_text(encoding='utf-8'))
+    accepted_professional = [row for row in professional_rows if row['review_decision'] == 'accept']
+    parts.append("\n=== 专业词汇领域标签及医学新增译词（批次14，CC BY-SA 4.0）===\n")
+    parts.append("署名：English Wiktionary contributors；https://en.wiktionary.org/ 。候选发现数据来自 Kaikki/Wiktextract 固定中文—英文快照；上游来源、快照 SHA-256、修改说明及 CC BY-SA 4.0 链接见 vocabulary/data/professional-vocabulary-manifest.json 与 vocabulary/data/WIKTIONARY-ATTRIBUTION.md。\n"
+                 "修改：按精确中文—英文词面对应筛选计算机、商务、医学主题标签；繁体中文键转为简体，只保留真实拼音候选可达的条目，不复制定义、例句或音频。新增映射另经相同词性 ECDICT 完整短义、随包 IPA、拼音键和人工审校筛选。运行标签索引有 {tagged} 个英文词面，其中计算机{computer}、商务{business}、医学{medical}；此数是固定快照的可达交集，不代表完整专业课程覆盖。\n"
+                 "接受的医学映射及来源 sense ID 见 vocabulary/data/batches/14-professional-reviewed.tsv 与 14-professional-domain-evidence.tsv；所有候选的逐项接受/排除理由均保留。\n".format(
+                     tagged=professional_manifest['outputs']['professional-domain-tags.tsv']['rows'],
+                     computer=professional_manifest['categories'][0]['tagged_terms'],
+                     business=professional_manifest['categories'][1]['tagged_terms'],
+                     medical=professional_manifest['categories'][2]['tagged_terms']))
+    for row in accepted_professional:
+        parts.append(f"{row['chinese']} -> {row['english']} ({row['pos']}); Wiktionary snapshot entry {row['source_entry_ids']} / sense {row['source_sense_ids']}\n")
+    cjk_reviewed = []
+    with (ROOT/'vocabulary/data/batches/15-cjk-compsci-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        cjk_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    cjk_accepted = [row for row in cjk_reviewed if row['review_decision'] == 'accept']
+    cjk_manifest = json.loads((ROOT/'vocabulary/data/cjk-compsci-manifest.json').read_text(encoding='utf-8'))
+    parts.append("\n=== 计算机术语第二段（批次15，CC BY-SA 4.0）===\n")
+    parts.append(
+        "署名：dahlia 与贡献者，[CJK computer science terms comparison](https://github.com/dahlia/cjk-compsci-terms)，"
+        f"固定提交 {cjk_manifest['upstream']['commit']}。许可：CC BY-SA 4.0，"
+        "https://creativecommons.org/licenses/by-sa/4.0/ 。\n"
+        "修改：只筛选简体中文完整词面和本机实际拼音候选可达项；已有译词须有上游组件逐词对应证据，新映射必须有本地 IPA、ECDICT 词性、每键余量并经逐项审核。"
+        "保留来源头词与组成对应，未复制定义、例句或音频。上游28份固定 YAML 与 LICENSE 随源码保留在 vocabulary/data/sources/cjk-compsci-terms/；"
+        "输入和输出 SHA-256、修改说明与结果统计见 vocabulary/data/CJK-COMPSCI-ATTRIBUTION.md、cjk-compsci-manifest.json、"
+        "batches/15-cjk-compsci-reviewed.tsv 和 batches/15-cjk-compsci-evidence.tsv。"
+        f"候选{len(cjk_reviewed)}组，接受{len(cjk_accepted)}组，排除{len(cjk_reviewed)-len(cjk_accepted)}组。\n"
+    )
+    for row in cjk_accepted:
+        parts.append(f"{row['chinese']} -> {row['english']} ({row['pos']}); {row['source_tables']}\n")
+    fibo_reviewed = []
+    with (ROOT/'vocabulary/data/batches/16-fibo-business-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        fibo_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    fibo_accepted = [row for row in fibo_reviewed if row['decision'] == 'accept']
+    fibo_manifest = json.loads((ROOT/'vocabulary/data/fibo-business-manifest.json').read_text(encoding='utf-8'))
+    parts.append("\n=== FIBO 商务/金融标签（批次16，MIT）===\n")
+    parts.append(
+        "署名：EDM Council，Financial Industry Business Ontology (FIBO)，"
+        f"[固定提交 {fibo_manifest['commit']}]({fibo_manifest['upstream']}/tree/{fibo_manifest['commit']})。"
+        "许可：MIT，随包保留 vocabulary/data/sources/fibo/LICENSE。FIBO 是 EDM Council 的商标；本项目未使用其标志或暗示官方背书。\n"
+        "修改：从固定 RDF 文件中筛选单词类标签，与现有本机拼音可达译词求交集，并人工复核是否属于商务/金融词。"
+        "只新增英文词头的商务标签，不复制定义到运行索引，不新增中英映射，也不改变中文候选顺序。"
+        "52 个源 RDF 文件、来源散列、修改口径及完整审校见 vocabulary/data/FIBO-ATTRIBUTION.md、"
+        "fibo-business-manifest.json、batches/16-fibo-business-candidates.tsv 与 batches/16-fibo-business-reviewed.tsv。\n"
+        f"候选{len(fibo_reviewed)}个，接受{len(fibo_accepted)}个，排除{len(fibo_reviewed)-len(fibo_accepted)}个；"
+        f"其中{fibo_manifest['new_business_category_memberships']}个是新增商务分类成员，不是新增词条。\n"
+    )
+    for row in fibo_accepted:
+        parts.append(f"{row['headword']} -> 商务（FIBO class label）\n")
+    better_quant_reviewed = []
+    with (ROOT/'vocabulary/data/batches/17-better-quant-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        better_quant_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    better_quant_accepted = [row for row in better_quant_reviewed if row['decision'] == 'accept']
+    with (ROOT/'vocabulary/data/batches/17-better-quant-candidates.tsv').open(encoding='utf-8', newline='') as stream:
+        better_quant_candidates = list(csv.DictReader(stream, delimiter='\t'))
+    better_quant_sources = {
+        (row['chinese'], row['english']): row['source_url']
+        for row in better_quant_candidates if row['decision'] == 'accept'
+    }
+    better_quant_manifest = json.loads((ROOT/'vocabulary/data/better-quant-manifest.json').read_text(encoding='utf-8'))
+    parts.append("\n=== Better Quant 商业金融词汇（批次17，MIT）===\n")
+    parts.append(
+        "署名：Tomortec，[Better Quant Wiki](https://github.com/Tomortec/better-quant-wiki)，"
+        f"固定提交 {better_quant_manifest['commit']}。许可：MIT；随包保留 vocabulary/data/sources/better-quant-wiki/LICENSE。\n"
+        "修改：从固定双语量化金融术语表中筛出本机拼音可达的精确中文词面，逐项核对词义和本地 IPA；"
+        "仅保留短中英映射及商务标签，不复制定义、例句或音频。运行索引仅加入7组映射和7条标签记录，"
+        "不加载完整术语表。来源文件 SHA-256、审校表、全部候选及修改说明见 vocabulary/data/BETTER-QUANT-ATTRIBUTION.md、"
+        "better-quant-manifest.json、batches/17-better-quant-reviewed.tsv 与 batches/17-better-quant-candidates.tsv。\n"
+        f"候选{len(better_quant_reviewed)}组，接受{len(better_quant_accepted)}组，排除{len(better_quant_reviewed)-len(better_quant_accepted)}组；"
+        f"其中{better_quant_manifest['new_english_headwords']}个新英文词头，{better_quant_manifest['new_business_tag_memberships']}个新增商务标签成员。\n"
+    )
+    for row in better_quant_accepted:
+        source_url = better_quant_sources[(row['chinese'], row['english'])]
+        parts.append(f"{row['chinese']} -> {row['english']} (n.); {source_url}\n")
+    cfpb_manifest = json.loads((ROOT/'vocabulary/data/cfpb-finance-manifest.json').read_text(encoding='utf-8'))
+    cfpb_reviewed = []
+    with (ROOT/'vocabulary/data/batches/18-cfpb-finance-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        cfpb_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    cfpb_accepted = []
+    with (ROOT/'vocabulary/data/batches/18-cfpb-finance-candidates.tsv').open(encoding='utf-8', newline='') as stream:
+        cfpb_accepted = [row for row in csv.DictReader(stream, delimiter='\t') if row['decision'] == 'accept']
+    parts.append("\n=== CFPB 消费金融词汇（批次18，公共领域来源）===\n")
+    parts.append(
+        f"署名：Consumer Financial Protection Bureau (CFPB), March 2024，[Chinese-English glossary of financial terms]({cfpb_manifest['source_url']})。"
+        "CFPB 网站政策说明其原创内容属于公共领域，除非另有标注；参见 https://www.consumerfinance.gov/privacy/website-privacy-policy/ 。\n"
+        "修改：将词表中的繁体中文转换为简体，保留拼音可达且有本地 IPA 的词项，并以 ECDICT 的完整中文短义和词性交叉核验。"
+        f"不复制定义、例句或长解释。审查{cfpb_manifest['candidate_mappings_with_pinyin_ipa_exact_ecdict']}组候选，接受{cfpb_manifest['accepted_new_mappings']}组映射，新增{cfpb_manifest['accepted_new_english_headwords']}个英文词头；"
+        f"词表成员标签共{cfpb_manifest['cfpb_finance_tag_words']}项，其中{cfpb_manifest['new_business_tag_memberships']}项新增商务归属。"
+        f"固定文本快照 SHA-256：{cfpb_manifest['source_snapshot_sha256']}。来源、处理说明、逐项审核表、候选表与数据清单见 vocabulary/data/CFPB-ATTRIBUTION.md、"
+        "cfpb-finance-manifest.json、batches/18-cfpb-finance-reviewed.tsv 与 batches/18-cfpb-finance-candidates.tsv。\n")
+    for row in cfpb_accepted:
+        parts.append(f"{row['chinese']} -> {row['english']} ({row['pos']}); CFPB glossary line {row['source_line']}\n")
+    finance_i18n_manifest = json.loads((ROOT/'vocabulary/data/finance-i18n-manifest.json').read_text(encoding='utf-8'))
+    finance_i18n_accepted = []
+    with (ROOT/'vocabulary/data/batches/19-finance-i18n-candidates.tsv').open(encoding='utf-8', newline='') as stream:
+        finance_i18n_accepted = [row for row in csv.DictReader(stream, delimiter='\t') if row['decision'] == 'accept']
+    parts.append("\n=== finance_i18n 金融与商务词汇（批次19，MIT）===\n")
+    parts.append(
+        f"署名：Vincent、[hotvulcan/finance_i18n]({finance_i18n_manifest['source_url']})，"
+        f"固定提交 {finance_i18n_manifest['source_commit']}。上游仓库声明 MIT 许可，完整文本见 vocabulary/data/sources/finance_i18n/LICENSE。"
+        "上游 README 没有注明术语表的更早来源，故只用于候选发现；新增项另以 ECDICT 精确中文义项/词性、本机拼音、IPA 和逐项审校交叉核验。"
+        f"从 {finance_i18n_manifest['candidate_pairs_with_exact_ecdict_pinyin_ipa']} 组候选中接受 {finance_i18n_manifest['accepted_new_mappings']} 组映射，"
+        f"新增 {finance_i18n_manifest['accepted_new_english_headwords']} 个英文词头和 {finance_i18n_manifest['new_business_tag_memberships']} 个商务标签归属。"
+        f"README 固定快照 SHA-256：{finance_i18n_manifest['source_snapshot_sha256']}。仅分发精简对应，不复制定义；"
+        "全部来源边界和审校理由见 vocabulary/data/FINANCE-I18N-ATTRIBUTION.md、"
+        "vocabulary/data/finance-i18n-manifest.json、batches/19-finance-i18n-reviewed.tsv 与 batches/19-finance-i18n-candidates.tsv。\n"
+    )
+    for row in finance_i18n_accepted:
+        parts.append(f"{row['chinese']} -> {row['english']} ({row['pos']}); finance_i18n README line {row['source_line']}\n")
+    computerese_manifest = json.loads((ROOT/'vocabulary/data/computerese-manifest.json').read_text(encoding='utf-8'))
+    computerese_reviewed = []
+    with (ROOT/'vocabulary/data/batches/20-computerese-evidence.tsv').open(encoding='utf-8', newline='') as stream:
+        computerese_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    computerese_accepted = [row for row in computerese_reviewed if row['mapping_decision'] == 'accept']
+    parts.append("\n=== 计算机术语补充批次20（MIT）===\n")
+    parts.append(
+        f"署名：[EarsEyesMouth/computerese-cross-references]({computerese_manifest['upstream']['repository']})，"
+        f"固定提交 {computerese_manifest['upstream']['commit']}。许可：MIT，全文见 vocabulary/data/sources/computerese-cross-references/LICENSE。"
+        f"上游 README SHA-256：{computerese_manifest['upstream']['readme_sha256']}。README 注明部分条目摘自书籍；本批排除带来源脚注和长解释的条目，"
+        f"仅保留{computerese_manifest['filtered_source_terms']['rows']}条短词条作候选。逐项审核{computerese_manifest['candidate_pairs_with_exact_ecdict_pinyin_ipa']}组精确 ECDICT/拼音/IPA 候选，"
+        f"其中{computerese_manifest['already_mapped_candidate_pairs']}组映射原已存在；新增{computerese_manifest['accepted_new_mappings']}组中英映射，"
+        f"新增英文词头{computerese_manifest['accepted_new_english_headwords']}个，新增计算机标签{computerese_manifest['new_computer_tag_memberships']}项。"
+        "运行数据只含精简映射及已审核标签，不含上游长解释。来源、逐项理由、候选、固定输入与散列见 vocabulary/data/COMPUTERESE-ATTRIBUTION.md、"
+        "computerese-manifest.json、batches/20-computerese-reviewed.tsv 与 batches/20-computerese-evidence.tsv。\n"
+    )
+    for row in computerese_accepted:
+        parts.append(f"{row['chinese']} -> {row['english']} ({row['pos']}); computerese README line(s) {row['source_lines']}\n")
+    with (ROOT/'vocabulary/data/computerese-tags.tsv').open(encoding='utf-8', newline='') as stream:
+        computerese_tags = list(csv.DictReader(stream, delimiter='\t', fieldnames=('english', 'mask', 'source')))
+    parts.append(
+        f"本来源记录{len(computerese_tags)}个计算机标签词头，其中{computerese_manifest['new_computer_tag_memberships']}项是此前没有的类别归属；词头清单："
+        + ", ".join(row['english'] for row in computerese_tags) + "。\n"
+    )
+    mesh_manifest = json.loads((ROOT/'vocabulary/data/mesh-medical-manifest.json').read_text(encoding='utf-8'))
+    parts.append("\n=== 医学词汇批次21（NLM MeSH 2026 + ECDICT MIT）===\n")
+    parts.append(
+        "署名：U.S. National Library of Medicine (NLM), Medical Subject Headings (MeSH), 2026; "
+        "https://www.nlm.nih.gov/mesh/ 。官方数据下载与使用条款："
+        "https://www.nlm.nih.gov/databases/download/mesh.html 和 "
+        "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html 。"
+        "MeSH 数据可免费使用，需署名 NLM 并标明版本；本项目使用英文 Descriptor XML，不使用 MeSH 中文翻译/MTMS 文件。"
+        "MeSH 提供英文主题词与分类树，新增中文映射由 ECDICT MIT 短义及词性匹配并逐项审核。"
+        f"候选{mesh_manifest['candidate_mappings_with_pinyin_ipa_and_exact_ecdict']}组，接受{mesh_manifest['accepted_new_mappings']}组映射"
+        f"（{mesh_manifest['accepted_new_english_headwords']}个新英文词头），排除{mesh_manifest['rejected_candidates']}组、"
+        f"暂缓{mesh_manifest['deferred_candidates']}组；新增{mesh_manifest['new_medical_tag_memberships']}个医学标签归属。"
+        f"归档 SHA-256：{mesh_manifest['source']['archive_sha256']}。固定来源、修改和逐项证据见"
+        "vocabulary/data/MESH-ATTRIBUTION.md、vocabulary/data/mesh-medical-manifest.json、"
+        "batches/21-mesh-medical-reviewed.tsv 与 batches/21-mesh-medical-tags-evidence.tsv。\n"
+    )
+    wikidata_manifest = json.loads((ROOT/'vocabulary/data/wikidata-medical-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/22-wikidata-medical-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        wikidata_rows = list(csv.DictReader(stream, delimiter='\t'))
+    wikidata_accepted = [row for row in wikidata_rows if row['decision'] == 'accept']
+    parts.append("\n=== 医学译词第二段（Wikidata CC0 + NLM MeSH 2026）===\n")
+    parts.append(
+        "署名：Wikidata contributors，结构化数据按 CC0 1.0 提供，https://www.wikidata.org/wiki/Wikidata:Licensing 。"
+        "MeSH 英文主题和版本来自美国国家医学图书馆 NLM 2026；遵守 NLM 署名及版本标注要求，"
+        "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html 。"
+        "中文标签经 Wikidata 项目的 MeSH P486 编号与 MeSH 主题精确关联；修改为仅保留已有拼音键、"
+        "有本地音标且逐项审核接受的短映射，不复制定义、例句或整库词条。"
+        f"候选{wikidata_manifest['candidates']}组，接受{wikidata_manifest['accepted_mappings']}组映射、"
+        f"排除{wikidata_manifest['rejected_candidates']}组、暂缓{wikidata_manifest['deferred_candidates']}组；"
+        f"新增{wikidata_manifest['new_medical_tag_memberships']}个医学标签归属。"
+        "固定 CC0 标签快照、Wikidata QID/修订、MeSH 编号、逐条审核和散列见"
+        "vocabulary/data/WIKIDATA-MEDICAL-ATTRIBUTION.md、vocabulary/data/wikidata-medical-manifest.json、"
+        "vocabulary/data/sources/wikidata/ 与 vocabulary/data/batches/22-wikidata-medical-reviewed.tsv。\n"
+    )
+    for row in wikidata_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['mesh_english'].casefold()} ({row['pos']}); "
+            f"MeSH {row['mesh_id']}; Wikidata {row['wikidata_qid']} revision {row['wikidata_revision']}\n"
+        )
+    wikidata2_manifest = json.loads((ROOT/'vocabulary/data/wikidata-medical-manifest-2.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/23-wikidata-medical-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        wikidata2_rows = list(csv.DictReader(stream, delimiter='\t'))
+    wikidata2_accepted = [row for row in wikidata2_rows if row['decision'] == 'accept']
+    parts.append("\n=== 医学译词第三段（Wikidata CC0 + NLM MeSH 2026）===\n")
+    parts.append(
+        "扩展到1,326个本地有音标及名词词性的 MeSH 主题编号，固定1,964条 Wikidata 中文/英文标签关联和870个实体修订。"
+        "在157组本地拼音可达的标签候选中，已存在于基础运行词头的条目不重复送审；剩余48组经逐项审核。"
+        f"接受{wikidata2_manifest['accepted_mappings']}组映射、排除{wikidata2_manifest['rejected_candidates']}组、"
+        f"暂缓{wikidata2_manifest['deferred_candidates']}组；其中{wikidata2_manifest['accepted_new_english_headwords']}个此前未映射词头，"
+        f"新增{wikidata2_manifest['new_medical_tag_memberships']}个医学标签归属。"
+        "保留原中文候选顺序；按键时只查编译后的短映射和标签，不读取来源快照。"
+        "固定完整标签快照、修订记录、1,326个 MeSH 编号范围、SHA-256、逐条审核和构建器见"
+        "vocabulary/data/WIKIDATA-MEDICAL-ATTRIBUTION.md、vocabulary/data/wikidata-medical-manifest-2.json、"
+        "vocabulary/data/sources/wikidata/ 与 vocabulary/data/batches/23-wikidata-medical-reviewed.tsv。\n"
+    )
+    for row in wikidata2_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['mesh_english'].casefold()} ({row['pos']}); "
+            f"MeSH {row['mesh_id']}; Wikidata {row['wikidata_qid']} revision {row['wikidata_revision']}\n"
+        )
+    naer_manifest = json.loads((ROOT/'vocabulary/data/naer-medical-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/24-naer-medical-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        naer_rows = list(csv.DictReader(stream, delimiter='\t'))
+    naer_accepted = [row for row in naer_rows if row['decision'] == 'accept']
+    parts.append("\n=== 医学词汇第四段（NAER Medical Academic Terms / 國家教育研究院医学学术名词，2026）===\n")
+    parts.append(
+        "署名：國家教育研究院，2026，《國家教育研究院-醫學學術名詞》（2026-06-24釋出版本）。"
+        "本開放資料依政府資料開放授權條款（Open Government Data License）第1版提供；"
+        "遵守條款後得利用。授權：https://data.gov.tw/license 。"
+        "資料集：https://taic.moda.gov.tw/datasets/4ca6b322-b160-41dd-a16a-02249f540bf8 。"
+        f"固定CSV含{naer_manifest['counts']['source_records']}筆資料列，SHA-256：{naer_manifest['source']['sha256']}。"
+        f"篩選後745組本機可達新對應中，591組屬已存在英文詞頭，留待後續審查；"
+        f"另154組新詞頭候選逐項審核，接受{naer_manifest['counts']['accepted_mappings']}組、"
+        f"排除{naer_manifest['counts']['rejected_candidates']}組、暫緩{naer_manifest['counts']['deferred_candidates']}組，"
+        f"新增{naer_manifest['counts']['new_medical_tag_memberships']}個醫學標籤成員。"
+        "繁體中文以 OpenCC t2s 轉簡體；要求本機拼音、IPA、ECDICT名詞詞性和每鍵容量檢查。"
+        "原CSV逐筆「來源網站」欄為字面值 [url]，不聲稱獨立追溯原始網站。"
+        "來源快照、來源輸出散列、審校理由及建構器見 vocabulary/data/NAER-MEDICAL-ATTRIBUTION.md、"
+        "vocabulary/data/sources/naer/、vocabulary/data/naer-medical-manifest.json、"
+        "vocabulary/data/batches/24-naer-medical-reviewed.tsv 與 scripts/build_naer_medical_batch.py。\n"
+    )
+    for row in naer_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} ({row['noun_evidence']}); "
+            f"NAER record {row['source_records']}\n"
+        )
+    naer2_manifest = json.loads((ROOT/'vocabulary/data/naer-medical-manifest-2.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/25-naer-medical-existing-headwords-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        naer2_rows = list(csv.DictReader(stream, delimiter='\t'))
+    naer2_accepted = [row for row in naer2_rows if row['decision'] == 'accept']
+    parts.append("\n=== 医学词汇第五段（NAER + NLM MeSH 2026 + ECDICT）===\n")
+    parts.append(
+        "NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集：https://taic.moda.gov.tw/datasets/4ca6b322-b160-41dd-a16a-02249f540bf8 。"
+        "NLM MeSH 2026 僅用英文主題詞/樹編號確認醫學範圍，遵守 NLM 版本及署名要求："
+        "https://www.nlm.nih.gov/mesh/ 與 https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html 。"
+        "ECDICT MIT 僅用作精確中文名詞義核對，不複製完整詞典或定義。"
+        f"從591組已有英文詞頭的 NAER 對應中，以 MeSH 交集與 ECDICT 精確名詞義篩出45組；"
+        f"接受{naer2_manifest['counts']['accepted_mappings']}組映射，0個新英文詞頭；"
+        f"排除{naer2_manifest['counts']['rejected_candidates']}組、暫緩{naer2_manifest['counts']['deferred_candidates']}組，"
+        f"新增{naer2_manifest['counts']['new_medical_tag_memberships']}個醫學標籤成員。"
+        "來源快照、交叉證據、逐項理由和 SHA-256 見 vocabulary/data/NAER-MEDICAL-ATTRIBUTION.md、"
+        "vocabulary/data/naer-medical-manifest-2.json、vocabulary/data/batches/25-naer-medical-existing-headwords-reviewed.tsv。\n"
+    )
+    for row in naer2_accepted:
+        parts.append(
+            f"{row['chinese']} -> {row['english']} (n.); NAER record {row['source_records']}; "
+            f"MeSH {row['mesh_term_ids']}\n"
+        )
+    for batch, title, source_name, attribution, reviewed_name, manifest_name in [
+        (
+            "26-naer-life-science",
+            "NAER Life Science Academic Terms",
+            "life-science-academic-terms.csv",
+            "NAER-LIFE-SCIENCE-ATTRIBUTION.md",
+            "26-naer-life-science-reviewed.tsv",
+            "naer-life-science-manifest.json",
+        ),
+        (
+            "27-naer-veterinary-medical",
+            "NAER Veterinary Medical Terms",
+            "veterinary-academic-terms.csv",
+            "NAER-VETERINARY-ATTRIBUTION.md",
+            "27-naer-veterinary-reviewed.tsv",
+            "naer-veterinary-manifest.json",
+        ),
+    ]:
+        manifest = json.loads((ROOT/'vocabulary/data'/manifest_name).read_text(encoding='utf-8'))
+        with (ROOT/'vocabulary/data/batches'/reviewed_name).open(encoding='utf-8', newline='') as stream:
+            reviewed = list(csv.DictReader(stream, delimiter='\t'))
+        accepted = [row for row in reviewed if row['decision'] == 'accept']
+        parts.append(f"\n=== 医学词汇批次 {batch[:2]}（{title}）===\n")
+        parts.append(
+            f"署名：國家教育研究院（National Academy for Educational Research）；数据集：{manifest['source']['dataset_url']}。"
+            f"许可：政府資料開放授權條款第1版（Open Government Data License v1.0），{manifest['source']['license_url']}。"
+            f"固定来源文件 {source_name}，SHA-256：{manifest['source']['snapshot_sha256']}；"
+            f"共{manifest['counts']['source_records']}条数据记录。"
+            f"候选审查{manifest['counts']['new_candidates']}组，接受{manifest['counts']['accepted_mappings']}组、"
+            f"排除{manifest['counts']['rejected_candidates']}组、暂缓{manifest['counts']['deferred_candidates']}组；"
+            f"新增{manifest['counts']['new_english_headwords']}个英文词头和{manifest['counts']['new_medical_tag_memberships']}个医学标签成员。"
+            "筛选要求本机 IPA、ECDICT 精确名词义、拼音可达及 MeSH 主题；运行时只载入经审校的精简 TSV。"
+            f"来源与修改说明、输入/输出散列、逐项理由见 vocabulary/data/{attribution}、"
+            f"vocabulary/data/{manifest_name}、vocabulary/data/batches/{reviewed_name} 和 scripts/build_{'naer_life_science_batch.py' if batch.startswith('26') else 'naer_veterinary_batch.py'}。\n"
+        )
+        for row in accepted:
+            parts.append(
+                f"{row['chinese']} -> {row['english']} (n.); NAER source record {row['source_records']}; "
+                f"MeSH {row['mesh_ids']}\n"
+            )
     cedict_rows = []
     for batch in ('04-cc-cedict-reviewed.tsv', '05-cc-cedict-reviewed.tsv', '07-cc-cedict-reviewed.tsv', '08-cc-cedict-reviewed.tsv'):
         with (ROOT/'vocabulary/data/batches'/batch).open(encoding='utf-8', newline='') as stream:
@@ -103,7 +387,8 @@ def main():
     for name in ['ECDICT-LICENSE','KyleBing-LICENSE','OPENETYMOLOGY-DATA-LICENSE.txt','WordNet-LICENSE',
                  'OPENCC-PYTHON-LICENSE.txt','OPENCC-PYTHON-NOTICE.txt',
                  'CHINESE-OPEN-WORDNET-LICENSE.txt','KOReader-LICENSE.txt','KOReader-ATTRIBUTION.txt',
-                 'RIME-ICE-LICENSE.txt']:
+                 'RIME-ICE-LICENSE.txt','sources/cjk-compsci-terms/LICENSE','sources/fibo/LICENSE','sources/better-quant-wiki/LICENSE',
+                 'sources/finance_i18n/LICENSE','sources/computerese-cross-references/LICENSE']:
         file=ROOT/'vocabulary/data'/name
         parts.append(f'\n=== {file.relative_to(ROOT)} ===\n'+file.read_text(encoding='utf-8'))
     fixed = [ROOT/'LICENSE', ROOT/'vendor/qingjian/assets/lexicon/00_meta/THUOCL_LICENSE.txt', ROOT/'vendor/qingjian/assets/emoji/LICENSE-unicode.txt', ROOT/'pronunciation/source/LICENSE', ROOT/'pronunciation/source/ipacards-LICENSE', ROOT/'pronunciation/source/cmudict-ipa-LICENSE']
@@ -117,7 +402,7 @@ def main():
     while pending:
         for dependency in nodes[pending.pop()]['dependencies']:
             if dependency not in mobile:mobile.add(dependency);pending.append(dependency)
-    desktop_parts=["Windows 音标与考试词汇补丁 0.1.16：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.23-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
+    desktop_parts=["Windows 音标与词汇目标补丁 0.1.21：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.28-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
     for package in sorted(metadata['packages'],key=lambda p:(p['name'],p['version'])):
         if package.get('source') is None: continue
         current=[f"\n\n=== {package['name']} {package['version']} ===\n许可：{package.get('license') or '见源文件'}\n仓库：{package.get('repository') or ''}\n"]

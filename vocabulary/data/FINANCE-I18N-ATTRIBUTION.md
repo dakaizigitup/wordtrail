@@ -1,0 +1,9 @@
+# finance_i18n source and attribution
+
+The bilingual source list is from [hotvulcan/finance_i18n](https://github.com/hotvulcan/finance_i18n), pinned to commit `98a75886853e586c55896878bfab88e1161f50df` (2021-05-05). The repository includes an MIT license, preserved at [`sources/finance_i18n/LICENSE`](sources/finance_i18n/LICENSE). The exact README snapshot used for research is [`sources/finance_i18n/README.md`](sources/finance_i18n/README.md), SHA-256 `60e07fb4bb98c217031c09f97fcc66472b0cfc0c102de639769c0fb7904e2e71`.
+
+The upstream README does not identify an earlier origin for its terminology list and contains broad and occasionally noisy entries. We therefore use it only to discover candidates. A runtime mapping must also have the exact Chinese gloss and part of speech in the pinned ECDICT input, a real local pinyin candidate, local UK or US IPA, available per-key capacity, and an explicit review decision. We accepted 47 mappings from this batch; all other candidates remain outside runtime data with their review reason recorded. We do not copy source definitions or examples.
+
+The accepted 47 mappings add 12 English headwords absent from the current compiled vocabulary and 41 new business-tag memberships. The candidate pool contained 491 exact ECDICT/pinyin/IPA matches; 341 exact pairs were already present. These are candidate and batch counts, not coverage of the entire finance_i18n list or of a complete finance curriculum.
+
+The compact derivative rows are [`finance-i18n-expansion.tsv`](finance-i18n-expansion.tsv) and [`finance-i18n-tags.tsv`](finance-i18n-tags.tsv). Rebuild and row-level decisions are in [`scripts/build_finance_i18n_batch.py`](../../scripts/build_finance_i18n_batch.py), [`batches/19-finance-i18n-reviewed.tsv`](batches/19-finance-i18n-reviewed.tsv), [`batches/19-finance-i18n-candidates.tsv`](batches/19-finance-i18n-candidates.tsv), and [`finance-i18n-manifest.json`](finance-i18n-manifest.json).

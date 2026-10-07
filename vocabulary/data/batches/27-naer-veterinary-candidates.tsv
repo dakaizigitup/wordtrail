@@ -1,0 +1,18 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	noun_evidence	ecdict_exact_noun_gloss	mesh_ids	mesh_preferred_terms	mesh_tree_numbers	already_mapped	existing_headword	existing_medical_tag	spare_capacity
+alcoholism	酗酒	酒精中毒，酗酒	539	https://terms.naer.edu.tw/	xu jiu	609	UK,US	ECDICT n.	酗酒	D000437	Alcoholism	C25.775.100.250,F03.900.100.350	false	true	false	true
+amygdala	扁桃体	扁桃體	805	https://terms.naer.edu.tw/	bian tao ti	22	UK,US	ECDICT n.	扁桃体	D000679	Amygdala	A08.186.211.180.090,A08.186.211.200.885.287.249.152	false	false	false	true
+anesthesia	麻木	麻醉〔法〕，麻木	907	https://terms.naer.edu.tw/	ma mu	94	US	ECDICT n.	麻木	D000758	Anesthesia	E03.155	false	true	true	true
+distillation	蒸馏	蒸餾	6861	https://terms.naer.edu.tw/	zheng liu	286	UK,US	ECDICT n.	蒸馏	D057168	Distillation	E05.196.155.249	false	true	true	true
+dust	粉末	塵埃，粉末	7122	https://terms.naer.edu.tw/	fen mo	433	UK,US	ECDICT n.	粉末	D004391	Dust	D20.633.222	false	true	true	true
+embarrassment	阻碍	阻礙，窘迫	7550	https://terms.naer.edu.tw/	zu ai	2043	UK,US	ECDICT n.	阻碍	D000078385	Embarrassment	F01.470.483.666.500	false	true	true	true
+exhalation	蒸发	蒸發，蒸氣，呼出，呼氣	8444	https://terms.naer.edu.tw/	zheng fa	793	UK,US	ECDICT n.	蒸发	D045853	Exhalation	G09.772.705.700.275	false	true	true	true
+fever	发烧	〔發〕熱，發燒，體溫上升	8832	https://terms.naer.edu.tw/	fa shao	6489	UK,US	ECDICT n.	发烧	D005334	Fever	C23.888.119.344	false	true	true	true
+frostbite	冻疮	凍瘡	9380	https://terms.naer.edu.tw/	dong chuang	7	UK,US	ECDICT n.	冻疮	D005627	Frostbite	C26.212.500,C26.417	false	true	true	true
+germination	发芽	發芽	9765	https://terms.naer.edu.tw/	fa ya	1066	UK,US	ECDICT n.	发芽	D018525	Germination	G07.345.625.249,G15.589.250	false	true	true	true
+hyperplasia	增殖	增殖，數量性肥大	11605	https://terms.naer.edu.tw/	zeng zhi	375	US	ECDICT n.	增殖	D006965	Hyperplasia	C23.550.444	false	true	true	true
+incineration	焚化	焚化	12124	https://terms.naer.edu.tw/	fen hua	107	UK,US	ECDICT n.	焚化	D017745	Incineration	N06.850.860.510.900.600.500	false	false	false	true
+obesity	肥胖	肥胖，肥胖病	16730	https://terms.naer.edu.tw/	fei pang	1280	UK,US	ECDICT n.	肥胖	D009765	Obesity	C18.654.726.750.500,C23.888.144.699.500	false	true	true	true
+pallor	苍白	蒼白，蒼黃	17407	https://terms.naer.edu.tw/	cang bai	159	UK	ECDICT n.	苍白	D010167	Pallor	C23.888.885.500	false	false	false	true
+paralysis	瘫痪	麻痺，癱瘓	17536	https://terms.naer.edu.tw/	tan huan	763	UK,US	ECDICT n.	瘫痪	D010243	Paralysis	C10.597.622,C23.888.592.636	false	true	true	true
+smog	烟雾	煙霧	20985	https://terms.naer.edu.tw/	yan wu	824	UK,US	ECDICT n.	烟雾	D012905	Smog	D20.633.875	false	true	true	true
+vibrissae	鼻毛	鬚髯，鼻毛，貓鬚	23617	https://terms.naer.edu.tw/	bi mao	322	UK	ECDICT n.	鼻毛	D014738	Vibrissae	A13.950	false	false	false	true

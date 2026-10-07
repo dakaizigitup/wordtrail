@@ -1,0 +1,155 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	noun_evidence	already_mapped	existing_headword	spare_capacity	decision	review_note
+ablation	剥离	剝離	93	[url]	bo li	355	UK,US	ECDICT n.	false	false	true	reject	In this medical context ablation is usually 消融/切除; 剥离 is misleading.
+abnormalities	异常	異常	97	[url]	yi chang	3940	UK,US	ECDICT n.	false	false	true	accept	The source's plural headword maps directly to 异常; this is a common clinical descriptor.
+accretions	生长	生長	263	[url]	sheng zhang	5463	UK	ECDICT n.	false	false	true	reject	Accretions are accumulated deposits or growths, not the general process 生长.
+activation	活化	活化	676	[url]	huo hua	633	UK,US	ECDICT n.	false	false	true	accept	活化 is the direct chemistry/biomedical process sense.
+adrenalin	肾上腺素	腎上腺素	984	[url]	shen shang xian su	161	UK,US	ECDICT n.	false	false	true	accept	肾上腺素 is the established hormone/drug name; adrenalin is a recognized spelling variant.
+anastomosis	吻合	吻合；接通	1818	[url]	wen he	369	UK	ECDICT n.	false	false	true	accept	吻合 is the established anatomical and surgical term.
+anastomosis	接通	吻合；接通	1818	[url]	jie tong	367	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+aneurism	动脉瘤	動脈瘤	1889	[url]	dong mai liu	86	UK,US	ECDICT n.	false	false	true	accept	动脉瘤 is exact; aneurism is a recognized variant spelling of aneurysm.
+anise	茴香	茴香	2058	[url]	hui xiang	93	UK,US	ECDICT n.	false	false	true	reject	茴香 usually names fennel and is not a reliable isolated equivalent for anise.
+anthropoid	类人猿	類人猿	2312	[url]	lei ren yuan	58	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+assay	分析	鑑定；測定；分析	3022	[url]	fen xi	11738	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+assay	测定	鑑定；測定；分析	3022	[url]	ce ding	924	UK,US	ECDICT n.	false	false	true	accept	测定 is the direct analytical/clinical assay sense; less-specific source alternatives are deferred.
+assay	鉴定	鑑定；測定；分析	3022	[url]	jian ding	3836	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+augmentation	增大	增大	3306	[url]	zeng da	698	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+beneficence	行善	行善	3911	[url]	xing shan	275	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+bleeding	出血	出血	4243	[url]	chu xue	681	UK,US	ECDICT n.	false	false	true	accept	出血 is exact in a clinical symptom/injury context.
+blotch	斑点	斑點	4308	[url]	ban dian	804	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+calcification	钙化	鈣化	5010	[url]	gai hua	100	UK	ECDICT n.	false	false	true	accept	钙化 is the established pathological and tissue-change term.
+capsicum	辣椒	辣椒	5212	[url]	la jiao	6140	UK	ECDICT n.	false	false	true	accept	辣椒 is the standard Chinese name for Capsicum; retained as a medicinal/botanical substance term.
+caries	蛀	齲；蛀；骨疽	5438	[url]	zhu	139	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+caries	龋	齲；蛀；骨疽	5438	[url]	qu	22	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+cascara	鼠李	鼠李；用其樹皮製成的緩瀉劑	5524	[url]	shu li	330	UK	ECDICT n.	false	false	true	reject	Cascara refers to a particular medicinal bark; 鼠李 alone is too broad to ship without a specific species gloss.
+cassia	肉桂	肉桂	5543	[url]	rou gui	147	UK,US	ECDICT n.	false	false	true	accept	肉桂 is the direct name used for cassia cinnamon, a medicinal botanical substance.
+cauda	尾	尾	5596	[url]	wei	13334	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+childbirth	分娩	分娩；生產	6164	[url]	fen mian	417	UK,US	ECDICT n.	false	false	true	accept	分娩 is the precise clinical term; the broader source alternative 生产 is deferred.
+childbirth	生产	分娩；生產	6164	[url]	sheng chan	21992	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+chrysalis	蛹	蛹	6440	[url]	yong	435	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+comfrey	紫草	紫草	7029	[url]	zi cao	71	UK,US	ECDICT n.	false	false	true	reject	Comfrey is not 紫草; the source pair is a botanical false match.
+concha	甲	甲；鼻甲	7188	[url]	jia	13521	UK,US	ECDICT n.	false	false	true	reject	甲 is not a sufficiently explicit translation of the anatomical concha.
+concordance	一致性	一致性	7196	[url]	yi zhi xing	274	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+contra	反	反	7426	[url]	fan	24051	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+contusion	挫伤	挫傷	7445	[url]	cuo shang	70	UK,US	ECDICT n.	false	false	true	accept	挫伤 is the established clinical injury term.
+cusp	尖	尖；瓣尖	7990	[url]	jian	7456	UK,US	ECDICT n.	false	false	true	reject	尖 is not a reliable isolated equivalent for the anatomical/structural cusp sense.
+cutis	皮肤	皮膚	8082	[url]	pi fu	18417	UK	ECDICT n.	false	false	true	accept	Cutis is the anatomical term for skin; 皮肤 is exact.
+cyclops	独眼	獨眼	8125	[url]	du yan	222	UK,US	ECDICT n.	false	false	true	reject	独眼 is not a reliable clinical gloss for the specific congenital condition.
+deformations	变形	變形	8408	[url]	bian xing	3996	UK	ECDICT n.	false	false	true	accept	变形 is a direct morphology/pathology sense; broader context-specific entries remain deferred.
+deletion	缺失	削除；缺失	8445	[url]	que shi	863	UK,US	ECDICT n.	false	false	true	accept	缺失 is the direct genetics/biomedical sense of deletion.
+demarcation	分界	分界	8490	[url]	fen jie	541	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+dentition	牙齿	牙齒	8629	[url]	ya chi	6085	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+derma	真皮	真皮	8689	[url]	zhen pi	54	UK,US	ECDICT n.	false	false	true	reject	Derma means skin generally, not specifically 真皮.
+dextrose	葡萄糖	右旋糖；葡萄糖	8856	[url]	pu tao tang	315	UK,US	ECDICT n.	false	false	true	accept	葡萄糖 is exact; dextrose is a common name for D-glucose.
+dilatation	扩张	擴張	9030	[url]	kuo zhang	2544	UK,US	ECDICT n.	false	false	true	accept	扩张 is the established anatomical/clinical process term.
+dilation	扩大	擴大	9040	[url]	kuo da	5543	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+dumbness	哑	啞	9552	[url]	ya	1320	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+excrescence	赘疣	贅疣	11181	[url]	zhui you	11	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+excretion	排泄	排泄	11182	[url]	pai xie	128	UK,US	ECDICT n.	false	false	true	accept	排泄 is the physiological process term.
+exfoliation	剥落	剝落；脫落	11195	[url]	bo luo	127	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+exfoliation	脱落	剝落；脫落	11195	[url]	tuo luo	737	UK,US	ECDICT n.	false	false	true	accept	脱落 is the direct epithelial/skin shedding sense.
+fainting	昏厥	昏厥	11498	[url]	hun jue	56	UK,US	ECDICT n.	false	false	true	accept	昏厥 is the clinical synonym for fainting.
+feeding	喂养	餵養	11687	[url]	wei yang	407	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+flexure	弯曲	彎曲	12062	[url]	wan qu	1265	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+florists	花匠	花匠	12078	[url]	hua jiang	38	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+foramen	孔	孔	12204	[url]	kong	11577	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+fragmentation	断裂	碎裂；斷裂	12322	[url]	duan lie	923	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+fragmentation	碎裂	碎裂；斷裂	12322	[url]	sui lie	182	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+fremitus	震颤	震顫	12359	[url]	zhen chan	42	US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+gauntlet	手套	手套/手套形繃帶	12690	[url]	shou tao	3328	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+gestation	妊娠	妊娠；懷孕	12832	[url]	ren shen	517	UK,US	ECDICT n.	false	false	true	accept	妊娠 is the formal medical term; the colloquial source alternative 怀孕 is deferred.
+gestation	怀孕	妊娠；懷孕	12832	[url]	huai yun	1594	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+gonorrhoea	淋病	淋病	13073	[url]	lin bing	81	UK	ECDICT n.	false	false	true	accept	淋病 is exact; this is the British spelling.
+grouping	分组	分組	13287	[url]	fen zu	1735	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+haemorrhage	出血	出血	13416	[url]	chu xue	681	UK	ECDICT n.	false	false	true	accept	出血 is exact; this is the British spelling of hemorrhage.
+hives	荨麻疹	蕁麻疹	14111	[url]	xun ma zhen	39	UK,US	ECDICT n.	false	false	true	accept	荨麻疹 is the direct clinical term.
+hornets	大黄蜂	大黃蜂	14220	[url]	da huang feng	422	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+hybridization	杂交	雜交；混合	14351	[url]	za jiao	890	US	ECDICT n.	false	false	true	accept	杂交 is the direct genetics/biomedical sense.
+hybridization	混合	雜交；混合	14351	[url]	hun he	6126	US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+hydrophobia	狂犬病	恐水症；狂犬病	14424	[url]	kuang quan bing	88	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+icterus	黄疸	黃疸	14742	[url]	huang dan	97	UK	ECDICT n.	false	false	true	accept	黄疸 is the established clinical term.
+impairment	损伤	損傷；損害	14891	[url]	sun shang	1409	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+impairment	损害	損傷；損害	14891	[url]	sun hai	1844	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+implantation	植入	移植；植入	14919	[url]	zhi ru	553	UK,US	ECDICT n.	false	false	true	accept	植入 is the direct procedure/embryology sense; 移植 would imply transplantation and is deferred.
+implantation	移植	移植；植入	14919	[url]	yi zhi	1096	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+inhibitors	抑制剂	抑制劑	15225	[url]	yi zhi ji	513	UK,US	ECDICT n.	false	false	true	accept	抑制剂 is the established pharmacology/biochemistry term.
+interposition	中介	中介	15443	[url]	zhong jie	367	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+irradiation	照射	照射	15696	[url]	zhao she	514	US	ECDICT n.	false	false	true	accept	照射 is the direct radiological/biomedical process sense.
+jerking	反射	反射	15843	[url]	fan she	1168	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+leukocyte	白血球	白血球	16410	[url]	bai xue qiu	149	US	ECDICT n.	false	false	true	accept	白血球 is an established Chinese synonym for 白细胞 and directly names the cell type.
+lice	虱	蝨	16442	[url]	shi	252	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+lues	梅毒	梅毒	16787	[url]	mei du	111	UK	ECDICT n.	false	false	true	accept	梅毒 is exact; lues is a historical medical synonym, retained with the medical tag.
+malaise	不适	不適	17078	[url]	bu shi	1908	UK,US	ECDICT n.	false	false	true	accept	不适 is the direct clinical symptom sense.
+malformation	畸形	畸形	17094	[url]	ji xing	402	UK,US	ECDICT n.	false	false	true	accept	畸形 is the established developmental/pathology term.
+manus	手	手	17294	[url]	shou	70239	US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+metamorphosis	变形	變形；變態	17921	[url]	bian xing	3996	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+metamorphosis	变态	變形；變態	17921	[url]	bian tai	390	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+midline	中线	中線	18095	[url]	zhong xian	592	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+mucosa	黏膜	黏膜	18506	[url]	nian mo	163	UK,US	ECDICT n.	false	false	true	accept	黏膜 is exact.
+mutilation	切断	切斷	18898	[url]	qie duan	1079	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+narcotics	麻醉剂	麻醉劑	19129	[url]	ma zui ji	110	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+negativity	消极	嗜電子性；消極	19250	[url]	xiao ji	1521	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+neoplasm	肿瘤	腫瘤；贅生物	19282	[url]	zhong liu	1348	US	ECDICT n.	false	false	true	accept	肿瘤 is the established clinical term.
+nephrosis	肾病	腎病	19298	[url]	shen bing	175	US	ECDICT n.	false	false	true	reject	肾病 is broader than nephrosis and loses the specific pathological concept.
+obliteration	堵塞	堵塞；消滅	19912	[url]	du se	723	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+obliteration	消灭	堵塞；消滅	19912	[url]	xiao mie	4282	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+orifice	口	口	20369	[url]	kou	28961	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+oxygenation	氧化	氧合作用；氧化	20680	[url]	yang hua	3497	UK	ECDICT n.	false	false	true	reject	Oxygenation is not oxidation; this is a misleading false-friend mapping.
+palisade	栅栏	柵欄；柵狀排列	20789	[url]	zha lan	418	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+parotid	腮腺	腮腺	21232	[url]	sai xian	10	UK	ECDICT n.	false	false	true	accept	腮腺 is the anatomical gland name used as a medical noun/modifier.
+perforation	穿孔	穿孔	21552	[url]	chuan kong	315	UK,US	ECDICT n.	false	false	true	accept	穿孔 is the direct anatomical/pathological term.
+peri	周边	周邊	21564	[url]	zhou bian	9492	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+pertussis	百日咳	百日咳	21825	[url]	bai ri ke	47	UK,US	ECDICT n.	false	false	true	accept	百日咳 is exact.
+perversion	失常	倒錯；失常	21826	[url]	shi chang	198	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+phage	噬菌体	噬菌體	21872	[url]	shi jun ti	105	UK,US	ECDICT n.	false	false	true	accept	噬菌体 is the standard microbiology term; phage is its common short form.
+phallus	阴茎	陰莖	21902	[url]	yin jing	530	UK	ECDICT n.	false	false	true	accept	阴茎 is the direct anatomical sense.
+pinna	耳廓	耳廓	22293	[url]	er kuo	33	UK	ECDICT n.	false	false	true	accept	耳廓 is the exact anatomical term.
+pitting	凹陷	壓陷；凹陷	22336	[url]	ao xian	348	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+plates	板	板	22534	[url]	ban	11459	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+plucking	摘除	摘除	22672	[url]	zhai chu	100	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+pomade	发油	髮油	22876	[url]	fa you	90	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+posterior	后的	後的	22980	[url]	hou de	16935	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+proconsul	类人猿	類人猿	23421	[url]	lei ren yuan	58	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+psychosis	精神病	精神病；精神變態	23812	[url]	jing shen bing	902	UK,US	ECDICT n.	false	false	true	accept	精神病 is the concise clinical term for psychosis.
+pulsation	搏动	搏動	23952	[url]	bo dong	12	UK	ECDICT n.	false	false	true	accept	搏动 is the direct physiological/clinical sense.
+pyrexia	发热	發熱	24140	[url]	fa re	1598	UK	ECDICT n.	false	false	true	accept	发热 is the established clinical term; pyrexia is a medical synonym for fever.
+quills	羽毛	羽毛	24187	[url]	yu mao	1171	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+ragweed	猪草	豬草	24296	[url]	zhu cao	6	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+reducing	还原	還原	24467	[url]	huan yuan	2053	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+reentry	回路	迴路；再迴旋	24482	[url]	hui lu	1182	US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+reflux	回流	逆流；回流	24505	[url]	hui liu	338	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+reflux	逆流	逆流；回流	24505	[url]	ni liu	245	UK,US	ECDICT n.	false	false	true	accept	逆流 is the direct backward-flow sense; the source's more general alternative is deferred.
+regurgitation	回流	逆流；回流	24534	[url]	hui liu	338	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+regurgitation	逆流	逆流；回流	24534	[url]	ni liu	245	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+reposition	复位	復位；放回	24630	[url]	fu wei	197	UK,US	ECDICT n.	false	false	true	accept	复位 is the direct clinical/surgical procedure sense.
+reptiles	爬虫类	爬蟲類	24632	[url]	pa chong lei	89	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+retardation	迟缓	遲緩	24708	[url]	chi huan	247	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+rotunda	圆形	圓形	25108	[url]	yuan xing	2257	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+rump	臀部	臀部	25173	[url]	tun bu	236	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+scarlatina	猩红热	猩紅熱	25424	[url]	xing hong re	24	UK	ECDICT n.	false	false	true	accept	猩红热 is exact; scarlatina is a recognized historical synonym.
+segmentation	分节	分節；分裂	25689	[url]	fen jie	78	UK,US	ECDICT n.	false	false	true	accept	分节 is the direct embryological/anatomical process sense.
+segmentation	分裂	分節；分裂	25689	[url]	fen lie	2936	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+shampoos	洗发精	洗髮精	25920	[url]	xi fa jing	46	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+shedding	脱落	脫落	25929	[url]	tuo luo	737	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+situs	位置	位置	26135	[url]	wei zhi	24695	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+soreness	疼痛	疼痛	26388	[url]	teng tong	1033	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+souffle	杂音	雜音	26390	[url]	za yin	216	US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+stenosis	狭窄	狹窄	26922	[url]	xia zhai	1206	UK,US	ECDICT n.	false	false	true	accept	狭窄 is the established pathological/anatomical term.
+stroma	基质	基質	27136	[url]	ji zhi	304	US	ECDICT n.	false	false	true	accept	基质 is the accepted histological tissue-support term.
+suffocation	窒息	窒息	27377	[url]	zhi xi	1497	UK,US	ECDICT n.	false	false	true	accept	窒息 is exact in the clinical/physiological sense.
+summation	积聚	積聚	27463	[url]	ji ju	146	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+swab	擦拭	擦拭	27705	[url]	ca shi	56	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+tache	斑	斑；點	27957	[url]	ban	5012	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+tache	点	斑；點	27957	[url]	dian	436781	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+thrombosis	栓塞	栓塞	28383	[url]	shuan se	122	UK,US	ECDICT n.	false	false	true	reject	血栓形成/血栓症 is thrombosis; 栓塞 is embolism, a different concept.
+tic	抽搐	抽搐	28450	[url]	chou chu	79	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+transduction	传导	傳導	28686	[url]	chuan dao	313	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+transfusion	输血	轉輸；輸血	28690	[url]	shu xue	216	UK,US	ECDICT n.	false	false	true	accept	输血 is the direct clinical procedure sense.
+tympanum	鼓膜	鼓室；鼓膜	29218	[url]	gu mo	48	UK,US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+ulceration	溃疡	潰瘍	29244	[url]	kui yang	121	UK,US	ECDICT n.	false	false	true	accept	溃疡 is the direct pathological condition/process sense.
+varicella	水痘	水痘	29610	[url]	shui dou	38	UK	ECDICT n.	false	false	true	accept	水痘 is exact.
+variola	天花	痘瘡；天花	29628	[url]	tian hua	387	UK	ECDICT n.	false	false	true	accept	天花 is exact; variola is the disease name.
+velum	帆	帆；蓋	29731	[url]	fan	3245	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+velum	盖	帆；蓋	29731	[url]	gai	18456	UK	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+vena	静脉	靜脈	29733	[url]	jing mai	292	UK,US	ECDICT n.	false	false	true	accept	静脉 is the exact anatomical term; vena is the Latin-derived medical headword.
+venter	腹	腹	30032	[url]	fu	2696	US	ECDICT n.	false	false	true	defer	官方英中对照可核验，但独立词面过宽、术语范围不清或更精确译法尚需来源交叉确认；暂不进入运行词库。
+verruca	疣	疣	30114	[url]	you	188	UK	ECDICT n.	false	false	true	accept	疣 is the exact medical term.

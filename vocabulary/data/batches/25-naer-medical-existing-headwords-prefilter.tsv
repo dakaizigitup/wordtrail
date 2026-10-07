@@ -1,0 +1,592 @@
+english	chinese	source_chinese	source_records	source_url_field	pinyin	pinyin_frequency	ipa_sources	noun_evidence	already_mapped_after_batch_24	spare_capacity_after_batch_24	mesh_term_ids	mesh_preferred_terms	mesh_tree_numbers	ecdict_exact_noun_glosses	review_scope
+abnormality	异常	異常	98	[url]	yi chang	3940	UK,US	ECDICT n.	false	true					not_in_intersection
+absence	失神	失神	116	[url]	shi shen	33	UK,US	ECDICT n.	false	true					not_in_intersection
+absorption	吸收	吸收	140	[url]	xi shou	4300	UK,US	ECDICT n.	false	true	D000042	Absorption	G01.015,G02.010,G03.015,G03.787.024,G07.690.725.015	吸收	exact_ECDICT_noun_gloss_and_MeSH_term
+access	入口	入口	213	[url]	ru kou	7874	UK,US	ECDICT n.	false	true				入口	not_in_intersection
+accommodation	调节	調節	253	[url]	tiao jie	3365	UK,US	ECDICT n.	false	true					not_in_intersection
+accumulation	蓄积	蓄積	265	[url]	xu ji	94	UK,US	ECDICT n.	false	true					not_in_intersection
+acid	酸	酸	361	[url]	suan	14929	UK,US	ECDICT n.	false	true	D000143	Acids	D01.029		not_in_intersection
+adaptation	适应	適應	803	[url]	shi ying	7998	UK,US	ECDICT n.	false	true				适应	not_in_intersection
+addition	添加	添加	818	[url]	tian jia	3250	UK,US	ECDICT n.	false	true					not_in_intersection
+additive	附加	附加；加成	822	[url]	fu jia	2213	UK,US	ECDICT n.	false	true					not_in_intersection
+adherence	黏附	黏著；黏附；依從性	904	[url]	nian fu	59	UK,US	ECDICT n.	false	true					not_in_intersection
+admission	住院	住院	961	[url]	zhu yuan	3368	UK,US	ECDICT n.	false	true					not_in_intersection
+affect	情感	情感	1058	[url]	qing gan	5430	US	ECDICT n.	false	true	D000339	Affect	F01.470.047		not_in_intersection
+affection	病变	病變	1063	[url]	bing bian	608	UK,US	ECDICT n.	false	true					not_in_intersection
+agent	制剂	因子；製劑	1116	[url]	zhi ji	196	UK,US	ECDICT n.	false	true					not_in_intersection
+agent	因子	因子；製劑	1116	[url]	yin zi	1028	UK,US	ECDICT n.	false	true					not_in_intersection
+aircraft	飞机	飛機	1193	[url]	fei ji	28735	UK,US	ECDICT n.	false	true				飞机	not_in_intersection
+alcohol	乙醇	乙醇	1255	[url]	yi chun	574	UK,US	ECDICT n.	false	true					not_in_intersection
+amnesia	健忘	健忘	1694	[url]	jian wang	42	UK,US	ECDICT n.	false	true	D000647	Amnesia	C10.597.606.525.100,C23.888.592.604.529.100,F01.700.625.100,F03.615.200		not_in_intersection
+angle	角	角	2015	[url]	jiao	14123	UK,US	ECDICT n.	false	true					not_in_intersection
+anomaly	异常	異常	2127	[url]	yi chang	3940	UK,US	ECDICT n.	false	true					not_in_intersection
+antecedent	前身	前身；祖先	2160	[url]	qian shen	7054	UK,US	ECDICT n.	false	true					not_in_intersection
+anti	抗	抗	2316	[url]	kang	5993	UK,US	ECDICT n.	false	true					not_in_intersection
+anxiety	焦虑	焦慮	2460	[url]	jiao lv	3367	UK,US	ECDICT n.	false	true	D001007	Anxiety	F01.470.132	焦虑	exact_ECDICT_noun_gloss_and_MeSH_term
+aperture	口	口	2498	[url]	kou	28961	UK,US	ECDICT n.	false	true					not_in_intersection
+apex	尖	尖	2499	[url]	jian	7456	UK,US	ECDICT n.	false	true					not_in_intersection
+apparatus	装置	器械；裝置	2580	[url]	zhuang zhi	6643	UK,US	ECDICT n.	false	true				装置	not_in_intersection
+approach	方法	方法	2608	[url]	fang fa	21743	UK,US	ECDICT n.	false	true					not_in_intersection
+arch	弓	弓	2654	[url]	gong	2866	UK,US	ECDICT n.	false	true					not_in_intersection
+area	区	區	2689	[url]	qu	170948	UK,US	ECDICT n.	false	true					not_in_intersection
+aspiration	抽吸	抽吸	3016	[url]	chou xi	32	UK,US	ECDICT n.	false	true					not_in_intersection
+assessment	判断	判斷/評估	3023	[url]	pan duan	4202	UK,US	ECDICT n.	false	true					not_in_intersection
+association	联合	聯合；協會	3029	[url]	lian he	27897	UK,US	ECDICT n.	false	true	D001244	Association	F02.463.425.069,F04.754.720.346		not_in_intersection
+attachment	附著	附著	3239	[url]	fu zhuo	351	UK,US	ECDICT n.	false	true					not_in_intersection
+attention	注意	注意；注意力	3246	[url]	zhu yi	67417	UK,US	ECDICT n.	false	true	D001288	Attention	F02.830.104.214	注意	exact_ECDICT_noun_gloss_and_MeSH_term
+attraction	吸引	吸引	3253	[url]	xi yin	9620	UK,US	ECDICT n.	false	true				吸引	not_in_intersection
+aura	先兆	先兆	3308	[url]	xian zhao	41	UK,US	ECDICT n.	false	true	D004827	Epilepsy	C10.228.140.490		not_in_intersection
+autonomy	自主	自主	3416	[url]	zi zhu	2232	UK,US	ECDICT n.	false	true					not_in_intersection
+aversion	规避	厭惡；規避	3443	[url]	gui bi	357	UK,US	ECDICT n.	false	true					not_in_intersection
+backflow	回流	回流	3550	[url]	hui liu	338	UK	ECDICT n.	false	true				回流	not_in_intersection
+band	带	帶	3649	[url]	dai	225834	UK,US	ECDICT n.	false	true					not_in_intersection
+bank	库	庫	3663	[url]	ku	19144	UK,US	ECDICT n.	false	true					not_in_intersection
+bar	棒	棒；槓	3668	[url]	bang	77786	UK,US	ECDICT n.	false	true					not_in_intersection
+barrier	阻碍	屏障；阻礙	3693	[url]	zu ai	2043	UK,US	ECDICT n.	false	true					not_in_intersection
+beam	束	束	3843	[url]	shu	1855	UK,US	ECDICT n.	false	true					not_in_intersection
+beard	须	鬚	3844	[url]	xu	8864	UK,US	ECDICT n.	false	true					not_in_intersection
+beat	搏动	搏動	3846	[url]	bo dong	12	UK,US	ECDICT n.	false	true					not_in_intersection
+bend	弯	彎	3908	[url]	wan	5971	UK,US	ECDICT n.	false	true					not_in_intersection
+birch	白桦	白樺	4135	[url]	bai hua	115	UK,US	ECDICT n.	false	true					not_in_intersection
+bite	咬伤	咬傷	4169	[url]	yao shang	177	UK,US	ECDICT n.	false	true	D001733	Bites and Stings	C25.723.127,C26.176		not_in_intersection
+bladder	囊	膀胱；囊	4204	[url]	nang	2478	UK,US	ECDICT n.	false	true	D001743	Urinary Bladder	A05.810.890		not_in_intersection
+blindness	失明	盲；失明	4268	[url]	shi ming	403	UK,US	ECDICT n.	false	true	D001766	Blindness	C10.597.751.941.162,C11.966.075,C23.888.592.763.941.162	失明	exact_ECDICT_noun_gloss_and_MeSH_term
+blindness	盲	盲；失明	4268	[url]	mang	2202	UK,US	ECDICT n.	false	true	D001766	Blindness	C10.597.751.941.162,C11.966.075,C23.888.592.763.941.162		not_in_intersection
+bond	连结	連結	4365	[url]	lian jie	2888	UK,US	ECDICT n.	false	true					not_in_intersection
+borderline	边缘	邊緣	4398	[url]	bian yuan	3970	UK,US	ECDICT n.	false	true					not_in_intersection
+bowel	肠	腸	4452	[url]	chang	2866	UK,US	ECDICT n.	false	true					not_in_intersection
+branching	分支	分支	4535	[url]	fen zhi	3251	UK,US	ECDICT n.	false	true					not_in_intersection
+breath	呼吸	呼吸	4563	[url]	hu xi	5243	UK,US	ECDICT n.	false	true				呼吸	not_in_intersection
+breathing	呼吸	呼吸	4564	[url]	hu xi	5243	UK,US	ECDICT n.	false	true	D012119	Respiration	G09.772.705	呼吸	exact_ECDICT_noun_gloss_and_MeSH_term
+bristle	鬃	鬃	4596	[url]	zong	110	UK,US	ECDICT n.	false	true					not_in_intersection
+brood	孵育	孵育	4705	[url]	fu yu	27	UK,US	ECDICT n.	false	true					not_in_intersection
+brow	眉	眉	4711	[url]	mei	4237	UK,US	ECDICT n.	false	true					not_in_intersection
+bulb	球	球；延髓	4798	[url]	qiu	36328	UK,US	ECDICT n.	false	true					not_in_intersection
+burrow	隧道	隧道	4874	[url]	sui dao	7649	UK,US	ECDICT n.	false	true					not_in_intersection
+buttock	臀	臀	4909	[url]	tun	1030	UK,US	ECDICT n.	false	true	D002081	Buttocks	A01.378.610.100		not_in_intersection
+calibration	校正	校正	5064	[url]	jiao zheng	312	UK,US	ECDICT n.	false	true	D002138	Calibration	E05.978.155		not_in_intersection
+canal	管	管	5098	[url]	guan	35124	UK,US	ECDICT n.	false	true					not_in_intersection
+capillaries	微血管	毛細管；微血管	5175	[url]	wei xue guan	42	UK,US	ECDICT n.	false	true	D002196	Capillaries	A07.015.461.165		not_in_intersection
+capsule	囊	囊	5217	[url]	nang	2478	UK,US	ECDICT n.	false	true	D002214	Capsules	D26.255.150		not_in_intersection
+care	照护	照護；照顧	5435	[url]	zhao hu	436	UK,US	ECDICT n.	false	true					not_in_intersection
+care	照顾	照護；照顧	5435	[url]	zhao gu	24991	UK,US	ECDICT n.	false	true					not_in_intersection
+cart	手推车	手推車	5506	[url]	shou tui che	126	UK,US	ECDICT n.	false	true					not_in_intersection
+cast	圆柱	模型；圓柱	5545	[url]	yuan zhu	645	UK,US	ECDICT n.	false	true					not_in_intersection
+cast	模型	模型；圓柱	5545	[url]	mo xing	7142	UK,US	ECDICT n.	false	true					not_in_intersection
+castration	阉割	閹割	5552	[url]	yan ge	64	UK,US	ECDICT n.	false	true	D002369	Castration	E04.270.282,E04.950.165	阉割	exact_ECDICT_noun_gloss_and_MeSH_term
+cerumen	耳垢	耳垢	5953	[url]	er gou	16	UK	ECDICT n.	false	true	D002571	Cerumen	A12.200.147	耳垢	exact_ECDICT_noun_gloss_and_MeSH_term
+chamber	室	室	6025	[url]	shi	25644	UK,US	ECDICT n.	false	true					not_in_intersection
+channel	管道	通道；管道	6041	[url]	guan dao	1685	UK,US	ECDICT n.	false	true					not_in_intersection
+char	炭化	炭化	6043	[url]	tan hua	9	UK,US	ECDICT n.	false	true					not_in_intersection
+character	特性	特性	6044	[url]	te xing	3000	UK,US	ECDICT n.	false	true	D002605	Character	F01.752.190		not_in_intersection
+child	儿童	兒童	6161	[url]	er tong	13748	UK,US	ECDICT n.	false	true					not_in_intersection
+chip	碎片	碎片	6177	[url]	sui pian	2369	UK,US	ECDICT n.	false	true				碎片	not_in_intersection
+chrome	铬	鉻	6348	[url]	ge	531	UK,US	ECDICT n.	false	true					not_in_intersection
+circle	环	環	6526	[url]	huan	12151	UK,US	ECDICT n.	false	true					not_in_intersection
+circulation	循环	循環	6539	[url]	xun huan	6619	UK,US	ECDICT n.	false	true				循环	not_in_intersection
+cirrhosis	硬化	硬化	6566	[url]	ying hua	256	UK,US	ECDICT n.	false	true	D005355	Fibrosis	C23.550.355		not_in_intersection
+clamp	夹	夾	6592	[url]	jia	6853	UK,US	ECDICT n.	false	true					not_in_intersection
+clasp	钩	扣環；鉤	6602	[url]	gou	2040	UK,US	ECDICT n.	false	true					not_in_intersection
+class	类	類；綱	6604	[url]	lei	35757	UK,US	ECDICT n.	false	true					not_in_intersection
+class	纲	類；綱	6604	[url]	gang	2941	UK,US	ECDICT n.	false	true					not_in_intersection
+classification	分类	分類	6614	[url]	fen lei	8017	UK,US	ECDICT n.	false	true				分类	not_in_intersection
+clearing	清洁	清潔；澄清	6642	[url]	qing jie	2374	UK,US	ECDICT n.	false	true					not_in_intersection
+clearing	澄清	清潔；澄清	6642	[url]	cheng qing	2306	UK,US	ECDICT n.	false	true					not_in_intersection
+cleavage	裂开	裂開；裂解	6643	[url]	lie kai	342	UK,US	ECDICT n.	false	true					not_in_intersection
+cleavage	裂解	裂開；裂解	6643	[url]	lie jie	151	UK,US	ECDICT n.	false	true					not_in_intersection
+cleft	裂	裂；裂縫	6647	[url]	lie	3096	UK,US	ECDICT n.	false	true					not_in_intersection
+closure	闭合	閉合	6709	[url]	bi he	264	UK,US	ECDICT n.	false	true					not_in_intersection
+clot	血块	血塊	6710	[url]	xue kuai	58	UK,US	ECDICT n.	false	true					not_in_intersection
+coagulation	凝固	凝固；凝血	6749	[url]	ning gu	400	UK,US	ECDICT n.	false	true					not_in_intersection
+cold	感冒	感冒	6874	[url]	gan mao	25480	UK,US	ECDICT n.	false	true	D003080	Cold Temperature	G01.906.595.272,G16.500.275.063.725.710.300,G16.500.750.775.710.300,N06.230.300.100.725.154,N06.230.300.100.725.710.300	感冒	exact_ECDICT_noun_gloss_and_MeSH_term
+composition	组成	組成	7136	[url]	zu cheng	27179	UK,US	ECDICT n.	false	true				组成	not_in_intersection
+compression	压迫	壓迫	7157	[url]	ya po	923	UK,US	ECDICT n.	false	true					not_in_intersection
+conception	受孕	受孕	7186	[url]	shou yun	79	UK,US	ECDICT n.	false	true	D005306	Fertilization	G08.686.784.277		not_in_intersection
+condensation	凝结	凝結	7205	[url]	ning jie	242	UK,US	ECDICT n.	false	true					not_in_intersection
+conjunction	连接	連接	7354	[url]	lian jie	14030	UK,US	ECDICT n.	false	true					not_in_intersection
+connection	接合	連結；接合	7357	[url]	jie he	298	UK,US	ECDICT n.	false	true					not_in_intersection
+connection	连结	連結；接合	7357	[url]	lian jie	2888	UK,US	ECDICT n.	false	true					not_in_intersection
+consent	同意	同意	7368	[url]	tong yi	23673	UK,US	ECDICT n.	false	true				同意	not_in_intersection
+consortium	公会	公會；協會	7370	[url]	gong hui	3878	UK,US	ECDICT n.	false	true					not_in_intersection
+consortium	协会	公會；協會	7370	[url]	xie hui	22441	UK,US	ECDICT n.	false	true				协会	not_in_intersection
+constriction	狭窄	狹窄	7386	[url]	xia zhai	1206	UK,US	ECDICT n.	false	true	D003250	Constriction	E05.225		not_in_intersection
+consumption	消耗	消耗	7391	[url]	xiao hao	3152	UK,US	ECDICT n.	false	true	D004467	Economics	N03.219		not_in_intersection
+contraction	挛缩	收縮；攣縮	7437	[url]	luan suo	18	UK,US	ECDICT n.	false	true					not_in_intersection
+control	对照	控制；對照	7441	[url]	dui zhao	521	UK,US	ECDICT n.	false	true					not_in_intersection
+convenience	方便	方便	7452	[url]	fang bian	19100	UK,US	ECDICT n.	false	true				方便	not_in_intersection
+cord	带	索；帶	7511	[url]	dai	225834	UK,US	ECDICT n.	false	true					not_in_intersection
+cord	索	索；帶	7511	[url]	suo	25099	UK,US	ECDICT n.	false	true					not_in_intersection
+corona	冠	冠	7544	[url]	guan	7027	UK,US	ECDICT n.	false	true					not_in_intersection
+corps	体	體	7573	[url]	ti	21339	US	ECDICT n.	false	true					not_in_intersection
+corpus	体	體；小體	7574	[url]	ti	21339	UK,US	ECDICT n.	false	true					not_in_intersection
+costa	肋	肋	7693	[url]	lei	800	UK,US	ECDICT n.	false	true					not_in_intersection
+counting	计数	計數	7749	[url]	ji shu	491	UK,US	ECDICT n.	false	true					not_in_intersection
+coup	打击	打擊	7751	[url]	da ji	10878	UK,US	ECDICT n.	false	true					not_in_intersection
+couple	连结	連結；力偶	7753	[url]	lian jie	2888	UK,US	ECDICT n.	false	true					not_in_intersection
+cream	乳剂	乳劑	7808	[url]	ru ji	23	UK,US	ECDICT n.	false	true					not_in_intersection
+crease	皱褶	皺褶	7809	[url]	zhou zhe	47	UK,US	ECDICT n.	false	true					not_in_intersection
+crest	嵴	嵴	7834	[url]	ji	125	UK,US	ECDICT n.	false	true					not_in_intersection
+culture	培养	培養	7963	[url]	pei yang	5608	UK,US	ECDICT n.	false	true					not_in_intersection
+current	流	流；電流	7976	[url]	liu	18356	UK,US	ECDICT n.	false	true					not_in_intersection
+current	电流	流；電流	7976	[url]	dian liu	1624	UK,US	ECDICT n.	false	true					not_in_intersection
+curve	弯	彎；曲線	7979	[url]	wan	5971	UK,US	ECDICT n.	false	true					not_in_intersection
+cutting	切削	切削	8091	[url]	qie xiao	69	UK,US	ECDICT n.	false	true					not_in_intersection
+cycle	环	環；週期	8108	[url]	huan	12151	UK,US	ECDICT n.	false	true					not_in_intersection
+damage	伤害	傷害	8244	[url]	shang hai	14041	UK,US	ECDICT n.	false	true				伤害	not_in_intersection
+deafness	聋	聾	8290	[url]	long	641	UK,US	ECDICT n.	false	true	D003638	Deafness	C09.218.458.341.186,C10.597.751.418.341.186,C23.888.592.763.393.341.186		not_in_intersection
+death	死亡	死亡	8293	[url]	si wang	18210	UK,US	ECDICT n.	false	true	D003643	Death	C23.550.260	死亡	exact_ECDICT_noun_gloss_and_MeSH_term
+debris	碎屑	碎屑；碎片	8300	[url]	sui xie	314	UK,US	ECDICT n.	false	true					not_in_intersection
+debris	碎片	碎屑；碎片	8300	[url]	sui pian	2369	UK,US	ECDICT n.	false	true				碎片	not_in_intersection
+decapitation	分泌	分泌	8305	[url]	fen mi	784	UK,US	ECDICT n.	false	true	D049248	Decapitation	C26.986.224		not_in_intersection
+decay	衰退	衰退	8308	[url]	shuai tui	869	UK,US	ECDICT n.	false	true				衰退	not_in_intersection
+decomposition	分解	分解	8327	[url]	fen jie	2364	UK,US	ECDICT n.	false	true				分解	not_in_intersection
+defense	防卫	防衛	8390	[url]	fang wei	2543	US	ECDICT n.	false	true				防卫	not_in_intersection
+deficiency	缺乏	缺乏；不足	8400	[url]	que fa	6458	UK,US	ECDICT n.	false	true				缺乏	not_in_intersection
+deficit	不足	不足；短缺	8402	[url]	bu zu	8087	UK,US	ECDICT n.	false	true					not_in_intersection
+deficit	短缺	不足；短缺	8402	[url]	duan que	917	UK,US	ECDICT n.	false	true					not_in_intersection
+definition	分界	定義；分界	8403	[url]	fen jie	541	UK,US	ECDICT n.	false	true					not_in_intersection
+definition	定义	定義；分界	8403	[url]	ding yi	10334	UK,US	ECDICT n.	false	true				定义	not_in_intersection
+deflection	偏向	偏轉；偏向	8405	[url]	pian xiang	1076	UK,US	ECDICT n.	false	true				偏向	not_in_intersection
+deflection	偏转	偏轉；偏向	8405	[url]	pian zhuan	101	UK,US	ECDICT n.	false	true					not_in_intersection
+deformity	变形	變形	8409	[url]	bian xing	3996	UK,US	ECDICT n.	false	true	D000013	Congenital Abnormalities	C16.131		not_in_intersection
+degeneration	变性	變性；變質；退化	8410	[url]	bian xing	454	UK,US	ECDICT n.	false	true					not_in_intersection
+degeneration	变质	變性；變質；退化	8410	[url]	bian zhi	596	UK,US	ECDICT n.	false	true					not_in_intersection
+dehydration	脱水	脫水	8427	[url]	tuo shui	210	UK,US	ECDICT n.	false	true	D003681	Dehydration	C18.452.950.179,C23.550.274	脱水	exact_ECDICT_noun_gloss_and_MeSH_term
+delivery	分娩	分娩	8473	[url]	fen mian	417	UK,US	ECDICT n.	false	true				分娩	not_in_intersection
+delta	三角形	丁型；三角形	8478	[url]	san jiao xing	1631	UK,US	ECDICT n.	false	true					not_in_intersection
+delusion	幻想	幻想；妄想	8488	[url]	huan xiang	5198	UK,US	ECDICT n.	false	true	D003702	Delusions	F01.145.126.200		not_in_intersection
+denture	假牙	義齒；假牙	8636	[url]	jia ya	342	UK,US	ECDICT n.	false	true	D003778	Dentures	E06.780.346.760,E07.695.190.200		not_in_intersection
+dependent	依赖	依賴	8651	[url]	yi lai	3748	UK,US	ECDICT n.	false	true					not_in_intersection
+depletion	缺乏	空竭；缺乏	8656	[url]	que fa	6458	UK,US	ECDICT n.	false	true					not_in_intersection
+deposit	沉淀	沉澱；沉積	8660	[url]	chen dian	1281	UK,US	ECDICT n.	false	true					not_in_intersection
+deposition	沉积	沉著；沉積	8661	[url]	chen ji	823	UK,US	ECDICT n.	false	true					not_in_intersection
+depot	贮存	貯存	8662	[url]	zhu cun	195	UK,US	ECDICT n.	false	true					not_in_intersection
+depression	凹陷	凹陷；憂鬱	8667	[url]	ao xian	348	UK,US	ECDICT n.	false	true	D003863	Depression	F01.145.126.350,F01.470.282		not_in_intersection
+depression	忧郁	凹陷；憂鬱	8667	[url]	you yu	2765	UK,US	ECDICT n.	false	true	D003863	Depression	F01.145.126.350,F01.470.282		not_in_intersection
+development	发育	發育；長成	8844	[url]	fa yu	2529	UK,US	ECDICT n.	false	true					not_in_intersection
+deviation	偏斜	偏離；偏斜	8848	[url]	pian xie	40	UK,US	ECDICT n.	false	true					not_in_intersection
+deviation	偏离	偏離；偏斜	8848	[url]	pian li	478	UK,US	ECDICT n.	false	true					not_in_intersection
+differentiation	分化	分化；鑑別	8966	[url]	fen hua	911	UK,US	ECDICT n.	false	true				分化	not_in_intersection
+differentiation	鉴别	分化；鑑別	8966	[url]	jian bie	178	UK,US	ECDICT n.	false	true					not_in_intersection
+digestion	消化	消化	8998	[url]	xiao hua	3092	UK,US	ECDICT n.	false	true	D004063	Digestion	G07.203.650.250,G10.261.190		not_in_intersection
+disc	板	盤；板	9120	[url]	ban	11459	UK,US	ECDICT n.	false	true					not_in_intersection
+disc	盘	盤；板	9120	[url]	pan	15217	UK,US	ECDICT n.	false	true					not_in_intersection
+discoloration	变色	變色	9132	[url]	bian se	731	UK,US	ECDICT n.	false	true				变色	not_in_intersection
+dish	碟	碟；皿	9147	[url]	die	2704	UK,US	ECDICT n.	false	true					not_in_intersection
+disintegration	分裂	分解；分裂	9150	[url]	fen lie	2936	UK,US	ECDICT n.	false	true					not_in_intersection
+disintegration	分解	分解；分裂	9150	[url]	fen jie	2364	UK,US	ECDICT n.	false	true					not_in_intersection
+dislocation	脱位	脫位	9157	[url]	tuo wei	16	UK,US	ECDICT n.	false	true					not_in_intersection
+disorder	病症	病症；障礙	9164	[url]	bing zheng	403	UK,US	ECDICT n.	false	true					not_in_intersection
+disorder	障碍	病症；障礙	9164	[url]	zhang ai	3326	UK,US	ECDICT n.	false	true					not_in_intersection
+dispersion	分散	分散	9173	[url]	fen san	2126	UK,US	ECDICT n.	false	true					not_in_intersection
+displacement	移位	移位	9176	[url]	yi wei	164	UK,US	ECDICT n.	false	true				移位	not_in_intersection
+dissection	分割	分割；剝離	9187	[url]	fen ge	2629	UK,US	ECDICT n.	false	true	D004210	Dissection	E01.370.225.998.221,E04.221,E05.200.998.221		not_in_intersection
+dissection	剥离	分割；剝離	9187	[url]	bo li	355	UK,US	ECDICT n.	false	true	D004210	Dissection	E01.370.225.998.221,E04.221,E05.200.998.221		not_in_intersection
+distress	困苦	困苦；窘迫	9238	[url]	kun ku	166	UK,US	ECDICT n.	false	true					not_in_intersection
+distress	窘迫	困苦；窘迫	9238	[url]	jiong po	168	UK,US	ECDICT n.	false	true					not_in_intersection
+distribution	分布	分布	9239	[url]	fen bu	20635	UK,US	ECDICT n.	false	true					not_in_intersection
+disturbance	障碍	障礙	9243	[url]	zhang ai	3326	UK,US	ECDICT n.	false	true					not_in_intersection
+division	分裂	分裂；切斷術	9272	[url]	fen lie	2936	UK,US	ECDICT n.	false	true					not_in_intersection
+doctrine	学说	學說	9294	[url]	xue shuo	762	UK,US	ECDICT n.	false	true				学说	not_in_intersection
+down	胎毛	胎毛	9421	[url]	tai mao	3	UK,US	ECDICT n.	false	true					not_in_intersection
+drainage	引流	引流	9431	[url]	yin liu	119	UK,US	ECDICT n.	false	true	D004322	Drainage	E02.309,E04.237		not_in_intersection
+dressing	包扎	包紮；敷料	9436	[url]	bao za	76	UK,US	ECDICT n.	false	true	D001458	Bandages	E07.101		not_in_intersection
+drop	下垂	滴劑；下垂	9441	[url]	xia chui	600	UK,US	ECDICT n.	false	true					not_in_intersection
+duct	管	管	9487	[url]	guan	35124	UK,US	ECDICT n.	false	true					not_in_intersection
+dust	粉	塵；粉	9581	[url]	fen	6828	UK,US	ECDICT n.	false	true	D004391	Dust	D20.633.222		not_in_intersection
+ejection	射出	射出	10041	[url]	she chu	443	UK,US	ECDICT n.	false	true					not_in_intersection
+emulsions	乳化	乳化	10249	[url]	ru hua	24	UK	ECDICT n.	false	true	D004655	Emulsions	D20.280.260,D26.255.165.260		not_in_intersection
+end	终端	端；終端	10295	[url]	zhong duan	847	UK,US	ECDICT n.	false	true					not_in_intersection
+enrichment	浓缩	富集；濃縮；強化{食品}；增菌法	10437	[url]	nong suo	606	UK,US	ECDICT n.	false	true					not_in_intersection
+ephedrine	麻黄	麻黃	10566	[url]	ma huang	151	UK,US	ECDICT n.	false	true	D004809	Ephedrine	D02.033.100.624.302,D02.033.755.624.302,D02.092.063.624.302,D02.092.471.683.430		not_in_intersection
+episode	发作	偶發事件；發作	10726	[url]	fa zuo	1171	UK,US	ECDICT n.	false	true					not_in_intersection
+evacuation	排除	排除；清空	11137	[url]	pai chu	2842	UK,US	ECDICT n.	false	true					not_in_intersection
+evacuation	清空	排除；清空	11137	[url]	qing kong	888	UK,US	ECDICT n.	false	true					not_in_intersection
+evolution	演化	演化	11143	[url]	yan hua	2391	UK,US	ECDICT n.	false	true					not_in_intersection
+examination	检查	檢查；診察	11148	[url]	jian cha	10063	UK,US	ECDICT n.	false	true					not_in_intersection
+examination	诊察	檢查；診察	11148	[url]	zhen cha	26	UK,US	ECDICT n.	false	true					not_in_intersection
+excess	过度	過度	11158	[url]	guo du	4290	US	ECDICT n.	false	true				过度	not_in_intersection
+exercise	操练	運動；操練	11186	[url]	cao lian	232	UK,US	ECDICT n.	false	true	D015444	Exercise	G11.427.410.698.277		not_in_intersection
+exhaustion	疲惫	衰竭；疲憊	11202	[url]	pi bei	1479	UK,US	ECDICT n.	false	true				疲惫	not_in_intersection
+expansion	膨胀	膨脹	11235	[url]	peng zhang	2626	UK,US	ECDICT n.	false	true				膨胀	not_in_intersection
+exposure	感光	曝露；感光	11248	[url]	gan guang	290	UK,US	ECDICT n.	false	true					not_in_intersection
+extremities	肢体	肢體	11405	[url]	zhi ti	566	UK,US	ECDICT n.	false	true	D005121	Extremities	A01.378		not_in_intersection
+extremity	末端	肢；末端	11406	[url]	mo duan	1304	UK,US	ECDICT n.	false	true	D005121	Extremities	A01.378		not_in_intersection
+extremity	肢	肢；末端	11406	[url]	zhi	664	UK,US	ECDICT n.	false	true	D005121	Extremities	A01.378		not_in_intersection
+famine	饥饿	飢餓	11593	[url]	ji e	1527	UK,US	ECDICT n.	false	true				饥饿	not_in_intersection
+feathers	羽毛	羽毛	11672	[url]	yu mao	1171	UK,US	ECDICT n.	false	true	D005241	Feathers	A13.370		not_in_intersection
+field	范围	範圍；視野	11860	[url]	fan wei	22166	UK,US	ECDICT n.	false	true					not_in_intersection
+field	视野	範圍；視野	11860	[url]	shi ye	1540	UK,US	ECDICT n.	false	true					not_in_intersection
+figure	图	圖	11872	[url]	tu	64050	UK,US	ECDICT n.	false	true					not_in_intersection
+filament	丝	絲	11876	[url]	si	16232	UK,US	ECDICT n.	false	true					not_in_intersection
+finger	指	指	11898	[url]	zhi	40849	UK,US	ECDICT n.	false	true	D005385	Fingers	A01.378.800.667.430		not_in_intersection
+fission	分裂	分裂	11923	[url]	fen lie	2936	UK,US	ECDICT n.	false	true				分裂	not_in_intersection
+fissure	裂	裂；裂隙	11978	[url]	lie	3096	UK,US	ECDICT n.	false	true					not_in_intersection
+fissure	裂隙	裂；裂隙	11978	[url]	lie xi	82	UK,US	ECDICT n.	false	true					not_in_intersection
+fitting	装置	裝置；配備	11990	[url]	zhuang zhi	6643	UK,US	ECDICT n.	false	true				装置	not_in_intersection
+fitting	配备	裝置；配備	11990	[url]	pei bei	3595	UK,US	ECDICT n.	false	true					not_in_intersection
+flake	片	片	12020	[url]	pian	41285	UK,US	ECDICT n.	false	true					not_in_intersection
+flap	片	瓣；片	12027	[url]	pian	41285	UK,US	ECDICT n.	false	true					not_in_intersection
+flap	瓣	瓣；片	12027	[url]	ban	1428	UK,US	ECDICT n.	false	true					not_in_intersection
+flare	发红	發紅	12029	[url]	fa hong	347	UK,US	ECDICT n.	false	true					not_in_intersection
+floor	底部	底部	12072	[url]	di bu	1543	UK,US	ECDICT n.	false	true				底部	not_in_intersection
+flora	菌落	菌落	12076	[url]	jun luo	64	UK,US	ECDICT n.	false	true					not_in_intersection
+fluid	液体	液體	12085	[url]	ye ti	2014	UK,US	ECDICT n.	false	true				液体	not_in_intersection
+follicle	囊	濾泡；囊	12145	[url]	nang	2478	UK,US	ECDICT n.	false	true					not_in_intersection
+force	力	力	12226	[url]	li	28452	UK,US	ECDICT n.	false	true					not_in_intersection
+forceps	镊子	鑷子	12236	[url]	nie zi	112	UK,US	ECDICT n.	false	true	D013525	Surgical Instruments	E07.858.700	镊子	exact_ECDICT_noun_gloss_and_MeSH_term
+formation	形成	形成	12258	[url]	xing cheng	18279	UK,US	ECDICT n.	false	true				形成	not_in_intersection
+frame	支架	支架	12328	[url]	zhi jia	394	UK,US	ECDICT n.	false	true					not_in_intersection
+fright	惊吓	驚嚇	12378	[url]	jing xia	1271	UK,US	ECDICT n.	false	true					not_in_intersection
+frostbite	冻疮	凍瘡	12405	[url]	dong chuang	7	UK,US	ECDICT n.	false	true	D005627	Frostbite	C26.212.500,C26.417	冻疮	exact_ECDICT_noun_gloss_and_MeSH_term
+fume	烟	煙	12438	[url]	yan	5506	UK,US	ECDICT n.	false	true					not_in_intersection
+fusion	融合	融合	12525	[url]	rong he	3408	UK,US	ECDICT n.	false	true					not_in_intersection
+gall	胆汁	膽汁	12551	[url]	dan zhi	64	UK,US	ECDICT n.	false	true				胆汁	not_in_intersection
+genetics	基因	基因	12764	[url]	ji yin	5184	UK,US	ECDICT n.	false	true					not_in_intersection
+germ	微生物	微生物；菌；胚	12819	[url]	wei sheng wu	972	UK,US	ECDICT n.	false	true					not_in_intersection
+germ	胚	微生物；菌；胚	12819	[url]	pei	389	UK,US	ECDICT n.	false	true					not_in_intersection
+germ	菌	微生物；菌；胚	12819	[url]	jun	3845	UK,US	ECDICT n.	false	true					not_in_intersection
+girdle	带	帶；束帶	12883	[url]	dai	225834	UK,US	ECDICT n.	false	true					not_in_intersection
+glide	滑动	滑動	12921	[url]	hua dong	645	UK,US	ECDICT n.	false	true				滑动	not_in_intersection
+glomerulus	小球	小球；腎絲球	12957	[url]	xiao qiu	323	UK	ECDICT n.	false	true				小球	not_in_intersection
+grandeur	夸大	誇大	13139	[url]	kua da	517	UK,US	ECDICT n.	false	true					not_in_intersection
+grief	悲恸	悲慟	13255	[url]	bei tong	39	UK,US	ECDICT n.	false	true	D006117	Grief	F01.470.142.110		not_in_intersection
+growth	生长	生長	13289	[url]	sheng zhang	5463	UK,US	ECDICT n.	false	true	D006128	Growth	G07.345.249	生长	exact_ECDICT_noun_gloss_and_MeSH_term
+gutter	槽	溝；槽	13355	[url]	cao	2523	UK,US	ECDICT n.	false	true					not_in_intersection
+gutter	沟	溝；槽	13355	[url]	gou	5713	UK,US	ECDICT n.	false	true					not_in_intersection
+habit	体型	習慣；體型	13380	[url]	ti xing	2561	UK,US	ECDICT n.	false	true	D006184	Habits	F01.145.466		not_in_intersection
+halo	晕	暈	13470	[url]	yun	12978	UK,US	ECDICT n.	false	true					not_in_intersection
+handicap	残障	障礙；殘障	13513	[url]	can zhang	438	UK,US	ECDICT n.	false	true					not_in_intersection
+handicap	障碍	障礙；殘障	13513	[url]	zhang ai	3326	UK,US	ECDICT n.	false	true				障碍	not_in_intersection
+hazard	危害	危害	13562	[url]	wei hai	1833	UK,US	ECDICT n.	false	true					not_in_intersection
+headgear	头套	頭套	13568	[url]	tou tao	515	UK,US	ECDICT n.	false	true					not_in_intersection
+health	健康	健康；衛生	13572	[url]	jian kang	31355	UK,US	ECDICT n.	false	true	D006262	Health	N01.400	健康	exact_ECDICT_noun_gloss_and_MeSH_term
+health	卫生	健康；衛生	13572	[url]	wei sheng	11569	UK,US	ECDICT n.	false	true	D006262	Health	N01.400	卫生	exact_ECDICT_noun_gloss_and_MeSH_term
+hearing	听	聽	13590	[url]	ting	110700	UK,US	ECDICT n.	false	true	D006309	Hearing	F02.830.816.263,G07.888.500,G11.561.790.263		not_in_intersection
+heat	热	熱	13607	[url]	re	66271	UK,US	ECDICT n.	false	true	D006358	Hot Temperature	G01.906.595.543,G16.500.275.063.725.710.380,G16.500.750.775.710.380,N06.230.300.100.725.232,N06.230.300.100.725.710.380		not_in_intersection
+hemoglobin	血红素	血色素；血紅素	13735	[url]	xue hong su	78	US	ECDICT n.	false	true	D006454	Hemoglobins	D12.776.124.400,D12.776.422.316.762		not_in_intersection
+hemorrhage	出血	出血	13756	[url]	chu xue	681	US	ECDICT n.	false	true	D006470	Hemorrhage	C23.550.414	出血	exact_ECDICT_noun_gloss_and_MeSH_term
+hemorrhoid	痔	痔	13785	[url]	zhi	117	US	ECDICT n.	false	true	D006484	Hemorrhoids	C06.405.469.860.401,C14.907.449		not_in_intersection
+herd	群	羣	13869	[url]	qun	24195	UK,US	ECDICT n.	false	true					not_in_intersection
+hibernation	冬眠	冬眠	14011	[url]	dong mian	1497	UK,US	ECDICT n.	false	true	D006605	Hibernation	G07.110.232.889.500,G07.410.421.889.500,G16.012.500.535.889.500	冬眠	exact_ECDICT_noun_gloss_and_MeSH_term
+hierarchy	分层	分層；譜系	14023	[url]	fen ceng	365	UK,US	ECDICT n.	false	true					not_in_intersection
+hierarchy	谱系	分層；譜系	14023	[url]	pu xi	250	UK,US	ECDICT n.	false	true					not_in_intersection
+hollow	凹陷	凹陷；空洞	14130	[url]	ao xian	348	UK,US	ECDICT n.	false	true					not_in_intersection
+hominid	人类	人類	14153	[url]	ren lei	22661	UK,US	ECDICT n.	false	true					not_in_intersection
+horseshoe	马蹄	蹄鐵；馬蹄	14233	[url]	ma ti	449	UK,US	ECDICT n.	false	true					not_in_intersection
+human	人	人；人的	14267	[url]	ren	1060110	UK,US	ECDICT n.	false	true					not_in_intersection
+human	人的	人；人的	14267	[url]	ren de	48885	UK,US	ECDICT n.	false	true					not_in_intersection
+hypertrophy	肥厚	肥大；肥厚	14586	[url]	fei hou	67	UK,US	ECDICT n.	false	true	D006984	Hypertrophy	C23.300.775		not_in_intersection
+hypoxia	缺氧	缺氧	14703	[url]	que yang	204	UK,US	ECDICT n.	false	true	D000860	Hypoxia	C23.888.852.079		not_in_intersection
+ill	病	病	14826	[url]	bing	25470	UK,US	ECDICT n.	false	true					not_in_intersection
+impulse	搏动	衝動；搏動	14930	[url]	bo dong	12	UK,US	ECDICT n.	false	true					not_in_intersection
+incision	切开	切開；切開術	14962	[url]	qie kai	540	UK,US	ECDICT n.	false	true					not_in_intersection
+incisor	门牙	門牙	14980	[url]	men ya	864	UK,US	ECDICT n.	false	true	D007180	Incisor	A14.549.167.860.425	门牙	exact_ECDICT_noun_gloss_and_MeSH_term
+inclusion	包涵	包涵；包涵物	14986	[url]	bao han	64	UK,US	ECDICT n.	false	true					not_in_intersection
+incubation	孵育	潛伏；孵育	15018	[url]	fu yu	27	UK,US	ECDICT n.	false	true					not_in_intersection
+incubation	潜伏	潛伏；孵育	15018	[url]	qian fu	760	UK,US	ECDICT n.	false	true					not_in_intersection
+index	食指	指數；食指	15031	[url]	shi zhi	132	UK,US	ECDICT n.	false	true					not_in_intersection
+indicator	食指	指示劑；食指	15035	[url]	shi zhi	132	UK,US	ECDICT n.	false	true	D007202	Indicators and Reagents	D27.720.470.410		not_in_intersection
+infection	感染	感染	15094	[url]	gan ran	7751	UK,US	ECDICT n.	false	true	D007239	Infections	C01		not_in_intersection
+infiltration	浸润	浸潤	15171	[url]	jin run	99	UK,US	ECDICT n.	false	true					not_in_intersection
+inheritance	遗传	遺傳	15222	[url]	yi chuan	2695	UK,US	ECDICT n.	false	true				遗传	not_in_intersection
+institution	协会	設施裝備；公共機構；協會；學院	15252	[url]	xie hui	22441	UK,US	ECDICT n.	false	true					not_in_intersection
+institution	学院	設施裝備；公共機構；協會；學院	15252	[url]	xue yuan	40165	UK,US	ECDICT n.	false	true					not_in_intersection
+instrument	器械	器械	15253	[url]	qi xie	631	UK,US	ECDICT n.	false	true					not_in_intersection
+insult	发作	發作	15259	[url]	fa zuo	1171	US	ECDICT n.	false	true					not_in_intersection
+interference	干扰	干擾	15306	[url]	gan rao	2100	UK,US	ECDICT n.	false	true					not_in_intersection
+intervention	介入	介入	15479	[url]	jie ru	1884	UK,US	ECDICT n.	false	true				介入	not_in_intersection
+inverse	反常	反常	15658	[url]	fan chang	368	US	ECDICT n.	false	true					not_in_intersection
+isthmus	峡	峽	15778	[url]	xia	824	UK,US	ECDICT n.	false	true					not_in_intersection
+jelly	胶	膠	15839	[url]	jiao	3686	UK,US	ECDICT n.	false	true					not_in_intersection
+jet	喷射	噴射	15849	[url]	pen she	840	UK,US	ECDICT n.	false	true					not_in_intersection
+juice	液	汁；液	15892	[url]	ye	4135	UK,US	ECDICT n.	false	true					not_in_intersection
+kink	扭结	扭結	16014	[url]	niu jie	18	UK	ECDICT n.	false	true				扭结	not_in_intersection
+kit	组	組	16018	[url]	zu	47048	UK,US	ECDICT n.	false	true					not_in_intersection
+labor	分娩	分娩；生產	16093	[url]	fen mian	417	UK,US	ECDICT n.	false	true				分娩	not_in_intersection
+labor	生产	分娩；生產	16093	[url]	sheng chan	21992	UK,US	ECDICT n.	false	true					not_in_intersection
+labyrinth	迷路	迷路	16098	[url]	mi lu	2594	UK,US	ECDICT n.	false	true	D007758	Ear, Inner	A09.246.300	迷路	exact_ECDICT_noun_gloss_and_MeSH_term
+laceration	撕裂	撕裂	16107	[url]	si lie	336	UK,US	ECDICT n.	false	true	D022125	Lacerations	C26.540		not_in_intersection
+lamina	层	層	16153	[url]	ceng	18410	UK,US	ECDICT n.	false	true					not_in_intersection
+larynx	喉	喉	16215	[url]	hou	1436	UK,US	ECDICT n.	false	true	D007830	Larynx	A04.329		not_in_intersection
+ledge	板	板	16300	[url]	ban	11459	UK,US	ECDICT n.	false	true					not_in_intersection
+lien	脾	脾	16449	[url]	pi	234	UK,US	ECDICT n.	false	true					not_in_intersection
+lines	线	線	16548	[url]	xian	100555	UK,US	ECDICT n.	false	true					not_in_intersection
+linkage	连结	連結；鍵結	16572	[url]	lian jie	2888	UK,US	ECDICT n.	false	true					not_in_intersection
+liquor	液	液	16614	[url]	ye	4135	UK,US	ECDICT n.	false	true					not_in_intersection
+lobe	叶	葉	16644	[url]	ye	24213	UK,US	ECDICT n.	false	true					not_in_intersection
+loop	圈	圈；環	16728	[url]	quan	42956	UK,US	ECDICT n.	false	true					not_in_intersection
+loop	环	圈；環	16728	[url]	huan	12151	UK,US	ECDICT n.	false	true					not_in_intersection
+looseness	松弛	鬆弛	16737	[url]	song chi	376	UK	ECDICT n.	false	true				松弛	not_in_intersection
+loss	丧失	缺失；喪失	16741	[url]	sang shi	1923	UK,US	ECDICT n.	false	true					not_in_intersection
+loss	缺失	缺失；喪失	16741	[url]	que shi	863	UK,US	ECDICT n.	false	true					not_in_intersection
+macula	斑	斑	17020	[url]	ban	5012	UK	ECDICT n.	false	true					not_in_intersection
+major	大的	大的；主要的	17064	[url]	da de	33508	UK,US	ECDICT n.	false	true					not_in_intersection
+malady	病	病	17077	[url]	bing	25470	UK,US	ECDICT n.	false	true					not_in_intersection
+man	人	人	17181	[url]	ren	1060110	UK,US	ECDICT n.	false	true					not_in_intersection
+mane	上午	上午	17266	[url]	shang wu	18244	UK,US	ECDICT n.	false	true					not_in_intersection
+mantle	外套	外套；套膜	17287	[url]	wai tao	8274	UK,US	ECDICT n.	false	true					not_in_intersection
+march	前进	前進	17311	[url]	qian jin	4636	UK,US	ECDICT n.	false	true					not_in_intersection
+marker	标记	標記；特徵	17348	[url]	biao ji	2937	UK,US	ECDICT n.	false	true				标记	not_in_intersection
+marker	特征	標記；特徵	17348	[url]	te zheng	7688	UK,US	ECDICT n.	false	true					not_in_intersection
+mass	块	量；塊	17370	[url]	kuai	20195	UK,US	ECDICT n.	false	true					not_in_intersection
+mass	量	量；塊	17370	[url]	liang	21646	UK,US	ECDICT n.	false	true					not_in_intersection
+material	物质	物質	17419	[url]	wu zhi	7395	UK,US	ECDICT n.	false	true					not_in_intersection
+media	中层	介質；中層	17527	[url]	zhong ceng	631	UK,US	ECDICT n.	false	true					not_in_intersection
+media	介质	介質；中層	17527	[url]	jie zhi	621	UK,US	ECDICT n.	false	true					not_in_intersection
+medicine	内科学	醫學；內科學；藥物	17629	[url]	nei ke xue	62	UK,US	ECDICT n.	false	true					not_in_intersection
+medicine	药物	醫學；內科學；藥物	17629	[url]	yao wu	4996	UK,US	ECDICT n.	false	true					not_in_intersection
+medulla	髓	髓；延髓	17644	[url]	sui	266	UK,US	ECDICT n.	false	true					not_in_intersection
+member	肢	肢；會員	17711	[url]	zhi	664	UK,US	ECDICT n.	false	true					not_in_intersection
+minor	小的	小的；少量的	18173	[url]	xiao de	13707	UK,US	ECDICT n.	false	true					not_in_intersection
+mood	情感	情感	18350	[url]	qing gan	5430	UK,US	ECDICT n.	false	true	D000339	Affect	F01.470.047		not_in_intersection
+motion	运动	運動	18421	[url]	yun dong	46199	UK,US	ECDICT n.	false	true	D009038	Motion	G01.482		not_in_intersection
+motor	运动	運動	18436	[url]	yun dong	46199	UK,US	ECDICT n.	false	true					not_in_intersection
+movement	运动	運動；動作	18472	[url]	yun dong	46199	UK,US	ECDICT n.	false	true	D009068	Movement	G07.568,G11.427.410	运动	exact_ECDICT_noun_gloss_and_MeSH_term
+multiple	多的	多發的；多的	18535	[url]	duo de	29102	UK,US	ECDICT n.	false	true					not_in_intersection
+multiplication	增殖	增殖；繁殖	18549	[url]	zeng zhi	375	UK,US	ECDICT n.	false	true					not_in_intersection
+multiplication	繁殖	增殖；繁殖	18549	[url]	fan zhi	1988	UK,US	ECDICT n.	false	true					not_in_intersection
+mutation	突变	突變	18895	[url]	tu bian	626	UK,US	ECDICT n.	false	true	D009154	Mutation	G05.365.590	突变	exact_ECDICT_noun_gloss_and_MeSH_term
+nail	指甲	指甲；趾甲	19095	[url]	zhi jia	7060	UK,US	ECDICT n.	false	true	D009262	Nails	A17.600	指甲	exact_ECDICT_noun_gloss_and_MeSH_term
+nail	趾甲	指甲；趾甲	19095	[url]	zhi jia	8	UK,US	ECDICT n.	false	true	D009262	Nails	A17.600		not_in_intersection
+neonate	新生儿	新生兒	19277	[url]	xin sheng er	409	UK	ECDICT n.	false	true					not_in_intersection
+nickel	镊	鑷	19643	[url]	nie	50	UK,US	ECDICT n.	false	true	D009532	Nickel	D01.268.556.607,D01.268.956.625,D01.552.544.607		not_in_intersection
+node	结	結；結節	19698	[url]	jie	14042	UK,US	ECDICT n.	false	true					not_in_intersection
+node	结节	結；結節	19698	[url]	jie jie	257	UK,US	ECDICT n.	false	true				结节	not_in_intersection
+nodule	小结	小結	19717	[url]	xiao jie	129	UK,US	ECDICT n.	false	true					not_in_intersection
+normal	正常的	正常的	19785	[url]	zheng chang de	6033	UK,US	ECDICT n.	false	true					not_in_intersection
+note	符号	符號；音	19809	[url]	fu hao	4029	UK,US	ECDICT n.	false	true				符号	not_in_intersection
+note	音	符號；音	19809	[url]	yin	17299	UK,US	ECDICT n.	false	true					not_in_intersection
+nuisance	公害	公害	19844	[url]	gong hai	185	UK,US	ECDICT n.	false	true					not_in_intersection
+nursing	哺乳	看護；哺乳	19854	[url]	bu ru	1308	UK,US	ECDICT n.	false	true	D009729	Nursing	N04.452.758.377		not_in_intersection
+nursing	看护	看護；哺乳	19854	[url]	kan hu	533	UK,US	ECDICT n.	false	true	D009729	Nursing	N04.452.758.377	看护	exact_ECDICT_noun_gloss_and_MeSH_term
+oat	燕麦	燕麥	19888	[url]	yan mai	954	UK,US	ECDICT n.	false	true				燕麦	not_in_intersection
+obstruction	梗塞	阻塞；梗塞	19920	[url]	geng se	267	UK,US	ECDICT n.	false	true					not_in_intersection
+obstruction	阻塞	阻塞；梗塞	19920	[url]	zu se	702	UK,US	ECDICT n.	false	true					not_in_intersection
+occlusion	闭塞	咬合；閉塞	19968	[url]	bi se	836	UK,US	ECDICT n.	false	true				闭塞	not_in_intersection
+oedema	水肿	水腫	20050	[url]	shui zhong	104	UK	ECDICT n.	false	true				水肿	not_in_intersection
+opacity	混浊	混濁	20192	[url]	hun zhuo	154	UK,US	ECDICT n.	false	true					not_in_intersection
+organization	有机体	有機體；機構	20358	[url]	you ji ti	63	US	ECDICT n.	false	true	D009938	Organizations	N03.540		not_in_intersection
+os	骨	骨	20416	[url]	gu	6345	US	ECDICT n.	false	true					not_in_intersection
+oscillation	摆动	震動；擺動	20455	[url]	bai dong	283	UK,US	ECDICT n.	false	true					not_in_intersection
+oscillation	震动	震動；擺動	20455	[url]	zhen dong	1123	UK,US	ECDICT n.	false	true					not_in_intersection
+panic	恐惧	恐懼	20879	[url]	kong ju	6509	UK,US	ECDICT n.	false	true	D010200	Panic	F01.470.361.585		not_in_intersection
+papilla	乳突	乳頭；乳突	20906	[url]	ru tu	83	UK	ECDICT n.	false	true					not_in_intersection
+parallelism	平行	平行	21062	[url]	ping xing	2562	US	ECDICT n.	false	true				平行	not_in_intersection
+passage	路	通道；路	21308	[url]	lu	63513	UK,US	ECDICT n.	false	true					not_in_intersection
+patch	斑	斑	21335	[url]	ban	5012	UK,US	ECDICT n.	false	true					not_in_intersection
+pathway	路径	路徑	21374	[url]	lu jing	1892	UK,US	ECDICT n.	false	true				路径	not_in_intersection
+pattern	型	型；範型	21376	[url]	xing	43103	UK,US	ECDICT n.	false	true					not_in_intersection
+paucity	缺乏	缺乏	21382	[url]	que fa	6458	UK,US	ECDICT n.	false	true				缺乏	not_in_intersection
+pedigree	系谱	系譜	21429	[url]	xi pu	199	UK,US	ECDICT n.	false	true	D010375	Pedigree	E05.393.673		not_in_intersection
+peg	栓	釘；栓；樁	21439	[url]	shuan	1100	UK,US	ECDICT n.	false	true					not_in_intersection
+peg	桩	釘；栓；樁	21439	[url]	zhuang	1520	UK,US	ECDICT n.	false	true					not_in_intersection
+peg	钉	釘；栓；樁	21439	[url]	ding	1885	UK,US	ECDICT n.	false	true					not_in_intersection
+pesticide	杀虫剂	殺蟲劑	21834	[url]	sha chong ji	281	UK,US	ECDICT n.	false	true	D010575	Pesticides	D27.720.031.700,D27.888.723	杀虫剂	exact_ECDICT_noun_gloss_and_MeSH_term
+phantom	幻觉	幻象；幻覺	21903	[url]	huan jue	1622	UK,US	ECDICT n.	false	true					not_in_intersection
+phantom	幻象	幻象；幻覺	21903	[url]	huan xiang	399	UK,US	ECDICT n.	false	true					not_in_intersection
+phase	期	期；相	21932	[url]	qi	28676	UK,US	ECDICT n.	false	true					not_in_intersection
+phenol	石炭酸	酚；石炭酸	21936	[url]	shi tan suan	6	UK,US	ECDICT n.	false	true	D019800	Phenol	D02.455.426.559.389.657.595	石炭酸	exact_ECDICT_noun_gloss_and_MeSH_term
+photo	光	光	22018	[url]	guang	47644	UK,US	ECDICT n.	false	true					not_in_intersection
+phylum	门	門	22106	[url]	men	42711	UK,US	ECDICT n.	false	true					not_in_intersection
+physician	医生	醫生	22125	[url]	yi sheng	21572	UK,US	ECDICT n.	false	true	D010820	Physicians	N02.360.810		not_in_intersection
+physiotherapy	物理治疗	物理治療	22145	[url]	wu li zhi liao	148	UK	ECDICT n.	false	true					not_in_intersection
+pier	支柱	支柱	22178	[url]	zhi zhu	665	UK,US	ECDICT n.	false	true					not_in_intersection
+pitch	沥青	瀝青	22326	[url]	li qing	372	UK,US	ECDICT n.	false	true				沥青	not_in_intersection
+plaque	斑	斑	22468	[url]	ban	5012	UK,US	ECDICT n.	false	true					not_in_intersection
+plate	板	板	22521	[url]	ban	11459	UK,US	ECDICT n.	false	true					not_in_intersection
+plateau	平台	平台；高原	22523	[url]	ping tai	14075	UK,US	ECDICT n.	false	true					not_in_intersection
+poly	多的	多的	22767	[url]	duo de	29102	UK,US	ECDICT n.	false	true					not_in_intersection
+pool	池	池	22890	[url]	chi	6549	UK,US	ECDICT n.	false	true					not_in_intersection
+pore	孔	孔	22906	[url]	kong	11577	UK,US	ECDICT n.	false	true					not_in_intersection
+power	能力	力；能力	23169	[url]	neng li	30601	UK,US	ECDICT n.	false	true	D011209	Power, Psychological	F01.658.780		not_in_intersection
+practice	行医	實習；行醫	23173	[url]	xing yi	283	UK,US	ECDICT n.	false	true					not_in_intersection
+precipitation	沉淀	沉澱	23191	[url]	chen dian	1281	UK,US	ECDICT n.	false	true				沉淀	not_in_intersection
+pregnancy	妊娠	妊娠；懷孕	23209	[url]	ren shen	517	UK,US	ECDICT n.	false	true	D011247	Pregnancy	G08.686.784.769		not_in_intersection
+pregnancy	怀孕	妊娠；懷孕	23209	[url]	huai yun	1594	UK,US	ECDICT n.	false	true	D011247	Pregnancy	G08.686.784.769	怀孕	exact_ECDICT_noun_gloss_and_MeSH_term
+premature	早产儿	過早的；早產兒	23228	[url]	zao chan er	89	UK,US	ECDICT n.	false	true				早产儿	not_in_intersection
+preparation	准备	準備	23261	[url]	zhun bei	85828	UK,US	ECDICT n.	false	true				准备	not_in_intersection
+probe	探头	探針；探子；探頭	23414	[url]	tan tou	181	UK,US	ECDICT n.	false	true					not_in_intersection
+probe	探子	探針；探子；探頭	23414	[url]	tan zi	19	UK,US	ECDICT n.	false	true					not_in_intersection
+procedure	处置	處置；程序；步驟	23415	[url]	chu zhi	1305	UK,US	ECDICT n.	false	true	D008722	Methods	E05.581		not_in_intersection
+procedure	步骤	處置；程序；步驟	23415	[url]	bu zhou	984	UK,US	ECDICT n.	false	true	D008722	Methods	E05.581		not_in_intersection
+process	突	突	23417	[url]	tu	2365	US	ECDICT n.	false	true					not_in_intersection
+projection	投射	投射	23474	[url]	tou she	421	UK,US	ECDICT n.	false	true	D011385	Projection	F01.393.693		not_in_intersection
+proliferation	增生	增生	23494	[url]	zeng sheng	310	UK,US	ECDICT n.	false	true					not_in_intersection
+promotion	促进	促進；啟動	23508	[url]	cu jin	6457	UK,US	ECDICT n.	false	true					not_in_intersection
+promotion	启动	促進；啟動	23508	[url]	qi dong	5475	UK,US	ECDICT n.	false	true					not_in_intersection
+protrusion	突出	突出	23614	[url]	tu chu	4158	UK	ECDICT n.	false	true				突出	not_in_intersection
+pulp	髓	髓	23940	[url]	sui	266	UK,US	ECDICT n.	false	true					not_in_intersection
+puncture	刺伤	穿刺；刺傷	23975	[url]	ci shang	346	UK,US	ECDICT n.	false	true	D011677	Punctures	E02.800,E04.665		not_in_intersection
+quiet	宁静	靜的；寧靜	24184	[url]	ning jing	1226	UK,US	ECDICT n.	false	true					not_in_intersection
+radiation	放射	輻射；放射	24238	[url]	fang she	594	UK,US	ECDICT n.	false	true	D011827	Radiation	G01.750		not_in_intersection
+rate	等级	速率；等級	24335	[url]	deng ji	5181	UK,US	ECDICT n.	false	true				等级	not_in_intersection
+ratio	比例	比率；比例	24342	[url]	bi li	6328	UK,US	ECDICT n.	false	true					not_in_intersection
+recombinant	重组	重組	24394	[url]	chong zu	2331	US	ECDICT n.	false	true				重组	not_in_intersection
+reconstruction	改建	改建	24397	[url]	gai jian	3739	UK,US	ECDICT n.	false	true					not_in_intersection
+recovery	复原	恢復；復原	24401	[url]	fu yuan	989	UK,US	ECDICT n.	false	true				复原	not_in_intersection
+reduction	减缩	減縮；還原；整復	24473	[url]	jian suo	17	UK,US	ECDICT n.	false	true					not_in_intersection
+reduction	整复	減縮；還原；整復	24473	[url]	zheng fu	35	UK,US	ECDICT n.	false	true					not_in_intersection
+reduction	还原	減縮；還原；整復	24473	[url]	huan yuan	2053	UK,US	ECDICT n.	false	true					not_in_intersection
+reel	摇摆	蹣跚；搖擺	24479	[url]	yao bai	338	UK,US	ECDICT n.	false	true					not_in_intersection
+reel	蹒跚	蹣跚；搖擺	24479	[url]	pan shan	38	UK,US	ECDICT n.	false	true				蹒跚	not_in_intersection
+refrigeration	冷却	冷卻	24507	[url]	leng que	1427	UK,US	ECDICT n.	false	true	D012034	Refrigeration	E02.792.643,E05.760.643	冷却	exact_ECDICT_noun_gloss_and_MeSH_term
+regeneration	再生	再生	24513	[url]	zai sheng	1048	UK,US	ECDICT n.	false	true	D012038	Regeneration	G16.762	再生	exact_ECDICT_noun_gloss_and_MeSH_term
+region	区	部；區	24515	[url]	qu	170948	UK,US	ECDICT n.	false	true					not_in_intersection
+region	部	部；區	24515	[url]	bu	134687	UK,US	ECDICT n.	false	true					not_in_intersection
+register	音域	註冊；登記；音域	24522	[url]	yin yu	299	UK,US	ECDICT n.	false	true					not_in_intersection
+regular	正常的	規則的；正常的	24526	[url]	zheng chang de	6033	UK,US	ECDICT n.	false	true					not_in_intersection
+regulation	调节	調節	24528	[url]	tiao jie	3365	UK,US	ECDICT n.	false	true	D012926	Social Control, Formal	N03.706		not_in_intersection
+rehabilitation	复健	復健	24537	[url]	fu jian	245	UK,US	ECDICT n.	false	true	D012046	Rehabilitation	E02.760.169.063.500,E02.831,N02.421.784		not_in_intersection
+rejection	排斥	排斥	24552	[url]	pai chi	1109	UK,US	ECDICT n.	false	true					not_in_intersection
+relapse	复发	復發；再發	24553	[url]	fu fa	362	US	ECDICT n.	false	true	D012008	Recurrence	C23.550.291.937	复发	exact_ECDICT_noun_gloss_and_MeSH_term
+relaxation	弛缓	弛緩；鬆弛	24564	[url]	chi huan	11	UK,US	ECDICT n.	false	true					not_in_intersection
+relaxation	松弛	弛緩；鬆弛	24564	[url]	song chi	376	UK,US	ECDICT n.	false	true				松弛	not_in_intersection
+relief	救助	救助；緩解	24572	[url]	jiu zhu	1391	UK,US	ECDICT n.	false	true					not_in_intersection
+relief	缓解	救助；緩解	24572	[url]	huan jie	2380	UK,US	ECDICT n.	false	true					not_in_intersection
+remedy	药	治療物；藥	24574	[url]	yao	19185	UK,US	ECDICT n.	false	true					not_in_intersection
+remnant	残留	殘留；殘留物	24576	[url]	can liu	996	UK,US	ECDICT n.	false	true					not_in_intersection
+replacement	替代	置換；替代	24622	[url]	ti dai	4207	UK,US	ECDICT n.	false	true					not_in_intersection
+replacement	置换	置換；替代	24622	[url]	zhi huan	484	UK,US	ECDICT n.	false	true					not_in_intersection
+requirement	需要	需要；需要量	24633	[url]	xu yao	103142	UK,US	ECDICT n.	false	true					not_in_intersection
+reserve	储量	儲備；儲量	24637	[url]	chu liang	171	US	ECDICT n.	false	true					not_in_intersection
+resonance	反响	反響	24651	[url]	fan xiang	697	UK,US	ECDICT n.	false	true				反响	not_in_intersection
+restoration	恢复	恢復	24695	[url]	hui fu	18517	UK,US	ECDICT n.	false	true				恢复	not_in_intersection
+restriction	限制	限制	24697	[url]	xian zhi	12454	UK,US	ECDICT n.	false	true				限制	not_in_intersection
+resuscitation	复苏	復甦	24703	[url]	fu su	411	UK,US	ECDICT n.	false	true	D012151	Resuscitation	E02.365.647		not_in_intersection
+retention	保留	保留；滯留	24716	[url]	bao liu	9137	UK,US	ECDICT n.	false	true				保留	not_in_intersection
+retention	滞留	保留；滯留	24716	[url]	zhi liu	805	UK,US	ECDICT n.	false	true					not_in_intersection
+reticulum	网	網	24758	[url]	wang	25173	UK	ECDICT n.	false	true	D012159	Reticulum	A13.869.697		not_in_intersection
+reversal	逆转	翻轉；逆轉	24816	[url]	ni zhuan	1119	UK,US	ECDICT n.	false	true					not_in_intersection
+revolution	回转	繞轉；迴轉	24832	[url]	hui zhuan	452	UK,US	ECDICT n.	false	true					not_in_intersection
+rigidity	僵硬	僵硬	24985	[url]	jiang ying	652	UK,US	ECDICT n.	false	true					not_in_intersection
+rim	边缘	邊緣	24989	[url]	bian yuan	3970	UK,US	ECDICT n.	false	true					not_in_intersection
+risk	危险	危險	25011	[url]	wei xian	10896	UK,US	ECDICT n.	false	true	D012306	Risk	E05.318.740.600.800,N05.715.360.750.625.700,N06.850.520.830.600.800	危险	exact_ECDICT_noun_gloss_and_MeSH_term
+rod	杆	桿	25029	[url]	gan	3882	UK,US	ECDICT n.	false	true					not_in_intersection
+roof	盖	頂；蓋	25058	[url]	gai	18456	UK,US	ECDICT n.	false	true					not_in_intersection
+roof	顶	頂；蓋	25058	[url]	ding	15049	UK,US	ECDICT n.	false	true					not_in_intersection
+rubbing	摩擦	摩擦	25143	[url]	mo ca	1490	UK,US	ECDICT n.	false	true				摩擦	not_in_intersection
+rupture	破裂	破裂	25178	[url]	po lie	1172	UK,US	ECDICT n.	false	true	D012421	Rupture	C26.761	破裂	exact_ECDICT_noun_gloss_and_MeSH_term
+sac	囊	囊	25208	[url]	nang	2478	UK,US	ECDICT n.	false	true					not_in_intersection
+scab	疥癣	疥癬	25389	[url]	jie xuan	7	UK,US	ECDICT n.	false	true					not_in_intersection
+sclerosis	硬化	硬化	25540	[url]	ying hua	256	UK,US	ECDICT n.	false	true	D012598	Sclerosis	C23.550.823	硬化	exact_ECDICT_noun_gloss_and_MeSH_term
+section	切片	切面；切片	25669	[url]	qie pian	479	UK,US	ECDICT n.	false	true					not_in_intersection
+sense	觉	覺；感覺	25769	[url]	jue	12405	UK,US	ECDICT n.	false	true					not_in_intersection
+separation	分离	分離	25806	[url]	fen li	4662	UK,US	ECDICT n.	false	true	D004243	Divorce	F01.829.263.315.500.300,N01.224.361.500.300,N01.824.308.500.300	分离	exact_ECDICT_noun_gloss_and_MeSH_term
+shaft	干	幹	25914	[url]	gan	48441	UK,US	ECDICT n.	false	true					not_in_intersection
+sheet	表格	床單；表格；片狀	25936	[url]	biao ge	1027	UK,US	ECDICT n.	false	true					not_in_intersection
+shellfish	贝	貝	25941	[url]	bei	23999	UK,US	ECDICT n.	false	true	D012758	Shellfish	G07.203.300.600.875.700		not_in_intersection
+shunt	分流	分流	25988	[url]	fen liu	708	UK,US	ECDICT n.	false	true				分流	not_in_intersection
+sickness	病	病	26006	[url]	bing	25470	UK,US	ECDICT n.	false	true					not_in_intersection
+simple	单纯的	單純的	26056	[url]	dan chun de	3258	UK,US	ECDICT n.	false	true					not_in_intersection
+situation	地位	處境；地位	26132	[url]	di wei	9354	UK,US	ECDICT n.	false	true					not_in_intersection
+slit	裂隙	裂隙	26201	[url]	lie xi	82	UK,US	ECDICT n.	false	true					not_in_intersection
+smoking	抽烟	抽菸	26249	[url]	chou yan	185	UK,US	ECDICT n.	false	true	D012907	Smoking	F01.145.805	抽烟	exact_ECDICT_noun_gloss_and_MeSH_term
+solution	溶化	溶化	26357	[url]	rong hua	25	UK,US	ECDICT n.	false	true	D012996	Solutions	D26.776		not_in_intersection
+sore	伤	瘡；傷；痛的	26386	[url]	shang	22934	UK,US	ECDICT n.	false	true					not_in_intersection
+spa	温泉	溫泉	26403	[url]	wen quan	4893	UK,US	ECDICT n.	false	true					not_in_intersection
+space	间隙	間隙；空間	26404	[url]	jian xi	467	UK,US	ECDICT n.	false	true					not_in_intersection
+special	特别的	特別的	26437	[url]	te bie de	5168	UK,US	ECDICT n.	false	true					not_in_intersection
+spirit	精油	精神；酒精製劑；精油	26596	[url]	jing you	634	UK,US	ECDICT n.	false	true					not_in_intersection
+splint	夹	夾板；夾；副木	26635	[url]	jia	6853	UK,US	ECDICT n.	false	true	D013165	Splints	E07.858.442.660.430.750,E07.858.690.725.430.750		not_in_intersection
+split	隙	隙	26641	[url]	xi	304	UK,US	ECDICT n.	false	true					not_in_intersection
+spot	点	斑；點	26714	[url]	dian	436781	UK,US	ECDICT n.	false	true					not_in_intersection
+spur	骨刺	骨刺	26735	[url]	gu ci	28	UK,US	ECDICT n.	false	true					not_in_intersection
+stage	期	期	26812	[url]	qi	28676	UK,US	ECDICT n.	false	true					not_in_intersection
+stain	染料	染色；染料	26823	[url]	ran liao	435	UK,US	ECDICT n.	false	true	D004396	Coloring Agents	D27.720.233		not_in_intersection
+stalk	柄	莖；蒂；柄	26827	[url]	bing	2379	UK,US	ECDICT n.	false	true					not_in_intersection
+stalk	茎	莖；蒂；柄	26827	[url]	jing	1361	UK,US	ECDICT n.	false	true					not_in_intersection
+stalk	蒂	莖；蒂；柄	26827	[url]	di	15471	UK,US	ECDICT n.	false	true					not_in_intersection
+stasis	停滞	鬱滯；停滯	26867	[url]	ting zhi	464	UK	ECDICT n.	false	true				停滞	not_in_intersection
+stature	身高	身高	26885	[url]	shen gao	14076	UK,US	ECDICT n.	false	true				身高	not_in_intersection
+stem	干	幹	26916	[url]	gan	48441	UK,US	ECDICT n.	false	true	D017348	Microscopy, Electron, Scanning Transmission	E01.370.350.515.402.580.480,E05.595.402.580.480		not_in_intersection
+stigma	斑痕	斑痕；汙名	26982	[url]	ban hen	6	UK,US	ECDICT n.	false	true					not_in_intersection
+sting	植物	螫傷{昆蟲；水母；植物；海秋牡}	26995	[url]	zhi wu	15428	UK,US	ECDICT n.	false	true	D001733	Bites and Stings	C25.723.127,C26.176		not_in_intersection
+sting	水母	螫傷{昆蟲；水母；植物；海秋牡}	26995	[url]	shui mu	750	UK,US	ECDICT n.	false	true	D001733	Bites and Stings	C25.723.127,C26.176		not_in_intersection
+stoma	口	口；孔	27012	[url]	kou	28961	UK,US	ECDICT n.	false	true					not_in_intersection
+stoma	孔	口；孔	27012	[url]	kong	11577	UK,US	ECDICT n.	false	true					not_in_intersection
+stratum	层	層	27050	[url]	ceng	18410	UK,US	ECDICT n.	false	true					not_in_intersection
+stream	流	流	27069	[url]	liu	18356	UK,US	ECDICT n.	false	true	D045483	Rivers	G01.311.750,G16.500.275.280.650,N06.230.232.650		not_in_intersection
+stress	压力	壓力；應力	27088	[url]	ya li	19602	UK,US	ECDICT n.	false	true				压力	not_in_intersection
+stroke	发作	猝發；發作；中風	27133	[url]	fa zuo	1171	UK,US	ECDICT n.	false	true	D020521	Stroke	C10.228.140.300.775,C14.907.253.855		not_in_intersection
+stroke	猝发	猝發；發作；中風	27133	[url]	cu fa	7	UK,US	ECDICT n.	false	true	D020521	Stroke	C10.228.140.300.775,C14.907.253.855		not_in_intersection
+subdivision	亚门	分裂；亞門	27249	[url]	ya men	164	UK,US	ECDICT n.	false	true					not_in_intersection
+subdivision	分裂	分裂；亞門	27249	[url]	fen lie	2936	UK,US	ECDICT n.	false	true					not_in_intersection
+suction	抽吸	抽吸	27361	[url]	chou xi	32	UK,US	ECDICT n.	false	true	D013396	Suction	E04.237.890		not_in_intersection
+sulphur	硫黄	硫黃	27456	[url]	liu huang	43	UK,US	ECDICT n.	false	true					not_in_intersection
+superior	上的	上的	27507	[url]	shang de	49399	UK,US	ECDICT n.	false	true					not_in_intersection
+support	护具	支持；護具	27587	[url]	hu ju	125	UK,US	ECDICT n.	false	true					not_in_intersection
+suppression	抑制	抑制	27595	[url]	yi zhi	2018	UK,US	ECDICT n.	false	true				抑制	not_in_intersection
+survival	存活	生存；存活	27685	[url]	cun huo	1346	UK,US	ECDICT n.	false	true					not_in_intersection
+survival	生存	生存；存活	27685	[url]	sheng cun	5717	UK,US	ECDICT n.	false	true				生存	not_in_intersection
+suture	缝	縫；縫合	27702	[url]	feng	3013	UK,US	ECDICT n.	false	true	D013537	Sutures	E07.858.690.820		not_in_intersection
+swarm	群集	群集	27710	[url]	qun ji	63	UK,US	ECDICT n.	false	true					not_in_intersection
+swelling	肿胀	腫脹	27736	[url]	zhong zhang	217	UK,US	ECDICT n.	false	true				肿胀	not_in_intersection
+symmetry	对称	對稱	27755	[url]	dui chen	2761	UK,US	ECDICT n.	false	true				对称	not_in_intersection
+synthetic	合成	合成	27845	[url]	he cheng	4076	UK,US	ECDICT n.	false	true					not_in_intersection
+systole	收缩	收縮	27926	[url]	shou suo	824	UK	ECDICT n.	false	true	D013599	Systole	G09.330.580.880,G11.427.494.570.880		not_in_intersection
+table	手术台	表格；板；手術台	27955	[url]	shou shu tai	12	UK,US	ECDICT n.	false	true					not_in_intersection
+table	板	表格；板；手術台	27955	[url]	ban	11459	UK,US	ECDICT n.	false	true					not_in_intersection
+tarsus	跗骨	跗骨	28035	[url]	fu gu	55	UK,US	ECDICT n.	false	true	D000842	Ankle	A01.378.610.050	跗骨	exact_ECDICT_noun_gloss_and_MeSH_term
+tears	泪	淚	28066	[url]	lei	6642	US	ECDICT n.	false	true	D013666	Tears	A12.200.882		not_in_intersection
+tent	幕	塞條；幕	28152	[url]	mu	3219	UK,US	ECDICT n.	false	true					not_in_intersection
+term	足月	足月	28166	[url]	zu yue	144	UK,US	ECDICT n.	false	true					not_in_intersection
+termination	终止	終止；終端	28178	[url]	zhong zhi	2957	UK,US	ECDICT n.	false	true				终止	not_in_intersection
+termination	终端	終止；終端	28178	[url]	zhong duan	847	UK,US	ECDICT n.	false	true					not_in_intersection
+test	检查	試驗；檢查	28184	[url]	jian cha	10063	UK,US	ECDICT n.	false	true					not_in_intersection
+theory	假说	理論；假說	28253	[url]	jia shuo	700	UK,US	ECDICT n.	false	true					not_in_intersection
+therapy	治疗	治療	28260	[url]	zhi liao	13129	UK,US	ECDICT n.	false	true	D013812	Therapeutics	E02	治疗	exact_ECDICT_noun_gloss_and_MeSH_term
+thrill	震颤	震顫	28354	[url]	zhen chan	42	UK,US	ECDICT n.	false	true				震颤	not_in_intersection
+tincture	酊	酊	28472	[url]	ding	128	UK,US	ECDICT n.	false	true					not_in_intersection
+tip	尖	尖	28486	[url]	jian	7456	UK,US	ECDICT n.	false	true					not_in_intersection
+tissue	组织	組織	28487	[url]	zu zhi	51880	UK,US	ECDICT n.	false	true	D014024	Tissues	A10	组织	exact_ECDICT_noun_gloss_and_MeSH_term
+tract	径	徑；束	28644	[url]	jing	1945	UK,US	ECDICT n.	false	true					not_in_intersection
+tract	束	徑；束	28644	[url]	shu	1855	UK,US	ECDICT n.	false	true					not_in_intersection
+transcription	转录	轉錄	28685	[url]	zhuan lu	338	UK,US	ECDICT n.	false	true					not_in_intersection
+transition	转变	轉變；過渡	28700	[url]	zhuan bian	2848	UK,US	ECDICT n.	false	true				转变	not_in_intersection
+transmission	传	傳；傳染	28714	[url]	chuan	19425	UK,US	ECDICT n.	false	true					not_in_intersection
+transmission	传染	傳；傳染	28714	[url]	chuan ran	2262	UK,US	ECDICT n.	false	true					not_in_intersection
+transplantation	移植	移植	28722	[url]	yi zhi	1096	UK,US	ECDICT n.	false	true	D014180	Transplantation	E04.936	移植	exact_ECDICT_noun_gloss_and_MeSH_term
+transposition	错位	錯位	28726	[url]	cuo wei	62	UK	ECDICT n.	false	true					not_in_intersection
+treatment	治疗	治療	28821	[url]	zhi liao	13129	UK,US	ECDICT n.	false	true	D013812	Therapeutics	E02	治疗	exact_ECDICT_noun_gloss_and_MeSH_term
+tremor	震颤	震顫	28828	[url]	zhen chan	42	UK,US	ECDICT n.	false	true	D014202	Tremor	C10.597.350.850,C23.888.592.350.850		not_in_intersection
+trial	试验	試驗	28876	[url]	shi yan	5308	UK,US	ECDICT n.	false	true				试验	not_in_intersection
+tuba	管	管	29068	[url]	guan	35124	UK,US	ECDICT n.	false	true					not_in_intersection
+tube	管	管	29084	[url]	guan	35124	UK,US	ECDICT n.	false	true					not_in_intersection
+tuft	丛	叢	29152	[url]	cong	1661	UK,US	ECDICT n.	false	true					not_in_intersection
+tumor	肿块	腫塊	29158	[url]	zhong kuai	61	US	ECDICT n.	false	true	D009369	Neoplasms	C04	肿块	exact_ECDICT_noun_gloss_and_MeSH_term
+tumour	肿瘤	腫瘤	29166	[url]	zhong liu	1348	UK	ECDICT n.	false	true					not_in_intersection
+tunnel	管道	隧道；管道	29173	[url]	guan dao	1685	UK,US	ECDICT n.	false	true					not_in_intersection
+twilight	朦胧	朦朧	29192	[url]	meng long	1534	UK,US	ECDICT n.	false	true					not_in_intersection
+twin	双胞胎	雙胞胎	29197	[url]	shuang bao tai	3128	UK,US	ECDICT n.	false	true					not_in_intersection
+union	愈合	癒合；接合	29340	[url]	yu he	247	UK,US	ECDICT n.	false	true					not_in_intersection
+union	接合	癒合；接合	29340	[url]	jie he	298	UK,US	ECDICT n.	false	true					not_in_intersection
+urgency	急迫	急迫；緊急	29422	[url]	ji po	123	UK,US	ECDICT n.	false	true					not_in_intersection
+urgency	紧急	急迫；緊急	29422	[url]	jin ji	5617	UK,US	ECDICT n.	false	true				紧急	not_in_intersection
+vagina	鞘	陰道；鞘	29550	[url]	qiao	990	UK,US	ECDICT n.	false	true	D014621	Vagina	A05.360.319.779		not_in_intersection
+value	值	值	29584	[url]	zhi	14637	UK,US	ECDICT n.	false	true					not_in_intersection
+valve	瓣	瓣；瓣膜	29585	[url]	ban	1428	UK,US	ECDICT n.	false	true					not_in_intersection
+vector	载体	病媒；載體	29691	[url]	zai ti	478	UK,US	ECDICT n.	false	true					not_in_intersection
+vent	孔	孔	30030	[url]	kong	11577	UK,US	ECDICT n.	false	true					not_in_intersection
+ventilation	换气	換氣；換氣法	30035	[url]	huan qi	42	UK,US	ECDICT n.	false	true	D014691	Ventilation	N06.230.150.520		not_in_intersection
+ventricle	室	室	30048	[url]	shi	25644	UK,US	ECDICT n.	false	true					not_in_intersection
+vertebra	脊椎	脊椎；椎骨	30143	[url]	ji zhui	560	UK,US	ECDICT n.	false	true	D013131	Spine	A02.835.232.834	脊椎	exact_ECDICT_noun_gloss_and_MeSH_term
+vessel	血管	小管；血管	30211	[url]	xue guan	853	UK,US	ECDICT n.	false	true					not_in_intersection
+violet	紫	紫；紫色染料	30281	[url]	zi	8361	UK,US	ECDICT n.	false	true					not_in_intersection
+viper	蝮蛇	蝮蛇	30283	[url]	fu she	27	UK,US	ECDICT n.	false	true					not_in_intersection
+viscera	内脏	內臟	30305	[url]	nei zang	496	UK	ECDICT n.	false	true	D014781	Viscera	A01.960	内脏	exact_ECDICT_noun_gloss_and_MeSH_term
+vision	视力	視力；視覺	30324	[url]	shi li	454	UK,US	ECDICT n.	false	true	D014785	Vision, Ocular	F02.830.816.964,G02.111.820.480.900,G04.835.480.900,G11.561.790.964,G14.935	视力	exact_ECDICT_noun_gloss_and_MeSH_term
+vomiting	呕吐	嘔吐	30385	[url]	ou tu	428	UK,US	ECDICT n.	false	true	D014839	Vomiting	C23.888.821.937	呕吐	exact_ECDICT_noun_gloss_and_MeSH_term
+vulva	口	女陰；口	30401	[url]	kou	28961	UK,US	ECDICT n.	false	true	D014844	Vulva	A05.360.319.887		not_in_intersection
+weakness	无力	衰弱；無力	30482	[url]	wu li	3911	UK,US	ECDICT n.	false	true					not_in_intersection
+weakness	衰弱	衰弱；無力	30482	[url]	shuai ruo	276	UK,US	ECDICT n.	false	true					not_in_intersection
+weep	滴水	哭泣；滴水；滴落	30496	[url]	di shui	476	UK,US	ECDICT n.	false	true					not_in_intersection
+weep	滴落	哭泣；滴水；滴落	30496	[url]	di luo	46	UK,US	ECDICT n.	false	true					not_in_intersection
+wheel	轮	輪	30533	[url]	lun	12087	UK,US	ECDICT n.	false	true					not_in_intersection
+wheeze	哮喘	哮喘；喘鳴	30536	[url]	xiao chuan	255	UK,US	ECDICT n.	false	true					not_in_intersection
+white	白色的	白色的	30544	[url]	bai se de	3311	UK,US	ECDICT n.	false	true					not_in_intersection
+wind	胀气	脹氣	30586	[url]	zhang qi	217	US	ECDICT n.	false	true	D014919	Wind	G16.500.175.249.200,G16.500.275.063.725.154.200,G16.500.750.775.780,N06.230.132.644.875,N06.230.300.100.150.185.200,N06.230.300.100.725.780		not_in_intersection
+worm	虫	蟲；蠕蟲	30633	[url]	chong	8919	UK,US	ECDICT n.	false	true					not_in_intersection
+wound	创伤	創傷	30637	[url]	chuang shang	1092	US	ECDICT n.	false	true	D014947	Wounds and Injuries	C26	创伤	exact_ECDICT_noun_gloss_and_MeSH_term
+wrist	腕	腕	30646	[url]	wan	945	UK,US	ECDICT n.	false	true	D014953	Wrist	A01.378.800.875		not_in_intersection
+zone	区	區	30763	[url]	qu	170948	UK,US	ECDICT n.	false	true					not_in_intersection

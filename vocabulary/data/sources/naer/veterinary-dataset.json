@@ -1,0 +1,13 @@
+{
+  "dataset_id": "15461",
+  "title": "National Academy for Educational Research - Veterinary Medical Terminology",
+  "publisher": "National Academy for Educational Research",
+  "dataset_url": "https://data.gov.tw/en/datasets/15461",
+  "resource_url": "https://opendata.naer.edu.tw/%E5%AD%B8%E8%A1%93%E5%90%8D%E8%A9%9E/%E5%9C%8B%E5%AE%B6%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E9%99%A2-%E7%8D%B8%E9%86%AB%E5%AD%B8%E5%AD%B8%E8%A1%93%E5%90%8D%E8%A9%9E.csv",
+  "license": "Open Government Data License, version 1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_last_updated": "2026-06-01 14:43",
+  "retrieved_on": "2026-10-07",
+  "snapshot_file": "veterinary-academic-terms.csv",
+  "snapshot_sha256": "cc4599654cbf83fca9ec02b411f08cae8d4d8026925177477c26b97c30837863"
+}

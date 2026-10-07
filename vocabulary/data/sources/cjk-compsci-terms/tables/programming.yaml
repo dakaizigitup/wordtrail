@@ -1,0 +1,388 @@
+# Computer programming
+- en:
+    computer programming:
+    - term: computer
+    - term: programming
+    programming:
+    - term: programming
+  ja:
+    computer programming:
+    - { term: コンピュータ,                loan: computer }
+    - { term: プログラミング,              loan: programming }
+    programming:
+    - { term: プログラミング,              loan: programming }
+  ko:
+    computer programming:
+    - { term: 컴퓨터,                      loan: computer }
+    - { term: 프로그래밍,                  loan: programming }
+    programming:
+    - { term: 프로그래밍,                  loan: programming }
+  zh-CN:
+    計算機編程:
+    - { term: 计算机, read: jì suàn jī,    correspond: computer }
+    - { term: 编程,   read: biān chéng,    correspond: programming }
+    程式設計:
+    - { term: 程序,   read: chéng xù,      correspond: program }
+    - { term: 设计,   read: shè jì,        correspond: design }
+  zh-HK:
+    電腦程式編寫:
+    - { term: 電腦,   read: din6 nou5,     correspond: computer }
+    - { term: 程式,   read: cing4 sik1,    correspond: program }
+    - { term: 編寫,   read: pin1 se2,      correspond: writing }
+    程式編寫:
+    - { term: 程式,   read: cing4 sik1,    correspond: program }
+    - { term: 編寫,   read: pin1 se2,      correspond: writing }
+  zh-TW:
+    電腦程式設計:
+    - { term: 電腦,   read: ㄉㄧㄢˋ ㄋㄠˇ, correspond: computer }
+    - { term: 程式,   read: ㄔㄥˊ ㄕˋ,     correspond: program }
+    - { term: 設計,   read: ㄕㄜˋ ㄐㄧˋ,   correspond: design }
+    程式設計:
+    - { term: 程式,   read: ㄔㄥˊ ㄕˋ,     correspond: program }
+    - { term: 設計,   read: ㄕㄜˋ ㄐㄧˋ,   correspond: design }
+
+# Bug
+- en:
+    bug:
+    - term: bug
+  ja:
+    bug:
+    - { term: バグ, loan: bug }
+  ko:
+    bug:
+    - { term: 버그, loan: bug }
+  zh-CN:
+    漏洞:
+    - { term: 漏洞, correspond: hole,    read: lòu dòng }
+    錯誤:
+    - { term: 错误, correspond: mistake, read: cuò wù }
+  zh-HK:
+    錯誤:
+    - { term: 錯誤, correspond: mistake, read: co3 ng6 }
+  zh-TW:
+    錯誤:
+    - { term: 錯誤, correspond: mistake, read: ㄘㄨㄛˋ ㄨˋ }
+
+# Debug
+- en:
+    debug:
+    - { term: de,     correspond: remove }
+    - { term: bug,                                            space: no }
+  ja:
+    debug:
+    - { term: デ,     correspond: remove, loan: de }
+    - { term: バッグ, loan:       bug,                        space: no }
+  ko:
+    debug:
+    - { term: 디,     correspond: remove, loan: de }
+    - { term: 버그,   loan:       bug,                        space: no }
+  zh-CN:
+    調試:
+    - { term: 调,     correspond: adjust,      read: tiáo }
+    - { term: 试,     correspond: experiment,  read: shì,     space: no }
+  zh-HK:
+    除錯:
+    - { term: 除,     correspond: remove,      read: ceoi4 }
+    - { term: 錯,     correspond: bug,         read: co3,     space: no }
+  zh-TW:
+    除錯:
+    - { term: 除,     correspond: remove,      read: ㄔㄨˊ }
+    - { term: 錯,     correspond: bug,         read: ㄘㄨㄛˋ, space: no }
+    偵錯:
+    - { term: 偵,     correspond: investigate, read: ㄓㄣ }
+    - { term: 錯,     correspond: bug,         read: ㄘㄨㄛˋ, space: no }
+
+# Source code
+- en:
+    source code:
+    - term: source
+    - term: code
+  ja:
+    source code:
+    - { term: ソース,                loan:       source }
+    - { term: コード,                loan:       code, space: no }
+  ko:
+    source code:
+    - { term: 소스,                  loan:       source }
+    - { term: 코드,                  loan:       code }
+    原始 code:
+    - { term: 原始, read: 원 시,     correspond: source }
+    - { term: 코드,                  loan:       code }
+  zh-CN:
+    源代碼:
+    - { term: 源,   read: yuán,      correspond: source }
+    - { term: 代码, read: dài mǎ,    correspond: code }
+    源程序:
+    - { term: 源,   read: yuán,      correspond: source }
+    - { term: 程序, read: chéng xù,  correspond: program }
+  zh-HK:
+    原始碼:
+    - { term: 原始, read: jyun4 ci2, correspond: source }
+    - { term: 碼,   read: maa5,      correspond: code }
+    源代碼:
+    - { term: 源,   read: jyun4,     correspond: source }
+    - { term: 代碼, read: doi6 maa5, correspond: code }
+  zh-TW:
+    原始碼:
+    - { term: 原始, read: ㄩㄢˊ ㄕˇ, correspond: source }
+    - { term: 碼,   read: ㄇㄚˇ,     correspond: code }
+
+# Flowchart
+- en:
+    flowchart:
+    - term:   flow
+    - { term: chart, space: no }
+  ja:
+    flowchart:
+    - { term: フロー,                    loan:       flow }
+    - { term: チャート,                  loan:       chart, space: no }
+    流れ圖:
+    - { term: 流れ, read: なが れ,       correspond: flow }
+    - { term: 図,   read: ず,            correspond: chart, space: no }
+  ko:
+    flowchart:
+    - { term: 플로,                      loan:       flow }
+    - { term: 차트,                      loan:       chart }
+    順序圖:
+    - { term: 順序, read: 순 서,         correspond: flow }
+    - { term: 圖,   read: 도,            correspond: chart, space: no }
+    흐름圖:
+    - { term: 흐름,                      correspond: flow }
+    - { term: 圖,   read: 도,            correspond: chart, space: no }
+  zh-CN:
+    流程圖:
+    - { term: 流程, read: liú chéng,     correspond: flow }
+    - { term: 图,   read: tú,            correspond: chart, space: no }
+  zh-HK:
+    流程圖:
+    - { term: 流程, read: lau4 cing4,    correspond: flow }
+    - { term: 圖,   read: tou4,          correspond: chart, space: no }
+  zh-TW:
+    流程圖:
+    - { term: 流程, read: ㄌㄧㄡˊ ㄔㄥˊ, correspond: flow }
+    - { term: 圖,   read: ㄊㄨˊ,         correspond: chart, space: no }
+
+# Variable
+- en:
+    value:
+    - term: variable
+  ja:
+    變數:
+    - { term: 変, correspond: variable, read: へん }
+    - { term: 数, correspond: number,   read: すう,  space: no }
+  ko:
+    變數:
+    - { term: 變, correspond: variable, read: 변 }
+    - { term: 數, correspond: number,   read: 수,    space: no }
+  zh-CN:
+    變量:
+    - { term: 变, correspond: variable, read: biàn }
+    - { term: 量, correspond: quantity, read: liàng, space: no }
+  zh-HK:
+    變數:
+    - { term: 變, correspond: variable, read: bin3 }
+    - { term: 數, correspond: number,   read: sou3,  space: no }
+  zh-TW:
+    變數:
+    - { term: 變, correspond: variable, read: ㄅㄧㄢˋ }
+    - { term: 數, correspond: number,   read: ㄕㄨˋ, space: no }
+
+# Constant
+- en:
+    value:
+    - term: constant
+  ja:
+    定數:
+    - { term: 定, correspond: fixed,  read: てい }
+    - { term: 数, correspond: number, read: すう,    space: no }
+  ko:
+    常數:
+    - { term: 常, correspond: constant, read: 상 }
+    - { term: 數, correspond: number,   read: 수,    space: no }
+  zh-CN:
+    常量:
+    - { term: 常, correspond: constant, read: cháng }
+    - { term: 量, correspond: quantity, read: liàng, space: no }
+  zh-HK:
+    常數:
+    - { term: 常, correspond: constant, read: soeng4 }
+    - { term: 數, correspond: number,   read: sou3,  space: no }
+  zh-TW:
+    常數:
+    - { term: 常, correspond: constant, read: ㄔㄤˊ }
+    - { term: 數, correspond: number,   read: ㄕㄨˋ, space: no }
+
+# Value
+- en:
+    value:
+    - term: value
+  ja:
+    値:
+    - { term: 値, correspond: value, read: あたい }
+  ko:
+    값:
+    - { term: 값, correspond: value }
+  zh-CN:
+    値:
+    - { term: 値, correspond: value, read: zhí }
+  zh-HK:
+    値:
+    - { term: 値, correspond: value, read: zik6 }
+  zh-TW:
+    値:
+    - { term: 値, correspond: value, read: ㄓˊ }
+
+# Function
+- en:
+    function:
+    - term: function
+  ja:
+    函數:
+    - { term: 関, norm: 函, correspond: box,    read: かん }
+    - { term: 数, norm: 數, correspond: number, read: すう, space: no }
+  ko:
+    函數:
+    - { term: 函, correspond: box,    read: 함 }
+    - { term: 數, correspond: number, read: 수,     space: no }
+  zh-CN:
+    函數:
+    - { term: 函, correspond: box,    read: hán }
+    - { term: 数, correspond: number, read: shù,    space: no }
+  zh-HK:
+    函數:
+    - { term: 函, correspond: box,    read: haam4 }
+    - { term: 數, correspond: number, read: sou3,   space: no }
+  zh-TW:
+    函數:
+    - { term: 函, correspond: box,    read: ㄏㄢˊ }
+    - { term: 數, correspond: number, read: ㄕㄨˋ,  space: no }
+    函式:
+    - { term: 函, correspond: box,    read: ㄏㄢˊ }
+    - { term: 式, correspond: style,  read: ㄕˋ,    space: no }
+
+# Return value
+- en:
+    return value:
+    - term: return
+    - term: value
+  ja:
+    戾り値:
+    - { term: 戻り, correspond: return, read: もど り }
+    - { term: 値,   correspond: value,  read: ち,  space: no }
+    返り値:
+    - { term: 返り, correspond: return, read: かえ り }
+    - { term: 値,   correspond: value,  read: ち,  space: no }
+    返卻値:
+    - { term: 返却, correspond: return, read: へん きゃく }
+    - { term: 値,   correspond: value,  read: ち,  space: no }
+    return 値:
+    - { term: リターン,   loan: return }
+    - { term: 値,   correspond: value,  read: ち,  space: no }
+  ko:
+    返還값:
+    - { term: 返還, correspond: return, read: 반 환 }
+    - { term: 값,   correspond: value,             space: no }
+    return 값:
+    - { term: 리턴,       loan: return }
+    - { term: 값,   correspond: value,             space: no }
+  zh-CN:
+    返回值:
+    - { term: 返回, correspond: return, read: fǎn huí }
+    - { term: 値,   correspond: value,  read: zhí, space: no }
+  zh-HK:
+    傳回值:
+    - { term: 傳回, correspond: return, read: cyun4 wui4 }
+    - { term: 値, correspond: value, read: zik6,   space: no }
+  zh-TW:
+    傳回值:
+    - { term: 傳回, correspond: return, read: ㄔㄨㄢˊ ㄏㄨㄟˊ }
+    - { term: 値,   correspond: value, read: ㄓˊ,    space: no }
+    回傳值:
+    - { term: 回傳, correspond: return, read: ㄏㄨㄟˊ ㄔㄨㄢˊ }
+    - { term: 値,   correspond: value, read: ㄓˊ,    space: no }
+
+# Conditional statement
+- en:
+    conditional statement:
+    - term: conditional
+    - term: statement
+  ja:
+    if 文:
+    - { term: イフ,         loan: if }
+    - { term: 文,     correspond: statement, read: ぶん }
+    條件文:
+    - { term: 条件,   correspond: conditional, read: じょう けん }
+    - { term: 文,     correspond: statement,   read: ぶん }
+  ko:
+    if 文:
+    - { term: 이프,         loan: if }
+    - { term: 文,     correspond: statement,   read: 문, space: no }
+    條件文:
+    - { term: 條件,   correspond: conditional, read: 조 건 }
+    - { term: 文,     correspond: statement,   read: 문, space: no }
+  zh-CN:
+    條件陳述:
+    - { term: 条件,   correspond: conditional, read: tiáo jiàn }
+    - { term: 陈述,   correspond: statement,   read: chén shù }
+  zh-HK:
+    條件陳述式:
+    - { term: 條件,   correspond: conditional, read: tiu4 gin2 }
+    - { term: 陳述式, correspond: statement,   read: can4 seot6 sik1 }
+  zh-TW:
+    條件陳述:
+    - { term: 條件,   correspond: conditional, read: ㄊㄧㄠˊ ㄐㄧㄢˋ }
+    - { term: 陳述式, correspond: statement,   read: ㄔㄣˊ ㄕㄨˋ }
+
+# Recursion
+- en:
+    recursion:
+    - term: recursion
+  ja:
+    再歸:
+    - { term: 再帰, read: さい き }
+  ko:
+    再歸:
+    - { term: 再歸, read: 재 귀 }
+  zh-CN:
+    遞歸:
+    - { term: 递归, read: dì guī }
+  zh-HK:
+    遞歸:
+    - { term: 遞歸, read: dai6 gwai1 }
+  zh-TW:
+    遞迴:
+    - { term: 遞迴, read: ㄉㄧˋ ㄏㄨㄟˊ }
+
+# Infinite loop
+- en:
+    infinite loop:
+    - term: infinite
+    - term: loop
+  ja:
+    無限 loop:
+    - { term: 無限,   read: む げん,      correspond: infinite }
+    - { term: ループ,                     loan:       loop }
+  ko:
+    無限 loop:
+    - { term: 無限,   read: 무 한,        correspond: infinite }
+    - { term: 루프,                       loan:       loop }
+  zh-CN:
+    死循環:
+    - { term: 死,   read: sǐ,             correspond: dead }
+    - { term: 循环, read: xún huán,       correspond: loop, space: no }
+    無限循環:
+    - { term: 无限, read: wú xiàn,        correspond: infinite }
+    - { term: 循环, read: xún huán,       correspond: loop }
+  zh-HK:
+    無限迴圈:
+    - { term: 無限, read: mou4 haan6,     correspond: infinite }
+    - { term: 迴圈, read: wui4 hyun1,     correspond: loop }
+  zh-TW:
+    無窮迴圈:
+    - { term: 無窮, read: ㄨˊ ㄑㄩㄥˊ,    correspond: infinite }
+    - { term: 迴圈, read: ㄏㄨㄟˊ ㄑㄩㄢ, correspond: loop }
+    無限迴圈:
+    - { term: 無限, read: ㄨˊ ㄒㄧㄢˋ,    correspond: infinite }
+    - { term: 迴圈, read: ㄏㄨㄟˊ ㄑㄩㄢ, correspond: loop }
+
+# vim: set et sw=2 ts=2 sts=2 ft=yaml:

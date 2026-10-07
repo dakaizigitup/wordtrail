@@ -1,0 +1,29 @@
+chinese	english	pinyin	pinyin_frequency	ipa_sources	ecdict_pos	ecdict_exact_pos	source_tables	source_correspondence	pos	review_decision	review_note
+事务	transaction	shi wu	13339	UK,US	n.		database	affair task	n.	accept	数据库术语 transaction；与普通“事务/事情”区分，采用计算机词表对应。
+仓库	repository	cang ku	1728	UK,US	n.	n.	version-control	(no component gloss)	n.	accept	版本控制术语 repository；拼音候选可达。
+会话	session	hui hua	52	UK,US	n.		web	meeting speech	n.	accept	Web 会话 session；不取普通谈话义。
+关卡	level	guan qia	1452	UK,US	adj.,n.,v.		game-dev	gate checkpoint	n.	accept	游戏开发语境的 game level；选择名词义。
+变量	value	bian liang	1170	UK,US	n.,v.		programming	variable quantity	n.	reject	源条目的组成对应写的是 variable quantity，不能把 variable 错标为 value。
+图	graph	tu	64050	UK,US	n.		data-structures	graph	n.	accept	数据结构/图论语境的 graph，来源组件对应与英文头词一致。
+堆	heap	dui	6096	UK,US	n.,v.		data-structures	heap	n.	accept	数据结构中的 heap，来源组件对应与英文头词一致。
+声道	channel	sheng dao	289	UK,US	n.,v.		audio	(no component gloss)	n.	accept	音频领域的 channel，选择名词义。
+头目	boss	tou mu	997	UK,US	n.,v.		game-dev	head eye	n.	accept	游戏语境的 boss 敌人，不取组织管理者义。
+字体	typeface	zi ti	3371	UK,US	n.	n.	typography	character style	n.	accept	排版领域的 typeface；ECDICT 有对应释义和名词词性。
+密码	cipher	mi ma	4713	UK,US	n.,v.	n.	security	secret code	n.	accept	安全/密码学中的 cipher；ECDICT 有对应名词义。
+常量	value	chang liang	127	UK,US	n.,v.		programming	constant quantity	n.	reject	源条目的组成对应写的是 constant quantity；value 与“常量”不是同义映射。
+延迟	latency	yan chi	2726	UK,US	n.		networking	extend delay	n.	accept	网络传输语境的 latency，选择名词义。
+控件	widget	kong jian	63	UK,US	n.		ui-ux	(no component gloss)	n.	accept	用户界面组件 widget，来源表列在 UI/UX。
+提交	commit	ti jiao	3530	UK,US	v.		version-control	(no component gloss)	v.	accept	版本控制中的 commit 操作，选择动词义。
+搜索	searching	sou suo	4744	UK,US	adj.,n.	n.	algorithms	search seek	n.	accept	算法中的 searching 操作；ECDICT 有同义名词义。
+数据包	packet	shu ju bao	241	UK,US	n.,v.		networking	data packet	n.	accept	网络中的 packet，“数据包”为来源表整词。
+栈	stack	zhan	372	UK,US	n.,v.		data-structures	stack	n.	accept	数据结构中的 stack，来源组件对应与英文头词一致。
+模式	schema	mo shi	16604	UK,US	n.		database	pattern style	n.	accept	数据库 schema，按数据库语境理解“模式”。
+流水线	pipeline	liu shui xian	226	UK,US	n.		architecture	flow water line	n.	accept	计算机体系结构中的 pipeline。
+渲染	rendering	xuan ran	736	UK,US	n.		graphics	spread dye	n.	accept	计算机图形学中的 rendering，选择名词义。
+漏洞	bug	lou dong	1066	UK,US	n.,v.		programming	hole	n.	accept	软件缺陷义的 bug，来源表列在 programming。
+精灵	sprite	jing ling	5206	UK,US	n.		game-dev	spirit soul	n.	accept	游戏开发中的 sprite。
+认证	authentication	ren zheng	5650	UK,US	n.		security	recognize proof	n.	accept	信息安全中的 authentication，选择名词义。
+训练	training	xun lian	18467	UK,US	n.	n.	ai-ml	training	n.	accept	机器学习训练过程；ECDICT 有对应名词义。
+迭代	iteration	die dai	324	UK,US	n.		algorithms	repeat generation	n.	accept	算法/程序中的 iteration，选择名词义。
+通知	notification	tong zhi	13354	UK,US	n.	n.	mobile	(no component gloss)	n.	accept	移动软件中的 notification；ECDICT 有对应名词义。
+错误	bug	cuo wu	8965	UK,US	n.,v.	n.	programming	mistake	n.	accept	软件语境的 bug/error；ECDICT 有对应名词义。
