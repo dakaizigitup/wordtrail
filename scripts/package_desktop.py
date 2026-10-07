@@ -144,7 +144,13 @@ def main():
         ROOT/'scripts/build_wordlevel_toefl_batch.py',
         ROOT/'docs/28-WordLevel考试词汇.md',
     ]:
-        shutil.copy2(source,data_license/source.name)
+        try:
+            relative=source.relative_to(ROOT/'vocabulary/data')
+        except ValueError:
+            relative=None
+        destination=data_license/relative if relative and relative.parts[0]=='sources' else data_license/source.name
+        destination.parent.mkdir(parents=True,exist_ok=True)
+        shutil.copy2(source,destination)
     original='c9c3ac98a5b51f57fcbfd8ccec8ed25a96502592b7a40b498bc2a6447c54e554'
     shutil.copy2(ROOT/'scripts/vocabulary_settings.ps1',DELIVERY/'vocabulary_settings.ps1')
     (DELIVERY/'settings.cmd').write_text('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0vocabulary_settings.ps1"\r\n',encoding='ascii')

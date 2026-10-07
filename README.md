@@ -9,20 +9,20 @@
 
 ## 下载
 
-GitHub 最新发布版为 **v0.1.23**（Android 0.1.23、Windows 补丁 0.1.16）。当前本地开发源码已推进到 Android **0.1.29**、Windows 补丁 **0.1.22**：加入六类考试目标、计算机/商务/医学目标及分批扩充词汇。0.1.29 Android 测试包已构建；0.1.22 Windows 补丁已打包并通过测试，本机安装还需要管理员确认。两者均尚未发布为 GitHub Release。下表链接仍指向上一版公开发行包。
+GitHub 最新发布版为 **v0.1.29**（Android 0.1.29、Windows 补丁 0.1.22）：加入六类考试目标、计算机/商务/医学目标及分批扩充词汇。Windows 补丁用于已安装官方青简 Windows 0.1.4 的用户，需要管理员权限完成安装。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/wordtrail-0.1.23-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；已含离线语音模型 |
-| [Windows 音标与考试词汇补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/wordtrail-windows-ipa-0.1.16.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/wordtrail-0.1.23-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.23/SHA256SUMS.txt) | 核对发布附件 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.29/wordtrail-0.1.29-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；已含离线语音模型 |
+| [Windows 音标与考试词汇补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.29/wordtrail-windows-ipa-0.1.22.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.29/wordtrail-0.1.29-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.29/SHA256SUMS.txt) | 核对发布附件 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
-本地共享词库继续按批次扩充。批次28固定 [WordLevel TOEFL/IELTS 学术词表](https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset)，947个有本地中文释义和音标的词头加入双考试标签；11条可输入候选逐项处理后，接受4组映射（3个新英文词头）、排除6组、暂缓1组。该社区词表不是官方考纲；GitHub 仓库声明 MIT，Mendeley 记录声明 CC BY 4.0，因此项目同时保留 MIT 文本及 [WordLevel](https://wordlevel.net) 链接署名。该批尚未打包发布，电脑版仍按安排暂不安装。详见[批次28说明](docs/28-WordLevel考试词汇.md)和[来源记录](vocabulary/data/WORDLEVEL-ATTRIBUTION.md)。
+本地共享词库继续按批次扩充。批次28固定 [WordLevel TOEFL/IELTS 学术词表](https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset)，947个有本地中文释义和音标的词头加入双考试标签；11条可输入候选逐项处理后，接受4组映射（3个新英文词头）、排除6组、暂缓1组。该社区词表不是官方考纲；GitHub 仓库声明 MIT，Mendeley 记录声明 CC BY 4.0，因此项目同时保留 MIT 文本及 [WordLevel](https://wordlevel.net) 链接署名。数据随0.1.29整合发布。详见[批次28说明](docs/28-WordLevel考试词汇.md)和[来源记录](vocabulary/data/WORDLEVEL-ATTRIBUTION.md)。
 
-批次29加入 OpenEtymology 固定 CET4/CET6 社区词单的独立标签：补充247个 CET4 和2个 CET6 来源归属。45个未映射词头经过音标、拼音候选及容量筛选，接受6组释义、增加4个英文词头。两个来源词单中，CET4/CET6拼音可达率为97.31%/98.11%。合并所有固定考试来源后，六类考试的映射覆盖率均超过90%，拼音可达率依次为97.69%、96.69%、96.15%、94.05%、90.05%、95.02%；这些社区词表统计不代表官方考纲。详情见[批次29说明](docs/29-OpenEtymology四六级补词.md)与[数据署名](vocabulary/data/OPENETYMOLOGY-CET-DATA-ATTRIBUTION.md)。Windows 0.1.22 已打包，安装脚本因 UAC 管理员确认被取消，目前尚未安装。
+批次29加入 OpenEtymology 固定 CET4/CET6 社区词单的独立标签：补充247个 CET4 和2个 CET6 来源归属。45个未映射词头经过音标、拼音候选及容量筛选，接受6组释义、增加4个英文词头。两个来源词单中，CET4/CET6拼音可达率为97.31%/98.11%。合并所有固定考试来源后，六类考试的映射覆盖率均超过90%，拼音可达率依次为97.69%、96.69%、96.15%、94.05%、90.05%、95.02%；这些社区词表统计不代表官方考纲。详情见[批次29说明](docs/29-OpenEtymology四六级补词.md)与[数据署名](vocabulary/data/OPENETYMOLOGY-CET-DATA-ATTRIBUTION.md)。Windows 0.1.22 补丁和 Android 0.1.29 安装包已提供。
 
 ## 当前功能
 

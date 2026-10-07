@@ -175,7 +175,12 @@ def main():
             ROOT/'vocabulary/data/KOReader-ATTRIBUTION.txt',
             ROOT/'vocabulary/data/RIME-ICE-LICENSE.txt',
         ]:
-            archive.write(source,'wordtrail-windows-ipa-'+version+'/data-license/'+source.name)
+            try:
+                relative=source.relative_to(ROOT/'vocabulary/data')
+            except ValueError:
+                relative=None
+            packaged_path=relative.as_posix() if relative and relative.parts[0]=='sources' else source.name
+            archive.write(source,'wordtrail-windows-ipa-'+version+'/data-license/'+packaged_path)
         archive.write(ROOT/'docs/电脑版音标补丁.md','wordtrail-windows-ipa-'+version+'/使用说明.md')
         for name in ['desktop-tests.json','desktop-tests.txt','desktop-installed-tests.json','pronunciation-tests.txt']:
             file=patch/'evidence'/name
@@ -185,6 +190,8 @@ def main():
         if archive.testzip() is not None:
             raise ValueError('Windows ZIP CRC failed')
         names = archive.namelist()
+        if len(names) != len(set(names)):
+            raise ValueError('Windows ZIP contains duplicate archive paths')
         assert not any('/backup/' in n or n.endswith('install-result.json') for n in names)
     for name in [f'wordtrail-{args.version}-debug.apk',f'wordtrail-{args.version}-source.zip']:
         shutil.copy2(ROOT/'dist'/name,output/name)
