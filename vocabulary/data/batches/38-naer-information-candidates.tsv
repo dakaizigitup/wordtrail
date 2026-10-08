@@ -1,0 +1,6 @@
+english	chinese	source_chinese	source_records	source_urls	pinyin	pinyin_frequency	ipa_sources	ecdict_exact_noun_glosses	already_mapped	existing_headword	already_computer_tag	spare_capacity
+partition	分割	分割	598	https://terms.naer.edu.tw/	fen ge	2629	UK,US	分割	false	true	true	true
+decimal	十进制	十進制	195	https://terms.naer.edu.tw/	shi jin zhi	209	UK,US	十进制	false	true	false	true
+speaker	喇叭	喇叭	742	https://terms.naer.edu.tw/	la ba	1245	UK,US	喇叭	false	true	false	true
+currency	流通	流通	183	https://terms.naer.edu.tw/	liu tong	1453	UK,US	流通	false	true	false	true
+directory	目录	目錄	227	https://terms.naer.edu.tw/	mu lu	2266	UK,US	目录	false	true	false	true

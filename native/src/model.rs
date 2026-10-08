@@ -24,6 +24,10 @@ pub struct Request {
     pub vocabulary_targets: Vec<String>,
     #[serde(default)]
     pub sense_index: usize,
+    #[serde(default)]
+    pub expanded: bool,
+    #[serde(default)]
+    pub reading: String,
 }
 
 fn english() -> String {
@@ -71,6 +75,9 @@ pub struct MobileState {
     pub language: String,
     pub page: usize,
     pub page_count: usize,
+    pub expanded: bool,
+    pub readings: Vec<String>,
+    pub selected_reading: String,
     pub vocabulary_targets: Vec<&'static str>,
 }
 

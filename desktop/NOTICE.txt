@@ -1,8 +1,8 @@
-Windows 音标与词汇目标补丁 0.1.23：用于现有青简 0.1.4 安装。
+Windows 音标与词汇目标补丁 0.1.24：用于现有青简 0.1.4 安装。
 非官方发布；不分发青简品牌图标。保持已安装官方资源。
-对应源码在 wordtrail-0.1.30-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
+对应源码在 wordtrail-0.1.38-source.zip，包含 desktop/、vocabulary/ 与独立音标库。
 
-词伴输入法 / Wordtrail 0.1.30
+词伴输入法 / Wordtrail 0.1.38
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -10,7 +10,7 @@ Windows 音标与词汇目标补丁 0.1.23：用于现有青简 0.1.4 安装。
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.30-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.38-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -1857,6 +1857,19 @@ NAER 原始资料署名與政府開放資料授權第1版同批次24；資料集
 美学 -> esthetics (n.); NAER educational-studies record 812
 
 遗传 -> inheritance (n.); NAER educational-studies record 1188
+
+
+=== 信息术语批次38（NAER Information Terms, High School and Below）===
+
+署名：National Academy for Educational Research；國家教育研究院《資訊名詞－高中含以下資訊學術名詞》（dataset 15407）。来源：https://data.gov.tw/dataset/15407 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。固定 CSV 共881条，SHA-256：9931846343405436c5487a1c491a75c7522d93436d75722816cf2e23a6dc10fc。严格匹配59组，本地已有54组；审校5组，接受4组、排除1组，新增英文词头0个。另有52个来源词头加入计算机类别，其中新增23个成员。该匹配率仅反映本机严格筛选结果，不代表来源词表覆盖率；来源成员关系不表示所有义项都专属于计算机。完整来源快照、修改说明、SHA-256 和逐项审校见 vocabulary/data/NAER-INFORMATION-ATTRIBUTION.md、vocabulary/data/naer-information-manifest.json、vocabulary/data/batches/38-naer-information-reviewed.tsv、vocabulary/data/batches/38-naer-information-tags-reviewed.tsv 和 scripts/build_naer_information_basic_batch.py。
+
+分割 -> partition (n.); NAER information terms record 598
+
+十进制 -> decimal (n.); NAER information terms record 195
+
+喇叭 -> speaker (n.); NAER information terms record 742
+
+目录 -> directory (n.); NAER information terms record 227
 
 
 === WordLevel TOEFL/IELTS 学术词表（批次28）===

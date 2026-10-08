@@ -1,0 +1,27 @@
+{
+  "normal_candidate_keyboard_tap_requests": [
+    "10-08 02:38:08.978 |   effect |             finished | duration:   118ms | start: 02:38:08.979 | end: 02:38:09.096 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: TOUCH | category=KEYBOARD | org.wordtrail.ime (uid=10209, deviceId=0) | reason: performHapticFeedback(constant=3): View#performHapticFeedback | played: Prebaked=CLICK(MEDIUM, with fallback) | original: null"
+  ],
+  "long_press_selection_feedback": [
+    "10-08 02:40:41.664 |   effect |             finished | duration:   113ms | start: 02:40:41.667 | end: 02:40:41.776 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: TOUCH | category=KEYBOARD | org.wordtrail.ime (uid=10209, deviceId=0) | reason: performHapticFeedback(constant=3): View#performHapticFeedback | played: Prebaked=CLICK(MEDIUM, with fallback) | original: null",
+    "10-08 02:40:42.083 |   effect |             finished | duration:    41ms | start: 02:40:42.085 | end: 02:40:42.123 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: TOUCH | org.wordtrail.ime (uid=10209, deviceId=0) | reason: performHapticFeedback(constant=0): View#performHapticFeedback | played: Prebaked=HEAVY_CLICK(MEDIUM, with fallback) | original: null",
+    "10-08 02:40:42.780 |   effect |             finished | duration:   122ms | start: 02:40:42.782 | end: 02:40:42.902 | scale:     NONE (adaptive=1.00) | flags:    0 | usage: TOUCH | org.wordtrail.ime (uid=10209, deviceId=0) | reason: performHapticFeedback(constant=3): View#performHapticFeedback | played: Prebaked=CLICK(MEDIUM, with fallback) | original: null"
+  ],
+  "selection_smoke": [
+    "normal candidate tap commits Chinese",
+    "expanded candidate tap commits Chinese",
+    "candidate long press commits the English translation"
+  ],
+  "popup_checks": [
+    "九键 6 MNO popup remains above the pressed key",
+    "九键 6 MNO long hold shows character choices",
+    "九键 6 MNO hold does not also insert the primary key",
+    "九键 6 MNO release commits only the selected option",
+    "九键 6 MNO popup closes after release/cancel"
+  ],
+  "physical_device_tested": false,
+  "version": "0.1.37",
+  "version_code": 38,
+  "apk_bytes": 253626725,
+  "apk_sha256": "2c30a27e4acbace75885d5f9c8f31b7713e9b8fea05384ec2e6ae774f6a1b61f"
+}

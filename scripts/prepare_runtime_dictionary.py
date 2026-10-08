@@ -24,6 +24,7 @@ RUNTIME_TSV = RUNTIME / "dict.tsv"
 RUNTIME_DICT = RUNTIME / "dict.qj"
 BASE_TSV = ROOT / "build/runtime-data/base-dict.tsv"
 BASE_SHA256 = "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc"
+DATA_VERSION = "Wordtrail 0.1.31"
 EXPORTER = ROOT / "target/debug/export_dictionary_tsv.exe"
 EXTERNAL_CARGO_CWD = Path(f"{ROOT.drive}\\")
 
@@ -97,6 +98,7 @@ def build_tsv() -> dict:
     RUNTIME_TSV.write_text("".join(f"{word}\t{pinyin}\t{frequency}\n" for word, pinyin, frequency in merged),
                            encoding="utf-8", newline="\n")
     return {
+        "data_version": DATA_VERSION,
         "input_sha256": BASE_SHA256,
         "overlays": overlay_hashes,
         "base_entries": len(original),
@@ -114,7 +116,7 @@ def pack() -> None:
          "--name", "词伴考试词汇拼音词库", "--license", "Mixed; see NOTICE.txt",
          "--attribution", "Qingjian v0.1.4 pinned base; Wordtrail exam vocabulary overlay; see NOTICE.txt",
          "--source", "https://github.com/dakaizigitup/wordtrail",
-         "--data-version", "Wordtrail 0.1.30"], cwd=EXTERNAL_CARGO_CWD)
+         "--data-version", DATA_VERSION], cwd=EXTERNAL_CARGO_CWD)
 
 
 def verify_order() -> dict:
@@ -156,7 +158,9 @@ def prepare(export: bool, do_pack: bool) -> dict:
             old_manifest = json.loads((RUNTIME / "manifest.json").read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             old_manifest = {}
-    if do_pack or not RUNTIME_DICT.is_file() or old_manifest.get("runtime_tsv_sha256") != stats["runtime_tsv_sha256"]:
+    if (do_pack or not RUNTIME_DICT.is_file()
+            or old_manifest.get("runtime_tsv_sha256") != stats["runtime_tsv_sha256"]
+            or old_manifest.get("data_version") != DATA_VERSION):
         pack()
     stats.update(verify_order())
     (RUNTIME / "manifest.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

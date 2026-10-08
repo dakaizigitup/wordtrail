@@ -1,0 +1,60 @@
+english	chinese	source_chinese	source_records	source_urls	pinyin	pinyin_frequency	ipa_sources	ecdict_exact_noun_glosses	already_mapped	existing_headword	already_computer_tag	spare_capacity
+interrupt	中断	中斷	432	https://terms.naer.edu.tw/	zhong duan	2337	UK,US	中断	true	true	true	true
+mainframe	主机	主機	487	https://terms.naer.edu.tw/	zhu ji	1649	UK,US	主机	true	true	true	true
+pixel	像素	像素	616	https://terms.naer.edu.tw/	xiang su	2564	UK,US	像素	true	true	true	true
+key	关键	關鍵	451	https://terms.naer.edu.tw/	guan jian	19217	UK,US	关键	true	true	false	true
+kernel	内核	內核	450	https://terms.naer.edu.tw/	nei he	701	UK,US	内核	true	true	true	true
+partition	分割	分割	598	https://terms.naer.edu.tw/	fen ge	2629	UK,US	分割	false	true	true	true
+decimal	十进制	十進制	195	https://terms.naer.edu.tw/	shi jin zhi	209	UK,US	十进制	false	true	false	true
+blog	博客	博客	69	https://terms.naer.edu.tw/	bo ke	874	UK,US	博客	true	true	false	true
+variable	变数	變數	822	https://terms.naer.edu.tw/	bian shu	907	UK,US	变数	true	true	true	true
+speaker	喇叭	喇叭	742	https://terms.naer.edu.tw/	la ba	1245	UK,US	喇叭	false	true	false	true
+spam	垃圾邮件	垃圾郵件	741	https://terms.naer.edu.tw/	la ji you jian	81	UK,US	垃圾邮件	true	true	false	true
+stack	堆叠	堆疊	747	https://terms.naer.edu.tw/	dui die	260	UK,US	堆叠	true	true	true	true
+multimedia	多媒体	多媒體	534	https://terms.naer.edu.tw/	duo mei ti	1411	UK,US	多媒体	true	true	true	true
+character	字符	字符	108	https://terms.naer.edu.tw/	zi fu	1289	UK,US	字符	true	true	true	true
+contrast	对比	對比	173	https://terms.naer.edu.tw/	dui bi	5052	US	对比	true	true	false	true
+workstation	工作站	工作站	875	https://terms.naer.edu.tw/	gong zuo zhan	283	UK,US	工作站	true	true	true	true
+constant	常数	常數	170	https://terms.naer.edu.tw/	chang shu	908	UK,US	常数	true	true	true	true
+sequence	序列	序列	714	https://terms.naer.edu.tw/	xu lie	2246	UK,US	序列	true	true	true	true
+switch	开关	開關	757	https://terms.naer.edu.tw/	kai guan	1616	UK,US	开关	true	true	false	true
+attribution	归因	歸因	47	https://terms.naer.edu.tw/	gui yin	337	UK,US	归因	true	true	false	true
+loop	循环	循環	478	https://terms.naer.edu.tw/	xun huan	6619	UK,US	循环	true	true	true	true
+microwave	微波	微波	510	https://terms.naer.edu.tw/	wei bo	738	UK,US	微波	true	true	false	true
+property	性质	性質	646	https://terms.naer.edu.tw/	xing zhi	5218	UK,US	性质	true	true	false	true
+speaker	扬声器	揚聲器	742	https://terms.naer.edu.tw/	yang sheng qi	326	UK,US	扬声器	true	true	false	true
+exponent	指数	指數	273	https://terms.naer.edu.tw/	zhi shu	2988	UK,US	指数	true	true	false	true
+index	指标	指標	386	https://terms.naer.edu.tw/	zhi biao	1636	UK,US	指标	true	true	true	true
+integer	整数	整數	403	https://terms.naer.edu.tw/	zheng shu	1190	UK,US	整数	true	true	false	true
+radio	无线电	無線電	662	https://terms.naer.edu.tw/	wu xian dian	2374	UK,US	无线电	true	true	false	true
+sample	样本	樣本	692	https://terms.naer.edu.tw/	yang ben	2050	UK,US	样本	true	true	false	true
+core	核心	核心	178	https://terms.naer.edu.tw/	he xin	7693	UK,US	核心	true	true	true	true
+format	格式	格式	316	https://terms.naer.edu.tw/	ge shi	2963	UK,US	格式	true	true	true	true
+desktop	桌面	桌面	206	https://terms.naer.edu.tw/	zhuo mian	1712	UK,US	桌面	true	true	true	true
+file	档案	檔案	290	https://terms.naer.edu.tw/	dang an	4842	US	档案	true	true	true	true
+text	正文	正文	777	https://terms.naer.edu.tw/	zheng wen	462	UK,US	正文	true	true	true	true
+currency	流通	流通	183	https://terms.naer.edu.tw/	liu tong	1453	UK,US	流通	false	true	false	true
+computer	电脑	電腦	151	https://terms.naer.edu.tw/	dian nao	24617	UK,US	电脑	true	true	true	true
+monitor	监视器	監視器	520	https://terms.naer.edu.tw/	jian shi qi	274	UK,US	监视器	true	true	true	true
+directory	目录	目錄	227	https://terms.naer.edu.tw/	mu lu	2266	UK,US	目录	false	true	false	true
+weight	砝码	砝碼	853	https://terms.naer.edu.tw/	fa ma	38	UK,US	砝码	true	true	false	true
+collision	碰撞	碰撞	138	https://terms.naer.edu.tw/	peng zhuang	1391	UK,US	碰撞	true	true	true	true
+process	程序	程序	641	https://terms.naer.edu.tw/	cheng xu	8044	US	程序	true	true	true	true
+index	索引	索引	386	https://terms.naer.edu.tw/	suo yin	551	UK,US	索引	true	true	true	true
+infrared	红外线	紅外線	393	https://terms.naer.edu.tw/	hong wai xian	1945	UK,US	红外线	true	true	false	true
+buffer	缓冲器	緩衝器	86	https://terms.naer.edu.tw/	huan chong qi	98	UK,US	缓冲器	true	true	true	true
+property	财产	財產	646	https://terms.naer.edu.tw/	cai chan	3174	UK,US	财产	true	true	false	true
+currency	货币	貨幣	183	https://terms.naer.edu.tw/	huo bi	2599	UK,US	货币	true	true	false	true
+input	输入	輸入	396	https://terms.naer.edu.tw/	shu ru	10549	UK,US	输入	true	true	true	true
+output	输出	輸出	585	https://terms.naer.edu.tw/	shu chu	3735	UK,US	输出	true	true	true	true
+process	过程	過程	641	https://terms.naer.edu.tw/	guo cheng	22061	US	过程	true	true	true	true
+selection	选择	選擇	708	https://terms.naer.edu.tw/	xuan ze	39724	UK,US	选择	true	true	false	true
+lens	透镜	透鏡	464	https://terms.naer.edu.tw/	tou jing	379	US	透镜	true	true	false	true
+weight	重量	重量	853	https://terms.naer.edu.tw/	zhong liang	3790	UK,US	重量	true	true	false	true
+bug	错误	錯誤	88	https://terms.naer.edu.tw/	cuo wu	8965	UK,US	错误	true	true	true	true
+keyboard	键盘	鍵盤	452	https://terms.naer.edu.tw/	jian pan	6832	UK,US	键盘	true	true	true	true
+privacy	隐私	隱私	637	https://terms.naer.edu.tw/	yin si	1734	UK,US	隐私	true	true	true	true
+top	顶端	頂端	785	https://terms.naer.edu.tw/	ding duan	887	UK,US	顶端	true	true	false	true
+sequence	顺序	順序	714	https://terms.naer.edu.tw/	shun xu	3707	UK,US	顺序	true	true	true	true
+backbone	骨干	骨幹	53	https://terms.naer.edu.tw/	gu gan	701	UK,US	骨干	true	true	false	true
+microphone	麦克风	麥克風	507	https://terms.naer.edu.tw/	mai ke feng	577	UK,US	麦克风	true	true	false	true

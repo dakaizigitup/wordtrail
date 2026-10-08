@@ -47,6 +47,7 @@ const NAER_ECONOMICS_DATA: &str = include_str!("../../data/naer-economics-expans
 const NAER_ACCOUNTING_DATA: &str = include_str!("../../data/naer-accounting-expansion.tsv");
 const NAER_MANAGEMENT_DATA: &str = include_str!("../../data/naer-management-expansion.tsv");
 const NAER_COMPUTER_DATA: &str = include_str!("../../data/naer-computer-expansion.tsv");
+const NAER_INFORMATION_DATA: &str = include_str!("../../data/naer-information-expansion.tsv");
 const NAER_ADMINISTRATION_DATA: &str = include_str!("../../data/naer-administration-expansion.tsv");
 const NAER_EDUCATION_DATA: &str = include_str!("../../data/naer-education-expansion.tsv");
 const NAER_EDUCATIONAL_STUDIES_DATA: &str =
@@ -93,6 +94,7 @@ static INDEX: LazyLock<HashMap<&'static str, Vec<(&'static str, PartOfSpeech, &'
             NAER_ACCOUNTING_DATA,
             NAER_MANAGEMENT_DATA,
             NAER_COMPUTER_DATA,
+            NAER_INFORMATION_DATA,
             NAER_ADMINISTRATION_DATA,
             NAER_EDUCATION_DATA,
             NAER_EDUCATIONAL_STUDIES_DATA,

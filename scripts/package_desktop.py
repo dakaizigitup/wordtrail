@@ -3,12 +3,13 @@ from pathlib import Path
 import hashlib, json, shutil
 
 ROOT=Path(__file__).resolve().parents[1]
-DELIVERY=Path('D:/soft/英语输入法/电脑版四六级补词补丁')
+DELIVERY=Path('D:/soft/英语输入法/电脑版词汇补丁-0.1.24')
+PREVIOUS_DELIVERY=Path('D:/soft/英语输入法/电脑版四六级补词补丁')
 def sha(path):
     with path.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
 def main():
     DELIVERY.mkdir(parents=True,exist_ok=True)
-    previous_manifest_path=DELIVERY/'SHA256.json'
+    previous_manifest_path=PREVIOUS_DELIVERY/'SHA256.json'
     previous_manifest=json.loads(previous_manifest_path.read_text(encoding='utf-8-sig')) if previous_manifest_path.is_file() else {}
     for source,name in [(ROOT/'target/release/qingjian-server.exe','qingjian-server.exe'),(ROOT/'data/pronunciation-en.qj','pronunciation-en.qj'),(ROOT/'data/generated/dict.qj','dict.qj'),(ROOT/'scripts/install_desktop_ipa.ps1','install_desktop_ipa.ps1'),(ROOT/'desktop/NOTICE.txt','NOTICE.txt'),(ROOT/'LICENSE','LICENSE')]:
         shutil.copy2(source,DELIVERY/name)
@@ -227,6 +228,18 @@ def main():
         ROOT/'vocabulary/data/sources/naer/educational-studies-terms-2026-08-12.csv',
         ROOT/'scripts/build_naer_educational_studies_batch.py',
         ROOT/'docs/37-NAER教育学研究术语补充.md',
+        ROOT/'vocabulary/data/NAER-INFORMATION-ATTRIBUTION.md',
+        ROOT/'vocabulary/data/naer-information-expansion.tsv',
+        ROOT/'vocabulary/data/naer-information-tags.tsv',
+        ROOT/'vocabulary/data/naer-information-manifest.json',
+        ROOT/'vocabulary/data/batches/38-naer-information-prefilter.tsv',
+        ROOT/'vocabulary/data/batches/38-naer-information-candidates.tsv',
+        ROOT/'vocabulary/data/batches/38-naer-information-reviewed.tsv',
+        ROOT/'vocabulary/data/batches/38-naer-information-tags-reviewed.tsv',
+        ROOT/'vocabulary/data/sources/naer/information-basic-dataset.json',
+        ROOT/'vocabulary/data/sources/naer/information-basic-terms-2026-08-12.csv',
+        ROOT/'scripts/build_naer_information_basic_batch.py',
+        ROOT/'docs/38-NAER信息术语补词.md',
         ROOT/'vocabulary/data/WORDLEVEL-ATTRIBUTION.md',
         ROOT/'vocabulary/data/wordlevel-toefl-ielts-expansion.tsv',
         ROOT/'vocabulary/data/wordlevel-toefl-ielts-tags.tsv',
@@ -252,9 +265,14 @@ def main():
     supported=['b3b7100268fa64a89560f2142038623ac9527fa7875149ed68caec4aaf625634','a08ac3fa0b4a151d8b5e0bf18b21bc545c5360f2f623e031867645c147ca1b18','2fcb6f5b467fc0dce46777fdb1723c807e04712c84c9e25718e43880e817396d','2ef3aa287d6987795877c28e1d6b2be55f7e017f2a687a3693e40a31b230b6d7','e68aa1eabd3689f0e749acd82516d36f9db12d1e9e1c451e1525a8362b1cd703','0f5e0aaaeaacc97879a1003ca08adfc907919867dc249e4e64912560d826fb8f','f4ea6155c89d2537bfb1c8a2fd99783e4367a332b022819ac9a535657fe8b2bd','31fe230e9c4e86ea2713b97ef37e61743804aa277db61466e7210bdccb827ccb','c1f0164589343b3db2b2c9d43018d9fa38baffa402ef4343e2035cb5dc8291c4','ba55c5d9fb619935704dd8a205d88bea6732ef6ae32bdf39d813e1a0f513fa6f','30bb3b9e6aad17b2779570dbb4366df0827432cf49129743a5af336a77792de8','4ec9c04a27f11abbbaf6d938715602a5a6e30e1a19e58572a37976a03d9dee7b']
     previous_server=previous_manifest.get('artifacts',{}).get('qingjian-server.exe',{}).get('sha256')
     if previous_server and previous_server not in supported and previous_server != original:supported.append(previous_server)
-    manifest=dict(version='0.1.23',base_version='Qingjian Windows 0.1.4',original_server_sha256=original,supported_previous_server_sha256=supported,
-                  original_dictionary_sha256='3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc',
-                  supported_previous_dictionary_sha256=['07a4ce7fc57b45ca49fd7e5474d555c72c722c7f084d83cf9a08eecbd7c65157'],artifacts={})
+    original_dictionary='3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc'
+    supported_dictionaries=['07a4ce7fc57b45ca49fd7e5474d555c72c722c7f084d83cf9a08eecbd7c65157']
+    previous_dictionary=previous_manifest.get('artifacts',{}).get('dict.qj',{}).get('sha256')
+    if previous_dictionary and previous_dictionary not in supported_dictionaries and previous_dictionary != original_dictionary:
+        supported_dictionaries.append(previous_dictionary)
+    manifest=dict(version='0.1.24',base_version='Qingjian Windows 0.1.4',original_server_sha256=original,supported_previous_server_sha256=supported,
+                  original_dictionary_sha256=original_dictionary,
+                  supported_previous_dictionary_sha256=supported_dictionaries,artifacts={})
     for name in ['qingjian-server.exe','pronunciation-en.qj','dict.qj','install_desktop_ipa.ps1','vocabulary_settings.ps1','settings.cmd']:
         path=DELIVERY/name
         manifest['artifacts'][name]=dict(bytes=path.stat().st_size,sha256=sha(path))
@@ -263,9 +281,8 @@ def main():
         (DELIVERY/name).write_text('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0install_desktop_ipa.ps1"'+extra+'\r\n',encoding='ascii')
     shutil.copy2(ROOT/'docs/电脑版音标补丁.md',DELIVERY/'使用说明.md')
     evidence=DELIVERY/'evidence';evidence.mkdir(exist_ok=True)
-    for name in ['desktop-tests.json','desktop-tests.txt','desktop-installed-tests.json','pronunciation-tests.txt']:
-        source=ROOT/'build'/name
-        if source.is_file():shutil.copy2(source,evidence/name)
+    source=ROOT/'build/final-rust-tests-0.1.31.log'
+    if source.is_file():shutil.copy2(source,evidence/'rust-tests.log')
     shutil.copy2(ROOT/'docs/screenshots/desktop-0.1.4-default.png',DELIVERY/'desktop-ipa.png')
     print(json.dumps(manifest,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

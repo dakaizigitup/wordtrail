@@ -28,7 +28,7 @@ def main():
         reopen();ui.tap(ui.description('语音输入'));ui.exact('请说话…')
         active=ui.adb('shell','cmd','appops','get','org.wordtrail.ime','RECORD_AUDIO')
         ui.check('recording has a real active microphone operation','running' in active.lower())
-        ui.check('hide button stays enabled while typing and language switching are disabled',ui.description('收起键盘')['enabled'] and not ui.exact('Q')['enabled'] and not ui.exact('中/英')['enabled'])
+        ui.check('hide button stays enabled while recording replaces letter keys',ui.description('收起键盘')['enabled'] and not any(n.get('text')=='Q' for n in ui.nodes()))
         hide();time.sleep(1)
         stopped=ui.adb('shell','cmd','appops','get','org.wordtrail.ime','RECORD_AUDIO')
         ui.check('hiding stops the real microphone operation','running' not in stopped.lower())

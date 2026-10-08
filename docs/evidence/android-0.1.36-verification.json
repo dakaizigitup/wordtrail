@@ -1,0 +1,12 @@
+{
+  "version": "0.1.36",
+  "version_code": 37,
+  "apk_bytes": 253626725,
+  "apk_sha256": "c6d09d05805d5e6bbfbb4aa528b6cb0efcda98ea0d9c50a5af756061493e36bb",
+  "settings_and_long_press_checks": 68,
+  "layout_checks": 44,
+  "rapid_touch_cases": 6,
+  "native_tests": 7,
+  "test_device": "Android 35 emulator",
+  "physical_device_tested": false
+}

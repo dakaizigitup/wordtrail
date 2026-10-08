@@ -9,14 +9,14 @@
 
 ## 下载
 
-GitHub 最新发布版为 **v0.1.30**（Android 0.1.30、Windows 补丁 0.1.23）：整合批次30–37专业词汇补充，覆盖计算机、商务、医学、行政学、教育和心理学来源。Windows 补丁用于已安装官方青简 Windows 0.1.4 的用户，需要管理员权限完成安装。
+GitHub 最新发布版为 **v0.1.38**：Android 加入九键、候选网格、即时高度设置、长按大小写选择和选字震动。已有同签名词伴版本可直接覆盖安装。完整更新与验证见 [0.1.38 发布说明](docs/0.1.38发布说明.md)。Windows 可下载补丁继续为 0.1.23，用于已安装官方青简 Windows 0.1.4 的用户。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.30/wordtrail-0.1.30-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；已含离线语音模型 |
+| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.38/wordtrail-0.1.38-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；已含离线语音模型 |
 | [Windows 音标与考试词汇补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.30/wordtrail-windows-ipa-0.1.23.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.30/wordtrail-0.1.30-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.30/SHA256SUMS.txt) | 核对发布附件 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.38/wordtrail-0.1.38-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.38/SHA256SUMS.txt) | 核对本版 Android 与源码附件；Windows 校验见其原发布页 |
 
 后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
@@ -28,17 +28,23 @@ GitHub 最新发布版为 **v0.1.30**（Android 0.1.30、Windows 补丁 0.1.23�
 
 ## 当前功能
 
-| 功能 | Android 本地 0.1.30 | Windows 本地 0.1.23 | iOS 源码 |
+| 功能 | Android 0.1.38 | Windows 已发布 0.1.23 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
 | 英式 / 美式英语音标 | 展开候选详情查看 | 各英语释义旁注 | 展开详情，未验证 |
 | 英语考试目标、多标签与译词优先 | 六类考试加六类专业目标 | 六类考试加六类专业目标 | 六类考试加六类专业目标，未验证 |
 | 中文 / 英文本机离线语音 | 已实现，不依赖系统语音服务 | 未新增 | 未新增 |
+| 九键 / 全键拼音 | 已实现，可直接切换 | 未新增 | 已加入源码，未编译 |
+| 按键长按选字 | 九键、26键均可选大小写字母与数字/符号，支持滑选 | 未新增 | 未新增 |
+| 候选网格展开 | 上滑或点候选栏右侧箭头；等高替换按键，可滚动及翻页 | 未新增 | 已加入源码，未编译 |
+| 个性化候选 | 本机按键串、选词和读音学习；隐私输入不学习 | 青简原生支持 | 已加入源码，未编译 |
 | 青绿 / 粉紫 / 深色主题 | 可切换 | 官方外观 | 已加入源码，未验证 |
 | 手机 / 平板自适应 | 已实现 | 不适用 | 已加入源码，未验证 |
 
-Android 同时提供中英切换、数字/符号键盘、主动收起按钮、紧凑候选行、可滚动的释义/多音标详情。新译词标橙、熟悉译词变灰；保留本地学习机制。
+Android 同时提供中英切换、数字/符号键盘、主动收起按钮、紧凑候选行、可滚动的释义/多音标详情。新译词标橙、熟悉译词变灰；普通拼音与九键候选偏好均保存在本机。
+
+Android 点选中文候选（含展开网格）及长按选择条最终选定字符时，触发与打字相同的轻震动；遵循系统触感反馈设置。
 
 **本地开发源码已支持六类考试目标与计算机、商务、医学、行政学、教育、心理学六类专业目标**，可多选并保留同词多标签。命中目标的英文译词优先，中文候选顺序不变；原有译词仍保留。社区收录标签不等于官方完整考试范围、考试成绩、个人水平或完整专业词表。详见 [0.1.8 使用说明](docs/0.1.8词汇目标.md)、[专业词汇首批](docs/0.1.24专业词汇首批.md)、[计算机术语第二段](docs/0.1.25计算机术语第二段.md)、[MeSH医学词汇批次](docs/21-MeSH医学词汇.md)、[行政学术语批次](docs/34-NAER行政学术名词补充.md)、[教育术语批次](docs/35-NAER教育词汇补充.md)、[心理学术语批次](docs/36-NAER心理学词汇补充.md)和[教育学研究术语批次](docs/37-NAER教育学研究术语补充.md)。
 
@@ -54,10 +60,13 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 1. 下载 APK，在手机文件管理器打开安装。已有同签名词伴版本可直接覆盖安装，保留设置与学习数据。
 2. 打开“词伴输入法”，点“① 启用词伴键盘”，再点“② 切换到词伴”。
-3. 在输入框输入 `nihao`：候选显示“你好”和 `hello`。点候选输入中文；长按候选输入译词。
-4. 点候选小箭头或向下滑查看完整释义、词汇标签及英式/美式音标；点“EN 译词”切换学习语言。
-5. 在首页“词汇学习目标”选择考试或专业领域，可多选；全部词汇保留，命中目标的译词优先。详情可逐条输入译词。
-6. “中/英”切换输入模式，◐ 切换主题，右上角向下箭头收起键盘。点击麦克风后授权录音，说话并点“完成”插入文字；“取消”不会插入。
+3. 本地 0.1.36 在顶栏点“九键/全键”切换布局；首页设置也即时生效。切换布局会清空尚未选定的拼音，保留已提交文字。九键输入 `64426` 可给出“你好”，左侧选读音，右侧删除或重输。点中文上屏，长按中文输入译词。
+4. 从候选栏向上滑，或点候选右侧箭头，展开候选网格；原按键区域变成候选，整个面板等高。读音和候选各自滚动，底部可翻页、删除、返回键盘；系统返回键先收起面板。选完词后自动恢复按键。
+5. 点译词、小标签或向下滑查看完整释义、全部词汇标签及英式/美式音标；详情替换按键区，可滚动。点“EN 译词”切换学习语言。
+6. 在首页“键盘布局与高度”里分别调整按键高度、底部留白，打开的键盘立即变化，输入中的拼音保留。默认“舒适”留白会抬高按键；可选“抬高”，横屏自动缩减留白。
+7. 长按九键可选择数字与大小写字母，例如 `M N O 6 m n o`；26键同时提供大写、数字/符号、小写，例如 `Q 1 q`、`L ? l`，中文、英文模式均可选择。滑到目标后松手输入，不滑动则输入高亮数字/符号。移出选字区域后松手可取消。长按逗号/句号可选其他标点。
+8. 在首页“词汇学习目标”选择考试或专业领域，可多选；全部词汇保留，命中目标的译词优先。详情可逐条输入译词。
+9. “中/英”切换输入模式，◐ 切换主题，右上角向下箭头收起键盘。点击麦克风后授权录音，说话并点“完成”插入文字；“取消”不会插入。
 
 语音默认使用随包 SenseVoice int8 + sherpa-onnx + Silero VAD，本机处理，不上传或保存录音。首次准备模型需要额外空间，建议预留约 1 GB。可选系统语音只在设备提供公开识别服务时可用；选择该方式时服务可能联网。
 
@@ -82,6 +91,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
   <img src="docs/screenshots/android-0.1.10-goals.png" width="230" alt="Android 英语学习目标多选">
 <img src="docs/screenshots/android-0.1.10-priority.png" width="230" alt="Android 新增六级译词优先与多标签候选">
+<img src="docs/screenshots/android-0.1.32-expanded.png" width="230" alt="Android 九键候选展开后键盘让位，读音和候选可滚动">
 
 <img src="docs/screenshots/android-0.1.10-expanded.png" width="230" alt="新增译词详情滚动与逐条输入">
 
@@ -97,7 +107,7 @@ Android 同时提供中英切换、数字/符号键盘、主动收起按钮、�
 
 日常拼音、释义、音标、考试标签和默认语音都在本机处理。Android 应用没有 `INTERNET` 权限；开发构建时的数据下载与安装包内的日常运行是不同阶段。
 
-这仍是实验版：没有九宫格、手写、滑行输入、表情面板或完整的学习统计页，也没有移植桌面的整句神经模型。当前发布以可用的输入与辅助学习为主。
+Android 0.1.38 已发布九宫格、候选网格展开、本机个性排序、按键长按选字、即时布局设置与选字震动。手写、滑行输入、表情面板和完整学习统计页仍未实现，也没有移植桌面的整句神经模型。
 
 ## 开发与构建
 
@@ -130,7 +140,7 @@ python scripts/bootstrap_vocab_tools.py
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.30-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.38-source.zip
 ```
 
 `bootstrap_vocab_tools.py` 另行恢复固定 SHA-256 的 OpenCC Python 0.1.7，仅供考试词表构建时繁简转换。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。

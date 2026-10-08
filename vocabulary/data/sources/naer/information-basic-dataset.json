@@ -1,0 +1,14 @@
+{
+  "dataset_id": "15407",
+  "title": "National Academy for Educational Research - Information Terms (High School and Below)",
+  "provider": "National Academy for Educational Research",
+  "dataset_url": "https://data.gov.tw/dataset/15407",
+  "resource_url": "https://opendata.naer.edu.tw/學術名詞/國家教育研究院-資訊名詞-高中含以下資訊學術名詞.csv",
+  "license": "Open Government Data License v1.0",
+  "license_url": "https://data.gov.tw/license",
+  "portal_updated_at": "2026-08-12 13:57",
+  "snapshot_sha256": "9931846343405436c5487a1c491a75c7522d93436d75722816cf2e23a6dc10fc",
+  "snapshot_bytes": 61035,
+  "records": 881,
+  "downloaded_at": "2026-10-07"
+}

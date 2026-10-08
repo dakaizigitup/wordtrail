@@ -20,6 +20,24 @@ public final class WindowProbe extends Instrumentation {
             AccessibilityServiceInfo config=getUiAutomation().getServiceInfo();
             config.flags |= AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS | AccessibilityServiceInfo.FLAG_INCLUDE_NOT_IMPORTANT_VIEWS;
             getUiAutomation().setServiceInfo(config);
+            if(arguments!=null && arguments.containsKey("hold_key")){
+                Thread.sleep(700);JSONArray initial=snapshot();JSONObject key=find(initial,arguments.getString("hold_key"));
+                Rect rect=rect(key);float x=rect.exactCenterX(),y=rect.exactCenterY();long down=android.os.SystemClock.uptimeMillis();
+                touch(down,android.view.MotionEvent.ACTION_DOWN,x,y);Thread.sleep(Integer.parseInt(arguments.getString("hold_ms","750")));
+                JSONArray options=snapshot();String expected=arguments.containsKey("option")?"长按选项 "+arguments.getString("option"):"按键长按选项";
+                for(int attempt=0;attempt<8;attempt++){try{find(options,expected);break;}catch(IllegalStateException missing){Thread.sleep(100);options=snapshot();}}
+                result.putString("held_nodes",options.toString());
+                if(arguments.containsKey("shot")){
+                    java.io.File file=new java.io.File(getContext().getExternalFilesDir(null),arguments.getString("shot")+".png");
+                    try(java.io.FileOutputStream stream=new java.io.FileOutputStream(file)){android.graphics.Bitmap image=getUiAutomation().takeScreenshot();image.compress(android.graphics.Bitmap.CompressFormat.PNG,100,stream);image.recycle();}
+                    result.putString("screenshot",file.getAbsolutePath());
+                }
+                if(arguments.containsKey("option")){Rect target;try{target=rect(find(options,expected));}catch(IllegalStateException error){touch(down,android.view.MotionEvent.ACTION_CANCEL,x,y);throw error;}x=target.exactCenterX();y=target.exactCenterY();touch(down,android.view.MotionEvent.ACTION_MOVE,x,y);Thread.sleep(120);}
+                if("true".equals(arguments.getString("outside"))){x=20;y=20;touch(down,android.view.MotionEvent.ACTION_MOVE,x,y);Thread.sleep(120);}
+                if("true".equals(arguments.getString("cancel")))touch(down,android.view.MotionEvent.ACTION_CANCEL,x,y);
+                else touch(down,android.view.MotionEvent.ACTION_UP,x,y);
+                Thread.sleep(1500);
+            }
             if(arguments!=null && arguments.containsKey("burst")){
                 Thread.sleep(700);
                 String text=arguments.getString("burst");int gap=Integer.parseInt(arguments.getString("gap","60"));
@@ -59,6 +77,10 @@ public final class WindowProbe extends Instrumentation {
             finish(0,result);
         } catch(Exception error) { result.putString("error",error.toString()); finish(1,result); }
     }
+    private JSONArray snapshot() throws Exception {JSONArray nodes=new JSONArray();for(AccessibilityWindowInfo window:getUiAutomation().getWindows())visit(window.getRoot(),nodes);return nodes;}
+    private JSONObject find(JSONArray nodes,String label) throws Exception {for(int i=0;i<nodes.length();i++){JSONObject n=nodes.getJSONObject(i);if(n.optString("description").equals(label) || n.optString("text").equals(label))return n;}throw new IllegalStateException("Missing control "+label);}
+    private Rect rect(JSONObject node){java.util.regex.Matcher m=java.util.regex.Pattern.compile("-?\\d+").matcher(node.optString("bounds"));int[] p=new int[4];for(int i=0;i<4;i++){m.find();p[i]=Integer.parseInt(m.group());}return new Rect(p[0],p[1],p[2],p[3]);}
+    private void touch(long down,int action,float x,float y){android.view.MotionEvent event=android.view.MotionEvent.obtain(down,android.os.SystemClock.uptimeMillis(),action,x,y,0);event.setSource(android.view.InputDevice.SOURCE_TOUCHSCREEN);getUiAutomation().injectInputEvent(event,true);event.recycle();}
     private void visit(AccessibilityNodeInfo node,JSONArray output) throws Exception {
         if(node==null) return;
         Rect bounds=new Rect(); node.getBoundsInScreen(bounds);

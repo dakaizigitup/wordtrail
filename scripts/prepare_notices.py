@@ -1,13 +1,14 @@
 """保留软件和数据的署名、许可全文；把同一文本放入安卓与 iOS 资源。"""
 from pathlib import Path
-import csv, json, shutil
+import csv, json, shutil, re
 
 ROOT = Path(__file__).resolve().parents[1]
+VERSION = re.search(r'versionName\s*=\s*"([^"]+)"',(ROOT/'android/app/build.gradle.kts').read_text(encoding='utf-8')).group(1)
 def write_notice(path, text):
     normalized='\n'.join(line.rstrip(' \t\r') for line in text.splitlines())+'\n'
     path.write_text(normalized,encoding='utf-8',newline='\n')
 
-HEADER = """词伴输入法 / Wordtrail 0.1.30
+HEADER = """词伴输入法 / Wordtrail 0.1.31
 独立移动实验版，非青简官方产品。
 
 新增移动层代码：GPL-3.0-or-later，详见下面 GPL 全文。
@@ -15,7 +16,7 @@ HEADER = """词伴输入法 / Wordtrail 0.1.30
 版本 v0.1.4；提交 f7abaefcb1a3aeaca5c01692941a64a7b1f43eb5。
 青简名称和 logo 不在代码授权范围，本应用未使用其品牌资产。
 
-对应源码随交付包 wordtrail-0.1.30-source.zip 提供，包括移动层、
+对应源码随交付包 wordtrail-0.1.31-source.zip 提供，包括移动层、
 固定上游、构建脚本、Cargo.lock 和第三方 Rust 源码。
 
 随包数据来自青简官方 v0.1.4 安装包：dict.qj、glossary-en/ja/es.qj。
@@ -44,7 +45,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ 。
 原始数据、校验清单、来源说明和许可原文见 pronunciation/source。
 
 第三方 Rust 依赖保留各自许可。以下包含依赖声明及可用的许可原文。
-"""
+""".replace('0.1.31', VERSION)
 
 def main():
     parts = [HEADER, "\n英语考试标签：ECDICT（MIT）及 KyleBing/english-vocabulary（BSD-3-Clause）。\n固定提交、输入文件 SHA-256、去重统计见 vocabulary/data/manifest.json。\n标签索引仅提取词条及收录标签。新增英文译词从 ECDICT 与 KyleBing 提取短中文词义对应，\n不复制例句或音频；构建时用 WordNet 3.0 拼写与同义关系校验，运行时不加载 WordNet。\n繁简转换构建辅助工具 opencc-python-reimplemented 0.1.7（Apache-2.0）只用于审计脚本，\n不进入运行程序；固定 wheel SHA-256、署名及许可见 vocabulary/data/OPENCC-PYTHON-ATTRIBUTION.md。\n扩词输入校验、数量及人工补充见 vocabulary/data/expansion-manifest.json。标签不代表难度或官方完整考试范围。\n0.1.20 专四、专八、托福、雅思派生数据分别保存在 exam-target-ecdict-expansion.tsv 与\nexam-target-kylebing-expansion.tsv；逐词来源、固定提交、许可和筛选边界见\nvocabulary/data/EXAM-TARGETS-ATTRIBUTION.md、batches/09-exam-target-reviewed.tsv 与 exam-target-manifest.json。\n本批为自动交叉筛选，未逐条人工审校；完整来源词表不随包重分发。\n"]
@@ -588,6 +589,27 @@ def main():
         parts.append(
             f"{row['chinese']} -> {row['english']} (n.); NAER educational-studies record {row['source_records']}\n"
         )
+    information_manifest = json.loads((ROOT/'vocabulary/data/naer-information-manifest.json').read_text(encoding='utf-8'))
+    with (ROOT/'vocabulary/data/batches/38-naer-information-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
+        information_reviewed = list(csv.DictReader(stream, delimiter='\t'))
+    information_accepted = [row for row in information_reviewed if row['decision'] == 'accept']
+    information_counts = information_manifest['counts']
+    parts.append("\n=== 信息术语批次38（NAER Information Terms, High School and Below）===\n")
+    parts.append(
+        "署名：National Academy for Educational Research；國家教育研究院《資訊名詞－高中含以下資訊學術名詞》（dataset 15407）。"
+        "来源：https://data.gov.tw/dataset/15407 。许可：Open Government Data License v1.0，https://data.gov.tw/license 。"
+        f"固定 CSV 共{information_counts['source_records']}条，SHA-256：{information_manifest['source']['snapshot_sha256']}。"
+        f"严格匹配{information_counts['eligible_exact_pairs']}组，本地已有{information_counts['already_mapped_pairs']}组；"
+        f"审校{information_counts['new_review_candidates']}组，接受{information_counts['accepted_mappings']}组、"
+        f"排除{information_counts['rejected_candidates']}组，新增英文词头{information_counts['new_english_headwords']}个。"
+        f"另有{information_counts['reviewed_tag_headwords']}个来源词头加入计算机类别，其中新增{information_counts['new_computer_tag_memberships']}个成员。"
+        "该匹配率仅反映本机严格筛选结果，不代表来源词表覆盖率；来源成员关系不表示所有义项都专属于计算机。"
+        "完整来源快照、修改说明、SHA-256 和逐项审校见 vocabulary/data/NAER-INFORMATION-ATTRIBUTION.md、"
+        "vocabulary/data/naer-information-manifest.json、vocabulary/data/batches/38-naer-information-reviewed.tsv、"
+        "vocabulary/data/batches/38-naer-information-tags-reviewed.tsv 和 scripts/build_naer_information_basic_batch.py。\n"
+    )
+    for row in information_accepted:
+        parts.append(f"{row['chinese']} -> {row['english']} (n.); NAER information terms record {row['source_records']}\n")
     wordlevel_manifest = json.loads((ROOT/'vocabulary/data/wordlevel-toefl-ielts-manifest.json').read_text(encoding='utf-8'))
     with (ROOT/'vocabulary/data/batches/28-wordlevel-reviewed.tsv').open(encoding='utf-8', newline='') as stream:
         wordlevel_reviewed = list(csv.DictReader(stream, delimiter='\t'))
@@ -639,7 +661,7 @@ def main():
     while pending:
         for dependency in nodes[pending.pop()]['dependencies']:
             if dependency not in mobile:mobile.add(dependency);pending.append(dependency)
-    desktop_parts=["Windows 音标与词汇目标补丁 0.1.23：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-0.1.30-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
+    desktop_parts=[f"Windows 音标与词汇目标补丁 0.1.24：用于现有青简 0.1.4 安装。\n非官方发布；不分发青简品牌图标。保持已安装官方资源。\n对应源码在 wordtrail-{VERSION}-source.zip，包含 desktop/、vocabulary/ 与独立音标库。\n"]+list(parts)
     for package in sorted(metadata['packages'],key=lambda p:(p['name'],p['version'])):
         if package.get('source') is None: continue
         current=[f"\n\n=== {package['name']} {package['version']} ===\n许可：{package.get('license') or '见源文件'}\n仓库：{package.get('repository') or ''}\n"]

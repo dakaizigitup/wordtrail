@@ -1,10 +1,12 @@
 """提供与 APK 对应的源码，包括依赖和数据；排除工具链、私钥和重复生成物。"""
 from pathlib import Path
-import hashlib, json, shutil, zipfile, os
+import hashlib, json, shutil, zipfile, os, re
 
 ROOT=Path(__file__).resolve().parents[1]
-DELIVERY=Path('D:/soft/英语输入法/手机版')
+VERSION=re.search(r'versionName\s*=\s*"([^"]+)"',(ROOT/'android/app/build.gradle.kts').read_text(encoding='utf-8')).group(1)
+DELIVERY=Path(f'D:/soft/英语输入法/手机版/{VERSION}')
 SKIP_ROOT={'target','build','dist'}
+SKIP_DIRS={'.git','__pycache__','target','build','dist','.gradle','node_modules'}
 SKIP_PREFIXES=('third-party/rust/','android/app/src/main/assets/data/','android/app/src/main/assets/voice/','android/app/src/main/jniLibs/',
                'android/app/build/','android/.gradle/','ios/Keyboard/Data/','ios/Frameworks/')
 
@@ -12,12 +14,14 @@ GUIDES=('安装与测试指南.md', '测试报告.md', 'GitHub调研.md', '主�
 GUIDES += ('26-NAER生命科学词汇.md', '27-NAER兽医学词汇.md', '28-WordLevel考试词汇.md')
 GUIDES += ('29-OpenEtymology四六级补词.md', '0.1.30测试报告.md')
 GUIDES += ('30-NAER经济学术语补充.md', '31-NAER计算机学术名词补充.md', '32-NAER会计学术名词补充.md', '33-NAER管理学术名词补充.md', '34-NAER行政学术名词补充.md', '35-NAER教育词汇补充.md', '36-NAER心理学词汇补充.md', '37-NAER教育学研究术语补充.md')
+GUIDES += ('38-NAER信息术语补词.md',)
+GUIDES += ('0.1.35键盘布局.md', '0.1.36长按与即时设置.md', '0.1.38发布说明.md')
 
 def main():
     for name in GUIDES:
         if not (ROOT/'docs'/name).is_file():raise FileNotFoundError('Missing delivery guide: '+name)
     dist=ROOT/'dist'; dist.mkdir(exist_ok=True)
-    archive=dist/'wordtrail-0.1.30-source.zip'
+    archive=dist/f'wordtrail-{VERSION}-source.zip'
     count=0
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,strict_timestamps=False) as output:
         # Prune build/cache trees before walking; their contents never belong
@@ -25,7 +29,7 @@ def main():
         source_files=[]
         for directory,folders,names in os.walk(ROOT):
             parent=Path(directory)
-            folders[:]=[name for name in folders if name not in {'.git','__pycache__'}
+            folders[:]=[name for name in folders if name not in SKIP_DIRS
                        and not (parent==ROOT and name in SKIP_ROOT)
                        and not ((parent/name).relative_to(ROOT).as_posix()+'/').startswith(SKIP_PREFIXES)]
             source_files.extend(parent/name for name in names)
@@ -44,7 +48,7 @@ def main():
     with zipfile.ZipFile(archive) as source:
         assert source.testzip() is None
     DELIVERY.mkdir(parents=True,exist_ok=True)
-    files=[archive,dist/'wordtrail-0.1.30-debug.apk']
+    files=[archive,dist/f'wordtrail-{VERSION}-debug.apk']
     for file in files: shutil.copy2(file,DELIVERY/file.name)
     for name in GUIDES:shutil.copy2(ROOT/'docs'/name,DELIVERY/name)
     shutil.copy2(ROOT/'branding/wordtrail-warm-icon.png',DELIVERY/'词伴暖色图标.png')

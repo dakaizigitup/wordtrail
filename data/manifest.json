@@ -32,6 +32,7 @@
     "source": "CEFR-J 1.5 / Octanove C1-C2 1.0; vendor/qingjian/assets/levels/README.md"
   },
   "runtime_dictionary": {
+    "data_version": "Wordtrail 0.1.31",
     "input_sha256": "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc",
     "overlays": {
       "exam-target-batch-11.tsv": "a42e86df9afbf2a6a811cb2e844545c8e1b4b6df40fcf81f1dd333ef0be7d859",
@@ -45,7 +46,7 @@
     "existing_order_preserved": true,
     "checked_pinyin_keys": 62978,
     "checked_existing_entries": 92825,
-    "runtime_dictionary_sha256": "43d523298e508d76e57ca6512597dd37ee61682ab7eafba33b7a541229e50283",
+    "runtime_dictionary_sha256": "7fd5e1b0de75c2632c2258ac331c05c7c8c531454371a4baf541934b31084b77",
     "runtime_dictionary_bytes": 3605096
   },
   "source_files": {

@@ -1,0 +1,122 @@
+{
+  "profiles": [
+    {
+      "profile": "phone",
+      "size": "1080x2400",
+      "density": 420,
+      "font": 1,
+      "keyboard": [
+        0,
+        1459,
+        1080,
+        2400
+      ],
+      "candidate": [
+        16,
+        1591,
+        249,
+        1733
+      ]
+    },
+    {
+      "profile": "phone-large-font",
+      "size": "1080x2400",
+      "density": 420,
+      "font": 1.5,
+      "keyboard": [
+        0,
+        1407,
+        1080,
+        2400
+      ],
+      "candidate": [
+        16,
+        1539,
+        249,
+        1733
+      ]
+    },
+    {
+      "profile": "tablet",
+      "size": "2560x1600",
+      "density": 240,
+      "font": 1,
+      "keyboard": [
+        0,
+        1015,
+        2560,
+        1600
+      ],
+      "candidate": [
+        605,
+        1090,
+        747,
+        1171
+      ]
+    },
+    {
+      "profile": "landscape",
+      "size": "1920x1080",
+      "density": 440,
+      "font": 1,
+      "keyboard": [
+        0,
+        215,
+        1920,
+        1080
+      ],
+      "candidate": [
+        17,
+        353,
+        237,
+        502
+      ]
+    }
+  ],
+  "passed": [
+    "phone bottom breathing room",
+    "phone typing does not move letter keys",
+    "phone full Chinese and gloss stay inside candidate",
+    "phone expanded candidates replace keyboard without resize",
+    "phone letters absent when candidates expanded",
+    "phone Android back collapses candidates before hiding IME",
+    "phone details replace keys without increasing height",
+    "phone selecting nine-key candidate restores keys",
+    "phone retype preserves already committed text",
+    "phone nine-key delete clears only composition",
+    "phone numeric keyboard has working delete",
+    "phone-large-font bottom breathing room",
+    "phone-large-font typing does not move letter keys",
+    "phone-large-font full Chinese and gloss stay inside candidate",
+    "phone-large-font expanded candidates replace keyboard without resize",
+    "phone-large-font letters absent when candidates expanded",
+    "phone-large-font Android back collapses candidates before hiding IME",
+    "phone-large-font details replace keys without increasing height",
+    "phone-large-font selecting nine-key candidate restores keys",
+    "phone-large-font retype preserves already committed text",
+    "phone-large-font nine-key delete clears only composition",
+    "phone-large-font numeric keyboard has working delete",
+    "tablet bottom breathing room",
+    "tablet typing does not move letter keys",
+    "tablet full Chinese and gloss stay inside candidate",
+    "tablet expanded candidates replace keyboard without resize",
+    "tablet letters absent when candidates expanded",
+    "tablet Android back collapses candidates before hiding IME",
+    "tablet details replace keys without increasing height",
+    "tablet selecting nine-key candidate restores keys",
+    "tablet retype preserves already committed text",
+    "tablet nine-key delete clears only composition",
+    "tablet numeric keyboard has working delete",
+    "landscape bottom breathing room",
+    "landscape typing does not move letter keys",
+    "landscape full Chinese and gloss stay inside candidate",
+    "landscape expanded candidates replace keyboard without resize",
+    "landscape letters absent when candidates expanded",
+    "landscape Android back collapses candidates before hiding IME",
+    "landscape details replace keys without increasing height",
+    "landscape selecting nine-key candidate restores keys",
+    "landscape retype preserves already committed text",
+    "landscape nine-key delete clears only composition",
+    "landscape numeric keyboard has working delete"
+  ]
+}

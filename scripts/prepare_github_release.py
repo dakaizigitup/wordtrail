@@ -15,11 +15,20 @@ def sha(file):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--windows-patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版四六级补词补丁'))
-    parser.add_argument('--version',default='0.1.30')
+    parser.add_argument('--windows-patch-dir',type=Path,default=Path('D:/soft/英语输入法/电脑版词汇补丁-0.1.24'))
+    parser.add_argument('--version',default='0.1.38')
+    parser.add_argument('--android-only',action='store_true',help='Stage APK and source without publishing a new Windows patch')
     args = parser.parse_args()
-    output = ROOT/'dist'/'github-release'
+    output = ROOT/'dist'/'github-release'/args.version
     output.mkdir(parents=True,exist_ok=True)
+    if args.android_only:
+        assets=[]
+        for name in [f'wordtrail-{args.version}-debug.apk',f'wordtrail-{args.version}-source.zip']:
+            path=output/name;shutil.copy2(ROOT/'dist'/name,path);assets.append(path)
+        records=[{'name':file.name,'bytes':file.stat().st_size,'sha256':sha(file)} for file in assets]
+        (output/'SHA256SUMS.txt').write_text(''.join(item['sha256']+'  '+item['name']+'\n' for item in records),encoding='utf-8')
+        (ROOT/'build/github-release-artifacts.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
+        print(json.dumps(records,ensure_ascii=False,indent=2));return
     patch = args.windows_patch_dir
     manifest = json.loads((patch/'SHA256.json').read_text(encoding='utf-8-sig'))
     for name,record in manifest['artifacts'].items():
@@ -29,7 +38,7 @@ def main():
     version = manifest['version']
     windows = output/f'wordtrail-windows-ipa-{version}.zip'
     allowed = ['qingjian-server.exe','pronunciation-en.qj','dict.qj','install_desktop_ipa.ps1',
-               'install.cmd','rollback.cmd','settings.cmd','vocabulary_settings.ps1','SHA256.json','NOTICE.txt','LICENSE','desktop-ipa.png']
+               'install.cmd','rollback.cmd','settings.cmd','vocabulary_settings.ps1','SHA256.json','NOTICE.txt','LICENSE','desktop-ipa.png','使用说明.md']
     with zipfile.ZipFile(windows,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
         for name in allowed:
             archive.write(patch/name,'wordtrail-windows-ipa-'+version+'/'+name)
@@ -194,6 +203,18 @@ def main():
             ROOT/'vocabulary/data/sources/naer/educational-studies-terms-2026-08-12.csv',
             ROOT/'scripts/build_naer_educational_studies_batch.py',
             ROOT/'docs/37-NAER教育学研究术语补充.md',
+            ROOT/'vocabulary/data/NAER-INFORMATION-ATTRIBUTION.md',
+            ROOT/'vocabulary/data/naer-information-expansion.tsv',
+            ROOT/'vocabulary/data/naer-information-tags.tsv',
+            ROOT/'vocabulary/data/naer-information-manifest.json',
+            ROOT/'vocabulary/data/batches/38-naer-information-prefilter.tsv',
+            ROOT/'vocabulary/data/batches/38-naer-information-candidates.tsv',
+            ROOT/'vocabulary/data/batches/38-naer-information-reviewed.tsv',
+            ROOT/'vocabulary/data/batches/38-naer-information-tags-reviewed.tsv',
+            ROOT/'vocabulary/data/sources/naer/information-basic-dataset.json',
+            ROOT/'vocabulary/data/sources/naer/information-basic-terms-2026-08-12.csv',
+            ROOT/'scripts/build_naer_information_basic_batch.py',
+            ROOT/'docs/38-NAER信息术语补词.md',
             ROOT/'vocabulary/data/WORDLEVEL-ATTRIBUTION.md',
             ROOT/'vocabulary/data/wordlevel-toefl-ielts-expansion.tsv',
             ROOT/'vocabulary/data/wordlevel-toefl-ielts-tags.tsv',
@@ -276,8 +297,7 @@ def main():
                 relative=None
             packaged_path=relative.as_posix() if relative and relative.parts[0]=='sources' else source.name
             archive.write(source,'wordtrail-windows-ipa-'+version+'/data-license/'+packaged_path)
-        archive.write(ROOT/'docs/电脑版音标补丁.md','wordtrail-windows-ipa-'+version+'/使用说明.md')
-        for name in ['desktop-tests.json','desktop-tests.txt','desktop-installed-tests.json','pronunciation-tests.txt']:
+        for name in ['desktop-tests.json','desktop-tests.txt','desktop-installed-tests.json','pronunciation-tests.txt','rust-tests.log']:
             file=patch/'evidence'/name
             if file.is_file():
                 archive.write(file,'wordtrail-windows-ipa-'+version+'/evidence/'+file.name)
