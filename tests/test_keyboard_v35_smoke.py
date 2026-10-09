@@ -27,7 +27,10 @@ def main():
         ui.type_pinyin('nihao');ui.exact('你好');ui.screenshot('v35-preview-qwerty.png')
         ui.tap(ui.description('切换到九宫格拼音'))
         for digit in '64426':ui.tap(ui.wait(lambda ns:next((n for n in ns if n['description'].startswith('九键 '+digit+' ')),None)))
-        ui.tap(ui.description("选择读音 ni'hao"));ui.exact('你好');ui.screenshot('v35-preview-nine.png')
+        if any(n['description']=='选择第1个拼音 ni' for n in ui.nodes()):
+            ui.tap(ui.description('选择第1个拼音 ni'));ui.tap(ui.description('选择第2个拼音 hao'))
+        else:ui.tap(ui.description("选择读音 ni'hao"))
+        ui.exact('你好');ui.screenshot('v35-preview-nine.png')
         ui.tap(ui.description('展开全部候选并隐藏键盘'));ui.exact('返回键盘');ui.screenshot('v35-preview-expanded.png')
         ui.tap(ui.exact('返回键盘'));ui.tap(ui.description('切换到全键拼音'));ui.exact('Q')
         (ui.ROOT/'build/keyboard-v35-smoke.json').write_text(json.dumps({'passed':ui.RESULTS},ensure_ascii=False,indent=2),encoding='utf-8')

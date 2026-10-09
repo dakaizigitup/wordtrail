@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "new common-character data works after upgrade",
+    "Greek name commits a symbol and consumes full composition",
+    "English details expose IPA and Chinese insertion",
+    "explicit English-to-Chinese insertion reaches editor",
+    "English word prefix produces completions",
+    "choosing completion commits full English word",
+    "space preserves typed spelling instead of applying correction",
+    "Greek panel inserts lowercase and uppercase",
+    "Greek panel returns to alphabet keyboard"
+  ],
+  "physical_device_tested": false,
+  "upgrade_from": "0.1.40"
+}

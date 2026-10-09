@@ -1,0 +1,188 @@
+{
+  "profiles": [
+    {
+      "name": "phone",
+      "size": "1080x2400",
+      "density": 420,
+      "keys": {
+        "Q": [
+          24,
+          1741,
+          112,
+          1862
+        ],
+        "W": [
+          128,
+          1741,
+          216,
+          1862
+        ],
+        "A": [
+          66,
+          1878,
+          157,
+          1999
+        ],
+        "S": [
+          173,
+          1878,
+          264,
+          1999
+        ],
+        "L": [
+          922,
+          1878,
+          1014,
+          1999
+        ],
+        "Z": [
+          162,
+          2015,
+          256,
+          2136
+        ],
+        "X": [
+          272,
+          2015,
+          366,
+          2136
+        ]
+      }
+    },
+    {
+      "name": "tablet",
+      "size": "2560x1600",
+      "density": 240,
+      "keys": {
+        "Q": [
+          611,
+          1176,
+          734,
+          1254
+        ],
+        "W": [
+          746,
+          1176,
+          869,
+          1254
+        ],
+        "A": [
+          680,
+          1264,
+          802,
+          1342
+        ],
+        "S": [
+          814,
+          1264,
+          936,
+          1342
+        ],
+        "L": [
+          1757,
+          1264,
+          1880,
+          1342
+        ],
+        "Z": [
+          791,
+          1352,
+          920,
+          1430
+        ],
+        "X": [
+          932,
+          1352,
+          1061,
+          1430
+        ]
+      }
+    },
+    {
+      "name": "landscape",
+      "size": "1920x1080",
+      "density": 440,
+      "keys": {
+        "Q": [
+          28,
+          510,
+          194,
+          615
+        ],
+        "W": [
+          216,
+          510,
+          382,
+          615
+        ],
+        "A": [
+          155,
+          631,
+          314,
+          736
+        ],
+        "S": [
+          336,
+          631,
+          495,
+          736
+        ],
+        "L": [
+          1605,
+          631,
+          1765,
+          736
+        ],
+        "Z": [
+          278,
+          752,
+          453,
+          857
+        ],
+        "X": [
+          475,
+          752,
+          651,
+          857
+        ]
+      }
+    }
+  ],
+  "checks": 33,
+  "passed": [
+    "phone A left indent registers once",
+    "phone L right indent registers once",
+    "phone Q right margin registers once",
+    "phone W left margin registers once",
+    "phone A right margin registers once",
+    "phone S left margin registers once",
+    "phone Q lower margin registers once",
+    "phone A upper margin registers once",
+    "phone Z upper margin registers once",
+    "phone short edge drift preserves the tap",
+    "tablet A left indent registers once",
+    "tablet L right indent registers once",
+    "tablet Q right margin registers once",
+    "tablet W left margin registers once",
+    "tablet A right margin registers once",
+    "tablet S left margin registers once",
+    "tablet Q lower margin registers once",
+    "tablet A upper margin registers once",
+    "tablet Z upper margin registers once",
+    "tablet short edge drift preserves the tap",
+    "landscape A left indent registers once",
+    "landscape L right indent registers once",
+    "landscape Q right margin registers once",
+    "landscape W left margin registers once",
+    "landscape A right margin registers once",
+    "landscape S left margin registers once",
+    "landscape Q lower margin registers once",
+    "landscape A upper margin registers once",
+    "landscape Z upper margin registers once",
+    "landscape short edge drift preserves the tap",
+    "overlapping thumbs at A/S margins both register",
+    "neighboring key hit areas do not steal a second pointer",
+    "canceled letter touch adds no character"
+  ],
+  "physical_device_tested": false
+}

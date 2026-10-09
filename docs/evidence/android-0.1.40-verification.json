@@ -1,0 +1,10 @@
+{
+  "version": "0.1.40",
+  "version_code": 41,
+  "apk_bytes": 253692261,
+  "apk_sha256": "a2353375909db8afe85a2d1546cae85ea8c2397a58ac9be2dd608de9196831f5",
+  "editor_behavior_checks": 21,
+  "progressive_reading_checks": 30,
+  "rapid_touch_cases": 6,
+  "physical_device_tested": false
+}

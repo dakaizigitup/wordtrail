@@ -20,9 +20,27 @@ public final class WindowProbe extends Instrumentation {
             AccessibilityServiceInfo config=getUiAutomation().getServiceInfo();
             config.flags |= AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS | AccessibilityServiceInfo.FLAG_INCLUDE_NOT_IMPORTANT_VIEWS;
             getUiAutomation().setServiceInfo(config);
+            if(arguments!=null && arguments.containsKey("touch_sequence")){
+                Thread.sleep(700);
+                JSONArray events=new JSONArray(new String(android.util.Base64.decode(arguments.getString("touch_sequence"),android.util.Base64.DEFAULT),java.nio.charset.StandardCharsets.UTF_8));
+                long down=android.os.SystemClock.uptimeMillis();
+                for(int i=0;i<events.length();i++){
+                    JSONObject item=events.getJSONObject(i);Thread.sleep(item.optInt("delay",20));
+                    JSONArray points=item.getJSONArray("points");
+                    android.view.MotionEvent.PointerProperties[] props=new android.view.MotionEvent.PointerProperties[points.length()];
+                    android.view.MotionEvent.PointerCoords[] coords=new android.view.MotionEvent.PointerCoords[points.length()];
+                    for(int j=0;j<points.length();j++){
+                        JSONObject point=points.getJSONObject(j);props[j]=new android.view.MotionEvent.PointerProperties();props[j].id=point.getInt("id");props[j].toolType=android.view.MotionEvent.TOOL_TYPE_FINGER;
+                        coords[j]=new android.view.MotionEvent.PointerCoords();coords[j].x=(float)point.getDouble("x");coords[j].y=(float)point.getDouble("y");coords[j].pressure=1;coords[j].size=1;
+                    }
+                    android.view.MotionEvent event=android.view.MotionEvent.obtain(down,android.os.SystemClock.uptimeMillis(),item.getInt("action"),points.length(),props,coords,0,0,1,1,0,0,android.view.InputDevice.SOURCE_TOUCHSCREEN,0);
+                    getUiAutomation().injectInputEvent(event,true);event.recycle();
+                }
+                Thread.sleep(1000);
+            }
             if(arguments!=null && arguments.containsKey("hold_key")){
                 Thread.sleep(700);JSONArray initial=snapshot();JSONObject key=find(initial,arguments.getString("hold_key"));
-                Rect rect=rect(key);float x=rect.exactCenterX(),y=rect.exactCenterY();long down=android.os.SystemClock.uptimeMillis();
+                Rect rect=rect(key);float x=rect.exactCenterX(),y=rect.exactCenterY();if(arguments.containsKey("left_gap"))x=rect.left-Float.parseFloat(arguments.getString("left_gap"));long down=android.os.SystemClock.uptimeMillis();
                 touch(down,android.view.MotionEvent.ACTION_DOWN,x,y);Thread.sleep(Integer.parseInt(arguments.getString("hold_ms","750")));
                 JSONArray options=snapshot();String expected=arguments.containsKey("option")?"长按选项 "+arguments.getString("option"):"按键长按选项";
                 for(int attempt=0;attempt<8;attempt++){try{find(options,expected);break;}catch(IllegalStateException missing){Thread.sleep(100);options=snapshot();}}
@@ -45,7 +63,7 @@ public final class WindowProbe extends Instrumentation {
                 long started=android.os.SystemClock.uptimeMillis();JSONArray trace=new JSONArray();
                 for(int index=0;index<text.length();index++){
                     JSONObject key=null;String label=String.valueOf(text.charAt(index));
-                    for(int n=0;n<initial.length();n++){JSONObject candidate=initial.getJSONObject(n);if(candidate.getString("class").equals("android.widget.Button") && candidate.getString("text").equalsIgnoreCase(label)){key=candidate;break;}}
+                    for(int n=0;n<initial.length();n++){JSONObject candidate=initial.getJSONObject(n);if(candidate.getString("class").equals("android.widget.Button") && (candidate.getString("text").equalsIgnoreCase(label) || candidate.optString("description").startsWith("九键 "+label+" "))){key=candidate;break;}}
                     if(key==null)throw new IllegalStateException("Missing key "+label);
                     String[] coordinates=key.getString("bounds").replaceAll("[\\[\\]]",",").split(",");java.util.ArrayList<Integer> values=new java.util.ArrayList<>();for(String part:coordinates)if(!part.isEmpty())values.add(Integer.parseInt(part));
                     float x=(values.get(0)+values.get(2))/2f,y=(values.get(1)+values.get(3))/2f;
@@ -89,6 +107,7 @@ public final class WindowProbe extends Instrumentation {
             .put("class",String.valueOf(node.getClassName()))
             .put("enabled",node.isEnabled())
             .put("checked",node.isChecked())
+            .put("selection_start",node.getTextSelectionStart()).put("selection_end",node.getTextSelectionEnd())
             .put("bounds","["+bounds.left+","+bounds.top+"]["+bounds.right+","+bounds.bottom+"]");
         output.put(item);
         for(int index=0;index<node.getChildCount();index++) visit(node.getChild(index),output);

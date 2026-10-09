@@ -9,16 +9,25 @@
 
 ## 下载
 
-GitHub 最新发布版为 **v0.1.38**：Android 加入九键、候选网格、即时高度设置、长按大小写选择和选字震动。已有同签名词伴版本可直接覆盖安装。完整更新与验证见 [0.1.38 发布说明](docs/0.1.38发布说明.md)。Windows 可下载补丁继续为 0.1.23，用于已安装官方青简 Windows 0.1.4 的用户。
+Android **v0.1.42 公测版**已发布，欢迎在真实手机和平板上试用并反馈。已有同签名词伴版本可直接覆盖安装，保留设置与个人学习数据。安装和测试重点见 [公测指南](docs/0.1.42公测指南.md)。Windows 下载继续为已发布的 0.1.23 补丁，用于已安装官方青简 Windows 0.1.4 的用户。
+
+本次公测包含 0.1.39–0.1.42 的全部 Android 改动：
+
+- 九键逐段选择拼音、回退和重选，详见 [逐段拼音说明](docs/0.1.39逐段拼音.md)。
+- 搜索/发送动作键、三列数字键盘、选区与组合表情删除，详见 [输入习惯检查](docs/0.1.40输入习惯对齐检查.md)。
+
+- 英文识词/补全及中文释义（94,568 个英文词形）、24 组希腊字母、“嗯/嗯嗯/诶”；修复覆盖升级仍使用旧词库的问题，详见 [英中输入补齐](docs/0.1.41英中输入补齐.md)。
+
+- 扩大 26 键触摸区：A/L 两侧缩进与按键间隙可点，保留键帽外观，支持小幅移动容差和独立多指触摸，详见 [触摸范围说明](docs/0.1.42按键触摸范围.md)。
 
 | 下载 | 用途 |
 | --- | --- |
-| [Android 安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.38/wordtrail-0.1.38-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；已含离线语音模型 |
+| [Android 公测安装包](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.42/wordtrail-0.1.42-debug.apk) | Android 8.0+，64 位 ARM 手机/平板；约 244 MiB，已含离线语音模型 |
 | [Windows 音标与考试词汇补丁](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.30/wordtrail-windows-ipa-0.1.23.zip) | 已安装官方青简 Windows 0.1.4 的用户；提供安装和恢复脚本 |
-| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.38/wordtrail-0.1.38-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
-| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.38/SHA256SUMS.txt) | 核对本版 Android 与源码附件；Windows 校验见其原发布页 |
+| [完整对应源码](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.42/wordtrail-0.1.42-source.zip) | Windows、Android、iOS 源码及固定第三方依赖/词库；不含工具链和私钥 |
+| [SHA-256 校验和](https://github.com/dakaizigitup/wordtrail/releases/download/v0.1.42/SHA256SUMS.txt) | 核对本版 Android 与源码附件；Windows 校验见其原发布页 |
 
-后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
+公测反馈请提交 [GitHub Issue](https://github.com/dakaizigitup/wordtrail/issues/new?template=android-feedback.yml)，或按 [反馈格式](docs/0.1.42公测指南.md#如何反馈) 发给维护者。后续版本请查看 [Releases](https://github.com/dakaizigitup/wordtrail/releases) 和 [CHANGELOG](CHANGELOG.md)。**目前没有 iOS IPA 或 macOS 音标补丁。**
 
 本地共享词库继续按批次扩充。批次28固定 [WordLevel TOEFL/IELTS 学术词表](https://github.com/gungorkaya-eng/toefl-essential-vocabulary-dataset)，947个有本地中文释义和音标的词头加入双考试标签；11条可输入候选逐项处理后，接受4组映射（3个新英文词头）、排除6组、暂缓1组。该社区词表不是官方考纲；GitHub 仓库声明 MIT，Mendeley 记录声明 CC BY 4.0，因此项目同时保留 MIT 文本及 [WordLevel](https://wordlevel.net) 链接署名。数据随0.1.29整合发布。详见[批次28说明](docs/28-WordLevel考试词汇.md)和[来源记录](vocabulary/data/WORDLEVEL-ATTRIBUTION.md)。
 
@@ -28,9 +37,10 @@ GitHub 最新发布版为 **v0.1.38**：Android 加入九键、候选网格、�
 
 ## 当前功能
 
-| 功能 | Android 0.1.38 | Windows 已发布 0.1.23 | iOS 源码 |
+| 功能 | Android 0.1.42 公测 | Windows 已发布 0.1.23 | iOS 源码 |
 | --- | --- | --- | --- |
 | 中文拼音候选与外语释义 | 已实现 | 复用官方青简 | 已实现，未编译 |
+| 英文补全、单词中文释义及希腊字母 | 已实现；词典查询，非整句翻译 | 英文功能复用青简 | 未移植本轮英文功能 |
 | 英语 / 日语 / 西班牙语释义 | 每次显示一种 | 复用官方设置 | 每次显示一种，未验证 |
 | 英式 / 美式英语音标 | 展开候选详情查看 | 各英语释义旁注 | 展开详情，未验证 |
 | 英语考试目标、多标签与译词优先 | 六类考试加六类专业目标 | 六类考试加六类专业目标 | 六类考试加六类专业目标，未验证 |
@@ -107,7 +117,7 @@ Android 点选中文候选（含展开网格）及长按选择条最终选定字
 
 日常拼音、释义、音标、考试标签和默认语音都在本机处理。Android 应用没有 `INTERNET` 权限；开发构建时的数据下载与安装包内的日常运行是不同阶段。
 
-Android 0.1.38 已发布九宫格、候选网格展开、本机个性排序、按键长按选字、即时布局设置与选字震动。手写、滑行输入、表情面板和完整学习统计页仍未实现，也没有移植桌面的整句神经模型。
+Android 0.1.42 公测包含九宫格、候选网格展开、本机个性排序、按键长按选字、即时布局设置与选字震动，以及英文补全、单词中文释义和希腊字母。手写、滑行输入、表情面板和完整学习统计页仍未实现，也没有移植桌面的整句神经模型。
 
 ## 开发与构建
 
@@ -140,7 +150,7 @@ python scripts/bootstrap_vocab_tools.py
 也可指定已下载的对应源码：
 
 ```powershell
-python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.38-source.zip
+python scripts/bootstrap_dependencies.py --source-zip C:\Downloads\wordtrail-0.1.42-source.zip
 ```
 
 `bootstrap_vocab_tools.py` 另行恢复固定 SHA-256 的 OpenCC Python 0.1.7，仅供考试词表构建时繁简转换。构建还需要 Python 3.11+、Rust 1.96、JDK 21、Android SDK 35 / Build Tools 35.0.0 / NDK 28.2.13676358，Windows 服务构建还需对应 GNU 链接工具。现有 PowerShell 脚本默认读取作者本机的工具链配置，**其他电脑需先调整路径和 `toolchain.json`**；仓库并未提供完整工具链安装器。

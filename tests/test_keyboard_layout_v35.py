@@ -41,7 +41,10 @@ def main():
             ui.screenshot(LABEL+'-'+name+'-details.png');ui.adb('shell','input','keyevent','4');ui.exact('Q');ui.tap(ui.exact('好看'));ui.field_contains('好看')
             ui.tap(ui.description('切换到九宫格拼音'));ui.description('九键 6 MNO')
             for digit in '64426':ui.tap(ui.wait(lambda ns:next((n for n in ns if n['description'].startswith('九键 '+digit+' ')),None)))
-            ui.description("选择读音 ni'hao");ui.tap(ui.description("选择读音 ni'hao"));ui.exact('你好')
+            if any(n['description']=='选择第1个拼音 ni' for n in ui.nodes()):
+                ui.tap(ui.description('选择第1个拼音 ni'));ui.tap(ui.description('选择第2个拼音 hao'))
+            else:ui.tap(ui.description("选择读音 ni'hao"))
+            ui.exact('你好')
             ui.screenshot(LABEL+'-'+name+'-nine.png');ui.tap(ui.description('展开全部候选并隐藏键盘'));ui.exact('返回键盘');ui.exact('你好')
             ui.screenshot(LABEL+'-'+name+'-nine-expanded.png');ui.tap(ui.exact('你好'));ui.field_contains('好看你好')
             ui.check(name+' selecting nine-key candidate restores keys',ui.description('九键 6 MNO') is not None)

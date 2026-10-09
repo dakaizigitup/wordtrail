@@ -1,0 +1,13 @@
+{
+  "url": "https://github.com/rspeer/wordfreq/tree/912caf64b657478d1dff1138efdc078947d54bb1",
+  "files": {
+    "wordfreq-LICENSE.txt": {
+      "bytes": 675,
+      "sha256": "8990c551671a51765c4dfe9428f3e1d58dc327f49aca346a32d28cc0fcc7aa88"
+    },
+    "wordfreq-NOTICE.md": {
+      "bytes": 2891,
+      "sha256": "d9b104dafe63886af55e7cea7484824e32e12d4e1f57f319923dd643b36d6b15"
+    }
+  }
+}

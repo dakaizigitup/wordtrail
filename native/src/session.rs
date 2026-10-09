@@ -1,7 +1,12 @@
 //! 复用青简内核的移动会话，保存候选快照，避免点选时查询变化。
+#[cfg(test)]
+use crate::keypad::t9_readings;
+use crate::keypad::{
+    keypad_code, next_syllables, normalize_prefix, prefix_code, t9_readings_with_prefix,
+};
 use crate::model::{MobileCandidate, MobileState, Request, TranslationSense};
-use qingjian_core::{Candidate, Engine, Language, Translator};
-use qingjian_dictionary::Dictionary;
+use qingjian_core::{Candidate, CandidateKind, Engine, Language, Translator};
+use qingjian_dictionary::{Dictionary, WordList};
 use qingjian_learning::{FrequencyLearner, VocabularyBook};
 use qingjian_translate::Glossary;
 use std::collections::HashMap;
@@ -9,8 +14,7 @@ use std::path::{Path, PathBuf};
 
 const NORMAL_PAGE_SIZE: usize = 9;
 const EXPANDED_PAGE_SIZE: usize = 36;
-const MAX_T9_READINGS: usize = 24;
-const MAX_T9_PARTIAL_READINGS: usize = 96;
+const MAX_T9_READINGS: usize = crate::keypad::MAX_READINGS;
 const T9_CANDIDATES_PER_READING: usize = EXPANDED_PAGE_SIZE;
 const MAX_T9_CANDIDATES: usize = MAX_T9_READINGS * T9_CANDIDATES_PER_READING;
 
@@ -34,6 +38,7 @@ pub struct Session {
     keypad_input: String,
     keypad_readings: Vec<String>,
     keypad_selected_reading: String,
+    keypad_confirmed: Vec<String>,
     keypad_candidates: Vec<(Candidate, String)>,
     pinyin_frequencies: HashMap<String, u64>,
     visible_readings: Vec<String>,
@@ -50,128 +55,6 @@ fn data_file(dir: &Path, stem: &str) -> PathBuf {
     } else {
         dir.join(format!("{stem}.tsv"))
     }
-}
-
-fn keypad_code(letter: char) -> Option<char> {
-    match letter {
-        'a'..='c' => Some('2'),
-        'd'..='f' => Some('3'),
-        'g'..='i' => Some('4'),
-        'j'..='l' => Some('5'),
-        'm'..='o' => Some('6'),
-        'p'..='s' => Some('7'),
-        't'..='v' => Some('8'),
-        'w'..='z' => Some('9'),
-        _ => None,
-    }
-}
-
-fn keypad_letter_cost(letter: char) -> u32 {
-    match letter {
-        // A small Pinyin prior makes familiar initials such as n-, h-, and z- appear first.
-        // Every letter still remains reachable through the reading selector.
-        'a' | 'd' | 'h' | 'j' | 'n' | 's' | 't' | 'y' | 'z' => 0,
-        'b' | 'e' | 'g' | 'i' | 'k' | 'm' | 'r' | 'u' => 1,
-        'c' | 'f' | 'l' | 'o' | 'p' | 'v' | 'w' => 2,
-        'q' | 'x' => 3,
-        _ => 10,
-    }
-}
-
-fn keep_reading(readings: &mut Vec<(String, u32)>, reading: String, cost: u32, limit: usize) {
-    if readings.iter().any(|(known, _)| known == &reading) {
-        return;
-    }
-    readings.push((reading, cost));
-    readings.sort_by(|a, b| a.1.cmp(&b.1).then_with(|| a.0.cmp(&b.0)));
-    readings.truncate(limit);
-}
-
-fn keep_finished_reading(
-    readings: &mut Vec<(String, u32, u64)>,
-    reading: String,
-    cost: u32,
-    frequency: u64,
-) {
-    if readings.iter().any(|(known, _, _)| known == &reading) {
-        return;
-    }
-    readings.push((reading, cost, frequency));
-    readings.sort_by(|a, b| {
-        b.2.cmp(&a.2)
-            .then_with(|| a.1.cmp(&b.1))
-            .then_with(|| a.0.cmp(&b.0))
-    });
-    readings.truncate(MAX_T9_READINGS);
-}
-
-/// Convert an ambiguous 9-key sequence into a small, ranked set of legal Pinyin readings.
-/// The dynamic program only follows complete syllables at internal boundaries, avoiding a
-/// Cartesian expansion of every key's letters. The last syllable may remain abbreviated.
-fn t9_readings(digits: &str, pinyin_frequencies: &HashMap<String, u64>) -> Vec<String> {
-    if digits.is_empty() || !digits.bytes().all(|key| (b'2'..=b'9').contains(&key)) {
-        return Vec::new();
-    }
-    let bytes = digits.as_bytes();
-    let mut paths = vec![Vec::<(String, u32)>::new(); bytes.len() + 1];
-    let mut finished = Vec::<(String, u32, u64)>::new();
-    paths[0].push((String::new(), 0));
-
-    for start in 0..bytes.len() {
-        let prefixes = paths[start].clone();
-        if prefixes.is_empty() {
-            continue;
-        }
-        let remainder = &digits[start..];
-        for (prefix, prefix_cost) in prefixes {
-            for syllable in qingjian_core::parser::SYLLABLES {
-                let code: String = syllable.chars().filter_map(keypad_code).collect();
-                if code.len() <= remainder.len() && remainder.starts_with(&code) {
-                    let end = start + code.len();
-                    let reading = if prefix.is_empty() {
-                        (*syllable).to_owned()
-                    } else {
-                        format!("{prefix}'{syllable}")
-                    };
-                    let cost = prefix_cost + syllable.chars().map(keypad_letter_cost).sum::<u32>();
-                    if end == bytes.len() {
-                        let frequency = pinyin_frequencies
-                            .get(&reading.replace('\'', " "))
-                            .copied()
-                            .unwrap_or_default();
-                        keep_finished_reading(&mut finished, reading, cost, frequency);
-                    } else {
-                        keep_reading(&mut paths[end], reading, cost, MAX_T9_PARTIAL_READINGS);
-                    }
-                }
-
-                if code.len() > remainder.len() && code.starts_with(remainder) {
-                    let partial_len = remainder.len();
-                    let partial = &syllable[..partial_len];
-                    if qingjian_core::parser::is_syllable(partial)
-                        || qingjian_core::parser::is_syllable_prefix(partial)
-                    {
-                        let reading = if prefix.is_empty() {
-                            partial.to_owned()
-                        } else {
-                            format!("{prefix}'{partial}")
-                        };
-                        let cost =
-                            prefix_cost + partial.chars().map(keypad_letter_cost).sum::<u32>() + 6;
-                        let frequency = pinyin_frequencies
-                            .get(&reading.replace('\'', " "))
-                            .copied()
-                            .unwrap_or_default();
-                        keep_finished_reading(&mut finished, reading, cost, frequency);
-                    }
-                }
-            }
-        }
-    }
-    finished
-        .into_iter()
-        .map(|(reading, _, _)| reading)
-        .collect()
 }
 
 fn pinyin_frequencies(dictionary: &Dictionary) -> HashMap<String, u64> {
@@ -228,6 +111,13 @@ impl Session {
             .with_vocabulary_tracker(Box::new(VocabularyBook::open(
                 user_dir.join("user-vocab.tsv"),
             )));
+        // 兼容不含英文数据的旧测试夹具；正式数据包同时包含词表和英中释义。
+        if data_dir.join("english.tsv").is_file() {
+            engine = engine.with_english(WordList::from_path(data_dir.join("english.tsv")).map_err(|e| e.to_string())?);
+        }
+        if data_file(&data_dir, "glossary-zh").is_file() {
+            engine = engine.with_english_translator(Box::new(Glossary::from_path(Language::Chinese, data_file(&data_dir, "glossary-zh")).map_err(|e| e.to_string())?));
+        }
         engine.set_private(request.private);
         Ok(Self {
             engine,
@@ -243,6 +133,7 @@ impl Session {
             keypad_input: String::new(),
             keypad_readings: Vec::new(),
             keypad_selected_reading: String::new(),
+            keypad_confirmed: Vec::new(),
             keypad_candidates: Vec::new(),
             pinyin_frequencies,
             visible_readings: Vec::new(),
@@ -280,14 +171,23 @@ impl Session {
         if self.keypad_input.is_empty() {
             self.keypad_readings.clear();
             self.keypad_selected_reading.clear();
+            self.keypad_confirmed.clear();
             self.keypad_candidates.clear();
             self.visible_readings.clear();
             self.engine.clear();
             return;
         }
-        self.keypad_readings = t9_readings(&self.keypad_input, &self.pinyin_frequencies);
+        normalize_prefix(&self.keypad_input, &mut self.keypad_confirmed);
+        self.keypad_readings = t9_readings_with_prefix(
+            &self.keypad_input,
+            &self.pinyin_frequencies,
+            &self.keypad_confirmed,
+        );
         let input = self.keypad_input.clone();
-        self.keypad_selected_reading = self
+        if !self.keypad_readings.contains(&self.keypad_selected_reading) {
+            self.keypad_selected_reading.clear();
+        }
+        if let Some(preferred) = self
             .t9_choices
             .iter()
             .filter(|((digits, _), preference)| {
@@ -295,8 +195,10 @@ impl Session {
             })
             .max_by_key(|(_, preference)| preference.count)
             .map(|(_, preference)| preference.reading.clone())
-            .or_else(|| self.keypad_readings.first().cloned())
-            .unwrap_or_default();
+        {
+            self.keypad_readings
+                .sort_by_key(|reading| reading != &preferred);
+        }
         self.keypad_candidates.clear();
         for reading in self.keypad_readings.clone() {
             self.restore_reading(&reading);
@@ -348,6 +250,7 @@ impl Session {
             self.keypad_readings.clear();
             self.keypad_candidates.clear();
             self.keypad_selected_reading.clear();
+            self.keypad_confirmed.clear();
             self.visible_readings.clear();
             self.engine.clear();
             return digits;
@@ -359,16 +262,57 @@ impl Session {
         text
     }
 
+    fn commit_keypad_candidate(
+        &mut self,
+        candidate: &Candidate,
+        reading: &str,
+        sense: Option<usize>,
+    ) -> Result<String, String> {
+        if let Some(index) = sense {
+            if candidate
+                .translation
+                .as_ref()
+                .and_then(|t| t.senses().get(index))
+                .is_none()
+            {
+                return Err("candidate has no translation".into());
+            }
+        } else {
+            self.learn_t9_choice(candidate, reading);
+        }
+        let original_len = self.keypad_input.len();
+        self.restore_reading(reading);
+        let text = if let Some(index) = sense {
+            self.engine
+                .commit_translation(candidate, index)
+                .ok_or("candidate has no translation")?
+        } else {
+            self.engine.commit(candidate)
+        };
+        let remaining: String = self
+            .engine
+            .composition()
+            .text()
+            .chars()
+            .filter_map(keypad_code)
+            .collect();
+        let mut consumed = original_len.saturating_sub(remaining.len());
+        while !self.keypad_confirmed.is_empty() && consumed > 0 {
+            consumed = consumed.saturating_sub(self.keypad_confirmed.remove(0).len());
+        }
+        self.keypad_input = remaining;
+        self.keypad_selected_reading.clear();
+        self.page = 0;
+        self.refresh_keypad();
+        Ok(text)
+    }
+
     fn first(&mut self) -> String {
         if let Some(candidate) = self.visible.first().cloned() {
             if let Some(reading) = self.visible_readings.first().cloned() {
-                self.learn_t9_choice(&candidate, &reading);
-                self.restore_reading(&reading);
-                self.keypad_input.clear();
-                self.keypad_readings.clear();
-                self.keypad_candidates.clear();
-                self.keypad_selected_reading.clear();
-                self.visible_readings.clear();
+                return self
+                    .commit_keypad_candidate(&candidate, &reading, None)
+                    .unwrap_or_default();
             }
             self.engine.commit(&candidate)
         } else {
@@ -386,14 +330,14 @@ impl Session {
                 if chars.next().is_some() {
                     return Err("literal must be one character".into());
                 }
-                let mut text = self.first();
+                let mut text = if self.english { self.raw() } else { self.first() };
                 text.push(symbol);
                 commit = Some(text);
                 self.page = 0;
             }
             "key" => {
                 if !self.keypad_input.is_empty() {
-                    let mut text = self.first();
+                    let mut text = if self.english { self.raw() } else { self.first() };
                     let key = request.text.chars().next().ok_or("empty key")?;
                     text.push(if !self.english {
                         match key {
@@ -417,12 +361,12 @@ impl Session {
                     if chars.next().is_some() {
                         return Err("key must be one character".into());
                     }
-                    if !self.english && (key.is_ascii_alphabetic() || key == '\'') {
+                    if key.is_ascii_alphabetic() || key == '\'' {
                         if self.engine.composition().text().len() < 96 {
-                            self.engine.push(key.to_ascii_lowercase());
+                            self.engine.push(if self.english { key } else { key.to_ascii_lowercase() });
                         }
                     } else {
-                        let mut text = self.first();
+                        let mut text = if self.english { self.raw() } else { self.first() };
                         let punctuation = if !self.english {
                             match key {
                                 ',' => '，',
@@ -460,21 +404,13 @@ impl Session {
                     .get(request.index)
                     .cloned()
                     .ok_or("candidate index out of range")?;
-                if let Some(reading) = self.visible_readings.get(request.index).cloned() {
-                    if request.op == "select" {
-                        self.learn_t9_choice(&candidate, &reading);
-                    }
-                    self.restore_reading(&reading);
-                    self.keypad_input.clear();
-                    self.keypad_readings.clear();
-                    self.keypad_candidates.clear();
-                    self.keypad_selected_reading.clear();
-                    self.visible_readings.clear();
-                }
-                commit = if request.op == "translation" {
+                let sense = (request.op == "translation").then_some(request.sense_index);
+                commit = if let Some(reading) = self.visible_readings.get(request.index).cloned() {
+                    Some(self.commit_keypad_candidate(&candidate, &reading, sense)?)
+                } else if let Some(index) = sense {
                     Some(
                         self.engine
-                            .commit_translation(&candidate, request.sense_index)
+                            .commit_translation(&candidate, index)
                             .ok_or("candidate has no translation")?,
                     )
                 } else {
@@ -482,7 +418,9 @@ impl Session {
                 };
             }
             "space" => {
-                commit = Some(if self.engine.composition().is_empty() {
+                commit = Some(if self.english {
+                    format!("{} ", self.raw())
+                } else if self.engine.composition().is_empty() {
                     " ".into()
                 } else {
                     self.first()
@@ -507,12 +445,17 @@ impl Session {
                 }
             }
             "toggle" => {
-                commit = Some(if self.keypad_input.is_empty() {
+                let mut text = if self.keypad_input.is_empty() {
                     self.raw()
                 } else {
                     self.first()
-                });
+                };
+                if !self.keypad_input.is_empty() {
+                    text.push_str(&self.raw());
+                }
+                commit = Some(text);
                 self.english = !self.english;
+                self.engine.set_english_mode(self.english);
             }
             "clear" => {
                 self.raw();
@@ -530,12 +473,40 @@ impl Session {
                 self.expanded = request.expanded;
                 self.page = 0;
             }
+            "keypad_syllable" => {
+                if request.index != self.keypad_confirmed.len()
+                    || !next_syllables(
+                        &self.keypad_input,
+                        &self.keypad_confirmed,
+                        &self.pinyin_frequencies,
+                    )
+                    .contains(&request.reading)
+                {
+                    return Err("拼音选择已更新，请重新选择".into());
+                }
+                self.keypad_confirmed.push(request.reading.clone());
+                self.keypad_selected_reading.clear();
+                self.page = 0;
+                self.refresh_keypad();
+            }
+            "keypad_reading_back" => {
+                self.keypad_confirmed.pop();
+                self.keypad_selected_reading.clear();
+                self.page = 0;
+                if !self.keypad_input.is_empty() {
+                    self.refresh_keypad();
+                }
+            }
             "keypad_reading" => {
                 if !request.reading.is_empty() && !self.keypad_readings.contains(&request.reading) {
                     return Err("九键读音已更新，请重新选择".into());
                 }
+                self.keypad_confirmed.clear();
                 self.keypad_selected_reading = request.reading.clone();
                 self.page = 0;
+                if !self.keypad_input.is_empty() {
+                    self.refresh_keypad();
+                }
             }
             "next_page" => self.page += 1,
             "previous_page" => self.page = self.page.saturating_sub(1),
@@ -615,6 +586,7 @@ impl Session {
             && let Ok(mut query) = self.engine.query()
         {
             preedit = query.marked_text();
+            crate::symbols::insert(&input, &mut query.candidates.items);
             let page_size = if self.expanded {
                 EXPANDED_PAGE_SIZE
             } else {
@@ -631,7 +603,9 @@ impl Session {
                 .collect();
             self.engine.annotate(&mut query.candidates);
             for candidate in &mut query.candidates.items {
-                wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+                if candidate.kind != CandidateKind::English {
+                    wordtrail_vocabulary::prioritize(candidate, self.vocabulary_targets);
+                }
             }
             self.visible = query.candidates.items;
         }
@@ -646,6 +620,8 @@ impl Session {
             .iter()
             .enumerate()
             .map(|(id, candidate)| {
+                let english_word = candidate.kind == CandidateKind::English;
+                let english_senses = !english_word && self.language == "en";
                 let senses = candidate
                     .translation
                     .as_ref()
@@ -663,8 +639,10 @@ impl Session {
                 MobileCandidate {
                     id,
                     text: candidate.text.clone(),
+                    kind: if english_word { "english" } else if candidate.kind == CandidateKind::Shortcut { "symbol" } else { "chinese" },
+                    word_tags: if english_word { wordtrail_vocabulary::tags(&candidate.text.to_lowercase(), self.vocabulary_targets) } else { Vec::new() },
                     annotation,
-                    vocabulary_levels: if self.language == "en" {
+                    vocabulary_levels: if english_senses {
                         crate::vocabulary::english_levels(
                             senses.iter().map(|sense| sense.text.as_str()),
                         )
@@ -682,19 +660,19 @@ impl Session {
                                 .map(|pos| pos.abbreviation().to_owned()),
                             reading: sense.reading.clone(),
                             fresh: sense.fresh,
-                            tags: if self.language == "en" {
+                            tags: if english_senses {
                                 wordtrail_vocabulary::tags(&sense.text, self.vocabulary_targets)
                             } else {
                                 Vec::new()
                             },
-                            pronunciation: if self.language == "en" {
+                            pronunciation: if english_senses {
                                 self.pronunciation
                                     .as_ref()
                                     .and_then(|dictionary| dictionary.lookup(&sense.text))
                             } else {
                                 None
                             },
-                            translation_source: if self.language == "en" {
+                            translation_source: if english_senses {
                                 wordtrail_vocabulary::expansion::source(
                                     &candidate.text,
                                     &sense.text,
@@ -704,7 +682,9 @@ impl Session {
                             },
                         })
                         .collect(),
-                    pronunciation: if self.language == "en" {
+                    pronunciation: if english_word {
+                        self.pronunciation.as_ref().and_then(|dictionary| dictionary.lookup(&candidate.text.to_lowercase()))
+                    } else if english_senses {
                         senses
                             .first()
                             .and_then(|sense| self.pronunciation.as_ref()?.lookup(&sense.text))
@@ -735,6 +715,14 @@ impl Session {
                     .collect()
             },
             selected_reading: self.keypad_selected_reading.clone(),
+            reading_prefix: self.keypad_confirmed.clone(),
+            syllable_choices: next_syllables(
+                &self.keypad_input,
+                &self.keypad_confirmed,
+                &self.pinyin_frequencies,
+            ),
+            reading_complete: !self.keypad_input.is_empty()
+                && prefix_code(&self.keypad_confirmed).len() == self.keypad_input.len(),
             vocabulary_targets: wordtrail_vocabulary::selected_ids(self.vocabulary_targets),
             ..Default::default()
         }
@@ -946,42 +934,180 @@ mod tests {
         reopened.private = true;
         reopened.engine.set_private(true);
         reopened.expanded = true;
-        let cleared = reopened.action(&Request {
-            op: "clear".into(),
-            ..request_for_action()
-        }).expect("clear only the current composition");
+        let cleared = reopened
+            .action(&Request {
+                op: "clear".into(),
+                ..request_for_action()
+            })
+            .expect("clear only the current composition");
         assert!(cleared.input.is_empty());
         assert!(cleared.commit.is_none());
         assert!(!cleared.delete_backward);
         assert!(!cleared.expanded);
         assert!(reopened.private, "clear must preserve privacy mode");
         for symbol in ["M", "6", "?", "."] {
-            let literal = reopened.action(&Request {
-                op: "literal".into(),
-                text: symbol.into(),
-                ..request_for_action()
-            }).expect("commit the exact long-press character");
+            let literal = reopened
+                .action(&Request {
+                    op: "literal".into(),
+                    text: symbol.into(),
+                    ..request_for_action()
+                })
+                .expect("commit the exact long-press character");
             assert_eq!(literal.commit.as_deref(), Some(symbol));
             assert!(literal.input.is_empty(), "letters must not become pinyin");
             assert!(!literal.english, "long press must not change input mode");
             assert!(reopened.private, "long press must preserve privacy mode");
         }
         for digit in "64426".chars() {
-            reopened.action(&Request {
-                op: "keypad".into(),
-                text: digit.to_string(),
-                ..request_for_action()
-            }).unwrap();
+            reopened
+                .action(&Request {
+                    op: "keypad".into(),
+                    text: digit.to_string(),
+                    ..request_for_action()
+                })
+                .unwrap();
         }
-        let literal = reopened.action(&Request {
-            op: "literal".into(),
-            text: "M".into(),
-            ..request_for_action()
-        }).expect("finalize composing Chinese before a literal character");
-        assert_eq!(literal.commit.as_deref(), Some(format!("{picked}M").as_str()));
+        let literal = reopened
+            .action(&Request {
+                op: "literal".into(),
+                text: "M".into(),
+                ..request_for_action()
+            })
+            .expect("finalize composing Chinese before a literal character");
+        assert_eq!(
+            literal.commit.as_deref(),
+            Some(format!("{picked}M").as_str())
+        );
         assert!(literal.input.is_empty());
         drop(reopened);
         let _ = std::fs::remove_dir_all(user_dir);
+    }
+
+    #[test]
+    fn progressive_reading_filters_can_backtrack_and_keep_uncommitted_digits() {
+        let project = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+            .parent()
+            .unwrap()
+            .to_owned();
+        let user_dir = std::env::temp_dir().join(format!(
+            "wordtrail-step-test-{}-{}",
+            std::process::id(),
+            std::time::SystemTime::now()
+                .duration_since(std::time::UNIX_EPOCH)
+                .unwrap()
+                .as_nanos()
+        ));
+        let request = Request {
+            data_dir: project.join("data").to_string_lossy().into_owned(),
+            user_dir: user_dir.to_string_lossy().into_owned(),
+            private: true,
+            ..request_for_action()
+        };
+        let mut session = Session::new(&request).unwrap();
+        for digit in "96968329".chars() {
+            session
+                .action(&Request {
+                    op: "keypad".into(),
+                    text: digit.to_string(),
+                    ..request_for_action()
+                })
+                .unwrap();
+        }
+        let initial = session.state();
+        assert!(initial.syllable_choices.iter().any(|s| s == "wo"));
+        for (step, syllable) in ["wo", "you", "fa", "x"].into_iter().enumerate() {
+            let state = session
+                .action(&Request {
+                    op: "keypad_syllable".into(),
+                    index: step,
+                    reading: syllable.into(),
+                    ..request_for_action()
+                })
+                .unwrap();
+            assert_eq!(state.reading_prefix.len(), step + 1);
+            assert!(state.commit.is_none());
+            assert_eq!(state.input, "96968329");
+            assert!(state.syllable_choices.iter().all(|s| !s.contains('\'')));
+            assert!(session.private);
+        }
+        let complete = session.state();
+        assert!(complete.reading_complete);
+        assert!(complete.syllable_choices.is_empty());
+        assert_eq!(complete.readings, vec!["wo'you'fa'x"]);
+        assert!(
+            session
+                .action(&Request {
+                    op: "keypad_syllable".into(),
+                    index: 0,
+                    reading: "wo".into(),
+                    ..request_for_action()
+                })
+                .is_err()
+        );
+        let back = session
+            .action(&Request {
+                op: "keypad_reading_back".into(),
+                ..request_for_action()
+            })
+            .unwrap();
+        assert_eq!(back.reading_prefix, vec!["wo", "you", "fa"]);
+        assert!(back.syllable_choices.iter().any(|s| s == "x"));
+        let reset = session
+            .action(&Request {
+                op: "keypad_reading".into(),
+                ..request_for_action()
+            })
+            .unwrap();
+        assert!(reset.reading_prefix.is_empty());
+        assert_eq!(reset.input, "96968329");
+        session
+            .action(&Request {
+                op: "keypad_syllable".into(),
+                reading: "wo".into(),
+                ..request_for_action()
+            })
+            .unwrap();
+        let expanded = session
+            .action(&Request {
+                op: "candidate_layout".into(),
+                expanded: true,
+                ..request_for_action()
+            })
+            .unwrap();
+        let wo = expanded
+            .candidates
+            .iter()
+            .find(|c| c.text == "我")
+            .expect("我 is available after locking wo");
+        let committed = session
+            .action(&Request {
+                op: "select".into(),
+                index: wo.id,
+                revision: Some(expanded.revision),
+                ..request_for_action()
+            })
+            .unwrap();
+        assert_eq!(committed.commit.as_deref(), Some("我"));
+        assert_eq!(committed.input, "968329");
+        assert!(committed.reading_prefix.is_empty());
+        assert!(committed.syllable_choices.iter().any(|s| s == "you"));
+        assert!(
+            !session.t9_choices_dirty,
+            "private progressive input must not learn choices"
+        );
+        let english = session
+            .action(&Request {
+                op: "toggle".into(),
+                ..request_for_action()
+            })
+            .unwrap();
+        assert!(english.english);
+        assert!(english.input.is_empty());
+        assert!(english.reading_prefix.is_empty());
+        drop(session);
+        let resolved = user_dir.canonicalize().unwrap();
+        assert!(resolved.starts_with(std::env::temp_dir().canonicalize().unwrap()));
+        std::fs::remove_dir_all(resolved).unwrap();
     }
 
     fn request_for_action() -> Request {

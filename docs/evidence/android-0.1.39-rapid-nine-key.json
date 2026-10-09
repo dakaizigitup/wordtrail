@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "gap_ms": 120,
+      "expected": "9696832964426644",
+      "actual": "9696832964426644",
+      "elapsed_seconds": 6.23,
+      "passed": true
+    },
+    {
+      "gap_ms": 60,
+      "expected": "9696832964426644",
+      "actual": "9696832964426644",
+      "elapsed_seconds": 5.66,
+      "passed": true
+    }
+  ]
+}

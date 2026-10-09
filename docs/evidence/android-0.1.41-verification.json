@@ -1,0 +1,29 @@
+{
+  "version": "0.1.41",
+  "version_code": 42,
+  "apk_bytes": 255445562,
+  "apk_sha256": "4996d7f7702e8793635976aecd39ea3f3d3ef501906cb7b67842a4a4944a4be2",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "tests": {
+    "bilingual-input": 9,
+    "editor-behavior": 21,
+    "progressive-readings": 30,
+    "rapid-typing": 6,
+    "rapid-english": 3
+  },
+  "native_tests": 11,
+  "physical_device_tested": false,
+  "upgrade": {
+    "from": "0.1.40",
+    "uninstall": false,
+    "old_data_dir_retained": "data-0.1.4-ipa1",
+    "active_data_dir": "data-4d7cf43ddb6fa6132cf95284",
+    "runtime_dictionary_sha256": "f5e5a4bd64981091780e5be41a5339d47d81bbe0addd3def14018c2f9b6a5e1d",
+    "learning_user_tsv_before_install_sha256": "4c039ae2db8c2b153ad7cb4b3a5fc0fa65e11bad39625beff53b5f871077bf15",
+    "learning_user_tsv_immediately_after_install_sha256": "4c039ae2db8c2b153ad7cb4b3a5fc0fa65e11bad39625beff53b5f871077bf15"
+  },
+  "limits": "Android 35 x86_64 emulator; touch gap is requested injection interval, not a physical-device latency guarantee. No desktop installation or GitHub publication."
+}

@@ -1,0 +1,26 @@
+{
+  "passed": [
+    "search key invokes the advertised editor action",
+    "send key invokes the advertised editor action",
+    "url key invokes the advertised editor action",
+    "custom key invokes the advertised editor action",
+    "password key invokes the advertised editor action",
+    "Enter with composition does not send the message prematurely",
+    "next Enter sends after composition completes",
+    "next action advances focus and updates the key label",
+    "text field inserts a newline",
+    "no_enter field inserts a newline",
+    "Delete removes only selected text",
+    "direct Latin mode also deletes the selection correctly",
+    "Delete removes one complete family character",
+    "Delete removes one complete skin-tone character",
+    "Delete removes one complete flag character",
+    "Delete removes one complete combining-accent character",
+    "numeric editor uses a three-column number pad",
+    "numeric editor offers the keyboard picker instead of an unusable alphabet key",
+    "decimal field receives ASCII minus and dot",
+    "phone field exposes plus, star and hash",
+    "symbols and number pages return to the selected alphabet layout"
+  ],
+  "physical_device_tested": false
+}

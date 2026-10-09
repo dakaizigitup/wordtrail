@@ -42,6 +42,8 @@ pub struct VocabularyLevel {
 
 #[derive(Serialize)]
 pub struct MobileCandidate {
+    pub kind: &'static str,
+    pub word_tags: Vec<wordtrail_vocabulary::Tag>,
     pub id: usize,
     pub text: String,
     pub annotation: String,
@@ -78,6 +80,9 @@ pub struct MobileState {
     pub expanded: bool,
     pub readings: Vec<String>,
     pub selected_reading: String,
+    pub reading_prefix: Vec<String>,
+    pub syllable_choices: Vec<String>,
+    pub reading_complete: bool,
     pub vocabulary_targets: Vec<&'static str>,
 }
 

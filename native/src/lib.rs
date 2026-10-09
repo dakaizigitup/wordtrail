@@ -2,7 +2,9 @@
 #[cfg(target_os = "android")]
 mod android;
 mod model;
+mod keypad;
 mod session;
+mod symbols;
 mod vocabulary;
 
 use model::{Request, Response};

@@ -25,6 +25,8 @@ public final class WordtrailIME extends InputMethodService {
     private LinearLayout candidateBar, expandedPanel, nineReadings;
     private TextView status;
     private Button mode, language;
+    private EnterKey enterKey;
+    private boolean numericEditor, symbolPage, greekPage, greekUpper;
     private boolean numbers, upper, capsLock, forceLatin, privateInput, layoutEnglish;
     private boolean nineKey;
     private boolean panelBackHandled;
@@ -45,6 +47,8 @@ public final class WordtrailIME extends InputMethodService {
     private Button previousPage, nextPage, candidateExpandButton, layoutButton;
     private LinearLayout expandedCandidateArea, expandedCandidates, readingChoices;
     private ScrollView expandedCandidateScroll, readingScroll;
+    private ScrollView nineReadingScroll;
+    private String readingProgressSignature="";
     private Button themeButton;
     private TextView brand;
     private boolean themeChoicesOpen;
@@ -150,7 +154,8 @@ public final class WordtrailIME extends InputMethodService {
         int klass = info.inputType & InputType.TYPE_MASK_CLASS;
         privateInput = (klass == InputType.TYPE_CLASS_TEXT && (variation==InputType.TYPE_TEXT_VARIATION_PASSWORD || variation==InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD || variation==InputType.TYPE_TEXT_VARIATION_WEB_PASSWORD))
             || (klass==InputType.TYPE_CLASS_NUMBER && variation==InputType.TYPE_NUMBER_VARIATION_PASSWORD);
-        numbers = klass==InputType.TYPE_CLASS_NUMBER || klass==InputType.TYPE_CLASS_PHONE || klass==InputType.TYPE_CLASS_DATETIME;
+        numericEditor=klass==InputType.TYPE_CLASS_NUMBER || klass==InputType.TYPE_CLASS_PHONE || klass==InputType.TYPE_CLASS_DATETIME;
+        numbers=numericEditor;symbolPage=false;greekPage=false;
         forceLatin = privateInput || numbers || (klass==InputType.TYPE_CLASS_TEXT && (variation==InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS || variation==InputType.TYPE_TEXT_VARIATION_WEB_EMAIL_ADDRESS || variation==InputType.TYPE_TEXT_VARIATION_URI));
         try { JSONObject reset=new JSONObject().put("private",privateInput || (info.imeOptions & EditorInfo.IME_FLAG_NO_PERSONALIZED_LEARNING)!=0); action("reset",reset);
             action("language",new JSONObject().put("language",getSharedPreferences("settings",MODE_PRIVATE).getString("language","en")));
@@ -169,7 +174,7 @@ public final class WordtrailIME extends InputMethodService {
         int preferred=height.equals("tall")?(compact?44:wide?58:52):height.equals("compact")?(compact?34:wide?46:40):(compact?38:wide?52:46);
         boolean heightChanged=preferred!=keyHeight;nineKey=newNine;keyHeight=preferred;
         root.setPadding(dp(6),dp(6),dp(6),dp(6)+navBottomInset+keyboardLift());
-        if(layoutChanged){numbers=false;action("clear",null);}
+        if(layoutChanged){numbers=numericEditor;symbolPage=false;greekPage=false;action("clear",null);}
         if(layoutChanged || heightChanged)buildKeys();
         if(displayed!=null && !speechShowing)render(displayed,false);
         root.requestLayout();
@@ -182,6 +187,10 @@ public final class WordtrailIME extends InputMethodService {
             if(key.equals("language"))action("language",new JSONObject().put("language",settings.getString("language","en")));
             else if(key.equals("vocabulary_targets"))action("vocabulary",new JSONObject().put("vocabulary_targets",VocabularySettings.targets(this)));
             else if(key.equals("show_vocabulary_tags") && displayed!=null)render(displayed,false);
+            else if(key.equals("nine_reading_steps")){
+                if(displayed!=null && displayed.optString("input").matches("[2-9]+"))action("keypad_reading",new JSONObject().put("reading",""));
+                else if(displayed!=null)render(displayed,false);
+            }
             else if(key.equals("speech_engine") && speechShowing)closeSpeech(true);
         }catch(JSONException ignored){}
     }
@@ -190,12 +199,13 @@ public final class WordtrailIME extends InputMethodService {
         closeSpeech(false);
         epoch++; lastComposition=""; stopRepeat(); action("flush",null); action("reset",null); super.onFinishInput();
     }
-    @Override public void onFinishInputView(boolean finishingInput){keyAlternatives.dismiss();closeSpeech(false);super.onFinishInputView(finishingInput);}
+    @Override public void onFinishInputView(boolean finishingInput){stopRepeat();keyAlternatives.dismiss();closeSpeech(false);super.onFinishInputView(finishingInput);}
     @Override public void onUpdateSelection(int oldStart,int oldEnd,int newStart,int newEnd,int candidatesStart,int candidatesEnd) {
         super.onUpdateSelection(oldStart,oldEnd,newStart,newEnd,candidatesStart,candidatesEnd);
         if(!applying && speechShowing && (newStart!=oldStart || newEnd!=oldEnd))closeSpeech(true);
         if (!applying && !lastComposition.isEmpty() && (newStart!=candidatesEnd || newEnd!=candidatesEnd)) {
-            epoch++; lastComposition=""; action("reset",null);
+            epoch++; lastComposition="";
+            try{action("reset",new JSONObject().put("private",privateInput || (editorOptions&EditorInfo.IME_FLAG_NO_PERSONALIZED_LEARNING)!=0));}catch(JSONException ignored){}
             InputConnection connection=getCurrentInputConnection(); if(connection!=null) connection.finishComposingText();
         }
     }
@@ -302,12 +312,10 @@ public final class WordtrailIME extends InputMethodService {
             if(connection!=null && applyDocumentChange) {
                 connection.beginBatchEdit();
                 if(!commit.isEmpty()) {
-                    EditorInfo info=getCurrentInputEditorInfo();
-                    int editorAction=info==null ? EditorInfo.IME_ACTION_NONE : info.imeOptions & EditorInfo.IME_MASK_ACTION;
-                    if(commit.equals("\n") && info!=null && (info.imeOptions & EditorInfo.IME_FLAG_NO_ENTER_ACTION)==0 && editorAction!=EditorInfo.IME_ACTION_NONE && editorAction!=EditorInfo.IME_ACTION_UNSPECIFIED) connection.performEditorAction(editorAction);
+                    if(commit.equals("\n"))EditorBehavior.enter(connection,getCurrentInputEditorInfo());
                     else connection.commitText(commit,1);
                 }
-                if(state.optBoolean("delete_backward")) connection.deleteSurroundingTextInCodePoints(1,0);
+                if(state.optBoolean("delete_backward"))EditorBehavior.delete(connection);
                 if(!input.isEmpty() && !forceLatin) connection.setComposingText(input,1);
                 else if(!lastComposition.isEmpty() && commit.isEmpty()) connection.setComposingText("",1);
                 if(input.isEmpty()) connection.finishComposingText();
@@ -317,12 +325,19 @@ public final class WordtrailIME extends InputMethodService {
         if(applyDocumentChange) lastComposition=input;
         if(layoutEnglish!=isEnglish())buildKeys();
         updateMode();
+        updateEnterKey();
         updateMicrophone();
-        language.setText(state.optString("language","en").toUpperCase()+" 译词");
+        language.setText(state.optBoolean("english")?"中释义":state.optString("language","en").toUpperCase()+" 译词");
         String preedit=state.optString("preedit","");
         JSONArray keypadReadings=state.optJSONArray("readings");
-        if(keypadReadings!=null&&keypadReadings.length()>0)preedit=state.optString("input")+" · "+preedit.replace("'","·");
-        status.setText(forceLatin ? privateInput ? "私密输入 · 不学习" : "直接输入 · EN" : preedit.isEmpty() ? isEnglish()?"英文输入":"拼音输入" : preedit+"    "+(state.optInt("page")+1)+"/"+state.optInt("page_count",1));
+        if(keypadReadings!=null&&keypadReadings.length()>0){
+            JSONArray prefix=state.optJSONArray("reading_prefix");
+            if(settings.getBoolean("nine_reading_steps",true)){
+                java.util.ArrayList<String> selected=new java.util.ArrayList<>();if(prefix!=null)for(int i=0;i<prefix.length();i++)selected.add(prefix.optString(i));
+                preedit=selected.isEmpty()?"选第1个拼音":String.join(" · ",selected)+(state.optBoolean("reading_complete")?" · 已选好":" · 第"+(selected.size()+1)+"个");
+            }else preedit=state.optString("input")+" · "+preedit.replace("'","·");
+        }
+        status.setText(forceLatin ? privateInput ? "私密输入 · 不学习" : numericEditor?"数字输入":"直接输入 · EN" : preedit.isEmpty() ? isEnglish()?"英文输入":"拼音输入" : preedit+"    "+(state.optInt("page")+1)+"/"+state.optInt("page_count",1));
         status.setVisibility(View.VISIBLE);
         previousPage.setEnabled(state.optInt("page")>0);nextPage.setEnabled(state.optInt("page")+1<state.optInt("page_count"));previousPage.setAlpha(previousPage.isEnabled()?1:.3f);nextPage.setAlpha(nextPage.isEnabled()?1:.3f);
         boolean expanded=state.optBoolean("expanded");if(candidateLayoutPending==0)requestedCandidateExpanded=expanded;updateCandidateLayoutButton();
@@ -364,8 +379,8 @@ public final class WordtrailIME extends InputMethodService {
         LinearLayout cell=new LinearLayout(this);cell.setOrientation(LinearLayout.VERTICAL);cell.setGravity(Gravity.CENTER);cell.setPadding(dp(grid?3:4),dp(2),dp(grid?3:4),dp(2));cell.setBackground(palette.shape(this,position==0?palette.soft:palette.background,0,grid?8:10));
         JSONArray senses=candidate.optJSONArray("translation_senses");JSONObject firstSense=senses==null?null:senses.optJSONObject(0);
         LinearLayout heading=row();
-        TextView word=new TextView(this);word.setText(candidate.optString("text"));word.setIncludeFontPadding(true);word.setTextSize(grid?16:18);word.setSingleLine(true);word.setEllipsize(android.text.TextUtils.TruncateAt.END);word.setTextColor(position==0?palette.accent:palette.ink);word.setTypeface(android.graphics.Typeface.create("sans-serif-medium",0));word.setGravity(Gravity.CENTER);heading.addView(word,new LinearLayout.LayoutParams(0,-2,1));
-        JSONArray tags=firstSense==null?null:firstSense.optJSONArray("tags");
+        TextView word=new TextView(this);word.setText(candidate.optString("text"));word.setIncludeFontPadding(true);word.setTextSize(grid||candidate.optString("kind").equals("english")?16:18);word.setSingleLine(true);word.setEllipsize(android.text.TextUtils.TruncateAt.END);word.setTextColor(position==0?palette.accent:palette.ink);word.setTypeface(android.graphics.Typeface.create("sans-serif-medium",0));word.setGravity(Gravity.CENTER);heading.addView(word,new LinearLayout.LayoutParams(0,-2,1));
+        JSONArray tags=candidate.optString("kind").equals("english")?candidate.optJSONArray("word_tags"):firstSense==null?null:firstSense.optJSONArray("tags");
         if(tags!=null&&tags.length()>0&&getSharedPreferences("settings",MODE_PRIVATE).getBoolean("show_vocabulary_tags",true)){
             JSONObject tag=tags.optJSONObject(0);if(tag!=null){TextView badge=new TextView(this);badge.setText(VocabularySettings.shortLabel(tag.optString("id"))+(tags.length()>1?"+":""));badge.setTextSize(7);badge.setTextColor(tag.optBoolean("selected")?palette.accent:palette.muted);badge.setContentDescription("词汇标签 "+tagLabels(tags));badge.setOnClickListener(v->showPronunciation(candidate));heading.addView(badge,new LinearLayout.LayoutParams(-2,-2));}
         }
@@ -379,7 +394,7 @@ public final class WordtrailIME extends InputMethodService {
         cell.setContentDescription(candidate.optString("text")+" "+candidate.optString("annotation"));cell.setHapticFeedbackEnabled(true);
         cell.setOnClickListener(v->{v.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP);select("select",index,revision);});
         // Android supplies the long-press feedback once when this listener handles it.
-        cell.setOnLongClickListener(v->{if(candidate.optString("annotation").isEmpty())return false;select("translation",index,revision);return true;});
+        cell.setOnLongClickListener(v->{if(senses==null||senses.length()==0)return false;select("translation",index,revision);return true;});
         if(!grid)cell.setOnTouchListener(new View.OnTouchListener(){float startX,startY;boolean dragged,expandDragged;@Override public boolean onTouch(View view,MotionEvent event){if(event.getAction()==MotionEvent.ACTION_DOWN){startX=event.getX();startY=event.getY();dragged=false;expandDragged=false;return false;}if(event.getAction()==MotionEvent.ACTION_MOVE&&Math.abs(event.getY()-startY)>Math.abs(event.getX()-startX)*1.2f){if(event.getY()-startY>dp(16)){dragged=true;}else if(startY-event.getY()>dp(24)){expandDragged=true;}if(dragged||expandDragged){view.cancelLongPress();view.setPressed(false);view.getParent().requestDisallowInterceptTouchEvent(true);return true;}}if(event.getAction()==MotionEvent.ACTION_UP&&expandDragged){requestCandidateLayout(true);return true;}if(event.getAction()==MotionEvent.ACTION_UP&&dragged){showPronunciation(candidate);return true;}return dragged||expandDragged;}});
         LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(cellWidth,dp(cellHeight));params.setMargins(dp(2),0,dp(2),0);cell.setLayoutParams(params);return cell;
     }
@@ -388,10 +403,24 @@ public final class WordtrailIME extends InputMethodService {
         readingScroll.setVisibility(hasReadings?View.VISIBLE:View.GONE);
         fillReadings(readingChoices,readings,selected,hasReadings);
         if(nineReadings!=null)fillReadings(nineReadings,readings,selected,hasReadings);
+        String signature=settings.getBoolean("nine_reading_steps",true)+":"+(displayed==null?"":displayed.optJSONArray("reading_prefix"));
+        if(!signature.equals(readingProgressSignature)){readingProgressSignature=signature;readingScroll.post(()->readingScroll.scrollTo(0,0));if(nineReadingScroll!=null){ScrollView rail=nineReadingScroll;rail.post(()->rail.scrollTo(0,0));}}
     }
     private void fillReadings(LinearLayout target,JSONArray readings,String selected,boolean hasReadings){
         target.removeAllViews();
         if(!hasReadings){for(String mark:new String[]{"。","？","！","、"}){Button b=control(mark,v->key(mark));b.setTextSize(19);target.addView(b,new LinearLayout.LayoutParams(-1,dp(40)));}return;}
+        if(settings.getBoolean("nine_reading_steps",true) && displayed!=null && displayed.has("syllable_choices")){
+            JSONArray prefix=displayed.optJSONArray("reading_prefix");int step=prefix==null?0:prefix.length();
+            TextView heading=new TextView(this);heading.setText(displayed.optBoolean("reading_complete")?"已选好":"第"+(step+1)+"个");heading.setTextSize(10);heading.setTextColor(palette.muted);heading.setGravity(Gravity.CENTER);target.addView(heading,new LinearLayout.LayoutParams(-1,dp(20)));
+            if(step>0){Button back=control("‹ "+prefix.optString(step-1),v->action("keypad_reading_back",null));back.setContentDescription("重选上一个拼音");back.setTextColor(palette.accent);target.addView(back,new LinearLayout.LayoutParams(-1,dp(32)));}
+            JSONArray choices=displayed.optJSONArray("syllable_choices");
+            if(choices!=null)for(int i=0;i<choices.length();i++){
+                String syllable=choices.optString(i);Button option=control(syllable,v->{try{action("keypad_syllable",new JSONObject().put("reading",syllable).put("index",step));}catch(JSONException ignored){}});
+                option.setContentDescription("选择第"+(step+1)+"个拼音 "+syllable);option.setAutoSizeTextTypeUniformWithConfiguration(9,14,1,android.util.TypedValue.COMPLEX_UNIT_SP);option.setEllipsize(null);option.setTextColor(palette.ink);target.addView(option,new LinearLayout.LayoutParams(-1,dp(40)));
+            }
+            if(step>0){Button all=control("全部重选",v->{try{action("keypad_reading",new JSONObject().put("reading",""));}catch(JSONException ignored){}});all.setContentDescription("重选全部拼音");target.addView(all,new LinearLayout.LayoutParams(-1,dp(36)));}
+            return;
+        }
         addReadingChoice(target,"全部",selected.isEmpty(),"");
         for(int i=0;i<readings.length();i++){String reading=readings.optString(i);if(!reading.isEmpty())addReadingChoice(target,reading,reading.equals(selected),reading);}
     }
@@ -400,13 +429,13 @@ public final class WordtrailIME extends InputMethodService {
     }
     private int candidateWidth(){
         int available=Math.min(layoutWidth>0?layoutWidth:getResources().getDisplayMetrics().widthPixels-dp(12),dp(900))-dp(44);
-        int visible=Math.min(9,Math.max(4,available/dp(76)));
+        int visible=Math.min(9,Math.max(isEnglish()?3:4,available/dp(isEnglish()?100:76)));
         return Math.max(dp(48),available/visible);
     }
     private int candidateHeight(){return Math.max(54,(int)Math.ceil(44*Math.min(2,getResources().getConfiguration().fontScale))+8);}
     private int keyboardHeight(){return (keyHeight+6)*4;}
     private void switchLayout(){
-        if(speechShowing)return;
+        if(speechShowing || numericEditor)return;
         settings.edit().putString("keyboard_layout",nineKey?"qwerty":"nine").apply();
     }
     private void select(String op,int index,long revision) { try {action(op,new JSONObject().put("index",index).put("revision",revision));} catch(JSONException ignored) {} }
@@ -423,7 +452,7 @@ public final class WordtrailIME extends InputMethodService {
         JSONArray senses=candidate.optJSONArray("translation_senses");
         if(senses!=null)for(int i=0;i<senses.length();i++){
             JSONObject sense=senses.optJSONObject(i);if(sense==null)continue;JSONArray tags=sense.optJSONArray("tags");
-            String tagDescription=displayed.optString("language").equals("en")?" · "+(tags==null || tags.length()==0?"暂无词汇标签":tagLabels(tags)):"";
+            String tagDescription=!candidate.optString("kind").equals("english")&&displayed.optString("language").equals("en")?" · "+(tags==null || tags.length()==0?"暂无词汇标签":tagLabels(tags)):"";
             TextView entry=detailLine(sense.optString("text")+tagDescription);entry.setTextColor(palette.accent);body.addView(entry);
             if(!sense.isNull("translation_source")){TextView origin=detailLine("新增译词："+sense.optString("translation_source"));origin.setTextSize(10);origin.setTextColor(palette.muted);body.addView(origin);}
             java.util.LinkedHashSet<String> sources=new java.util.LinkedHashSet<>();if(tags!=null)for(int t=0;t<tags.length();t++){JSONArray names=tags.optJSONObject(t).optJSONArray("sources");if(names!=null)for(int n=0;n<names.length();n++)sources.add(names.optString(n));}
@@ -431,7 +460,8 @@ public final class WordtrailIME extends InputMethodService {
             JSONObject ipa=sense.optJSONObject("pronunciation");if(ipa!=null){if(!ipa.isNull("uk"))body.addView(detailLine("英式  "+ipa.optString("uk")));if(!ipa.isNull("us"))body.addView(detailLine("美式  "+ipa.optString("us")));}
             final int senseIndex=sense.optInt("index",i);Button insert=control("输入译词 "+sense.optString("text"),v->{try{action("translation",new JSONObject().put("index",candidate.optInt("id")).put("sense_index",senseIndex).put("revision",displayed.optLong("revision")));}catch(JSONException ignored){}});insert.setTextSize(12);body.addView(insert,new LinearLayout.LayoutParams(-1,dp(40)));
         }
-        if(pronunciation!=null && (senses==null || senses.length()==0)){
+        if(candidate.optString("kind").equals("english")){String tags=tagLabels(candidate.optJSONArray("word_tags"));if(!tags.isEmpty())body.addView(detailLine(tags));}
+        if(pronunciation!=null && (candidate.optString("kind").equals("english") || senses==null || senses.length()==0)){
             String uk=pronunciation.isNull("uk")?"":pronunciation.optString("uk","");String us=pronunciation.isNull("us")?"":pronunciation.optString("us","");
             if(!uk.isEmpty())body.addView(detailLine("英式  "+uk));
             if(!us.isEmpty())body.addView(detailLine("美式  "+us));
@@ -472,41 +502,80 @@ public final class WordtrailIME extends InputMethodService {
         stopRepeat();layoutEnglish=isEnglish();
         if(keyboardBody!=null){keyboardBody.getLayoutParams().height=dp(keyboardHeight()+((expandedPanel!=null&&expandedPanel.getVisibility()==View.VISIBLE)?candidateHeight():0));keyboardBody.requestLayout();}
         boolean useNineKey=nineKey&&!numbers&&!layoutEnglish&&!forceLatin;
-        keys.removeAllViews();nineReadings=null;if(layoutButton!=null){layoutButton.setText(nineKey?"全键":"九键");layoutButton.setContentDescription(nineKey?"切换到全键拼音":"切换到九宫格拼音");}
+        keys.removeAllViews();nineReadings=null;nineReadingScroll=null;mode=null;enterKey=null;if(layoutButton!=null){layoutButton.setText(nineKey?"全键":"九键");layoutButton.setContentDescription(nineKey?"切换到全键拼音":"切换到九宫格拼音");layoutButton.setEnabled(!numericEditor&&!speechShowing);layoutButton.setAlpha(numericEditor?.35f:1);}
+        if(numbers&&greekPage){buildGreekKeys();if(speechShowing)setSpeechControls(true);updateMicrophone();return;}
+        if(numbers&&!symbolPage){buildNumberKeys();if(speechShowing)setSpeechControls(true);updateMicrophone();return;}
         if(numbers){
-            String[] rows={"1234567890","-/:;()&@\"",".,?!'"};
-            for(String rowText:rows){LinearLayout line=row();for(char symbol:rowText.toCharArray()){String value=String.valueOf(symbol);line.addView(typingButton(value,v->key(value)),weight(1));}if(rowText.length()==5)line.addView(backspaceButton(),weight(1));keys.addView(line);}
+            String[] rows={"!@#$%&*()","-_=+/:;\"'",".,?!\\"};
+            for(String rowText:rows){LinearLayout line=row();for(char symbol:rowText.toCharArray()){String value=String.valueOf(symbol);line.addView(typingButton(value,v->key(value)),weight(1));}if(rowText.length()==5){Button greek=button("希腊",v->{greekPage=true;buildKeys();});greek.setTextSize(13);line.addView(greek,weight(1.5f));line.addView(backspaceButton(),weight(1));}keys.addView(line);}
         }else if(useNineKey){
-            buildNineKeys();if(speechShowing)setSpeechControls(true);return;
+            buildNineKeys();updateMicrophone();if(speechShowing)setSpeechControls(true);return;
         }else{
             String[] rows={"qwertyuiop","asdfghjkl","zxcvbnm"};
             for(int i=0;i<rows.length;i++){LinearLayout line=row();if(i==1)line.setPadding(dp(wide?46:16),0,dp(wide?46:16),0);if(i==2){Button shift=iconButton(new KeyboardIcon(KeyboardIcon.SHIFT,upper?palette.onAccent:palette.ink,capsLock),capsLock?"大写锁定":upper?"大写已开启":"大写",v->shift());if(upper)palette.style(shift,palette.accent,palette.onAccent,10,false);line.addView(shift,weight(1.3f));}
                 for(char letter:rows[i].toCharArray()){String value=String.valueOf(letter);String alternate=qwertyAlternate(letter);Button button=alternativeButton(layoutEnglish&&!upper?value:value.toUpperCase(),alternate,new String[]{value.toUpperCase(java.util.Locale.ROOT),alternate,value},1,v->{key(upper&&isEnglish()?value.toUpperCase():value);if(upper&&!capsLock){upper=false;buildKeys();}});line.addView(button,weight(1));}
-                if(i==2){Button back=backspaceButton();line.addView(back,weight(1.3f));}keys.addView(line);
+                if(i==2){Button back=backspaceButton();line.addView(back,weight(1.3f));}KeyHitBox.expandRow(line);keys.addView(line);
             }
         }
-        LinearLayout bottom=row();Button symbols=button(numbers?"ABC":"123",v->{numbers=!numbers;buildKeys();});symbols.setTextSize(14);bottom.addView(symbols,weight(1.05f));
+        LinearLayout bottom=row();Button symbols=button(numbers?"ABC":"123",v->{numbers=!numbers;symbolPage=false;greekPage=false;buildKeys();});symbols.setTextSize(14);bottom.addView(symbols,weight(1.05f));
         mode=button("中/英",v->toggleMode());mode.setTextSize(12);bottom.addView(mode,weight(1.25f));updateMode();
         bottom.addView(punctuationButton(layoutEnglish?",":"，",true),weight(.8f));
         Button globe=iconButton(new GlobeIcon(palette.ink),"切换键盘",v->((InputMethodManager)getSystemService(INPUT_METHOD_SERVICE)).showInputMethodPicker());bottom.addView(globe,weight(.7f));
         Button space=typingButton("空格",v->{if(forceLatin)key(" ");else action("space",null);});palette.style(space,palette.key,palette.muted,7,true);space.setTextSize(14);bottom.addView(space,weight(3.25f));
         bottom.addView(punctuationButton(layoutEnglish?".":"。",false),weight(.65f));
-        Button enter=iconButton(new KeyboardIcon(KeyboardIcon.ENTER,palette.onAccent,false),"回车",v->{if(forceLatin)key("\n");else action("enter",null);});palette.style(enter,palette.accent,palette.onAccent,10,false);bottom.addView(enter,weight(1.2f));keys.addView(bottom);
+        bottom.addView(makeEnterKey(),weight(1.2f));if(!numbers)KeyHitBox.expandRow(bottom);keys.addView(bottom);
+        updateMicrophone();
         if(speechShowing)setSpeechControls(true);
+    }
+    private void buildGreekKeys(){
+        String[] rows={"αβγδεζηθ","ικλμνξοπ","ρστυφχψω"};
+        for(String letters:rows){LinearLayout line=row();for(char ch:letters.toCharArray()){String value=String.valueOf(ch);if(greekUpper)value=value.toUpperCase(java.util.Locale.ROOT);final String symbol=value;Button b=typingButton(symbol,v->literal(symbol));b.setContentDescription("希腊字母 "+symbol);line.addView(b,weight(1));}keys.addView(line);}
+        LinearLayout bottom=row();Button back=button("符号",v->{greekPage=false;buildKeys();});back.setTextSize(14);bottom.addView(back,weight(1.3f));Button cases=button(greekUpper?"αβγ":"ΑΒΓ",v->{greekUpper=!greekUpper;buildKeys();});cases.setContentDescription("切换希腊字母大小写");cases.setTextSize(16);bottom.addView(cases,weight(1.4f));Button alpha=button("ABC",v->{numbers=false;symbolPage=false;greekPage=false;buildKeys();});alpha.setTextSize(14);bottom.addView(alpha,weight(1.3f));Button space=typingButton("空格",v->{if(forceLatin)key(" ");else action("space",null);});space.setTextSize(14);bottom.addView(space,weight(2));bottom.addView(backspaceButton(),weight(1));bottom.addView(makeEnterKey(),weight(1));keys.addView(bottom);
     }
     private void buildNineKeys(){
         LinearLayout mainRow=row();keys.addView(mainRow,new LinearLayout.LayoutParams(-1,-1));
         LinearLayout left=new LinearLayout(this);left.setOrientation(LinearLayout.VERTICAL);mainRow.addView(left,new LinearLayout.LayoutParams(dp(wide?74:54),-1));
-        ScrollView readings=new ScrollView(this);readings.setVerticalScrollBarEnabled(false);nineReadings=new LinearLayout(this);nineReadings.setOrientation(LinearLayout.VERTICAL);readings.addView(nineReadings);left.addView(readings,new LinearLayout.LayoutParams(-1,0,1));
+        ScrollView readings=new ScrollView(this);nineReadingScroll=readings;readings.setVerticalScrollBarEnabled(false);nineReadings=new LinearLayout(this);nineReadings.setOrientation(LinearLayout.VERTICAL);readings.addView(nineReadings);left.addView(readings,new LinearLayout.LayoutParams(-1,0,1));
         Button comma=punctuationButton("，",true);LinearLayout.LayoutParams commaSize=new LinearLayout.LayoutParams(-1,dp(keyHeight));commaSize.setMargins(dp(3),dp(3),dp(3),dp(3));left.addView(comma,commaSize);
         LinearLayout center=new LinearLayout(this);center.setOrientation(LinearLayout.VERTICAL);mainRow.addView(center,new LinearLayout.LayoutParams(0,-1,1));
         String[] captions={"符号","ABC","DEF","GHI","JKL","MNO","PQRS","TUV","WXYZ"};
-        for(int r=0;r<3;r++){LinearLayout line=row();for(int c=0;c<3;c++){final String digit=String.valueOf(r*3+c+1);String caption=captions[r*3+c];java.util.ArrayList<String> choices=new java.util.ArrayList<>();if(!digit.equals("1"))for(char letter:caption.toCharArray())choices.add(String.valueOf(letter));int defaultIndex=choices.size();choices.add(digit);if(digit.equals("1")){choices.add("@");choices.add(".");}else for(char letter:caption.toLowerCase(java.util.Locale.ROOT).toCharArray())choices.add(String.valueOf(letter));Button b=alternativeButton(digit+"  "+caption,"",choices.toArray(new String[0]),defaultIndex,v->{if(digit.equals("1")){numbers=true;buildKeys();}else try{action("keypad",new JSONObject().put("text",digit));}catch(JSONException ignored){}});b.setTextSize(17);b.setContentDescription("九键 "+digit+" "+caption);palette.style(b,palette.key,palette.ink,7,true);line.addView(b,weight(1));}center.addView(line);}
+        for(int r=0;r<3;r++){LinearLayout line=row();for(int c=0;c<3;c++){final String digit=String.valueOf(r*3+c+1);String caption=captions[r*3+c];java.util.ArrayList<String> choices=new java.util.ArrayList<>();if(!digit.equals("1"))for(char letter:caption.toCharArray())choices.add(String.valueOf(letter));int defaultIndex=choices.size();choices.add(digit);if(digit.equals("1")){choices.add("@");choices.add(".");}else for(char letter:caption.toLowerCase(java.util.Locale.ROOT).toCharArray())choices.add(String.valueOf(letter));Button b=alternativeButton(digit+"  "+caption,"",choices.toArray(new String[0]),defaultIndex,v->{if(digit.equals("1")){numbers=true;symbolPage=true;buildKeys();}else try{action("keypad",new JSONObject().put("text",digit));}catch(JSONException ignored){}});b.setTextSize(17);b.setContentDescription("九键 "+digit+" "+caption);palette.style(b,palette.key,palette.ink,7,true);line.addView(b,weight(1));}center.addView(line);}
         LinearLayout bottom=row();Button symbols=button("123",v->{numbers=true;buildKeys();});symbols.setTextSize(14);bottom.addView(symbols,weight(1));Button space=typingButton("空格",v->action("space",null));space.setTextSize(15);palette.style(space,palette.key,palette.muted,7,true);bottom.addView(space,weight(1.7f));mode=button("中/英",v->toggleMode());mode.setTextSize(13);bottom.addView(mode,weight(1));center.addView(bottom);updateMode();
         LinearLayout right=new LinearLayout(this);right.setOrientation(LinearLayout.VERTICAL);mainRow.addView(right,new LinearLayout.LayoutParams(dp(wide?70:52),-1));
         Button back=backspaceButton();right.addView(back,railSize(1));Button clear=button("重输",v->action("clear",null));clear.setTextSize(13);right.addView(clear,railSize(1));
-        Button globe=iconButton(new GlobeIcon(palette.ink),"切换键盘",v->((InputMethodManager)getSystemService(INPUT_METHOD_SERVICE)).showInputMethodPicker());right.addView(globe,railSize(1));Button enter=iconButton(new KeyboardIcon(KeyboardIcon.ENTER,palette.onAccent,false),"回车",v->action("enter",null));palette.style(enter,palette.accent,palette.onAccent,7,false);right.addView(enter,railSize(1));
+        Button globe=iconButton(new GlobeIcon(palette.ink),"切换键盘",v->((InputMethodManager)getSystemService(INPUT_METHOD_SERVICE)).showInputMethodPicker());right.addView(globe,railSize(1));right.addView(makeEnterKey(),railSize(1));
         if(displayed!=null)renderReadingChoices(displayed.optJSONArray("readings"),displayed.optString("input"),displayed.optString("selected_reading"));else fillReadings(nineReadings,null,"",false);
+    }
+    private EnterKey makeEnterKey(){
+        enterKey=new EnterKey(this,palette.onAccent);styleButton(enterKey,"",v->{
+            if(forceLatin)EditorBehavior.enter(getCurrentInputConnection(),getCurrentInputEditorInfo());
+            else action("enter",null);
+        });palette.style(enterKey,palette.accent,palette.onAccent,7,false);updateEnterKey();return enterKey;
+    }
+    private void updateEnterKey(){
+        if(enterKey==null)return;
+        boolean composing=!forceLatin&&displayed!=null&&!displayed.optString("input").isEmpty();
+        enterKey.actionLabel(composing?"上屏":EditorBehavior.label(getCurrentInputEditorInfo()));
+    }
+    private void buildNumberKeys(){
+        int klass=editorType&InputType.TYPE_MASK_CLASS;boolean phone=klass==InputType.TYPE_CLASS_PHONE;
+        boolean strictNumber=numericEditor&&klass==InputType.TYPE_CLASS_NUMBER;
+        String decimal=phone?"*":strictNumber&&(editorType&InputType.TYPE_NUMBER_FLAG_DECIMAL)==0?"":".";
+        String sign=phone?"+":strictNumber&&(editorType&InputType.TYPE_NUMBER_FLAG_SIGNED)==0?"":klass==InputType.TYPE_CLASS_DATETIME?":":"-";
+        LinearLayout panel=row();keys.addView(panel,new LinearLayout.LayoutParams(-1,-1));
+        LinearLayout grid=new LinearLayout(this);grid.setOrientation(LinearLayout.VERTICAL);panel.addView(grid,new LinearLayout.LayoutParams(0,-1,1));
+        for(String digits:new String[]{"123","456","789"}){LinearLayout line=row();for(char digit:digits.toCharArray()){String value=String.valueOf(digit);line.addView(typingButton(value,v->literal(value)),weight(1));}grid.addView(line);}
+        LinearLayout bottom=row();Button alpha=numericEditor?iconButton(new GlobeIcon(palette.ink),"切换键盘",v->((InputMethodManager)getSystemService(INPUT_METHOD_SERVICE)).showInputMethodPicker()):button("ABC",v->{numbers=false;symbolPage=false;greekPage=false;buildKeys();});alpha.setTextSize(14);bottom.addView(alpha,weight(1));bottom.addView(typingButton("0",v->literal("0")),weight(1));Button point=typingButton(decimal,v->literal(decimal));point.setEnabled(!decimal.isEmpty());if(decimal.isEmpty())point.setVisibility(View.INVISIBLE);bottom.addView(point,weight(1));grid.addView(bottom);
+        LinearLayout right=new LinearLayout(this);right.setOrientation(LinearLayout.VERTICAL);panel.addView(right,new LinearLayout.LayoutParams(dp(wide?74:58),-1));
+        if(strictNumber){
+            LinearLayout.LayoutParams fixed=new LinearLayout.LayoutParams(-1,dp(keyHeight));fixed.setMargins(dp(3),dp(3),dp(3),dp(3));right.addView(backspaceButton(),fixed);
+            if(!sign.isEmpty()){Button minus=typingButton(sign,v->literal(sign));right.addView(minus,new LinearLayout.LayoutParams(fixed));}
+            right.addView(makeEnterKey(),railSize(1));return;
+        }
+        right.addView(backspaceButton(),railSize(1));
+        String extra=phone?"#":klass==InputType.TYPE_CLASS_DATETIME?"/":"符号";
+        Button symbols=button(extra,v->{if(numericEditor)literal(extra);else{symbolPage=true;buildKeys();}});symbols.setTextSize(13);symbols.setEnabled(!strictNumber);symbols.setAlpha(strictNumber?.35f:1);right.addView(symbols,railSize(1));
+        Button minus=typingButton(sign,v->literal(sign));minus.setEnabled(!sign.isEmpty());right.addView(minus,railSize(1));right.addView(makeEnterKey(),railSize(1));
     }
     private LinearLayout.LayoutParams railSize(float weight){LinearLayout.LayoutParams p=new LinearLayout.LayoutParams(-1,0,weight);p.setMargins(dp(3),dp(3),dp(3),dp(3));return p;}
     private Button backspaceButton(){Button back=iconButton(new KeyboardIcon(KeyboardIcon.BACKSPACE,palette.ink,false),"删除",v->backspace());back.setOnTouchListener((v,event)->{if(event.getAction()==MotionEvent.ACTION_DOWN){v.setPressed(true);v.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP);backspace();repeating=new Runnable(){public void run(){backspace();main.postDelayed(repeating,65);}};main.postDelayed(repeating,400);}else if(event.getAction()==MotionEvent.ACTION_UP||event.getAction()==MotionEvent.ACTION_CANCEL){v.setPressed(false);stopRepeat();}return true;});return back;}
@@ -521,7 +590,7 @@ public final class WordtrailIME extends InputMethodService {
         if(hideKeyboardButton!=null){hideKeyboardButton.setEnabled(true);hideKeyboardButton.setAlpha(1);}
         updateMode();
         if(blocked && mode!=null){mode.setEnabled(false);mode.setAlpha(.45f);}
-        if(language!=null)language.setEnabled(!blocked);if(themeButton!=null)themeButton.setEnabled(!blocked);if(layoutButton!=null)layoutButton.setEnabled(!blocked);
+        if(language!=null)language.setEnabled(!blocked);if(themeButton!=null)themeButton.setEnabled(!blocked);if(layoutButton!=null)layoutButton.setEnabled(!blocked&&!numericEditor);
         if(candidateExpandButton!=null)candidateExpandButton.setEnabled(!blocked);
         if(previousPage!=null)previousPage.setEnabled(!blocked && displayed!=null && displayed.optInt("page")>0);
         if(nextPage!=null)nextPage.setEnabled(!blocked && displayed!=null && displayed.optInt("page")+1<displayed.optInt("page_count"));
@@ -620,7 +689,7 @@ public final class WordtrailIME extends InputMethodService {
         }));
     }
     private boolean useLocalSpeech(){return !getSharedPreferences("settings",MODE_PRIVATE).getString("speech_engine","local").equals("system");}
-    private void backspace(){if(forceLatin){InputConnection c=getCurrentInputConnection();if(c!=null)c.deleteSurroundingTextInCodePoints(1,0);}else action("backspace",null);}
+    private void backspace(){if(forceLatin)EditorBehavior.delete(getCurrentInputConnection());else action("backspace",null);}
     private void stopRepeat(){if(repeating!=null){main.removeCallbacks(repeating);repeating=null;}}
     private int dp(float value){return Math.round(value*getResources().getDisplayMetrics().density);}
     private int keyboardLift(){String gap=getSharedPreferences("settings",MODE_PRIVATE).getString("keyboard_bottom_gap","standard");return dp(compact?4:gap.equals("raised")?28:gap.equals("small")?4:16);}

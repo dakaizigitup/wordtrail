@@ -1,0 +1,20 @@
+{
+  "version": "0.1.42",
+  "version_code": 43,
+  "apk_bytes": 255445562,
+  "apk_sha256": "03624732740ad69cdfdc89daac844230dbf0df0e10c06514ddf683a3bd6c3190",
+  "tests": {
+    "hit-areas": 33,
+    "long-press": 7,
+    "rapid-typing": 6,
+    "rapid-english": 3,
+    "editor-behavior": 21
+  },
+  "physical_device_tested": false,
+  "environment": "Android 35 x86_64 emulator; phone 1080x2400/420dpi, tablet 2560x1600/240dpi, landscape 1920x1080/440dpi",
+  "source_files": {
+    "android/app/src/main/java/org/wordtrail/ime/KeyHitBox.java": "c14a555ad8ceca90f05b01bc3603d3bf3773941e558becf288605cda03f3bd77",
+    "android/app/src/main/java/org/wordtrail/ime/KeyAlternatives.java": "f013b2570693c01076be316f99e55954a520f307a94a2272711721821a2e6374",
+    "android/app/src/main/java/org/wordtrail/ime/WordtrailIME.java": "d716f342b4950f12e1d81d599fd1bbade700295f5f774b67a0c0d921f08fcc2c"
+  }
+}

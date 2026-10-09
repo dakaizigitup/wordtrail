@@ -52,10 +52,11 @@ final class KeyAlternatives {
         int[] position=new int[2];strip.getLocationOnScreen(position);left=position[0];top=position[1];width=strip.getWidth();height=strip.getHeight();
         if(x<left || x>=left+width || y<top-dp(12) || y>ownerBottom+dp(16))return -1;
         // Staying on the original key keeps the highlighted default option.
-        if(y>=top+height && owner!=null){int[] point=new int[2];owner.getLocationOnScreen(point);if(x>=point[0] && x<=point[0]+owner.getWidth())return selected;}
+        if(y>=top+height && owner!=null){View area=ownerArea();int[] point=new int[2];area.getLocationOnScreen(point);if(x>=point[0] && x<=point[0]+area.getWidth())return selected;}
         return Math.min(values.length-1,Math.max(0,(int)((x-left-dp(4))*values.length/(width-dp(8)))));
     }
-    private boolean onOwner(float x,float y){if(owner==null)return false;int[] point=new int[2];owner.getLocationOnScreen(point);return x>=point[0]&&x<=point[0]+owner.getWidth()&&y>=point[1]&&y<=point[1]+owner.getHeight();}
+    private View ownerArea(){return owner!=null && owner.getParent() instanceof KeyHitBox?(View)owner.getParent():owner;}
+    private boolean onOwner(float x,float y){View area=ownerArea();if(area==null)return false;int[] point=new int[2];area.getLocationOnScreen(point);return x>=point[0]&&x<=point[0]+area.getWidth()&&y>=point[1]&&y<=point[1]+area.getHeight();}
     private void choose(int index){String value=values[index];Consumer<String> callback=commit;buttons[index].performHapticFeedback(android.view.HapticFeedbackConstants.KEYBOARD_TAP);dismiss();callback.accept(value);}
     private void repaint(){for(int i=0;i<buttons.length;i++)palette.style(buttons[i],i==selected?palette.accent:palette.surface,i==selected?palette.onAccent:palette.ink,7,false);}
     private int dp(float value){return WordtrailStyle.dp(strip.getContext(),value);}

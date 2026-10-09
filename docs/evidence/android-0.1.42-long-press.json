@@ -1,0 +1,44 @@
+[
+  {
+    "name": "center default",
+    "expected": "~",
+    "actual": "~",
+    "passed": true
+  },
+  {
+    "name": "indent default",
+    "expected": "~",
+    "actual": "~",
+    "passed": true
+  },
+  {
+    "name": "indent lower case",
+    "expected": "a",
+    "actual": "a",
+    "passed": true
+  },
+  {
+    "name": "indent upper case",
+    "expected": "A",
+    "actual": "A",
+    "passed": true
+  },
+  {
+    "name": "indent alternate",
+    "expected": "~",
+    "actual": "~",
+    "passed": true
+  },
+  {
+    "name": "indent outside cancel",
+    "expected": "",
+    "actual": "",
+    "passed": true
+  },
+  {
+    "name": "indent system cancel",
+    "expected": "",
+    "actual": "",
+    "passed": true
+  }
+]

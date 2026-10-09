@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "vocabulary/data"
 OVERLAYS = (
+    (DATA / "pinyin-overlays/everyday-input.tsv", "95b626f3b078e22ee93e3920a6498c228832321c9c0d31bd375648935519ac47"),
     (DATA / "pinyin-overlays/exam-target-batch-11.tsv",
      "a42e86df9afbf2a6a811cb2e844545c8e1b4b6df40fcf81f1dd333ef0be7d859"),
     (DATA / "pinyin-overlays/exam-target-batch-12.tsv",
@@ -24,7 +25,7 @@ RUNTIME_TSV = RUNTIME / "dict.tsv"
 RUNTIME_DICT = RUNTIME / "dict.qj"
 BASE_TSV = ROOT / "build/runtime-data/base-dict.tsv"
 BASE_SHA256 = "3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc"
-DATA_VERSION = "Wordtrail 0.1.31"
+DATA_VERSION = "Wordtrail 0.1.41"
 EXPORTER = ROOT / "target/debug/export_dictionary_tsv.exe"
 EXTERNAL_CARGO_CWD = Path(f"{ROOT.drive}\\")
 

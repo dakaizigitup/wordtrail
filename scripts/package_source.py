@@ -16,6 +16,8 @@ GUIDES += ('29-OpenEtymology四六级补词.md', '0.1.30测试报告.md')
 GUIDES += ('30-NAER经济学术语补充.md', '31-NAER计算机学术名词补充.md', '32-NAER会计学术名词补充.md', '33-NAER管理学术名词补充.md', '34-NAER行政学术名词补充.md', '35-NAER教育词汇补充.md', '36-NAER心理学词汇补充.md', '37-NAER教育学研究术语补充.md')
 GUIDES += ('38-NAER信息术语补词.md',)
 GUIDES += ('0.1.35键盘布局.md', '0.1.36长按与即时设置.md', '0.1.38发布说明.md')
+GUIDES += ('0.1.39逐段拼音.md', '0.1.40输入习惯对齐检查.md', '0.1.41英中输入补齐.md', '0.1.42按键触摸范围.md')
+GUIDES += ('0.1.42公测指南.md',)
 
 def main():
     for name in GUIDES:

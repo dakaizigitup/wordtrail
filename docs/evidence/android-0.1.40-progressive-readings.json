@@ -1,0 +1,46 @@
+{
+  "profiles": [
+    {
+      "name": "phone",
+      "size": "1080x2400",
+      "density": 420
+    },
+    {
+      "name": "tablet",
+      "size": "2560x1600",
+      "density": 240
+    }
+  ],
+  "passed": [
+    "only syllable 1 choices are shown",
+    "only syllable 2 choices are shown",
+    "only syllable 3 choices are shown",
+    "only syllable 4 choices are shown",
+    "phone all four selections complete without early commit",
+    "only syllable 4 choices are shown",
+    "phone backtracking preserves all digits",
+    "only syllable 1 choices are shown",
+    "phone reset does not delete the input",
+    "only syllable 2 choices are shown",
+    "phone partial Chinese commit keeps unresolved nine-key input",
+    "phone retype retains committed Chinese",
+    "phone appending a digit preserves the confirmed first syllable",
+    "phone completed nihao commits correctly",
+    "only syllable 1 choices are shown",
+    "only syllable 2 choices are shown",
+    "only syllable 3 choices are shown",
+    "only syllable 4 choices are shown",
+    "tablet all four selections complete without early commit",
+    "only syllable 4 choices are shown",
+    "tablet backtracking preserves all digits",
+    "only syllable 1 choices are shown",
+    "tablet reset does not delete the input",
+    "only syllable 2 choices are shown",
+    "tablet partial Chinese commit keeps unresolved nine-key input",
+    "tablet retype retains committed Chinese",
+    "tablet appending a digit preserves the confirmed first syllable",
+    "tablet completed nihao commits correctly",
+    "whole-reading mode remains available",
+    "step mode can be enabled without clearing typed digits"
+  ]
+}

@@ -3,10 +3,12 @@ from pathlib import Path
 import argparse, hashlib, json, shutil, tarfile, urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-FILES = ('dict.qj', 'glossary-en.qj', 'glossary-ja.qj', 'glossary-es.qj')
+FILES = ('dict.qj', 'glossary-en.qj', 'glossary-ja.qj', 'glossary-es.qj', 'english.tsv', 'glossary-zh.qj')
 URL = 'https://github.com/qingjian-team/qingjian/releases/download/data-v2/qingjian-data.tar.gz'
 SHA256 = '4d59fdb3f82809736beebe23b42cec283ffd87f6a8f0243b95291c460f1f0caa'
 EXPECTED = {
+    'english.tsv': 'e9dce15a87843c69b26fe7a3979a6848d06db50f14617ef217dd3db4cbf1a742',
+    'glossary-zh.qj': 'c1280592349e6bff942ede0aee19935f7883a18935ac3b521a78d654516e755e',
     'dict.qj': '3e33b16a84df555e6f16d52ac8ab3c2c6b6f1f71734e69463861fd5abd9c19dc',
     'glossary-en.qj': '4cc9c587b206d0f12aabb1b85cb21e6ac2a1c8c4932b9af14332bd96e0be012a',
     'glossary-ja.qj': 'ec41e4983bf46c0366124afb5285dba14f5c1ee425bd55d9a9f5518d93256933',
@@ -57,6 +59,10 @@ def prepare(source):
         for name in FILES:
             copy_data(runtime_dict if name == 'dict.qj' else canonical/name, target/name)
         copy_data(canonical/'pronunciation-en.qj',target/'pronunciation-en.qj')
+        # 内容寻址的数据包：升级到新词库时不复用旧 mmap 文件，不触碰用户学习目录。
+        pack = {name: {'bytes': (target/name).stat().st_size, 'sha256': digest(target/name)}
+                for name in (*FILES, 'pronunciation-en.qj')}
+        (target/'data-pack.json').write_text(json.dumps(pack,sort_keys=True),encoding='utf-8')
     manifest = {'upstream_version':'0.1.4', 'source':provenance, 'files':{}}
     levels=ROOT/'vendor/qingjian/assets/levels/levels-en.tsv'
     levels_sha='a5f810f7f8788d6c7b6ed11fd849ae0d31f6a5d9d953ab9528798d9b11d27ffa'

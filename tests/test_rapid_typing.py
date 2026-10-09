@@ -11,6 +11,7 @@ def main():
             ui.adb('shell','am','start','-W','-n','org.wordtrail.ime/.MainActivity')
             ui.tap(ui.wait(lambda ns:next((n for n in ns if n.get('class')=='android.widget.EditText'),None)))
             ui.adb('shell','ime','set','org.wordtrail.ime/.WordtrailIME');ui.exact('拼音输入');time.sleep(.5)
+            if any(n.get('description')=='切换到全键拼音' for n in ui.nodes()):ui.tap(ui.description('切换到全键拼音'))
             if prefix:ui.type_pinyin(prefix);ui.field_contains(prefix)
             text='haoshijiejintiantiankaitian'+ 'haoshijie'
             output=ui.adb('shell','am','instrument','-w','-e','burst',text,'-e','gap',str(gap),'org.wordtrail.test/.WindowProbe',timeout=45)

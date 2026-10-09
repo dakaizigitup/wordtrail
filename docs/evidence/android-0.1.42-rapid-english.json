@@ -1,0 +1,23 @@
+[
+  {
+    "gap_ms": 120,
+    "expected": "internationalization",
+    "actual": "internationalization",
+    "passed": true,
+    "elapsed_ms": 2415
+  },
+  {
+    "gap_ms": 60,
+    "expected": "internationalization",
+    "actual": "internationalization",
+    "passed": true,
+    "elapsed_ms": 1608
+  },
+  {
+    "gap_ms": 30,
+    "expected": "internationalization",
+    "actual": "internationalization",
+    "passed": true,
+    "elapsed_ms": 1302
+  }
+]
